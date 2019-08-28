@@ -1,0 +1,104 @@
+---
+description: As ações cronometradas permitem medir o tempo no aplicativo e o tempo total entre o início e o fim de uma ação. O SDK calcula a quantidade de tempo em cada sessão e o tempo total em todas as sessões que levará para uma ação ser concluída. É possível usar as ações cronometradas para definir segmentos e comparar o tempo de compra, o nível de passagem, o fluxo de finalização da compra e assim por diante.
+seo-description: As ações cronometradas permitem medir o tempo no aplicativo e o tempo total entre o início e o fim de uma ação. O SDK calcula a quantidade de tempo em cada sessão e o tempo total em todas as sessões que levará para uma ação ser concluída. É possível usar as ações cronometradas para definir segmentos e comparar o tempo de compra, o nível de passagem, o fluxo de finalização da compra e assim por diante.
+seo-title: Ações cronometradas
+solution: Marketing Cloud, Analytics
+title: Ações cronometradas
+topic: Desenvolvedor e implementação
+uuid: 5 a 48 a 580-b 942-4 e 49-9 f 1 b -078 fea 7 fccdb
+translation-type: tm+mt
+source-git-commit: 97c0dc17bcc624b38e9eb8023eb1d69d02568d11
+
+---
+
+
+# Timed actions {#timed-actions}
+
+As ações cronometradas permitem medir o tempo no aplicativo e o tempo total entre o início e o fim de uma ação. O SDK calcula a quantidade de tempo em cada sessão e o tempo total em todas as sessões que levará para uma ação ser concluída. É possível usar as ações cronometradas para definir segmentos e comparar o tempo de compra, o nível de passagem, o fluxo de finalização da compra e assim por diante.
+
+As métricas a seguir são relatadas de ações programadas:
+
+* Número total de segundos no aplicativo entre o início e término (sessões cruzadas)
+* Número total de segundos entre o início e término (horário)
+
+Um retorno de chamada opcional permite que você tome uma ação adicional quando a ação cronometrada for concluída:
+
+* Executar o código e adicionar qualquer lógica - lógica personalizada opcional baseada na duração dos resultados.
+* Adicionar dados de contexto antes de passar as durações.
+* Cancelar ocorrência e durações ainda não enviadas.
+
+## Track timed actions {#section_FF5B1EDC1A5340A5B13BC0F1BF2E13E1}
+
+1. Adicione a biblioteca ao projeto e implemente o ciclo de vida.
+
+   Para obter mais informações, consulte *Adicionar o SDK e o Arquivo de configuração ao projeto intellij IDEA ou Eclipse* na [implementação principal e no liandciclo](/help/android/getting-started/dev-qs.md).
+1. Importe a biblioteca:
+
+   ```java
+   import com.adobe.mobile.*;
+   ```
+
+1. Chame `trackTimedActionStart` e forneça um nome de ação cronometrada e dados de contexto opcionais.
+
+   ```java
+   HashMap cdata = new HashMap<String, Object>(); 
+   cdata.put("ExperienceName", experience); 
+   Analytics.trackTimedActionStart("TimeUntilPurchase", cdata);
+   ```
+
+1. (Opcional) Em qualquer ponto, você pode chamar `trackTimedActionUpdate` com o nome da ação cronometrada para acrescentar dados de contexto adicionais.
+
+   ```java
+   HashMap cdata = new HashMap<String, Object>(); 
+   cdata.put("myapp.ImageLiked", imageName); 
+   Analytics.trackTimed​ActionUpdate("TimeUntilPurchase", cdata);
+   ```
+
+1. Quando o evento for concluído, faça uma chamada para `trackTimedActionEnd` e passe o nome da ação agendada e `TimedActionBlock` (chamada de retorno) que verificará todos os dados e calculará as durações.
+
+   ```java
+   Analytics.trackTimedActionEnd("TimeUntilPurchase", cdata);
+   ```
+
+   As métricas de eventos cronometrados são salvas em variáveis da solução móvel para relatórios automáticos.
+
+## Sending additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+
+Além disso, em adição ao nome da ação programada, é possível enviar dados de contexto adicionais com o início da ação e as chamadas de atualização de ação:
+
+```java
+HashMap cdata = new HashMap<String, Object>(); 
+cdata.put("myapp.ImageLiked", imageName); 
+Analytics.trackTimed​ActionUpdate("TimeUntilPurchase", cdata);
+```
+
+Os valores de dados de contexto devem ser mapeados para variáveis personalizadas nos Adobe Mobile Services:
+
+![](assets/map-variable-context-ltv.png)
+
+## Exemplos {#section_7BA344B8BD4F48DCBAE27AC9320CBCEA}
+
+```java
+// Timed Action Start Example 
+HashMap cdata = new HashMap<String, Object>(); 
+cdata.put("ExperienceName", experience); 
+Analytics.trackTimedActionStart("TimeUntilPurchase", cdata); 
+ 
+// Timed Action Update Example 
+cdata = new HashMap<String, Object>(); 
+cdata.put("ImageLiked", imageName); 
+Analytics.trackTimed​ActionUpdate("TimeUntilPurchase", cdata); 
+ 
+// Timed Action End Example 
+Analytics.trackTimedActionEnd("TimeUntilPurchase", null); 
+ 
+// Timed Action End Example with Callback 
+Analytics.trackTimedActionEnd("TimeUntilPurchase", new Analytics.TimedActionBlock<Boolean>() { 
+ @Override 
+ public Boolean call(long inAppDuration, long totalDuration, Map<String, Object> contextData) { 
+  contextData.put("PurchaseItem", "Item453"); 
+  return true; // return true to send the hit, false to cancel 
+ } 
+});
+```
+
