@@ -1,0 +1,49 @@
+---
+description: A variável products não pode ser configurada usando as regras de processamento. No SDK móvel, é preciso usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos na chamada do servidor.
+keywords: android; biblioteca; dispositivos móveis; sdk
+seo-description: A variável products não pode ser configurada usando as regras de processamento. No SDK móvel, é preciso usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos na chamada do servidor.
+seo-title: Variável products
+solution: Marketing Cloud, Analytics
+title: Variável products
+topic: Desenvolvedor e implementação
+uuid: f 4484022-cb 8 b -4 dea -9209-5 a 110 ba 607 df
+translation-type: tm+mt
+source-git-commit: 7aff336586058302046a728a0b1b0ce12660c1ba
+
+---
+
+
+# Products variable {#products-variable}
+
+A variável products não pode ser configurada usando as regras de processamento. No SDK móvel, é preciso usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos na chamada do servidor.
+
+To set the *products* variable, set a context data key to `"&&products"`, and set the value by using the syntax that is defined for the *products* variable:
+
+```java
+cdata.put("&&products", "Category;Product;Quantity;Price[,Category;Product;Quantity;Price]");
+```
+
+Por exemplo:
+
+```java
+//create a context data dictionary 
+HashMap cdata = new HashMap<String, Object>(); 
+ 
+// add products, a purchase id, a purchase context data key, and any other data you want to collect. 
+// Note the special syntax for products 
+cdata.put("&&products", ";Running Shoes;1;69.95,;Running Socks;10;29.99"); 
+cdata.put("myapp.purchase", "1"); 
+cdata.put("myapp.purchaseid", "1234567890"); 
+ 
+// send the tracking call - use either a trackAction or TrackState call. 
+// trackAction example: 
+Analytics.trackAction("purchase", cdata); 
+// trackState example: 
+Analytics.trackState("Order Confirmation", cdata);
+```
+
+The *products* variable is set on the image request, and the other variables are set as context data. Todas as variáveis de dados de contexto devem ser mapeadas usando as regras de processamento:
+
+![](assets/map-products.png)
+
+Não é necessário mapear a variável *variável products* usando as regras de processamento porque essa variável é definida diretamente na solicitação de imagem pelo SDK.
