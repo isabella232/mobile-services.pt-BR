@@ -7,7 +7,7 @@ title: Métodos de meta para iOS
 topic: Desenvolvedor e implementação
 uuid: 692 bcda 1-02 ba -4902-bd 65-15888 adf 1952
 translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+source-git-commit: 8dc075603544aaab7fdedb1ff10a12f7fa7e21f5
 
 ---
 
@@ -20,7 +20,7 @@ O SDK atualmente tem suporte para várias Soluções da Adobe Experience Cloud, 
 
 >[!TIP]
 >
->Medições de ciclo de vida são enviadas como parâmetros para cada carregamento de mbox. Para obter mais informações, consulte [Medições de ciclo de vida](/help/ios/metrics.md).
+>Medições de ciclo de vida são enviadas como parâmetros para cada carregamento de mbox. Para obter mais informações, consulte [Medições de ciclo de vida](/help/ios/metrics.md). Se você estiver enviando solicitações do Target dentro do `didFinishLaunching` método delegado, adicione a `[ADBMobile trackAction:data:]` ou `[ADBMobile trackState:data:]` faça uma chamada antes do código de implementação do Target. Dessa forma, as solicitações do Target contêm os dados completos do ciclo de vida.
 
 ## Referência de classe: Adbtargetlocationrequest
 
