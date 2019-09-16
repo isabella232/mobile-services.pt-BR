@@ -2,12 +2,12 @@
 description: O SDK da Adobe usa as APIs de atribuição do aplicativo Search Ads da Apple para permitir que desenvolvedores e profissionais de marketing rastreiem e atribuam downloads de aplicativos originados nas campanhas do Search Ads na Apple App Store.
 seo-description: O SDK da Adobe usa as APIs de atribuição do aplicativo Search Ads da Apple para permitir que desenvolvedores e profissionais de marketing rastreiem e atribuam downloads de aplicativos originados nas campanhas do Search Ads na Apple App Store.
 seo-title: Anúncios de Pesquisa da Apple
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Anúncios de Pesquisa da Apple
 topic: Desenvolvedor e implementação
-uuid: 790080 e 8-067 e -4 bfd-a 169-0027 db 4 fdff 3
+uuid: 790080e8-067e-4bfd-a169-0027db4fdff3
 translation-type: tm+mt
-source-git-commit: 9c6923d14d1a5f30e5873299def61b0734e52429
+source-git-commit: 215ad01507a541096e6951a2138c47af50bc1b87
 
 ---
 
@@ -27,13 +27,13 @@ Alguns benefícios do uso dos anúncios da Apple:
 
 >[!TIP]
 >
->Para implementar anúncios da Apple, você deve ter o iOS SDK versão 4.13.2 ou posterior.
+>Para implementar os anúncios da Apple, é necessário ter o iOS SDK versão 4.13.2 ou posterior.
 
 Para habilitar seu aplicativo para atribuição do Search Ads:
 
 1. Implementar o Adobe SDK versão 4.13.2 ou superior.
 
-   Para obter mais informações, consulte [Implementação principal e ciclo de vida](/help/ios/getting-started/dev-qs.md).
+   Para obter mais informações, consulte [Core implementation and lifecycle](/help/ios/getting-started/dev-qs.md).
 
 1. Adicione a estrutura iAd ao arquivo do projeto Xcode para seu aplicativo.
 
@@ -45,9 +45,9 @@ Para habilitar seu aplicativo para atribuição do Search Ads:
 
    Além disso, os seguintes valores serão mapeados do dicionário "`iad`" para nossos campos de dados de contexto de aquisição típicos:
 
-   * " `iad-campaign-id`" --&gt; " `a.referrer.campaign.trackingcode`"
-   * " `iad-campaign-name`" --&gt;" `a.referrer.campaign.name``"
-   * " `iad-adgroup-id`" --&gt; " `a.referrer.campaign.content`"
-   * " `iad-keyword`" --&gt; " `a.referrer.campaign.term`"
+   * "`iad-campaign-id`" --&gt; "`a.referrer.campaign.trackingcode`"
+   * "`iad-campaign-name`" --&gt; "`a.referrer.campaign.name`"
+   * "`iad-adgroup-id`" --&gt; "`a.referrer.campaign.content`"
+   * "`iad-keyword`" --&gt; "`a.referrer.campaign.term`"
    Este mapeamento tornará os valores disponíveis em nossos relatórios padrão.
 
