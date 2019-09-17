@@ -3,11 +3,11 @@ description: Métodos do iOS para componentes do Xamarin para os SDK 4.x das sol
 keywords: Xamarin
 seo-description: Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Experience Cloud.
 seo-title: Métodos do iOS
-solution: Marketing Cloud, desenvolvedor
+solution: Marketing Cloud,Desenvolvedor
 title: Métodos do iOS
-uuid: d 6 a 056 db -80 c 1-44 d 0-970 f-c 961 ad 01 b 0 bc
+uuid: d6a056db-80c1-44d0-970f-c961ad01b0bc
 translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+source-git-commit: f53953831e6471ea64eb2ae06ddae16ca0eab6f6
 
 ---
 
@@ -34,7 +34,7 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
       ADBMobile.CollectLifecycleData();
       ```
 
-* **Debuglogging**
+* **DebugLogging**
 
    Retorna a preferência de log para a depuração atual. O valor padrão é `false`.
 
@@ -57,13 +57,15 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
    * Esta é a sintaxe para este método:
 
       ```objective-c
-      public static void SetDebugLogging(bool enabled); 
-      
+      public static void SetDebugLogging(bool enabled);
+      ```
+
    * Esta é a amostra de código para este método:
 
       ```objective-c
       ADBMobile.SetDebugLogging(true);
-      
+      ```
+
 * **LifetimeValue**
 
    Retorna o valor do tempo de vida do usuário atual.
@@ -71,13 +73,13 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
    * Esta é a sintaxe para este método:
 
       ```objective-c
-      public static double LifetimeValue(); 
+      public static double LifetimeValue();
       ```
 
    * Esta é a amostra de código para este método:
 
       ```objective-c
-      var lifetimeValue = ADBMobile.LifetimeValue(); 
+      var lifetimeValue = ADBMobile.LifetimeValue();
       ```
 
 * **PrivacyStatus**
@@ -85,7 +87,7 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
    Retorna a representação de enumeração do status de privacidade do usuário atual.
    * `ADBMobilePrivacyStatus.OptIn` - as ocorrências são enviadas imediatamente.
    * `ADBMobilePrivacyStatus.OptOut` - as ocorrências serão descartadas.
-   * ADBMobilePrivacyStatus.Unknown - se o rastreamento offline estiver ativado, as ocorrências são salvas até o status de privacidade ser alterado para aceitar (e então as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas). Se o rastreamento offline estiver desativado, as ocorrências serão descartadas até o status de privacidade ser alterado para opt in.
+   * ADBMobilePrivacyStatus.Unknown - se o rastreamento offline estiver ativado, as ocorrências são salvas até o status de privacidade ser alterado para aceitar (e então as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas). Se o rastreamento offline estiver desativado, as ocorrências serão descartadas até o status de privacidade ser alterado para aceitar.
    The default value is set in the [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
 
    * Esta é a sintaxe para este método:
@@ -97,11 +99,11 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
    * Esta é a amostra de código para este método:
 
       ```objective-c
-       var privacyStatus = ADBMobile.PrivacyStatus(); 
+      var privacyStatus = ADBMobile.PrivacyStatus();
       ```
 
 
-* **Setprivacystatus**
+* **SetPrivacyStatus**
 
    Define o status de privacidade do usuário atual como status. É definido como um dos valores abaixo:
    * `ADBMobilePrivacyStatus.OptIn` - as ocorrências são enviadas imediatamente.
@@ -174,12 +176,12 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
 
    >[!TIP]
    >
-   >Este método deve ser usado para aplicativos que realizam registros para receber notificações enquanto são executados em segundo plano e só deve ser chamado a partir do código executado enquanto o aplicativo está em segundo plano.
+   >Este método é destinado a aplicativos que se registram para receber notificações enquanto estão em segundo plano e só deve ser chamado a partir do código executado enquanto o aplicativo está em segundo plano.
 
    * Esta é a sintaxe para este método:
 
       ```objective-c
-       public static void KeepLifecycleSessionAlive();
+      public static void KeepLifecycleSessionAlive();
       ```
 
    * Esta é a amostra de código para este método:
@@ -203,15 +205,15 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
    * Esta é a amostra de código para este método:
 
       ```objective-c
-       var trackingId = ADBMobile.TrackingIdentifier();
+      var trackingId = ADBMobile.TrackingIdentifier();
       ```
 
 * **TrackState**
 
-   Rastreia um estado de aplicativo com dados de contexto opcionais. Os estados são as exibições disponíveis no aplicativo, como "tela inicial", "nível 1", "pausar" e assim por diante. Esses estados são semelhantes às páginas de um site e `TrackState` as chamadas aumentam as exibições de página. Se o estado estiver vazio, será exibido como "app name app version (build)" nos relatórios. Se você encontrar esse valor nos relatórios, certifique-se de que esteja definindo state em cada chamada de `TrackState`.
+   Rastreia um estado de aplicativo com dados de contexto opcionais. Os estados são as exibições disponíveis no aplicativo, como "tela inicial", "nível 1", "pausar" e assim por diante. Esses estados são semelhantes às páginas em um site e `TrackState` as chamadas incrementam as exibições de página.Se o estado estiver vazio, ele será exibido como "app name app version (build)" nos relatórios. Se você encontrar esse valor nos relatórios, certifique-se de que esteja definindo state em cada chamada de `TrackState`.
 
    [!TIP]
-   >Esta é a única chamada de rastreamento que aumenta as exibições de página.
+   >Essa é a única chamada de rastreamento que aumenta as exibições de página.
    >
    * Esta é a sintaxe para este método:
 
@@ -251,7 +253,7 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
    Rastreia uma ação que ocorreu em segundo plano. Isso impede que os eventos do ciclo de vida sejam acionados em cenários específicos.
 
    >[!TIP]
-   Este método só deve ser chamado no código executado enquanto o aplicativo está em segundo plano.
+   Esse método deve ser chamado somente no código executado enquanto o aplicativo está em segundo plano.
 
    * Esta é a sintaxe para este método:
 
@@ -321,7 +323,7 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
 
    * Esta é a sintaxe para este método:
 
-      public nbsp; Tracklifetimevalueincrease estático (quantia dupla, cdata do nsdictionary);
+      public nbsp;static void TrackLifetimeValueIncrease (quantidade dupla, dados NSDictionary);
 
    * Esta é a amostra de código para este método:
 
@@ -383,8 +385,9 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
       ```objective-c
       ADBMobile.TrackTimedActionEnd  ("level2", (double  arg1,  double  arg2,  NSMutableDictionary  arg3)  =>  { 
       return  Convert.ToSByte(true); 
-      }); 
-      
+      });
+      ```
+
 * **TrackingTimedActionExists**
 
    Retorna se uma ação cronometrada está (ou não) em andamento.
@@ -470,7 +473,7 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
       var mcid = ADBMobile.GetMarketingCloudID();
       ```
 
-* **Visitorsyncidentifiers**
+* **VisitorSyncIdentifiers**
 
    Com a Experience Cloud ID, é possível definir outras IDs do cliente para associar com cada visitante. A API de visitante aceita várias IDs do cliente para o mesmo visitante, juntamente com um identificador de tipo de cliente para separar o escopo de diferentes IDs do cliente. Este método corresponde a setCustomerIDs na biblioteca do JavaScript.
 
@@ -483,8 +486,8 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
    * Esta é a amostra de código para este método:
 
       ```objective-c
-       NSDictionary  ids  =  NSDictionary.FromObjectAndKey  (NSObject.FromObject  ("value2"),  NSObject.FromObject  ("pushID")); 
-       ADBMobile.VisitorSyncIdentifiers(ids); 
+      NSDictionary  ids  =  NSDictionary.FromObjectAndKey  (NSObject.FromObject  ("value2"),  NSObject.FromObject  ("pushID")); 
+      ADBMobile.VisitorSyncIdentifiers(ids); 
       ```
 
 ## Métodos do Target {#section_C1E4121CAF9D43538511D857A1F549A7}
@@ -502,11 +505,11 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
    * Esta é a amostra de código para este método:
 
       ```objective-c
-       NSDictionary  dict  =  NSDictionary.FromObjectAndKey  (NSObject.FromObject  ("value2"),  NSObject.FromObject  ("key1")); 
-       ADBTargetLocationRequest  req  =  ADBMobile.TargetCreateRequest  ("iOSTest",  "defGal",  dict); 
-       ADBMobile.TargetLoadRequest(req,    (context)  =>  { 
-       Console.WriteLine  (context); 
-       });
+      NSDictionary  dict  =  NSDictionary.FromObjectAndKey  (NSObject.FromObject  ("value2"),  NSObject.FromObject  ("key1")); 
+      ADBTargetLocationRequest  req  =  ADBMobile.TargetCreateRequest  ("iOSTest",  "defGal",  dict); 
+      ADBMobile.TargetLoadRequest(req,    (context)  =>  { 
+      Console.WriteLine  (context); 
+      });
       ```
 
 * **TargetCreateRequest**
@@ -534,7 +537,8 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
 
       ```objective-c
       public static ADBTargetLocationRequest ADBTargetLocationRequest TargetCreateRequest (string name, string defaultContent, NSDictionary parameters);
-      
+      ```
+
    * Esta é a amostra de código para este método:
 
       ```objective-c
@@ -774,7 +778,7 @@ Para obter mais informações, consulte [Análise de vídeo](/help/ios/getting-s
    * Esta é a amostra de código para este método:
 
       ```objective-c
-       ADBMobile.MediaStop (settings.Name, 3);
+      ADBMobile.MediaStop (settings.Name, 3);
       ```
 
 * **MediaClick**
