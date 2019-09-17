@@ -2,12 +2,12 @@
 description: Esta informação ajuda a implementar a biblioteca do iOS e coletar medições de ciclo de vida, como inicializações, atualizações, sessões, usuários envolvidos e assim por diante.
 seo-description: Esta informação ajuda a implementar a biblioteca do iOS e coletar medições de ciclo de vida, como inicializações, atualizações, sessões, usuários envolvidos e assim por diante.
 seo-title: Implementação principal e ciclo de vida
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Implementação principal e ciclo de vida
 topic: Desenvolvedor e implementação
-uuid: 96 d 06325-e 424-4770-8659-4 b 5431318 ee 3
+uuid: 96d06325-e424-4770-8659-4b5431318ee3
 translation-type: tm+mt
-source-git-commit: f39c18e48dc72e0ed8e8e35d962a1ae028055b87
+source-git-commit: be980e0e639d5b0df3f1b6a6f91f3ad0a5efe8d7
 
 ---
 
@@ -24,7 +24,7 @@ Esta informação ajuda a implementar a biblioteca do iOS e coletar medições d
 
 **Pré-requisitos**
 
-Antes de baixar o SDK, complete as etapas em *Criar um conjunto de relatórios* na implementação [e no ciclo de vida principais](/help/ios/getting-started/requirements.md) para configurar um conjunto de relatórios de desenvolvimento e baixar uma versão já preenchida do arquivo de configuração.
+Antes de baixar o SDK, conclua as etapas em *Criar um conjunto* de relatórios na implementação [principal e no ciclo de vida](/help/ios/getting-started/requirements.md) para configurar um conjunto de relatórios de desenvolvimento e baixar uma versão pré-preenchida do arquivo de configuração.
 
 Para baixar o SDK:
 
@@ -32,7 +32,7 @@ Para baixar o SDK:
 
    * `ADBMobile.h`, arquivo de cabeçalho em Objective-C usado no AppMeasurement do iOS.
    * `ADBMobileConfig.json`, que é o arquivo de configuração de SDK personalizado para o seu aplicativo.
-   * `AdobeMobileLibrary.a`, um binário multiarquitetura habilitado para código de bits que contém os builds da biblioteca para dispositivos iOS (armv 7, armv 7 s, arm 64) e simuladores (i 386, x 86_ 64).
+   * `AdobeMobileLibrary.a`, a bitcode-enabled fat binary that contains the library builds for iOS devices (armv7, armv7s, arm64), and simulators (i386, x86_64).
 
       Esse binário deve ser vinculado quando o destino for pretendido para um aplicativo do iOS.
 
@@ -75,6 +75,7 @@ Para baixar o SDK:
    1. Na guia **[!UICONTROL Geral]**, selecione seus alvos e vincule as estruturas e bibliotecas necessárias nas seções **[!UICONTROL Estruturas vinculadas]e** Bibliotecas **.**
    * **Destinos de aplicativos iOS**
       * `SystemConfiguration.framework`
+      * `WebKit.framework`
       * `libsqlite3.0.tbd`
       * `AdobeMobileLibrary.a`
    * **Destino de extensão do iOS**
@@ -105,7 +106,7 @@ Para baixar o SDK:
 
 After you enable lifecycle, each time your app is launched, one hit is sent to measure launches, upgrades, sessions, engaged users, and other [Lifecycle Metrics](/help/ios/metrics.md).
 
-Adicionar a `collectLifecycleData`/ `collectLifecycleDataWithAdditionalData` chamada em `application:didFinishLaunchingWithOptions`:
+Adicione uma chamada `collectLifecycleData`/ `collectLifecycleDataWithAdditionalData` em `application:didFinishLaunchingWithOptions`:
 
 ```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions { 
