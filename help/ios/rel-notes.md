@@ -5,24 +5,35 @@ seo-title: Notas de versão
 solution: Marketing Cloud,Analytics
 title: Notas de versão
 topic: Desenvolvedor e implementação
-uuid: e 1613 dc 5-02 a 4-43 a 7-997 a -29 b 4 de 98 b 4 d 1
+uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
 translation-type: tm+mt
-source-git-commit: 80a60276f9926177c8958b8e87e9393a83e7e6a9
+source-git-commit: 7fe7c78262a6d35dd27787554bb4f9ee92faa952
 
 ---
 
 
 # Notas de versão {#release-notes}
 
-Estas são as notas de versão, problemas conhecidos e informações de hot fix para iOS sdks 4. x para Soluções da Experience Cloud:
+Estas são as notas de versão, os problemas conhecidos e as informações de hot fix para iOS SDKs 4.x para Soluções da Experience Cloud:
 
-**: de agosto de 2019: Versão 4.18.7**
+**20 de setembro de 2019: Versão 4.18.8**
 
-* Revertido uma alteração introduzida na versão 4.18.6 que, em alguns ambientes, causava uma falha em dispositivos que executavam uma versão do iOS anterior à 11.0.
+* Em mensagens do aplicativo:
 
-* Adobe Target: Adicionada `requestLocationParameters` a propriedade em `ADBTargetRequestObject`, que permite que a impressionid seja enviada com solicitações do Target.
+   * Em dispositivos que executam o iOS 10 ou mais recente, a `UserNotifications` estrutura agora é usada para agendar notificações locais para aplicativos vinculados ao `UserNotifications.framework`.
+   * As mensagens de tela inteira agora usam WKWebViews de `WebKit.framework`, que devem ser vinculadas no projeto Xcode.
+   * Correção de um bug no qual a carga de click-through de push não podia ser usada como características para mensagens no aplicativo.
+   * Corrigido um problema de falha.
 
-**: 8 de julho de 28 19: Versão 4.18.6**
+* Geral - Corrigido um erro no qual os dados do SDK eram sincronizados com o aplicativo WatchOS emparelhado em cada chamada do Analytics.
+
+**2 de agosto de 2019: Versão 4.18.7**
+
+* Reversão de uma alteração introduzida na versão 4.18.6 que, em alguns ambientes, causou uma falha em dispositivos que executavam uma versão do iOS anterior à 11.0.
+
+* Adobe Target: Adicionada a `requestLocationParameters` propriedade em `ADBTargetRequestObject`, que permite que a impressãoId seja enviada com solicitações do Target.
+
+**18 de julho de 2019: Versão 4.18.6**
 
 * Adobe Target: todas as solicitações agora incluem o cliente e o `sessionId` nos parâmetros de consulta de URL.
 * Adobe Target: correção de um vazamento de memória.
@@ -30,15 +41,15 @@ Estas são as notas de versão, problemas conhecidos e informações de hot fix 
 
    A codificação dupla fazia com que os valores de retorno dessas APIs fossem sinalizados por determinadas revisões de segurança.
 
-**: de junho de 2019: Versão 4.18.5**
+**5 de junho de 2019: Versão 4.18.5**
 
-* Analytics - Anexe o status de aceitação de push aos dados do ciclo de vida quando as notificações por push estiverem ativadas.
+* Analytics - Anexa o status de aceitação por push aos dados do ciclo de vida quando as notificações por push estiverem ativadas.
 
-**: 4 de maio de 2019: Versão 4.18.4**
+**24 de maio de 2019: Versão 4.18.4**
 
-* Serviço de ID do visitante - o tempo limite de retorno para a variável
-   `visitorGetUrlVariablesAsync` API a 30 segundos.
+* Serviço de ID de visitante - Aumento do tempo limite de retorno para o
+   `visitorGetUrlVariablesAsync` API em 30 segundos.
 
-* Serviço de ID de visitante - a `setPushIdentifier` chamada de API agora envia uma chamada de sincronização para o Serviço de ID de visitante toda vez que é chamada.
+* Serviço de ID do visitante - A chamada `setPushIdentifier` da API agora envia uma chamada de sincronização para o Serviço de ID do visitante sempre que é chamada.
 
 Para obter mais informações sobre as notas de versão atuais e anteriores para todas as soluções, consulte [Notas de versão da Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
