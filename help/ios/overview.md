@@ -7,7 +7,7 @@ title: iOS SDK 4.x para Soluções da Experience Cloud
 topic: Desenvolvedor e implementação
 uuid: 8b374cee-1432-460b-aac2-70623dd80a04
 translation-type: tm+mt
-source-git-commit: 1070450065776fdb7d13e9b21ce62ceeee55b80e
+source-git-commit: 0f6eec995626f4c93f56d59b682083bd0428d9e1
 
 ---
 
@@ -18,11 +18,11 @@ O iOS SDK 4.x para as soluções da Experience Cloud permite avaliar aplicativos
 
 >[!IMPORTANT]
 >
->O Adobe Analytics Mobile Marketing Add-on SKU é necessário para permitir o acesso aos recursos de aquisição móvel, deep linking, geolocalização e mensagens móveis do Mobile Services. Para obter mais informações, entre em contato com seu Adobe CSM.
+>The Adobe Analytics Mobile Marketing Add-on SKU is required to enable Mobile Services access to mobile acquisition, deep linking, geolocation, and mobile messaging capabilities. For more information, contact your Adobe CSM.
 
 >[!IMPORTANT]
 >
->O Adobe Experience Platform Mobile SDK agora é compatível com [iOS 13 e Xcode 11][https://developer.apple.com/ios/]. Para garantir compatibilidade contínua, use as versões [mais recentes da extensão](https://app.gitbook.com/@aep-sdks/s/docs/resources/frequently-asked-questions/current-sdk-versions)do SDK da Experience Platform Mobile.
+>The iOS SDK 4.x for Experience Cloud Solutions is now supports [iOS 13 and Xcode 11][https://developer.apple.com/ios/]. To ensure seamless compatibility, use the latest versions of the 4.x iOS SDKs. For more information about the latest version, see the [release notes](/help/ios/rel-notes.md).
 
 ## Nova versão do SDK da Adobe Experience Cloud
 
