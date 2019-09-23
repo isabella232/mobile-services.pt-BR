@@ -1,7 +1,7 @@
 ---
 cloud: experience-cloud
-product: mobile-services
-solution-title: Mobile Services
+product: serviços móveis
+solution-title: Aprendizagem e suporte
 solution-hub-url: https://helpx.adobe.com/br/support/experience-cloud/core-services.html
 solution-icon: help/assets/experience-cloud-logo-24.png
 getting-started-title: Introdução
@@ -11,7 +11,7 @@ tutorials-url: https://helpx.adobe.com/br/experience-cloud/tutorials.html
 git-repo: https://github.com/AdobeDocs/mobile-services.en
 index: true
 translation-type: tm+mt
-source-git-commit: d9cb2a642393a26ee5530beb0491649248b86286
+source-git-commit: aad8cec624ea2dd4741d1cc3d1d76af5dba44227
 
 ---
 
@@ -25,7 +25,7 @@ O arquivo metadata. md inclui metadados de nível de reposição transmitidos pa
 | metadata | o que faz |
 |--- |--- |
 | solution-title | Usado no cabeçalho do artigo como link |
-| solução-hub-url | Abre a página helpx hub |
+| solution-hub-url | Abre a página helpx hub |
 | solution-icon | Exibe o ícone da solução próximo ao título da solução. Ainda não implementado |
 | getting-started-title | Raramente usado quando os tutoriais não são apropriados |
 | getting-started-url | Link para a página de introdução ao helpx |
@@ -33,7 +33,7 @@ O arquivo metadata. md inclui metadados de nível de reposição transmitidos pa
 | tutorials-url | Link para tutoriais em vídeo—tutoriais helpx ou tutoriais do KT |
 | mini-toc-levels | Determina o número de níveis de cabeçalho que aparecem no painel à direita. o padrão é 2 |
 | git-repo | Especifica o local do repo de colaboração. Use o espelhamento github.com para documentos lidos pelo público |
-| index | definir index = não para inicialização suave |
+| índice | definir index=no para inicialização suave |
 
 No arquivo TOC.md
 
