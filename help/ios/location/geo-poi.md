@@ -1,11 +1,11 @@
 ---
 description: A localização geográfica auxilia na avaliação dos dados de localização usando latitude, longitude e pontos de interesse predefinidos em seus aplicativos iOS.
 seo-description: A localização geográfica auxilia na avaliação dos dados de localização usando latitude, longitude e pontos de interesse predefinidos em seus aplicativos iOS.
-seo-title: Localização geográfica e pontos de interesse
-solution: Marketing Cloud, Analytics
-title: Localização geográfica e pontos de interesse
+seo-title: Geolocalização e pontos de interesse
+solution: Marketing Cloud,Analytics
+title: Geolocalização e pontos de interesse
 topic: Desenvolvedor e implementação
-uuid: c 800 ec 85-a 33 f -425 d-b 28 f-bfe 8 bf 229 ae 8
+uuid: c800ec85-a33f-425d-b28f-bfe8bf229ae8
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -34,15 +34,15 @@ A partir da versão 4.2, os POIs são definidos na interface do Adobe Mobile e s
 “analytics.poi”: “https://assets.adobedtm.com/…/yourfile.json”,
 ```
 
-Para obter mais informações, consulte [Configuração JSON do adbmobile](/help/ios/configuration/json-config/json-config.md).
+Para obter mais informações, consulte Configuração [JSON do](/help/ios/configuration/json-config/json-config.md)ADBMobile.
 
-Se isso não for configurado, uma versão atualizada do arquivo `ADBMobile.json` deve ser baixada e adicionada ao aplicativo. Para obter mais informações e instruções, consulte *Baixar as ferramentas de SDK e Teste* em [Antes de iniciar](/help/ios/getting-started/requirements.md).
+Se isso não for configurado, uma versão atualizada do arquivo `ADBMobile.json` deve ser baixada e adicionada ao aplicativo. Para obter mais informações e instruções, consulte *Download do SDK e Ferramentas* de teste em [Antes de iniciar](/help/ios/getting-started/requirements.md).
 
 ## Rastrear localizações geográficas e POIs {#section_B1616E400A7548F9A672F97FEC75AE27}
 
 1. Adicione a biblioteca ao projeto e implemente o ciclo de vida.
 
-   Para obter mais informações, consulte *Adicionar o SDK e o Arquivo de configuração ao projeto* na [Implementação principal e no ciclo de vida](/help/ios/getting-started/dev-qs.md).
+   Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao seu projeto* em Implementação [principal e Ciclo de vida](/help/ios/getting-started/dev-qs.md).
 1. Importe a biblioteca:
 
    ```objective-c
@@ -58,9 +58,9 @@ Se isso não for configurado, uma versão atualizada do arquivo `ADBMobile.json`
 
    >[!TIP]
    >
-   >Você pode ligar `trackLocation` a qualquer momento.
+   >Você pode ligar a qualquer `trackLocation` momento.
 
-   Para determinar o local passado para `trackLocation` a chamada, use [Obter o local do usuário](https://developer.apple.com/Library/ios/documentation/UserExperience/Conceptual/LocationAwarenessPG/CoreLocation/CoreLocation.html).
+   Para determinar o local passado para a `trackLocation` chamada, use [Obter o local](https://developer.apple.com/Library/ios/documentation/UserExperience/Conceptual/LocationAwarenessPG/CoreLocation/CoreLocation.html)do usuário.
 
 Além disso, se for determinado que a localização está em um raio de POI definido, uma variável de dados de contexto `a.loc.poi` é enviada com a ocorrência `trackLocation` e é relatado como um POI nos relatórios de Localização. Uma variável de contexto `a.loc.dist` também é enviada com a distância em metros a partir das coordenadas definidas.
 
@@ -74,7 +74,7 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 [ADBMobile trackLocation: currentLocation data:contextData];
 ```
 
-Os valores de dados de contexto devem ser mapeados para variáveis personalizadas:
+Context data values must be mapped to custom variables:
 
 ![](assets/map-location-context-data.png)
 
