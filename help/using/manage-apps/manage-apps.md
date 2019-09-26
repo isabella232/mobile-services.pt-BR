@@ -2,17 +2,17 @@
 description: Na página Gerenciar aplicativos, é possível criar, gerenciar e excluir aplicativos.
 keywords: mobile
 seo-description: Na página Gerenciar aplicativos, é possível criar, gerenciar e excluir aplicativos.
-seo-title: Gerenciar a visão geral dos aplicativos
-solution: Marketing Cloud, Analytics
-title: Gerenciar a visão geral dos aplicativos
+seo-title: Visão geral de gerenciamento de aplicativos
+solution: Marketing Cloud,Analytics
+title: Manage apps overview
 topic: Métricas
-uuid: 5949 f 549-172 e -417 e-b 668-71 fec 628586 a
+uuid: 5949f549-172e-417e-b668-71fec628586a
 translation-type: tm+mt
 source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
 ---
 
 
-# Visão geral dos aplicativos{#manage-apps}
+# Manage Apps overview{#manage-apps}
 
 Na página Gerenciar aplicativos, é possível criar, gerenciar e excluir aplicativos.
