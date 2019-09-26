@@ -3,7 +3,7 @@ description: 'Na página Gerenciar configurações do aplicativo, é possível f
 seo-description: 'Na página Gerenciar configurações do aplicativo, é possível fazer os seguintes tipos de alterações '
 seo-title: Configuração do aplicativo
 title: Configuração do aplicativo
-uuid: c 088 e 12 d -73 b 6-40 c 4-b 8 cc-ec 3 bb 3 d 3 aa 4 a
+uuid: c088e12d-73b6-40c4-b8cc-ec3bb3d3aa4a
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -59,7 +59,7 @@ Na página Gerenciar configurações do aplicativo, é possível fazer os seguin
 
    >[!IMPORTANT]
    >
-   >Antes de baixar os sdks e as ferramentas, você deve configurar as opções do SDK Analytics. Para obter mais informações, consulte [Configurar as opções](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md)do Analytics SDK.
+   >Antes de baixar os SDKs e as ferramentas, configure as opções do SDK Analytics. Para obter mais informações, consulte [Configurar as opções](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md)do SDK Analytics.
 
    Quando estiver pronto para atualizar para os SDKs 4.x ou se estiver trabalhando em um novo aplicativo, baixe os SDKs e as ferramentas de desenvolvimento mais recentes, na parte inferior da página Gerenciar configurações do aplicativo.
 
