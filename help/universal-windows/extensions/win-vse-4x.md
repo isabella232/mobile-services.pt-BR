@@ -1,11 +1,11 @@
 ---
 description: Estas Extensões fornecem um maneira muito mais fácil de adicionar a referência do Windows SDK 4.x para as soluções da Experience Cloud ao projeto.
 seo-description: Estas Extensões fornecem um maneira muito mais fácil de adicionar a referência do Windows SDK 4.x para as soluções da Experience Cloud ao projeto.
-seo-title: Extensões do Visual Studio do Windows para o SDK das Soluções da Experience Cloud 4. x
-solution: Marketing Cloud, Analytics
-title: Extensões do Visual Studio do Windows para o SDK das Soluções da Experience Cloud 4. x
+seo-title: Extensões do Visual Studio do Windows para o SDK 4.x das Soluções da Experience Cloud
+solution: Marketing Cloud,Analytics
+title: Extensões do Visual Studio do Windows para o SDK 4.x das Soluções da Experience Cloud
 topic: Desenvolvedor e implementação
-uuid: e 48 faf 54-8 b 08-4224-9 d 80-e 553 a 983129 e
+uuid: e48faf54-8b08-4224-9d80-e553a983129e
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -14,14 +14,14 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 # Windows Visual Studio extensions for Experience Cloud Solutions 4.x SDK {#windows-visual-studio-extensions-for-experience-cloud-solutions-x-sdk}
 
-Essa extensão fornece uma maneira muito mais fácil de adicionar a referência do Windows SDK Solutions. x das Soluções da Experience Cloud no seu projeto.
+This extension provides a much easier way to add the reference of the Experience Cloud Solutions 4.x Windows SDK in your project.
 
-## Instalar a biblioteca a partir do github {#section_F55DB6241EF1475286C05FEAEBF996A3}
+## Instalar a biblioteca do GitHub {#section_F55DB6241EF1475286C05FEAEBF996A3}
 
 1. Baixe o SDK universal do Windows a partir do [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases).
 1. Descompacte o arquivo do download localmente.
-1. Clique duas vezes no **[!UICONTRTOL arquivo adbmobileuniversalwindowsvsix. vsix]** para abrir o instalador.
-1. Selecione **[!UICONTROL Localização]** global e instale a biblioteca.
+1. Clique duas vezes no arquivo **[!UICONTRTOL ADBMobileUniversalWindowsVSIX.vsix]** para abrir o instalador.
+1. Selecione Localização **** global e instale a biblioteca.
 
 ## Add references to your project {#section_00C14FE9243D4330BE1F4BB56FCF08B1}
 
@@ -33,7 +33,7 @@ Essa extensão fornece uma maneira muito mais fácil de adicionar a referência 
 1. Na guia **[!UICONTROL Extensões]** , localize e selecione **[UICONTROL Adobe Mobile SDK]**.
 1. Clique em **[!UICONTROL OK]para salvá-lo.**
 
-   O Adobe Mobile SDK será adicionado ao seu projeto. Se o pacote **[UICONTROL Microsoft Visual C + + Runtime]** ainda não tiver sido adicionado, este pacote também será adicionado ao seu projeto.
+   O SDK do Adobe Mobile será adicionado ao seu projeto. Se o pacote **[UICONTROL Microsoft Visual C++ Runtime]** ainda não tiver sido adicionado, este pacote também será adicionado ao seu projeto.
 
-1. No Gerenciador de configuração, selecione um tipo de plataforma e comece a testar seu aplicativo.
+1. No Configuration Manager, selecione um tipo de plataforma e comece a testar seu aplicativo.
 
