@@ -3,7 +3,7 @@ description: A Visualização do Target permite que você realize tarefas integr
 seo-description: A Visualização do Target permite que você realize tarefas integrais de controle de qualidade para atividades do Target e visualizá-las em seu dispositivo.
 seo-title: Visualização do Target no iOS
 title: Visualização do Target no iOS
-uuid: d 92867 a 4-0569-4732-a 928-28 f 9 e 2 f 8 b 21 e
+uuid: d92867a4-0569-4732-a928-28f9e2f8b21e
 translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
