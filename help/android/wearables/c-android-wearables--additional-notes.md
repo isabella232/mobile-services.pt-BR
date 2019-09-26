@@ -1,11 +1,11 @@
 ---
 description: Estas informações ajudam a configurar a extensão do Android que permite coletar dados do aplicativo Android Wearable.
 seo-description: Estas informações ajudam a configurar a extensão do Android que permite coletar dados do aplicativo Android Wearable.
-seo-title: Observações adicionais do Android Wearables
-solution: Marketing Cloud, Analytics
-title: Observações adicionais do Android Wearables
+seo-title: Android Wearables  Additional Notes
+solution: Marketing Cloud,Analytics
+title: Notas adicionais do Android Wearables
 topic: Desenvolvedor e implementação
-uuid: 3 bcf 352 b -4 d 46-4 ab 3-81 ec-c 27 e 86 fe 9 be 3
+uuid: 3bcf352b-4d46-4ab3-81ec-c27e86fe9be3
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -28,5 +28,5 @@ Estas informações ajudam a configurar a extensão do Android que permite colet
       A ocorrência vem do aplicativo wearable.
 
 * The SDK automatically syncs the `aid`/`vid`/`visitor` `service id`/`privacy` status from the handheld app to the wearable app, so do not call `setPrivacyStatus`/`setUserIdentifier`/`idSync` from the wearable app.
-* [Mensagens no aplicativo](/help/android/messaging-main/messaging/messaging.md), [Target](/help/android/target-main/target.md)e [Audience Manager](/help/android/audience-manager/audiencemgmt.md) estão desativadas para o aplicativo wearable.
+* [As mensagens](/help/android/messaging-main/messaging/messaging.md)no aplicativo, o [Target](/help/android/target-main/target.md)e o [Audience Manager](/help/android/audience-manager/audiencemgmt.md) estão desativados para o aplicativo wearable.
 
