@@ -1,12 +1,12 @@
 ---
 description: Estas informações ajudam você a baixar os SDKs do Mobile Services e as ferramentas que ajudam na implementação do Mobile Services.
-keywords: dispositivos móveis; android; ios; sdk
+keywords: mobile;android;ios;sdk
 seo-description: Estas informações ajudam você a baixar os SDKs do Mobile Services e as ferramentas que ajudam na implementação do Mobile Services.
 seo-title: Download de SDKs e ferramentas móveis
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Download de SDKs e ferramentas móveis
 topic: Desenvolvedor e implementação, Métricas
-uuid: 4 af 757 f 7-4 e 4 d -4939-9 b 6 a -49 a 29 c 220192
+uuid: 4af757f7-4e4d-4939-9b6a-49a29c20192
 translation-type: tm+mt
 source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
@@ -15,7 +15,7 @@ source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
 # Download mobile SDKs and tools{#download-mobile-sdks-and-tools}
 
-Estas informações ajudam você a baixar os sdks e as ferramentas do Mobile Services.
+This information helps you download the Mobile Services SDKs and tools.
 
 ## App SDK downloads {#section_F647A95C96B0439BA276781E0C97C689}
 
@@ -29,8 +29,8 @@ Estas informações ajudam você a baixar os sdks e as ferramentas do Mobile Ser
 
 Configure seu aplicativo nos serviços Adobe Mobile Services para baixar um conjunto personalizado, que inclui uma versão preenchida automaticamente do arquivo de configuração:
 
-* [Instruções para iOS](/help/ios/getting-started/requirements.md)
-* [Instruções do Android](/help/android/getting-started/requirements.md)
+* [Instruções do iOS](/help/ios/getting-started/requirements.md)
+* [Android instructions](/help/android/getting-started/requirements.md)
 
-Para ver a documentação de bibliotecas nativas, incluindo Windows Phone 8, Blackberry, Xamarin e outras, consulte a *seção Documentação* do SDK no [Adobe Mobile Services](/help/using/home.md).
+Para consultar a documentação das bibliotecas nativas, incluindo o Windows Phone 8, Blackberry, Xamarin e outros, consulte a seção Documentação *do* SDK no [Adobe Mobile Services](/help/using/home.md).
 
