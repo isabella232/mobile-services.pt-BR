@@ -1,11 +1,11 @@
 ---
 description: As ações cronometradas permitem medir o tempo no aplicativo e o tempo total entre o início e o fim de uma ação. O SDK calcula a quantidade de tempo em cada sessão e o tempo total em todas as sessões que levará para uma ação ser concluída. É possível usar as ações cronometradas para definir segmentos e comparar o tempo de compra, o nível de passagem, o fluxo de finalização da compra e assim por diante.
 seo-description: As ações cronometradas permitem medir o tempo no aplicativo e o tempo total entre o início e o fim de uma ação. O SDK calcula a quantidade de tempo em cada sessão e o tempo total em todas as sessões que levará para uma ação ser concluída. É possível usar as ações cronometradas para definir segmentos e comparar o tempo de compra, o nível de passagem, o fluxo de finalização da compra e assim por diante.
-seo-title: Ações cronometradas
-solution: Marketing Cloud, Analytics
-title: Ações cronometradas
+seo-title: Ações programadas
+solution: Marketing Cloud,Analytics
+title: Timed actions
 topic: Desenvolvedor e implementação
-uuid: dbcbac 5 a -6345-49 f 6-b 050-0 db 05292 f 005
+uuid: dbcbac5a-6345-49f6-b050-0db05292f005
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -31,7 +31,7 @@ Um retorno de chamada opcional permite que você tome uma ação adicional quand
 
 1. Adicione a biblioteca ao projeto e implemente o ciclo de vida.
 
-   Para obter mais informações, consulte *Adicionar o SDK e o Arquivo de configuração ao projeto* na [Implementação principal e no ciclo de vida](/help/ios/getting-started/dev-qs.md).
+   Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao seu projeto* em Implementação [principal e Ciclo de vida](/help/ios/getting-started/dev-qs.md).
 1. Importe a biblioteca:
 
    ```objective-c
@@ -70,7 +70,7 @@ Além do nome da ação cronometrada, você pode enviar dados de contexto adicio
                              data:@{@"myapp.ImageLiked" : imageName}];
 ```
 
-Os valores de dados de contexto devem ser mapeados para variáveis personalizadas:
+Context data values must be mapped to custom variables:
 
 ![](assets/map-variable-context-ltv.png)
 
