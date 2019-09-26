@@ -1,12 +1,12 @@
 ---
 description: Estas são as métricas e as dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida, e um link para solucionar problemas de dados do ciclo de vida.
-keywords: android; biblioteca; dispositivos móveis; sdk
+keywords: android;library;mobile;sdk
 seo-description: Estas são as métricas e as dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida, e um link para solucionar problemas de dados do ciclo de vida.
 seo-title: Medições de ciclo de vida
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Medições de ciclo de vida
 topic: Desenvolvedor e implementação
-uuid: 5 a 371 f 11-6521-410 f-a 01 f-fc 3 b 285 b 050 f
+uuid: 5a371f11-6521-410f-a01f-fc3b285b050f
 translation-type: tm+mt
 source-git-commit: 6c440c2130781943796cdfb581a39a8167f5ba13
 
@@ -23,7 +23,7 @@ Para obter mais informações, acesse a Base de dados de conhecimento em [Soluç
 
 Quando configuradas, as medições de ciclo de vida são enviadas em parâmetros de dados de contexto ao Analytics, nos parâmetros para o Target com cada chamada mbox e como um sinal ao gerenciamento de público-alvo. O Analytics e o Target usam o mesmo formato, enquanto que o gerenciamento de público-alvo usa um prefixo diferente para cada métrica.
 
-Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento de ciclo de vida são capturados automaticamente e relatados usando a métrica ou dimensão.
+For Analytics, the context data that is sent with each lifecycle tracking call is automatically captured in and reported on by using the metric or dimension.
 
 ### Métricas
 
@@ -47,7 +47,7 @@ Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento
 
    >[!IMPORTANT]
    >
-   >Essa métrica não é armazenada automaticamente em uma métrica do Analytics. Você deve criar uma regra de processamento que defina um evento personalizado para capturar essa métrica.
+   >This metric is not automatically stored in an Analytics metric. Você deve criar uma regra de processamento que defina um evento personalizado para capturar essa métrica.
 
    * Analytics context data/Target parameter: `a.DailyEngUserEvent`
    * Audience Manager signal: `c_a_DailyEngUserEvent`
@@ -88,7 +88,7 @@ Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento
 
 * **Data de instalação**
 
-   Data do início após instalação. O formato de data `MM/DD/YYYY`é.
+   Data do início após instalação. O formato de data é `MM/DD/YYYY`.
 
    * Analytics context data/Target parameter: `a.InstallDate`
    * Audience Manager signal: `c_a_InstallDate`
@@ -140,7 +140,7 @@ Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento
 
 * **Versão do sistema operacional**
 
-   A versão do SO.
+   The version of the OS.
 
    * Analytics context data/Target parameter: `a.OSVersion`
    * Audience Manager signal: `c_a_OSVersion`
@@ -162,7 +162,7 @@ Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento
 
    >[!IMPORTANT]
    >
-   >Essa métrica não é armazenada automaticamente em uma variável do Analytics. Para usá-lo em relatórios, será necessário criar uma regra de processamento para copiar esse valor para uma variável Analytics.
+   >This metric is not automatically stored in an Analytics variable. Para usá-lo em relatórios, será necessário criar uma regra de processamento para copiar esse valor para uma variável Analytics.
 
    * Analytics context data/Target parameter: `a.LaunchesSinceUpgrade`
    * Audience Manager signal: `c_a_LaunchesSinceUpgrade`
@@ -194,17 +194,17 @@ Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento
 
 ## Additional mobile metrics and dimensions {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
 
-As seguintes métricas e dimensões são capturadas nas variáveis de solução móvel pelo método listado.
+As métricas e dimensões a seguir são capturadas em variáveis de solução móvel pelo método listado.
 
 * **Localização (abaixo de 10 km)**
 
    Populated by `trackLocation` methods.
 
-   * Parâmetro de dados de contexto/alvo do Analytics:
+   * Parâmetro de dados de contexto/Target do Analytics:
 
       * `a.loc.lat.a`
       * `a.loc.lon.a`
-   * Característica do gerenciamento de público-alvo:
+   * Característica do Gerenciamento de público-alvo:
 
       * `c_a_loc_lat_a`
       * `c_a_loc_lon_a`
@@ -214,11 +214,11 @@ As seguintes métricas e dimensões são capturadas nas variáveis de solução 
 
    Populated by `trackLocation` methods.
 
-   * Parâmetro de dados de contexto/alvo do Analytics:
+   * Parâmetro de dados de contexto/Target do Analytics:
 
       * `a.loc.lat.b`
       * `a.loc.lon.b`
-   * Característica do gerenciamento de público-alvo:
+   * Característica do Gerenciamento de público-alvo:
 
       * `c_a_loc_lat_b`
       * `c_a_loc_lon_b`
@@ -228,11 +228,11 @@ As seguintes métricas e dimensões são capturadas nas variáveis de solução 
 
    Populated by `trackLocation` methods.
 
-   * Parâmetro de dados de contexto/alvo do Analytics:
+   * Parâmetro de dados de contexto/Target do Analytics:
 
       * `a.loc.lat.c`
       * `a.loc.lon.c`
-   * Característica do gerenciamento de público-alvo:
+   * Característica do Gerenciamento de público-alvo:
 
       * `c_a_loc_lat_c`
       * `c_a_loc_lon_c`
@@ -242,10 +242,10 @@ As seguintes métricas e dimensões são capturadas nas variáveis de solução 
 
    Preenchido pelos métodos `trackLocation` quando o dispositivo está dentro de um POI definido.
 
-   * Parâmetro de dados de contexto/alvo do Analytics:
+   * Analytics context data/Target parameter:
 
       * `a.loc.poi`
-   * Característica do gerenciamento de público-alvo:
+   * Audience Management trait:
 
       * `c_a_loc_poi`
 
@@ -254,9 +254,9 @@ As seguintes métricas e dimensões são capturadas nas variáveis de solução 
 
    Preenchido pelos métodos `trackLocation` quando o dispositivo está dentro de um POI definido.
 
-   * Parâmetro de dados de contexto/alvo do Analytics:
+   * Analytics context data/Target parameter:
 
       * `a.loc.dist`
-   * Característica do gerenciamento de público-alvo:
+   * Audience Management trait:
 
       * `c_a_loc_dist`
