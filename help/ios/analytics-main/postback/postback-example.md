@@ -2,10 +2,10 @@
 description: Definição e exemplos de código-fonte para o recurso Postbacks.
 seo-description: Definição e exemplos de código-fonte para o recurso Postbacks.
 seo-title: Exemplo de postback
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Exemplo de postback
 topic: Desenvolvedor e implementação
-uuid: 809 c 5646-7 a 80-40 df -984 b -0 af 89 d 854259
+uuid: 809c5646-7a80-40df-984b-0af89d854259
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -58,6 +58,6 @@ NSDictionary *contextData = @{@"user.name":@"bob", @"user.zip":@"90210"};
 [ADBMobile trackState:@"MainMenu" data:contextData];
 ```
 
-Because its state is `“MainMenu”`, this tracking call triggers the above postback message. O URL substitui todas as variáveis de modelo por valores da ocorrência. Supondo que a sessão anterior do usuário tenha sido de 132 segundos e que o usuário esteja no iOS SDK versão 4.6.0, veja um exemplo do URL resultante:
+Because its state is `“MainMenu”`, this tracking call triggers the above postback message. The URL replaces all template variables with values from the hit. Supondo que a sessão anterior do usuário tenha sido de 132 segundos e que o usuário esteja no iOS SDK versão 4.6.0, veja um exemplo do URL resultante:
 
 `https://my.server.com/?user=bob&zip=90210&c16=4.6.0-iOS&c27=cln,132`
