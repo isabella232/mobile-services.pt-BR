@@ -2,10 +2,10 @@
 description: 'As informações a seguir ajudam a começar a usar o iOS SDK nas Soluções da Experience Cloud '
 seo-description: 'As informações a seguir ajudam a começar a usar o iOS SDK nas Soluções da Experience Cloud '
 seo-title: Visão geral de introdução
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Visão geral de introdução
 topic: Desenvolvedor e implementação
-uuid: a 2 b 9 baad-b 959-4 b 9 a -893 d -99 c 0 f 4072 e 8 d
+uuid: a2b9baad-b959-4b9a-893d-99c0f4072e8d
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
