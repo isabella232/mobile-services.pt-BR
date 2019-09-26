@@ -1,12 +1,12 @@
 ---
 description: Essas informações ajudam a usar o Android SDK na Adobe Experience Cloud.
-keywords: android; biblioteca; dispositivos móveis; sdk
+keywords: android;biblioteca;móvel;sdk
 seo-description: Essas informações ajudam a usar o Android SDK na Adobe Experience Cloud.
-seo-title: Overivew da Experience Cloud
-solution: Marketing Cloud, Analytics
+seo-title: Visão geral da Experience Cloud
+solution: Marketing Cloud,Analytics
 title: Visão geral da Experience Cloud
 topic: Desenvolvedor e implementação
-uuid: dbf 6 e 019-8707-42 e 7-97 b 8-e 18 a 8 a 7 d 5 e 2 c
+uuid: dbf6e019-8707-42e7-97b8-e18a8a7d5e2c
 translation-type: tm+mt
 source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
@@ -15,7 +15,7 @@ source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
 # Experience Cloud overview {#experience-cloud}
 
-As informações nesta seção ajudam você a usar o Android SDK com a Adobe Experience Cloud.
+As informações nesta seção ajudam a usar o Android SDK com a Adobe Experience Cloud.
 
 ## Nova versão do SDK da Adobe Experience Cloud
 
