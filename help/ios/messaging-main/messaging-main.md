@@ -2,10 +2,10 @@
 description: Esta informação ajuda a usar as mensagens nos aplicativos iOS.
 seo-description: Esta informação ajuda a usar as mensagens nos aplicativos iOS.
 seo-title: Mensagens
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Mensagens
 topic: Desenvolvedor e implementação
-uuid: c 6475 ab 4-015 d -46 b 0-af 28-5 d 0 df 3 f 4459 e
+uuid: c6475ab4-015d-46b0-af28-5d0df3f4459e
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
