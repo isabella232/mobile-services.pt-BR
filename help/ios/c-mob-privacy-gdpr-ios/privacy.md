@@ -2,10 +2,10 @@
 description: Essas informações o ajudam com a solicitação de exclusão de dados do GDPR.
 seo-description: Essas informações o ajudam com a solicitação de exclusão de dados do GDPR.
 seo-title: Definir status de opção do usuário
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Definir status de opção do usuário
 topic: Desenvolvedor e implementação
-uuid: 44 a 09 a 25-93 c 6-4 e 1 a-b 69 e -710018 e 8 b 6 c 3
+uuid: 44a09a25-93c6-4e1a-b69e-710018e8b6c3
 translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
@@ -22,7 +22,7 @@ Essas informações o ajudam com a solicitação de exclusão de dados do GDPR.
 
 É possível controlar se a atividade do Analytics, do Target e do Audience Manager é permitida em um dispositivo, usando as seguintes configurações:
 
-* `privacyDefault` na [configuração JSON do adbmobile](/help/ios/configuration/json-config/json-config.md).
+* `privacyDefault` na configuração [ADBMobile JSON](/help/ios/configuration/json-config/json-config.md).
 
    Esta configuração contra a configuração inicial que é mantida até sua alteração no código.
 
@@ -32,7 +32,7 @@ Essas informações o ajudam com a solicitação de exclusão de dados do GDPR.
 
    Para obter mais informações sobre os métodos, consulte [Configuração de métodos](/help/ios/configuration/json-config/json-config.md).
 
-Aqui estão informações sobre cada status de privacidade:
+Estas são informações sobre cada status de privacidade:
 
 * **Aceitar**
 
@@ -48,7 +48,7 @@ Aqui estão informações sobre cada status de privacidade:
    * Target: as solicitações da mbox não são permitidas.
    * Audience Manager: os sinais e sincronizações de ID não são permitidos.
    * Value in the JSON config file: `optedout`
-   * Valor em `setPrivacyStatus`: `ADBMobilePrivacyStatusOptOut`
+   * Value in : `setPrivacyStatus``ADBMobilePrivacyStatusOptOut`
 
 * **Desconhecido**
 
@@ -59,7 +59,7 @@ Aqui estão informações sobre cada status de privacidade:
    * Target: as solicitações da mbox são enviadas.
    * Audience Manager: os sinais e sincronizações de ID são enviados.
    * Value in the JSON config file: `optunknown`
-   * Valor em `setPrivacyStatus`: `ADBMobilePrivacyStatusUnknown`
+   * Value in : `setPrivacyStatus``ADBMobilePrivacyStatusUnknown`
 
 ## Exemplos {#section_128AC455EE024193B5D4E5A565B53D00}
 
