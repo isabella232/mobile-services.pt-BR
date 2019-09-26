@@ -3,10 +3,10 @@ description: É possível direcionar os usuários para um destino, dependendo se
 keywords: mobile
 seo-description: É possível direcionar os usuários para um destino, dependendo se eles têm o aplicativo instalado (um deep link de aplicativo) ou não (para um site ou uma app store).
 seo-title: Intersticiais
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Intersticiais
 topic: Métricas
-uuid: 7 dce 8 ab 2-2 a 5 d -4384-ac 1 e-e 31 dfaa 33654
+uuid: 7dce8ab2-2a5d-4384-ac1e-e31dfaa33654
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -17,11 +17,11 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 É possível direcionar os usuários para um destino, dependendo se eles têm o aplicativo instalado (um deep link de aplicativo) ou não (para um site ou uma app store). É melhor deixar a escolha do roteamento para os usuários. Os profissionais de marketing podem fornecer opções aos usuários, configurando uma página intersticial que mostra aos usuários os destinos disponíveis.
 
-Para configurar um intersticial ao criando um link de marketing:
+Para configurar um intersticial ao criação de um Link de marketing:
 
 1. Click **[!UICONTROL Edit Deep Link Interstitial]**.
 
-   ![Deep link intersticial](assets/interstitial2.png)
+   ![Deep link interstitial](assets/interstitial2.png)
 
 1. Digite informações nos seguintes campos:
 
@@ -29,7 +29,7 @@ Para configurar um intersticial ao criando um link de marketing:
 
       Selecione sua página HTML intersticial personalizada.
 
-      Usando intersticiais personalizados, os profissionais de marketing podem personalizar páginas de aterrissagem intersticiais com HTML/CSS/JS personalizados, o que permite a marca de suas páginas.
+      Ao usar intersticiais personalizados, os profissionais de marketing podem personalizar páginas de aterrissagem intersticiais com HTML/CSS/JS personalizados, o que permite que você atribua uma marca às suas páginas.
 
       Estes são os requisitos da página HTML:
 
@@ -41,7 +41,7 @@ Para configurar um intersticial ao criando um link de marketing:
 
          >[!TIP]
          >
-         >Se você carregar HTML personalizado, as outras quatro opções nesta tabela não serão usadas, a menos que você remova o arquivo carregado.
+         >Se você carregar HTML personalizado, as outras quatro opções nesta tabela não serão usadas a menos que você remova o arquivo carregado.
    * **[!UICONTROL URL da imagem]**
 
       Especifique o URL para um ativo de imagem.
