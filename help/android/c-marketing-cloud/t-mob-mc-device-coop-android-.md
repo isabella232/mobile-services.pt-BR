@@ -3,7 +3,7 @@ description: Para começar a usar o Device Co-op da Experience Cloud, entre em c
 seo-description: Para começar a usar o Device Co-op da Experience Cloud, entre em contato com seu representante da Adobe.
 seo-title: Device Co-op da Experience Cloud
 title: Device Co-op da Experience Cloud
-uuid: 7 bb 8 a 19 c -4 b 80-4911-879 d-f 9941 baa 3 b 62
+uuid: 7bb8a19c-4b80-4911-879d-f9941baa3b62
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -18,21 +18,21 @@ Para ativar os aplicativos móveis no Device Co-op da Experience Cloud, complete
 
 >[!IMPORTANT]
 >
->Essa funcionalidade requer o Android SDK versão 4.8.3 ou posterior.
+>This functionality requires Android SDK version 4.8.3 or later.
 
 A partir da versão 4.16.1 do SDK, membros do Device Co-op podem remover seus dados de dispositivo móvel do Device Co-op da Experience Cloud. Para obter mais informações, consulte [ADBMobile JSON Config](/help/android/configuration/json-config/json-config.md) e o método `visitorAPI.js` para [isCoopSafe](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-coopsafe.html).
 
 1. Implemente o SDK do Adobe Mobile.
 
-   Para obter mais informações, consulte [Implementação principal e ciclo de vida](/help/android/getting-started/dev-qs.md).
+   Para obter mais informações, consulte Implementação [principal e ciclo de vida](/help/android/getting-started/dev-qs.md).
 1. Habilitar sua Experience Cloud ID.
 
    For more information, see [Experience Cloud ID Configuration](/help/android/c-marketing-cloud/mcvid.md).
 1. Passe identidades autenticadas, como IDs do CRM ou emails com hash, ao usar um dos métodos de sincronização contidos aqui.
 
-   Para obter mais informações, consulte [Métodos de serviço de identidade da Adobe Experience Platform](/help/android/c-marketing-cloud/mc-methods.md).
+   Para obter mais informações, consulte Métodos [do serviço de identidade da plataforma](/help/android/c-marketing-cloud/mc-methods.md)Adobe Experience.
 
-## `coopUnsafe` sinalizador
+## `coopUnsafe` bandeira
 
 Aqui estão algumas informações adicionais sobre o sinalizador `coopUnsafe`:
 
