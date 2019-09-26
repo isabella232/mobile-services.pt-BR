@@ -2,19 +2,19 @@
 description: Esta informação ajuda a usar os links de rastreamento de aquisição nos aplicativos iOS.
 seo-description: Esta informação ajuda a usar os links de rastreamento de aquisição nos aplicativos iOS.
 seo-title: Visão geral da aquisição
-solution: Marketing Cloud, Analytics
-title: Visão geral da aquisição
+solution: Marketing Cloud,Analytics
+title: Acquisition overview
 topic: Desenvolvedor e implementação
-uuid: e 22 d 2785-58 f 1-4841-9163-912 c 5 e 0 f 5 d 61
+uuid: e22d2785-58f1-4841-9163-912c5e0f5d61
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ---
 
 
-# Visão geral da aquisição {#acquisition}
+# Acquisition overview {#acquisition}
 
-Estas informações ajudam a usar os links de rastreamento de aquisição em seus aplicativos Android.
+Estas informações ajudam a usar links de rastreamento de aquisição em seus aplicativos Android.
 
 ## Nova versão do SDK da Adobe Experience Cloud
 
