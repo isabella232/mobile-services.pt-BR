@@ -3,7 +3,7 @@ description: É possível usar o SDK da Adobe para coletar informações de iden
 seo-description: É possível usar o SDK da Adobe para coletar informações de identificação pessoal (PII) e enviá-las para um terminal de terceiros.
 seo-title: Postbacks de PII
 title: Postbacks de PII
-uuid: 8 d 1 f 1 fb 8-6842-478 b-a 164-e 7 f 727755 bd 9
+uuid: 8d1f1fb8-6842-478b-a164-e7f727755bd9
 translation-type: tm+mt
 source-git-commit: 70ac08c74e11a68d94d3f10ed6d7fc133d34149d
 
@@ -18,13 +18,13 @@ Quando quiser usar o SDK da Adobe para coletar PII, você deve enviar uma chamad
 
 >[!TIP]
 >
->É necessário um terminal compatível com HTTPS para usar o tipo de postback PII.
+>Um terminal compatível com HTTPS é necessário para usar o tipo de postback PII.
 
 ## Tracking PII postbacks {#section_36B967B888CF467EACCDEF61DFA0B12B}
 
 1. Adicione [a biblioteca ao seu projeto e implemente o ciclo de vida.
 
-   Para obter mais informações, consulte *Adicionar o SDK e o Arquivo de configuração ao projeto intellij IDEA ou Eclipse* na [implementação principal e ciclo de vida](/help/android/getting-started/dev-qs.md).
+   For more information, see Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project in Core implementation and lifecycle.**[](/help/android/getting-started/dev-qs.md)
 
 1. Importe a biblioteca:
 
