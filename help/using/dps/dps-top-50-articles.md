@@ -1,23 +1,23 @@
 ---
-description: O relatório Os 50 artigos principais exibe um gráfico de barras e um relatório classificado que exibe os artigos mais lidos exibidos através do aplicativo. Este relatório está disponível somente para clientes da Digital Publishing Suites (DPS).
+description: O relatório Os 50 artigos principais exibe um gráfico de barras e um relatório classificado que exibe os artigos mais lidos exibidos através do aplicativo. This report is available only to Digital Publishing Suites (DPS) customers.
 keywords: mobile
 seo-description: O relatório Os 50 artigos principais exibe um gráfico de barras e um relatório classificado que exibe os artigos mais lidos exibidos através do aplicativo. Este relatório está disponível somente para clientes da Digital Publishing Suites (DPS).
 seo-title: Os 50 artigos principais
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Os 50 artigos principais
 topic: Métricas
-uuid: 341370 d 1-fa 87-43 ca -8135-425 b 3 bba 272 f
+uuid: 341370d1-fa87-43ca-8135-425b3bba272f
 translation-type: tm+mt
 source-git-commit: b11a03226ff6100554d072b4ef523d703b80a6e5
 
 ---
 
 
-# Relatório dos 50 artigos principais{#top-articles}
+# Top 50 Articles report{#top-articles}
 
 The **[!UICONTROL Top 50 Articles]** report displays a bar chart and ranked report displays the most-read articles using the app. Este relatório está disponível somente para clientes do DPS.
 
-Embora o relatório padrão exiba dados dos últimos 30 dias por número de leitores, você pode personalizar o relatório.
+Embora o relatório padrão exiba dados dos últimos 30 dias por número de leitores, é possível personalizar o relatório.
 
 ![](assets/dps_top_50.png)
 
@@ -25,8 +25,7 @@ Por padrão, esse relatório mostra o título do artigo e o número de leitores.
 
 Você pode configurar as seguintes opções no relatório:
 
-* **[!UICONTROL Período]**
-de tempo clique no **[!UICONTROL ícone Calendário]** para selecionar um período personalizado ou selecionar um período de tempo predefinido na lista suspensa.
+* **[!UICONTROL Período]** Clique no ícone **[!UICONTROL Calendário]** para selecionar um período personalizado ou para selecionar um período predefinido na lista suspensa.
 
 * **[!UICONTROL Personalizar]**
 
@@ -34,7 +33,7 @@ de tempo clique no **[!UICONTROL ícone Calendário]** para selecionar um perío
 
 * **[!UICONTROL Filtro]**
 
-   Clique em **[!UICONTROL Filtro]para criar um filtro que abrange vários relatórios e observar o desempenho de um segmento específico em todos os relatórios móveis.** Um filtro fixo permite definir um filtro aplicado a todos os relatórios não relacionados à definição de caminho. Para obter mais informações, consulte [Adicionar um filtro fixo](/help/using/usage/reports-customize/t-sticky-filter.md).
+   Clique em **[!UICONTROL Filtro]para criar um filtro que abrange vários relatórios e observar o desempenho de um segmento específico em todos os relatórios móveis.** Um filtro fixo permite definir um filtro aplicado a todos os relatórios não relacionados à definição de caminho. Para obter mais informações, consulte [Adicionar um filtro](/help/using/usage/reports-customize/t-sticky-filter.md)fixo.
 
 * **[!UICONTROL Baixar]**
 
