@@ -3,10 +3,10 @@ description: É possível usar estas informações para criar um novo aplicativo
 keywords: mobile
 seo-description: É possível usar estas informações para criar um novo aplicativo e configurar suas métricas principais; configurar as opções do SDK para o Adobe Analytics e o Adobe Audience Manager; configurar as opções de aquisição e de serviço de ID; e baixar o arquivo de configuração, os SDKs e as ferramentas de desenvolvedor e de testador.
 seo-title: Adicionar um novo aplicativo
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Adicionar um novo aplicativo
 topic: Métricas
-uuid: 706 b 5 e 4 d -1318-4 a 9 e -8 c 69-ffabf 51 fa 02 c
+uuid: 706b5e4d-1318-4a9e-8c69-ffabf51fa02c
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -26,7 +26,7 @@ Antes de configurar seu aplicativo, você deve adicioná-lo na interface do usu�
    * Clique em **[!UICONTROL Criar novo]para criar um aplicativo.**
    * Para adicionar outros aplicativos, clique em Gerenciar aplicativos no menu de navegação esquerdo e clique em **[!UICONTROL Adicionar]**.
 
-      Para obter mais informações sobre como fazer logon, consulte [](/help/using/gs/gs-signin.md)Fazer logon.
+      Para obter mais informações sobre como fazer logon, consulte [Fazer logon](/help/using/gs/gs-signin.md).
 
       >[!TIP]
       >
@@ -50,14 +50,14 @@ Antes de configurar seu aplicativo, você deve adicioná-lo na interface do usu�
 
    * **[!UICONTROL Fuso horário]**
 
-      Todas as datas do relatório estão nesse fuso horário. Essa configuração tenta usar um fuso horário próximo ao do seu navegador.
+      Todas as datas de relatório estão neste fuso horário. Essa configuração tenta usar um fuso horário próximo ao do seu navegador.
 
    * **[!UICONTROL Moeda]**
 
       A receita é rastreada e relatada como esse tipo de moeda.
    >[!TIP]
    >
-   >Para usar um conjunto de relatórios virtual (VRS), consulte [Conjuntos de relatórios virtuais](/help/using/manage-apps/c-mob-vrs.md).
+   >Para usar um conjunto de relatórios virtual (VRS), consulte Conjuntos [](/help/using/manage-apps/c-mob-vrs.md)de relatórios virtuais.
 
    * **[!UICONTROL Ícone]**
 
@@ -65,7 +65,7 @@ Antes de configurar seu aplicativo, você deve adicioná-lo na interface do usu�
 
    * **[!UICONTROL Nome]**
 
-      (**Optional**) Type a descriptive name for the app. Esse nome ajuda a localizar rapidamente um aplicativo, e um nome significativo pode ajudá-lo a compreender rapidamente o objetivo e as configurações do aplicativo.
+      (**Optional**) Type a descriptive name for the app. Esse nome ajuda a localizar rapidamente um aplicativo e um nome significativo pode ajudá-lo a entender rapidamente o objetivo e as configurações do aplicativo.
 
    * **[!UICONTROL Tipo]**
 
