@@ -2,10 +2,10 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Analytics
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Analytics
 topic: Desenvolvedor e implementação
-uuid: c 2 cef 3 d 3-77 a 7-4 a 8 e-bbe 4-3 db 10 a 77996 a
+uuid: c2cef3d3-77a7-4a8e-bbe4-3db10a77996a
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -14,11 +14,11 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 # Analytics {#analytics}
 
-Depois de adicionar a biblioteca ao seu projeto, você pode fazer quaisquer chamadas de método do Analytics em qualquer lugar no aplicativo.
+Depois de adicionar a biblioteca ao seu projeto, você pode fazer qualquer uma das chamadas de método do Analytics em qualquer lugar no aplicativo.
 
 >[!TIP]
 >
->Certifique-se de importar `ADBMobile.h` para a sua classe.
+>Certifique-se de importar `ADBMobile.h` para sua classe.
 
 ## Enable mobile application reports in Analytics {#section_F2F9234009184F20BA36B5CDE872B424}
 
@@ -46,7 +46,7 @@ Periodicamente, novas versões dos relatórios de aplicativo para dispositivos m
 
 Para coletar métricas de ciclo de vida no aplicativo, adicione chamadas para quando o aplicativo estiver ativado, como mostrado nos exemplos a seguir.
 
-### Winjs em default. js
+### WinJS in default.js
 
 ```js
 app.onactivated = function (args) { 
@@ -61,7 +61,7 @@ app.oncheckpoint = function (args) {
 }
 ```
 
-### C # em App. xaml. cs
+### C# em App.xaml.cs
 
 ```js
 public App() 
@@ -178,15 +178,15 @@ As variáveis de dados de contexto que definem eventos do incrementador podem te
 
 >[!TIP]
 >
->A Adobe reserva o namespace `a.`. Além dessa restrição, as variáveis de dados de contexto só precisam ser únicas na empresa de logon para evitar colisões.
+>A Adobe reserva o namespace `a.`. Other than this restriction, context data variables just need to be unique in your login company to avoid collisions.
 
 ## Products variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
-Para definir *`products`* no SDK móvel, é necessário usar uma sintaxe especial. Para obter mais informações, consulte [Variável products](/help/universal-windows/analytics/products.md).
+Para configurar *`products`* no SDK móvel, é necessário usar uma sintaxe especial. Para obter mais informações, consulte Variável [](/help/universal-windows/analytics/products.md)de produtos.
 
 ## (Optional) Enable offline tracking {#section_955B2A03EB854742BDFC4A0A3C287009}
 
-To store hits when the device is offline, you can enable offline tracking in the [SDK methods](/help/universal-windows/c-configuration/methods.md) file. Preste muita atenção aos requisitos de carimbo de data e hora descritos na referência do arquivo de configuração antes de habilitar o rastreamento offline.
+To store hits when the device is offline, you can enable offline tracking in the [SDK methods](/help/universal-windows/c-configuration/methods.md) file. Pay close attention to the timestamp requirements described in the config file reference before you enable offline tracking.
 
 ## Geo-location and points of interest {#section_BAD34A8DD013454DB355121316BD7FD4}
 
