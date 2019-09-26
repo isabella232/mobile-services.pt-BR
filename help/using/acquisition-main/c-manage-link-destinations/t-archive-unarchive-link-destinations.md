@@ -3,10 +3,10 @@ description: Você pode usar a página Destinos do link para editar, arquivar, d
 keywords: mobile
 seo-description: Você pode usar a página Destinos do link para editar, arquivar, desarquivar ou excluir o destino existente.
 seo-title: Gerenciar destinos de links
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Gerenciar destinos de links
 topic: Métricas
-uuid: 3 a 38 d 40 d-b 4 c 7-4 f 9 f-aa 6 e -979613 faaba 2
+uuid: 3a38d40d-b4c7-4f9f-aa6e-979613faaba2
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -20,7 +20,7 @@ Você pode usar a página Destinos do link para editar, arquivar, desarquivar ou
 Para exibir a página Gerenciar destinos do link:
 
 1. In the Mobile Services UI, click **[!UICONTROL Manage Apps]**.
-1. Na página Informações do aplicativo do aplicativo, clique **[!UICONTROL em Gerenciar destinos de links]**.
+1. Na página Informações do aplicativo, clique em **[!UICONTROL Gerenciar destinos]** de links.
 
    ![Destino do link](assets/link_destinations_list.png)
 
@@ -28,17 +28,17 @@ Para exibir a página Gerenciar destinos do link:
 
    * **Editar**
 
-      Para editar um destino de link existente, clique no seu nome na lista e edite os campos relevantes. Para obter mais informações, consulte [Criar um novo destino de link](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md).
+      Para editar um destino de link existente, clique no seu nome na lista e edite os campos relevantes. Para obter mais informações, consulte [Criar um novo destino](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md)de link.
 
       >[!IMPORTANT]
       >
-      >Pode levar até 15 minutos para que essas alterações tenham efeito.
+      >Pode levar até 15 minutos para que essas alterações entrem em vigor.
 
    * **Arquivar**
 
       You can archive link destinations that you want to retain, but you want to remove from the **[!UICONTROL Link Destinations]** list.
 
-      To archive link destinations, select one or more check boxes next to the link names and click **[!UICONTROL Archive Selected]**. Como o destino do link é arquivado e pode ser desarquivado a qualquer momento, você não precisa confirmar sua ação.
+      To archive link destinations, select one or more check boxes next to the link names and click **[!UICONTROL Archive Selected]**. Como o destino do link é arquivado e pode ser desarquivado a qualquer momento, não é necessário confirmar a ação.
 
    * **Desarquivar**
 
@@ -48,7 +48,7 @@ Para exibir a página Gerenciar destinos do link:
 
       1. click **[!UICONTROL View Archive]**.
       1. Marque uma ou mais caixas de seleção ao lado dos nomes dos links que você deseja desarquivar.
-      1. Clique **[!UICONTROL em Desarquivar selecionados]**.
+      1. Clique em **[!UICONTROL Desarquivar selecionados]**.
       A opção **[!UICONTROL Arquivo de exibições]somente é exibido se você arquivou destinos de links anteriormente.**
 
    * **Excluir**
@@ -57,7 +57,7 @@ Para exibir a página Gerenciar destinos do link:
 
       >[!IMPORTANT]
       >
-      >A exclusão de um destino de link **é permanente**. Se você não tem certeza se deseja excluir um destino de link, use a opção de arquivamento.
+      >A exclusão de um destino de link é **permanente**. Se você não tem certeza se deseja excluir um destino de link, use a opção de arquivamento.
 
 
 
