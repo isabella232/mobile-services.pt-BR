@@ -2,10 +2,10 @@
 description: As tabelas a seguir listam as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida.
 seo-description: As tabelas a seguir listam as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida.
 seo-title: Medições de ciclo de vida
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Medições de ciclo de vida
 topic: Desenvolvedor e implementação
-uuid: b 795 e 383-d 59 b -4 a 3 c -9 e 14-ffe 8 fb 58412 c
+uuid: b795e383-d59b-4a3c-9e14-ffe8fb58412c
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -14,7 +14,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 # Lifecycle metrics {#lifecycle-metrics}
 
-Estas são as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel depois que o ciclo de vida é implementado.
+Estas são as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida.
 
 ## Nova versão do SDK da Adobe Experience Cloud
 
@@ -93,13 +93,13 @@ Para o Analytics, os dados de contexto que são enviados com cada chamada de ras
 
 >[!IMPORTANT]
 >
-> As métricas Usuários envolvidos *diariamente* e *Usuários* envolvidos mensalmente não são armazenadas automaticamente em uma métrica do Analytics. Você deve criar uma regra de processamento que defina um evento personalizado para capturar essas métricas.
+> As métricas Usuários *envolvidos* diariamente e Usuários ** envolvidos mensalmente não são armazenadas automaticamente em uma métrica do Analytics. You must create a processing rule that sets a custom event to capture these metrics.
 
 ### Dimensões
 
 * **Data de instalação**
 
-   Data do início após instalação.  O formato de data `MM/DD/YYYY`é.
+   Data do início após instalação.  O formato de data é `MM/DD/YYYY`.
 
    * Target/Dados de contexto do Analytics: `a.InstallDate`
    * Gerenciamento de público-alvo: `c_a_InstallDate`
@@ -189,12 +189,12 @@ Para o Analytics, os dados de contexto que são enviados com cada chamada de ras
    * Gerenciamento de público-alvo: `c_a_Resolution`
    >[!IMPORTANT]
    >
-   >Os *Dias desde a última atualização*, *Inicializações desde a última atualização* e as *dimensões Nome* da operadora não são armazenadas automaticamente em uma variável do Analytics. Você deve criar uma regra de processamento para copiar os valores para uma variável do Analytics para relatórios.
+   >The Days since last upgrade, Launches since last upgrade, and the Carrier Name dimensions are not automatically stored in an Analytics variable. ****** You must create a processing rule to copy the values to an Analytics variable for reporting.
 
 
 ## Additional mobile metrics and dimensions {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
 
-As seguintes métricas e dimensões são capturadas nas variáveis de solução móvel pelo método listado.
+The following metrics and dimensions are captured in mobile solution variables by the listed method.
 
 ### Métricas
 
@@ -226,11 +226,11 @@ As seguintes métricas e dimensões são capturadas nas variáveis de solução 
 
    Populated by `trackLocation` methods.
 
-   * Parâmetro de dados de contexto/alvo do Analytics:
+   * Parâmetro Dados de contexto/Target do Analytics:
 
       * `a.loc.lat.a`
       * `a.loc.lon.a`
-   * Característica do gerenciamento de público-alvo:
+   * Característica do Gerenciamento de público-alvo:
 
       * `c_a_loc_lat_a`
       * `c_a_loc_lon_a`
@@ -240,11 +240,11 @@ As seguintes métricas e dimensões são capturadas nas variáveis de solução 
 
    Preenchido pelos métodos trackLocation.
 
-   * Parâmetro de dados de contexto/alvo do Analytics:
+   * Parâmetro Dados de contexto/Target do Analytics:
 
       * `a.loc.lat.b`
       * `a.loc.lon.b`
-   * Característica do gerenciamento de público-alvo:
+   * Característica do Gerenciamento de público-alvo:
 
       * `c_a_loc_lat_b`
       * `c_a_loc_lon_b`
@@ -254,11 +254,11 @@ As seguintes métricas e dimensões são capturadas nas variáveis de solução 
 
    Populated by `trackLocation` methods.
 
-   * Parâmetro de dados de contexto/alvo do Analytics:
+   * Parâmetro Dados de contexto/Target do Analytics:
 
       * `a.loc.lat.c`
       * `a.loc.lon.c`
-   * Característica do gerenciamento de público-alvo:
+   * Característica do Gerenciamento de público-alvo:
 
       * `c_a_loc_lat_c`
       * `c_a_loc_lon_c`
