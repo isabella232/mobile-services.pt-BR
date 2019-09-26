@@ -2,26 +2,26 @@
 description: É possível definir e configurar as opções de público-alvo para mensagens de push, incluindo as opções de intervalo de data, os segmentos do Analytics e os segmentos personalizados.
 keywords: mobile
 seo-description: É possível definir e configurar as opções de público-alvo para mensagens de push, incluindo as opções de intervalo de data, os segmentos do Analytics e os segmentos personalizados.
-seo-title: Público-alvo definido e configurar segmentos de público-alvo para mensagens de push
-solution: Marketing Cloud, Analytics
-title: Público-alvo definido e configurar segmentos de público-alvo para mensagens de push
+seo-title: Público-alvo Definir e configurar segmentos de público-alvo para mensagens de push
+solution: Marketing Cloud,Analytics
+title: Audience  Define and Configure Audience Segments for Push Messages
 topic: Métricas
-uuid: efd 410 e 7-3 b 6 c -4 cf 4-a 26 f-b 11688 adc 491
+uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
 translation-type: tm+mt
 source-git-commit: f28ea0db13b8d8f209d7521d1f61f1c290e688aa
 
 ---
 
 
-# Público-alvo: mensagens de push{#audience-define-and-configure-audience-segments-for-push-messages}
+# Público: mensagens de push{#audience-define-and-configure-audience-segments-for-push-messages}
 
 É possível definir e configurar as opções de público-alvo para mensagens de push, incluindo as opções de intervalo de data, os segmentos do Analytics e os segmentos personalizados.
 
 ## Define audience segments {#section_7C4D2393CF7441959FE2381A02867CAC}
 
-Quando um segmento de público-alvo das mensagens de push é criado, o segmento pode envolver usuários de um ou mais aplicativos porque os conjuntos de relatórios ou conjuntos de relatórios virtuais podem conter dados de um ou mais aplicativos. Para obter mais informações sobre conjuntos de relatórios virtuais, consulte [Conjuntos de relatórios virtuais](/help/using/manage-apps/c-mob-vrs.md).
+Quando um segmento de público-alvo das mensagens de push é criado, o segmento pode envolver usuários de um ou mais aplicativos porque os conjuntos de relatórios ou conjuntos de relatórios virtuais podem conter dados de um ou mais aplicativos. Para obter mais informações sobre conjuntos de relatórios virtuais, consulte [Virtual report suites](/help/using/manage-apps/c-mob-vrs.md).
 
-No Adobe Mobile Services, os profissionais de marketing podem apenas enviar para um aplicativo por plataforma. Se os profissionais de marketing tentarem enviar para segmentos que contêm usuários de vários aplicativos, será exibido um aviso afirmando que o processo pode resultar em falhas de envio graves e na possível inclusão de usuários na lista negra. Se você tiver uma falha de envio, consulte *Resolução de falhas de envio* em [Solução de problemas de mensagens de push](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md).
+No Adobe Mobile Services, os profissionais de marketing podem apenas enviar para um aplicativo por plataforma. Se os profissionais de marketing tentarem enviar para segmentos que contêm usuários de vários aplicativos, será exibido um aviso afirmando que o processo pode resultar em falhas de envio graves e na possível inclusão de usuários na lista negra. Se você tiver uma falha de envio, consulte *Resolução de falhas de envio* em [Troubleshooting push messaging](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md).
 
 Para usar os dados do Audience Manager na definição do seu segmento, consulte [Análise de público-alvo](https://docs-author-stg.corp.adobe.com/content/help/en/analytics/integration/audience-analytics/mc-audiences-aam.html).
 
@@ -31,7 +31,7 @@ Para usar os dados do Audience Manager na definição do seu segmento, consulte 
 
 Se você selecionar um segmento de público-alvo que contém usuários em vários aplicativos, poderá ver o seguinte alerta:
 
-![nome do aplicativo múltiplo](assets/multiple_appname.png)
+![nome de vários aplicativos](assets/multiple_appname.png)
 
 The app name is based on the pared down version of the appId, which is automatically sent to Adobe Analytics by the Mobile Services SDK in the `<app name> <version number> (<bundle id>)` format.
 
@@ -43,10 +43,10 @@ São removidos até 6 conjuntos de números para a versão e até 5 conjuntos de
 
 Por exemplo:
 
-* `Bea[rd]cons 1.0 (123)` será exibido como `Bea[rd]cons`
-* `Bea[rd]cons 1.2 (1.2)` será exibido como `Bea[rd]cons`
-* `Bea[rd]cons 1.2.3.4.5.6.7 (1111)` será exibido como `Bea[rd]cons .7`
-* `Bea[rd]cons 1.2.3. (1.2.3.4.5.6)` será exibido como `Bea[rd]cons (.6)`
+* `Bea[rd]cons 1.0 (123)` aparecerá como `Bea[rd]cons`
+* `Bea[rd]cons 1.2 (1.2)` aparecerá como `Bea[rd]cons`
+* `Bea[rd]cons 1.2.3.4.5.6.7 (1111)` aparecerá como `Bea[rd]cons .7`
+* `Bea[rd]cons 1.2.3. (1.2.3.4.5.6)` aparecerá como `Bea[rd]cons (.6)`
 
 Para continuar a enviar a mensagem de push para os aplicativos listados, marque a caixa de seleção **Sim, eu desejo continuar.** e clique em **[!UICONTROL Enviar]**.
 
@@ -68,7 +68,7 @@ Alguns exemplos para ajudá-lo a entender como definir segmentos corretamente:
 
 ## Configure audience segments {#section_A92C60885A30421B8150820EC1CCBF13}
 
-1. Acesse a página Público-alvo para obter uma nova mensagem de push.
+1. Vá para a página Público-alvo para obter uma nova mensagem de push.
 
    For more information, see [Create a push message](/help/using/in-app-messaging/t-create-push-message/t-create-push-message.md).
 
@@ -84,13 +84,13 @@ Alguns exemplos para ajudá-lo a entender como definir segmentos corretamente:
 
       Isso significa que o SDK enviou um valor `True` para a eVar de aceitação de mensagens de push.
 
-   * Embora o dispositivo tenha um token de dispositivo válido, a menos que o Adobe Analytics tenha definido o sinalizador de aceitação, a mensagem não será enviada para o dispositivo.
+   * Mesmo que o dispositivo tenha um token de dispositivo válido, a menos que o Adobe Analytics tenha definido o sinalizador de aceitação, a mensagem não será enviada para o dispositivo.
 
    * Para obter mais informações sobre como solucionar problemas de mensagens de push, consulte o seguinte:
 
-      * [Mensagens de push no iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/push-messaging.html)
+      * [Push messaging in iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/push-messaging.html)
 
-      * [Mensagens de push no Android](https://docs.adobe.com/content/help/en/mobile-services/android/messaging-android/push-messaging/push-messaging.html)
+      * [Push messaging in Android](https://docs.adobe.com/content/help/en/mobile-services/android/messaging-android/push-messaging/push-messaging.html)
 
 1. Digite informações nos seguintes campos:
 
@@ -108,7 +108,7 @@ Alguns exemplos para ajudá-lo a entender como definir segmentos corretamente:
 
    * **[!UICONTROL Segmentos do Analytics]**
 
-      Selecione um segmento existente do Adobe Analytics na lista suspensa. For more information, see [Build segments](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+      Select an existing Adobe Analytics segment from the drop-down list. For more information, see [Build segments](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
 
    * **[!UICONTROL Segmentos personalizados]**
 
