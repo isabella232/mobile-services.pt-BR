@@ -1,11 +1,11 @@
 ---
 description: Essas informações o ajudam com a solicitação de exclusão de dados do GDPR.
 seo-description: Essas informações o ajudam com a solicitação de exclusão de dados do GDPR.
-seo-title: Definir o status de opt-up do usuário
-solution: Marketing Cloud, Analytics
-title: Definir o status de opt-up do usuário
+seo-title: Definir o status de opção do usuário
+solution: Marketing Cloud,Analytics
+title: Definir o status de opção do usuário
 topic: Desenvolvedor e implementação
-uuid: f 8 a 3 e 6 be -44 dd -494 e -9 cda-dbbac 86 d 6772
+uuid: f8a3e6be-44dd-494e-9cda-dbac86d6772
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -22,7 +22,7 @@ Essas informações o ajudam com a solicitação de exclusão de dados do GDPR.
 
 É possível controlar se a atividade do Analytics, Target e Audience Manager é permitida em um dispositivo usando as configurações a seguir:
 
-* `privacyDefault` na [configuração JSON do adbmobile](/help/android/configuration/json-config/json-config.md).
+* `privacyDefault` na configuração [ADBMobile JSON](/help/android/configuration/json-config/json-config.md).
 
    Esta configuração controla a configuração inicial que persiste até que seja alterada no código.
 
@@ -50,7 +50,7 @@ A tabela a seguir descreve cada status de privacidade:
 
 * **Desconhecido**
 
-   * **Analytics**: Se o rastreamento offline **ativado**, as ocorrências são salvas até o status de privacidade ser alterado para opt-in (as ocorrências são enviadas) ou opt-out (as ocorrências são descartadas).
+   * **Analytics**: Se o rastreamento offline estiver **ativado**, as ocorrências serão salvas até o status de privacidade ser alterado para aceitar (as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas).
 
       Se o rastreamento offline <b>não estiver</b> ativado, as ocorrências são descartadas até o status de privacidade ser alterado parar aceitar.
    * **Target**: as solicitações da mbox são enviadas.
