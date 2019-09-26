@@ -1,12 +1,12 @@
 ---
 description: É possível enviar sinais e recuperar segmentos de visitantes no gerenciamento de público-alvo.
-keywords: android; biblioteca; dispositivos móveis; sdk
+keywords: android;biblioteca;móvel;sdk
 seo-description: É possível enviar sinais e recuperar segmentos de visitantes no gerenciamento de público-alvo.
 seo-title: Configuração do Audience Manager
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Configuração do Audience Manager
 topic: Desenvolvedor e implementação
-uuid: f 68 d 5 b 2 e-fa 2 c -4 db 6-98 ad-d 1855 a 2 c 45 ac
+uuid: f68d5b2e-fa2c-4db6-98ad-d1855a2c45ac
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -15,7 +15,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 # Audience Manager configuration{#audience-manager-configuration}
 
-É possível enviar sinais e recuperar segmentos de visitantes do Audience Manager.
+Você pode enviar sinais e recuperar segmentos de visitantes do Audience Manager.
 
 ## Set the application context {#section_37CAE496FF894FCA821F7760605574CA}
 
@@ -32,4 +32,4 @@ public void onCreate(Bundle savedInstanceState) {
 }
 ```
 
-Se você adicionou essa chamada de método quando implementou o Analytics ou o Target, não é necessário adicioná-la novamente.
+Se você tiver adicionado essa chamada de método ao implementar o Analytics ou o Target, não precisará adicioná-la novamente.
