@@ -3,10 +3,10 @@ description: Estas informações podem ajudar a solucionar problemas com as mens
 keywords: mobile
 seo-description: Estas informações podem ajudar a solucionar problemas com as mensagens de push.
 seo-title: Solucionar problemas de mensagens de push
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Solucionar problemas de mensagens de push
 topic: Métricas
-uuid: c 7 be 4 ab 7-0 cfe -4296-84 a 8-01412 f 4 fd 93 f
+uuid: c7be4ab7-0cfe-4296-84a8-01412f4fd93f
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -33,7 +33,7 @@ Os seguintes tipos de atrasos podem estar associados a mensagens de push para os
 
    >[!TIP]
    >
-   >Essa contagem é o número de envios bem-sucedidos para os Serviços de push. Os serviços de push não garantem que uma mensagem será enviada.
+   >Essa contagem é o número de envios bem-sucedidos para os serviços de push. Os serviços de push não garantem que uma mensagem será enviada.
 
    Para obter mais informações sobre a confiabilidade do serviço, consulte:
 
@@ -82,7 +82,7 @@ O certificado APNS pode ser inválido pelos seguintes motivos:
 
 ## Resolução de falhas na mensagem de push
 
-**Um exemplo**
+**Exemplo**
 
 O exemplo a seguir ilustra como você pode resolver uma falha de push ao usar um VRS.
 
@@ -91,11 +91,11 @@ O seguinte cliente tem dois aplicativos iOS:
 * Nome do aplicativo: PhotoShop_app_iOS
    * RSID principal: AllAdobe PhotoShop_apps
    * VRSID: PhotoShop_iOS_app_SF
-   * Segmento de definição da VRSID: `a.appid contains “PhotoShop_iOS_app_SF”`
+   * Segmento de definição de VRSID: `a.appid contains “PhotoShop_iOS_app_SF”`
 * Nome do aplicativo: PhotoShop_app_iOS
    * RSID principal: AllAdobe PhotoShop_apps
-   * RSID: Photoshop_ iOS_ app_ LA
-   * Segmento de definição da VRSID: `a.os contains “iOS”`
+   * RSID: PhotoShop_iOS_app_LA
+   * Segmento de definição de VRSID: `a.os contains “iOS”`
 
 In this example, if a Photoshop employee sends a push to the *PhotoShop_iOS_app_SF* app, all *PhotoShop_iOS_app_SF app* users receive the push message as expected. But, if the employee sends a message to the *PhotoShop_iOS_app_LA* app, because its VRSID Definition Segment is incorrect (`iOS` instead of `a.os contains "PhotoShop_iOS_app_LA"`), the message is sent to **all** iOS users in *AllAdobe PhotoShop_apps*. Although the message still goes to *PhotoShop_iOS_app_LA* users, the message also blacklists the push IDs for *PhotoShop_iOS_app_SF* users because the *PhotoShop_iOS_app_SF* app has a different certificate. If the segment had been defined as `a.os contains “PhotoShop_iOS_app_LA”`, the push message would have been sent to only *PhotoShop_iOS_app_LA* users.
 
@@ -103,4 +103,4 @@ If passed with the *PhotoShop_IOS_app_LA* push certificate, the push identifiers
 
 >[!CAUTION]
 >
->After you create a push message for an app that is using a VRS and click **[!UICONTROL Save &amp; Send]**, an alert appears that reminds you ensure that each app that is listed **must** have a valid certificate. Caso cada aplicativo **não** tenha um certificado válido, os segmentos de público-alvo talvez sejam adicionados à lista negra indefinidamente e você não pode mais enviar futuras mensagens de push para os usuários afetados. Para obter mais informações sobre os segmentos do público-alvo, consulte [Público: definir e configurar as opções de público-alvo para mensagens de push](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md).
+>After you create a push message for an app that is using a VRS and click **[!UICONTROL Save &amp; Send]**, an alert appears that reminds you ensure that each app that is listed **must** have a valid certificate. Caso cada aplicativo **não** tenha um certificado válido, os segmentos de público-alvo talvez sejam adicionados à lista negra indefinidamente e você não pode mais enviar futuras mensagens de push para os usuários afetados. Para obter mais informações sobre segmentos de público-alvo, consulte [Público-alvo: defina e configure as opções de público-alvo para mensagens](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md)de push.
