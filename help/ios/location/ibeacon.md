@@ -2,10 +2,10 @@
 description: O rastreamento do iBeacon permite medir e segmentar micro locais usando iBeacon e Low Energy Bluetooth.
 seo-description: O rastreamento do iBeacon permite medir e segmentar micro locais usando iBeacon e Low Energy Bluetooth.
 seo-title: Rastreamento iBeacon
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Rastreamento iBeacon
 topic: Desenvolvedor e implementação
-uuid: 390883 db -027 e -4 d 12-8 a 16-86 d 514579 db 1
+uuid: 390883db-027e-4d12-8a16-86d514579db1
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -18,7 +18,7 @@ O rastreamento do iBeacon permite medir e segmentar micro locais usando iBeacon 
 
 Os seguintes dados de beacon são enviados para o Analytics e o Target quando `trackBeacon` é chamado:
 
-* `a.beacon.uuid` - Proximityuuid do beacon
+* `a.beacon.uuid` - ProximityUUID do sinal
 * `a.beacon.major` - Número principal do beacon, como o número da loja
 * `a.beacon.minor` - Número menor do beacon, como um número exclusivo em uma loja
 * `a.beacon.prox` - Os seguintes valores representam a proximidade do usuário com o beacon:
@@ -28,11 +28,11 @@ Os seguintes dados de beacon são enviados para o Analytics e o Target quando `t
    * `2` é perto
    * `3` é longe
 
-## Rastrear ibeacons {#section_FC3F213545944A468B1E6D5D5C8E2F1F}
+## Rastrear iBeacons {#section_FC3F213545944A468B1E6D5D5C8E2F1F}
 
 1. Adicione a biblioteca ao projeto e implemente o ciclo de vida.
 
-   Para obter mais informações, consulte *Adicionar o SDK e o Arquivo de configuração ao projeto* na [Implementação principal e no ciclo de vida](/help/ios/getting-started/dev-qs.md).
+   Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao seu projeto* em Implementação [principal e Ciclo de vida](/help/ios/getting-started/dev-qs.md).
 1. Importe a biblioteca:
 
    ```objective-c
