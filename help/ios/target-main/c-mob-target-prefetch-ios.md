@@ -3,7 +3,7 @@ description: O recurso de busca prévia do Adobe Target usa o SDK móvel do iOS 
 seo-description: O recurso de busca prévia do Adobe Target usa o SDK móvel do iOS para buscar conteúdos em oferta a menor quantidade de vezes possível ao armazenar as respostas do servidor em cache.
 seo-title: Realizar uma busca prévia por conteúdos em oferta no iOS
 title: Realizar uma busca prévia por conteúdos em oferta no iOS
-uuid: fef 58042-65 e 2-4579-b 8 f 1-d 21554 d 2 af 57
+uuid: fef58042-65e2-4579-b8f1-d21554d2af57
 translation-type: tm+mt
 source-git-commit: fa7375ac8a1345d81748bcf635791c46d3943fed
 
@@ -16,7 +16,7 @@ O recurso de busca prévia do Adobe Target usa o SDK móvel do iOS para buscar c
 
 >[!IMPORTANT]
 >
->A funcionalidade de busca prévia nos sdks móveis para iOS não é compatível com tipos de atividades Auto-alvo, Alocação automática e Personalização automatizada no Adobe Target.
+>A funcionalidade de busca prévia nos SDKs móveis para iOS não é compatível com os tipos de atividades de Destino automático, Alocação automática e Personalização automatizada no Adobe Target.
 
 Esse processo reduz o tempo de carregamento, previne várias chamadas de rede e permite que o Adobe Target seja notificado sobre que mbox foi visitada pelo usuário do aplicativo móvel. Todo o conteúdo será recuperado e armazenado em cache durante a chamada da busca prévia, e esse conteúdo será recuperado do cache em todas as chamadas futuras que contenham conteúdo armazenado em cache para o nome da mbox especificado.
 
@@ -39,7 +39,7 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
         }
 ```
 
-## Métodos de busca prévia {#section_05967F1F3A554B0FBC2C08A954554BDE}
+## Prefetch methods {#section_05967F1F3A554B0FBC2C08A954554BDE}
 
 Estes são os métodos que podem ser usados para realizar a busca prévia no iOS:
 
@@ -75,7 +75,7 @@ Estes são os métodos que podem ser usados para realizar a busca prévia no iOS
 
    >[!IMPORTANT]
    >
-   >Se o conteúdo dos locais solicitados já estiver armazenado em cache, ele será retornado imediatamente no retorno de chamada fornecido. Caso contrário, o SDK enviará uma solicitação de rede para que os servidores do Target recuperem o conteúdo.
+   >Se o conteúdo dos locais solicitados já estiver armazenado em cache, ele será retornado imediatamente na chamada de retorno fornecida. Caso contrário, o SDK enviará uma solicitação de rede para que os servidores do Target recuperem o conteúdo.
 
    * Esta é a sintaxe para este método:
 
@@ -136,13 +136,13 @@ Estes são os métodos que podem ser usados para realizar a busca prévia no iOS
 
 Estas são as classes públicas que oferecem suporte para a busca prévia no iOS:
 
-### Referência de classe: Targetprefetchobject
+### Class reference: TargetPreFetchObject
 
 Encapsula o nome e os parâmetros da mbox usados na busca prévia da mbox.
 
 * **`name`**
 
-   Nome para a localização/mbox que você deseja recuperar.
+   Nome do local/mbox que você deseja recuperar.
 
    * **Tipo**: NSString*
 
@@ -164,7 +164,7 @@ Encapsula o nome e os parâmetros da mbox usados na busca prévia da mbox.
 
    * **Tipo**: NSDictionary*
 
-### Referência de classe: Targetrequestobject
+### Referência de classe: TargetRequestObject
 
 Essa classe encapsula o nome da mbox, o conteúdo padrão, os parâmetros da mbox e a função de retorno usada nas solicitações de localização do Target.
 
