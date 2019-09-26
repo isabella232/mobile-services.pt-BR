@@ -2,10 +2,10 @@
 description: 'null'
 keywords: Unity
 seo-description: 'null'
-seo-title: Criação de seu projeto
-solution: Marketing Cloud, desenvolvedor
-title: Criação de seu projeto
-uuid: 5550 a 394-6 f 3 f -4 b 87-b 840-89621 d 8 a 0 c 1 e
+seo-title: Construção do projeto
+solution: Marketing Cloud,Desenvolvedor
+title: Building your project
+uuid: 5550a394-6f3f-4b87-b840-89621d8a0c1e
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -24,7 +24,8 @@ Ao construir para iOS, um Projeto Xcode é criado. Por padrão, os arquivos `ADB
 
 1. In the **[!UICONTROL Build Phases]** tab of your project, add a link to the following libraries:
 
-   * `SystemConfiguration.framework`(Esta biblioteca já pode estar vinculada.)
+   * `SystemConfiguration.framework`
+(This library might be linked already.)
 
    * `libsqlite3.0.dylib`
 
@@ -48,7 +49,7 @@ Adicionar permissões para:
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 ```
 
-Se estiver usando mensagens no aplicativo, adicione a seguinte atividade e receptor:
+Se você estiver usando mensagens no aplicativo, adicione a seguinte atividade e receptor:
 
 ```java
 <activity android:name="com.adobe.mobile.MessageFullScreenActivity"  
@@ -56,7 +57,7 @@ android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 <receiver android:name="com.adobe.mobile.MessageNotificationHandler" /> 
 ```
 
-Se você estiver usando a aquisição, adicione o seguinte receptor:
+If you are using acquisition, add the following receiver:
 
 ```java
 <receiver android:name="com.your.package.name.GPBroadcastReceiver" android:exported="true"> 
