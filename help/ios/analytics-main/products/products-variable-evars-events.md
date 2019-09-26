@@ -2,10 +2,10 @@
 description: Este é um exemplo da variável products com eVars de merchandising e eventos específicos do produto.
 seo-description: Este é um exemplo da variável products com eVars de merchandising e eventos específicos do produto.
 seo-title: Variável products com eVars de merchandising e eventos específicos do produto
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Variável products com eVars de merchandising e eventos específicos do produto
 topic: Desenvolvedor e implementação
-uuid: f 913211 e -97 ad -4237-bfe 4-7 ded 01295 caf
+uuid: f913211e-97ad-4237-bfe4-7ded01295caf
 translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
@@ -36,5 +36,5 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 
 >[!TIP]
 >
->Se você acionar um evento específico do produto usando *`&&products`* a variável, também deverá definir esse evento na *`&&events`* variável. Se você não definir esse evento, ele será filtrado durante o processamento.
+>Se você acionar um evento específico do produto usando a *`&&products`* variável, também deverá definir esse evento na *`&&events`* variável. Se você não definir esse evento, ele será filtrado durante o processamento.
 
