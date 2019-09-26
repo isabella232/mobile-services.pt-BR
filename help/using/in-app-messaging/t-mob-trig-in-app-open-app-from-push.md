@@ -3,7 +3,7 @@ description: É possível definir o acionador de mensagem no aplicativo para ser
 seo-description: É possível definir o acionador de mensagem no aplicativo para ser a ID da mensagem de push que é enviada quando um usuário abre o aplicativo por meio da mensagem de push.
 seo-title: Acionar uma mensagem no aplicativo quando o aplicativo for aberto por uma mensagem de push
 title: Acionar uma mensagem no aplicativo quando o aplicativo for aberto por uma mensagem de push
-uuid: e 1 c 8 e 29 d -1 c 2 b -47 b 2-8 ab 2-6 b 6 e 15 df 86 f 6
+uuid: e1c8e29d-1c2b-47b2-8ab2-6b6e15df86f6
 translation-type: tm+mt
 source-git-commit: 114bce95e41c8e13695689dd2da2dbc04cb17ad7
 
@@ -28,7 +28,7 @@ source-git-commit: 114bce95e41c8e13695689dd2da2dbc04cb17ad7
 
    >[!TIP]
    >
-   >A ID da mensagem de push é a ID que você localiza na etapa 1.
+   >A ID da mensagem de push é a ID localizada na etapa 1.
 
    Este acionador deve ser adicionado manualmente pois não está disponível na lista suspensa **[!UICONTROL Acionador].**
 
