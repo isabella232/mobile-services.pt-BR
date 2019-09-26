@@ -3,10 +3,10 @@ description: Este plug-in permite que você envie chamadas do iOS AppMeasurement
 keywords: phonegap
 seo-description: Este plug-in permite que você envie chamadas do iOS AppMeasurement do seu projeto PhoneGap.
 seo-title: Plug-in PhoneGap
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Plug-in PhoneGap
 topic: Desenvolvedor e implementação
-uuid: f 88 bcf 10-1 f 9 e -4 c 97-b 348-40 db 797 c 9923
+uuid: f88bcf10-1f9e-4c97-b348-40db797c9923
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -30,7 +30,7 @@ Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Ad
 >
 > If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as in-App messaging, push notifications or Acquisition links. Para obter mais informações, consulte [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services).
 
-Para criar um projeto phonegap, consulte [phonegap](https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap.html).
+Para criar um projeto PhoneGap, consulte [PhoneGap](https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap.html).
 
 ## Instalar o plug-in usando npm: {#section_43229E57C16944C0B51531CB92089189}
 
@@ -42,7 +42,7 @@ Para criar um projeto phonegap, consulte [phonegap](https://helpx.adobe.com/expe
 
 ## Instalar o plug-in manualmente {#section_D53BA60D488C4DB8AD2BDF90439C180A}
 
-### Incluir a biblioteca appmeasurement
+### Incluir a biblioteca do AppMeasurement
 
 Para incluir AppMeasurement:
 
@@ -71,7 +71,7 @@ A biblioteca AppMeasurement exige o seguinte:
    1. Selecione **[!UICONTROL Copiar itens na pasta do grupo de destino (se necessário)]**.
    1. Selecione **[!UICONTROL Criar grupos para qualquer pasta adicionada]**.
    1. Selecione os destinos nos quais você deseja usar o código de AppMeasurement e clique em **[!UICONTROL Concluir]**.
-   ![](assets/xcode-settings.png){width = "672"}
+   ![](assets/xcode-settings.png){width="672"}
 
 1. Na guia **[!UICONTROL Criar fases]** do destino do seu projeto, expanda a seção **Link binário com bibliotecas]e adicione as seguintes bibliotecas:[!UICONTROL **
 
