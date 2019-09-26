@@ -1,12 +1,12 @@
 ---
 description: Estas informações ajudam a implementar a biblioteca do Android e coletar medições de ciclo de vida, como lançamentos, atualizações, sessões, usuários envolvidos e assim por diante.
-keywords: android; biblioteca; dispositivos móveis; sdk
+keywords: android;biblioteca;móvel;sdk
 seo-description: Estas informações ajudam a implementar a biblioteca do Android e coletar medições de ciclo de vida, como lançamentos, atualizações, sessões, usuários envolvidos e assim por diante.
 seo-title: Implementação principal e ciclo de vida
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Implementação principal e ciclo de vida
 topic: Desenvolvedor e implementação
-uuid: af 4 d 11 ac -8245-46 a 0-9 b 3 a -4 a 0 a 29 cfbbb 2
+uuid: af4d11ac-8245-46a0-9b3a-4a0a29cfbb2
 translation-type: tm+mt
 source-git-commit: c4da3599c858bfbccb7af954df75f94eb7d8e99a
 
@@ -21,7 +21,7 @@ Estas informações ajudam a implementar a biblioteca do Android e coletar medi�
 
 >[!IMPORTANT]
 >
->Para baixar o SDK, é necessário usar o Android 2.2 ou posterior.
+>Para baixar o SDK, você deve usar o Android 2.2 ou posterior.
 
 1. Conclua as etapas nas seções a seguir para configurar um conjunto de relatórios de desenvolvimento e baixar uma versão já preenchida do arquivo de configuração:
 
@@ -30,7 +30,7 @@ Estas informações ajudam a implementar a biblioteca do Android e coletar medi�
 
 1. Baixe e descompacte o `[Your_App_Name_]AdobeMobileLibrary-4.*-Android.zip` arquivo e verifique se os seguintes componentes de software existem:
 
-   * `adobeMobileLibrary.jar`, que é a biblioteca que será usada com dispositivos e simuladores Android.
+   * `adobeMobileLibrary.jar`, which is the library that will be used with Android devices and simulators.
 
    * `ADBMobileConfig.json`, que é o arquivo de configuração de SDK personalizado para o seu aplicativo.
    >[!IMPORTANT]
@@ -39,7 +39,7 @@ Estas informações ajudam a implementar a biblioteca do Android e coletar medi�
 
 ## Add the SDK and config file to your IntelliJ IDEA or Eclipse project {#section_B89510FBB4C646AEA73A185B966E54D3}
 
-**Projeto intellij IDEA**
+**Projeto IntelliJ IDEA**
 
 Para adicionar o SDK e o arquivo de configuração ao projeto:
 
@@ -53,7 +53,7 @@ Para adicionar o SDK e o arquivo de configuração ao projeto:
 1. Selecione os módulos nos quais planeja usar a biblioteca móvel.
 1. Clique em **[!UICONTROL Aplicar]** e em **[!UICONTROL OK]para fechar a janela Configurações do módulo.**
 
-**Projeto do Eclipse**
+**Projeto Eclipse**
 
 Para adicionar o SDK e o arquivo de configuração ao projeto:
 
@@ -81,7 +81,7 @@ Para adicionar essas permissões, adicione as seguintes linhas no arquivo `Andro
 
 ## Set the application context {#set-application-context}
 
-O código a seguir deve ser adicionado no `onCreate` método da atividade principal:
+O código a seguir deve ser adicionado ao `onCreate` método da atividade principal:
 
 ```java
    @Override
@@ -125,7 +125,7 @@ Após habilitar o ciclo de vida, cada vez que o aplicativo é iniciado uma ocorr
 
 >[!IMPORTANT]
 >
->Você deve adicionar essas chamadas a todas as atividades para garantir relatórios de falhas precisos. Para obter mais informações, consulte [Rastrear falhas](/help/android/analytics-main/crashes.md)do aplicativo.
+>É necessário adicionar essas chamadas a todas as atividades para garantir relatórios de falhas precisos. Para obter mais informações, consulte [Rastrear falhas](/help/android/analytics-main/crashes.md)do aplicativo.
 
 ## Incluir dados adicionais com chamadas de ciclo de vida
 
