@@ -3,10 +3,10 @@ description: Crie um filtro abrangendo vários relatórios para observar o desem
 keywords: mobile
 seo-description: Crie um filtro abrangendo vários relatórios para observar o desempenho de um segmento específico em todos os relatórios de celular. Um filtro fixo permite definir um filtro que é aplicado em todos os relatórios sem definição de caminho.
 seo-title: Adição de filtro fixo
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Adição de filtro fixo
 topic: Relatórios, Métricas
-uuid: f 3935 c 8 a -811 d -4080-8468-b 8850202 dd 1 e
+uuid: f3935c8a-811d-4080-8468-b8850202dd1e
 translation-type: tm+mt
 source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
@@ -19,13 +19,13 @@ Crie um filtro abrangendo vários relatórios para observar o desempenho de um s
 
 O exemplo a seguir adiciona filtros fixos para os sistemas operacionais iOS e Android ao relatório **[!UICONTROL Usuários e sessões], mas as instruções se aplicam a todos os relatórios ou métricas.**
 
-1. Clique no **[!UICONTROL ícone Filtro]** na parte superior de qualquer relatório no Adobe Mobile.
+1. Clique no ícone **[!UICONTROL Filtro]** na parte superior de qualquer relatório no Adobe Mobile.
 
    ![](assets/sticky-filters.png)
 
-1. Na caixa de diálogo Filtro fixo, clique **[!UICONTROL em Adicionar regra]**, selecione **[!UICONTROL Sistemas]** operacionais e, na lista suspensa, selecione **[!UICONTROL iOS]**.
+1. Na caixa de diálogo Filtro fixo, clique em **[!UICONTROL Adicionar regra]**, selecione Sistemas **** operacionais e, na lista suspensa, selecione **[!UICONTROL iOS]**.
 
-   Para adicionar o Android como filtro, repita esta etapa.
+   Para adicionar Android como filtro, repita esta etapa.
 
    ![](assets/sticky2.png)
 
