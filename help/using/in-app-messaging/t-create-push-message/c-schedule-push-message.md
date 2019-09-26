@@ -3,10 +3,10 @@ description: Na interface do usuário do Adobe Mobile Services, é possível age
 keywords: mobile
 seo-description: Na interface do usuário do Adobe Mobile Services, é possível agendar uma mensagem de push para ser entregue imediatamente, mais tarde e como um evento recorrente. Esses eventos podem ser agendados diária, semanal ou mensalmente.
 seo-title: Agendar mensagem de push
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Agendar mensagem de push
 topic: Métricas
-uuid: 6810 e 27 a -016 f -4286-8 fe 2-9972 d 85 fa 326
+uuid: 6810e27a-016f-4286-8fe2-9972d85fa326
 translation-type: tm+mt
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
@@ -19,7 +19,7 @@ Na interface do usuário do Adobe Mobile Services, é possível agendar uma mens
 
 >[!TIP]
 >
->Os usuários podem modificar as configurações de agendamento para uma tarefa de mensagem de push a qualquer momento. Se não houver uma data aplicável para enviar uma mensagem recorrente agendada, por exemplo, uma tarefa mensal recorrente no 31º dia, no dia 31 de fevereiro ou na 5ª terça-feira do mês, nenhuma mensagem será enviada.
+>Os usuários podem modificar as configurações de agendamento de um trabalho de mensagem de push a qualquer momento. Se não houver uma data aplicável para enviar uma mensagem recorrente agendada, por exemplo, uma tarefa mensal recorrente no 31º dia, no dia 31 de fevereiro ou na 5ª terça-feira do mês, nenhuma mensagem será enviada.
 
 Lembre-se das seguintes informações:
 
@@ -59,7 +59,7 @@ Você **deve** compreender as seguintes informações antes de agendar mensagens
 
 ## Schedule a recurring push message {#section_675BD754E5A04423A1751193698A978F}
 
-1. Na página Agendar para uma nova mensagem de push, selecione **[!UICONTROL Programado]** ou **[!UICONTROL Agora]**.
+1. Na página Agendar para uma nova mensagem de push, selecione **[!UICONTROL Agendado]** ou **[!UICONTROL Agora]**.
 
    For more information, see [Create a push message](/help/using/in-app-messaging/t-create-push-message/t-create-push-message.md).
 
@@ -77,7 +77,7 @@ Você **deve** compreender as seguintes informações antes de agendar mensagens
    * **`<Day x>`do mês**
 
       As opções exibidas mudam de acordo com o dia selecionado ou digitado como o dia de início.
-   * **`<nth day>`de cada mês**
+   * **`<nth day>`of Every Month**
 
       O valor exibido muda de acordo com a data que você selecionou ou digitou como a data de início.
 
@@ -88,7 +88,7 @@ Você **deve** compreender as seguintes informações antes de agendar mensagens
 
       Esta opção salva a mensagem no formato de rascunho. Você pode escolher essa opção para salvar uma mensagem não finalizada ou para salvar a mensagem de modo que uma pessoa edite-a e aprove-a antes de ativá-la.
 
-      If you selected **[!UICONTROL Now]** in the previous step, the draft message is sent immediately on activation. Se você selecionou uma data e hora para encaminhar a mensagem, a mensagem é enviada de acordo com essa programação.
+      If you selected **[!UICONTROL Now]** in the previous step, the draft message is sent immediately on activation. Se você selecionou uma data e hora para encaminhar a mensagem, ela será encaminhada de acordo com este agendamento.
 
    * **[!UICONTROL Salvar e agendar]**
 
