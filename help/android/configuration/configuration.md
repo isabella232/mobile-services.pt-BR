@@ -1,20 +1,20 @@
 ---
 description: 'As informações a seguir o ajudam a configurar o Android SDK, incluindo a configuração JSON, o agrupamento da ocorrência e os métodos do SDK '
 seo-description: 'As informações a seguir o ajudam a configurar o Android SDK, incluindo a configuração JSON, o agrupamento da ocorrência e os métodos do SDK '
-seo-title: Visão geral de configuração
-solution: Marketing Cloud, Analytics
-title: Visão geral de configuração
+seo-title: Visão geral da configuração
+solution: Marketing Cloud,Analytics
+title: Configuration overview
 topic: Desenvolvedor e implementação
-uuid: 207 d 6 eae -7 fc 5-449 d-b 92 b-c 2 d 83 e 8 e 82 b 4
+uuid: 207d6eae-7fc5-449d-b92b-c2d83e8e82b4
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ---
 
 
-# Visão geral de configuração {#configuration}
+# Configuration overview {#configuration}
 
-As informações nesta seção ajudam a configurar o Android SDK, incluindo a configuração JSON e o agrupamento de ocorrências, e saiba mais sobre os métodos do SDK.
+As informações nesta seção ajudam a configurar o Android SDK, incluindo a configuração JSON e o agrupamento de ocorrências, e a saber mais sobre os métodos do SDK.
 
 ## Nova versão do SDK da Adobe Experience Cloud
 
