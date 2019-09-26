@@ -1,11 +1,11 @@
 ---
-description: Lista de métodos do Target fornecida pela biblioteca da loja de aplicativos universal do Windows 8.1.
+description: List of Target methods provided by the Windows 8.1 Universal App Store library.
 seo-description: Lista de métodos do Target fornecida pela biblioteca da loja de aplicativos universal do Windows 8.1.
 seo-title: Métodos do Target
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Métodos do Target
 topic: Desenvolvedor e implementação
-uuid: 8 c 35 b 31 c-c 70 b -4 dba -8759-173342 a 301 e 9
+uuid: 8c35b31c-c70b-4dba-8759-173342a301e9
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -24,7 +24,7 @@ O SDK atualmente é compatível com diversas Soluções da Adobe Experience Clou
 >
 >When you consume `winmd` methods from winJS (JavaScript), all methods automatically have their first letter lowercased.
 
-## Referência de classe: Targetlocationrequest
+## Referência de classe: TargetLocationRequest
 
 ### Propriedades
 
@@ -34,7 +34,7 @@ property Platform::String ^defaultContent;
 property Windows::Foundation::Collections::IMap<Platform::String^, Platform::Object^> ^parameters;
 ```
 
-## Constantes da string
+## Constantes de string
 
 Estas informações ajudam a definir chaves para parâmetros personalizados.
 
@@ -68,7 +68,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 }
 ```
 
-* **Loadrequest (winjs: Loadrequest)**
+* **LoadRequest (winJS: loadRequest)**
 
    Sends `request` to your configured Target server and returns the string value of the offer generated in a block `callback`.
 
@@ -87,7 +87,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       });
       ```
 
-* **Createrequest (winjs: Createrequest)**
+* **CreateRequest (winJS: createRequest)**
 
    Cria um objeto `TargetLocationRequest` com os parâmetros fornecidos.
 
@@ -104,7 +104,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       var heroBannerRequest = ADB.Target.createRequest("heroBanner", "default.png", null); 
       ```
 
-* **Createorderconfirmrequest (winjs: Createorderconfirmrequest)**
+* **CreateOrder &#x200B; ConfirmRequest (winJS: createOrder &#x200B; ConfirmRequest)**
 
    Cria um objeto `TargetLocationRequest` com os parâmetros fornecidos.
 
@@ -121,7 +121,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       var orderConfirm = ADB.Target.createOrderConfirmRequest("orderConfirm", "order", "47.88", "3722", null); 
       ```
 
-* **Clearcookies (winjs: Clearcookies)**
+* **ClearCookies (winJS: clearCookies)**
 
    Limpa os cookies do Target do aplicativo no dispositivo atual.
 
@@ -137,7 +137,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       ADBMobile.Target.clearCookies();
       ```
 
-* **Getpcid (winjs: Getpcid)**
+* **GetPcId (winJS: getPcId)**
 
    Retorna o cookie da ID do PC do dispositivo atual.
 
@@ -153,7 +153,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       auto pcId = ADBMobile.Target.getPcId(); 
       ```
 
-* **Getsessionid (winjs: Getsessionid)**
+* **GetSessionId (winJS: getSessionId)**
 
    Retorna o cookie da ID da sessão do dispositivo atual.
 
