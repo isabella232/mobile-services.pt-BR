@@ -1,20 +1,20 @@
 ---
 description: A partir do Android SDK versão 4.5, uma nova extensão do Android permite coletar dados do seu aplicativo Android Wearable.
 seo-description: A partir do Android SDK versão 4.5, uma nova extensão do Android permite coletar dados do seu aplicativo Android Wearable.
-seo-title: Visão geral dos wearables
-solution: Marketing Cloud, Analytics
-title: Visão geral dos wearables
+seo-title: Visão geral do Wearables
+solution: Marketing Cloud,Analytics
+title: Visão geral do Wearables
 topic: Desenvolvedor e implementação
-uuid: f 9 a 5 d 692-0 ef 6-4 cdf -831 e-e 50 be 291 f 083
+uuid: f9a5d692-0ef6-4cdf-831e-e50be291f083
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ---
 
 
-# Visão geral dos wearables {#wearables}
+# Visão geral do Wearables {#wearables}
 
-As informações nesta seção ajudam você a entender como é possível usar a extensão do Android para coletar dados do aplicativo Android Wearable.
+As informações nesta seção ajudam você a entender como usar a extensão do Android para coletar dados do aplicativo Android Wearable.
 
 >[!TIP]
 >
