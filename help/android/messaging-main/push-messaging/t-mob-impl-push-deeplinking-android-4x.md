@@ -3,7 +3,7 @@ description: Depois de configurar o URL de deep linking na interface do usuário
 seo-description: Depois de configurar o URL de deep linking na interface do usuário do Adobe Mobile Services, este URL estará na carga de envio com a chave adb_deeplink.
 seo-title: Implementar mensagens de push com deep linking
 title: Implementar mensagens de push com deep linking
-uuid: e 24 f 9248-8 d 48-4 e 57-84 af -3 a 05 b 72 e 2 a 09
+uuid: e24f9248-8d48-4e57-84af-3a05b72e2a09
 translation-type: tm+mt
 source-git-commit: 13ff2cb549c4b82a4e0285e1c7c6b3f9c1a5bd4b
 
@@ -14,11 +14,11 @@ source-git-commit: 13ff2cb549c4b82a4e0285e1c7c6b3f9c1a5bd4b
 
 Depois de configurar o URL de deep linking na interface do usuário do Adobe Mobile Services, este URL estará na carga de envio com a chave adb_deeplink.
 
-Você pode obter o URL chamando `remoteMessage.getData().get("adb_deeplink")` -o `FirebaseMessagingService`.
+Você pode obter o URL chamando `remoteMessage.getData().get("adb_deeplink")` o `FirebaseMessagingService`.
 
 >[!TIP]
 >
->É possível definir intenções diferentes dependendo da carga ter um URL de deep linking.
+>Você pode definir propósitos diferentes dependendo se a carga tem um URL de deep linking.
 
 1. Conclua uma das seguintes tarefas:
 
