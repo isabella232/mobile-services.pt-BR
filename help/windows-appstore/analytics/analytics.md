@@ -2,10 +2,10 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Analytics
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Analytics
 topic: Desenvolvedor e implementação
-uuid: fa 0 ef 6 c 4-c 04 d -4695-9 eb 4-ada 4 e 9920 e 6 c
+uuid: fa0ef6c4-c04d-4695-9eb4-ada4e9920e6c
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -14,11 +14,11 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 # Analytics {#analytics}
 
-Depois de adicionar a biblioteca ao seu projeto, você pode fazer quaisquer chamadas de método do Analytics em qualquer lugar no aplicativo.
+Depois de adicionar a biblioteca ao seu projeto, você pode fazer qualquer uma das chamadas de método do Analytics em qualquer lugar no aplicativo.
 
 >[!TIP]
 >
->Certifique-se de importar `ADBMobile.h` para a sua classe.
+>Ensure that you import  to your class.`ADBMobile.h`
 
 ## Enable mobile application reports in Analytics {#section_F2F9234009184F20BA36B5CDE872B424}
 
@@ -48,7 +48,7 @@ Periodicamente, novas versões dos relatórios de aplicativo para dispositivos m
 Para coletar métricas de ciclo de vida no aplicativo, adicione chamadas para quando o aplicativo estiver ativado, como mostrado nos exemplos a seguir.
 
 
-### Winjs em default. js
+### WinJS em default.js
 
 
 ```js
@@ -64,7 +64,7 @@ app.oncheckpoint = function (args) {
 }
 ```
 
-### C # em App. xaml. cs
+### C# em App.xaml.cs
 
 ```js
 public App() 
@@ -93,7 +93,7 @@ private void OnSuspending(object sender, SuspendingEventArgs e)
 }
 ```
 
-### C/CX em App. xaml. cpp
+### C/CX em App.xaml.cpp
 
 ```js
 App::App() 
@@ -128,7 +128,7 @@ If `CollectLifecycleData()` is called twice in the same session, then your appli
 ## Events, props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
 
-Se você olhou a Referência do [adbmobile Class e de métodos](/help/windows-appstore/c-configuration/methods.md), talvez você esteja se perguntando onde definir eventos, evars, props, herdeiros e listas. Na versão 4, não é possível atribuir esses tipos de variáveis diretamente no aplicativo. Em vez disso, o SDK usa dados de contexto e regras de processamento de forma a mapear os dados do aplicativo para as variáveis do Analytics para criação de relatórios.
+If you've looked at the ADBMobile Class and Method Reference, you are probably wondering where to set events, eVars, props, heirs, and lists. [](/help/windows-appstore/c-configuration/methods.md) Na versão 4, não é possível atribuir esses tipos de variáveis diretamente no aplicativo. Em vez disso, o SDK usa dados de contexto e regras de processamento de forma a mapear os dados do aplicativo para as variáveis do Analytics para criação de relatórios.
 
 As regras de processamento oferecem diversas vantagens:
 
@@ -147,7 +147,7 @@ As regras de processamento são usadas para copiar os dados enviados nas variáv
 
 [Visão geral das regras de processamento](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
-[Receber autorização para usar regras de processamento](https://helpx.adobe.com/analytics/kb/processing-rules-authorization.html)
+[Receber autorização para usar as regras de processamento](https://helpx.adobe.com/analytics/kb/processing-rules-authorization.html)
 
 Recomendamos agrupar as variáveis de dados de contexto usando “namespaces”; isso o ajudará a manter uma ordem lógica. Por exemplo, se você quiser coletar informações sobre um produto, pode definir as seguintes variáveis:
 
@@ -189,11 +189,11 @@ As variáveis de dados de contexto que definem eventos do incrementador podem te
 
 ## Products variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
-Para definir *`products`* no SDK móvel, é necessário usar uma sintaxe especial. Consulte [Variável de produtos](/help/windows-appstore/analytics/products/products.md).
+Para configurar *`products`* no SDK móvel, é necessário usar uma sintaxe especial. See Products Variable.[](/help/windows-appstore/analytics/products/products.md)
 
 ## (Optional) Enable offline tracking {#section_955B2A03EB854742BDFC4A0A3C287009}
 
-To store hits when the device is offline, you can enable offline tracking in the [ADBMobileConfig.json config](/help/windows-appstore/c-configuration/methods.md). Antes de habilitar o rastreamento offline, preste atenção para os requisitos de carimbo de data e hora descritos na referência do arquivo de configuração.
+To store hits when the device is offline, you can enable offline tracking in the [ADBMobileConfig.json config](/help/windows-appstore/c-configuration/methods.md). Antes de ativar o rastreamento offline, preste atenção aos requisitos de carimbo de data e hora descritos na referência do arquivo de configuração.
 
 ## Geo-location and points of interest {#section_BAD34A8DD013454DB355121316BD7FD4}
 
