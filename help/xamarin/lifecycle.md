@@ -2,10 +2,10 @@
 description: Informações para ajudá-lo a implementar Medições de ciclo de vida para Android. Medições de ciclo de vida são automaticamente coletadas para iOS.
 keywords: Xamarin
 seo-description: Informações para ajudá-lo a implementar Medições de ciclo de vida para Android. Medições de ciclo de vida são automaticamente coletadas para iOS.
-seo-title: Implementar ciclo de vida
-solution: Marketing Cloud, desenvolvedor
-title: Implementar ciclo de vida
-uuid: 6 dccc 12 e -8 b 57-4231-9 c 74-d 47 bc 0 ac 93 ba
+seo-title: Implementar o ciclo de vida
+solution: Marketing Cloud,Desenvolvedor
+title: Implementar o ciclo de vida
+uuid: 6dccc12e-8b57-4231-9c74-d47bc0ac93ba
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -14,7 +14,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 # Implement lifecycle {#implement-lifecycle}
 
-Estas informações ajudam a implementar medições de ciclo de vida para Android.
+Essas informações ajudam a implementar medições de ciclo de vida para Android.
 
 >[!TIP]
 >
@@ -28,7 +28,7 @@ No iOS, as medições de ciclo de vida são coletadas automaticamente.
 
 ## Android
 
-Na atividade principal, defina o contexto do aplicativo para o SDK do Android.
+Na atividade principal, defina o contexto do aplicativo para o Android SDK.
 
 ```java
 protected override void OnCreate (Bundle bundle) 
@@ -39,7 +39,7 @@ protected override void OnCreate (Bundle bundle)
 }
 ```
 
-Em todas as atividades, implemente chamadas de ciclo de vida.
+Em cada atividade, implemente chamadas de ciclo de vida.
 
 ```java
 protected override void OnResume()
