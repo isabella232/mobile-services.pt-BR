@@ -1,11 +1,11 @@
 ---
 description: A geolocalização ajuda a avaliar os dados de localização usando latitude, longitude e pontos de interesse predefinidos em aplicativos do Android.
 seo-description: A geolocalização ajuda a avaliar os dados de localização usando latitude, longitude e pontos de interesse predefinidos em aplicativos do Android.
-seo-title: Localização geográfica e pontos de interesse
-solution: Marketing Cloud, Analytics
-title: Localização geográfica e pontos de interesse
+seo-title: Geolocalização e pontos de interesse
+solution: Marketing Cloud,Analytics
+title: Geolocalização e pontos de interesse
 topic: Desenvolvedor e implementação
-uuid: b 8209370-cbc 4-40 f 9-97 d 8-017 e 2 d 74 a 377
+uuid: b8209370-cbc4-40f9-97d8-017e2d74a377
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -28,19 +28,19 @@ Cada chamada `trackLocation` envia as seguintes informações:
 
 ## Atualização de POI dinâmico {#section_3747B310DD5147E2AAE915E762997712}
 
-A partir da versão 4.2, os POIs são definidos na interface do usuário do Adobe Mobile e sincronizados dinamicamente com o arquivo de configuração do aplicativo. Essa sincronização exige `analytics.poi` uma configuração na configuração JSON [do adbmobile](/help/android/configuration/json-config/json-config.md):
+A partir da versão 4.2, os POIs são definidos na interface do usuário do Adobe Mobile e sincronizados dinamicamente com o arquivo de configuração do aplicativo. Esta sincronização requer uma `analytics.poi` configuração na configuração [ADBMobile JSON](/help/android/configuration/json-config/json-config.md):
 
 ```js
 “analytics.poi”: “https://assets.adobedtm.com/…/yourfile.json”,
 ```
 
-Se não estiver configurado, é necessário baixar uma versão atualizada do arquivo `ADBMobile.json` e adicioná-la ao aplicativo. Para obter mais informações, consulte [Download das ferramentas de SDK e teste](/help/android/getting-started/requirements.md).
+Se não estiver configurado, é necessário baixar uma versão atualizada do arquivo `ADBMobile.json` e adicioná-la ao aplicativo. Para obter mais informações, consulte [Download do SDK e Ferramentas](/help/android/getting-started/requirements.md)de teste.
 
 ## Tracking geo-location and POIs {#section_B1616E400A7548F9A672F97FEC75AE27}
 
 1. Adicione a biblioteca ao projeto e implemente o ciclo de vida.
 
-   Para obter mais informações, consulte *Adicionar o SDK e o Arquivo de configuração ao projeto intellij IDEA ou Eclipse* na [implementação principal e ciclo de vida](/help/android/getting-started/dev-qs.md).
+   Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao projeto* IntelliJ IDEA ou Eclipse na implementação e ciclo de vida [principal](/help/android/getting-started/dev-qs.md).
 
 1. Importe a biblioteca:
 
@@ -57,9 +57,9 @@ Se não estiver configurado, é necessário baixar uma versão atualizada do arq
 
    >[!TIP]
    >
-   >Você pode ligar `trackLocation` a qualquer momento.
+   >Você pode ligar a qualquer `trackLocation` momento.
 
-   You can use location strategies to determine the location that is passed to the `trackLocation` call. Para obter mais informações, consulte [Estratégias de localização do Android](https://developer.android.com/guide/topics/location/strategies.html).
+   You can use location strategies to determine the location that is passed to the `trackLocation` call. Para obter mais informações, consulte Estratégias [de localização do](https://developer.android.com/guide/topics/location/strategies.html)Android.
 
 Além disso, se a localização estiver determinada a estar em um raio de POI definido, uma variável `a.loc.poi` dos dados de contexto é enviada com a ocorrência `trackLocation`, além de ser relatada como um POI nos relatórios do **Detalhamento de localização**. Uma variável de contexto `a.loc.dist` também é enviada com a distância em metros a partir das coordenadas definidas.
 
