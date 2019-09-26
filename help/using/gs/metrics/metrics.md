@@ -3,10 +3,10 @@ description: É possível medir diferentes métricas usando o Adobe Mobile e col
 keywords: mobile
 seo-description: É possível medir diferentes métricas usando o Adobe Mobile e coletando as métricas que você deseja acompanhar para o seu aplicativo.
 seo-title: Métricas do Mobile
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Métricas do Mobile
 topic: Métricas
-uuid: c 4457 f 4 a -9 d 1 c -4 fe 9-ad 4 a -9 eb 2 e 37 feab 7
+uuid: c4457f4a-9d1c-4fe9-ad4a-9eb2e37feab7
 translation-type: tm+mt
 source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
@@ -31,7 +31,7 @@ Os seguintes tipos de métricas são medidos:
 
 * **Receita**
 
-   É possível exibir a receita coletada por app stores e receita medida diretamente usando eventos de compra no aplicativo. Other cart metrics are available by [Customize Reports](/help/using/usage/reports-customize/reports-customize.md).
+   Você pode exibir a receita coletada pelas app stores e a receita medida diretamente com os eventos de compra no aplicativo. Other cart metrics are available by [Customize Reports](/help/using/usage/reports-customize/reports-customize.md).
 
 * **Eventos do aplicativo**
 
@@ -43,7 +43,7 @@ Os seguintes tipos de métricas são medidos:
 
 * **Localidade e pontos de interesse**
 
-   Se o GeoReporting estiver habilitado no seu conjunto de relatórios do Analytics, vários relatórios baseados em local estarão disponíveis. No Wi-Fi, a precisão do georeporting é semelhante à de um navegador da Web para desktop. Em uma conexão de dados, a precisão varia com base no provedor e em como as solicitações são roteadas.
+   Se o GeoReporting estiver habilitado no seu conjunto de relatórios do Analytics, vários relatórios baseados em local estarão disponíveis. On Wi-Fi, GeoReporting accuracy is similar to that of a desktop web browser. Em uma conexão de dados, a precisão varia com base no provedor e em como as solicitações são roteadas.
 
    Para maior precisão, você também pode adicionar o rastreamento da localização e de pontos de interesse ao seu aplicativo. Essas opções permitem relatar dados detalhados de latitude e longitude e usar cerca virtual geográfica para determinar quando um usuário está no raio de um ponto de interesse pré-definido.
 
