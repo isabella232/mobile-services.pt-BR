@@ -1,11 +1,11 @@
 ---
 description: Essas informações ajudam a entender como as falhas são rastreadas e as práticas recomendadas para lidar com falsas falhas.
 seo-description: Essas informações ajudam a entender como as falhas são rastreadas e as práticas recomendadas para lidar com falsas falhas.
-seo-title: Rastreamento de falhas do aplicativo
-solution: Marketing Cloud, Analytics
+seo-title: Rastrear falhas do aplicativo
+solution: Marketing Cloud,Analytics
 title: Rastreamento de falhas do aplicativo
 topic: Desenvolvedor e implementação
-uuid: 4 f 81988 b -198 a -4 ba 9-ad 53-78 af 90 e 43856
+uuid: 4f81988b-198a-4ba9-ad53-78af90e43856
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -18,7 +18,7 @@ Essas informações ajudam a entender como as falhas são rastreadas e as práti
 
 >[!IMPORTANT]
 >
->Você deve atualizar para o SDK do iOS versão 4.8.6, que contém alterações essenciais que impedem que falhas falsas sejam relatadas.
+>Você deve atualizar para o iOS SDK versão 4.8.6, que contém alterações críticas que impedem que falhas falsas sejam relatadas.
 
 ## Quando a Adobe relata uma falha?
 
@@ -44,7 +44,7 @@ Os seguintes cenários são conhecidos por causar o falso relato de uma falha pe
 
    >[!TIP]
    >
-   >Você pode evitar uma falha neste cenário colocando o aplicativo em segundo plano antes de iniciar o aplicativo novamente no Xcode.
+   >Você pode evitar uma falha nesse cenário colocando o aplicativo em segundo plano antes de iniciá-lo novamente a partir do Xcode.
 
 * If your app is in the background and sends Analytics hits through a call other than `trackActionFromBackground`, `trackLocation`, or `trackBeacon`, and the app is terminated (manually or by the OS) while in the background, and the next launch will be a crash.
 
@@ -66,5 +66,5 @@ As seguintes práticas podem ajudá-lo a evitar que falhas falsas sejam relatada
 * Certifique-se de executar o seu desenvolvimento contra conjuntos de relatórios de não produção, o que deve evitar a ocorrência da falha falsa número 1.
 * Não exclua nem modifique quaisquer valores que o SDK do Adobe Mobile coloque em `NSUserDefaults`.
 
-   Se esses valores forem modificados fora do SDK, os dados relatados serão inválidos.
+   Se esses valores forem modificados fora do SDK, os dados reportados serão inválidos.
 
