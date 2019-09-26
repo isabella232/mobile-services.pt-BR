@@ -22,7 +22,7 @@ O iOS SDK 4.x para as soluções da Experience Cloud permite avaliar aplicativos
 
 >[!IMPORTANT]
 >
->The iOS SDK 4.x for Experience Cloud Solutions is now supports [iOS 13 and Xcode 11](https://developer.apple.com/ios/). To ensure seamless compatibility, use the latest versions of the 4.x iOS SDKs. For more information about the latest version, see the [release notes](/help/ios/rel-notes.md).
+>O iOS SDK 4.x para Soluções da Experience Cloud agora é compatível com [iOS 13 e Xcode 11](https://developer.apple.com/ios/). Para garantir compatibilidade perfeita, use as versões mais recentes dos SDKs 4.x do iOS. Para obter mais informações sobre a versão mais recente, consulte as notas [de](/help/ios/rel-notes.md)versão.
 
 ## Nova versão do SDK da Adobe Experience Cloud
 
@@ -51,7 +51,7 @@ Algumas informações para lembrar:
 
 ## Documentação do usuário do Adobe Mobile {#section_7583FD5FDED143619048E9744A3F2D21}
 
-O Adobe Mobile Services apresenta uma nova interface do usuário que reúne recursos de marketing para aplicativos para dispositivos móveis em toda a Adobe Experience Cloud. Inicialmente, o Mobile Service fornece integração perfeita entre os recursos de análise e segmentação de aplicativos das soluções do Adobe Analytics, Adobe Audience Manager e Adobe Target e Adobe Experience Platform Identity Service.
+O Adobe Mobile Services apresenta uma nova interface do usuário que reúne recursos de marketing para aplicativos para dispositivos móveis em toda a Adobe Experience Cloud. Initially, the Mobile service provides seamless integration of app analytics and targeting capabilities from the Adobe Analytics, Adobe Audience Manager, and Adobe Target solutions, and Adobe Experience Platform Identity Service.
 
 Para saber mais sobre a interface do usuário do Adobe Mobile Services e ler a documentação do usuário, consulte [Adobe Mobile Services](/help/using/home.md).
 
