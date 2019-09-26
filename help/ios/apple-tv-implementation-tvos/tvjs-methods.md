@@ -2,10 +2,10 @@
 description: Esta é uma lista de métodos TVJS fornecidos pela biblioteca tvOS.
 seo-description: Esta é uma lista de métodos TVJS fornecidos pela biblioteca tvOS.
 seo-title: Métodos TVJS
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Métodos TVJS
 topic: Desenvolvedor e implementação
-uuid: a 7 bfa 85 a -0 d 6 e -4 f 51-9 a 9 e -70429 c 2 a 9806
+uuid: a7bfa85a-0d6e-4f51-9a9e-70429c2a9806
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -66,9 +66,9 @@ Esta é uma lista de métodos TVJS fornecidos pela biblioteca tvOS.
 
    Define o status de privacidade do usuário atual para um dos seguintes valores:
 
-   * `ADBMobilePrivacyStatusOptIn`: As ocorrências são enviadas imediatamente.
-   * `ADBMobilePrivacyStatusOptOut`: As ocorrências são descartadas.
-   * `ADBMobilePrivacyStatusUnknown`: Se o rastreamento offline estiver ativado, as ocorrências serão salvas até o status de privacidade ser alterado para opt-in (as ocorrências são enviadas) ou opt-out (as ocorrências são descartadas).
+   * `ADBMobilePrivacyStatusOptIn`: Hits are sent immediately.
+   * `ADBMobilePrivacyStatusOptOut`: Hits are discarded.
+   * `ADBMobilePrivacyStatusUnknown`: Se o rastreamento offline estiver ativado, as ocorrências serão salvas até o status de privacidade ser alterado para aceitar (as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas).
    Se o rastreamento offline não estiver ativado, as ocorrências são descartadas até o status de privacidade ser alterado para aceitar.
 
    * Esta é a sintaxe para este método:
@@ -108,7 +108,7 @@ Esta é uma lista de métodos TVJS fornecidos pela biblioteca tvOS.
 
    >[!IMPORTANT]
    >
-   >Se seu aplicativo for atualizado do SDK 3. x da Experience Cloud para o 4. x, a ID de visitante personalizada ou gerada automaticamente anterior será recuperada e armazenada como o identificador do usuário personalizado. Isso preserva os dados dos visitantes entre as atualizações de SDK. Para novas instalações no SDK 4.x, o identificador do usuário é nil até sua definição.
+   >If your app upgrades from the Experience Cloud 3.x to 4.x SDK, the previous custom or automatically generated visitor ID is retrieved and stored as the custom user identifier. Isso preserva os dados dos visitantes entre as atualizações de SDK. Para novas instalações no SDK 4.x, o identificador do usuário é nil até sua definição.
 
    * Esta é a sintaxe para este método:
 
@@ -149,11 +149,11 @@ Esta é uma lista de métodos TVJS fornecidos pela biblioteca tvOS.
 
 * **setAdvertisingIdentifier**
 
-   Define o IDFA no SDK e, se tiver sido definido no SDK, o IDFA é enviado no ciclo de vida. O IDFA também pode ser acessado em Sinais (Postbacks).
+   Define o IDFA no SDK e, se ele tiver sido definido no SDK, o IDFA será enviado no ciclo de vida. O IDFA também pode ser acessado em Sinais (Postbacks).
 
    >[!IMPORTANT]
    >
-   >Recupere o IDFA das apis da Apple somente se estiver usando um serviço de anúncios. Se você recuperar o IDFA e não o utilizar corretamente, seu aplicativo poderá ser rejeitado.
+   >Retrieve the IDFA from Apple APIs only if you are using an ad service. Se você recuperar o IDFA e não o utilizar corretamente, seu aplicativo poderá ser rejeitado.
 
    * Esta é a sintaxe para este método:
 
@@ -204,7 +204,7 @@ Esta é uma lista de métodos TVJS fornecidos pela biblioteca tvOS.
 
    >[!TIP]
    >
-   >Esta é a única chamada de rastreamento que aumenta as exibições de página.
+   >This is the only tracking call that increments page views.
 
    * Esta é a sintaxe para este método:
 
@@ -368,7 +368,7 @@ Esta é uma lista de métodos TVJS fornecidos pela biblioteca tvOS.
 
    Encerra uma ação programada.
 
-   Se você fornecer uma função de retorno de chamada, poderá acessar os valores de tempo finais. Se nenhum retorno de chamada for fornecido, ou se o retorno de chamada retornar verdadeiro, o SDK da Adobe enviará automaticamente uma ocorrência. Quando um falso é retornado do retorno de chamada, a ação cronometrada é suprimida.
+   Se você fornecer uma função de retorno de chamada, poderá acessar os valores de tempo finais. Se nenhum retorno de chamada for fornecido, ou se o retorno de chamada retornar verdadeiro, o SDK da Adobe enviará automaticamente uma ocorrência. Quando um falso é retornado do retorno de chamada, a ocorrência da ação cronometrada é suprimida.
 
    * Esta é a sintaxe para este método:
 
@@ -410,7 +410,7 @@ Esta é uma lista de métodos TVJS fornecidos pela biblioteca tvOS.
       * Retorna: Bool
       * Parâmetro: `name`
          * Tipo: `String`
-         * Nome da ação cronometrada para a qual você precisa verificar.
+         * Nome da ação cronometrada para a qual você precisa verificar a existência.
    * Esta é a amostra de código para este método:
 
 
@@ -427,7 +427,7 @@ Esta é uma lista de métodos TVJS fornecidos pela biblioteca tvOS.
 
    >[!TIP]
    >
-   >Se seu aplicativo for atualizado do SDK 3. x da Experience Cloud para o 4. x, a ID de visitante personalizada ou gerada automaticamente anterior será recuperada e armazenada como o identificador do usuário personalizado. Isso preserva os dados dos visitantes entre as atualizações de SDK. Para novas instalações no SDK 4.x, o identificador do usuário é `nil` e o identificador de rastreamento é usado. Para obter mais informações, consulte a linha userIdentifier abaixo.
+   >Se seu aplicativo for atualizado do SDK 3.x da Experience Cloud para o 4.x, a ID de visitante personalizada ou gerada automaticamente anterior será recuperada e armazenada como o identificador de usuário personalizado. Isso preserva os dados dos visitantes entre as atualizações de SDK. Para novas instalações no SDK 4.x, o identificador do usuário é `nil` e o identificador de rastreamento é usado. Para obter mais informações, consulte a linha userIdentifier abaixo.
 
    * Esta é a sintaxe para este método:
 
@@ -692,7 +692,7 @@ Esta é uma lista de métodos TVJS fornecidos pela biblioteca tvOS.
          * Identificadores para sincronização com o serviço de ID para este usuário.
       * Parâmetro: `authState`
          * Tipo: ADBMobileVisitorAuthenticationState
-         * O estado de autenticação do usuário e os valores possíveis incluem:
+         * O estado de autenticação do usuário e os possíveis valores incluem:
             * `ADBMobileVisitorAuthenticationStateUnknown`
             * `ADBMobileVisitorAuthenticationStateAuthenticated`
             * `ADBMobileVisitorAuthenticationStateLoggedOut`
@@ -722,8 +722,7 @@ Esta é uma lista de métodos TVJS fornecidos pela biblioteca tvOS.
          * Tipo: `String`
          * Valor do identificador que você está sincronizando.
       * Parâmetro: `authState`
-         * Tipo: Estado de Autenticação adbmobilevisitorauthenticationstate
-do usuário. Os valores possíveis incluem:
+         * Tipo: Estado ADBMobileVisitorAuthenticationStateAuthentication do usuário. Os valores possíveis incluem:
             * `ADBMobileVisitorAuthenticationStateUnknown`
             * `ADBMobileVisitorAuthenticationStateAuthenticated`
             * `ADBMobileVisitorAuthenticationStateLoggedOut`
@@ -799,10 +798,9 @@ do usuário. Os valores possíveis incluem:
          * Tipo: `String`
          * A ID de terceiros a usar para solicitações de destino.
    * Esta é a amostra de código para este método:
-
-      ```objective-c
-      ADBMobile.targetSetThirdPartyID(‘thirdPartyID’);
-      ```
+   ```objective-c
+   ADBMobile.targetSetThirdPartyID(‘thirdPartyID’);
+   ```
 
 * **targetPcID**
 
