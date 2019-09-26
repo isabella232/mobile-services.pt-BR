@@ -1,12 +1,12 @@
 ---
 description: Essas informações ajudam a migrar das versões 3.x ou 2.x da biblioteca do Android para a versão 4.x.
-keywords: android; biblioteca; dispositivos móveis; sdk
+keywords: android;library;mobile;sdk
 seo-description: Essas informações ajudam a migrar das versões 3.x ou 2.x da biblioteca do Android para a versão 4.x.
 seo-title: Migrar para a biblioteca do Android 4.x
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Migrar para a biblioteca do Android 4.x
 topic: Desenvolvedor e implementação
-uuid: 906 e 83 bb -2 faf -4 aa 2-ac 9 b -3 fba 6 b 833 c 7 e
+uuid: 906e83bb-2faf-4aa2-ac9b-3fba6b833c7e
 translation-type: tm+mt
 source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
@@ -80,7 +80,7 @@ As tabelas a seguir listam as variáveis de configuração que você precisa mov
 
 ### Migrar da versão 3.x
 
-Para migrar da versão 3. x para 4, mova o valor da variável/método de configuração para a `ADBMobileConfig.json` variável.
+Para migrar da versão 3.x para a 4, mova o valor da variável/método de configuração para a `ADBMobileConfig.json` variável.
 
 | Variável ou método de configuração | Variable in the `ADBMobileConfig.json` file |
 |--- |--- |
@@ -96,7 +96,7 @@ Para migrar da versão 3. x para 4, mova o valor da variável/método de configu
 
 ### Migrar da versão 2.x
 
-Para migrar da versão 2. x para a versão 4, mova o valor da primeira coluna para a variável na segunda coluna.
+Para migrar da versão 2.x para a 4, mova o valor da primeira coluna para a variável na segunda coluna.
 
 | Variável de configuração | Variable in the `ADBMobileConfig.json` file |
 | --- |--- |
@@ -122,15 +122,15 @@ Para migrar da versão 2. x para a versão 4, mova o valor da primeira coluna pa
 
 Em vez de usar as chamadas focadas na Web `track` e `trackLink`, o SDK versão 4 usa os seguintes métodos:
 
-* `trackState`, que são as exibições disponíveis no aplicativo, como `home dashboard`, `app settings`etc `cart`.
+* `trackState`, que são as exibições disponíveis no aplicativo, como `home dashboard`, `app settings`, `cart`etc.
 
    Esses estados são semelhantes às páginas em um site e as chamadas de `trackState` aumentam as exibições de página.
 
-* `trackAction` ações, como `logons`, `banner taps`e `feed subscriptions`assim por diante, que ocorrem no aplicativo e que você deseja medir.
+* `trackAction` ações, como `logons`, `banner taps`, `feed subscriptions`etc., que ocorrem no aplicativo e que você deseja avaliar.
 
-`contextData` O parâmetro para ambos os métodos é a `HashMap<String, Object>`, que contém os pares de nome-valor enviados como dados de contexto.
+The `contextData` parameter for both of these methods is a `HashMap<String, Object>`, which contains the name-value pairs that are sent as context data.
 
-## Eventos, props e evars
+## Eventos, props e eVars
 
 Na versão 4, não é mais possível designar variáveis como eventos, eVars, propriedades, herdeiros e listas diretamente no aplicativo. O SDK agora usa dados de contexto e regras de processamento para mapear os dados do seu aplicativo para variáveis do Analytics para gerar relatórios.
 
@@ -140,15 +140,15 @@ As regras de processamento fornecem as seguintes vantagens:
 * Como alternativa, use nomes significativos para os dados em vez de configurar variáveis específicas para um conjunto de relatórios.
 * Há pouco impacto no envio de dados adicionais.
 
-   Esses valores não aparecerão nos relatórios até que sejam mapeados usando as regras de processamento. Para obter mais informações, consulte [Regras de processamento e Dados de contexto](/help/android/getting-started/proc-rules.md).
+   Esses valores não aparecerão nos relatórios até que sejam mapeados usando as regras de processamento. Para obter mais informações, consulte Regras [de processamento e Dados](/help/android/getting-started/proc-rules.md)de contexto.
 
 Values that you were assigning directly to variables should be added to the `data` HashMap. This means that calls to `setProp`, `setEvar`, and assignments to persistent context data should be removed and the values be added to the `data` parameter.
 
-## Appsection/server, geozip, ID da transação, campanha e outras variáveis padrão
+## AppSection/server, GeoZip, transaction ID, Campaign, and other standard variables
 
 Data that you were setting on the measurement object, including the variables listed above, should be added to the `data` HashMap. Os únicos dados enviados com uma chamada `trackState` ou `trackAction` são a carga no parâmetro `data`.
 
-### Substituir chamadas de rastreamento
+### Replace tracking calls
 
 Substitua os seguintes métodos com uma chamada para `trackState` ou `trackAction`:
 
