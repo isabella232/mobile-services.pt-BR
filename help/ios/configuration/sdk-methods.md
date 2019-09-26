@@ -2,10 +2,10 @@
 description: Esta é uma lista de métodos fornecidos pela biblioteca do iOS.
 seo-description: Esta é uma lista de métodos fornecidos pela biblioteca do iOS.
 seo-title: Métodos de configuração
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Métodos de configuração
 topic: Desenvolvedor e implementação
-uuid: 623 c 7 b 07-fbb 3-4 d 39-a 5 c 4-e 64 faec 4 ca 29
+uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -16,7 +16,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 Esta é uma lista de métodos fornecidos pela biblioteca do iOS.
 
-O SDK atualmente tem suporte para várias Soluções da Adobe Experience Cloud, incluindo Analytics, Target, Audience Manager e Adobe Experience Platform Identity Service.
+O SDK suporta atualmente várias Soluções da Adobe Experience Cloud, incluindo o Analytics, o Target, o Audience Manager e o Adobe Experience Platform Identity Service.
 
 * **setAppExtensionType**
 
@@ -124,7 +124,7 @@ O valor padrão está definido no arquivo `ADBMobileConfig.json`.
 
    >[!TIP]
    >
-   >Se o aplicativo for atualizado do Experience Cloud 3. x para o SDK 4. x, a ID de visitante personalizada ou gerada automaticamente anterior será recuperada e armazenada como o identificador do usuário personalizado. Para obter mais informações, consulte a linha `userIdentifier` abaixo. Isso preserva os dados dos visitantes entre as atualizações de SDK. Para novas instalações no SDK 4.x, o identificador do usuário é `nil` e o identificador de rastreamento é usado.
+   >Se seu aplicativo for atualizado do Experience Cloud 3.x para o SDK 4.x, a ID de visitante personalizada ou gerada automaticamente anterior será recuperada e armazenada como o identificador de usuário personalizado. Para obter mais informações, consulte a linha `userIdentifier` abaixo. Isso preserva os dados dos visitantes entre as atualizações de SDK. Para novas instalações no SDK 4.x, o identificador do usuário é `nil` e o identificador de rastreamento é usado.
 
    * Esta é a sintaxe para este método:
 
@@ -144,7 +144,7 @@ O valor padrão está definido no arquivo `ADBMobileConfig.json`.
 
    >[!TIP]
    >
-   >Se seu aplicativo for atualizado do SDK 3. x da Experience Cloud para o 4. x, a ID de visitante personalizada ou gerada automaticamente anterior será recuperada e armazenada como o identificador do usuário personalizado. Isso preserva os dados do visitante entre as atualizações de SDK.
+   >Se seu aplicativo for atualizado do SDK 3.x da Experience Cloud para o 4.x, a ID de visitante personalizada ou gerada automaticamente anterior será recuperada e armazenada como o identificador de usuário personalizado. Isso preserva os dados do visitante entre as atualizações de SDK.
 
    Para novas instalações do SDK 4.x, o identificador do usuário é `nil` até que seja definido.
 
@@ -214,7 +214,7 @@ O valor padrão está definido no arquivo `ADBMobileConfig.json`.
 
    >[!TIP]
    >
-   >Este método deve ser usado para aplicativos que realizam registros para receber notificações enquanto são executados em segundo plano e só deve ser chamado a partir do código executado enquanto o aplicativo está em segundo plano.
+   >Este método é destinado a aplicativos que se registram para receber notificações enquanto estão em segundo plano e só deve ser chamado a partir do código executado enquanto o aplicativo está em segundo plano.
 
    * Esta é a sintaxe para este método:
 
