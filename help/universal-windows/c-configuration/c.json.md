@@ -1,18 +1,18 @@
 ---
 description: Informações para ajudá-lo a usar o arquivo de configurações JSON do ADBMobile.
 seo-description: Informações para ajudá-lo a usar o arquivo de configurações JSON do ADBMobile.
-seo-title: Configuração adbmobileconfig. json
-solution: Marketing Cloud, Analytics
-title: Configuração adbmobileconfig. json
+seo-title: ADBMobileConfig.json config
+solution: Marketing Cloud,Analytics
+title: Configuração ADBMobileConfig.json
 topic: Desenvolvedor e implementação
-uuid: cbcb 54 a 3-4 b 8 f -4651-8 ce 9-2731 ac 988545
+uuid: cbcb54a3-4b8f-4651-8ce9-2731ac988545
 translation-type: tm+mt
 source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
 ---
 
 
-# Arquivo de configuração adbmobileconfig. json {#adbmobileconfig-json-config}
+# Arquivo de configuração ADBMobileConfig.json {#adbmobileconfig-json-config}
 
 Informações para ajudá-lo a usar o arquivo de configurações JSON do ADBMobile.
 
@@ -40,7 +40,7 @@ O SDK atualmente é compatível com diversas Soluções da Adobe Experience Clou
 
 * **charset**
 
-   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte [s. charset](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html).
+   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte [s.charSet](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html).
 
 * **ssl**
 
@@ -66,7 +66,7 @@ O SDK atualmente é compatível com diversas Soluções da Adobe Experience Clou
 
    Envia as ocorrências em lotes.
 
-   For example, if set to `50`, hits are queued until 50 are stored, then all queued hits are sent. Requer `offlineEnabled=true`, e o valor padrão é `0` (Sem lotes).
+   For example, if set to `50`, hits are queued until 50 are stored, then all queued hits are sent. Exige `offlineEnabled=true`e o valor padrão é `0` (Sem agrupamento).
 
 * **privacyDefault**
 
@@ -76,7 +76,7 @@ O SDK atualmente é compatível com diversas Soluções da Adobe Experience Clou
    * `optedout` - as ocorrências serão descartadas.
    * `optunknown` - Se o conjunto de relatórios estiver habilitado para mostrar o carimbo de data e hora, as ocorrências serão salvas até o status de privacidade ser alterado para opt-in (as ocorrências são enviadas) ou opt-out (as ocorrências são descartadas). Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in.
 
-      Isso define apenas o valor padrão. Se este valor for definido ou alterado no código, então o valor definido pelo código é salvo no armazenamento local e é usado dali em diante até que seja alterado ou o aplicativo seja desinstalado e depois reinstalado.
+      Isso define somente o valor padrão. Se este valor for definido ou alterado no código, então o valor definido pelo código é salvo no armazenamento local e é usado dali em diante até que seja alterado ou o aplicativo seja desinstalado e depois reinstalado.
 
       O valor padrão é `optedin`.
 
@@ -84,7 +84,7 @@ O SDK atualmente é compatível com diversas Soluções da Adobe Experience Clou
 
    Cada matriz de POI contém o nome do POI, a latitude, a longitude e o raio (em metros) para a área do ponto. O nome do POI pode ser qualquer cadeia de caracteres. Quando uma chamada `trackLocation` é enviada, se as coordenadas atuais estão dentro de um POI definido, uma variável de dados de contexto é preenchida e enviada com a chamada `trackLocation`.
 
-   * Esta é a amostra de código para esta variável:
+   * Here is the code sample for this variable:
 
       ```js
        "poi" [ 
