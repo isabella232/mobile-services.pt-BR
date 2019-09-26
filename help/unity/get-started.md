@@ -3,9 +3,9 @@ description: Este plug-in permite o envio de chamadas do Adobe Analytics por mei
 keywords: Unity
 seo-description: Este plug-in permite o envio de chamadas do Adobe Analytics por meio dos aplicativos Unity.
 seo-title: Plug-in Unity para SDKs 4.x de iOS e de Android
-solution: Marketing Cloud, desenvolvedor
+solution: Marketing Cloud,Desenvolvedor
 title: Plug-in Unity para SDKs 4.x de iOS e de Android
-uuid: 83289 a 73-982 d -4472-a 8 c 8-00 b 562 dc 80 f 5
+uuid: 83289a73-982d-4472-a8c8-00b562dc80f5
 translation-type: tm+mt
 source-git-commit: 5fbba02eb61679344f638b6465e47b0d9ae5a988
 
