@@ -3,10 +3,10 @@ description: O relatório de Funil permite identificar onde os clientes abandona
 keywords: mobile
 seo-description: O relatório de Funil permite identificar onde os clientes abandonaram uma campanha de marketing ou foram desviados de um caminho de conversão definido ao interagirem com o aplicativo móvel. Você também pode usar o relatório Funil para comparar ações de segmentos diferentes.
 seo-title: Relatório de funil
-solution: Marketing Cloud, Analytics
-title: Relatório de funil
+solution: Marketing Cloud,Analytics
+title: Funnel report
 topic: Relatórios, Métricas
-uuid: 268 b 4 ab 9-2 e 29-4423-9 f 79-ad 93 f 5231 ede
+uuid: 268b4ab9-2e29-4423-9f79-ad93f5231ede
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -23,7 +23,7 @@ Quando você abre o relatório **[!UICONTROL Funil], deve criar um funil persona
 
 >[!TIP]
 >
->Para salvar o funil personalizado, salve o URL após definir suas configurações e executar o relatório. Você pode compartilhar o URL ou salvá-lo em um documento.
+>To save your custom funnel, save the URL after you configure its settings and run the report. Você pode compartilhar o URL ou salvá-lo em um documento.
 
 Este é um exemplo desse relatório:
 
@@ -53,7 +53,7 @@ Você pode configurar as seguintes opções no relatório:
    Personalize seus relatórios alterando as opções **[!UICONTROL Mostrar por], adicionando métricas e filtros e adicionando séries (métricas) e muito mais.** For more information, see [Customize Reports](/help/using/usage/reports-customize/reports-customize.md).
 * **[!UICONTROL Filtro]**
 
-   Clique em **[!UICONTROL Filtro]para criar um filtro que abrange vários relatórios e observar o desempenho de um segmento específico em todos os relatórios móveis.** Um filtro fixo permite definir um filtro aplicado a todos os relatórios não relacionados à definição de caminho. Para obter mais informações, consulte [Adicionar filtro fixo](/help/using/usage/reports-customize/t-sticky-filter.md).
+   Clique em **[!UICONTROL Filtro]para criar um filtro que abrange vários relatórios e observar o desempenho de um segmento específico em todos os relatórios móveis.** Um filtro fixo permite definir um filtro aplicado a todos os relatórios não relacionados à definição de caminho. Para obter mais informações, consulte [Adicionar filtro](/help/using/usage/reports-customize/t-sticky-filter.md)fixo.
 * **[!UICONTROL Baixar]**
 
    Click **[!UICONTROL PDF]** or **[!UICONTROL CSV]** to download or open documents and share with users who do not have access to Mobile Services or to use the file in presentations.
