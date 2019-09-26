@@ -1,12 +1,12 @@
 ---
 description: Estas informações ajudam a fazer uma viagem de ida e volta no link da campanha de aquisição da versão 3 em um dispositivo Android.
-keywords: android; biblioteca; dispositivos móveis; sdk
+keywords: android;biblioteca;móvel;sdk
 seo-description: Estas informações ajudam a fazer uma viagem de ida e volta no link da campanha de aquisição da versão 3 em um dispositivo Android.
 seo-title: Testar a Aquisição versão 3
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Testar a Aquisição versão 3
 topic: Desenvolvedor e implementação
-uuid: 5 e 38 b 43 d -389 e -4412-99 e 5-3 e 6223 b 6 ad 28
+uuid: 5e38b43d-389e-4412-99e5-3e6223b6ad28
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -19,13 +19,13 @@ Estas informações ajudam a fazer uma viagem de ida e volta no link da campanha
 
 >[!IMPORTANT]
 >
->A aquisição em V 3 refere-se aos links de aquisição criados com o Criador de aquisições na interface do usuário do Adobe Mobile Services. Para usar este recurso, é necessário atualizar para o Android SDK 4.x para Soluções da Experience Cloud 4.6.0 ou posteriores.
+>Aquisição na V3 refere-se aos links de aquisição criados com o Criador de aquisições na interface do usuário do Adobe Mobile Services. Para usar este recurso, é necessário atualizar para o Android SDK 4.x para Soluções da Experience Cloud 4.6.0 ou posteriores.
 
 Se o aplicativo móvel ainda não estiver no Google Play, ao criar o link de campanha é possível selecionar qualquer aplicativo móvel como destino. Essa ação só afeta o aplicativo ao qual o servidor da aquisição te direciona após clicar no link de aquisição, mas não afeta a capacidade de testar o link. Os parâmetros da cadeia de caracteres de consulta são passados para a Google Play store, que é passada para o aplicativo na instalação como parte de uma difusão de campanha. A viagem de ida e volta do teste de aquisição do aplicativo móvel requer uma simulação desse tipo de difusão.
 
 The app must be freshly installed, or have data cleared in **[!UICONTROL Settings]**, each time a test is run. Isso garante que as medições de ciclo de vida inicial associadas aos parâmetros de cadeia de caracteres de consulta da campanha sejam enviadas quando o aplicativo é inicializado pela primeira vez.
 
-1. Conclua as tarefas de pré-requisito na [Aquisição](/help/android/acquisition-main/acquisition.md) de aplicativos móveis e certifique-se de implementá-lo corretamente `INSTALL_REFERRER`.
+1. Conclua as tarefas de pré-requisito na Aquisição [de aplicativos](/help/android/acquisition-main/acquisition.md) móveis e certifique-se de que você implementou corretamente o receptor de transmissão para `INSTALL_REFERRER`.
 1. In the Adobe Mobile Services UI, click  **[!UICONTROL Acquisition]** &gt; **[!UICONTROL Marketing Links Builder]** and generate an Acquisition Marketing Link URL that sets Google Play as the destination for Android devices.
 
    Para obter mais informações, consulte [Criador de links de marketing](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md).
@@ -63,7 +63,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
    | Configuração | Valor |
    |--- |--- |
-   | aquisição | The server should be `c00.adobe.com`.   *`appid`* deve ser igual ao `appid` link de aquisição. |
+   | aquisição | The server should be `c00.adobe.com`.   *`appid`*  deve ser igual ao `appid` no link de aquisição. |
    | analytics | Para fins de teste, defina o limite de tempo do referencial para permitir que o tempo adequado (60 segundos ou mais) envie a difusão automaticamente. É possível restaurar a configuração original de limite de tempo após testar. |
 
 1. Conecte o dispositivo a um computador, desinstale e instale o aplicativo novamente.
@@ -97,7 +97,7 @@ A tabela a seguir contém informações adicionais sobre os erros possíveis:
 | Analytics - Unable to decode response(*String*). | A resposta está malformada. |
 | Analytics - Unable to parse response (*a JSON Response*). | A cadeia de caracteres JSON está malformada. |
 | Analytics - Não é possível analisar a resposta do serviço de aquisição (nenhum parâmetro contextData na resposta). | Não há um parâmetro contextData na resposta. |
-| Analytics - Acquisition referrer data was not complete (no `a.referrer.campaign.name` in context data), ignoring. | `a.referrer.campaign.name` não está incluída em contextdata. |
+| Analytics - Acquisition referrer data was not complete (no `a.referrer.campaign.name` in context data), ignoring. | `a.referrer.campaign.name`  não está incluído em contextData. |
 | Analytics - tempo limite do referenciador de aquisição. | Falha ao obter a resposta no tempo definido pelo `referrerTimeout`. Aumente o valor e tente novamente.  Também é necessário se assegurar de que você abriu o link de aquisição antes de instalar o aplicativo. |
 
 Lembre-se das seguintes informações:
