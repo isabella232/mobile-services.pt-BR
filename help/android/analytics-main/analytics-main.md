@@ -1,12 +1,12 @@
 ---
 description: Essas informações ajudam a usar o Android SDK no Adobe Analytics.
-keywords: android; biblioteca; dispositivos móveis; sdk
+keywords: android;library;mobile;sdk
 seo-description: Essas informações ajudam a usar o Android SDK no Adobe Analytics.
 seo-title: Visão geral do Analytics
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Visão geral do Analytics
 topic: Desenvolvedor e implementação
-uuid: cc 9 fa 1 d 9-bc 48-4 d 03-854 a-f 7 b 263580 a 91
+uuid: cc9fa1d9-bc48-4d03-854a-f7b263580a91
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -15,7 +15,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 # Visão geral do Analytics {#analytics}
 
-As informações nesta seção ajudam você a usar o Android SDK com o Adobe Analytics.
+As informações nesta seção ajudam a usar o Android SDK com o Adobe Analytics.
 
 ## Nova versão do SDK da Adobe Experience Cloud
 
