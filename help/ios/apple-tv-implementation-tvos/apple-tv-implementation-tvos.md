@@ -7,7 +7,7 @@ title: Implementação da Apple TV com tvOS
 topic: Desenvolvedor e implementação
 uuid: d1571ea2-a5de-4b96-a527-72abbf51fab8
 translation-type: tm+mt
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
 
 ---
 
@@ -16,30 +16,28 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 Esta informação ajuda a implementar a Apple TV com tvOS.
 
-## Nova versão do SDK da Adobe Experience Cloud
+## New Adobe Experience Platform Mobile SDK Release
 
 Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para acessar a documentação mais recente.
 
 Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
 
-* Para começar, acesse o Launch.
+* Para começar, acesse o Adobe Experience Platform Launch.
 * Para ver o conteúdo dos repositórios do Experience Platform SDK, acesse [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
->[!IMPORTANT]
->
-> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as in-App messaging, push notifications or Acquisition links. Para obter mais informações, consulte [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services).
+## Visão geral
 
 Com a Apple TV, agora você pode criar aplicativos para serem executados no ambiente tvOS nativo. Você pode criar um aplicativo nativo usando várias estruturas no iOS, ou você pode criar seu aplicativo usando modelos XML e JavaScript.
 
 >[!TIP]
 >
->tvOS support is available starting in  version 4.7.0.`AdobeMobileLibrary`
+>o suporte para tvOS está disponível a partir da `AdobeMobileLibrary` versão 4.7.0.
 
 ## Introdução {#section_CAB40A5B5FC745068C8A5DF8F9AB6199}
 
 >[!TIP]
 >
->We assume that your project has a target that is an Apple TV app that is targeting tvOS. Para obter mais informações, consulte [tvOS](https://developer.apple.com/tvos/documentation/).
+>Suponhamos que seu projeto tenha um destino que seja um aplicativo da Apple TV direcionado ao tvOS. Para obter mais informações, consulte [tvOS](https://developer.apple.com/tvos/documentation/).
 
 ## Configure a native app for tvOS {#section_5095F19B3C4545F68E8C1E37A7E303AE}
 
