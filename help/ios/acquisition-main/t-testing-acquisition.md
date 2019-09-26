@@ -2,9 +2,9 @@
 description: As seguintes informações ajudam a redirecionar um link de campanha de aquisição de legado com base em uma impressão digital do dispositivo.
 seo-description: As seguintes informações ajudam a redirecionar um link de campanha de aquisição de legado com base em uma impressão digital do dispositivo.
 seo-title: Teste da aquisição de legado
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Teste da aquisição de legado
-uuid: e 0591 f 4 a-e 26 b -4 fe 4-97 c 1-a 6831 a 926 fa 5
+uuid: e0591f4a-e26b-4fe4-97c1-a6831a926fa5
 translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
