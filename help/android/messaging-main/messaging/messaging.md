@@ -2,10 +2,10 @@
 description: É possível fornecer mensagens no aplicativo disparadas dos dados do Analytics ou de eventos. Depois da implementação, as mensagens são fornecidas dinamicamente ao aplicativo e não necessitam uma atualização de código.
 seo-description: É possível fornecer mensagens no aplicativo disparadas dos dados do Analytics ou de eventos. Depois da implementação, as mensagens são fornecidas dinamicamente ao aplicativo e não necessitam uma atualização de código.
 seo-title: Mensagens no aplicativo
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Mensagens no aplicativo
 topic: Desenvolvedor e implementação
-uuid: 351 ee 3 d 2-80 b 9-4 f 2 d -9696-21 f 274 d 89 f 5 a
+uuid: 351ee3d2-80b9-4f2d-9696-21f274d89f5a
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -41,7 +41,7 @@ Procurando informações e documentação relacionadas ao Adobe Experience Platf
 
 1. Adicione a biblioteca ao projeto e implemente o ciclo de vida.
 
-   Para obter mais informações, consulte *Adicionar o SDK e o Arquivo de configuração ao projeto intellij IDEA ou Eclipse* na [implementação principal e ciclo de vida](/help/android/getting-started/dev-qs.md).
+   Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao projeto* IntelliJ IDEA ou Eclipse na implementação e ciclo de vida [principal](/help/android/getting-started/dev-qs.md).
 
 1. Update the `AndroidManifest.xml` file to declare the full screen activity and enable the Message Notification Handler:
 
@@ -122,15 +122,15 @@ Os SDKs do Android Mobile rastreiam as seguintes métricas de suas mensagens no 
 * Para mensagens no aplicativo em tela inteira ou no estilo de alerta:
 
    * **Impressões**: quando o usuário aciona uma mensagem no aplicativo.
-   * **Click-throughs: quando o usuário pressiona****Click through.**
-   * **Cancela**: quando o usuário pressiona **[!UICONTROL Cancelar.]**
+   * **Clique em throughs**: quando o usuário pressiona **[!UICONTROL Click through]**.
+   * **Cancela**: quando o usuário pressiona **[!UICONTROL Cancel (Cancelar)]**.
 
 * Para mensagens no aplicativo personalizadas em tela inteira, o conteúdo HTML na mensagem precisa incluir o código correto para notificar ao rastreamento de SDK sobre os seguintes botões:
 
-   * **Rastreamento de exemplo de click-through** (redirecionamento):
+   * **Acompanhamento de exemplo por click-through** (redirecionamento):
 
       `adbinapp://confirm/?url=https://www.yoursite.com`
-   * **Cancelar o rastreamento** de exemplo (fechar):
+   * **Cancelar** (fechar) rastreamento de exemplo:
 
       `adbinapp://cancel`
 
@@ -164,7 +164,7 @@ Os métodos a seguir permitem configurar os ícones pequeno e grande que aparece
 
 * **Config.setLargeIconResourceId(int resourceId)**
 
-   Define o ícone grande que será utilizado para notificações criadas pelo SDK. Este ícone é a principal imagem exibida quando o usuário visualiza a notificação completa na central de notificações.
+   Define o ícone grande que será utilizado para notificações criadas pelo SDK. Esse ícone é a imagem principal que é exibida quando o usuário visualiza a notificação completa na central de notificações.
 
    * Esta é a sintaxe para este método:
 
