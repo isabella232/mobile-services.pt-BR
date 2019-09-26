@@ -1,11 +1,11 @@
 ---
 description: Classes e métodos fornecidos pela biblioteca da loja universal de aplicativos do Windows 8.1.
 seo-description: Classes e métodos fornecidos pela biblioteca da loja universal de aplicativos do Windows 8.1.
-seo-title: Métodos do SDK
-solution: Marketing Cloud, Analytics
+seo-title: SDK methods
+solution: Marketing Cloud,Analytics
 title: Métodos do SDK
 topic: Desenvolvedor e implementação
-uuid: 0 f 558 ff 4-73 d 3-4439-9 d 51-62 fbd 74 d 2 cea
+uuid: 0f558ff4-73d3-4439-9d51-62fbd74d2cea
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -20,7 +20,7 @@ Classes e métodos fornecidos pela biblioteca da loja universal de aplicativos d
 >
 >When you consume `winmd` methods from winJS (JavaScript), all methods automatically have their first letter lowercased.
 
-* **Getversion (winjs: Getversion)**
+* **GetVersion (winJS: getVersion)**
 
    Retorna a versão atual da biblioteca do Adobe Mobile.
 
@@ -36,7 +36,7 @@ Classes e métodos fornecidos pela biblioteca da loja universal de aplicativos d
       varADB = ADBMobile;var libVersion = ADB.Config.getVersion(); 
       ```
 
-* **Getprivacystatusasync (winjs: Getprivacystatusasync)**
+* **GetPrivacyStatusAsync (winJS: getPrivacyStatusAsync)**
 
    Retorna a representação de enumeração do status de privacidade do usuário atual.
 
@@ -52,7 +52,7 @@ Classes e métodos fornecidos pela biblioteca da loja universal de aplicativos d
       static Windows::Foundation::IAsyncOperation<ADBMobilePrivacyStatus> ^getPrivacyStatusAsync(); 
       ```
 
-   * Aqui estão exemplos de código para este método:
+   * Estas são as amostras de código para este método:
 
       ```csharp
       public enum class ADBMobilePrivacyStatus : int  {
@@ -70,7 +70,7 @@ Classes e métodos fornecidos pela biblioteca da loja universal de aplicativos d
       }); 
       ```
 
-* **Setprivacystatus (winjs: Setprivacystatus)**
+* **SetPrivacyStatus (winJS: setPrivacyStatus)**
 
    Define o de privacidade do usuário atual como `status`status. É definido como um dos valores abaixo:
 
@@ -99,7 +99,7 @@ Classes e métodos fornecidos pela biblioteca da loja universal de aplicativos d
       ADB.Config.setPrivacyStatus(ADB.ADBMobilePrivacyStatus.adbmobilePrivacyStatusOptIn); 
       ```
 
-* **Getlifetimevalue (winjs: Getlifetimevalue)**
+* **GetLifetimeValue (winJS: getLifetimeValue)**
 
    Retorna o valor do tempo de vida do usuário atual. O padrão é 0.
 
@@ -116,13 +116,13 @@ Classes e métodos fornecidos pela biblioteca da loja universal de aplicativos d
        var ltv = ADB.Config.getLifetimeValue(); 
       ```
 
-* **Getuseridentifier (winjs: Getuseridentifier)**
+* **GetUserIdentifier (winJS: getUserIdentifier)**
 
    Retorna o identificador do usuário personalizado se algum estiver configurado. Retorna nulo se um identificador personalizado não estiver configurado. O valor padrão é `null`.
 
    >[!TIP]
    >
-   >Se o aplicativo for atualizado do SDK 3. x da Experience Cloud para o 4. x, a ID anterior (personalizada ou gerada automaticamente) será recuperada e armazenada como o identificador do usuário personalizado. Isso preserva os dados do visitante entre as atualizações de SDK. Para novas instalações do SDK 4.x, o identificador de usuário é `null` até que seja definido.
+   >Se seu aplicativo for atualizado do SDK 3.x da Experience Cloud para o 4.x, a ID anterior (personalizada ou gerada automaticamente) será recuperada e armazenada como o identificador personalizado do usuário. Isso preserva os dados do visitante entre as atualizações de SDK. Para novas instalações do SDK 4.x, o identificador de usuário é `null` até que seja definido.
 
    * Esta é a sintaxe para este método:
 
@@ -137,7 +137,7 @@ Classes e métodos fornecidos pela biblioteca da loja universal de aplicativos d
       var userId = ADB.Config.getUserIdentifier(); 
       ```
 
-* **Setuseridentifier (winjs: Setuseridentifier)**
+* **SetUserIdentifier (winJS: setUserIdentifier)**
 
    Define o identificador do usuário para `identifier`.
 
@@ -154,7 +154,7 @@ Classes e métodos fornecidos pela biblioteca da loja universal de aplicativos d
       ADB.Config.setUserIdentifier("someUserId"); 
       ```
 
-* **Getdebuglogging (winjs: Getdebuglogging)**
+* **GetDebugLogging (winJS: getDebugLogging)**
 
    Retorna a preferência de log para a depuração atual. O valor padrão é `false`.
 
@@ -171,7 +171,7 @@ Classes e métodos fornecidos pela biblioteca da loja universal de aplicativos d
       var logging = ADB.Config.getDebugLogging(); 
       ```
 
-* **Setdebuglogging (winjs: Setdebuglogging)**
+* **SetDebugLogging (winJS: setDebugLogging)**
 
    Define a preferência do log de depuração como `debugLogging`. O registro de depuração funciona apenas ao usar a versão de depuração da biblioteca, a versão de lançamento ignora esta configuração.
 
@@ -188,7 +188,7 @@ Classes e métodos fornecidos pela biblioteca da loja universal de aplicativos d
       ADB.Config.setDebugLogging(true); 
       ```
 
-* **Collectlifecycledata (winjs: Collectlifecycledata)**
+* **CollectLifecycleData (winJS: collectLifecycleData)**
 
    Indica ao SDK que os dados do ciclo de vida devem ser coletados para uso em todas as soluções no SDK. Para obter mais informações, consulte [Medições de ciclo de vida](/help/windows-appstore/metrics.md).
 
@@ -209,7 +209,7 @@ Classes e métodos fornecidos pela biblioteca da loja universal de aplicativos d
       ADB.Config.collectLifecycleData(); 
       ```
 
-* **Pausecollectinglifecycledata (winjs: Pausecollectinglifecycledata)**
+* **PauseCollecting &#x200B; LifecycleData (winJS: pauseCollecting &#x200B; LifecycleData)**
 
    Indica ao SDK que o aplicativo está pausado, a fim de calcular corretamente as métricas de ciclo de vida. Por exemplo, durante a pausa um carimbo de data e hora é coletado para determinar a duração da sessão anterior. Também define um sinalizador para que o ciclo de vida saiba que o aplicativo não parou de funcionar. Para obter mais informações, consulte [Medições de ciclo de vida](/help/windows-appstore/metrics.md).
 
