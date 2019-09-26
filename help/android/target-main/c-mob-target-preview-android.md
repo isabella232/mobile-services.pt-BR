@@ -3,7 +3,7 @@ description: A Visualização do Target permite que você realize tarefas integr
 seo-description: A Visualização do Target permite que você realize tarefas integrais de controle de qualidade para atividades do Target e visualizá-las em seu dispositivo.
 seo-title: Visualização do Target no Android
 title: Visualização do Target no Android
-uuid: f 3 c 82 d 64-009 c -4929-a 5 e 6-3677 b 2977889
+uuid: f3c82d64-009c-4929-a5e6-3677b2977889
 translation-type: tm+mt
 source-git-commit: 83e6968efb0ed1b4ef504286c6cb2e8e4d2eaf94
 
