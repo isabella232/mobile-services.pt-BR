@@ -2,10 +2,10 @@
 description: Esta informação ajuda a implementar a Apple TV com tvOS.
 seo-description: Esta informação ajuda a implementar a Apple TV com tvOS.
 seo-title: Implementação da Apple TV com tvOS
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Implementação da Apple TV com tvOS
 topic: Desenvolvedor e implementação
-uuid: d 1571 ea 2-a 5 de -4 b 96-a 527-72 abbf 51 fab 8
+uuid: d1571ea2-a5de-4b96-a527-72abbf51fab8
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -33,13 +33,13 @@ Com a Apple TV, agora você pode criar aplicativos para serem executados no ambi
 
 >[!TIP]
 >
->O suporte tvos está disponível a partir `AdobeMobileLibrary` da versão 4.7.0.
+>tvOS support is available starting in  version 4.7.0.`AdobeMobileLibrary`
 
 ## Introdução {#section_CAB40A5B5FC745068C8A5DF8F9AB6199}
 
 >[!TIP]
 >
->Supomos que seu projeto tenha uma meta que seja um aplicativo da Apple TV direcionado ao tvos. Para obter mais informações, consulte [tvOS](https://developer.apple.com/tvos/documentation/).
+>We assume that your project has a target that is an Apple TV app that is targeting tvOS. Para obter mais informações, consulte [tvOS](https://developer.apple.com/tvos/documentation/).
 
 ## Configure a native app for tvOS {#section_5095F19B3C4545F68E8C1E37A7E303AE}
 
