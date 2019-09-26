@@ -3,7 +3,7 @@ description: Os SDKs do Experience Cloud Mobile oferecem APIs prontas para o Reg
 seo-description: Os SDKs do Experience Cloud Mobile oferecem APIs prontas para o Regulamento Geral sobre a Proteção de Dados (GDPR) para controladores que permitem aos usuários recuperar identidades armazenadas localmente e definir sinalizadores de status de opção para coleta e transmissão de dados.
 seo-title: Privacidade e Regulamento Geral sobre a Proteção de Dados
 title: Privacidade e Regulamento Geral sobre a Proteção de Dados
-uuid: 69 bb 82 de -1993-440 c-a 1 b 0-8 d 37919 b 48 b 6
+uuid: 69bb82de-1993-440c-a1b0-8d37919b48b6
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -40,13 +40,13 @@ Nas partes do SDK do Adobe Mobile em seus aplicativos móveis, é possível usar
 
 * Para recuperar os dados dos SDKs e enviar esses dados para seus servidores, use o método `getAllIdentifiersAsync`.
 
-   Para obter mais informações, consulte [Recuperar identificadores armazenados](/help/ios/c-mob-privacy-gdpr-ios/c-mob-gdpr-ret-stored-ids-ios.md).
+   Para obter mais informações, consulte [Recuperando identificadores](/help/ios/c-mob-privacy-gdpr-ios/c-mob-gdpr-ret-stored-ids-ios.md)armazenados.
 
 * Para definir o status de opção e ajudá-lo com a solicitação de exclusão de dados do GDPR, use as seguintes configurações:
 
    * `privacyDefault`
    * `setPrivacyStatus`
-   Para obter mais informações, consulte [Definir o status de opção do usuário](/help/ios/c-mob-privacy-gdpr-ios/privacy.md).
+   Para obter mais informações, consulte [Configuração do status](/help/ios/c-mob-privacy-gdpr-ios/privacy.md)de opção do usuário.
 
 ## Informações adicionais {#section_7C7124C50D85469C8C8714533FB1A37D}
 
