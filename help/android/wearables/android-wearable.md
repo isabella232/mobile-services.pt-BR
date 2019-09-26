@@ -1,11 +1,11 @@
 ---
 description: A partir do Android SDK versão 4.5, uma nova extensão do Android permite coletar dados do seu aplicativo Android Wearable.
 seo-description: A partir do Android SDK versão 4.5, uma nova extensão do Android permite coletar dados do seu aplicativo Android Wearable.
-seo-title: Introdução ao Android Wearables
-solution: Marketing Cloud, Analytics
-title: Introdução ao Android Wearables
+seo-title: Introdução aos Android Wearables
+solution: Marketing Cloud,Analytics
+title: Introdução aos Android Wearables
 topic: Desenvolvedor e implementação
-uuid: bfe 5 d 41 e-b 17 c -4634-80 ac -7 a 38671 bce 81
+uuid: bfe5d41e-b17c-4634-80ac-7a38671ecb81
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -18,7 +18,7 @@ A partir do Android SDK versão 4.5, uma nova extensão do Android permite colet
 
 ## Configuring the SDK for a handheld app (Android Studio) {#section_262237484EC44C58953891B105F0D000}
 
-Para obter mais informações sobre como importar o SDK para o seu projeto, consulte [Implementação principal e ciclo de vida](/help/android/getting-started/dev-qs.md).
+Para obter mais informações sobre como importar o SDK para o seu projeto, consulte Implementação [principal e Ciclo de vida](/help/android/getting-started/dev-qs.md).
 
 1. Adicione o arquivo `ADBMobileConfig.json` à pasta de assets do projeto.
 1. Adicione o arquivo `adobeMobileLibrary-*.jar` à pasta libs ou certifique-se de que ele esteja referenciado no projeto.
@@ -88,7 +88,7 @@ Para obter mais informações sobre como importar o SDK para o seu projeto, cons
    }
    ```
 
-1. Adicione `WearListenerService` ao `AndroidManifest.xml` arquivo:
+1. Adicionar `WearListenerService` ao `AndroidManifest.xml` arquivo:
 
    ```java
    If you are using Google Play Services  < 8.2 
@@ -175,7 +175,7 @@ Para obter mais informações sobre como importar o SDK para o seu projeto, cons
    }
    ```
 
-1. Adicione `WearListenerService` ao `AndroidManifest.xml` arquivo:
+1. Adicionar `WearListenerService` ao `AndroidManifest.xml` arquivo:
 
    ```java
    If you are using Google Play Services  < 8.2 
