@@ -2,10 +2,10 @@
 description: As ações são eventos que ocorrem no aplicativo que você deseja avaliar. Cada ação tem uma ou mais métricas correspondentes, que são aumentadas sempre que o evento ocorre. Por exemplo, é possível rastrear uma nova assinatura sempre que um artigo for visualizado ou um nível for concluído. As métricas correspondentes a esses eventos são configuradas como assinaturas, artigos lidos e níveis concluídos.
 seo-description: As ações são eventos que ocorrem no aplicativo que você deseja avaliar. Cada ação tem uma ou mais métricas correspondentes, que são aumentadas sempre que o evento ocorre. Por exemplo, é possível rastrear uma nova assinatura sempre que um artigo for visualizado ou um nível for concluído. As métricas correspondentes a esses eventos são configuradas como assinaturas, artigos lidos e níveis concluídos.
 seo-title: Rastrear ações do aplicativo
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Rastrear ações do aplicativo
 topic: Desenvolvedor e implementação
-uuid: 62017 be 1-5395-4 d 16-bde 3-4 c 40 a 2 c 012 d 4
+uuid: 62017be1-5395-4d16-bde3-4c40a2c012d4
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -22,7 +22,7 @@ As ações não são rastreadas automaticamente. Portanto para rastrear um event
 
 1. Adicione a biblioteca ao projeto e implemente o ciclo de vida.
 
-   Para obter mais informações, consulte *Adicionar o SDK e o Arquivo de configuração ao projeto* na [Implementação principal e no ciclo de vida](/help/ios/getting-started/dev-qs.md).
+   For more information, see Add the SDK and Config File to your Project in Core Implementation and Lifecycle.**[](/help/ios/getting-started/dev-qs.md)
 1. Importe a biblioteca.
 
    ```objective-c
