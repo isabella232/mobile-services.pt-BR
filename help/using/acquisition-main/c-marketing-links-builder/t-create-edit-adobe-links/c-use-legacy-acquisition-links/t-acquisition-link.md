@@ -3,10 +3,10 @@ description: É possível criar links da app store que permitem ao usuário baix
 keywords: mobile
 seo-description: É possível criar links da app store que permitem ao usuário baixar os aplicativos diretamente da Apple App Store e do Google Play. Os links criados permitem que você atribua seus eventos de sucesso aos downloads.
 seo-title: Criação de um link de aquisição
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Criação de um link de aquisição
 topic: Métricas
-uuid: bb 603013-fca 9-44 a 2-820 a -59 e 1 c 85 d 9444
+uuid: bb603013-fca9-44a2-820a-59e1c85d9444
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -22,16 +22,12 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
    * (**Required**) **[!UICONTROL Name]**
 Specify a descriptive name for the App Link.
-   * **[!UICONTROL Código
-de rastreamento]** Especifique o código de rastreamento desejado ou clique **[!UICONTROL em Gerar]** para criar um novo código de rastreamento.
+   * **[!UICONTROL Código]** de rastreamentoEspecifique o código de rastreamento desejado ou clique em **[!UICONTROL Gerar]** para criar um novo código de rastreamento.
    * (**Required**) **[!UICONTROL Source]**
 Specify the original referrer, such as "newsletter" or "homepage."
-   * **[!UICONTROL Medium]**
-Especifique o meio de marketing, como "banner" ou "email".
-   * **[!UICONTROL Conteúdo]**
-Especifique o nome ou ID do anúncio com o link.
-   * **[!UICONTROL Termo]**
-Especifique termos de pagamento ou outros termos de pesquisa para o anúncio.
+   * **[!UICONTROL Médio]** Especifique a mídia de marketing, como "banner" ou "email".
+   * **[!UICONTROL Conteúdo]** Especifique o nome ou a ID do anúncio com o link.
+   * **[!UICONTROL Termo]** Especifique os termos pagos ou outros termos de pesquisa para o anúncio.
    >[!IMPORTANT]
    >
    >Os valores nos campos acima não podem ser alterados após a criação do link de aquisição.
@@ -45,13 +41,13 @@ Especifique termos de pagamento ou outros termos de pesquisa para o anúncio.
       * Google Play
       As opções para cada App Store variam, conforme descrito abaixo.
 
-   * **[!UICONTROL Região do navegador (somente na Apple App Store)]**
+   * **[!UICONTROL Browser Region (Apple App Store Only)]**
 
       Especifique uma App Store regional específica para navegadores de desktop.
 
       Esta configuração permite definir o link de aquisição que direcionará para a app store de uma região específica quando um usuário clicar no link de um navegador para desktop. Os dispositivos remotos são redirecionados automaticamente de acordo com as configurações do dispositivo.
 
-   * **[!UICONTROL Idioma do navegador (Google Play (somente Google Play))]**
+   * **[!UICONTROL Browser Language (Google Language (Google Play Only))]**
 
       Selecione um idioma na lista suspensa.
 
@@ -59,18 +55,18 @@ Especifique termos de pagamento ou outros termos de pesquisa para o anúncio.
 
    * **[!UICONTROL Pesquisar por nome]**
 
-      * Para a Apple App Store, se você não souber a ID do aplicativo, poderá pesquisar pelo aplicativo pelo nome.
+      * For the Apple App Store, if you do not know the App ID, you can search for the app by its name.
 
          É possível restringir sua pesquisa selecionando uma região opcional na lista suspensa **[!UICONTROL Na região].**
 
-      * No Google Play, se você não souber o Nome do pacote, poderá pesquisar pelo nome do aplicativo pelo nome.
+      * No Google Play, se você não souber o Nome do pacote, poderá pesquisar pelo nome do aplicativo.
    * **[!UICONTROL ID do aplicativo (somente na Apple App Store)]**
 
       Se tiver pesquisado o aplicativo, esse campo será preenchido automaticamente. Você pode digitar o valor ID do aplicativo diretamente, em vez de pesquisar pelo aplicativo.
 
    * **[!UICONTROL Nome do pacote (somente no Google Play)]**
 
-      Se tiver pesquisado o aplicativo, esse campo será preenchido automaticamente. Em vez de pesquisar. você também pode digitar diretamente o valor Nome do pacote.
+      Se tiver pesquisado o aplicativo, esse campo será preenchido automaticamente. Instead of searching. you can also directly type the Package Name value.
 
 
 
@@ -78,8 +74,8 @@ Especifique termos de pagamento ou outros termos de pesquisa para o anúncio.
 
    O link criado recentemente é exibido na seção **[!UICONTROL Links da App Store].**
 
-   ![link da loja](assets/apps_store_links.png)
+   ![store link](assets/apps_store_links.png)
 
 1. Click ![clipboard icon](assets/icon_clipboard.png) to copy the tracked link to your clipboard.
 
-1. Cole o link em suas postagens em redes sociais, anúncios, mensagens de email e assim por diante.
+1. Paste the link in your social media posts, ads, email messages, and so on.
