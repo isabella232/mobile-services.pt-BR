@@ -1,21 +1,21 @@
 ---
 description: Estas informações ajudam você a usar o recurso de Localização nos aplicativos do Android.
-keywords: android; biblioteca; dispositivos móveis; sdk
+keywords: android;library;mobile;sdk
 seo-description: Estas informações ajudam você a usar o recurso de Localização nos aplicativos do Android.
-seo-title: Visão geral de localização
-solution: Marketing Cloud, Analytics
-title: Visão geral de localização
+seo-title: Visão geral do local
+solution: Marketing Cloud,Analytics
+title: Visão geral do local
 topic: Desenvolvedor e implementação
-uuid: 15180 bd 6-616 b -477 d-a 106-96 a 52 c 974 d 7 d
+uuid: 15180bd6-616b-477d-a106-96a52c974d7d
 translation-type: tm+mt
 source-git-commit: a290a0fb4bc5eccae6c7d7065e82b70671f067b0
 
 ---
 
 
-# Visão geral de localização {#location}
+# Visão geral do local {#location}
 
-As informações nesta seção ajudam você a usar o recurso Local em seus aplicativos Android.
+As informações nesta seção ajudam você a usar o recurso Localização nos aplicativos Android.
 
 ## Nova versão do SDK da Adobe Experience Cloud
 
