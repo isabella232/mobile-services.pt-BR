@@ -2,10 +2,10 @@
 description: Ações são eventos que ocorrem no aplicativo Android que você deseja avaliar.
 seo-description: Ações são eventos que ocorrem no aplicativo Android que você deseja avaliar.
 seo-title: Rastrear ações do aplicativo
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Rastrear ações do aplicativo
 topic: Desenvolvedor e implementação
-uuid: fe 01 c 1 df-f 6 bb -4 b 32-b 3 ef -959 d 2 c 724 af 6
+uuid: fe01c1df-f6bb-4b32-b3ef-959d2c724af6
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -22,7 +22,7 @@ Cada ação tem uma ou mais métricas correspondentes, que são incrementadas se
 
 1. Adicione a biblioteca ao projeto e implemente o ciclo de vida.
 
-   Para obter mais informações, consulte *Adicionar o SDK e o Arquivo de configuração ao projeto intellij IDEA ou Eclipse* na [implementação principal e ciclo de vida](/help/android/getting-started/dev-qs.md).
+   Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao projeto* IntelliJ IDEA ou Eclipse na implementação e ciclo de vida [principal](/help/android/getting-started/dev-qs.md).
 
 1. Importe a biblioteca:
 
