@@ -1,12 +1,12 @@
 ---
 description: Estas informações ajudam a fornecer o conteúdo direcionado nos aplicativos do Android.
-keywords: android; biblioteca; dispositivos móveis; sdk
+keywords: android;biblioteca;móvel;sdk
 seo-description: Estas informações ajudam a fornecer o conteúdo direcionado nos aplicativos do Android.
-seo-title: Visão geral do Target
-solution: Marketing Cloud, Analytics
-title: Visão geral do Target
+seo-title: Target overview
+solution: Marketing Cloud,Analytics
+title: Target overview
 topic: Desenvolvedor e implementação
-uuid: 3501 b 76 d-f 83 f -45 eb-b 56 d -39 e 64717772 e
+uuid: 3501b76d-f83f-45eb-b56d-39e6471777e
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -15,7 +15,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 # Visão geral do Target {#target}
 
-As informações nesta seção ajudam a fornecer conteúdo direcionado em aplicativos do Android.
+As informações nesta seção ajudam a fornecer conteúdo direcionado em aplicativos Android.
 
 ## Nova versão do SDK da Adobe Experience Cloud
 
