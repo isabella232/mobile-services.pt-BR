@@ -115,7 +115,7 @@ Adicione uma chamada `collectLifecycleData`/ `collectLifecycleDataWithAdditional
 }
 ```
 
-### Incluir dados adicionais com chamadas de ciclo de vida
+### Include additional data with lifecycle calls
 
 Para incluir dados adicionais com chamadas de ciclo de vida, use `collectLifecycleDataWithAdditionalData`:
 
