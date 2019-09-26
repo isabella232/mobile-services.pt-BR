@@ -1,12 +1,12 @@
 ---
-description: Você pode criar ou editar Links de publicidade para fornecer deep links no seu aplicativo móvel ou site.
+description: Você pode criar ou editar links de marketing para fornecer deep links ao seu aplicativo móvel ou site.
 keywords: mobile
-seo-description: Você pode criar ou editar Links de publicidade para fornecer deep links no seu aplicativo móvel ou site.
+seo-description: Você pode criar ou editar links de marketing para fornecer deep links ao seu aplicativo móvel ou site.
 seo-title: Criar ou editar links de publicidade
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Criar ou editar links de publicidade
 topic: Métricas
-uuid: 305 a 8265-38 de -4 d 19-8 c 79-b 3912 f 5 aae 7 c
+uuid: 305a8265-38de-4d19-8c79-b3912f5aae7c
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -15,7 +15,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 # Create or edit marketing links{#create-or-edit-marketing-links}
 
-Você pode criar ou editar Links de publicidade para fornecer deep links ao seu aplicativo móvel ou site. Para obter mais informações, consulte [Links universais da Apple e Links de aplicativo Android](/help/using/c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md).
+Você pode criar ou editar links de marketing para fornecer deep links para seu aplicativo móvel ou site. Para obter mais informações, consulte Links universais [da Apple e Links](/help/using/c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md)de aplicativos Android.
 
 1. In your app, in the left navigation pane, expand **[!UICONTROL Acquisition]** and click **[!UICONTROL Marketing Link Builder]**.
 1. Conclua uma das seguintes tarefas:
@@ -35,37 +35,32 @@ Você pode criar ou editar Links de publicidade para fornecer deep links ao seu 
 
    * **[!UICONTROL Adicionar dados de contexto de rastreamento]**:
 
-      (**Optional**) Click the **[!UICONTROL +]** icon and type the relevant information to track your campaign using context data. Na lista suspensa **[!UICONTROL Dados contextuais personalizados], selecione uma tag predefinida ou uma de suas próprias tags.** Os dados de contexto são usados para relatórios quando o Marketing Link é implantado.
+      (**Optional**) Click the **[!UICONTROL +]** icon and type the relevant information to track your campaign using context data. Na lista suspensa **[!UICONTROL Dados contextuais personalizados], selecione uma tag predefinida ou uma de suas próprias tags.** Context data is used for reporting when the Marketing Link is deployed.
 
       As tags predefinidas a seguir estão disponíveis:
 
-      * **Dados
-de contexto personalizados** Especifique a chave e o valor. Se você adicionar dados de contexto personalizados, é necessário criar uma regra de processamento. Para obter mais informações, consulte [Visão geral das regras de processamento](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+      * **Dados** de contexto personalizados Especifique a chave e o valor. Se você adicionar dados de contexto personalizados, é necessário criar uma regra de processamento. Para obter mais informações, consulte Visão geral [das regras de](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html)processamento.
 
-      * **Origem**
-Especifique o referenciador original, como "boletim informativo" ou "página inicial".
+      * **Fonte** Especifique o referenciador original, como "boletim informativo" ou "página inicial".
 
-      * **Medium**
-Especifique o meio de marketing, como "banner" ou "email".
+      * **Médio** Especifique a mídia de marketing, como "banner" ou "email".
 
-      * **Conteúdo**
-Especifique o nome ou ID do anúncio com o link.
+      * **Conteúdo** Especifique o nome ou a ID do anúncio com o link.
 
-      * **Termo**
-Especifique termos de pagamento ou outros termos de pesquisa para o anúncio.
+      * **Termo** Especifique os termos pagos ou outros termos de pesquisa para o anúncio.
 1. Clique em **[!UICONTROL Salvar]**.
 1. Digite informações nos seguintes campos:
 
-   * **(Obrigatório)** Em **[!UICONTROL URL de fallback]**, especifique o URL para o qual os usuários são direcionados quando um destino não puder ser correspondido (por exemplo, se o usuário estiver em uma área de trabalho ou outra plataforma que não corresponda a uma regra de destino).
+   * **(Obrigatório)** No URL **[!UICONTROL de]** Fallback, especifique o URL ao qual os usuários são direcionados quando um destino não pode ser correspondido (por exemplo, se o usuário estiver em um desktop ou outra plataforma que não corresponda a uma regra de destino).
    * In **[!UICONTROL Marketing Link Options]**, select **[!UICONTROL Interstitials]** or **[!UICONTROL Universal and App Links]**.
 
-      Para obter mais informações, consulte [Intersticiais](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md) ou [Links universais da Apple e Links de aplicativo Android](/help/using/c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md).
+      Para obter mais informações, consulte [Intersticiais](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md) ou Links [universais da Apple e Links](/help/using/c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md)de aplicativos Android.
 
-   * **(Condicional)** Se **[!UICONTROL Universal ou Links de aplicativo]** estiver selecionado, no Caminho **[!UICONTROL personalizado]**, os usuários poderão definir o caminho do URL após o domínio com qualquer parâmetro de consulta. Para obter mais informações, consulte [Links universais da Apple e Links de aplicativo Android](/help/using/c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md).
+   * **(Condicional)** Se **[!UICONTROL Universal ou Links]** de aplicativo estiver selecionado, em Caminho **** personalizado, os usuários poderão definir o caminho do URL após o domínio com qualquer parâmetro de consulta. Para obter mais informações, consulte Links universais [da Apple e Links](/help/using/c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md)de aplicativos Android.
 
 1. Click **[!UICONTROL Edit Deep Link Interstitial]** and configure the link.
 
-   **(Opcional**) Quando há vários destinos, os usuários podem ser encaminhados, dependendo se eles têm um aplicativo móvel instalado. Se o aplicativo estiver instalado, uma página de destino intersticial será exibida.
+   (**Optional**) When there are multiple destinations, users can be routed depending on whether they have a mobile app installed. Se o aplicativo estiver instalado, uma página de destino intersticial será exibida.
 
    Para obter mais informações, consulte [Intersticiais](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md).
 
@@ -95,9 +90,9 @@ Especifique termos de pagamento ou outros termos de pesquisa para o anúncio.
       >
       >When you use the **[!UICONTROL Web Link]** destination type with a link to the app store, acquisition is not tracked. Para rastrear as aquisições, use o tipo de destino da **[!UICONTROL App Store].**
 
-      Para obter mais informações, consulte [Criar um novo destino de link](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md).
+      Para obter mais informações, consulte [Criar um novo destino](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md)de link.
 
 
 
 
-1. Para salvar o Marketing Link, clique ![em elipses](assets/icon_elipses.png) e **[!UICONTROL em Salvar]**.
+1. Para salvar o Link de marketing, clique em ![exclusões](assets/icon_elipses.png) e em **[!UICONTROL Salvar]**.
