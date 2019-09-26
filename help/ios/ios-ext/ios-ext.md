@@ -7,7 +7,7 @@ title: Implementação de extensão do iOS
 topic: Desenvolvedor e implementação
 uuid: 8afc03fe-403e-4643-ada1-30e403ede238
 translation-type: tm+mt
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
 
 ---
 
@@ -16,24 +16,20 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 A extensão iOS ajuda a coletar dados de uso dos aplicativos do Apple Watch (WatchOS 1), widgets de hoje, widgets de edição de imagens e outros aplicativos iOS de extensão.
 
-## Nova versão do SDK da Adobe Experience Cloud
+## Nova versão do Adobe Experience Platform Mobile SDK
 
 Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para acessar a documentação mais recente.
 
 Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
 
-* Para começar, acesse o Launch.
+* Para começar, acesse o Adobe Experience Platform Launch.
 * Para ver o conteúdo dos repositórios do Experience Platform SDK, acesse [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
-
->[!IMPORTANT]
->
-> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as in-App messaging, push notifications or Acquisition links. Para obter mais informações, consulte [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services).
 
 ## Recommendations for using the iOS SDK instead of your wrapper {#section_97577331FD9E4FFBBE05D402C67AEE69}
 
 >[!IMPORTANT]
 >
->Recomendamos que você use o SDK do iOS em vez do invólucro.
+>We strongly recommend that you use the iOS SDK rather than your wrapper.
 
 A Apple oferece um conjunto de APIs que permitem a comunicação do aplicativo Watch com o aplicativo contentor, enviando as solicitações para o aplicativo contêiner e recebendo as respostas. Embora você possa enviar dados de rastreamento como um dicionário do aplicativo Watch para o aplicativo que contém a API e depois chamar qualquer método de rastreamento no aplicativo que contém a API para enviar dados, essa solução possui algumas limitações.
 
@@ -53,9 +49,9 @@ Mesmo que esses três métodos de rastreamento atendam aos seus requisitos, use 
 
 
 
-Se você estiver trabalhando em um aplicativo WatchKit, você deve ter um terceiro destino. For more information on developing for Apple Watch, see Developing for Apple Watch.[](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1)
+Se você estiver trabalhando em um aplicativo WatchKit, você deve ter um terceiro destino. Para obter mais informações sobre como desenvolver o Apple Watch, consulte [Desenvolvimento do Apple Watch](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1).
 
-## Configure the containing app {#section_0BAB0842E4C04A62B5E03DFC4BA77851}
+## Configurar o aplicativo contêiner {#section_0BAB0842E4C04A62B5E03DFC4BA77851}
 
 Conclua as seguintes etapas no projeto Xcode:
 
