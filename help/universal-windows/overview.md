@@ -2,10 +2,10 @@
 description: O SDK 4.x da plataforma Universal Windows para Soluções da Experience Cloud permite medir aplicativos Windows 10 nativos, fornecer conteúdo direcionado dentro do aplicativo e aproveitar e coletar dados de público-alvo por meio do gerenciamento de público-alvo.
 seo-description: O SDK 4.x da plataforma Universal Windows para Soluções da Experience Cloud permite medir aplicativos Windows 10 nativos, fornecer conteúdo direcionado dentro do aplicativo e aproveitar e coletar dados de público-alvo por meio do gerenciamento de público-alvo.
 seo-title: Plataforma Universal Windows SDK 4.x para Soluções da Experience Cloud
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Plataforma Universal Windows SDK 4.x para Soluções da Experience Cloud
 topic: Desenvolvedor e implementação
-uuid: 23 a 5 bc 0 a -54 f 0-42 a 7-af 1 e-c 8 cbb 509 dfce
+uuid: 23a5bc0a-54f0-42a7-af1e-c8cbb509dfce
 translation-type: tm+mt
 source-git-commit: 9e796f590cf7717592ff3f41fa61829599264a4f
 
