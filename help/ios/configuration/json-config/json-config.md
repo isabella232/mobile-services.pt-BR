@@ -1,11 +1,11 @@
 ---
 description: Esta informação ajuda a usar o arquivo de configuração ADBMobile.json.
 seo-description: Esta informação ajuda a usar o arquivo de configuração ADBMobile.json.
-seo-title: Configuração JSON do adbmobile
-solution: Marketing Cloud, Analytics
-title: Configuração JSON do adbmobile
+seo-title: Configuração JSON do ADBMobile
+solution: Marketing Cloud,Analytics
+title: Configuração JSON do ADBMobile
 topic: Desenvolvedor e implementação
-uuid: d 9708 d 59-e 30 a -4 f 6 c-ab 1 b-d 9499855 d 0 c 2
+uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
 translation-type: tm+mt
 source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
@@ -57,7 +57,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
    * Versão mínima do SDK: 4.6
    >[!IMPORTANT]
    >
-   >As informações de ocorrência de sessão retroativa são enviadas em uma chamada de servidor de informações da sessão, e as chamadas de servidor adicionais podem ser aplicadas.
+   >As informações de ocorrência de sessão com data retroativa são enviadas em uma chamada de servidor de informações de sessão, e chamadas de servidor adicionais podem ser aplicadas.
 
 
 * **batchLimit**
@@ -65,12 +65,12 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
    Limite de números de ocorrências que serão enviadas em chamadas consecutivas. Por exemplo, se o `batchLimit` for definido como 10, cada ocorrência antes da 10ª será armazenada na fila. Quando a 10ª ocorrência entrar, todas as 10 ocorrências serão enviadas na ordem.
 
    * Default value is `0`, which means that batching is not enabled.
-   * Requer `offlineEnabled = true`.
+   * Exige `offlineEnabled = true`.
    * Versão mínima do SDK: 4.1
 
 * **charset**
 
-   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte [s. charset](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html).
+   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte [s.charSet](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html).
 
    * Versão mínima do SDK: 4.0
 
@@ -125,7 +125,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
 
    Quando ativado, as ocorrências são enfileiradas enquanto o dispositivo está offline e enviadas posteriormente quando o dispositivo estiver online. Seu conjunto de relatórios deve ter o carimbo de data e hora habilitado para usar o rastreamento offline. O valor padrão é `false`.
 
-   Estas são algumas informações importantes:
+   Here is some important information:
 
    * Se o carimbo de data e hora estiver ativado no conjunto de relatórios, sua propriedade de configuração `offlineEnabled` *deve* ser verdadeira.
    * If your report suite is not timestamp enabled, your `offlineEnabled` configuration property *must* be false.
@@ -136,7 +136,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
 
 * **org**
 
-   Especifica a ID organizacional da Experience Cloud para o Adobe Experience Platform Identity Service.
+   Specifies the Experience Cloud org ID for the Adobe Experience Platform Identity Service.
 
    * Versão mínima do SDK: 4.3
 
@@ -145,7 +145,6 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
    Cada matriz de POI contém o nome do POI, a latitude, a longitude e o raio (em metros) para a área do ponto. O nome do POI pode ser qualquer cadeia de caracteres. Quando uma chamada `trackLocation` é enviada, se as coordenadas atuais estiverem em um POI definido, uma variável de dados de contexto será preenchida e enviada com a chamada `trackLocation`.
 
    * Versão mínima do SDK: 4.0
-
    ```js
    "poi" [ 
            ["sanfrancisco",37.757144,-122.44812,7000]
@@ -161,7 +160,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
    “analytics.poi”: “`https://assets.adobedtm.com/…/yourfile.json`”,
    ```
 
-   Se esta configuração não estiver definida, o arquivo `ADBMobile.json` deve ser atualizado para incluir esta linha. Para baixar um arquivo de configuração atualizado, consulte [Antes de começar](/help/ios/getting-started/requirements.md).
+   Se esta configuração não estiver definida, o arquivo `ADBMobile.json` deve ser atualizado para incluir esta linha. Para baixar um arquivo de configuração atualizado, consulte [Antes de iniciar](/help/ios/getting-started/requirements.md).
 
 * **postback**
 
@@ -225,7 +224,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
 
    >[!IMPORTANT]
    >
-   >Essa variável é exigida pelo Analytics.
+   >This variable is required by Analytics.
 
    * Versão mínima do SDK: 4.0
 
@@ -239,7 +238,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
 
    >[!IMPORTANT]
    >
-   >Essa variável é exigida pelo Analytics e/ou Gerenciamento de público-alvo.
+   >Essa variável é exigida pelo Analytics e/ou pelo Gerenciamento de público-alvo.
 
    * Versão mínima do SDK: 4.0
 
@@ -257,7 +256,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
        "timeout":0//optional-numberofsecondstowaitbeforetimingout.Defaultis2.} 
    ```
 
-   `payload` O objeto no código é uma amostra de carga para uma definição de mensagem que passa no `ADBMobileConfig.json` arquivo. For more information, see [Postbacks](/help/ios/analytics-main/postback/postback.md).
+   The `payload` object in the code is an sample payload for a message definition that goes in the `ADBMobileConfig.json` file. For more information, see [Postbacks](/help/ios/analytics-main/postback/postback.md).
 
    * Versão mínima do SDK: 4.0
 
@@ -268,7 +267,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
    * Versão mínima do SDK: 4.0
 
 
-## `ADBMobileConfig.json` Arquivo de exemplo {#section_52FA7C71A99147AFA9BE08D2177D8DA7}
+## Sample `ADBMobileConfig.json` file {#section_52FA7C71A99147AFA9BE08D2177D8DA7}
 
 A seguir, há um exemplo de arquivo `ADBMobileConfig.json`:
 
