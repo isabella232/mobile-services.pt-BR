@@ -2,10 +2,10 @@
 description: Informações para ajudá-lo com a Análise de vídeo.
 seo-description: Informações para ajudá-lo com a Análise de vídeo.
 seo-title: Análise de vídeo
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Análise de vídeo
 topic: Desenvolvedor e implementação
-uuid: 7 d 4 e 6668-a 1 d 9-41 da -96 c 8-8 baac 860 c 5 b 0
+uuid: 7d4e6668-a1d9-41da-96c8-8baac860c5b0
 translation-type: tm+mt
 source-git-commit: 4b5be6c51c716114e597a80d475f838e23abb1b1
 
@@ -26,7 +26,7 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
 
    (**Opcional**) A variável Insight personalizado fornece informações sobre o caminho do vídeo.
 
-   * Tipo de variável: Evar
+   * Tipo de variável: eVar
    * Expiração padrão: visita
    * Insight personalizado (s.prop, usado para caminhos de vídeo)
 
@@ -36,7 +36,7 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
 
    Tipo de evento: Insight personalizado (s.prop)
 
-   * Tipo de variável: Insight personalizado (s. prop)
+   * Tipo de variável: Insight personalizado (s.prop)
 
 * **a.media.segment**
 
@@ -49,15 +49,15 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
    * término do vídeo (stop)
    O Analytics conta a primeira exibição de segmento no início, quando o visitante começa a assistir. As exibições de segmento subsequente ocorrem quando o segmento começa.
 
-   * Tipo de variável: Evar
+   * Tipo de variável: eVar
    * Expiração padrão: visualização de página
 
 
 * **a.contentType**
 
-   Coleta dados sobre o tipo de conteúdo exibido por um visitante. Ocorrências enviadas por meio da avaliação de vídeo recebem um tipo de conteúdo chamado “vídeo”. Essa variável não precisa estar reservada exclusivamente para o rastreamento de vídeo. Quando outros conteúdos relatam o tipo por meio da mesma variável, é possível analisar a distribuição de visitantes em tipos diferentes de conteúdo. Por exemplo, é possível marcar outros tipos de conteúdo por meio de valores como “artigo” ou “página do produto” com essa variável. Da perspectiva de avaliação do vídeo, o tipo de conteúdo permite identificar visitantes de vídeo e calcular as taxas de conversão do vídeo.
+   Coleta dados sobre o tipo de conteúdo exibido por um visitante. Ocorrências enviadas por meio da avaliação de vídeo recebem um tipo de conteúdo chamado “vídeo”. Essa variável não precisa estar reservada exclusivamente para o rastreamento de vídeo. Quando outros conteúdos relatam o tipo por meio da mesma variável, é possível analisar a distribuição de visitantes em tipos diferentes de conteúdo. Por exemplo, é possível marcar outros tipos de conteúdo por meio de valores como “artigo” ou “página do produto” com essa variável. Da perspectiva de avaliação de vídeo, o tipo de conteúdo permite identificar visitantes de vídeo e calcular as taxas de conversão de vídeo.
 
-   * Tipo de variável: Evar
+   * Tipo de variável: eVar
    * Expiração padrão: visualização de página
 
 * **a.media.timePlayed**
@@ -128,7 +128,7 @@ property bool isMediaAd;
 
 ## Media measurement class and method reference {#section_50DF9359A7B14DF092634C8E913C77FE}
 
-* **Settingswith (winjs: Settingswith)**
+* **SettingsWith (winJS: settingsWith)**
 
    Retorna um objeto `MediaSetting` com parâmetros especificados.
 
@@ -144,7 +144,7 @@ property bool isMediaAd;
       var mySettings = ADB.Media.settingsWith("name", 10, "playerName", "playerId"); 
       ```
 
-* **Adsettingswith (winjs: Adsettingswith**
+* **AdSettingsWith (winJS: adSettingsWith**
 
    Retorna um objeto `MediaSettings` para utilizar no monitoramento de um vídeo de anúncio.
 
@@ -160,7 +160,7 @@ property bool isMediaAd;
       var myAdSettings = ADB.Media.adSettingsWith("name", 10, "playerName", "parentName", "parentPod", 5, "myCPM"); 
       ```
 
-* **Abrir (winjs: open)**
+* **Open (winJS: open)**
 
    Rastreia uma abertura de mídia com o uso das configurações definidas em `settings`.
 
@@ -176,7 +176,7 @@ property bool isMediaAd;
       ADB.Media.open(mySettings); 
       ```
 
-* **Fechar (winjs: close)**
+* **Close (winJS: close)**
 
    Rastreia um fechamento de mídia para o item de mídia chamado *name*.
 
@@ -192,7 +192,7 @@ property bool isMediaAd;
       ADB.Media.close("mediaName");
       ```
 
-* **Reproduzir (winjs: play)**
+* **Reproduzir (winJS: play)**
 
    Rastreia uma reprodução de mídia para o item de mídia chamado *`name`* no *offset* dado (em segundos).
 
@@ -208,7 +208,7 @@ property bool isMediaAd;
       ADB.Media.play("mediaName", 0);
       ```
 
-* **Concluído (winjs: complete)**
+* **Concluído (winJS: concluído)**
 
    Marca manualmente o item de mídia como concluído no *offset* em questão (em segundos).
 
@@ -224,7 +224,7 @@ property bool isMediaAd;
       ADB.Media.complete("mediaName", 8); 
       ```
 
-* **Parar (winjs: stop)**
+* **Stop (winJS: parar)**
 
    Notifica ao módulo de mídia que o vídeo foi interrompido ou pausado no *offset* em questão.
 
@@ -240,7 +240,7 @@ property bool isMediaAd;
       ADB.Media.stop("mediaName", 4);
       ```
 
-* **Clique em (winjs: click)**
+* **Clique em (winJS: clique)**
 
    Notifica ao módulo de mídia que o item de mídia foi clicado.
 
@@ -256,7 +256,7 @@ property bool isMediaAd;
       ADB.Media.click("mediaName", 3);
       ```
 
-* **Track (winjs: track)**
+* **Track (winJS: track)**
 
    Envia uma chamada de ação de rastreamento (sem exibição de página) para o estado de mídia atual.
 
