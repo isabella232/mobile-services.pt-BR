@@ -2,10 +2,10 @@
 description: Esta é uma lista de métodos do Audience Manager fornecidos pela biblioteca do iOS.
 seo-description: Esta é uma lista de métodos do Audience Manager fornecidos pela biblioteca do iOS.
 seo-title: Métodos do Audience Manager
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Métodos do Audience Manager
 topic: Desenvolvedor e implementação
-uuid: 97658 bd 6-4 c 4 f -4875-abe 9-36 dad 4 ec 8 bae
+uuid: 97658bd6-4c4f-4875-abe9-36dad4ec8bae
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -16,7 +16,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 Esta é uma lista de métodos do Audience Manager fornecidos pela biblioteca do iOS.
 
-O SDK suporta atualmente várias Soluções da Adobe Experience Cloud, incluindo Analytics, Target, Audience Manager e Adobe Experience Platform Identity Service. Os métodos apresentam prefixos de acordo com a solução a qual estão associados. Logo, os métodos do Manager apresentam o prefixo "`audience`audience."
+The SDK currently supports multiple Adobe Experience Cloud Solutions, including Analytics, Target, Audience Manager, and the Adobe Experience Platform Identity Service. Os métodos apresentam prefixos de acordo com a solução a qual estão associados. Logo, os métodos do Manager apresentam o prefixo "`audience`audience."
 
 Se o Audience Manager estiver configurado em seu arquivo JSON, um sinal contendo as medições de ciclo de vida será enviado com `application:didFinishLaunchingWithOptions:`.
 
@@ -77,7 +77,7 @@ Se o Audience Manager estiver configurado em seu arquivo JSON, um sinal contendo
 
       >[!IMPORTANT]
       >
-      >Antes da versão 4.13. x, DPUUID não era codificado automaticamente. A partir da versão 4.13.x, o SDK primeiro decodifica o valor passado e depois codifica novamente esse valor. Esse processo assegura que o SDK não interfere na compatibilidade com versões anteriores.
+      >Antes da versão 4.13.x, a DPUUID não era codificada automaticamente. A partir da versão 4.13.x, o SDK primeiro decodifica o valor passado e depois codifica novamente esse valor. Esse processo assegura que o SDK não interfere na compatibilidade com versões anteriores.
 
    * Esta é a sintaxe para este método:
 
