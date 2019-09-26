@@ -20,7 +20,7 @@ Estas são as notas de versão, os problemas conhecidos e as informações de ho
 
 * Em mensagens do aplicativo:
 
-   * Em dispositivos que executam o iOS 10 ou mais recente, a `UserNotifications` estrutura agora é usada para agendar notificações locais para aplicativos vinculados ao `UserNotifications.framework`.
+   * On devices running iOS 10 or newer, the  framework is now used to schedule local notifications for apps that are linked to the .`UserNotifications``UserNotifications.framework`
    * As mensagens de tela inteira agora usam WKWebViews de `WebKit.framework`, que devem ser vinculadas no projeto Xcode.
    * Correção de um bug no qual a carga de click-through de push não podia ser usada como características para mensagens no aplicativo.
    * Corrigido um problema de falha.
@@ -33,7 +33,7 @@ Estas são as notas de versão, os problemas conhecidos e as informações de ho
 
 * Adobe Target: Adicionada a `requestLocationParameters` propriedade em `ADBTargetRequestObject`, que permite que a impressãoId seja enviada com solicitações do Target.
 
-**18 de julho de 2019: Versão 4.18.6**
+**July 18, 2019: Version 4.18.6**
 
 * Adobe Target: todas as solicitações agora incluem o cliente e o `sessionId` nos parâmetros de consulta de URL.
 * Adobe Target: correção de um vazamento de memória.
@@ -43,9 +43,9 @@ Estas são as notas de versão, os problemas conhecidos e as informações de ho
 
 **5 de junho de 2019: Versão 4.18.5**
 
-* Analytics - Anexa o status de aceitação por push aos dados do ciclo de vida quando as notificações por push estiverem ativadas.
+* Analytics - Append push opt-in status to Lifecycle data when push notifications are enabled.
 
-**24 de maio de 2019: Versão 4.18.4**
+**May 24, 2019: Version 4.18.4**
 
 * Serviço de ID de visitante - Aumento do tempo limite de retorno para o
    `visitorGetUrlVariablesAsync` API em 30 segundos.
