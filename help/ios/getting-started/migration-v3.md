@@ -1,11 +1,11 @@
 ---
 description: Estas informações ajudam a migrar da versão 3.x ou 2.x da biblioteca do iOS para a versão 4.x.
 seo-description: Estas informações ajudam a migrar da versão 3.x ou 2.x da biblioteca do iOS para a versão 4.x.
-seo-title: Migração para a biblioteca iOS. x do iOS
-solution: Marketing Cloud, Analytics
-title: Migração para a biblioteca iOS. x do iOS
+seo-title: Migrating to the 4.x iOS library
+solution: Marketing Cloud,Analytics
+title: Migração para a biblioteca 4.x do iOS
 topic: Desenvolvedor e implementação
-uuid: 5668972 b-f 355-4 e 03-9 df 0-8 c 82 ddf 6809 b
+uuid: 5668972b-f355-4e03-9df0-8c82ddf6809b
 translation-type: tm+mt
 source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
@@ -20,7 +20,7 @@ Estas informações ajudam a migrar da versão 3.x ou 2.x da biblioteca do iOS p
 >
 >The SDK uses `NSUserDefaults` to store data that is needed to calculate unique users, lifecycle metrics, and other data related to core SDK functionality.  Se modificar ou remover os valores no `NSUserDefaults` esperados pelo SDK, pode resultar um comportamento inesperado na forma de inconsistência de dados.
 
-Na versão 4. x da biblioteca do SDK do iOS, os métodos públicos são consolidados em um cabeçalho. Além disso, a funcionalidade agora é acessível pelos métodos de nível de classe, portanto, não é necessário rastrear ponteiros, instâncias ou singletons.
+In the version 4.x of the iOS SDK library, the public methods are consolidated into one header. Além disso, a funcionalidade agora está acessível por meio de métodos de nível de classe, portanto, não é necessário rastrear ponteiros, instâncias ou singletons.
 
 ## Events, props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
@@ -76,7 +76,7 @@ Para mover o arquivo de configuração:
 1. Mova o valor definido para a variável na primeira coluna para a variável na segunda coluna.
 1. Remova a variável de configuração antiga do seu código.
 
-### Informações sobre migração
+### Migration information
 
 As tabelas a seguir listam as variáveis de configuração que você precisa mover para o arquivo de configuração.
 
@@ -106,7 +106,7 @@ Mova o valor da primeira coluna para a variável na segunda coluna.
 | trackOffline | "offlineEnabled" |
 | offlineLimit | "batchLimit" |
 | account | "rsids" |
-| trackingServer | "server", remova o `"https://"` prefixo. O prefixo do protocolo é adicionado automaticamente com base na configuração "ssl". |
+| trackingServer | "server", remove the  prefix. `"https://"` O prefixo do protocolo é adicionado automaticamente com base na configuração "ssl". |
 | trackingServerSecure | Remover. Para conexões seguras, defina "server" e ative "ssl". |
 | charSet | "charset" |
 | currencyCode | "currency" |
@@ -119,22 +119,22 @@ Mova o valor da primeira coluna para a variável na segunda coluna.
 | dynamicVariablePrefix | Remover, não é mais usado. |
 | visitorNamespace | Remover, não é mais usado. |
 | usePlugins | Remover, não é mais usado. |
-| useBestPractices  todas as chamadas para medição de rotatividade (getChurnInstance ) | Remover, substituído pelas medições de ciclo de vida. Para obter mais informações, consulte [Medições de ciclo de vida](//help/ios/metrics.md). |
+| useBestPractices  todas as chamadas para medição de rotatividade (getChurnInstance ) | Remove, replaced by lifecycle metrics. Para obter mais informações, consulte [Medições de ciclo de vida](//help/ios/metrics.md). |
 
 
 ## Update track calls and tracking variables {#section_96E7D9B3CDAC444789503B7E7F139AB9}
 
 Em vez de usar as chamadas focadas na Web `track` e `trackLink`, o SDK versão 4 usa os seguintes métodos:
 
-* `trackState:data:` são as exibições que estão disponíveis no aplicativo, como `home dashboard`, `app settings`e `cart`assim por diante.
+* `trackState:data:` estados são as exibições disponíveis no aplicativo, como `home dashboard`, `app settings`, `cart`etc.
 
    Esses estados são semelhantes às páginas em um site e as chamadas de `trackState` aumentam as exibições de página.
 
-* `trackAction:data:` ações, `logons`como `banner taps`, e `feed subscriptions`outras métricas que ocorrem no aplicativo e que você deseja medir.
+* `trackAction:data:` ações, como `logons`, `banner taps`e `feed subscriptions`outras métricas que ocorrem no aplicativo e que você deseja avaliar.
 
 O parâmetro `data` para ambos os métodos é um `NSDictionary` que contém os pares de nomes/valores enviados como dados de contexto.
 
-### Eventos, props, evars
+### Eventos, props, eVars
 
 Na versão 4, não é mais possível designar variáveis como eventos, eVars, propriedades, herdeiros e listas diretamente no aplicativo. O SDK agora usa dados de contexto e regras de processamento para mapear os dados do seu aplicativo para variáveis do Analytics para gerar relatórios.
 
@@ -148,7 +148,7 @@ As regras de processamento fornecem as seguintes vantagens:
 
 Os valores atribuídos diretamente às variáveis devem ser adicionados ao `data``NSDictionary` . This means that calls to `setProp`, `setEvar`, and assignments to persistent context data should all be removed and the values be added to the `data` parameter.
 
-### Appsection/Server, geozip, ID da transação, campanha e outras variáveis padrão
+### AppSection/Server, GeoZip, ID de transação, Campanha e outras variáveis padrão
 
 Os dados que você estava configurando no objeto de medição, incluindo as variáveis listadas acima, devem ser adicionados ao `data``NSDictionary`   em vez disso. Os únicos dados enviados com uma chamada `trackState` ou `trackAction` são a carga no parâmetro `data`.
 
