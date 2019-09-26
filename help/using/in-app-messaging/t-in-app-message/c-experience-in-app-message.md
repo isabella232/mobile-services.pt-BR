@@ -2,11 +2,11 @@
 description: Configure as opções de experiência para mensagens no aplicativo, incluindo o tipo (tela cheia, alerta ou notificação) e as opções de exibição, texto e botão.
 keywords: mobile
 seo-description: Configure as opções de experiência para mensagens no aplicativo, incluindo o tipo (tela cheia, alerta ou notificação) e as opções de exibição, texto e botão.
-seo-title: Mensagem no aplicativo da experiência
-solution: Marketing Cloud, Analytics
-title: Mensagem no aplicativo da experiência
+seo-title: Mensagem de experiência no aplicativo
+solution: Marketing Cloud,Analytics
+title: Mensagem de experiência no aplicativo
 topic: Métricas
-uuid: 4 c 6 d 6756-47 fb -4 f 1 b -8338-0 b 0 c 9 b 0 fceb 0
+uuid: 4c6d6756-47fb-4f1b-8338-0b0c9b0fceb0
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -21,8 +21,8 @@ Configure as opções de experiência para mensagens no aplicativo, incluindo o 
 1. Na página Experiência, digite um nome para a mensagem.
 1. Preencha os campos na seção **[!UICONTROL Tipo]:**
 
-   * **[!UICONTROL Tipo]**
-Selecione o tipo de mensagem para sua campanha de mensagens no aplicativo:
+   * **[!UICONTROL Type
+Select the message type for your in-app message campaign:]**
 
       * **[!UICONTROL Tela cheia]**
       * **[!UICONTROL Alerta]**
@@ -88,7 +88,7 @@ Selecione o tipo de mensagem para sua campanha de mensagens no aplicativo:
       Este URL pode conter as seguintes informações:
 
       * `{userId}`, que é substituído pelo identificador do usuário ou está em branco quando o identificador não é definido.
-      * `{trackingId}`, que é substituído pelo aid (correlacionado ao *cookie s_ vi* ).
+      * `{trackingId}`, que é substituído pelo aid (correlaciona-se com *s_vi* cookie).
       * `{messageId}`, que é substituído pela ID exclusiva para a mensagem no aplicativo.
       * `{lifetimeValue}`, que é substituído pelo valor da duração ou por zero caso não exista tal valor.
       Veja um exemplo do rastreamento da ID do usuário: `https://www.mysite.com?uid={userId}`.
@@ -102,26 +102,26 @@ Selecione o tipo de mensagem para sua campanha de mensagens no aplicativo:
 
 1. (Opcional) Visualize o layout de sua mensagem clicando nos ícones a seguir:
 
-   * **[!UICONTROL O resumo]** oculta o painel de visualização.
+   * **[!UICONTROL Resumo]** oculta o painel de visualização.
 
       Click ![preview](assets/icon_preview.png) to redisplay the preview pane.
 
    * **[!UICONTROL Alterar a orientação]**
 
-      To change the orientation of the preview from portrait to landscape mode, click ![orientation](assets/icon_orientation.png). Para relógios, a orientação muda de um round para um quadrado.
+      To change the orientation of the preview from portrait to landscape mode, click ![orientation](assets/icon_orientation.png). For watches, the orientation changes from a round to a square watch face.
 
    * **[!UICONTROL Visualizar no relógio de um usuário]**
 
-      Para visualizar sua mensagem como ela aparecerá no relógio de um usuário, clique no ícone ![de assistir](assets/icon_watch.png).
+      Para visualizar sua mensagem como ela aparecerá no relógio do usuário, clique no ícone ![de](assets/icon_watch.png)observação.
 
-   * **[!UICONTROL Visualização no telefone de um usuário]**
+   * **[!UICONTROL Visualizar no celular de um usuário]**
 
-      Para visualizar sua mensagem como será exibida no ícone de telefone de clique ![do telefone de um usuário](assets/icon_phone.png).
+      Para visualizar sua mensagem como ela aparecerá no celular de um usuário, clique no ícone ![de](assets/icon_phone.png)telefone.
 
-   * **[!UICONTROL Visualização no tablet de um usuário]**
+   * **[!UICONTROL Visualizar no tablet de um usuário]**
 
-      Para visualizar a mensagem no tablet de um usuário, clique ![em ícone de tablet](assets/icon_tablet.png).
+      Para visualizar sua mensagem no tablet de um usuário, clique no ícone ![do](assets/icon_tablet.png)tablet.
 
       Na parte inferior do painel de visualização, você pode ver uma descrição do público-alvo selecionado na etapa anterior. Na parte inferior do painel de visualização também é possível exibir uma descrição do público-alvo selecionado na etapa anterior.
 
-1. Configurar [opções de programação](/help/using/in-app-messaging/t-in-app-message/c-schedule-in-app-message.md).
+1. Configurar opções [](/help/using/in-app-messaging/t-in-app-message/c-schedule-in-app-message.md)de programação.
