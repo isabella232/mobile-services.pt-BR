@@ -1,12 +1,12 @@
 ---
-description: As instruções a seguir ajudam a redirecionar uma campanha de aquisição com um Link de marketing com base em uma impressão digital do dispositivo.
-keywords: android; biblioteca; dispositivos móveis; sdk
-seo-description: As instruções a seguir ajudam a redirecionar uma campanha de aquisição com um Link de marketing com base em uma impressão digital do dispositivo.
-seo-title: Testar a aquisição do link de marketing
-solution: Marketing Cloud, Analytics
-title: Testar a aquisição do link de marketing
+description: As instruções a seguir ajudam a fazer uma viagem de ida e volta em uma campanha de aquisição com um Link de marketing baseado em uma impressão digital do dispositivo.
+keywords: android;biblioteca;móvel;sdk
+seo-description: As instruções a seguir ajudam a fazer uma viagem de ida e volta em uma campanha de aquisição com um Link de marketing baseado em uma impressão digital do dispositivo.
+seo-title: Teste da aquisição do Marketing Link
+solution: Marketing Cloud,Analytics
+title: Testing Marketing Link acquisition
 topic: Desenvolvedor e implementação
-uuid: 69503 e 01-182 d -44 c 6-b 0 fb-e 1 c 012 ffa 3 bd
+uuid: 69503e01-182d-44c6-b0fb-e1c012ffa3bd
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -15,9 +15,9 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 # Testing Marketing Link acquisition {#testing-marketing-link-acquisition}
 
-As instruções a seguir ajudam a redirecionar uma campanha de aquisição com um Link de marketing com base em uma impressão digital do dispositivo.
+As instruções a seguir ajudam a fazer uma viagem de ida e volta em uma campanha de aquisição com um Link de marketing baseado em uma impressão digital do dispositivo.
 
-1. Conclua as tarefas de pré-requisito na [Aquisição](/help/ios/acquisition-main/acquisition.md)de aplicativos móveis.
+1. Conclua as tarefas de pré-requisito na Aquisição [](/help/ios/acquisition-main/acquisition.md)de aplicativos para dispositivos móveis.
 1. In the Adobe Mobile Services UI, click **[!UICONTROL Marketing Links Builder]** and generate an acquisition Marketing Link URL that sets the App Store as the destination for iOS devices.
 
    Por exemplo:
@@ -42,7 +42,7 @@ As instruções a seguir ajudam a redirecionar uma campanha de aquisição com u
 
    | Configuração | Valor |
    |--- |--- |
-   | aquisição | The server should be  `c00.adobe.com`. `appid` deve ser igual ao *`appid`* link de aquisição. |
+   | aquisição | The server should be  `c00.adobe.com`. `appid` deve ser igual ao *`appid`* no link de aquisição. |
    | analytics | `referrerTimeout` deve ter um valor maior que 0. |
 
 1. (Condicional) Se a configuração SSL no arquivo de configuração do seu aplicativo for `false`, atualize seu link de aquisição para usar o protocolo HTTP em vez de HTTPS.
@@ -59,7 +59,7 @@ As instruções a seguir ajudam a redirecionar uma campanha de aquisição com u
    `"Analytics - Trying to fetch referrer data from <acquisition end url>"`
    `"Analytics - Received Referrer Data(<Json Object>)"`
 
-   Caso não veja esses logs, verifique se completou as etapas 4 e 5.
+   Se você não vir esses registros, verifique se concluiu as etapas 4 e 5.
 
    Estas são algumas informações sobre possíveis erros:
 
@@ -77,7 +77,7 @@ As instruções a seguir ajudam a redirecionar uma campanha de aquisição com u
 
    * `Analytics - Acquisition referrer data was not complete, ignoring`
 
-      `a.referrer.campaign.name` não está `contextData`incluído.
+      `a.referrer.campaign.name` não está incluído em `contextData`.
 
    * `Analytics - Acquisition referrer timed out`
 
@@ -95,12 +95,12 @@ Lembre-se das seguintes informações:
 
 * As variações no agente-usuário enviado podem causar falha na atribuição.
 
-   Verifique `https://c00.adobe.com/v3/<appid>/start` e `https://c00.adobe.com/v3/<appid>/end` tenha os mesmos valores agente-usuário.
+   Certifique-se de que `https://c00.adobe.com/v3/<appid>/start` e que `https://c00.adobe.com/v3/<appid>/end` tenham os mesmos valores agente-usuário.
 
 * O link de aquisição e a ocorrência do SDK devem usar o mesmo protocolo HTTP/HTTPS.
 
-   Se o link e a ocorrência estiverem usando diferentes protocolos, onde o link usa HTTP e o SDK usa HTTPS, o endereço IP pode ser diferente em algumas operadoras para cada solicitação. Isso pode fazer com que a atribuição falhe.
+   Se o link e a ocorrência estiverem usando protocolos diferentes, onde, por exemplo, o link usa HTTP e o SDK usa HTTPS, o endereço IP pode diferir em algumas operadoras para cada solicitação. Isso pode fazer com que a atribuição falhe.
 
 * Os Links de marketing são armazenados em cache no lado do servidor com um tempo de expiração de dez minutos.
 
-   Ao fazer alterações nos Links de publicidade, você deve aguardar cerca de 10 minutos antes de usar os links.
+   Ao fazer alterações nos Links de marketing, aguarde cerca de 10 minutos antes de usar os links.
