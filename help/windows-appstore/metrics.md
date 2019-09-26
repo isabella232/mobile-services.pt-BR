@@ -1,12 +1,12 @@
 ---
 description: Lista as métricas e dimensões que podem ser medidas automaticamente por meio da biblioteca para dispositivos móveis.
-keywords: android; biblioteca; dispositivos móveis; sdk
+keywords: android;library;mobile;sdk
 seo-description: Lista as métricas e dimensões que podem ser medidas automaticamente por meio da biblioteca para dispositivos móveis.
 seo-title: Medições de ciclo de vida
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Medições de ciclo de vida
 topic: Desenvolvedor e implementação
-uuid: c 483271 f-f 620-46 f 4-aad 8-d 5 f 02 d 763 f 7 d
+uuid: c483271f-f620-46f4-aad8-d5f02d763f7d
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -17,13 +17,13 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 Lista as métricas e dimensões que podem ser medidas automaticamente por meio da biblioteca para dispositivos móveis.
 
-Para obter mais informações, consulte [Solução de problemas de dados do ciclo de vida](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html).
+Para obter mais informações, consulte [Solução de problemas de dados](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html)do ciclo de vida.
 
 ## Lifecycle metrics and dimensions {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
 Quando configuradas, as medições de ciclo de vida são enviadas em parâmetros de dados de contexto ao Analytics, nos parâmetros para o Target com cada chamada mbox e como um sinal ao Audience Manager. O Analytics e o Target usam o mesmo formato, e o Audience Manager usa um prefixo diferente para cada métrica.
 
-Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento de ciclo de vida são capturados automaticamente e relatados usando a métrica ou dimensão listada abaixo, e as exceções são anotadas.
+Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento de ciclo de vida são capturados automaticamente e reportados usando a métrica ou dimensão listada abaixo, e as exceções são observadas.
 
 ### Métricas
 
@@ -88,7 +88,7 @@ Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento
 
 * **Data de instalação**
 
-   Data do início após instalação. O formato de data `MM/DD/YYYY`é.
+   Data do início após instalação. O formato de data é `MM/DD/YYYY`.
 
    * Analytics context data/Target: `a.InstallDate`
    * Audience Manager: `c_a_InstallDate`
@@ -137,7 +137,7 @@ Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento
 
 * **Versão do sistema operacional**
 
-   A versão do sistema operacional.
+   A versão do SO.
 
    * Analytics context data/Target: `a.OSVersion`
    * Audience Manager: `c_a_OSVersion`
@@ -192,7 +192,7 @@ Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento
 
 ## Additional mobile metrics and dimensions {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
 
-As seguintes métricas e dimensões são capturadas em variáveis de solução móvel pelos métodos listados na descrição.
+As métricas e dimensões a seguir são capturadas nas variáveis de solução móvel pelos métodos listados na descrição.
 
 ### Métricas
 
@@ -223,7 +223,7 @@ As seguintes métricas e dimensões são capturadas em variáveis de solução m
 
    Populated by `trackLocation` methods.
 
-   * Parâmetro de dados de contexto/alvo do Analytics:
+   * Parâmetro de dados de contexto/Target do Analytics:
 
       * `a.loc.lat.a`
       * `a.loc.lon.a`
@@ -237,7 +237,7 @@ As seguintes métricas e dimensões são capturadas em variáveis de solução m
 
    Populated by `trackLocation` methods.
 
-   * Parâmetro de dados de contexto/alvo do Analytics:
+   * Parâmetro de dados de contexto/Target do Analytics:
 
       * `a.loc.lat.b`
       * `a.loc.lon.b`
@@ -251,7 +251,7 @@ As seguintes métricas e dimensões são capturadas em variáveis de solução m
 
    Populated by `trackLocation` methods.
 
-   * Parâmetro de dados de contexto/alvo do Analytics:
+   * Analytics context data/Target parameter:
 
       * `a.loc.lat.c`
       * `a.loc.lon.c`
