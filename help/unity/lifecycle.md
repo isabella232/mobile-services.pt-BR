@@ -3,9 +3,9 @@ description: 'null'
 keywords: Unity
 seo-description: 'null'
 seo-title: Implementação do ciclo de vida
-solution: Marketing Cloud, desenvolvedor
+solution: Marketing Cloud,Developer
 title: Implementação do ciclo de vida
-uuid: 7 ff 2 c 194-569 c -42 a 6-922 d-dccd 2 aa 9 eb 8 d
+uuid: 7ff2c194-569c-42a6-922d-dccd2aa9eb8d
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -14,11 +14,11 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 # Implementação do ciclo de vida{#implement-lifecycle}
 
-Para obter mais informações sobre as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel depois que o ciclo de vida é implementado, consulte [Medições de ciclo de vida no Android](/help/android/metrics.md) ou [Lifecycle no iOS](/help/ios/metrics.md).
+Para obter mais informações sobre as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida, consulte Medições de [ciclo de vida no Android](/help/android/metrics.md) ou [Ciclo de vida no iOS](/help/ios/metrics.md).
 
 ## iOS
 
-As medições de ciclo de vida são coletadas automaticamente no iOS.
+Lifecycle metrics are automatically collected in iOS.
 
 ## Android
 
