@@ -1,12 +1,12 @@
 ---
 description: Esta é uma lista de métodos do Audience Manager fornecida pela biblioteca do Android.
-keywords: android; biblioteca; dispositivos móveis; sdk
+keywords: android;biblioteca;móvel;sdk
 seo-description: Esta é uma lista de métodos do Audience Manager fornecida pela biblioteca do Android.
-seo-title: Métodos do Audience Manager
-solution: Marketing Cloud, Analytics
-title: Métodos do Audience Manager
+seo-title: Audience Manager methods
+solution: Marketing Cloud,Analytics
+title: Audience Manager methods
 topic: Desenvolvedor e implementação
-uuid: 2 f 6 e 4664-1306-41 d 4-9 fa 7-e 3 a 99 f 1 df 4 ab
+uuid: 2f6e4664-1306-41d4-9fa7-e3a99f1df4ab
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -17,7 +17,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 Esta é uma lista de métodos do Audience Manager fornecida pela biblioteca do Android.
 
-O SDK suporta atualmente várias Soluções da Adobe Experience Cloud, incluindo Analytics, Target, Audience Manager e Adobe Experience Platform Identity Service. Methods are prefixed according to the solution. For example, Experience Cloud ID methods are prefixed with `audience manager`.
+O SDK suporta atualmente várias Soluções da Adobe Experience Cloud, incluindo o Analytics, o Target, o Audience Manager e o Adobe Experience Platform Identity Service. Methods are prefixed according to the solution. For example, Experience Cloud ID methods are prefixed with `audience manager`.
 
 Se o Audience Manager estiver configurado no arquivo JSON, um sinal que contém medições de ciclo de vida será enviado com a ocorrência de ciclo de vida.
 
@@ -73,7 +73,7 @@ Se o Audience Manager estiver configurado no arquivo JSON, um sinal que contém 
 
    Define a DPID e a DPUUID, e esses valores são enviados em cada sinal.
 
-   Se o valor DPUUID que é passado para esse método contiver caracteres que não são seguros para URL, os clientes devem codificar o parâmetro antes de passá-lo para o SDK.
+   Se o valor DPUUID passado para esse método contiver caracteres que não sejam seguros para URL, os clientes deverão codificar o parâmetro antes de passá-lo para o SDK.
 
    * Esta é a sintaxe para este método:
 
