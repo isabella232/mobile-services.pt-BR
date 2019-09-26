@@ -49,4 +49,4 @@ Para habilitar seu aplicativo para atribuição do Search Ads:
    * `"iad-campaign-name"` --&gt; `"a.referrer.campaign.name"`
    * `"iad-adgroup-id"` --&gt; `"a.referrer.campaign.content"`
    * `"iad-keyword"` --&gt; `"a.referrer.campaign.term"`
-   Esse mapeamento garante que os valores estejam disponíveis em nossos relatórios padrão.
+   This mapping ensures that the values are available in our standard reporting.
