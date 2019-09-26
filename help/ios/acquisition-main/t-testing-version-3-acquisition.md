@@ -2,9 +2,9 @@
 description: Esta informação ajuda a redirecionar um link de campanha de aquisição V3 com base em uma impressão digital do dispositivo.
 seo-description: Esta informação ajuda a redirecionar um link de campanha de aquisição V3 com base em uma impressão digital do dispositivo.
 seo-title: Testar aquisição da V3
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Testar aquisição da V3
-uuid: 89137 ccf -4839-4 b 37-926 e -303 cf 8 e 511 a 5
+uuid: 89137ccf-4839-4b37-926e-303cf8e511a5
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -17,11 +17,11 @@ Esta informação ajuda a redirecionar um link de campanha de aquisição V3 com
 
 >[!IMPORTANT]
 >
->A aquisição V 3 refere-se aos links de aquisição criados com o Criador de aquisições na interface do usuário do Adobe Mobile Services. Para usar esse recurso, você deve atualizar para o SDK do iOS versão 4.6.0 ou posterior.
+>V3 Acquisition refers to the acquisition links that you create with the Acquisition Builder in the Adobe Mobile Services UI. Para usar esse recurso, você deve atualizar para o SDK do iOS versão 4.6.0 ou posterior.
 
 Se o aplicativo móvel ainda não estiver na App Store, ao criar o link da campanha, selecione qualquer aplicativo móvel como destino. Isso afeta somente o aplicativo ao qual o servidor de aquisição redireciona você depois de clicar no link de aquisição, mas não afeta a capacidade de testar o link.
 
-1. Conclua as tarefas de pré-requisito na [Aquisição](/help/ios/acquisition-main/acquisition.md)de aplicativos móveis.
+1. Conclua as tarefas de pré-requisito na Aquisição [](/help/ios/acquisition-main/acquisition.md)de aplicativos para dispositivos móveis.
 1. Navigate to the **[!UICONTROL Acquisition Builder]** in the Adobe Mobile Services UI and generate an acquisition campaign URL.
 
    Por exemplo:
@@ -45,12 +45,12 @@ Se o aplicativo móvel ainda não estiver na App Store, ao criar o link da campa
 
    | Configuração | Valor |
    |--- |--- |
-   | aquisição | The server should be  `c00.adobe.com`. *`appid`* deve ser igual ao *`appid`* link de aquisição. |
+   | aquisição | The server should be  `c00.adobe.com`. *`appid`* deve ser igual ao *`appid`* no link de aquisição. |
    | analytics | `referrerTimeout` deve ter um valor maior que 0. |
 
 
 1. (Condicional) Se a configuração `ssl` no arquivo de configuração do seu aplicativo for verdadeira, atualize seu link de aquisição para usar o protocolo HTTPS.
-1. Clique no link gerado pelo dispositivo móvel no qual você planeja instalar o aplicativo.
+1. Clique no link gerado no dispositivo móvel no qual você planeja instalar o aplicativo.
 
    Os servidores da Adobe ( `c00.adobe.com` ) armazenam a impressão digital e redirecionam para a App Store. O aplicativo não precisa ser baixado para testes.
 1. Inicie o aplicativo pela primeira vez no mesmo dispositivo móvel que você usou na etapa 6.
@@ -80,7 +80,7 @@ Ocorreu um erro de rede.
 
    * `Analytics - Acquisition referrer data was not complete, ignoring`
 
-      `a.referrer.campaign.name` não está `contextData`incluído.
+      `a.referrer.campaign.name` não está incluído em `contextData`.
 
    * `Analytics - Acquisition referrer timed out`
 
@@ -98,7 +98,7 @@ Ocorreu um erro de rede.
 
          >[!TIP]
          >
-         >Verifique `https://c00.adobe.com/v3/<appid>/start` e `https://c00.adobe.com/v3/<appid>/end` tenha os mesmos valores agente-usuário.
+         >Certifique-se de que `https://c00.adobe.com/v3/<appid>/start` e que `https://c00.adobe.com/v3/<appid>/end` tenham os mesmos valores agente-usuário.
 
       * O link de aquisição e a ocorrência do SDK devem usar o mesmo protocolo HTTP/HTTPS.
 
