@@ -3,10 +3,10 @@ description: É possível excluir um ou mais links de aquisição caso não seja
 keywords: mobile
 seo-description: É possível excluir um ou mais links de aquisição caso não sejam mais necessários.
 seo-title: Excluir links de aquisição
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Excluir links de aquisição
 topic: Métricas
-uuid: e 7362348-ca 24-4 f 1 c-b 37 f-eca 6 d 2 b 0 da 6 d
+uuid: e7362348-ca24-4f1c-b37f-eca6d2b0da6d
 translation-type: tm+mt
 source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
@@ -15,7 +15,7 @@ source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
 # Delete Acquisition links{#delete-acquisition-links}
 
-Caso não precise mais de links de aquisição, você pode excluí-los.
+When you no longer needed Acquisition links, you can delete them.
 
 1. Clique em **Aquisição** &gt; **[!UICONTROL Gerenciar links de aquisição]**.
 1. Conclua uma das seguintes tarefas:
