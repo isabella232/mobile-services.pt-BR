@@ -2,10 +2,10 @@
 description: O Adobe Mobile e seu SDK permitem enviar mensagens por push para seus usuários. O SDK também permite registrar com facilidade os usuários que abriram seu aplicativo clicando em uma mensagem por push.
 seo-description: O Adobe Mobile e seu SDK permitem enviar mensagens por push para seus usuários. O SDK também permite registrar com facilidade os usuários que abriram seu aplicativo clicando em uma mensagem por push.
 seo-title: Mensagens de push
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Mensagens de push
 topic: Desenvolvedor e implementação
-uuid: 2 e 2 d 8175-d 7 d 0-4 b 6 b-a 14 e-d 419 da 1 f 9615
+uuid: 2e2d8175-d7d0-4b6b-a14e-d419da1f9615
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -18,7 +18,7 @@ O Adobe Mobile e seu SDK permitem enviar mensagens por push para seus usuários.
 
 >[!IMPORTANT]
 >
->As informações neste tópico são uma sugestão para uma possível implementação. Recomendamos que você consulte a documentação do iOS da Apple para determinar qual é a melhor implementação para seu aplicativo. Sua implementação deve ser determinada pelas estruturas que você está usando e pelas versões do iOS que o aplicativo terá.
+>As informações neste tópico são uma sugestão para uma possível implementação. Recomendamos que você consulte a documentação do iOS da Apple para determinar qual é a melhor implementação para seu aplicativo. Sua implementação deve ser determinada pelas estruturas que você está usando e pelas versões do iOS que seu aplicativo direcionará.
 
 Para usar mensagens de push, você **deve** ter o SDK versão 4.6 ou posterior.
 
@@ -34,7 +34,7 @@ Para usar mensagens de push, você **deve** ter o SDK versão 4.6 ou posterior.
 
 
 * O SDK deve estar habilitado para o serviço de ID.
-Para obter mais informações, consulte [Configurar opções de serviço de ID do SDK](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md).
+Para obter mais informações, consulte [Configurar opções](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md)do serviço de ID do SDK.
 
 >[!IMPORTANT]
 >
@@ -58,9 +58,9 @@ Para obter mais informações, consulte [Configurar opções de serviço de ID d
    #import "ADBMobile.h"
    ```
 
-1. Para determinar as configurações para as quais seu aplicativo precisa solicitar permissão, consulte [Configuração do suporte a notificação remota](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html#//apple_ref/doc/uid/TP40008194-CH6-SW1).
+1. Para determinar as configurações para as quais seu aplicativo precisa solicitar permissão, consulte [Configuração do suporte](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html#//apple_ref/doc/uid/TP40008194-CH6-SW1)de notificação remota.
 
-   Veja um exemplo de uma implementação possível solicitando permissão para usar Alertas, Símbolos, Sons e Notificação remota:
+   Este é um exemplo de uma possível implementação que está solicitando permissão para usar Alertas, Badges, Sons e notificação remota:
 
    ```objective-c
    // iOS 10 and newer 
@@ -104,7 +104,7 @@ Para obter mais informações, consulte [Configurar opções de serviço de ID d
    }
    ```
 
-1. Para determinar a implementação correta do seu ambiente, vá para [usernotifications](https://developer.apple.com/documentation/usernotifications).
+1. Para determinar a implementação correta para seu ambiente, vá para [UserNotifications](https://developer.apple.com/documentation/usernotifications).
 
    Esta etapa ajuda a habilitar o relatório de push ao passar o dicionário `userInfo` para o SDK quando o usuário abre o aplicativo usando o click-through de uma mensagem de push.
 
