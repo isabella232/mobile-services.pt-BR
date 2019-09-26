@@ -2,10 +2,10 @@
 description: Informações para ajudá-lo com a Análise de vídeo.
 seo-description: Informações para ajudá-lo com a Análise de vídeo.
 seo-title: Análise de vídeo
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Análise de vídeo
 topic: Desenvolvedor e implementação
-uuid: f 45 dac 3 b-cd 2 e -4 fba-a 3 b 2-c 243640 ecfa 4
+uuid: f45dell3b-cd2e-4fba-a3b2-c243640ecfa4
 translation-type: tm+mt
 source-git-commit: 1c0b7dadc28f772e903baa8605016e70f05081d7
 
@@ -22,11 +22,11 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
 
 * **a.media.name**
 
-   **(Obrigatório**) Coleta o nome do vídeo, conforme especificado na implementação, quando um visitante visualiza o vídeo de alguma forma. Você pode adicionar classificações para essa variável.
+   (**Required**) Collects the name of the video, as specified in the implementation, when a visitor views the video in some way.You can add classifications for this variable.
 
    (**Opcional**) A variável Insight personalizado fornece informações sobre o caminho do vídeo.
 
-   * Tipo de variável: Evar
+   * Tipo de variável: eVar
    * Expiração padrão: visita
    * Insight personalizado (s.prop, usado para caminhos de vídeo)
 
@@ -35,7 +35,7 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
    (**Opcional**) Fornece informações sobre o caminho do vídeo. Os caminhos devem ser habilitados para esta variável pelo ClientCare.
 
    * Tipo de evento: Insight personalizado (s.prop).
-   * Tipo de variável: Insight personalizado (s. prop)
+   * Tipo de variável: Insight personalizado (s.prop)
 
 * **a.media.segment**
 
@@ -45,7 +45,7 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
 
    O método padrão de coleta de dados de vídeo reúne dados nos seguintes pontos: início do vídeo (reproduzir), início do segmento e fim do vídeo (parar). O sistema conta a primeira exibição de segmento no início, quando o visitante começa a assistir. As exibições de segmento subsequente ocorrem quando o segmento começa.
 
-   * Tipo de variável: Evar
+   * Tipo de variável: eVar
    * Expiração padrão: visualização de página
 
 * **a.contentType**
@@ -54,7 +54,7 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
 
    Da perspectiva de avaliação do vídeo, o tipo de conteúdo permite que você identifique visitantes de vídeo e, portanto, calcule as taxas de conversão do vídeo.
 
-   * Tipo de variável: Evar
+   * Tipo de variável: eVar
    * Expiração padrão: visualização de página
 
 * **a.media.timePlayed**
@@ -124,7 +124,7 @@ property bool isMediaAd;
 
 ### Media measurement class and method reference {#section_50DF9359A7B14DF092634C8E913C77FE}
 
-* **Settingswith (winjs: Settingswith)**
+* **SettingsWith (winJS: settingsWith)**
 
    Retorna um objeto `MediaSettings` com parâmetros especificados.
 
@@ -140,7 +140,7 @@ property bool isMediaAd;
       var  mySettings  =  ADB.Media.settingsWith("name", 10,  "playerName", "playerId"); 
       ```
 
-* **Adsettingswith (winjs: Adsettingswith)**
+* **AdSettingsWith (winJS: adSettingsWith)**
 
    Retorna um objeto `MediaSettings` para utilizar no monitoramento de um vídeo de anúncio.
 
@@ -156,7 +156,7 @@ property bool isMediaAd;
       var  myAdSettings = ADB.Media.adSettingsWith("name", 10,  "playerName", "parentName", "parentPod", 5, "myCPM");
       ```
 
-* **Abrir (winjs: open)**
+* **Open (winJS: open)**
 
    Rastreia uma abertura de mídia com o uso das configurações definidas em `settings`.
 
@@ -172,7 +172,7 @@ property bool isMediaAd;
       ADB.Media.open(mySettings);
       ```
 
-* **Fechar (winjs: close)**
+* **Close (winJS: fechar)**
 
    Rastreia um fechamento de mídia para o item de mídia chamado *`name`*.
 
@@ -188,7 +188,7 @@ property bool isMediaAd;
       ADB.Media.close("mediaName"); 
       ```
 
-* **Reproduzir (winjs: play)**
+* **Reproduzir (winJS: play)**
 
    Rastreia uma reprodução de mídia para o item de mídia chamado *`name`* no *offset* dado (em segundos).
 
@@ -204,7 +204,7 @@ property bool isMediaAd;
       ADB.Media.play("mediaName",  0);
       ```
 
-* **Concluído (winjs: complete)**
+* **Concluído (winJS: concluído)**
 
    Marca manualmente o item de mídia como concluído no *offset* em questão (em segundos).
 
@@ -220,7 +220,7 @@ property bool isMediaAd;
       ADB.Media.complete("mediaName", 8);
       ```
 
-* **Parar (winjs: stop)**
+* **Stop (winJS: parar)**
 
    Notifica ao módulo de mídia que o vídeo foi interrompido ou pausado no *offset* em questão.
 
@@ -236,7 +236,7 @@ property bool isMediaAd;
       ADB.Media.stop("mediaName",  4);
       ```
 
-* **Clique em (winjs: click)**
+* **Clique em (winJS: clique)**
 
    Notifica ao módulo de mídia que o item de mídia foi clicado.
 
@@ -252,7 +252,7 @@ property bool isMediaAd;
       ADB.Media.click("mediaName",  3); 
       ```
 
-* **Track (winjs: track)**
+* **Track (winJS: track)**
 
    Envia uma chamada de ação de rastreamento (sem exibição de página) para o estado de mídia atual.
 
