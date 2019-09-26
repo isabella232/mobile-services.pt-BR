@@ -3,10 +3,10 @@ description: Os profissionais de marketing podem criar links de rastreamento par
 keywords: mobile
 seo-description: Os profissionais de marketing podem criar links de rastreamento para promover e direcionar o tráfego para seus aplicativos. Esses links de rastreamento podem direcionar usuários para app stores, deep links de aplicativos e intersticiais, que podem ser correlacionados ao comportamento no aplicativo. Um profissional de marketing pode criar um único link para direcionar usuários para iOS, Android ou outras plataformas, conforme necessário.
 seo-title: Aquisição
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Aquisição
 topic: Métricas
-uuid: 987146 e 4-2 cca -46 e 7-88 aa -74 b 62 d 9 f 1 dc 5
+uuid: 987146e4-2cca-46e7-88aa-74b62d9f1dc5
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -32,15 +32,15 @@ Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Ad
 
 >[!IMPORTANT]
 >
->Embora seja possível configurar recursos na interface do usuário, esses recursos não funcionarão até que você baixe o arquivo de configuração gerado e adicione esse arquivo ao SDK. For information about downloading and configuring the SDKs, see the *SDK documentation* section on this page.)
+>Although you can configure features in the UI, these features will not work until you download the generated configuration file and add this file to the SDK. For information about downloading and configuring the SDKs, see the *SDK documentation* section on this page.)
 
-Você pode criar, editar, gerenciar e visualizar relatórios em Links de marketing de aplicativos móveis rastreáveis.
+Você pode criar, editar, gerenciar e exibir relatórios em links de marketing de aplicativos móveis rastreáveis.
 
 >[!TIP]
 >
->Essa funcionalidade exige o SKU do Adobe Analytics - Mobile Apps ou Adobe Analytics Premium.
+>This functionality requires the Adobe Analytics - Mobile Apps or the Adobe Analytics Premium SKU.
 
-Os seguintes relatórios de aquisição fornecem informações sobre como seus Links de publicidade estão funcionando:
+Os seguintes relatórios de aquisição fornecem informações sobre o desempenho dos links de marketing:
 
 * **Visão geral** {#section_5B2BA47F22694919A472AB591101237E}
 
@@ -50,7 +50,7 @@ Os seguintes relatórios de aquisição fornecem informações sobre como seus L
 
 * **Relatório de links** {#section_A23A640C363B43569D9D484CF49EA277}
 
-   Este relatório fornece uma visão classificada sobre o desempenho do Marketing Links. Além de ver os nomes dos links com as métricas principais de desempenho, também é possível personalizar o relatório. Para obter mais informações, consulte [Personalização de relatórios](/help/using/usage/reports-customize/t-reports-customize.md).
+   Este relatório fornece uma exibição classificada do desempenho dos links de marketing. Além de ver os nomes dos links com as métricas principais de desempenho, também é possível personalizar o relatório. Para obter mais informações, consulte [Personalização de relatórios](/help/using/usage/reports-customize/t-reports-customize.md).
 
    Lembre-se das seguintes informações:
 
