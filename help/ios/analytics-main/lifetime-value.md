@@ -1,11 +1,11 @@
 ---
 description: O valor de tempo de vida permite medir e atingir um valor para cada usuário.
 seo-description: O valor de tempo de vida permite medir e atingir um valor para cada usuário.
-seo-title: Valor do tempo de vida do visitante
-solution: Marketing Cloud, Analytics
-title: Valor do tempo de vida do visitante
+seo-title: Valor vitalício do visitante
+solution: Marketing Cloud,Analytics
+title: Valor vitalício do visitante
 topic: Desenvolvedor e implementação
-uuid: d 830 d 18 b -4313-43 bb -8 d 75-3789869 d 0 f 1 d
+uuid: d830d18b-4313-43bb-8d75-3789869d0f1d
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -22,7 +22,7 @@ Cada vez que um valor é enviado com `trackLifetimeValueIncrease`, o valor é ad
 
 1. Adicione a biblioteca ao projeto e implemente o ciclo de vida.
 
-   Para obter mais informações, consulte *Adicionar o SDK e o Arquivo de configuração ao projeto* na [Implementação principal e no ciclo de vida](/help/ios/getting-started/dev-qs.md).
+   Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao seu projeto* em Implementação [principal e Ciclo de vida](/help/ios/getting-started/dev-qs.md).
 1. Importe a biblioteca:
 
    ```objective-c
