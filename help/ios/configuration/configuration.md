@@ -2,10 +2,10 @@
 description: 'As seguintes informações ajudam a configurar o SDK do iOS, incluindo a configuração JSON, agrupamento de ocorrências e métodos SDK '
 seo-description: 'As seguintes informações ajudam a configurar o SDK do iOS, incluindo a configuração JSON, agrupamento de ocorrências e métodos SDK '
 seo-title: Configuração
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Configuração
 topic: Desenvolvedor e implementação
-uuid: 63261 b 61-e 70 a -42 be-a 56 f -5943173 c 041 e
+uuid: 63261b61-e70a-42be-a56f-5943173c041e
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
