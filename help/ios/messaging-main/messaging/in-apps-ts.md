@@ -3,10 +3,10 @@ description: Estas informações ajudam a solucionar problemas de mensagem de pu
 keywords: mobile
 seo-description: Estas informações ajudam a solucionar problemas de mensagem de push no aplicativo.
 seo-title: Resolução de problemas nas mensagens no aplicativo
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Resolução de problemas nas mensagens no aplicativo
 topic: Métricas
-uuid: 58533 aa 3-2 eb 2-4597-8525-77 e 4 e 5975 e 56
+uuid: 58533aa3-2eb2-4597-8525-77e4e5975e56
 translation-type: tm+mt
 source-git-commit: 1154bab39b5215e00d47ad8e66caeec15e4e98de
 
@@ -35,13 +35,13 @@ Certifique-se de que o destinatário de transmissão de notificação local este
 
 Verifique a exibição de lista na página Gerenciar mensagens no aplicativo, localizada na coluna Status, e veja se ela foi publicada.
 
-## Observe *mostrar uma vez*, *mostrar sempre*, *mostrar* configurações offline na guia Público-alvo.
+## Look at show once, show always, show offline settings on the Audience tab.******
 
 Verifique se essas configurações estão definidas do modo como você deseja. Na guia **[!UICONTROL Público-alvo]**, revise as opções do **Acionar], que permitem especificar a frequência de exibição da mensagem.[!UICONTROL **
 
 ## Caso esteja usando um evento de inicialização como acionador...
 
-O acionador só será ativado em uma nova sessão. For more information about when a session begins, see the `lifecycleTimeout` row in the JSON Config file. Para obter mais informações, consulte [Configuração JSON do adbmobile](/help/ios/configuration/json-config/json-config.md).
+O acionador só será ativado em uma nova sessão. For more information about when a session begins, see the `lifecycleTimeout` row in the JSON Config file. For more information, see  ADBMobile JSON Config.[](/help/ios/configuration/json-config/json-config.md)
 
 ## Atualizei minha mensagem remotamente, mas meu aplicativo ainda exibe a mensagem antiga.
 
