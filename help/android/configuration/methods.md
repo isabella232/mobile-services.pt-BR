@@ -1,12 +1,12 @@
 ---
 description: Esta é uma lista de métodos do fornecida pela biblioteca do Android.
-keywords: android; biblioteca; dispositivos móveis; sdk
+keywords: android;biblioteca;móvel;sdk
 seo-description: Esta é uma lista de métodos do fornecida pela biblioteca do Android.
 seo-title: Configuração de métodos
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Configuração de métodos
 topic: Desenvolvedor e implementação
-uuid: 663 aeb 6 c -1 b 97-4 a 3 a -8 c 0 e-dd 4 c 2 ec 28 c 01
+uuid: 663aeb6c-1b97-4a3a-8c0e-dd4c2ec28c01
 translation-type: tm+mt
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
@@ -38,11 +38,11 @@ Esta é a amostra de código para este método:
 
 * **registerAdobeDataCallback**
 
-   * Registra um objeto que implementa a interface do `AdobeDataCallback`. The overwritten "call" method will be invoked with a `Config.MobileDataEvent` value and the associated data in a `Map<String, Object>` for the triggering event. Para obter mais detalhes sobre quais eventos acionarão esse retorno de chamada, consulte *mobiledataeventenum* na parte inferior deste tópico.
+   * Registra um objeto que implementa a interface do `AdobeDataCallback`. The overwritten "call" method will be invoked with a `Config.MobileDataEvent` value and the associated data in a `Map<String, Object>` for the triggering event. Para obter mais detalhes sobre quais eventos acionarão esse retorno de chamada, consulte *MobileDataEventEnum* na parte inferior deste tópico.
 
       >[!TIP]
       >
-      >Esse método requer a versão 4.9.0 ou posterior.
+      >Este método requer a versão 4.9.0 ou posterior.
 
    * Esta é a sintaxe para este método:
 
@@ -87,7 +87,7 @@ Esta é a amostra de código para este método:
       Estes são os valores do status de privacidade:
 
       * `MOBILE_PRIVACY_STATUS_OPT_IN`, onde as ocorrências são enviadas imediatamente.
-      * `MOBILE_PRIVACY_STATUS_OPT_OUT`, onde são descartados.
+      * `MOBILE_PRIVACY_STATUS_OPT_OUT`, where the its are discarded.
       * `MOBILE_PRIVACY_STATUS_UNKNOWN`, se o conjunto de relatórios tiver um carimbo de hora e data, as ocorrências serão salvas até que o status de privacidade seja alterado para opt-in (as ocorrências são enviadas) ou opt-out (as ocorrências são descartadas).
 
          Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in. O valor padrão está definido no arquivo `ADBMobileConfig.json`.
@@ -110,7 +110,7 @@ Esta é a amostra de código para este método:
 
       E possível definir o status de privacidade para um dos valores a seguir:
       * `MOBILE_PRIVACY_STATUS_OPT_IN`, onde as ocorrências são enviadas imediatamente. Essas ocorrências são enviadas imediatamente.
-      * `MOBILE_PRIVACY_STATUS_OPT_OUT`, onde são descartados. Essas ocorrências são descartadas.
+      * `MOBILE_PRIVACY_STATUS_OPT_OUT`, quando as suas emissões forem eliminadas. Essas ocorrências são descartadas.
       * `MOBILE_PRIVACY_STATUS_UNKNOWN`, se o conjunto de relatórios tiver um carimbo de hora e data, as ocorrências serão salvas até que o status de privacidade seja alterado para opt-in (as ocorrências são enviadas) ou opt-out (as ocorrências são descartadas).
 Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in.
    * Esta é a sintaxe para este método:
@@ -136,7 +136,7 @@ Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências 
       public static BigDecimal getLifetimeValue();
       ```
 
-   * Esta é uma amostra de código para este método:
+   * Here is a code sample for this method:
 
       ```java
       BigDecimal currentLifetimeValue Config.getLifetimeValue(); 
@@ -148,7 +148,7 @@ Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências 
 
       >[!TIP]
       >
-      >Se o aplicativo for atualizado do Experience Cloud 3. x para o SDK 4. x, a ID de visitante personalizada ou gerada automaticamente anterior será recuperada e armazenada como o identificador do usuário personalizado. Isso preserva os dados dos visitantes entre as atualizações de SDK. Para novas instalações do SDK 4.x, até que seja definido, o identificador do usuário é `null`.
+      >Se seu aplicativo for atualizado do Experience Cloud 3.x para o SDK 4.x, a ID de visitante personalizada ou gerada automaticamente anterior será recuperada e armazenada como o identificador de usuário personalizado. Isso preserva os dados dos visitantes entre as atualizações de SDK. Para novas instalações do SDK 4.x, até que seja definido, o identificador do usuário é `null`.
 
    * Esta é a sintaxe para este método:
 
@@ -156,7 +156,7 @@ Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências 
       public static String&amp getUserIdentifier();
       ```
 
-   * Aqui, a amostra de código para este método:
+   * Aqui está a amostra de código para este método:
 
       ```java
       String userId = Config.getUserIdentifier();
