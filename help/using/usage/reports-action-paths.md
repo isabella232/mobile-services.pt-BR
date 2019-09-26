@@ -3,10 +3,10 @@ description: O relatório Caminhos de ação se baseia na análise de caminhos e
 keywords: mobile
 seo-description: O relatório Caminhos de ação se baseia na análise de caminhos e mostra um gráfico que representa os caminhos que foram tomados de um estado para outro no aplicativo.
 seo-title: Relatório dos Caminhos de ação
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Relatório dos Caminhos de ação
 topic: Relatórios, Métricas
-uuid: a 21 e 5 d 9 e-fd 57-4178-9 d 64-87181 b 7 f 988 b
+uuid: a21e5d9e-fd57-4178-9d64-87181b7f988b
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -21,7 +21,7 @@ Ambos os relatórios **[!UICONTROL Caminhos de exibição]** e **Caminhos de aç
 
 >[!TIP]
 >
->Você pode usar um relatório de funil para combinar navegação e ações em um relatório. Para obter mais informações, consulte [Funil](/help/using/usage/reports-funnel.md).
+>You can use a funnel report to combine navigation and actions in one report. For more information, see Funnel.[](/help/using/usage/reports-funnel.md)
 
 ![](assets/action_paths.png)
 
@@ -40,7 +40,7 @@ To expand, click the **[!UICONTROL +]** icon. Esta opção exibe os caminhos adi
 
 Expandir um estado é como um funil.
 
-![caminho de ação expandido](assets/action_paths_expand.png)
+![action path expand](assets/action_paths_expand.png)
 
 To isolate the node and show paths that come into, and go out of the selected node, click the  ![focus icon](assets/icon_focus.png) icon. No gráfico abaixo, os seguintes caminhos foram concluídos **antes** dos usuários selecionarem uma foto:
 
@@ -56,11 +56,11 @@ Dos usuários que selecionaram uma foto, os seguintes caminhos foram concluídos
 * Arrastar um item
 * Dimensionamento de um item
 
-![foco do caminho da ação](assets/action_paths_focus.png)
+![action path focus](assets/action_paths_focus.png)
 
 Você pode focalizar ou expandir vários nós para conseguir uma visualização detalhada dos caminhos que os usuários percorrem em seu aplicativo. Por exemplo:
 
-![caminho de ação múltiplo](assets/action_paths_mult.png)
+![action path multi](assets/action_paths_mult.png)
 
 Você pode configurar as seguintes opções no relatório:
 
@@ -74,7 +74,7 @@ Você pode configurar as seguintes opções no relatório:
 
 * **[!UICONTROL Filtro]**
 
-   Clique em **[!UICONTROL Filtro]para criar um filtro que abrange vários relatórios e observar o desempenho de um segmento específico em todos os relatórios móveis.** Um filtro fixo permite definir um filtro aplicado a todos os relatórios não relacionados à definição de caminho. Para obter mais informações, consulte [Adicionar um filtro fixo](/help/using/usage/reports-customize/t-sticky-filter.md).
+   Clique em **[!UICONTROL Filtro]para criar um filtro que abrange vários relatórios e observar o desempenho de um segmento específico em todos os relatórios móveis.** Um filtro fixo permite definir um filtro aplicado a todos os relatórios não relacionados à definição de caminho. Para obter mais informações, consulte [Adicionar um filtro](/help/using/usage/reports-customize/t-sticky-filter.md)fixo.
 
 * **[!UICONTROL Baixar]**
 
