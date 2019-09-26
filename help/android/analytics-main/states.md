@@ -2,10 +2,10 @@
 description: Os estados são telas ou exibições diferentes no aplicativo.
 seo-description: Os estados são telas ou exibições diferentes no aplicativo.
 seo-title: Rastrear estados do aplicativo
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Rastrear estados do aplicativo
 topic: Desenvolvedor e implementação
-uuid: 69 c 99 d 05-5816-4 c 86-97 c 5-d 218 dc 26 c 129
+uuid: 69c99d05-5816-4c86-97c5-d218dc26c129
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -22,7 +22,7 @@ Sempre que um novo estado for exibido no aplicativo, por exemplo, quando um usu�
 
 1. Adicione a biblioteca ao projeto e implemente o ciclo de vida.
 
-   Para obter mais informações, consulte *Adicionar o SDK e o Arquivo de configuração ao projeto intellij IDEA ou Eclipse* na [implementação principal e ciclo de vida](/help/android/getting-started/dev-qs.md).
+   Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao projeto* IntelliJ IDEA ou Eclipse na implementação e ciclo de vida [principal](/help/android/getting-started/dev-qs.md).
 
 1. Importe a biblioteca:
 
@@ -43,7 +43,7 @@ Sempre que um novo estado for exibido no aplicativo, por exemplo, quando um usu�
    }
    ```
 
-The `"State Name"` is reported in the `View State` variable in Adobe Mobile services, and a view is recorded for each `trackState` call. Em outras interfaces `View State` do Analytics, é relatado como `Page Name`e `state views` é relatado como `page views`.
+The `"State Name"` is reported in the `View State` variable in Adobe Mobile services, and a view is recorded for each `trackState` call. Em outras interfaces do Analytics, `View State` é reportado como `Page Name`e `state views` como `page views`.
 
 ## Send additional data {#section_CFDB4F944496401786A145C209AB387C}
 
