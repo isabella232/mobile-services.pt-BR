@@ -3,7 +3,7 @@ description: Você pode alavancar o Adobe Target em seus aplicativos TVML/TVJS f
 seo-description: Você pode alavancar o Adobe Target em seus aplicativos TVML/TVJS fazendo substituições diretas em seus arquivos .xml. Atribua áreas da sua página para serem substituídas pelo conteúdo do Target usando o elemento ADBTarget XML personalizado.
 seo-title: Adobe Target para TVML/TVJS
 title: Adobe Target para TVML/TVJS
-uuid: afd 5 a 583-5266-43 f 2-8 cb 0-0 ace 89 c 53 a 57
+uuid: afd5a583-5266-43f2-8cb0-0ace89c53a57
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -16,7 +16,7 @@ Você pode alavancar o Adobe Target em seus aplicativos TVML/TVJS fazendo substi
 
 >[!IMPORTANT]
 >
->Before using the `ADBTarget` element in your TVML pages, you must configure your TVML/TVJS app to use the tvOS SDK. Para obter mais informações, consulte [Implementação da Apple TV com tvos](/help/ios/apple-tv-implementation-tvos/apple-tv-implementation-tvos.md).
+>Before using the `ADBTarget` element in your TVML pages, you must configure your TVML/TVJS app to use the tvOS SDK. Para obter mais informações, consulte Implementação da [Apple TV com tvOS](/help/ios/apple-tv-implementation-tvos/apple-tv-implementation-tvos.md).
 
 ## Introdução {#section_88445645FD67416EAF6FDC3E3D3F5C33}
 
@@ -30,11 +30,11 @@ The returned content from Target replaces all content between `<ADBTarget>` and 
 
 >[!TIP]
 >
->Você deve planejar o que deseja substituir adequadamente.
+>Você deve planejar o que deseja substituir de acordo.
 
 Seu caso de uso pode ser tão simples como substituir um valor da cadeia de caracteres em um rótulo ou tão complexo como substituir uma página inteira.
 
-## Configurar o elemento adbtarget {#section_44A7AEC6FC0648ADAD0BACB57D493AFA}
+## Configurar o elemento ADBTarget {#section_44A7AEC6FC0648ADAD0BACB57D493AFA}
 
 No elemento `ADBTarget`, você deve fornecer o nome da na propriedade `mbox`mbox. You can optionally add custom properties to your request in the `customParameterName="customParameterValue"` format.
 
@@ -43,21 +43,21 @@ No elemento `ADBTarget`, você deve fornecer o nome da na propriedade `mbox`mbox
    Nome da localização da Mbox.
 
    * Tipo de propriedade: String
-   * Essa propriedade é necessária.
+   * Essa propriedade é obrigatória.
 
 * **`id`**
 
    A ID do pedido.
 
    * Tipo de propriedade: String
-   * Essa propriedade **não** é necessária.
+   * Esta propriedade **não** é obrigatória.
 
 * **`total`**
 
    O total do pedido.
 
    * Tipo de propriedade: String
-   * Essa propriedade **não** é necessária.
+   * Esta propriedade **não** é obrigatória.
 
 * **`purchasedProductIds`**
 
@@ -71,11 +71,11 @@ No elemento `ADBTarget`, você deve fornecer o nome da na propriedade `mbox`mbox
       ```
 
    * Tipo de propriedade: String
-   * Essa propriedade **não** é necessária.
+   * Esta propriedade **não** é obrigatória.
 
 * **`mboxParameters`**
 
-   Uma lista de pares de valores chave para `mboxParameters`. Cada entrada nessa string é separada por um ponto-e-vírgula e os valores-chave são separados por dois pontos.
+   Uma lista de pares de valores chave para `mboxParameters`. Cada entrada nessa string é separada por um ponto-e-vírgula, e os valores-chave são separados por dois-pontos.
 
    * Esta é a amostra de código para esta propriedade:
 
@@ -84,14 +84,14 @@ No elemento `ADBTarget`, você deve fornecer o nome da na propriedade `mbox`mbox
       ```
 
    * Tipo de propriedade: String
-   * Essa propriedade **não** é necessária.
+   * Esta propriedade **não** é obrigatória.
 
 * **`customParameterName`**
 
    O valor dessa propriedade é `customParameterValue`.
 
    * Tipo de propriedade: String
-   * Essa propriedade **não** é necessária.
+   * Esta propriedade **não** é obrigatória.
 
 
 ## Exemplos {#section_6D6D6E8C7FE147168FC30D83CBC06985}
