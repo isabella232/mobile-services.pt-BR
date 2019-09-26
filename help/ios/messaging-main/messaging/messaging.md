@@ -2,10 +2,10 @@
 description: Estas informações ajudam a usar as mensagens nos aplicativos iOS.
 seo-description: Estas informações ajudam a usar as mensagens nos aplicativos iOS.
 seo-title: Mensagens no aplicativo
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Mensagens no aplicativo
 topic: Desenvolvedor e implementação
-uuid: 21 fa 6 a 94-bb 7 f -4 c 78-843 b-a 50 f 1974 db 22
+uuid: 21fa6a94-bb7f-4c78-843b-a50f1974db22
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -25,13 +25,13 @@ Algumas informações para lembrar:
 
    >[!TIP]
    >
-   >Você pode concluir essas etapas mesmo que não tenha mensagens definidas. Depois de definir mensagens, elas são entregues dinamicamente ao seu aplicativo e exibidas sem uma atualização da app store.
+   >Você pode concluir essas etapas mesmo que não tenha mensagens definidas. After you define messages, they are delivered dynamically to your app and displayed without an app store update.
 
 ## Enabling in-app messages {#section_79F984271C3B4366B7B04F864F4FF8C2}
 
 1. Adicione a biblioteca ao projeto e implemente o ciclo de vida.
 
-   Para obter mais informações, consulte *Adicionar o SDK e o Arquivo de configuração ao projeto* na [Implementação principal e no ciclo de vida](/help/ios/getting-started/requirements.md).
+   Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao seu projeto* em Implementação [principal e Ciclo de vida](/help/ios/getting-started/requirements.md).
 
 1. Importe a biblioteca:
 
@@ -69,7 +69,7 @@ Algumas informações para lembrar:
    >
    >`messages` ou `remotes` é obrigatório.
 
-   If these objects are not configured, download an updated `ADBMobileConfig.json` file from Adobe Mobile services. Para obter mais informações, consulte [Implementação principal e ciclo de vida](/help/ios/getting-started/requirements.md).
+   If these objects are not configured, download an updated `ADBMobileConfig.json` file from Adobe Mobile services. Para obter mais informações, consulte Implementação [principal e ciclo de vida](/help/ios/getting-started/requirements.md).
 
 ## Tracking in-app messages {#section_B85CDF6929564AAEA79338B55E5CB1E8}
 
@@ -77,14 +77,14 @@ Os SDKs dos iOS Mobile Services rastreiam as seguintes métricas de suas mensage
 
 * Para mensagens no aplicativo em tela inteira ou no estilo de alerta:
 
-   * **[!UICONTROL Impressões]**: quando o usuário aciona uma mensagem no aplicativo.
-   * **[!UICONTROL Click-throughs: quando o usuário empurra o]** botão Click-through **[!UICONTROL .]**
-   * **[!UICONTROL Cancela]**: quando o usuário pressionar o **[!UICONTROL botão Cancelar]** .
+   * **[!UICONTROL Impressões]**: quando o usuário dispara uma mensagem no aplicativo.
+   * **[!UICONTROL Clique em throughs]**: quando o usuário pressiona o botão **[!UICONTROL Click-through]** .
+   * **[!UICONTROL Cancela]**: quando o usuário pressiona o botão **[!UICONTROL Cancelar]** .
 
 * Para mensagens no aplicativo personalizadas em tela inteira, o conteúdo HTML na mensagem precisa incluir o código correto para notificar ao rastreamento de SDK sobre os seguintes botões:
 
-   * **[!UICONTROL Rastreamento de exemplo de click-through]** (redirecionamento): `adbinapp://confirm/?url=https://www.yoursite.com`
-   * **[!UICONTROL Cancelar o rastreamento]** de exemplo (fechar): `adbinapp://cancel`
+   * **[!UICONTROL Acompanhamento de exemplo por click-through]** (redirecionamento): `adbinapp://confirm/?url=https://www.yoursite.com`
+   * **[!UICONTROL Cancelar]** (fechar) rastreamento de exemplo: `adbinapp://cancel`
 
 * Em notificações locais (remotas):
 
