@@ -3,7 +3,7 @@ description: Depois de configurar o URL de deep linking na interface do usuário
 seo-description: Depois de configurar o URL de deep linking na interface do usuário do Adobe Mobile Services, este URL estará na carga de envio com a chave adb_deeplink.
 seo-title: Implementar mensagens de push com deep linking
 title: Implementar mensagens de push com deep linking
-uuid: ee 9590 fc -8 bd 3-4111-9221-9011 d 9 edbd 84
+uuid: ee9590fc-8bd3-4111-9221-9011d9edbd84
 translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
