@@ -1,12 +1,12 @@
 ---
-description: As instruções a seguir ajudam a redirecionar uma campanha de aquisição com um Marketing Link em um dispositivo Android.
-keywords: android; biblioteca; dispositivos móveis; sdk
-seo-description: As instruções a seguir ajudam a redirecionar uma campanha de aquisição com um Marketing Link em um dispositivo Android.
+description: The following instructions help you roundtrip an acquisition campaign with a Marketing Link on an Android device.
+keywords: android;biblioteca;móvel;sdk
+seo-description: As instruções a seguir ajudam a fazer uma viagem de ida e volta em uma campanha de aquisição com um Link de marketing em um dispositivo Android.
 seo-title: Testar a aquisição de links de marketing
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Testar a aquisição de links de marketing
 topic: Desenvolvedor e implementação
-uuid: d 0933 dcc -8 fc 3-4 f 60-987 f -7 a 54559 aacf 5
+uuid: d0933dcc-8fc3-4f60-987f-7a54559aacf5
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -15,13 +15,13 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 # Testing Marketing Link acquisition {#testing-marketing-link-acquisition}
 
-As instruções a seguir ajudam a redirecionar uma campanha de aquisição com um Marketing Link em um dispositivo Android.
+The following instructions help you roundtrip an acquisition campaign with a Marketing Link on an Android device.
 
-Se o aplicativo móvel ainda não estiver no Google Play, você pode selecionar qualquer aplicativo móvel como destino ao criar o Marketing Link. Isso não afeta a capacidade de testar o link de aquisição, somente o aplicativo para o qual você é redirecionado pelo servidor de aquisição após clicar no link. Os parâmetros da cadeia de caracteres de consulta são passados para a Google Play store, que é passada para o aplicativo na instalação como parte de uma difusão de campanha. A viagem de ida e volta do teste de aquisição do aplicativo móvel requer uma simulação desse tipo de difusão.
+If your mobile app is not yet in Google Play, you can select any mobile app as a destination when creating the Marketing Link. Isso não afeta a capacidade de testar o link de aquisição, somente o aplicativo para o qual você é redirecionado pelo servidor de aquisição após clicar no link. Os parâmetros da cadeia de caracteres de consulta são passados para a Google Play store, que é passada para o aplicativo na instalação como parte de uma difusão de campanha. A viagem de ida e volta do teste de aquisição do aplicativo móvel requer uma simulação desse tipo de difusão.
 
 The app must be freshly installed, or have data cleared in **[!UICONTROL Settings]**, each time a test is run. Isso garante que as medições de ciclo de vida inicial associadas aos parâmetros de cadeia de caracteres de consulta da campanha sejam enviadas quando o aplicativo é inicializado pela primeira vez.
 
-1. Conclua as tarefas de pré-requisito na [aquisição](/help/android/acquisition-main/acquisition.md) do aplicativo móvel e certifique-se `INSTALL_REFERRER`de implementá-lo corretamente.
+1. Complete the prerequisite tasks in [Mobile app acquisition](/help/android/acquisition-main/acquisition.md) and ensure that you have correctly implemented the broadcast receiver for `INSTALL_REFERRER`.
 1. In the Adobe Mobile Services] UI, click  **[!UICONTROL Acquisition]** &gt; **[!UICONTROL Marketing Links Builder]** and generate an Acquisition Marketing Link URL that sets Google Play as the destination for Android devices.
 
    Para obter mais informações, consulte [Criador de links de marketing](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md).
@@ -38,7 +38,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
 1. Copy the unique ID after `utm_content%3D`.
 
-   No exemplo anterior, a ID é `91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`.
+   In the previous example, the ID is .`91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`
 
    Caso não consiga obter a ID única no dispositivo, execute o comando `CURL` no desktop para obter a ID única da cadeia de caracteres de resposta.
 
@@ -69,7 +69,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
    | Configuração | Valor |
    |--- |--- |
-   | aquisição | O servidor deve ser `c00.adobe.com`e *`appid`* deve ser igual ao `appid` do link de aquisição. |
+   | aquisição | The server should be , and        should equal the  in your acquisition link.`c00.adobe.com`*`appid`*`appid` |
    | analytics | Para fins de teste, defina o limite de tempo do referencial para permitir que o tempo adequado (60 segundos ou mais) envie a difusão automaticamente. É possível restaurar a configuração original de limite de tempo após testar. |
 
 1. Conecte o dispositivo a um computador, desinstale e instale o aplicativo novamente.
@@ -114,7 +114,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
    | Analytics - Unable to decode response(`<string>`). | A resposta está malformada. |
    | Analytics - Unable to parse response (`a JSON Response`). | A cadeia de caracteres JSON está malformada. |
    | Analytics - Unable to parse acquisition service response (no `contextData` parameter in response). | Não há um parâmetro `contextData` na resposta. |
-   | Analytics - Acquisition referrer data was not complete (no `a.referrer.campaign.name` in context data), ignoring. | `a.referrer.campaign.name` não está incluída em contextdata. |
+   | Analytics - Acquisition referrer data was not complete (no `a.referrer.campaign.name` in context data), ignoring. | `a.referrer.campaign.name` não está incluído em contextData. |
    | Analytics - tempo limite do referenciador de aquisição. | Falha ao obter a resposta no tempo definido pelo `referrerTimeout`. Aumente o valor e tente novamente.  Também é necessário ter certeza de que você abriu o link de aquisição antes de instalar o aplicativo. |
 
 Lembre-se das seguintes informações:
