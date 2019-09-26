@@ -1,9 +1,9 @@
 ---
 description: Classes e métodos fornecidos pela biblioteca do BlackBerry.
 seo-description: Classes e métodos fornecidos pela biblioteca do BlackBerry.
-seo-title: Referência de método e classe do Adobe Mobile
-title: Referência de método e classe do Adobe Mobile
-uuid: 1 e 42 d 759-be 43-4 bb 3-ac 1 a-c 7 d 64133 d 61 c
+seo-title: Referência de classe e método do Adobe Mobile
+title: Referência de classe e método do Adobe Mobile
+uuid: 1e42d759-be43-4bb3-ac1a-c7d64133d61c
 translation-type: tm+mt
 source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
@@ -14,7 +14,7 @@ source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
 Classes e métodos fornecidos pela biblioteca do BlackBerry.
 
-O SDK atualmente tem suporte para o Adobe Analytics e os métodos estão em classes separadas com base na solução.
+Atualmente, o SDK oferece suporte ao Adobe Analytics e os métodos estão em classes separadas com base na solução.
 
 ## SDK settings {#section_C1EB977043C04D2B93E5A63DB72828B6}
 
@@ -153,7 +153,7 @@ Cada um desses métodos é usado para enviar dados para seu conjunto de relatór
 
    >[!TIP]
    >
-   >Esta é a única chamada de rastreamento que aumenta as exibições de página.
+   >This is the only tracking call that increments page views.
 
    * Esta é a sintaxe para este método:
 
@@ -207,7 +207,7 @@ The `ADBMobileConfig.json` file must be placed in the *assets* folder.
 
    (Obrigatório) Um ou mais conjuntos de relatórios que receberão dados do Analytics. Diversas IDs de conjunto de relatórios devem ser separadas por vírgulas, sem espaçamento entre as mesmas.
 
-   Aqui está a amostra de código para esta variável:
+   Estas são as amostras de código para esta variável:
 
    ```js
    "rsids" : "rsid"
@@ -235,7 +235,7 @@ The `ADBMobileConfig.json` file must be placed in the *assets* folder.
 
    >[!TIP]
    >
-   >If timestamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be `true`. Caso o conjunto de relatórios não tenha um carimbo de data e hora, sua propriedade de configuração `offlineEnabled` *deve* ser false. Se isso não for configurado corretamente, os dados serão perdidos. Se você não tem certeza se um conjunto de relatórios tem um carimbo de data e hora, entre em contato com [Suporte empresarial](https://helpx.adobe.com/contact/enterprise-support.ec.html).
+   >If timestamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be `true`. Caso o conjunto de relatórios não tenha um carimbo de data e hora, sua propriedade de configuração `offlineEnabled` *deve* ser false. Se isso não for configurado corretamente, os dados serão perdidos. Se você não tem certeza se um conjunto de relatórios tem um carimbo de data e hora, entre em contato com Suporte [empresarial](https://helpx.adobe.com/contact/enterprise-support.ec.html).
 
    Caso esteja relatando dados AppMeasurement para um conjunto de relatórios que também coleta dados JavaScript, pode ser necessário configurar um conjunto de relatórios separado para dados de dispositivos móveis, ou incluir um carimbo de data e hora personalizado nas ocorrências de JavaScript que usam a variável `s.timestamp`.
 
@@ -249,7 +249,7 @@ The `ADBMobileConfig.json` file must be placed in the *assets* folder.
 
 * **batchLimit**
 
-   O número máximo de ocorrências offline armazenada na fila. O valor padrão é 0 (sem limite).
+   O número máximo de ocorrências offline armazenada na fila. O valor padrão é 0 (Sem limite).
 
 * **privacyDefault**
 
@@ -258,7 +258,7 @@ The `ADBMobileConfig.json` file must be placed in the *assets* folder.
    * `optunknown` - Se o conjunto de relatórios estiver habilitado para mostrar o carimbo de data e hora, as ocorrências serão salvas até o status de privacidade ser alterado para opt-in (as ocorrências são enviadas) ou opt-out (as ocorrências são descartadas).
 
       Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in.
-   Essa variável define apenas o valor inicial. Se esse valor for definido ou alterado no código, o novo valor será usado até que seja alterado novamente, ou quando o aplicativo for desinstalado e instalado novamente.
+   Essa variável define somente o valor inicial. Se esse valor for definido ou alterado no código, o novo valor será usado até que seja alterado novamente, ou quando o aplicativo for desinstalado e instalado novamente.
 
    O valor padrão é `optedin`.
 
