@@ -2,10 +2,10 @@
 description: Estas informações ajudam a usar o SDK do iOS com o Adobe Analytics.
 seo-description: Estas informações ajudam a usar o SDK do iOS com o Adobe Analytics.
 seo-title: Visão geral do Analytics
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Visão geral do Analytics
 topic: Desenvolvedor e implementação
-uuid: 8 c 7 fb 76 a-be 0 b -4465-8151-ece 7 bad 11 b 55
+uuid: 8c7fb76a-be0b-4465-8151-ece7bad11b55
 translation-type: tm+mt
 source-git-commit: 9257d6b6c2c14d0422cda65fcc9c677ac5ac47a9
 
@@ -14,7 +14,7 @@ source-git-commit: 9257d6b6c2c14d0422cda65fcc9c677ac5ac47a9
 
 # Visão geral do Analytics {#analytics}
 
-As informações nesta seção ajudam você a usar o SDK do iOS com o Adobe Analytics.
+As informações nesta seção ajudam a usar o iOS SDK com o Adobe Analytics.
 
 ## Nova versão do SDK da Adobe Experience Cloud
 
