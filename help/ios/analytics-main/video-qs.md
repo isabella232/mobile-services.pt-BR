@@ -2,10 +2,10 @@
 description: Estas são algumas informações sobre a medição de vídeos no iOS usando a medição de vídeos por etapas.
 seo-description: Estas são algumas informações sobre a medição de vídeos no iOS usando a medição de vídeos por etapas.
 seo-title: Análise de vídeo
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Análise de vídeo
 topic: Desenvolvedor e implementação
-uuid: d 75 fa 415-78 f 6-4 f 50-a 563-76949 f 040138
+uuid: d75fa415-78f6-4f50-a563-76949f040138
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -32,7 +32,7 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
 
    (Opcional) A variável de Insight personalizado oferece informações de caminho de vídeo.
 
-   * Tipo de variável: Evar
+   * Variable type: eVar
    * Expiração padrão: visita
    * Insight personalizado (s.prop, usado para caminhos de vídeo)
 
@@ -40,7 +40,7 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
 
    (opcional) Fornece informações sobre o caminho de vídeo. O caminho deve ser habilitado para a variável pelo Atendimento ao cliente.
 
-   * Tipo de variável: Insight personalizado (s. prop)
+   * Tipo de variável: Insight personalizado (s.prop)
    * Tipo de evento: Insight personalizado (s.prop)
 
 * **a.media.segment**
@@ -54,7 +54,7 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
    * término do vídeo (stop)
    O Analytics conta a primeira exibição de segmento no início, quando o visitante começa a assistir. As exibições de segmento subsequente ocorrem quando o segmento começa.
 
-   * Tipo de variável: Evar
+   * Variable type: eVar
    * Expiração padrão: visualização de página
 
 
@@ -62,28 +62,28 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
 
    Coleta dados sobre o tipo de conteúdo que é visualizado por um visitante. Hits sent by video measurement are assigned a content type of `video`. Essa variável não precisa estar reservada exclusivamente para o rastreamento de vídeo. Quando outros conteúdos relatam o tipo por meio da mesma variável, é possível analisar a distribuição de visitantes em tipos diferentes de conteúdo. Por exemplo, é possível marcar outros tipos de conteúdo por meio de valores como “artigo” ou “página do produto” com essa variável. Da perspectiva da avaliação de vídeo, o Tipo de conteúdo permite identificar os visitantes e calcular as taxas de conversão do vídeo.
 
-   * Tipo de variável: Evar
+   * Tipo de variável: eVar
    * Expiração padrão: visualização de página
 
 * **a.media.timePlayed**
 
    Contabiliza o tempo, em segundos, que é gasto com a exibição de um vídeo desde o último processo de coleta de dados (solicitação da imagem).
 
-   * Tipo de variável: Evento
+   * Variable type: Event
    * Tipo: contador
 
 * **a.media.view**
 
    Indica que um visitante visualizou uma parte de um vídeo. No entanto, não fornece informações algumas sobre quanto ou a que parte de um vídeo o visitante assistiu.
 
-   * Tipo de variável: Evento
+   * Variable type: Event
    * Tipo: contador
 
 * **a.media.segmentView**
 
    Indica que um visitante visualizou uma parte de um segmento de vídeo. No entanto, não fornece informações algumas sobre quanto ou a que parte de um vídeo o visitante assistiu.
 
-   * Tipo de variável: Evento
+   * Variable type: Event
    * Tipo: contador
 
 * **a.media.complete**
