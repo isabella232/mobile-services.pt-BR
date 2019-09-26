@@ -3,10 +3,10 @@ description: O gerenciamento de aplicativos envolve a configuração de um aplic
 keywords: mobile
 seo-description: O gerenciamento de aplicativos envolve a configuração de um aplicativo e o gerenciamento de diversas variáveis e métricas.
 seo-title: Gerenciar configurações do aplicativo
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Gerenciar configurações do aplicativo
 topic: Métricas
-uuid: 2 ca 93 f 92-f 812-434 c-add 0-5 bdf 1442 eb 20
+uuid: 2ca93f92-f812-434c-add0-5bdf1442eb20
 translation-type: tm+mt
 source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
@@ -15,7 +15,7 @@ source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
 # Gerenciar configurações do aplicativo{#manage-app-settings}
 
-O gerenciamento de aplicativos envolve a configuração de um aplicativo e o gerenciamento de diversas variáveis e métricas.
+O gerenciamento de seus aplicativos envolve a configuração de um aplicativo e o gerenciamento de diversas variáveis e métricas.
 
 >[!IMPORTANT]
 >
