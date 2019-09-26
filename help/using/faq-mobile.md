@@ -3,10 +3,10 @@ description: Perguntas frequentes sobre o Adobe Mobile Services e uma descriçã
 keywords: mobile
 seo-description: Perguntas frequentes sobre o Adobe Mobile Services e uma descrição geral dos recursos.
 seo-title: Perguntas frequentes
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Perguntas frequentes
 topic: Métricas
-uuid: 62 a 9241 c -2 ado -483 a-a 594-b 023916 cb 0 b 6
+uuid: 62a9241c-2ada-483a-a594-b023916cb0b6
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -29,7 +29,7 @@ Nossos SDKs atuais estão na versão 4.11. Para obter mais informações, consul
 
 ### Onde posso baixar os SDKs?
 
-Os sdks para plataformas móveis individuais podem ser baixados ao visitar a seção [Gerenciar configurações](/help/using/c-manage-app-settings/c-manage-app-settings.md) do aplicativo.
+Os SDKs para plataformas móveis individuais podem ser baixados na seção [Gerenciar configurações](/help/using/c-manage-app-settings/c-manage-app-settings.md) do aplicativo.
 
 ### Como posso configurar os SDKs?
 
@@ -37,16 +37,16 @@ Depois de criar um novo conjunto de relatórios do aplicativo, navegue até Gere
 
 ### Os SDKs do Adobe Mobile são compatíveis com IPv6 para iOS?
 
-Os SDKs do Adobe Mobile usam pilhas de rede padrão do iOS e Android. Para iOS, o SDK usa nsurlsession (versões iOS 7 +) e nsurlconnection (versões iOS e posteriores do iOS), que são totalmente compatíveis com ipv 6. Os desenvolvedores que criaram ou usam sua própria pilha de rede podem querer revisar se houver outras considerações atenuantes. Estas são algumas informações adicionais da Apple:
+Os SDKs do Adobe Mobile usam pilhas de rede padrão do iOS e Android. Para iOS, o SDK usa NSURLSession (versões 7+ do iOS) e NSURLConnection (versões 7 e posteriores do iOS) que são totalmente compatíveis com IPv6. Os desenvolvedores que criaram ou usaram sua própria pilha de rede podem querer revisar se houver outras considerações atenuantes. Estas são algumas informações adicionais da Apple:
 
-*Se estiver escrevendo um aplicativo do cliente usando apis de rede de alto nível como os estruturas nsurlsession e cfnetwork e se conectar por nome, não será necessário alterar nada para que seu aplicativo funcione com endereços ipv 6.* Para obter mais informações, [consulte Suporte ao ipv 6 DNS 64/NAT 64 Networks](https://developer.apple.com/library/content/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/UnderstandingandPreparingfortheIPv6Transition/UnderstandingandPreparingfortheIPv6Transition.html#__/apple_ref/doc/uid/TP40010220-CH213-SW1).
+*If you're writing a client-side app using high-level networking APIs such as NSURLSession and the CFNetwork frameworks and you connect by name, you should not need to change anything for your app to work with IPv6 addresses.* Para obter mais informações, consulte [Suporte a redes](https://developer.apple.com/library/content/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/UnderstandingandPreparingfortheIPv6Transition/UnderstandingandPreparingfortheIPv6Transition.html#__/apple_ref/doc/uid/TP40010220-CH213-SW1)IPv6 DNS64/NAT64.
 
 
 ## Adobe Analytics {#section_78EC9D83791F477AAED678720CEBA9F6}
 
 ### O que são Medições de ciclo de vida?
 
-As Medições de ciclo de vida são métricas simples, coletadas automaticamente quando o SDK é implementado pela primeira vez no aplicativo. Para obter mais informações, consulte [Medições de ciclo de vida (Android)](/help/android/metrics.md) e [Medições de ciclo de vida (iOS)](/help/ios/metrics.md).
+As Medições de ciclo de vida são métricas simples, coletadas automaticamente quando o SDK é implementado pela primeira vez no aplicativo. Para obter mais informações, consulte Medições [de ciclo de vida (Android)](/help/android/metrics.md) e Medições [de ciclo de vida (iOS)](/help/ios/metrics.md).
 
 ### Como posso solucionar problemas de regras de processamento?
 
@@ -54,7 +54,7 @@ Para obter mais informações, consulte [Dicas e truques para o processamento de
 
 ### Posso enviar os meus dados analíticos para vários conjuntos de relatórios?
 
-Sim. Os SDKs oferecem a capacidade de enviar dados para vários conjuntos de relatórios do Adobe Analytics. Para capturar dados em vários conjunto de relatórios usando uma solicitação de imagem, defina as várias IDs de conjuntos de relatórios no campo **[!UICONTROL rsids]** na seção **analytics[!UICONTROL no arquivo , delimitadas por vírgulas e sem espaços.]**`ADBMobileConfig.json` Para obter mais informações, consulte [Configuração JSON do adbmobile](/help/ios/configuration/json-config/json-config.md).
+Sim. Os SDKs oferecem a capacidade de enviar dados para vários conjuntos de relatórios do Adobe Analytics. Para capturar dados em vários conjunto de relatórios usando uma solicitação de imagem, defina as várias IDs de conjuntos de relatórios no campo **[!UICONTROL rsids]** na seção **analytics[!UICONTROL no arquivo , delimitadas por vírgulas e sem espaços.]**`ADBMobileConfig.json` Para obter mais informações, consulte Configuração [JSON do](/help/ios/configuration/json-config/json-config.md)ADBMobile.
 
 ### Como as visitas do Mobile são diferentes das inicializações?
 
@@ -68,7 +68,7 @@ As mensagens de notificação de push têm um limite de 140 caracteres. Não há
 
 ### É oferecido suporte para cargas personalizadas de notificações de push?
 
-Sim, oferecemos suporte para uma carga de push personalizada que pode ser codificada no JSON. As cargas do Android e iOS são restritas à 4 KB e 2 KB respectivamente. Essas cargas são enviadas para o aplicativo por uma notificação de push ou local. Para obter mais informações, consulte [Experiência: Mensagem de push](/help/using/in-app-messaging/t-create-push-message/c-experience-push-message.md).
+Sim, oferecemos suporte para uma carga de push personalizada que pode ser codificada no JSON. As cargas do Android e iOS são restritas à 4 KB e 2 KB respectivamente. Essas cargas são enviadas para o aplicativo por uma notificação de push ou local. Para obter mais informações, consulte [Experiência: Mensagem](/help/using/in-app-messaging/t-create-push-message/c-experience-push-message.md)de push.
 
 ### Existem limitações de tamanho nas mensagens do aplicativo?
 
@@ -82,15 +82,15 @@ Sim, oferecemos suporte de HTML personalizado para suas mensagens no aplicativo.
 
 Os profissionais de marketing podem escolher todos os dados ou evento do Analytics enviados como um acionador para exibir as mensagens no aplicativo. As mensagens no aplicativo usam acionadores ativados localmente no dispositivo. Se vários acionadores forem escolhidos, todos devem ocorrer na mesma ocorrência para que a mensagem seja exibida. For more information, see [Experience: In-App Message](/help/using/in-app-messaging/t-in-app-message/c-experience-in-app-message.md).
 
-As mensagens de push são enviadas usando segmentos do Adobe Analytics pré-existentes ou segmentos personalizados que podem ser criados no dados de histórico do Analytics já coletados. Para obter mais informações, consulte [Experiência: Mensagem de push](/help/using/in-app-messaging/t-create-push-message/c-experience-push-message.md).
+As mensagens de push são enviadas usando segmentos do Adobe Analytics pré-existentes ou segmentos personalizados que podem ser criados no dados de histórico do Analytics já coletados. Para obter mais informações, consulte [Experiência: Mensagem](/help/using/in-app-messaging/t-create-push-message/c-experience-push-message.md)de push.
 
-### Por que recebo um erro com o nome do aplicativo, push ou link de marketing que digitei?
+### Por que estou recebendo um erro com o nome do link de publicidade, push ou no aplicativo que digitei?
 
-Você não pode usar a mesma mensagem no aplicativo e de push nem marcar o nome do link em vários aplicativos que usam o mesmo conjunto de relatórios principal ou VRS. Para resolver esse problema, insira outro nome para a mensagem no aplicativo, mensagem de push ou Link de marketing.
+Você não pode usar a mesma mensagem no aplicativo e de push nem marcar o nome do link em vários aplicativos que usam o mesmo conjunto de relatórios principal ou VRS. Para resolver esse problema, digite outro nome para a mensagem no aplicativo, mensagem de push ou Marketing Link.
 
 ## Localização {#section_01208FE3B7764E0DADDCB9AD9E1FCD87}
 
-### Há um limite de quantas oints de interesse (POIs) posso ter?
+### Existe um limite de quantos pontos de interesse (POIs) eu posso ter?
 
 Não há restrição específica, mas para um desempenho ideal e devido a restrições de memória no dispositivo do usuário, recomendamos criar ou carregar no máximo 5000 POIs.
 
@@ -102,4 +102,4 @@ Sim. O Adobe Mobile Services pode auxiliar na criação de truques de marketing 
 
 ### Como posso configurar links para adquirir e rastrear novos usuários do aplicativo?
 
-Você pode criar Links de publicidade que encaminham os usuários para baixar aplicativos na Apple App Store e no Google Play. Esses links permitem atribuir seus eventos de sucesso aos downloads. Para obter mais informações, consulte [Criador de links de marketing](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md).
+You can create Marketing Links that route users to download applications from the Apple App Store and Google Play. Esses links permitem atribuir seus eventos de sucesso aos downloads. Para obter mais informações, consulte [Criador de links de marketing](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md).
