@@ -1,11 +1,11 @@
 ---
 description: Estas Extensões fornecem um maneira muito mais fácil de adicionar a referência do Windows SDK 4.x para as soluções da Experience Cloud ao projeto.
 seo-description: Estas Extensões fornecem um maneira muito mais fácil de adicionar a referência do Windows SDK 4.x para as soluções da Experience Cloud ao projeto.
-seo-title: Extensões do Visual Studio do Windows para o SDK das Soluções da Experience Cloud 4. x
-solution: Marketing Cloud, Analytics
-title: Extensões do Visual Studio do Windows para o SDK das Soluções da Experience Cloud 4. x
+seo-title: Extensões do Visual Studio do Windows para o SDK 4.x das Soluções da Experience Cloud
+solution: Marketing Cloud,Analytics
+title: Extensões do Visual Studio do Windows para o SDK 4.x das Soluções da Experience Cloud
 topic: Desenvolvedor e implementação
-uuid: 7 d 0 ea 312-340 b -46 ea-a 737-b 70 a 6766 a 536
+uuid: 7d0ea312-340b-46ea-a737-b70a6766a536
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -16,13 +16,13 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 Estas Extensões fornecem um maneira muito mais fácil de adicionar a referência do Windows SDK 4.x para as soluções da Experience Cloud ao projeto.
 
-## Instalar a biblioteca a partir do github {#section_F55DB6241EF1475286C05FEAEBF996A3}
+## Install the library from GitHub {#section_F55DB6241EF1475286C05FEAEBF996A3}
 
 1. Baixe o SDK universal do Windows a partir do [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases).
 1. Descompacte o arquivo do download localmente.
-1. Clique duas vezes em adbmobilewindowsstorevsix. vsix ou adbmobilewindowsphonevsix. vsix para abrir o instalador.
+1. Double-click the ADBMobileWindowsStoreVSIX.vsix or ADBMobileWindowsPhoneVSIX.vsix file to open the installer.
 
-1. Selecione **[!UICONTROL Localização]** global e instale a biblioteca.
+1. Select Global Location and install the library.****
 
 ## Add references to your project {#section_00C14FE9243D4330BE1F4BB56FCF08B1}
 
@@ -31,10 +31,10 @@ Estas Extensões fornecem um maneira muito mais fácil de adicionar a referênci
 
    ![](assets/ref_manager.png)
 
-1. Na guia **[!UICONTROL Extensões]** do Windows 8.1 ou do Windows Phone 8.1, localize e selecione **[UICONTROL Adobe Mobile SDK]**.
+1. On the Extensions tab of Windows 8.1 or Windows Phone 8.1, locate and select UICONTROL Adobe Mobile SDK.******[]**
 1. Clique em **[!UICONTROL OK]para salvá-lo.**
 
-   O Adobe Mobile SDK será adicionado ao seu projeto e, se ainda não tiver sido adicionado, o pacote **[UICONTROL Microsoft Visual C + + Runtime]** também será adicionado.
+   The Adobe Mobile SDK will be added to your project, and if it has not already been added, the UICONTROL Microsoft Visual C++ Runtime package is also added.**[]**
 
-1. No Gerenciador de configuração, selecione um tipo de plataforma e comece a testar seu aplicativo.
+1. In the Configuration Manager, select a Platform type, and begin testing your app.
 
