@@ -2,10 +2,10 @@
 description: O Adobe Mobile e o Adobe Mobile SDK permitem enviar mensagens de push para os usuários. Além disso, o SDK permite reportar facilmente os usuários que abriram seu aplicativo depois de clicarem em uma mensagem de push.
 seo-description: O Adobe Mobile e o Adobe Mobile SDK permitem enviar mensagens de push para os usuários. Além disso, o SDK permite reportar facilmente os usuários que abriram seu aplicativo depois de clicarem em uma mensagem de push.
 seo-title: Mensagens de push
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Mensagens de push
 topic: Desenvolvedor e implementação
-uuid: 729 d 4010-3733-4 dff-b 188-ad 45 bd 3 e 7 cc 4
+uuid: 729d4010-3733-4dff-b188-ad45bd3e7cc4
 translation-type: tm+mt
 source-git-commit: 17cb91a28966cf32f955a2cb724e89ab228de5b8
 
@@ -20,7 +20,7 @@ Para usar as mensagens de push, você **deve** ter a versão 4.6 ou posterior do
 
 >[!IMPORTANT]
 >
->Não defina manualmente a Experience Cloud ID dentro do aplicativo. Isso ocasiona na criação de um novo usuário exclusivo que não receberá mensagens de push por causa do status de aceitação. Por exemplo, um usuário que aceitou receber mensagens de push faz logon no seu aplicativo. Depois de fazer logon, se você definir manualmente a ID dentro do aplicativo, um novo usuário único que não aceitou receber mensagens de push é criado. Este novo usuário não receberá suas mensagens de push.
+>Do not manually set the Experience Cloud ID inside your app. Isso ocasiona na criação de um novo usuário exclusivo que não receberá mensagens de push por causa do status de aceitação. Por exemplo, um usuário que aceitou receber mensagens de push faz logon no seu aplicativo. Depois de fazer logon, se você definir manualmente a ID dentro do aplicativo, um novo usuário único que não aceitou receber mensagens de push é criado. Este novo usuário não receberá suas mensagens de push.
 >
 >Não há suporte para mover seu aplicativo para um novo conjunto de relatórios. Se você migrar para um novo conjunto de relatórios, sua configuração de push pode ser interrompida e as mensagens podem não ser enviadas.
 
@@ -28,7 +28,7 @@ Para usar as mensagens de push, você **deve** ter a versão 4.6 ou posterior do
 
 >[!TIP]
 >
->Se o aplicativo já estiver configurado para usar mensagens por meio do Firebase Cloud Messaging (FCM), algumas das etapas a seguir talvez já tenham sido concluídas.
+>If your app is already set up to use messaging through Firebase Cloud Messaging (FCM), some of the following steps might already be completed.
 
 1. Verify that the `ADBMobileConfig.json` file contains the required settings for push messaging.
 
@@ -43,7 +43,6 @@ Para usar as mensagens de push, você **deve** ter a versão 4.6 ou posterior do
 1. Obtenha a ID/token de registro usando a API do Firebase Cloud Messaging (FCM).
 
    * Para obter mais informações sobre como configurar o FCM, consulte [Definir um aplicativo do cliente GCM no Android](https://firebase.google.com/docs/cloud-messaging/android/client).
-
    ```js
    String token = FirebaseInstanceId.getInstance().getToken();
    ```
@@ -58,8 +57,7 @@ Para usar as mensagens de push, você **deve** ter a versão 4.6 ou posterior do
 
    A seguir, os requisitos para ativar o relatório de click-through de push:
 
-   * In your implementation of `FireBaseMessageService`, the Bundle object that contains the message data, which is passed into the `onMessageReceived` method with the RemoteMessage object, must be added to the Intent that is used to open the target activity on a click-through. Isso pode ser feito usando o `putExtras` método. Para obter mais informações, consulte [putextras](https://developer.android.com/reference/android/content/Intent.html#putExtras(android.os.Bundle))).
-
+   * In your implementation of `FireBaseMessageService`, the Bundle object that contains the message data, which is passed into the `onMessageReceived` method with the RemoteMessage object, must be added to the Intent that is used to open the target activity on a click-through. Isso pode ser feito usando o `putExtras` método. Para obter mais informações, consulte [putExtras](https://developer.android.com/reference/android/content/Intent.html#putExtras(android.os.Bundle))).
    ```java
    Intent intent = new Intent(this, MainActivity.class);
       intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -73,7 +71,7 @@ Para usar as mensagens de push, você **deve** ter a versão 4.6 ou posterior do
 
       * Use `Config.collectLifecycleData(this)` ou `Config.collectLifecycleData(this, contextData)`.
 
-      * **Não** use `Config.collectLifecycleData()`.
+      * Do **not** use `Config.collectLifecycleData()`.
 
 
 
