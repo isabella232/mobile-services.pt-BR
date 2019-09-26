@@ -2,8 +2,8 @@
 description: Lista de classes e enumerações para uso em aplicativos Xamarin.
 seo-description: Lista de classes e enumerações para uso em aplicativos Xamarin.
 seo-title: Classes, enumerações e interfaces
-title: Classes, enumerações e interfaces
-uuid: 2527 b 3 ae-a 447-4 b 2 e -9 e 90-b 3 b 8 ec 8 cb 47 a
+title: Classes, enums, and interfaces
+uuid: 2527b3ae-a447-4b2e-9e90-b3b8ec8cb47a
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
