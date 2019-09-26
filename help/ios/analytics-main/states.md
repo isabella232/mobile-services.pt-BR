@@ -2,10 +2,10 @@
 description: Os estados são telas ou exibições diferentes do aplicativo. Sempre que um novo estado for exibido no aplicativo (por exemplo, quando um usuário navega da página inicial para o feed de notícias), uma chamada de rastreamento de estado será enviada. No iOS, um estado normalmente é rastreado pelo método viewDidLoad de cada exibição.
 seo-description: Os estados são telas ou exibições diferentes do aplicativo. Sempre que um novo estado for exibido no aplicativo (por exemplo, quando um usuário navega da página inicial para o feed de notícias), uma chamada de rastreamento de estado será enviada. No iOS, um estado normalmente é rastreado pelo método viewDidLoad de cada exibição.
 seo-title: Rastrear estados do aplicativo
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Rastrear estados do aplicativo
 topic: Desenvolvedor e implementação
-uuid: 12 cca 4 eb -1 f 15-4 cec-a 58 f -76 b 69 eaff 99 d
+uuid: 12cca4eb-1f15-4cec-a58f-76b69eaff99d
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -24,7 +24,7 @@ Os estados são telas ou exibições diferentes do aplicativo. Sempre que um nov
 
 1. Adicione a biblioteca ao projeto e implemente o ciclo de vida.
 
-   Para obter mais informações, consulte *Adicionar o SDK e o Arquivo de configuração ao projeto* na [Implementação principal e no ciclo de vida](/help/ios/getting-started/dev-qs.md).
+   Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao seu projeto* em Implementação [principal e Ciclo de vida](/help/ios/getting-started/dev-qs.md).
 1. Importe a biblioteca.
 
    ```objective-c
