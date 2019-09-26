@@ -1,12 +1,12 @@
 ---
 description: O Android SDK 4.x para Soluções da Experience Cloud permite medir aplicativos nativos do Android, fornecer conteúdos direcionados no aplicativo e aproveitar e coletar dados de público-alvo pelo gerenciamento de público-alvo.
-keywords: android; biblioteca; dispositivos móveis; sdk
+keywords: android;biblioteca;móvel;sdk
 seo-description: O Android SDK 4.x para Soluções da Experience Cloud permite medir aplicativos nativos do Android, fornecer conteúdos direcionados no aplicativo e aproveitar e coletar dados de público-alvo pelo gerenciamento de público-alvo.
 seo-title: Android SDK 4.x para Soluções da Experience Cloud
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Android SDK 4.x para Soluções da Experience Cloud
 topic: Desenvolvedor e implementação
-uuid: 56 f 1 ff 41-0365-41 dd-bdde -245 c 823 dff 07
+uuid: 56f1ff41-0365-41dd-bdde-245c823dff07
 translation-type: tm+mt
 source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
@@ -19,7 +19,7 @@ O Android SDK 4.x para Soluções da Experience Cloud permite medir aplicativos 
 
 >[!IMPORTANT]
 >
->O SKU do Adobe Analytics Mobile Marketing Add-on é necessário para permitir o acesso ao Mobile Services a aquisição móvel, deep linking, geolocalização e recursos de mensagens móveis. Para obter mais informações, entre em contato com o Adobe CSM.
+>The Adobe Analytics Mobile Marketing Add-on SKU is required to enable Mobile Services access to mobile acquisition, deep linking, geolocation, and mobile messaging capabilities. Para obter mais informações, entre em contato com seu Adobe CSM.
 
 ## Nova versão do SDK da Adobe Experience Cloud
 
@@ -38,7 +38,7 @@ Procurando informações e documentação relacionadas ao Adobe Experience Platf
 
 >[!IMPORTANT]
 >
->Embora seja possível configurar recursos na interface do usuário, esses recursos não funcionarão até que você baixe o arquivo de configuração gerado e adicione esse arquivo ao SDK. Para obter informações sobre como baixar e configurar os sdks, consulte [Implementação principal e ciclo de vida](/help/android/getting-started/dev-qs.md).
+>Although you can configure features in the UI, these features will not work until you download the generated configuration file and add this file to the SDK. Para obter informações sobre como baixar e configurar os SDKs, consulte Implementação [principal e Ciclo de vida](/help/android/getting-started/dev-qs.md).
 
 Os SDKs são compatíveis com as seguintes versões do Android:
 
@@ -49,7 +49,7 @@ Lembre-se das informações a seguir:
 
 * Nas versões 4.2 e posteriores, todas as ocorrências agora são enviadas usando HTTP POST.
 
-   Isso não afeta os dados coletados ou relatados, mas é necessário usar um analisador de pacotes compatível com a inspeção de dados POST para exibir ocorrências.
+   Isso não afeta os dados coletados ou reportados, mas é necessário usar um analisador de pacotes compatível com a inspeção de dados POST para visualizar as ocorrências.
 
 * If you are upgrading from a previous version, see the [4.x Migration Guide](/help/android/getting-started/migration-v3.md).
 
