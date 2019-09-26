@@ -3,7 +3,7 @@ description: No Adobe Analytics, é possível gerenciar as funções na página 
 seo-description: No Adobe Analytics, é possível gerenciar as funções na página inicial das Ferramentas administrativas.
 seo-title: Funções e permissões
 title: Funções e permissões
-uuid: ad 350 f 8 d-ef 51-4519-98 aa -3025 bc 0 f 5588
+uuid: ad350f8d-ef51-4519-98aa-3025bc0f5588
 translation-type: tm+mt
 source-git-commit: c7cac006340e01d0fd1f6afe3419e6fd17294a98
 
@@ -24,13 +24,13 @@ Um administrador do Analytics gerencia grupos de usuários e atribui permissões
 
 >[!TIP]
 >
->Um administrador existente do Analytics tem a capacidade de atribuir a função de administrador do Analytics a qualquer usuário.
+>Um administrador existente do Analytics pode atribuir a função de administrador do Analytics a qualquer usuário.
 
 Para obter mais informações sobre essa função, consulte o seguinte conteúdo:
 
-* [Visão geral do gerenciamento de usuários](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/users.html)
+* [User management overview](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/users.html)
 
-* [Mudanças de permissão do usuário e grupo](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/permissions-changes.html)
+* [Alterações de permissão de usuário e grupo](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/permissions-changes.html)
 
 ### Administrador de aplicativos para dispositivos móveis
 
@@ -44,7 +44,7 @@ Esta é a função de administrador da interface do usuário do Mobile Services.
 
 Estas são algumas informações adicionais sobre como acessar opções na interface do usuário do Mobile Services:
 
-### Aplicativos e conjuntos de relatórios
+### Apps and report suites
 
 Todos os aplicativos do Mobile Service estão vinculados aos conjuntos de relatórios. Se os usuários não tiverem acesso a um conjunto de relatórios, eles não terão acesso ao seu aplicativo associado.
 
@@ -58,7 +58,7 @@ Estas são as funções na interface do usuário do Mobile Services, com suas pe
 
 ### Administrador do Analytics
 
-* Todas as permissões do administrador e do aplicativo móvel
+* Todas as permissões de usuário e administrador do aplicativo móvel
 * Criar aplicativo com um novo conjunto de relatórios
 * Excluir aplicativo do Mobile Services
 
@@ -94,7 +94,7 @@ Estas são as funções na interface do usuário do Mobile Services, com suas pe
 
 Para obter mais informações sobre grupos e usuários, consulte:
 
-* [Configurações do grupo de usuários](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html)
+* [User group settings](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html)
 * [Adicionar usuário a um grupo](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/t-add-user-to-group.html)
 
 ### Usuário do Mobile Services
@@ -106,7 +106,7 @@ Esta função tem permissões somente exibição e pode fornecer feedback na int
 
    >[!IMPORTANT]
    >
-   >Os usuários podem ver apenas os conjuntos de relatórios para os quais eles têm acesso no Adobe Analytics.
+   >Os usuários podem ver apenas os conjuntos de relatórios aos quais têm acesso no Adobe Analytics.
 
 * Exibir configurações do aplicativo
 
@@ -116,7 +116,7 @@ Esta função tem permissões somente exibição e pode fornecer feedback na int
    * Exibir postbacks
    * Exibir destinos de links
 
-* Exibir e executar relatórios
+* View and Run Reports
 * Exibir links de marketing
 * Exibir e exportar links de aquisição herdados
 * Exibir e exportar a configuração de locais (Pontos de interesse)
