@@ -1,11 +1,11 @@
 ---
 description: Se o aplicativo abrir o conteúdo da internet móvel, certifique-se de que os visitantes não sejam identificados conforme se movem entre a internet nativa e móvel.
 seo-description: Se o aplicativo abrir o conteúdo da internet móvel, certifique-se de que os visitantes não sejam identificados conforme se movem entre a internet nativa e móvel.
-seo-title: Rastreamento de visitante entre aplicativos e Web móvel
-solution: Marketing Cloud, Analytics
-title: Rastreamento de visitante entre aplicativos e Web móvel
+seo-title: Visitor Tracking between an app and mobile web
+solution: Marketing Cloud,Analytics
+title: Rastreamento de visitante entre um aplicativo e a Web móvel
 topic: Desenvolvedor e implementação
-uuid: 073572 e 4-4 c 55-4 b 27-b 4 a 7-e 4349 ccde 7 bf
+uuid: 073572e4-4c55-4b27-b4a7-e4349ccde7bf
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -22,7 +22,7 @@ O Android SDK gera uma ID de visitante único quando o aplicativo é instalado. 
 
 >[!TIP]
 >
->As IDs de visitante do aplicativo continuam por meio das atualizações.
+>As IDs de visitante do aplicativo persistem por meio de atualizações.
 
 ## IDs de visitante na Web móvel
 
@@ -34,7 +34,7 @@ Para usar a mesma ID de visitante no aplicativo e na Web móvel:
 
 1. Adicione a biblioteca ao projeto e implemente o ciclo de vida.
 
-   Para obter mais informações, consulte *Adicionar o SDK e o Arquivo de configuração ao projeto intellij IDEA ou Eclipse* na [implementação principal e ciclo de vida](/help/android/getting-started/dev-qs.md).
+   Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao projeto* IntelliJ IDEA ou Eclipse na implementação e ciclo de vida [principal](/help/android/getting-started/dev-qs.md).
 
 1. Para anexar informações do visitante ao URL que está sendo usado para abrir a exibição da Web, chame `visitorAppendToURL`:
 
