@@ -2,10 +2,10 @@
 description: Esta é uma lista de métodos do Adobe Analytics fornecidos pela biblioteca do iOS.
 seo-description: Esta é uma lista de métodos do Adobe Analytics fornecidos pela biblioteca do iOS.
 seo-title: Métodos do Analytics
-solution: Marketing Cloud, Analytics
-title: Métodos do Analytics
+solution: Marketing Cloud,Analytics
+title: Analytics methods
 topic: Desenvolvedor e implementação
-uuid: d 49 fe 6 de-cb 32-4 b 96-9891-c 567310 e 59 a 6
+uuid: d49fe6de-cb32-4b96-9891-c567310e59a6
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -16,7 +16,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 Esta é uma lista de métodos do Adobe Analytics fornecidos pela biblioteca do iOS.
 
-O SDK atualmente tem suporte para várias Soluções da Adobe Experience Cloud, incluindo Analytics, Target, Audience Manager e Adobe Experience Platform Identity Service. Methods are prefixed according to the solution. Experience Cloud ID methods are prefixed with `track`.
+O SDK suporta atualmente várias Soluções da Adobe Experience Cloud, incluindo o Analytics, o Target, o Audience Manager e o Adobe Experience Platform Identity Service. Methods are prefixed according to the solution. Experience Cloud ID methods are prefixed with `track`.
 
 Cada um desses métodos é usado para enviar dados para seu conjunto de relatórios do Adobe Analytics.
 
@@ -26,7 +26,7 @@ Cada um desses métodos é usado para enviar dados para seu conjunto de relatór
 
    >[!TIP]
    >
-   >Esta é a única chamada de rastreamento que aumenta as exibições de página.
+   >This is the only tracking call that increments page views.
 
    * Esta é a sintaxe para este método:
 
@@ -86,7 +86,7 @@ Cada um desses métodos é usado para enviar dados para seu conjunto de relatór
 
    >[!TIP]
    >
-   >Este método só deve ser chamado no código executado enquanto o aplicativo está em segundo plano.
+   >This method should only be called in code that runs while your app is in the background.
 
    * Esta é a sintaxe para este método:
 
@@ -263,7 +263,7 @@ Cada um desses métodos é usado para enviar dados para seu conjunto de relatór
 
 * **trackingSendQueuedHits**
 
-   Requer o SDK 4.1. Independentemente de quantas ocorrências estão na fila no momento, força a biblioteca a enviar todas as ocorrências na fila offline.
+   Requires SDK 4.1. Regardless of how many hits are currently queued, forces the library to send all hits in the offline queue.
 
    * Esta é a sintaxe para este método:
 
@@ -321,7 +321,7 @@ Cada um desses métodos é usado para enviar dados para seu conjunto de relatór
 
    >[!IMPORTANT]
    >
-   >Este método não aumenta as exibições de página.
+   >This method does not increment page views.
 
    * Esta é a sintaxe para este método:
 
