@@ -3,10 +3,10 @@ description: O relatório Visão geral da App Store oferece um instantâneo das 
 keywords: mobile
 seo-description: O relatório Visão geral da App Store oferece um instantâneo das métricas da app store, incluindo a quantidade de downloads, compras no aplicativo, avaliação média da app store, receitas geradas por downloads, receitas no aplicativo, downloads por país, downloads por app store e compras no aplicativo por nome.
 seo-title: Relatório de Visão geral da App Store
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Relatório de Visão geral da App Store
 topic: Métricas
-uuid: ac 066 f 31-ec 4 b -4 b 67-b 839-780 c 2 cd 1574 e
+uuid: ac066f31-ec4b-4b67-b839-780c2cd1574e
 translation-type: tm+mt
 source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
@@ -29,11 +29,11 @@ Você pode clicar em qualquer métrica para ocultar ou exibir a linha correspond
 
 >[!IMPORTANT]
 >
->As métricas da App Store, como downloads, classificação, receita, avaliação e assim por diante no Adobe Analytics requerem uma integração do Data Conncom um fornecedor apropriado. `appFigures` oferece no momento uma integração, que requer a compra do produto e/ou serviço apropriado de `appFigures`**antes** que você possa habilitar a integração. Para obter mais informações sobre integrações do Data Connector, consulte [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html).
+>As métricas da App Store, como downloads, classificação, receita, classificação e assim por diante no Adobe Analytics, exigem uma integração do Conector de dados com um fornecedor adequado. `appFigures` oferece no momento uma integração, que requer a compra do produto e/ou serviço apropriado de `appFigures`**antes** que você possa habilitar a integração. Para obter mais informações sobre integrações do Data Connector, consulte [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html).
 
 >[!TIP]
 >
->Além de alterar o intervalo de datas do relatório clicando no ícone de calendário na parte superior direita, você pode personalizar alguns relatórios detalhados, adicionar filtros e séries (métricas), adicionar filtros fixos e baixar o relatório em formato PDF ou CSV. For more information, see [Customize reports](/help/using/usage/reports-customize/reports-customize.md).
+>Além de alterar o intervalo de datas do relatório clicando no ícone de calendário na parte superior direita, você pode personalizar alguns relatórios detalhados, adicionar filtros e séries (métricas), adicionar filtros fixos e baixar o relatório no formato PDF ou CSV. For more information, see [Customize reports](/help/using/usage/reports-customize/reports-customize.md).
 
 ## Avaliação geral da App Store {#section_60D0D21824AE4450BC3E34D7ACA12A7A}
 
