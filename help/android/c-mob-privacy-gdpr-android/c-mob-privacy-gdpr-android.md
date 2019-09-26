@@ -1,9 +1,9 @@
 ---
 description: Os SDKs do Experience Cloud Mobile oferecem APIs prontas para o Regulamento Geral sobre a Proteção de Dados (GDPR) para controladores que permitem aos usuários recuperar identidades armazenadas localmente e definir sinalizadores de status de opção para coleta e transmissão de dados.
 seo-description: Os SDKs do Experience Cloud Mobile oferecem APIs prontas para o Regulamento Geral sobre a Proteção de Dados (GDPR) para controladores que permitem aos usuários recuperar identidades armazenadas localmente e definir sinalizadores de status de opção para coleta e transmissão de dados.
-seo-title: Privacidade e visão geral do Regulamento geral de proteção de dados
-title: Privacidade e visão geral do Regulamento geral de proteção de dados
-uuid: 56 d 6 f 155-efec -4 b 3 f-a 972-a 63155729167
+seo-title: Visão geral do Regulamento de privacidade e proteção geral de dados
+title: Privacy and General Data Protection Regulation overview
+uuid: 56d6f155-efec-4b3f-a972-a63155729167
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -37,10 +37,10 @@ Nas partes do SDK do Adobe Mobile em seus aplicativos móveis, é possível usar
 
 * Para recuperar os dados dos SDKs e enviar esses dados para seus servidores, use o método `getAllIdentifiersAsync`.
 
-   Para obter mais informações, consulte [Recuperar identificadores armazenados](/help/android/c-mob-privacy-gdpr-android/c-mob-gdpr-ret-stored-ids-android.md).
+   Para obter mais informações, consulte [Recuperando identificadores](/help/android/c-mob-privacy-gdpr-android/c-mob-gdpr-ret-stored-ids-android.md)armazenados.
 
 * Para definir o status de opção e ajudá-lo com a solicitação de exclusão de dados do GDPR, use as seguintes configurações:
 
    * `privacyDefault`
    * `setPrivacyStatus`
-   Para obter mais informações, consulte [Definir o status de opção do usuário](/help/android/c-mob-privacy-gdpr-android/privacy.md).
+   Para obter mais informações, consulte [Configuração do status](/help/android/c-mob-privacy-gdpr-android/privacy.md)de opção do usuário.
