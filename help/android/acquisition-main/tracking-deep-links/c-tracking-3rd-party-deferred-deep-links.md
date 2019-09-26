@@ -3,7 +3,7 @@ description: Use o Android SDK para implementar o rastreamento de deep links adi
 seo-description: Use o Android SDK para implementar o rastreamento de deep links adiados de terceiros.
 seo-title: Rastreamento de deep links deferidos de terceiros
 title: Rastreamento de deep links deferidos de terceiros
-uuid: 4 c 798 e 47-7988-4 a 06-a 191-6 c 4 d 05 f 6 ee 61
+uuid: 4c798e47-7988-4a06-a191-6c4d05f6ee61
 translation-type: tm+mt
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
@@ -26,13 +26,13 @@ Um criador de anúncios pode criar um anúncio no Facebook como um deep link. Qu
 
 Para preparar a adição do suporte ao deep linking do Facebook com o Adobe Mobile SDK, o desenvolvedor do aplicativo conclui as seguintes tarefas:
 
-* Introdução ao SDK do Android
+* Introdução ao Android SDK
 
    For more information, see [Getting Started Android SDK](https://developers.facebook.com/docs/android/getting-started) .
 
 * Configurar deep linking
 
-   Para obter mais informações, consulte [Configuração de deep linking](https://developers.facebook.com/docs/app-ads/deep-linking#os).
+   Para obter mais informações, consulte Configuração de [deep links](https://developers.facebook.com/docs/app-ads/deep-linking#os).
 
 If the application is set up correctly, the `trackAdobeDeepLink()` API should enable collecting the deep link information from the Facebook acquisition campaign and send it to Adobe Mobile Service. Se a ocorrência de instalação não tiver sido enviada para o Adobe Mobile Service na primeira inicialização, essas informações serão adicionadas à ocorrência do ciclo de vida. Caso contrário, serão enviadas como uma ocorrência de deep link da Adobe.
 
