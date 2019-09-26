@@ -1,12 +1,12 @@
 ---
 description: Esta é uma lista de métodos do Adobe Analytics fornecida pela biblioteca do Android.
-keywords: android; biblioteca; dispositivos móveis; sdk
+keywords: android;biblioteca;móvel;sdk
 seo-description: Esta é uma lista de métodos do Adobe Analytics fornecida pela biblioteca do Android.
 seo-title: Métodos do Analytics
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Métodos do Analytics
 topic: Desenvolvedor e implementação
-uuid: ac 7 c 640 e -9 dcc -4724-b 561-019 cc 025 d 5 a 7
+uuid: ac7c640e-9dcc-4724-b561-019cc025d5a7
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -17,7 +17,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 Esta é uma lista de métodos do Adobe Analytics fornecida pela biblioteca do Android.
 
-O SDK suporta atualmente várias Soluções da Adobe Experience Cloud, incluindo o Analytics], o Target], o Audience Manager] e o Adobe Experience Platform Identity Service]. Os métodos recebem o prefixo de acordo com a solução, por exemplo, métodos da Experience Cloud ID recebem o prefixo `analytics`.
+The SDK currently supports multiple Adobe Experience Cloud Solutions], including Analytics], Target], Audience Manager], and the Adobe Experience Platform Identity Service]. Os métodos recebem o prefixo de acordo com a solução, por exemplo, métodos da Experience Cloud ID recebem o prefixo `analytics`.
 
 Cada um destes métodos é usado para enviar dados para o conjunto de relatórios do Adobe Analytics:
 
@@ -29,7 +29,7 @@ Cada um destes métodos é usado para enviar dados para o conjunto de relatório
 
    >[!TIP]
    >
-   >Esta é a única chamada de rastreamento que aumenta as exibições de página.
+   >Essa é a única chamada de rastreamento que aumenta as exibições de página.
 
    * Esta é a sintaxe para este método:
 
@@ -43,8 +43,7 @@ Cada um destes métodos é usado para enviar dados para o conjunto de relatório
       Analytics.trackState("loginScreen",null);
       ```
 
-* **Trackaction**
-Rastreia uma ação no seu aplicativo.
+* **trackAction** Rastreia uma ação no aplicativo.
 
    Actions that you want to measure, such as `logons`, `banner taps`, `feed subscriptions`, and other metrics, that occur in your app.
 
@@ -60,8 +59,7 @@ Rastreia uma ação no seu aplicativo.
       Analytics.trackAction("heroBannerTouched",null);
       ```
 
-* **Gettrackingidentifier**
-retorna o identificador de visitante gerado automaticamente para o Analytics.
+* **getTrackingIdentifier** Retorna o identificador de visitante gerado automaticamente para o Analytics.
 
    Esta é uma ID de visitante única e específica do aplicativo gerada na primeira inicialização, armazenada e utilizada a partir desse ponto. A ID é preservada entre as atualizações do aplicativo e é removida quando o aplicativo é desinstalado.
 
@@ -79,7 +77,7 @@ retorna o identificador de visitante gerado automaticamente para o Analytics.
 
 * **trackLocation**
 
-   Envia latitude, longitude e localização atuais em um ponto de interesse definido. Para obter mais informações, consulte [Localização geográfica e pontos de interesse](/help/android/location/geo-poi.md).
+   Envia a latitude, a longitude e o local atuais em um ponto de interesse definido. Para obter mais informações, consulte [Localização geográfica e pontos de interesse](/help/android/location/geo-poi.md).
 
    * Esta é a sintaxe para este método:
 
@@ -120,10 +118,9 @@ retorna o identificador de visitante gerado automaticamente para o Analytics.
    >Essa chamada não envia uma ocorrência.
 
    * Esta é a sintaxe para este método:
-
-      ```java
-      publicstaticvoidtrackTimedActionStart(Stringaction,Map<String,Object>contextData);
-      ```
+   ```java
+   publicstaticvoidtrackTimedActionStart(Stringaction,Map<String,Object>contextData);
+   ```
 
    * Esta é a amostra de código para este método:
 
