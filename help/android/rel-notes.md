@@ -16,7 +16,7 @@ source-git-commit: 7fe7c78262a6d35dd27787554bb4f9ee92faa952
 
 Estas são as notas de versão, problemas conhecidos e informações de hot fix do Android SDK 4.x para Soluções da Experience Cloud:
 
-**20 de setembro de 2019: Versão 4.17.10**
+**September 20, 2019: Version 4.17.10**
 
 * Geral: Corrigida a geração de sequência de caracteres de localidade para algumas regiões no nível 21 da API do Android ou mais recente.
 
@@ -28,14 +28,14 @@ Estas são as notas de versão, problemas conhecidos e informações de hot fix 
 
    A codificação dupla fazia com que os valores de retorno dessas APIs fossem sinalizados por determinadas revisões de segurança.
 
-**6 de junho de 2019: Versão 4.17.7**
+**June 6, 2019: Version 4.17.7**
 
-* Geral - As chamadas de rede em níveis de API do Android inferiores a 20 agora usam TLS 1.1 ou TLS 1.2.
-* Analytics - Status de aceitação de push anexado aos dados do ciclo de vida quando as notificações de push estão ativadas.
+* General - Networking calls on Android API levels lower than 20 will now use TLS 1.1 or TLS 1.2.
+* Analytics - Appended push opt-in status to Lifecycle data when push notifications are enabled.
 
-**24 de maio de 2019: Versão 4.17.6**
+**May 24, 2019: Version 4.17.6**
 
-* serviço de ID de visitante - O
+* visitor ID Service - The
    `setPushIdentifier` A chamada de API agora envia uma chamada assíncrona para o Serviço de ID de visitante sempre que é chamada.
 
 * Serviço de ID de visitante - Aumento da conexão e do tempo limite de leitura de 2 segundos para 5 segundos.
