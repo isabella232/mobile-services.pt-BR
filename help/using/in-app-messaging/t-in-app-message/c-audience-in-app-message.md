@@ -3,10 +3,10 @@ description: Você pode configurar as opções de público-alvo para mensagens n
 keywords: mobile
 seo-description: Você pode configurar as opções de público-alvo para mensagens no aplicativo, incluindo as opções de exibição, acionador e característica.
 seo-title: Mensagem no aplicativo do público-alvo
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Mensagem no aplicativo do público-alvo
 topic: Métricas
-uuid: 6 c 815 d 4 c -7626-4 cf 4-9158-3 f 059 c 79317 a
+uuid: 6c815d4c-7626-4cf4-9158-3f059c79317a
 translation-type: tm+mt
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
@@ -41,10 +41,9 @@ Você pode configurar as opções de público-alvo para mensagens no aplicativo,
 
       >[!IMPORTANT]
       >
-      >Se você selecionar vários acionadores para que a mensagem seja exibida, todos devem funcionar na mesma ocorrência.
+      >Se você selecionar vários acionadores para que a mensagem seja exibida, todos devem ocorrer na mesma ocorrência.
 
-   * **[!UICONTROL Características]**
-Você pode determinar quem deve ver a mensagem no aplicativo quando acionada e filtrar (segmentar) o público-alvo para ocorrências que têm dados especificados. Por exemplo, é possível definir uma regra segundo a qual os Pontos de interesse contenham Denver. Este filtro permite mostrar a mensagem aos clientes que estão em um dos seus pontos de interesse com Denver no nome, no momento do acionamento.
+   * **[!UICONTROL Características]** Você pode determinar quem deve ver a mensagem no aplicativo quando ela é acionada e filtrar (segmentar) o público-alvo para ocorrências que tenham dados especificados. Por exemplo, é possível definir uma regra segundo a qual os Pontos de interesse contenham Denver. Este filtro permite mostrar a mensagem aos clientes que estão em um dos seus pontos de interesse com Denver no nome, no momento do acionamento.
 
 
 
@@ -52,7 +51,7 @@ Você pode determinar quem deve ver a mensagem no aplicativo quando acionada e f
 
 >[!IMPORTANT]
 >
->Acionadores e características usam dados passados para o Analytics a partir do seu aplicativo. Esses valores são transmitidos como dados de contexto, variáveis mapeadas e métricas. Uma variável é um valor com base em texto, e uma métrica é um valor numérico.
+>Acionadores e características usam dados que são passados para o Analytics a partir do seu aplicativo. Esses valores são transmitidos como dados de contexto, variáveis mapeadas e métricas. Uma variável é um valor com base em texto, e uma métrica é um valor numérico.
 
 To see the mapping of these key value pairs in the Mobile Services UI and validate the value for your trigger, click **[!UICONTROL Manage App Settings]** &gt;  **[!UICONTROL Manage Variables &amp; Metrics]** &gt;, which displays the following tabs:
 
@@ -64,9 +63,9 @@ Depois de validar o mapeamento, selecione a correspondência ou operador lógico
 
 ### Selecting metrics and variables {#example_AB126F03BD1C4094B791E230B3DB1189}
 
-![opções de acionador](assets/custom_trigger_matcher_options.png)
+![trigger options](assets/custom_trigger_matcher_options.png)
 
-Os seguintes cenários ajudam você a determinar se deseja selecionar uma métrica ou uma variável como seu acionador:
+Os seguintes cenários ajudam a determinar se uma métrica ou variável deve ser selecionada como seu acionador:
 
 ### Métricas
 
