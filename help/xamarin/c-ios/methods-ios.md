@@ -4,7 +4,7 @@ keywords: Xamarin
 seo-description: Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Experience Cloud.
 seo-title: Métodos do iOS
 solution: Marketing Cloud,Desenvolvedor
-title: Métodos do iOS
+title: iOS methods
 uuid: d6a056db-80c1-44d0-970f-c961ad01b0bc
 translation-type: tm+mt
 source-git-commit: f53953831e6471ea64eb2ae06ddae16ca0eab6f6
@@ -85,9 +85,9 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
 * **PrivacyStatus**
 
    Retorna a representação de enumeração do status de privacidade do usuário atual.
-   * `ADBMobilePrivacyStatus.OptIn` - as ocorrências são enviadas imediatamente.
+   * `ADBMobilePrivacyStatus.OptIn` - hits are sent immediately.
    * `ADBMobilePrivacyStatus.OptOut` - as ocorrências serão descartadas.
-   * ADBMobilePrivacyStatus.Unknown - se o rastreamento offline estiver ativado, as ocorrências são salvas até o status de privacidade ser alterado para aceitar (e então as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas). Se o rastreamento offline estiver desativado, as ocorrências serão descartadas até o status de privacidade ser alterado para aceitar.
+   * ADBMobilePrivacyStatus.Unknown - se o rastreamento offline estiver ativado, as ocorrências são salvas até o status de privacidade ser alterado para aceitar (e então as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas). If offline tracking is disabled, hits are discarded until the privacy status changes to opt in.
    The default value is set in the [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
 
    * Esta é a sintaxe para este método:
@@ -176,7 +176,7 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
 
    >[!TIP]
    >
-   >Este método é destinado a aplicativos que se registram para receber notificações enquanto estão em segundo plano e só deve ser chamado a partir do código executado enquanto o aplicativo está em segundo plano.
+   >This method is intended to be used for apps that register for notifications while in background and should only be called from your code that runs while your app is in the background.
 
    * Esta é a sintaxe para este método:
 
