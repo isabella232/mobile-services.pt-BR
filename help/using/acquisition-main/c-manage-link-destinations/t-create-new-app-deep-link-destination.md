@@ -3,10 +3,10 @@ description: É possível criar um novo destino de link que direciona os usuári
 keywords: mobile
 seo-description: É possível criar um novo destino de link que direciona os usuários para a Web ou um deep link no seu aplicativo.
 seo-title: Criar novo destino de link
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Criar novo destino de link
 topic: Métricas
-uuid: 390 e 3 dea -0221-4 f 97-980 d-a 90 ca 9 f 162 fa
+uuid: 390e3dea-0221-4f97-980d-a90ca9f162fa
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -28,7 +28,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
    * **[!UICONTROL Tipo de link]**
 
-      Esta é uma lista dos tipos de link disponíveis:
+      Here is a list of the available link types:
 
       * **[!UICONTROL Deep link do aplicativo]**
 
@@ -41,8 +41,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
       * **[!UICONTROL Link híbrido]**
 
          Type an iOS Universal Link or an Android App Link (for example, `https://yourwebsite.com`). Os links híbridos são compatíveis com os Links universais do iOS e os Links de aplicativo do Android.
-   * **[!UICONTROL Aplicativo]**
-Selecione o aplicativo que está associado ao link que você vai fornecer.
+   * **[!UICONTROL Aplicativo]** Selecione o aplicativo que está associado ao link que você vai fornecer.
 
       >[!TIP]
       >
@@ -50,7 +49,7 @@ Selecione o aplicativo que está associado ao link que você vai fornecer.
 
    * **[!UICONTROL Tipo de link]**
 
-      Digite o URL real do link selecionado. O rótulo deste campo irá variar dependendo do tipo de link selecionado.
+      Type the actual URL for the link you selected. The label of this field will vary depeneding on the type of link you selected.
 
    * **[!UICONTROL Notas]**
 
