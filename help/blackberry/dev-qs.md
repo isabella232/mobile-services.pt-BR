@@ -1,8 +1,8 @@
 ---
 title: Início rápido para desenvolvedores
-seo-title: Introdução rápida do blackberry Developer para Adobe Mobile Services
-description: O Guia de início rápido do blackberry Developer ajuda você a entender o processo de implementação da biblioteca do blackberry para Adobe Mobile Services.
-seo-description: O Guia de início rápido do blackberry Developer ajuda você a entender o processo de implementação da biblioteca do blackberry para Adobe Mobile Services.
+seo-title: Início rápido do desenvolvedor BlackBerry para Adobe Mobile Services
+description: The BlackBerry Developer Quick Start Guide helps you understand the process to implement the BlackBerry library for Adobe Mobile Services.
+seo-description: The BlackBerry Developer Quick Start Guide helps you understand the process to implement the BlackBerry library for Adobe Mobile Services.
 translation-type: tm+mt
 source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
@@ -55,9 +55,9 @@ Depois de descompactar o SDK baixado, verifique se os arquivos a seguir estão e
 1. Confirme se a opção **[!UICONTROL (Todas as configurações)]** está selecionada e clique em **[!UICONTROL Adicionar arquivos]na seção** Ativos] da janela.**[!UICONTROL **
    >[!TIP]
    >
-   >Há um erro no QNX Momentics IDE que às vezes impede que esses botões sejam visualizados. Caso não consiga visualizá-los, redimensione as janelas até que eles apareçam.
+   >Há um bug no QNX Momentics IDE que às vezes impede que esses botões sejam visíveis. Caso não consiga visualizá-los, redimensione as janelas até que eles apareçam.
 
-1. Clique em **[!UICONTROL Espaço de trabalho]**.
+1. Click Workspace.****
 1. Localize o arquivo `ADBMobileConfig.json`**em seu projeto e clique em[!UICONTROL OK]**.
 
 Seu aplicativo pode importar classificações/interfaces da biblioteca `adobeMobileLibrary.jar` usando `#include <ADBMobile.hpp>`.
@@ -87,6 +87,6 @@ A seguir, um exemplo de um arquivo `ADBMobileConfig.json`:
 }
 ```
 
-You must at least update the `rsids` and `server` parameters. Para obter mais detalhes, consulte [Referência de método e classe do Adobe Mobile](/help/blackberry/methods.md).
+You must at least update the `rsids` and `server` parameters. For more details, see Adobe Mobile class and method reference.[](/help/blackberry/methods.md)
 
 Agora, é possível implementar o Analytics em seu aplicativo do BlackBerry 10.
