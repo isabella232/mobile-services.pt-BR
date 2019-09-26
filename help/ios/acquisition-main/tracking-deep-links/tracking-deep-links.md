@@ -1,10 +1,10 @@
 ---
 description: Essas informações podem ser usadas para rastrear deep links e deep links deferidos nos aplicativos móveis usando o SDK do iOS do Adobe Mobile.
 seo-description: Essas informações podem ser usadas para rastrear deep links e deep links deferidos nos aplicativos móveis usando o SDK do iOS do Adobe Mobile.
-seo-title: Rastreamento de deep links
-solution: Marketing Cloud, Analytics
-title: Rastreamento de deep links
-uuid: 08 dc 2820-7 fd 3-419 f-ac 2 d-dcf 12532578 a
+seo-title: Rastrear links profundos
+solution: Marketing Cloud,Analytics
+title: Rastrear links profundos
+uuid: 08dc2820-7fd3-419f-ac2d-dcf12532578a
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -17,14 +17,14 @@ Essas informações podem ser usadas para rastrear deep links e deep links defer
 
 Para obter mais informações sobre como os profissionais de marketing usam deep linking em seus aplicativos, consulte [Aquisição](/help/ios/acquisition-main/acquisition.md) na documentação dos Mobile Services.
 
-## Rastreamento de deep links
+## Rastrear links profundos
 
 1. Adicione o SDK ao seu projeto e implemente as medições de ciclo de vida.
 
-   Para obter mais informações, consulte *Adicionar o SDK e o Arquivo de configuração ao projeto* na [Implementação principal e no ciclo de vida](/help/ios/getting-started/dev-qs.md).
-1. Registre o aplicativo para lidar com Comunicações entre aplicativos ou Suporte a Links universais.
+   Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao seu projeto* em Implementação [principal e Ciclo de vida](/help/ios/getting-started/dev-qs.md).
+1. Registre o aplicativo para gerenciar as Comunicações entre aplicativos ou dar suporte aos Links universais.
 
-   Para obter mais informações, consulte [Comunicações entre aplicativos](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html#//apple_ref/doc/uid/TP40007072-CH6-SW10) ou [Suporte Universal Links](https://developer.apple.com/library/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html)
+   Para obter mais informações, consulte Comunicações [entre aplicativos ou Links universais de](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html#//apple_ref/doc/uid/TP40007072-CH6-SW10) [suporte](https://developer.apple.com/library/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html)
 
 1. Rastrear deep links em openURL.
 
@@ -50,7 +50,7 @@ Para obter mais informações sobre como os profissionais de marketing usam deep
 
 The Adobe Mobile SDK can parse key and value pairs of data appended to any deep or Universal Link, provided that the link contains a key with a `a.deeplink.id` label and a corresponding non-null and user generated value. Todos os pares de chaves e valores de dados adicionados ao link serão analisados, anexados a uma ocorrência de ciclo de vida e enviados ao Adobe Analytics, desde que o link contenha a chave e valor `a.deeplink.id`.
 
-Você também pode optar por anexar uma ou mais das seguintes chaves reservadas (com valores gerados pelo usuário) ao deep link ou Link universal:
+You might also choose to append one or more of the following reserved keys (with user-generated values) to the deep or Universal Link:
 
 * `a.launch.campaign.trackingcode`
 * `a.launch.campaign.source`
@@ -60,7 +60,7 @@ Você também pode optar por anexar uma ou mais das seguintes chaves reservadas 
 
 Essas chaves são variáveis pré-mapeadas para relatórios no Adobe Analytics. Para obter mais informações sobre regras de mapeamento e processamento, consulte [Regras de processamento e Dados de contexto](/help/ios/getting-started/proc-rules.md).
 
-### Rastreamento de deep links adiados
+### Tracking deferred deep links
 
 1. Registre o retorno de chamada de dados da Adobe.
 
@@ -69,7 +69,7 @@ Essas chaves são variáveis pré-mapeadas para relatórios no Adobe Analytics. 
    }];
    ```
 
-1. Lidar `ADBMobileDataEventDeepLink``AdobeDataCallback`com.
+1. Manuseie `ADBMobileDataEventDeepLink` dentro `AdobeDataCallback`.
 
    ```objective-c
    [ADBMobile registerAdobeDataCallback:^(ADBMobileDataEvent event, NSDictionary * _Nullable adobeData) { 
