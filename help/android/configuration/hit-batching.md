@@ -1,12 +1,12 @@
 ---
 description: O agrupamento de ocorrências permite que aplicativos não as enviem até que o seu número na fila tenha excedido o limite configurado.
-keywords: android; biblioteca; dispositivos móveis; sdk
+keywords: android;biblioteca;móvel;sdk
 seo-description: O agrupamento de ocorrências permite que aplicativos não as enviem até que o seu número na fila tenha excedido o limite configurado.
 seo-title: Agrupamento de ocorrência
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Agrupamento de ocorrência
 topic: Desenvolvedor e implementação
-uuid: ada 35 be 3-242 b -4 b 2 b-a 828-9 bf 998 dd 58 b 5
+uuid: ada35be3-242b-4b2b-a828-9bf998dd58b5
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -19,7 +19,7 @@ O agrupamento de ocorrências permite que aplicativos não as enviem até que o 
 
 >[!IMPORTANT]
 >
->Para usar o agrupamento de ocorrências, você **deve** ativar o rastreamento offline e ter o SDK versão 4.1 ou posterior
+>To use hit batching, you must enable offline tracking and have SDK version 4.1 or later ****
 
 To enable hit batching, update your `ADBMobileConfig.json` file and specify a value for `batchLimit`:
 
