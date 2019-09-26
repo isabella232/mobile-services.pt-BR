@@ -3,7 +3,7 @@ description: Após adicionar a biblioteca ao projeto, é possível executar toda
 seo-description: Após adicionar a biblioteca ao projeto, é possível executar todas as chamadas de método do Analytics em qualquer lugar no aplicativo (certifique-se de importar o ADBMobile.h para sua classe).
 seo-title: Analytics
 title: Analytics
-uuid: de 018 eda-b 37 d -4 afe -83 a 0-8011381 d 7 aff
+uuid: de018eda-b37d-4afe-83a0-8011381d7aff
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -50,7 +50,7 @@ Lifecycle metrics are now ready to be captured, and Mobile Application Reports] 
 ## Events, props, and eVars {#concept_B885D5A71A5D45129CE7C1C3426A7D28}
 
 
-Se você olhou a Referência do [adbmobile Class e de métodos](/help/blackberry/methods.md), talvez você esteja se perguntando onde definir eventos, evars, props, herdeiros e listas. Na versão 4, não é possível atribuir esses tipos de variáveis diretamente no aplicativo. Em vez disso, o SDK usa dados de contexto e regras de processamento de forma a mapear os dados do aplicativo para as variáveis do Analytics para criação de relatórios.
+Se você tiver observado a Referência [de classe e método](/help/blackberry/methods.md)ADBMobile, provavelmente está se perguntando onde definir eventos, eVars, props, herdeiros e listas. Na versão 4, não é possível atribuir esses tipos de variáveis diretamente no aplicativo. Em vez disso, o SDK usa dados de contexto e regras de processamento de forma a mapear os dados do aplicativo para as variáveis do Analytics para criação de relatórios.
 
 As regras de processamento oferecem diversas vantagens:
 
@@ -68,7 +68,7 @@ As regras de processamento são usadas para copiar os dados enviados nas variáv
 
 [Regras de processamento](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
-[Receber autorização para usar regras de processamento](https://helpx.adobe.com/analytics/kb/processing-rules-authorization.html)
+[Receber autorização para usar as regras de processamento](https://helpx.adobe.com/analytics/kb/processing-rules-authorization.html)
 
 Recomendamos agrupar as variáveis de dados de contexto usando “namespaces”; isso o ajudará a manter uma ordem lógica. Por exemplo, se você quiser coletar informações sobre um produto, pode definir as seguintes variáveis:
 
@@ -108,12 +108,12 @@ As variáveis de contexto que definem eventos de incremento podem ter o evento c
 >
 >A Adobe reserva o namespace `a.`. Além dessa pequena restrição, as variáveis de dados de contexto só precisam ser únicas no logon da empresa para evitar conflitos.
 
-## Ativar o rastreamento offline {#concept_402F4ECE240B4CA1B779322A7BFCB8DE}
+## Ativar rastreamento offline {#concept_402F4ECE240B4CA1B779322A7BFCB8DE}
 
 To store hits when the device is offline, you can optionally enable offline tracking in the `ADBMobileConfig.json` file.
 
 Preste muita atenção às exigências do carimbo de data e hora descritas na referência do arquivo de configuração antes de habilitar o rastreamento offline.
 
-## Métodos do Analytics
+## Analytics methods
 
-Para obter uma lista dos métodos do Analytics disponíveis para blackberry, consulte *Métodos do Analytics* na [Referência do Adobe Mobile Class e de métodos](/help/blackberry/methods.md).
+Para obter uma lista dos métodos do Analytics disponíveis para o BlackBerry, consulte Métodos *do* Analytics em Referência [de métodos e classes do](/help/blackberry/methods.md)Adobe Mobile.
