@@ -1,18 +1,18 @@
 ---
-description: Estes são os métodos do Adobe Experience Platform Identity Service fornecidos pela biblioteca do iOS.
-seo-description: Estes são os métodos do Adobe Experience Platform Identity Service fornecidos pela biblioteca do iOS.
-seo-title: Métodos do Serviço de identidade da Adobe Experience Platform
-solution: Marketing Cloud, Analytics
-title: Métodos do Serviço de identidade da Adobe Experience Platform
+description: Here are the Adobe Experience Platform Identity Service methods that are provided by the iOS library.
+seo-description: Here are the Adobe Experience Platform Identity Service methods that are provided by the iOS library.
+seo-title: Métodos do Adobe Experience Platform Identity Service
+solution: Marketing Cloud,Analytics
+title: Adobe Experience Platform Identity Service methods
 topic: Desenvolvedor e implementação
-uuid: cdd 307 bc -8 b 7 d -47 a 8-b 77 e -00902 b 9 e 2968
+uuid: cdd307bc-8b7d-47a8-b77e-00902b9e2968
 translation-type: tm+mt
 source-git-commit: cbbb85b4d117fcaa502a1e01423f1f5d3b2ecc2b
 
 ---
 
 
-# Métodos do Serviço de identidade da Adobe Experience Platform {#experience-cloud-id-service-methods}
+# Métodos do Adobe Experience Platform Identity Service {#experience-cloud-id-service-methods}
 
 Estes são os métodos do Adobe Experience Platform Identity Service fornecidos pela biblioteca do iOS.
 
@@ -20,13 +20,13 @@ O SDK oferece suporte a várias soluções da Adobe Experience Cloud no momento,
 
 Methods are prefixed according to the solution, and Experience Cloud ID methods are prefixed with `visitor`. Para obter mais informações, consulte [Habilitar a Experience Cloud ID](/help/ios/marketing-cloud/mcvid.md).
 
-* **`+`(nullable NSURL`*`) visitorappendtourl: (nullable NSURL`*`) url;**
+* **`+`(NSURL anulável`*`)visitorAppendToURL:(NSURL`*`anulável)url;**
 
-   Acrescenta dados de visitantes da Adobe a uma cadeia de caracteres de URL para uso com a biblioteca JavaScript da Adobe. Para usar este método, você deve ter o Mobile SDK versão 4.12 ou superior. Para obter mais informações, consulte [Anexar função de ajuda da ID de visitante](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-appendvisitorid.html).
+   Acrescenta dados de visitantes da Adobe a uma cadeia de caracteres de URL para uso com a biblioteca JavaScript da Adobe. Para usar esse método, você deve ter o Mobile SDK versão 4.12 ou superior. Para obter mais informações, consulte [Anexar função de ajuda da ID de visitante](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-appendvisitorid.html).
 
    >[!IMPORTANT]
    >
-   >Este método pode causar uma chamada de rede de bloqueio. Não chame este método em tópicos sensíveis ao tempo.
+   >Esse método pode causar uma chamada de rede de bloqueio. Não chame este método em tópicos sensíveis ao tempo.
 
    * Input: `URL<NSURL>`
 A required URL string that the visitor information will be appended to.
@@ -136,9 +136,9 @@ Cadeia de caracteres com as informações do visitante anexadas.
       NSArray *myVisitorIDs = [ADBMobile visitorGetIDs];
       ```
 
-* **Visitorgeturlvariablesasync**
+* **visitorgetUrlVariablesAsync**
 
-   Introduzido na versão 4.16.0, este método retorna uma string formada adequadamente que contém variáveis de URL do serviço de ID do visitante. Para obter mais informações sobre como esse método é usado, consulte [Métodos do Serviço de identidade da Adobe Experience Platform](/help/ios/reference/hybrid-app.md).
+   Introduzido na versão 4.16.0, este método retorna uma sequência de caracteres devidamente formada que contém variáveis de URL do Serviço de ID de visitante. Para obter mais informações sobre como esse método é usado, consulte Métodos [](/help/ios/reference/hybrid-app.md)do Adobe Experience Platform Identity Service.
 
    * Esta é a sintaxe para este método:
 
