@@ -2,22 +2,22 @@
 description: Os postbacks permitem enviar dados coletados pelo SDK para um servidor de terceiros. Ao usar os mesmos acionadores e características usadas para exibir uma mensagem no aplicativo, é possível configurar o SDK para enviar dados personalizados a um destino de terceiros.
 seo-description: Os postbacks permitem enviar dados coletados pelo SDK para um servidor de terceiros. Ao usar os mesmos acionadores e características usadas para exibir uma mensagem no aplicativo, é possível configurar o SDK para enviar dados personalizados a um destino de terceiros.
 seo-title: Postbacks
-solution: Marketing Cloud, Analytics
-title: Visão geral de postbacks
-uuid: 25 e 2 a 5 fb -1203-40 dd -96 cd-b 23 e 0 f 23376 d
+solution: Marketing Cloud,Analytics
+title: Postbacks overview
+uuid: 25e2a5fb-1203-40dd-96cd-b23e0f23376d
 translation-type: tm+mt
 source-git-commit: 83e6968efb0ed1b4ef504286c6cb2e8e4d2eaf94
 
 ---
 
 
-# Visão geral de postbacks {#postbacks}
+# Postbacks overview {#postbacks}
 
 Os postbacks permitem enviar dados coletados pelo SDK para um servidor de terceiros. Ao usar os mesmos acionadores e características usadas para exibir uma mensagem no aplicativo, é possível configurar o SDK para enviar dados personalizados a um destino de terceiros.
 
 >[!IMPORTANT]
 >
->Essa funcionalidade exige a versão 4.6.0 ou posterior do SDK.
+>This functionality requires SDK version 4.6.0 or later.
 
 As mensagens de postback são enfileiradas e seguem todas as regras online/offline existentes que regem a coleta de dados analíticos. Quando uma mensagem corresponde (como correspondem as mensagens exibidas), as mensagens de postback não cancelam o resto das mensagens. Isso permite que vários postbacks ocorram na mesma ocorrência de análise. Para obter a definição, consulte a linha *postbacks* em [Configuração JSON do ADBMobile](/help/ios/configuration/json-config/json-config.md).
 
@@ -33,7 +33,7 @@ Esta lista inclui:
 |--- |--- |
 | `{%sdkver%}` | Retorna a versão do SDK. |
 | `{%cachebust%}` | Resolve um número aleatório entre 1 e 100000000. |
-| `{%adid%}` | Retorna IDFA. Esse token só funciona se você usou `setAdvertisingIdentifier`. |
-| `{%pushid%}` | Retorna o token do identificador de push. Esse token só funciona se você usou `setPushIdentifier`. |
+| `{%adid%}` | Retorna IDFA. This token only works if you used  .`setAdvertisingIdentifier` |
+| `{%pushid%}` | Retorna o token do identificador de push. This token only works if you used .`setPushIdentifier` |
 | `{%timestampu%}` | Retorna o carimbo de data e hora atual em época. |
 | `{%timestampz%}` | Retorna o carimbo de data e hora no formato JavaScript (ISO 8601). |
