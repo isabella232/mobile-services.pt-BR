@@ -1,6 +1,6 @@
 ---
 description: O Android SDK 4.x para Soluções da Experience Cloud permite medir aplicativos nativos do Android, fornecer conteúdos direcionados no aplicativo e aproveitar e coletar dados de público-alvo pelo gerenciamento de público-alvo.
-keywords: android;biblioteca;móvel;sdk
+keywords: android;library;mobile;sdk
 seo-description: O Android SDK 4.x para Soluções da Experience Cloud permite medir aplicativos nativos do Android, fornecer conteúdos direcionados no aplicativo e aproveitar e coletar dados de público-alvo pelo gerenciamento de público-alvo.
 seo-title: Android SDK 4.x para Soluções da Experience Cloud
 solution: Marketing Cloud,Analytics
@@ -8,7 +8,7 @@ title: Android SDK 4.x para Soluções da Experience Cloud
 topic: Desenvolvedor e implementação
 uuid: 56f1ff41-0365-41dd-bdde-245c823dff07
 translation-type: tm+mt
-source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
+source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
 
 ---
 
@@ -17,28 +17,22 @@ source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
 O Android SDK 4.x para Soluções da Experience Cloud permite medir aplicativos nativos do Android, fornecer conteúdos direcionados no aplicativo e aproveitar e coletar dados de público-alvo pelo gerenciamento de público-alvo.
 
->[!IMPORTANT]
->
->The Adobe Analytics Mobile Marketing Add-on SKU is required to enable Mobile Services access to mobile acquisition, deep linking, geolocation, and mobile messaging capabilities. Para obter mais informações, entre em contato com seu Adobe CSM.
-
-## Nova versão do SDK da Adobe Experience Cloud
+## Nova versão do Adobe Experience Platform Mobile SDK
 
 Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para acessar a documentação mais recente.
 
->[!IMPORTANT]
->
->Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
 
-* Para começar, acesse o [Launch](https://launch.adobe.com/).
+* Para começar, acesse o Adobe Experience Platform Launch.
 * Para ver o conteúdo dos repositórios do Experience Platform SDK, acesse [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 >[!IMPORTANT]
 >
-> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as in-App messaging, push notifications or Acquisition links. Para obter mais informações, consulte [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services).
+>O Adobe Analytics Mobile Marketing Add-on SKU é necessário para permitir o acesso aos recursos de aquisição móvel, deep linking, geolocalização e mensagens móveis do Mobile Services. Para obter mais informações, entre em contato com seu Adobe CSM.
 
 >[!IMPORTANT]
 >
->Although you can configure features in the UI, these features will not work until you download the generated configuration file and add this file to the SDK. Para obter informações sobre como baixar e configurar os SDKs, consulte Implementação [principal e Ciclo de vida](/help/android/getting-started/dev-qs.md).
+>Embora seja possível configurar recursos na interface do usuário, esses recursos não funcionarão até que você baixe o arquivo de configuração gerado e adicione esse arquivo ao SDK. Para obter informações sobre como baixar e configurar os SDKs, consulte Implementação [principal e Ciclo de vida](/help/android/getting-started/dev-qs.md).
 
 Os SDKs são compatíveis com as seguintes versões do Android:
 
