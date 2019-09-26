@@ -1,12 +1,12 @@
 ---
 description: Lista as métricas e dimensões que podem ser medidas automaticamente por meio da biblioteca para dispositivos móveis.
-keywords: android; biblioteca; dispositivos móveis; sdk
+keywords: android;library;mobile;sdk
 seo-description: Lista as métricas e dimensões que podem ser medidas automaticamente por meio da biblioteca para dispositivos móveis.
 seo-title: Medições de ciclo de vida
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Medições de ciclo de vida
 topic: Desenvolvedor e implementação
-uuid: f 958 c 3 ef -1 d 79-4 b 30-8966-ef 74 bd 48 a 5 d 6
+uuid: f958c3ef-1d79-4b30-8966-ef74bd48a5d6
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -17,14 +17,14 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 Lista as métricas e dimensões que podem ser medidas automaticamente por meio da biblioteca para dispositivos móveis.
 
-Para obter mais informações, consulte [Solução de problemas de dados do ciclo de vida](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html).
+Para obter mais informações, consulte [Solução de problemas de dados](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html)do ciclo de vida.
 
 
 ## Lifecycle metrics and dimensions {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
 Quando configuradas, as medições de ciclo de vida são enviadas em parâmetros de dados de contexto ao Analytics, nos parâmetros para o Target com cada chamada mbox e como um sinal ao gerenciamento de público-alvo. O Analytics e o Target usam o mesmo formato, enquanto que o gerenciamento de público-alvo usa um prefixo diferente para cada métrica.
 
-Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento de ciclo de vida são capturados automaticamente e relatados usando a métrica ou dimensão. As exceções são anotadas no conteúdo.
+Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento de ciclo de vida são capturados automaticamente e reportados usando a métrica ou a dimensão. As exceções são observadas no conteúdo.
 
 ## Métricas
 
@@ -59,7 +59,7 @@ Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento
 
    >[!IMPORTANT]
    >
-   >Essa métrica não é armazenada automaticamente em uma métrica do Analytics. Você deve criar uma regra de processamento que defina um evento personalizado para capturar essa métrica.
+   >This metric is not automatically stored in an Analytics metric. Você deve criar uma regra de processamento que defina um evento personalizado para capturar essa métrica.
 
    * Analytics Context Data/Target parameter: `a.MonthlyEngUserEvent`
    * Audience Manager signal: `c_a_MonthlyEngUserEvent`
@@ -90,7 +90,7 @@ Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento
 
 * **Data de instalação**
 
-   Data do início após instalação. O formato de data `MM/DD/YYYY`é.
+   Data do início após instalação. O formato de data é `MM/DD/YYYY`.
 
    * Analytics Context Data/Target parameter: `a.InstallDate`
    * Audience Manager signal: `c_a_InstallDate`
@@ -139,7 +139,7 @@ Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento
 
 * **Versão do sistema operacional**
 
-   A versão do sistema operacional.
+   A versão do SO.
 
    * Analytics Context Data/Target parameter: `a.OSVersion`
    * Audience Manager signal: `c_a_OSVersion`
@@ -179,7 +179,7 @@ Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento
 
    >[!IMPORTANT]
    >
-   >Essa métrica não é armazenada automaticamente em uma variável do Analytics. Para usá-lo em relatórios, será necessário criar uma regra de processamento para copiar esse valor para uma variável Analytics.
+   >This metric is not automatically stored in an Analytics variable. Para usá-lo em relatórios, será necessário criar uma regra de processamento para copiar esse valor para uma variável Analytics.
 
    * Analytics Context Data/Target parameter: `a.CarrierName`
    * Audience Manager signal: `c_a_CarrierName`
@@ -194,7 +194,7 @@ Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento
 
 ## Additional mobile metrics and dimensions {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
 
-As seguintes métricas e dimensões são capturadas nas variáveis de solução móvel pelo método a seguir:
+As seguintes métricas e dimensões são capturadas nas variáveis de solução móvel pelo seguinte método:
 
 ### Métricas
 
@@ -224,7 +224,7 @@ As seguintes métricas e dimensões são capturadas nas variáveis de solução 
 
    Populated by `trackLocation` methods.
 
-   * Parâmetro (s) de dados de contexto do Analytics:
+   * Parâmetro(s) Dados de contexto/Target do Analytics:
 
       * `a.loc.lat.a`
       * `a.loc.lon.a`
@@ -238,7 +238,7 @@ As seguintes métricas e dimensões são capturadas nas variáveis de solução 
 
    Populated by `trackLocation` methods.
 
-   * Parâmetro (s) de dados de contexto do Analytics:
+   * Parâmetro(s) Dados de contexto/Target do Analytics:
 
       * `a.loc.lat.b`
       * `a.loc.lon.b`
@@ -252,7 +252,7 @@ As seguintes métricas e dimensões são capturadas nas variáveis de solução 
 
    Populated by `trackLocation` methods.
 
-   * Parâmetro (s) de dados de contexto do Analytics:
+   * Parâmetro(s) Dados de contexto/Target do Analytics:
 
       * `a.loc.lat.c`
       * `a.loc.lon.c`
