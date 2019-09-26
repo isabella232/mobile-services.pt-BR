@@ -3,9 +3,9 @@ description: Métodos do Android para componentes do Xamarin para os SDK 4.x das
 keywords: Xamarin
 seo-description: Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções da Experience Cloud.
 seo-title: Métodos do Android
-solution: Marketing Cloud, desenvolvedor
+solution: Marketing Cloud,Desenvolvedor
 title: Métodos do Android
-uuid: 860 af 1 c 4-f 57 e -4 bcb -8308-4 e 316 da 9 a 27 b
+uuid: 860af1c4-f57e-4bcb-8308-4e316da9a27b
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -18,7 +18,7 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
 
 ## Configuration methods {#section_405AA09390E346E5BB7B1F4E0F65F51E}
 
-* **Debuglogging**
+* **DebugLogging**
 
    Retorna a preferência de log de depuração atual e o padrão é false.
 
@@ -54,7 +54,7 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
 * **PrivacyStatus**
 
    Retorna a representação de enumeração do status de privacidade do usuário atual.
-   * `ADBMobilePrivacyStatus.OptIn` - as ocorrências são enviadas imediatamente.
+   * `ADBMobilePrivacyStatus.OptIn` - hits are sent immediately.
    * `ADBMobilePrivacyStatus.OptOut` - as ocorrências serão descartadas.
    * `ADBMobilePrivacyStatus.Unknown` - se o rastreamento offline estiver ativado, as ocorrências são salvas até o status de privacidade ser alterado para aceitar (e então as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas). Se o rastreamento offline não estiver ativado, as ocorrências são descartadas até o status de privacidade ser alterado parar aceitar.
    O valor padrão está definido no arquivo [ADBMobileConfig.json](/help/android/configuration/json-config/json-config.md).
@@ -75,7 +75,7 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
 
 * **UserIdentifier**
 
-   Se um identificador personalizado tiver sido definido, retorne esse identificador. Se um identificador personalizado não estiver definido, retorna null. O valor padrão é `null`.
+   Se um identificador personalizado tiver sido definido, retornará esse identificador. Se um identificador personalizado não estiver definido, retornará null. O valor padrão é `null`.
 
    * Esta é a sintaxe para este método:
 
@@ -176,7 +176,7 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
 
 * **SetLargeIconResourceId(int resourceId)**
 
-   (4.2 ou superior) Define o ícone grande usado para notificações criadas pelo SDK. Este ícone é a principal imagem exibida quando o usuário visualiza a notificação completa na central de notificações.
+   (4.2 ou posterior) Define o ícone grande usado para notificações criadas pelo SDK. Esse ícone é a imagem principal que é exibida quando o usuário visualiza a notificação completa na central de notificações.
 
    * Esta é a sintaxe para este método:
 
@@ -192,7 +192,7 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
 
 * **SetSmallIconResourceId(int resourceId)**
 
-   (4.2 ou superior) Define o ícone pequeno usado para notificações criadas pelo SDK. Esse ícone é exibido na barra de status e é a imagem secundária exibida quando o usuário visualiza a notificação completa na central de notificações.
+   (4.2 ou posterior) Define o ícone pequeno usado para notificações criadas pelo SDK. Esse ícone é exibido na barra de status e é a imagem secundária mostrada quando o usuário visualiza a notificação completa na central de notificações.
 
    * Esta é a sintaxe para este método:
 
@@ -210,7 +210,7 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
 
 * **TrackingIdentifier**
 
-   Retorna a ID gerada automaticamente pelo Analytics. Esta é uma ID única e específica do aplicativo que é gerada na primeira inicialização e é armazenada e utilizada a partir desse ponto. Essa ID é preservada entre as atualizações do aplicativo e é removida na desinstalação.
+   Retorna a ID gerada automaticamente pelo Analytics. This is an app-specific unique ID that is generated on initial launch and is stored and used from that point forward. Essa ID é preservada entre as atualizações do aplicativo e é removida na desinstalação.
 
    * Esta é a sintaxe para este método:
 
@@ -230,7 +230,7 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
 
    >[!TIP]
    >
-   >Esta é a única chamada de rastreamento que aumenta as exibições de página.
+   >Essa é a única chamada de rastreamento que aumenta as exibições de página.
 
    * Esta é a sintaxe para este método:
 
@@ -354,7 +354,7 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
       public static void TrackTimedActionStart(string action,IDictionary<string, Object> cdata); 
       ```
 
-   * Esta é uma amostra de código para este método:
+   * Here is code sample for this method:
 
       ```java
       Analytics.TrackTimedActionStart("level2", null);
@@ -424,7 +424,7 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
 
 * **SendQueuedHits**
 
-   Força a biblioteca a enviar todas as ocorrências na fila offline, independentemente de quantas ocorrências estão na fila no momento.
+   Forces the library to send all hits in the offline queue, regardless of how many hits are currently queued.
 
    * Esta é a sintaxe para este método:
 
@@ -567,7 +567,7 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
 
 * **ClearCookies**
 
-   Limpa os cookies do Target do seu aplicativo.
+   Limpa os cookies do Target do aplicativo.
 
    * Esta é a sintaxe para este método:
 
@@ -691,7 +691,7 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
 
 ## Vídeo {#section_CBCE1951CE204A108AD4CA7BB07C7F98}
 
-Para obter mais informações sobre a Análise de vídeo, consulte [Análise de vídeo](/help/android/analytics-main/video-qs.md).
+Para obter mais informações sobre a Análise de vídeo, consulte Análise [de](/help/android/analytics-main/video-qs.md)vídeo.
 
 * **MediaSettings**
 
