@@ -2,10 +2,10 @@
 description: Conclua essas etapas a fim de configurar um conjunto de relatórios para coletar dados de aplicativos do iOS.
 seo-description: Conclua essas etapas a fim de configurar um conjunto de relatórios para coletar dados de aplicativos do iOS.
 seo-title: Antes de começar
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Antes de começar
 topic: Desenvolvedor e implementação
-uuid: 04133 f 68-3618-41 fd -8 a 13-ae5 b 6 f 04 df 6
+uuid: 04133f68-3618-41fd-8a13-aec5b6f04df6
 translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
@@ -31,7 +31,7 @@ Os desenvolvedores de aplicativos agora têm acesso para visualizar o(s) conjunt
 
 >[!IMPORTANT]
 >
->Para criar um novo conjunto de relatórios e baixar os sdks, é necessário ser um Administrador do Analytics.
+>Para criar um novo conjunto de relatórios e baixar os SDKs, você deve ser um Administrador do Analytics.
 
 ### Desenvolvedores do aplicativo
 
@@ -52,7 +52,7 @@ Os Adobe Mobile Services são a principal interface de relatórios para análise
 
    Faça logon na [Experience Cloud](https://marketing.adobe.com) com sua Adobe ID.
 
-   Este método entende que sua empresa foi provisionada e você vinculou sua conta do Analytics. Para obter mais informações sobre provisionamento, consulte [Gerenciar usuários e produtos da Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html). Para obter mais informações sobre como vincular sua conta, consulte [Organizações e vinculação de contas](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
+   Esse método presume que sua empresa foi provisionada e que você vinculou sua conta do Analytics. For more information about provisioning, see Manage Experience Cloud users and products. [](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) For more information about linking your account, see Organizations and account linking.[](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)
 
    >[!TIP]
    >
@@ -74,7 +74,7 @@ Para criar um conjunto de relatórios para coletar dados do aplicativo e definir
 
 1. Digite o nome do aplicativo e selecione uma ID de conjunto de relatórios exclusiva.
 
-   Um exemplo de uma ID de conjunto de relatórios é `mycomobileappdev`. É necessário configurar conjuntos de relatórios e aplicativos separados para as versões de desenvolvimento e produção. Quando estiver pronto para configurar a versão de produção, repita essas etapas.
+   Um exemplo de uma ID de conjunto de relatórios é `mycomobileappdev`. You need to set up separate report suites and apps for the development and production versions. When you are ready to set up the production version, repeat these steps.
 1. Deixe **[!UICONTROL Modelo de aplicativo móvel]selecionado.**
 
    Este modelo permite que os carimbos de data e hora coletem dados offline e ativem as variáveis da solução móvel para capturar medições de ciclo de vida.
@@ -97,5 +97,5 @@ Para baixar o SDK móvel:
 
 >[!TIP]
 >
->Um arquivo de configuração para seu aplicativo é incluído automaticamente no download do SDK, de modo que você não precisa baixar esse arquivo separadamente. No entanto, se já tiver baixado o SDK e deseja obter configurações atualizadas, baixe o arquivo de configuração novamente.
+>Um arquivo de configuração para seu aplicativo é incluído automaticamente no download do SDK, portanto, não é necessário baixar esse arquivo separadamente. No entanto, se já tiver baixado o SDK e deseja obter configurações atualizadas, baixe o arquivo de configuração novamente.
 
