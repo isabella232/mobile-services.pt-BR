@@ -1,21 +1,21 @@
 ---
 description: Este plug-in permite enviar chamadas do Android AppMeasurement a partir do seu projeto PhoneGap.
-keywords: android; biblioteca; dispositivos móveis; sdk
+keywords: android;biblioteca;móvel;sdk
 seo-description: Este plug-in permite enviar chamadas do Android AppMeasurement a partir do seu projeto PhoneGap.
-seo-title: Visão geral do plug-in phonegap
-solution: Marketing Cloud, Analytics
-title: Visão geral do plug-in phonegap
+seo-title: Visão geral do plug-in PhoneGap
+solution: Marketing Cloud,Analytics
+title: Visão geral do plug-in PhoneGap
 topic: Desenvolvedor e implementação
-uuid: c 5 c 32357-d 8 df -458 a-b 0 e 8-e 0 c 56040241 d
+uuid: c5c32357-d8df-458a-b0e8-e0c56040241d
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
 
 
-# Visão geral do plug-in phonegap {#phonegap-plug-in}
+# Visão geral do plug-in PhoneGap {#phonegap-plug-in}
 
-Este plug-in permite enviar chamadas do Android AppMeasurement a partir do seu projeto PhoneGap. Para criar um projeto phonegap, consulte [phonegap](https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap.html).
+Este plug-in permite enviar chamadas do Android AppMeasurement a partir do seu projeto PhoneGap. Para criar um projeto PhoneGap, consulte [PhoneGap](https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap.html).
 
 ## Nova versão do SDK da Adobe Experience Cloud
 
@@ -41,7 +41,7 @@ cordova plugin add adobe-mobile-services
 
 ## Incluir o plug-in
 
-1. Arraste o `ADBMobile_PhoneGap.java` arquivo para a `src` pasta.
+1. Arraste o `ADBMobile_PhoneGap.java` arquivo para a sua `src` pasta.
 
    Para mover esse arquivo, clique em **[!UICONTROL OK]**.
 
@@ -63,10 +63,10 @@ cordova plugin add adobe-mobile-services
    <param name="android-package" value="com.example.phonegaptest.ADBMobile_PhoneGap" />
    ```
 
-## Incluir a biblioteca appmeasurement
+## Include the AppMeasurement library
 
 1. To download the AppMeasurement library, see [Get the SDK](/help/android/getting-started/dev-qs.md).
-1. Arraste o `adobeMobileLibrary.jar` arquivo para a `src` pasta.
+1. Arraste o arquivo para a `adobeMobileLibrary.jar` sua `src` pasta.
 
    Para mover esse arquivo, clique em **[!UICONTROL OK]**.
 
