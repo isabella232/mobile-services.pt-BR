@@ -2,10 +2,10 @@
 description: 'null'
 keywords: Unity
 seo-description: 'null'
-seo-title: Métodos adbmobile. cs
-solution: Marketing Cloud, desenvolvedor
-title: Métodos adbmobile. cs
-uuid: af 504934-febd -45 d 9-81 e 2-2 a 310 f 4 c 65 dc
+seo-title: Métodos do ADBMobile.cs
+solution: Marketing Cloud,Developer
+title: Métodos do ADBMobile.cs
+uuid: af504934-febd-45d9-81e2-2a310f4c65dc
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -83,8 +83,8 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 * **GetPrivacyStatus**
 
    Retorna a representação de enumeração do status de privacidade do usuário atual.
-   * `MOBILE_PRIVACY_STATUS_OPT_IN`: As ocorrências são enviadas imediatamente.
-   * `MOBILE_PRIVACY_STATUS_OPT_OUT`: As ocorrências são descartadas.
+   * `MOBILE_PRIVACY_STATUS_OPT_IN`: Hits are sent immediately.
+   * `MOBILE_PRIVACY_STATUS_OPT_OUT`: Hits are discarded.
    * `MOBILE_PRIVACY_STATUS_UNKNOWN`: se o rastreamento offline estiver ativado, as ocorrências são salvas até o status de privacidade ser alterado para aceitar (e então as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas).
 
       Se o rastreamento offline não estiver ativado, as ocorrências são descartadas até o status de privacidade ser alterado parar aceitar. O valor padrão está definido no arquivo [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
@@ -139,7 +139,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    >[!TIP]
    >
-   >Este método deve ser usado para aplicativos que realizam registros para receber notificações enquanto estiverem em segundo plano e só deve ser chamado a partir do código executado enquanto o aplicativo está em segundo plano.
+   >Este método é destinado aos aplicativos que se registram para receber notificações enquanto estão em segundo plano e só deve ser chamado a partir do código executado enquanto o aplicativo está em segundo plano.
 
    * Esta é a sintaxe para este método:
 
@@ -201,7 +201,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
       ADBMobile.SetDebugLogging(true); 
       ```
 
-* **Setprivacystatus**
+* **SetPrivacyStatus**
 
    Define o status de privacidade do usuário atual como status. É definido como um dos valores abaixo:
 
@@ -215,7 +215,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
       public static void SetPrivacyStatus(ADBPrivacyStatusstatus); 
       ```
 
-   * Esta é a amostra de código da sintaxe:
+   * Esta é a amostra de código para esta sintaxe:
 
       ```java
       ADBMobile.SetPrivacyStatus(ADBMobile.ADBPrivacyStatus.MOBILE_PRIVACY_STATUS_OPT_IN);
@@ -263,7 +263,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    >[!TIP]
    >
-   >Esta é a única chamada de rastreamento que aumenta as exibições de página.
+   >Essa é a única chamada de rastreamento que aumenta as exibições de página.
 
    * Esta é a sintaxe para este método:
 
@@ -305,7 +305,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    >[!TIP]
    >
-   >Este método só deve ser chamado no código executado enquanto o aplicativo está em segundo plano.
+   >This method should only be called in code that runs while your app is in the background.
 
    * Esta é a sintaxe para este método:
 
@@ -517,7 +517,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
       var mcid = ADBMobile.GetMarketingCloudID();
       ```
 
-* **Visitorsyncidentifiers**
+* **VisitorSyncIdentifiers**
 
    Com a Experience Cloud ID, é possível definir outras IDs do cliente para associar com cada visitante. A API de visitante aceita várias IDs do cliente para o mesmo visitante, juntamente com um identificador de tipo de cliente para separar o escopo de diferentes IDs do cliente. Este método corresponde a setCustomerIDs na biblioteca do JavaScript.
 
