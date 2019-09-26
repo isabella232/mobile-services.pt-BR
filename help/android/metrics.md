@@ -1,12 +1,12 @@
 ---
 description: Estas são as métricas e as dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida, e um link para solucionar problemas de dados do ciclo de vida.
-keywords: android; biblioteca; dispositivos móveis; sdk
+keywords: android;library;mobile;sdk
 seo-description: Estas são as métricas e as dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida, e um link para solucionar problemas de dados do ciclo de vida.
 seo-title: Medições de ciclo de vida
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Medições de ciclo de vida
 topic: Desenvolvedor e implementação
-uuid: a 8 f 3 ebac-be 3 b -4948-82 bb -105 d 46 cfff 6 d
+uuid: a8f3ebac-be3b-4948-82bb-105d46cfff6d
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -15,7 +15,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 # Lifecycle metrics{#lifecycle-metrics}
 
-Esta seção fornece informações sobre as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel, após a implementação do ciclo de vida e um link para solucionar problemas de dados do ciclo de vida. Para obter mais informações sobre como solucionar problemas, vá para [Solucionar problemas de ciclo de vida](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html).
+This section provides information about the metrics and dimensions that can be measured automatically by the mobile library, after lifecycle is implemented, and a link to troubleshoot Lifecycle data. Para obter mais informações sobre solução de problemas, acesse [Solução de problemas de dados](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html)do ciclo de vida.
 
 ## Nova versão do SDK da Adobe Experience Cloud
 
@@ -32,7 +32,7 @@ Procurando informações e documentação relacionadas ao Adobe Experience Platf
 
 Quando configuradas, as medições de ciclo de vida são enviadas em parâmetros de dados de contexto ao Analytics, nos parâmetros para o Target com cada chamada mbox e como um sinal ao gerenciamento de público-alvo. O Analytics e o Target usam o mesmo formato, enquanto que o gerenciamento de público-alvo usa um prefixo diferente para cada métrica.
 
-Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento de ciclo de vida são capturados automaticamente e relatados usando a métrica ou dimensão, e as exceções são anotadas.
+Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento de ciclo de vida são capturados automaticamente e reportados usando a métrica ou dimensão, e as exceções são observadas.
 
 ### Métricas
 
@@ -151,7 +151,7 @@ Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento
 
 * **Versão do sistema operacional**
 
-   A versão do sistema operacional.
+   A versão do SO.
 
    * Parâmetro do Target/Dados de contexto do Analytics: `a.OSVersion`
    * Audience Manager: `c_a_OSVersion`
@@ -236,7 +236,7 @@ As seguintes métricas e dimensões são capturadas nas variáveis da solução 
 
    Populated by `trackLocation` methods.
 
-   * Parâmetros de contexto/dados de contexto do Analytics:
+   * Parâmetros de Destino/Dados de Contexto do Analytics:
 
       * `a.loc.lat.a`
       * `a.loc.lon.a`
@@ -250,7 +250,7 @@ As seguintes métricas e dimensões são capturadas nas variáveis da solução 
 
    Preenchido pelos métodos trackLocation.
 
-   * Parâmetros de contexto/dados de contexto do Analytics:
+   * Parâmetros de Destino/Dados de Contexto do Analytics:
 
       * `a.loc.lat.b`
       * `a.loc.lon.b`
@@ -264,7 +264,7 @@ As seguintes métricas e dimensões são capturadas nas variáveis da solução 
 
    Preenchido pelos métodos trackLocation.
 
-   * Parâmetros de contexto/dados de contexto do Analytics:
+   * Parâmetros de Destino/Dados de Contexto do Analytics:
 
       * `a.loc.lat.c`
       * `a.loc.lon.c`
@@ -321,18 +321,18 @@ As seguintes métricas e dimensões são capturadas nas variáveis da solução 
    Meio de marketing, como banner ou email. Preenchido pela Aquisição do dispositivo móvel.
 
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.medium`
-   * Característica do Audience Manager: `c_a_referrer_campaign_medium`
+   * Audience Manager Trait: `c_a_referrer_campaign_medium`
 
 * **Fonte da campanha**
 
    Referenciador original, como boletins informativos ou uma rede social. Preenchido pela Aquisição do dispositivo móvel.
 
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.source`
-   * Característica do Audience Manager: `c_a_referrer_campaign_source`
+   * Audience Manager Trait: `c_a_referrer_campaign_source`
 
 * **Termo da campanha**
 
    Palavras-chave pagas ou outros termos que você deseja rastrear com essa aquisição. Preenchido pela Aquisição do dispositivo móvel.
 
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.term`
-   * Característica do Audience Manager: `c_a_referrer_campaign_term`
+   * Audience Manager Trait: `c_a_referrer_campaign_term`
