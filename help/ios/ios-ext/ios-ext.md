@@ -2,10 +2,10 @@
 description: A extensão iOS ajuda a coletar dados de uso dos aplicativos do Apple Watch (WatchOS 1), widgets de hoje, widgets de edição de imagens e outros aplicativos iOS de extensão.
 seo-description: A extensão iOS ajuda a coletar dados de uso dos aplicativos do Apple Watch (WatchOS 1), widgets de hoje, widgets de edição de imagens e outros aplicativos iOS de extensão.
 seo-title: Implementação de extensão do iOS
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Implementação de extensão do iOS
 topic: Desenvolvedor e implementação
-uuid: 8 afc 03 fe -403 e -4643-ada 1-30 e 403 ede 238
+uuid: 8afc03fe-403e-4643-ada1-30e403ede238
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -33,7 +33,7 @@ Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Ad
 
 >[!IMPORTANT]
 >
->Recomendamos que você use o SDK do iOS em vez do seu invólucro.
+>Recomendamos que você use o SDK do iOS em vez do invólucro.
 
 A Apple oferece um conjunto de APIs que permitem a comunicação do aplicativo Watch com o aplicativo contentor, enviando as solicitações para o aplicativo contêiner e recebendo as respostas. Embora você possa enviar dados de rastreamento como um dicionário do aplicativo Watch para o aplicativo que contém a API e depois chamar qualquer método de rastreamento no aplicativo que contém a API para enviar dados, essa solução possui algumas limitações.
 
@@ -45,7 +45,7 @@ Mesmo que esses três métodos de rastreamento atendam aos seus requisitos, use 
 
 >[!IMPORTANT]
 >
->Certifique-se de ter um projeto com pelo menos as seguintes metas:
+>Ensure that you have a project with at least the following targets:
 >
 >* Um destino para conter o aplicativo.
 >* Um destino para a extensão.
@@ -53,9 +53,9 @@ Mesmo que esses três métodos de rastreamento atendam aos seus requisitos, use 
 
 
 
-Se você estiver trabalhando em um aplicativo WatchKit, você deve ter um terceiro destino. Para obter mais informações sobre o desenvolvimento para o Apple Watch, consulte [Desenvolvimento para Apple Watch](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1).
+Se você estiver trabalhando em um aplicativo WatchKit, você deve ter um terceiro destino. For more information on developing for Apple Watch, see Developing for Apple Watch.[](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1)
 
-## Configurar o aplicativo contêiner {#section_0BAB0842E4C04A62B5E03DFC4BA77851}
+## Configure the containing app {#section_0BAB0842E4C04A62B5E03DFC4BA77851}
 
 Conclua as seguintes etapas no projeto Xcode:
 
