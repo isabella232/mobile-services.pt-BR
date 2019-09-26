@@ -2,10 +2,10 @@
 description: O SDK 4.x da loja de aplicativos universal do Windows 8.1 para as soluções da Experience Cloud permite analisar aplicativos nativos do Windows 8.1 e do Windows Phone 8.1, fornecer conteúdo direcionado no aplicativo e aproveitar e coletar dados do público-alvo por meio do Audience Manager.
 seo-description: O SDK 4.x da loja de aplicativos universal do Windows 8.1 para as soluções da Experience Cloud permite analisar aplicativos nativos do Windows 8.1 e do Windows Phone 8.1, fornecer conteúdo direcionado no aplicativo e aproveitar e coletar dados do público-alvo por meio do Audience Manager.
 seo-title: SDK 4.x da loja de aplicativos universal do Windows 8.1 para as soluções da Experience Cloud
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: SDK 4.x da loja de aplicativos universal do Windows 8.1 para as soluções da Experience Cloud
 topic: Desenvolvedor e implementação
-uuid: a 06 d 8 cf 2-5 d 2 d -49 a 8-86 ac -102 e 2934 ea 59
+uuid: a06d8cf2-5d2d-49a8-86ac-102e2934ea59
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -14,7 +14,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 # SDK 4.x da loja de aplicativos universal do Windows 8.1 para as soluções da Experience Cloud{#windows-universal-app-store-sdk-x-for-experience-cloud-solutions}
 
-O SDK 4. x da loja de aplicativos universal do Windows 8.1 para Soluções da Experience Cloud permite avaliar aplicativos nativos do Windows 8.1 e do Windows Phone 8.1, fornecer conteúdo direcionado no aplicativo e aproveitar e coletar dados do público por meio do Audience Manager.
+O SDK 4.x da loja de aplicativos universal do Windows 8.1 para as soluções da Experience Cloud permite avaliar aplicativos nativos do Windows 8.1 e do Windows Phone 8.1, fornecer conteúdo direcionado no aplicativo e aproveitar e coletar dados de público-alvo por meio do Audience Manager.
 
 **Última atualização: 21 de agosto de 2015**
 
@@ -32,7 +32,7 @@ Visual Studio 2013 ou posteriores.
 
 ## Adobe Mobile Services {#section_7583FD5FDED143619048E9744A3F2D21}
 
-O Adobe Mobile Services apresenta uma nova interface do usuário que reúne recursos de marketing para aplicativos para dispositivos móveis em toda a Adobe Experience Cloud. Inicialmente, o serviço Mobile fornece integração perfeita de análises de aplicativos e recursos de definição de metas do Adobe Analytics e do Adobe Target.
+O Adobe Mobile Services apresenta uma nova interface do usuário que reúne recursos de marketing para aplicativos para dispositivos móveis em toda a Adobe Experience Cloud. Inicialmente, o Mobile Service fornece integração perfeita entre os recursos de análise e segmentação de aplicativos do Adobe Analytics e do Adobe Target.
 
 Saiba mais pela [documentação do Adobe Mobile Services](/help/using/home.md).
 
