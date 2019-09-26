@@ -3,10 +3,10 @@ description: Você pode configurar as opções do Analytics do SDK na página Ge
 keywords: mobile
 seo-description: Você pode configurar as opções do Analytics do SDK na página Gerenciar configurações do aplicativo, enquanto cria um novo aplicativo ou edita um aplicativo existente.
 seo-title: Configuração de opções de SDK do Analytics
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Configuração de opções de SDK do Analytics
 topic: Métricas
-uuid: fd 3 a 21 d 2-6560-4 e 96-92 fe-b 99 caac 5 e 834
+uuid: fd3a21d2-6560-4e96-92fe-b99caac5e834
 translation-type: tm+mt
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
@@ -25,7 +25,7 @@ Type information in the following fields under **[!UICONTROL SDK Analytics Optio
 
 * **[!UICONTROL Colocar data retroativa em hits da sessão]**
 
-   Ative ou desative a capacidade do Adobe SDK de colocar data retroativa em ocorrências de informações da sessão. Atualmente, as ocorrências de informação da sessão são os travamentos e a duração da sessão. Quando ativado, o Adobe SDK colocará data retroativa em informações da sessão para 1 segundo após o último hit da sessão anterior. Isso significa que os dados dos travamentos e da sessão estarão relacionados à data exata em que ocorreram. Uma ocorrência receberá data retroativa em cada nova inicialização do aplicativo. Quando desativado, o Adobe SDK anexará as informações da sessão ao ciclo de vida atual.
+   Ative ou desative a capacidade do Adobe SDK de pré-datar as ocorrências de informações da sessão. Atualmente, as ocorrências de informação da sessão são os travamentos e a duração da sessão. Quando ativado, o Adobe SDK colocará data retroativa em informações da sessão para 1 segundo após o último hit da sessão anterior. Isso significa que os dados dos travamentos e da sessão estarão relacionados à data exata em que ocorreram. Uma ocorrência receberá data retroativa em cada nova inicialização do aplicativo. Quando desativado, o Adobe SDK anexará as informações da sessão ao ciclo de vida atual.
 
 * **[!UICONTROL Privacidade]**
 
