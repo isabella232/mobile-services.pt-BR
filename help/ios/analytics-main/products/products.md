@@ -2,10 +2,10 @@
 description: A variável products não pode ser configurada usando as regras de processamento. No SDK 4.x para iOS, é necessário usar uma sintaxe especial no parâmetro de dados de contexto para definir products diretamente na chamada do servidor.
 seo-description: A variável products não pode ser configurada usando as regras de processamento. No SDK 4.x para iOS, é necessário usar uma sintaxe especial no parâmetro de dados de contexto para definir products diretamente na chamada do servidor.
 seo-title: Variável products
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Variável products
 topic: Desenvolvedor e implementação
-uuid: 6 ece 4 d 27-ef 86-435 c-a 6 f 7-bd 76 be 1 c 95 ca
+uuid: 6ece4d27-ef86-435c-a6f7-bd76be1c95ca
 translation-type: tm+mt
 source-git-commit: 7aff336586058302046a728a0b1b0ce12660c1ba
 
