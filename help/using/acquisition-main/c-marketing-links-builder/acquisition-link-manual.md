@@ -1,12 +1,12 @@
 ---
-description: Você pode criar Links de publicidade para adquirir novos usuários de aplicativos móveis dinamicamente configurando os parâmetros de URL manualmente.
+description: You can create Marketing Links to acquire new mobile app users on-the-fly by manually configuring the URL parameters.
 keywords: mobile
-seo-description: Você pode criar Links de publicidade para adquirir novos usuários de aplicativos móveis dinamicamente configurando os parâmetros de URL manualmente.
+seo-description: You can create Marketing Links to acquire new mobile app users on-the-fly by manually configuring the URL parameters.
 seo-title: Criar links de aquisição manualmente
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Criar links de aquisição manualmente
 topic: Métricas
-uuid: d 7709203-f 793-4982-adaa -9 c 3 c 914 aca 2 b
+uuid: d7709203-f793-4982-adaa-9c3c914aca2b
 translation-type: tm+mt
 source-git-commit: 54e3b2d673356a616987537d20758bef8b044db4
 
@@ -15,13 +15,13 @@ source-git-commit: 54e3b2d673356a616987537d20758bef8b044db4
 
 # Criar links de aquisição manualmente {#create-acquisition-link-manually}
 
-Você pode criar Links de publicidade para adquirir novos usuários de aplicativos móveis dinamicamente configurando os parâmetros de URL manualmente.
+Você pode criar Marketing Links para adquirir novos usuários de aplicativos móveis dinamicamente, configurando manualmente os parâmetros de URL.
 
 >[!IMPORTANT]
 >
->Esse recurso exige a versão 4.6 ou posterior do SDK. Para obter mais informações, consulte [Pré-requisitos de aquisição](/help/using/acquisition-main/c-acquisition-prerequisites.md).
+>Este recurso exige a versão 4.6 ou posterior do SDK. Para obter mais informações, consulte Pré-requisitos [de aquisição](/help/using/acquisition-main/c-acquisition-prerequisites.md).
 
-O diagrama a seguir mostra os componentes de um link de rastreamento criado manualmente e exibe os diferentes parâmetros de URL que você deve configurar corretamente ao criar manualmente links de aquisição.
+O diagrama a seguir ilustra os componentes de um link de rastreamento criado manualmente e exibe os diferentes parâmetros de URL que você deve configurar corretamente ao criar links de aquisição manualmente.
 
 ![](assets/acquisition_url.png)
 
@@ -33,7 +33,7 @@ Para criar links manualmente, use o seguinte formato de URL:
 
 >[!TIP]
 >
->A versão do SDK do Android que você está usando não afeta esse processo.
+>A versão do Android SDK que você está usando não tem impacto neste processo.
 
 Para o iOS, assegure-se de usar o protocolo correto:
 
@@ -42,7 +42,7 @@ Para o iOS, assegure-se de usar o protocolo correto:
 
 Quando as seguintes condições são cumpridas:
 
-* `{mobile-services-app-hash}` corresponde ao identificador de aplicativo no `acquisition:appid ` arquivo de configuração.
+* `{mobile-services-app-hash}` corresponde ao identificador do aplicativo no arquivo de configuração `acquisition:appid ` .
 
    You can locate `{mobile-services-app-hash}` in the Manage App Settings page under Acquisition SDK Options in the Tracking ID field.
 
@@ -100,7 +100,7 @@ Esta é a lista de parâmetros:
 
    Este parâmetro será necessário se quiser comparar o desempenho de diferentes links de aquisição.
 
-   * Valor da amostra: Conferência da cimeira 2015
+   * Valor da amostra: Conferência da Cimeira de 2015
 
 * **`ctxa.referrer.campaign.trackingcode`**
 
@@ -114,7 +114,7 @@ Esta é a lista de parâmetros:
 
    A fonte.
 
-   * Valor da amostra: Rede de Publicidade
+   * Valor da amostra:Rede de publicidade
 
 * **`ctxa.referrer.campaign.medium`**
 
@@ -126,19 +126,19 @@ Esta é a lista de parâmetros:
 
    Conteúdo
 
-   * Valor da amostra: Imagem n º 325689
+   * Valor da amostra: Imagem nº 325689
 
 * **`ctxa.referrer.campaign.term`**
 
    Termo
 
-   * Valor da amostra: hiking + boots
+   * Valor da amostra: hiking+boots
 
 
-Ao criar manualmente links de aquisição, lembre-se das seguintes informações:
+Ao criar links de aquisição manualmente, lembre-se das seguintes informações:
 
 * Todos os parâmetros que não correspondem aos parâmetros na tabela são transmitidos como parte do redirecionamento da app store.
-* Tecnicamente, todos os parâmetros são opcionais, mas o link não funcionará se uma ID de loja for especificada.
+* Tecnicamente, todos os parâmetros são opcionais, embora o link não funcione, se pelo menos uma ID de loja for especificada.
 
    An example of a store ID is `a_g_id`/ `a_i_id`.
 
