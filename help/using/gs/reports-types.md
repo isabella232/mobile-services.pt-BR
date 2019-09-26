@@ -3,10 +3,10 @@ description: Ao personalizar relatórios, é possível que a ampla flexibilidade
 keywords: dispositivos móveis
 seo-description: Ao personalizar relatórios, é possível que a ampla flexibilidade faça com que surjam algumas dúvidas em relação ao tipo de relatório que é mais adequado para obter os dados de que você necessita.
 seo-title: Tipos de relatórios
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Tipos de relatórios
 topic: Relatórios, Métricas
-uuid: 8747 b 11 e -31 b 1-47 bc-ad 55-db 5 ab 4 ef 7078
+uuid: 8747b11e-31b1-47bc-ad55-db5ab4ef7078
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -21,11 +21,11 @@ Antes de personalizar os relatórios, você deve entender a diferença entre uma
 
 * Métrica
 
-   Uma métrica é usada para medir seus dados. As métricas são valores que podem ser contados e adicionados e são usadas para ver a frequência com que ações específicas ocorrem no aplicativo. Métricas comuns incluem instalações, inicializações, rendimento, valor de duração e logons. Por exemplo, cada vez que o seu aplicativo é inicializado, o valor das _ launches_ value aumenta em um.
+   Uma métrica é usada para medir seus dados. As métricas são valores que podem ser contados e adicionados e são usadas para ver a frequência com que ações específicas ocorrem no aplicativo. Métricas comuns incluem instalações, inicializações, rendimento, valor de duração e logons. Por exemplo, cada vez que o seu aplicativo é inicializado, o valor das _launches_value is increased by one.
 
 * Dimensão
 
-   Uma dimensão é usada para descrever seus dados. As dimensões são representadas usando uma sequência de caracteres ou um número que atue como uma sequência de caracteres (como um código postal, e é usado para organizar e segmentar seus dados. Exemplos de dimensões comuns incluem a versão do sistema operacional, o nome da campanha, o nome do produto e a operadora de celular. Cada dimensão tem uma série de valores específicos que estão associadas a essa dimensão. For example, the OS version dimension has values such as _iOS 7_ and _Android 4.1.2_.
+   Uma dimensão é usada para descrever seus dados. As dimensões são representadas usando uma sequência de caracteres ou um número que age como uma sequência de caracteres (como um código postal, e é usado para organizar e segmentar seus dados. Exemplos de dimensões comuns incluem a versão do sistema operacional, o nome da campanha, o nome do produto e a operadora de celular. Cada dimensão tem uma série de valores específicos que estão associadas a essa dimensão. For example, the OS version dimension has values such as _iOS 7_ and _Android 4.1.2_.
 
 Estes são os tipos de relatórios que você pode gerar na interface do usuário móvel:
 
