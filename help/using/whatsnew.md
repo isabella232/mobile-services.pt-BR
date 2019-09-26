@@ -1,12 +1,12 @@
 ---
 description: Novas informações sobre o lançamento para os serviços Adobe Mobile Services.
-keywords: dispositivos móveis; notas de versão; novidades
+keywords: mobile;notas de versão;novidades
 seo-description: Novas informações sobre o lançamento para os serviços Adobe Mobile Services.
 seo-title: Notas de versão do Adobe Mobile Services
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Notas de versão
 topic: Métricas
-uuid: 522 b 0589-d 61 f -4 a 9 f -952 e-ba 7 ce 11 af 2 f 9
+uuid: 522b0589-d61f-4a9f-952e-ba7ce11af2f9
 translation-type: tm+mt
 source-git-commit: 4b5be6c51c716114e597a80d475f838e23abb1b1
 
