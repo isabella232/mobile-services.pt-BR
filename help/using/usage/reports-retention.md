@@ -2,18 +2,18 @@
 description: O relatório Retenção (antigo Coorte da primeira inicialização) é um relatório de coorte que mostra quantos usuários únicos inicializaram o aplicativo pela primeira vez e, então, inicializaram-no novamente pelo menos uma vez durante os meses seguintes.
 keywords: mobile
 seo-description: O relatório Retenção (antigo Coorte da primeira inicialização) é um relatório de coorte que mostra quantos usuários únicos inicializaram o aplicativo pela primeira vez e, então, inicializaram-no novamente pelo menos uma vez durante os meses seguintes.
-seo-title: Relatório de retenção
-solution: Marketing Cloud, Analytics
-title: Relatório de retenção
+seo-title: Retention report
+solution: Marketing Cloud,Analytics
+title: Retention report
 topic: Relatórios, Métricas
-uuid: e 7639 e 7 f-c 9 ed -4 b 19-9 ac 5-b 36774 ea 9 dd 6
+uuid: e7639e7f-c9ed-4b19-9ac5-b36774ea9dd6
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 ---
 
 
-# Relatório de retenção {#retention}
+# Retention report {#retention}
 
 O relatório **[!UICONTROL Retenção](antigo Coorte da primeira inicialização) é um relatório de coorte que mostra quantos usuários únicos inicializaram o aplicativo pela primeira vez e, então, inicializaram-no novamente pelo menos uma vez durante os meses seguintes.**
 
