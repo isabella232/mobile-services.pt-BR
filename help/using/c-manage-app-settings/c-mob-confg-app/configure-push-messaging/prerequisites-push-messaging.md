@@ -3,10 +3,10 @@ description: Você deve concluir essas tarefas antes de configurar Mensagens de 
 keywords: mobile
 seo-description: Você deve concluir essas tarefas antes de configurar Mensagens de push nos aplicativos.
 seo-title: Pré-requisitos para ativar as mensagens de push
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Pré-requisitos para ativar as mensagens de push
 topic: Métricas
-uuid: 194 e 6 e 07-b 794-4152-a 838-a 4125 c 3292 d 4
+uuid: 194e6e07-b794-4152-a838-a4125c3292d4
 translation-type: tm+mt
 source-git-commit: 92b1e430293fbded666e8af3f01393898c0e5811
 
@@ -17,9 +17,9 @@ source-git-commit: 92b1e430293fbded666e8af3f01393898c0e5811
 
 Você deve concluir essas tarefas antes de configurar as mensagens de push em seus aplicativos.
 
-## Habilitar a Experience Cloud para sua empresa
+## Ativar a Experience Cloud para sua empresa
 
-Sua empresa do Adobe Analytics deve ter a Experience Cloud habilitada. Você pode verificar o status executivo da sua conta da Adobe.
+Sua empresa do Adobe Analytics deve ter a Experience Cloud habilitada. Você pode verificar o status do executivo de sua conta da Adobe.
 
 ## Instalar e configurar o SDK móvel
 
@@ -39,7 +39,7 @@ Para obter mais informações, consulte o seguinte conteúdo:
 
 >[!IMPORTANT]
 >
->Para usar a funcionalidade Serviços de push, os usuários devem fazer logon no Mobile Core Service usando a Adobe ID e suas contas do Analytics devem estar vinculadas às Adobe IDs deles. A funcionalidade serviços de push não será disponibilizada se os usuários fizerem logon usando suas contas existentes do Adobe Analytics.
+>Para usar a funcionalidade Serviços de push, os usuários devem fazer logon no Mobile Core Service usando sua Adobe ID e sua conta do Analytics deve estar vinculada às Adobe IDs deles. A funcionalidade serviços de push não será disponibilizada se os usuários fizerem logon usando suas contas existentes do Adobe Analytics.
 
 Se os usuários não tiverem Adobe IDs, siga as seguintes etapas:
 
@@ -67,11 +67,11 @@ Cada usuário deve vincular a conta da solução do Analytics a partir da organi
 
 Para obter mais informações, consulte [Resolução de problemas na vinculação da conta](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
-## Configurar serviços de push e o serviço de ID do SDK na interface do usuário do Mobile
+## Configurar serviços de push e o serviço de ID do SDK na interface do usuário móvel
 
-Antes de habilitar o Serviço de ID para o aplicativo, a seção **[!UICONTROL Serviços de push]é desabilitada.** Mas, após ativar o serviço de ID, a seção Serviços de push é ativada. Para obter mais informações sobre como ativar os serviços de push, consulte [Configurar opções de serviço de ID do SDK](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md).
+Antes de habilitar o Serviço de ID para o aplicativo, a seção **[!UICONTROL Serviços de push]é desabilitada.** But, after you enable the ID service, the Push Services section is enabled. Para obter mais informações sobre como ativar serviços de push, consulte [Configurar opções](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md)do serviço de ID do SDK.
 
->[!IMPORTANT]: Você deve clicar **[!UICONTROL em Salvar]** para salvar as alterações e atualizar os Serviços de push.
+>[!IMPORTANT]: Você deve clicar em **[!UICONTROL Salvar]** para salvar as alterações e atualizar os Serviços de push.
 >
 >É possível configurar um aplicativo da app store para a Apple e um para o Google em cada conjunto de relatórios. Se precisar de aplicativos adicionais, por exemplo, um para um ambiente de produção e outro para um ambiente de desenvolvimento, defina um novo aplicativo na app store e um novo conjunto de relatórios para cada ambiente.
 
@@ -91,4 +91,4 @@ Antes de habilitar o Serviço de ID para o aplicativo, a seção **[!UICONTROL S
 
    Digite os tokens de push do dispositivo que você deseja enviar a mensagem. Você pode enviar a mensagem para vários dispositivos especificando tokens em uma lista separada por vírgula.
 
-   ![mensagem de push de push](assets/push_test_list.png)
+   ![push test message](assets/push_test_list.png)
