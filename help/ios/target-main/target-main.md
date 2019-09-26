@@ -2,10 +2,10 @@
 description: Estas informações ajudam a fornecer conteúdo direcionado nos aplicativos iOS.
 seo-description: Estas informações ajudam a fornecer conteúdo direcionado nos aplicativos iOS.
 seo-title: Target
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Target
 topic: Desenvolvedor e implementação
-uuid: c 2 b 134 bb -1 c 29-4617-bd 9 e-fa 3940483361
+uuid: c2b134bb-1c29-4617-bd9e-fa3940483361
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -14,7 +14,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 # Target{#target}
 
-As informações nesta seção ajudam a fornecer conteúdo direcionado nos aplicativos iOS.
+As informações nesta seção ajudam a fornecer conteúdo direcionado em aplicativos iOS.
 
 ## Nova versão do SDK da Adobe Experience Cloud
 
