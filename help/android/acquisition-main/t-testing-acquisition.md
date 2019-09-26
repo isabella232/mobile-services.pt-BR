@@ -1,12 +1,12 @@
 ---
 description: Estas informações ajudam a fazer uma viagem de ida e volta no link da campanha de aquisição herdada em um dispositivo Android.
-keywords: android; biblioteca; dispositivos móveis; sdk
+keywords: android;biblioteca;móvel;sdk
 seo-description: Estas informações ajudam a fazer uma viagem de ida e volta no link da campanha de aquisição herdada em um dispositivo Android.
 seo-title: Teste da aquisição de legado
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Teste da aquisição de legado
 topic: Desenvolvedor e implementação
-uuid: bb 7 ace 96-68 eb -4 f 43-b 3 cf-af 80730 b 9 cee
+uuid: bb7ace96-68eb-4f43-b3cf-af80730b9cee
 translation-type: tm+mt
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
