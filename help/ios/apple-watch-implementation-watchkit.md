@@ -7,7 +7,7 @@ title: Implementação do Apple Watch com o WatchOS 2
 topic: Desenvolvedor e implementação
 uuid: 9498467e-db5e-411e-a00e-d19841f485de
 translation-type: tm+mt
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
 
 ---
 
@@ -18,13 +18,22 @@ A partir do WatchOS 2, suas extensões WatchKit podem ser executadas em um Apple
 
 >[!TIP]
 >
->Começando com `AdobeMobileLibrary` v4.6.0, `WatchConnectivity` há suporte.
+>Starting with `AdobeMobileLibrary` v4.6.0, `WatchConnectivity` is supported.
+
+## New Adobe Experience Platform Mobile SDK Release
+
+Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para acessar a documentação mais recente.
+
+Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+
+* Para começar, acesse o Adobe Experience Platform Launch.
+* Para ver o conteúdo dos repositórios do Experience Platform SDK, acesse [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 ## Introdução {#section_70BC28BB69414F169196953D3D264BC1}
 
 >[!IMPORTANT]
 >
->Verifique se você tem um projeto com pelo menos as seguintes metas:
+>Ensure that you have a project with at least the following targets:
 >
 >* O aplicativo contêiner
 >* O aplicativo WatchKit
@@ -73,7 +82,7 @@ Conclua as seguintes etapas no projeto Xcode:
 
 1. In your app delegate, implement the `session:didReceiveMessage:` and `session:didReceiveUserInfo:` methods.
 
-   `syncSettings:` is called in the  library, which returns a bool that indicates whether the dictionary was meant for consumption by the  library. `ADBMobile``ADBMobile` Se retornar `No` (Não), a mensagem não foi iniciada a partir do SDK da Adobe.
+   `syncSettings:` é chamado na `ADBMobile` biblioteca, que retorna uma ferramenta que indica se o dicionário foi destinado ao consumo pela `ADBMobile` biblioteca. Se retornar `No` (Não), a mensagem não foi iniciada a partir do SDK da Adobe.
 
    ```objective-c
    - (void) session:(WCSession *)session didReceiveMessage:(NSDictionary<NSString *,id> *)message { 
