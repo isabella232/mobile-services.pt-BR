@@ -3,10 +3,10 @@ description: O relatório Tecnologia permite ver os diferentes tipos de disposit
 keywords: mobile
 seo-description: O relatório Tecnologia permite ver os diferentes tipos de dispositivos, sistemas operacionais, versões de sistemas operacionais e operadoras de celular nos quais seu aplicativo é usado.
 seo-title: Relatório de tecnologia
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Relatório de tecnologia
 topic: Relatórios, Métricas
-uuid: 4 b 7322 c 4-8920-43 cd-bb 72-5 a 5 bd 515 ae 84
+uuid: 4b7322c4-8920-43cd-bb72-5a5bd515ae84
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -51,7 +51,7 @@ A tabela abaixo descreve os relatórios padrão e como eles são preenchidos no 
 
 >[!TIP]
 >
->No relatório **[!UICONTROL Operadoras]** , os usuários Wi-Fi são relatados como `none`.
+>No relatório **[!UICONTROL Operadoras]** , os usuários de Wi-Fi são reportados como `none`.
 
 
 ## Adição de detalhamentos e métricas {#section_15833511E82648869E7B1EFC24EF7B82}
