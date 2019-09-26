@@ -3,10 +3,10 @@ description: Você pode ver um mapa interativo que mostre seus pontos de interes
 keywords: mobile
 seo-description: Você pode ver um mapa interativo que mostre seus pontos de interesse e outros marcadores de dados.
 seo-title: Mapa
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Mapa
 topic: Métricas
-uuid: 3 c 271738-eb 8 d -4 c 26-baaf -54 b 247 bfc 4 da
+uuid: 3c271738-eb8d-4c26-baaf-54b247bfc4da
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -15,13 +15,13 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 # Mapa {#map}
 
-É possível exibir um mapa interativo que exibe seu POI e outros marcadores de dados.
+Você pode exibir um mapa interativo que exibe seu POI e outros marcadores de dados.
 
 ![](assets/map.png)
 
-Estas são algumas informações importantes a serem lembradas:
+Estas são algumas informações importantes que devem ser lembradas:
 
-* É possível aumentar ou diminuir o tamanho do mapa.
+* You can increase or decrease the size of the map.
 
    Este recurso é útil, por exemplo, se você tiver dois pontos de interesse próximos. Aumente o mapa para visualizar os detalhes.
 * Seus pontos de interesse são exibidos na cor azul.
@@ -34,8 +34,7 @@ Click ![layers](assets/map_layers.png) to select the following options:
 
    Exiba um mapa do site.
 
-* **[!UICONTROL Satélite]**
-Exibe o mapa no modo satélite.
+* **[!UICONTROL Satélite]** Exibe o mapa no modo satélite.
 
 * **[!UICONTROL Marcadores de dados]**
 
@@ -61,7 +60,7 @@ Você pode configurar as seguintes opções no relatório:
 
 * **[!UICONTROL Filtro]**
 
-   Clique em **[!UICONTROL Filtro]para criar um filtro que abrange vários relatórios e observar o desempenho de um segmento específico em todos os relatórios móveis.** Um filtro fixo permite definir um filtro aplicado a todos os relatórios não relacionados à definição de caminho. Para obter mais informações, consulte [Adicionar um filtro fixo](/help/using/usage/reports-customize/t-sticky-filter.md).
+   Clique em **[!UICONTROL Filtro]para criar um filtro que abrange vários relatórios e observar o desempenho de um segmento específico em todos os relatórios móveis.** Um filtro fixo permite definir um filtro aplicado a todos os relatórios não relacionados à definição de caminho. For more information, see Add a sticky filter.[](/help/using/usage/reports-customize/t-sticky-filter.md)
 
 * **[!UICONTROL Baixar]**
 
