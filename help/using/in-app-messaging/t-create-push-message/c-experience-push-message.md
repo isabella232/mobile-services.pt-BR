@@ -3,10 +3,10 @@ description: É possível configurar opções de experiência para mensagens de 
 keywords: mobile
 seo-description: É possível configurar opções de experiência para mensagens de push e mensagens de push avançadas, incluindo as opções de nome, texto da mensagem e destino. Também é possível configurar opções avançadas, incluindo opções de carga e personalizadas para os dispositivos iOS.
 seo-title: Mensagem de push da experiência
-solution: Marketing Cloud, Analytics
-title: Mensagem de push da experiência
+solution: Marketing Cloud,Analytics
+title: Experience  Push Message
 topic: Métricas
-uuid: 1 a 8 baf 3 e -9 fea -452 c-b 0 fc -4 ba 8 ac 270861
+uuid: 1a8baf3e-9fea-452c-b0fc-4ba8ac270861
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -17,9 +17,9 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 É possível configurar opções de experiência para mensagens de push e mensagens de push avançadas, incluindo as opções de nome, texto da mensagem e destino. Também é possível configurar opções avançadas, incluindo opções de carga e personalizadas para os dispositivos iOS.
 
-1. Na página Público-alvo para uma nova mensagem de push, clique **[!UICONTROL em Experiência]**.
+1. On the Audience page for a new push message, click Experience.****
 
-   ![tela de mensagem de push de experiência](assets/experience-push-message.png)
+   ![experience push message screen](assets/experience-push-message.png)
 
 1. Digite um nome para esta mensagem.
 1. Digite as informações nos seguintes campos na seção **[!UICONTROL Mensagem]:**
@@ -30,7 +30,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
    * **[!UICONTROL URL de mídia]**
 
-      Digite o URL do arquivo de mídia que você planeja usar na mensagem de notificação por push. Para saber quais são os requisitos para usar notificações por push avançadas, consulte *Requisitos para notificações por push avançadas* abaixo.
+      Digite o URL do arquivo de mídia que você planeja usar na mensagem de notificação por push. Para obter os requisitos para usar notificações por push avançadas, consulte *Requisitos para notificações* por push avançadas abaixo.
 
       >[!IMPORTANT]
       >
@@ -41,13 +41,13 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
    * **[!UICONTROL Destino]**
 
-      Selecione um destino específico (como um link da Web, deep link ou link híbrido) para enviar os usuários quando eles clicarem na mensagem. Para obter mais informações, consulte [Destinos](/help/using/acquisition-main/c-create-destinations.md).
+      Selecione um destino específico (como um link da Web, deep link ou link híbrido) para enviar os usuários quando eles clicarem na mensagem. For more information, see Destinations.[](/help/using/acquisition-main/c-create-destinations.md)
 
       >[!TIP]
       >
       >When you use the * **[!UICONTROL Web Link]** or **[!UICONTROL Custom Link]** destination types, the destination type is not tracked. Somente os **[!UICONTROL deep links]são rastreados.**
 
-## Requisitos para notificações por push avançadas
+## Requirements for rich push notifications
 
 Estes são os requisitos para enviar notificações por push avançadas:
 
@@ -60,7 +60,7 @@ Estes são os requisitos para enviar notificações por push avançadas:
       >[!IMPORTANT]
       >
       >Lembre-se das seguintes informações:
-      >* Mensagens de push avançadas enviadas para versões anteriores ainda serão enviadas, mas apenas o texto será exibido.
+      >* As mensagens de push avançadas enviadas para versões anteriores ainda serão enviadas, mas somente o texto será exibido.
       >* Ainda não há suporte para Flash no momento.
 
 
@@ -75,12 +75,12 @@ Estes são os requisitos para enviar notificações por push avançadas:
    * Somente HTTPS
 
 * **Dimensionamento**
-   * As imagens devem estar em um formato 2:1 ou serão cortadas.
+   * Images must be in a 2:1 format, or they will be cropped.
 
 Para obter mais informações sobre como configurar notificações por push avançadas, consulte o seguinte conteúdo:
 
 * [Receber notificações por push no Android](/help/android/messaging-main/push-messaging/c-set-up-rich-push-notif-android.md)
-* [Receber notificações por push avançadas no iOS](/help/ios/messaging-main/push-messaging/c-set-up-rich-push-notif-ios.md)
+* [Receive Rich Push Notifications in iOS](/help/ios/messaging-main/push-messaging/c-set-up-rich-push-notif-ios.md)
 
 Para configurar uma mensagem de push na página Experiência:
 
@@ -104,25 +104,25 @@ Para configurar uma mensagem de push na página Experiência:
 
 1. (Opcional) Visualize o layout de sua mensagem clicando nos ícones a seguir:
 
-   * **[! UICONTROL X Resumo}**
+   * **[!UICONTROL x Summary}**
 
-      Oculta o painel de visualização. Clique ![em visualização](assets/icon_preview.png) para exibir o painel de visualização novamente.
+      Oculta o painel de visualização. Clique em ![visualizar](assets/icon_preview.png) para exibir o painel de visualização novamente.
 
-   * **[!UICONTROL Alterar a orientação]**
+   * **[!UICONTROL Change the orientation]**
 
       To change the orientation of the preview from portrait to landscape mode, click ![orientation](assets/icon_orientation.png). Nos relógios, a orientação muda o mostrador do relógio de redondo para quadrado.
 
    * **[!UICONTROL Visualizar no relógio de um usuário]**
 
-      Para visualizar sua mensagem como será exibida nos relógios de um usuário, clique no ícone ![de assistir](assets/icon_watch.png).
+      Para visualizar sua mensagem como ela aparecerá nos relógios de um usuário, clique no ícone ![de](assets/icon_watch.png)observação.
 
-   * **[!UICONTROL Visualização no telefone de um usuário]**
+   * **[!UICONTROL Visualizar no celular de um usuário]**
 
-      Para visualizar sua mensagem como será exibida nos telefones celulares dos usuários, clique no ícone ![de telefone](assets/icon_phone.png).
+      Para visualizar sua mensagem como ela aparecerá nos celulares dos usuários, clique no ícone ![](assets/icon_phone.png)de telefone.
 
-   * **[!UICONTROL Visualização no tablet de um usuário]**
+   * **[!UICONTROL Visualizar no tablet de um usuário]**
 
-      Para visualizar a mensagem no tablet de um usuário, clique ![em ícone de tablet](assets/icon_tablet.png).
+      Para visualizar sua mensagem no tablet de um usuário, clique no ícone ![do](assets/icon_tablet.png)tablet.
    Na parte inferior do painel de visualização, você pode ver uma descrição do público-alvo selecionado na etapa anterior.
 
 1. (**Optional**) Click **[!UICONTROL Test]** to push your message to specified devices for testing purposes.
@@ -132,4 +132,4 @@ Para configurar uma mensagem de push na página Experiência:
 
 1. Configurar as opções de agendamento da mensagem.
 
-   Para obter mais informações, consulte [Agendamento: mensagem de push](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md).
+   Para obter mais informações, consulte [Agendamento: mensagem](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md)de push.
