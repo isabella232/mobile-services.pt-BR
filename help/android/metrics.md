@@ -8,31 +8,29 @@ title: Medições de ciclo de vida
 topic: Desenvolvedor e implementação
 uuid: a8f3ebac-be3b-4948-82bb-105d46cfff6d
 translation-type: tm+mt
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
 
 ---
 
 
 # Lifecycle metrics{#lifecycle-metrics}
 
-This section provides information about the metrics and dimensions that can be measured automatically by the mobile library, after lifecycle is implemented, and a link to troubleshoot Lifecycle data. Para obter mais informações sobre solução de problemas, acesse [Solução de problemas de dados](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html)do ciclo de vida.
+Esta seção fornece informações sobre as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel, após a implementação do ciclo de vida, e um link para solucionar problemas de dados do ciclo de vida. Para obter mais informações sobre solução de problemas, acesse [Solução de problemas de dados](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html)do ciclo de vida.
 
-## Nova versão do SDK da Adobe Experience Cloud
+## Nova versão do Adobe Experience Platform Mobile SDK
 
 Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para acessar a documentação mais recente.
 
->[!IMPORTANT]
->
->Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
 
-* Para começar, acesse o [Launch](https://launch.adobe.com/).
+* Para começar, acesse o Adobe Experience Platform Launch.
 * Para ver o conteúdo dos repositórios do Experience Platform SDK, acesse [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 ## Lifecycle metrics and dimensions {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
 Quando configuradas, as medições de ciclo de vida são enviadas em parâmetros de dados de contexto ao Analytics, nos parâmetros para o Target com cada chamada mbox e como um sinal ao gerenciamento de público-alvo. O Analytics e o Target usam o mesmo formato, enquanto que o gerenciamento de público-alvo usa um prefixo diferente para cada métrica.
 
-Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento de ciclo de vida são capturados automaticamente e reportados usando a métrica ou dimensão, e as exceções são observadas.
+For Analytics, the context data that is sent with each lifecycle tracking call is automatically captured in and reported on by using the metric or dimension, and the exceptions are noted.
 
 ### Métricas
 
@@ -67,7 +65,7 @@ Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento
 
    >[!IMPORTANT]
    >
-   >Essa métrica não é armazenada automaticamente em uma métrica do Analytics. Você deve criar uma regra de processamento que defina um evento personalizado para capturar essa métrica.
+   >This metric is not automatically stored in an Analytics metric. Você deve criar uma regra de processamento que defina um evento personalizado para capturar essa métrica.
 
    * Parâmetro do Target/Dados de contexto do Analytics: `a.MonthlyEngUserEvent`
    * Audience Manager Signal: `c_a_MonthlyEngUserEvent`
@@ -286,35 +284,35 @@ As seguintes métricas e dimensões são capturadas nas variáveis da solução 
    Preenchido pelos métodos trackLocation quando o dispositivo está dentro de um POI definido.
 
    * Analytics Context Data/Target Parameters: `a.loc.dist`
-   * Característica do Audience Manager: `c_a_loc_dist`
+   * Audience Manager Trait: `c_a_loc_dist`
 
 * **Valor de tempo de vida (variável de conversão)**
 
    Preenchido pelos métodos trackLifetimeValue.
 
    * Analytics Context Data/Target Parameters: `a.ltv.amount`
-   * Característica do Audience Manager: `c_a_ltv_amount`
+   * Audience Manager Trait: `c_a_ltv_amount`
 
 * **Código de acompanhamento**
 
    Preenchida pela Aquisição de aplicativos móveis e gerado automaticamente pelo Adobe Mobile Services.
 
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.trackingcode`
-   * Característica do Audience Manager: `c_a_referrer_campaign_trackingcode`
+   * Audience Manager Trait: `c_a_referrer_campaign_trackingcode`
 
-* ** Campanha
+* ** Campaign
 
    Nome da campanha, também armazenado na variável da campanha. Preenchido pela Aquisição do dispositivo móvel.
 
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.name`
-   * Característica do Audience Manager: `c_a_referrer_campaign_name`
+   * Audience Manager Trait: `c_a_referrer_campaign_name`
 
 * **Conteúdo da campanha**
 
    O nome ou ID do conteúdo que exibiu o link. Preenchido pela Aquisição do dispositivo móvel.
 
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.content`
-   * Característica do Audience Manager: `c_a_referrer_campaign_content`
+   * Audience Manager Trait: `c_a_referrer_campaign_content`
 
 * **Meio da campanha**
 
