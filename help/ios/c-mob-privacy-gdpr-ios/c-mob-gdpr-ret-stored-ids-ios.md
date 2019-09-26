@@ -3,7 +3,7 @@ description: Essas informações o ajudam a recuperar identidades de SDK da Expe
 seo-description: Essas informações o ajudam a recuperar identidades de SDK da Experience Cloud armazenadas localmente do aplicativo iOS e com solicitações de acesso a dados do GDPR.
 seo-title: Recuperar identificadores armazenados
 title: Recuperar identificadores armazenados
-uuid: 4 fb 2 c 166-6700-4 f 8 b-b 60 b -137 b 199 e 0509
+uuid: 4fb2c166-6700-4f8b-b60b-137b199e0509
 translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
@@ -18,7 +18,7 @@ Para obter mais informações sobre o GDPR, consulte [GDPR e seus negócios](htt
 
 >[!IMPORTANT]
 >
->`getAllIdentifiersAsync` O método recupera identidades armazenadas nos sdks da Experience Cloud. Você deve chamar esse método **antes** que usuário saia.
+>The `getAllIdentifiersAsync` method retrieves identities that are stored in the Experience Cloud SDKs. Você deve chamar esse método **antes** que usuário saia.
 
 As identidades de SDK da Experience Cloud (se for o caso) são armazenadas localmente e retornam em um arquivo JSON, que pode conter:
 
