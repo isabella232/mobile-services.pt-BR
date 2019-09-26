@@ -2,10 +2,10 @@
 description: Não é possível definir a variável products usando as regras de processamento. No SDK para dispositivos móveis, deve-se usar uma sintaxe especial no parâmetro de dados de contexto para definir products diretamente na chamada do servidor.
 seo-description: Não é possível definir a variável products usando as regras de processamento. No SDK para dispositivos móveis, deve-se usar uma sintaxe especial no parâmetro de dados de contexto para definir products diretamente na chamada do servidor.
 seo-title: Variável products
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Variável products
 topic: Desenvolvedor e implementação
-uuid: 607983 d 6-48 ac -4274-bfc 8-b 1 ca 4 e 5 dad 1 b
+uuid: 607983d6-48ac-4274-bfc8-b1ca4e5dad1b
 translation-type: tm+mt
 source-git-commit: 7aff336586058302046a728a0b1b0ce12660c1ba
 
@@ -46,7 +46,7 @@ The *`products`* is set directly on the image request, and the other variables a
 
 ![](assets/products-procrules.png)
 
-Não é necessário mapear a *`products`* variável usando as regras de processamento, pois ela é definida diretamente na solicitação de imagem pelo SDK.
+Não é necessário mapear a *`products`* variável usando regras de processamento, pois ela é definida diretamente na solicitação de imagem pelo SDK.
 
 ## Products variable with merchandising eVars and product-specific events {#section_685D53AD3D064F9A8E225F995A9BA545}
 
@@ -73,5 +73,5 @@ ADB.Analytics.trackState("Order Confirmation", cdata);
 
 >[!TIP]
 >
->Se você acionar um evento específico do produto usando *`&&products`* a variável, também deverá definir esse evento na *`&&events`* variável, caso contrário, o evento será filtrado durante o processamento.
+>Se você acionar um evento específico do produto usando a *`&&products`* variável, também deverá definir esse evento na *`&&events`* variável, caso contrário, o evento será filtrado durante o processamento.
 
