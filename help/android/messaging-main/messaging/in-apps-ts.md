@@ -2,11 +2,11 @@
 description: Estas informações ajudam a solucionar problemas de mensagem de push no aplicativo.
 keywords: mobile
 seo-description: Estas informações ajudam a solucionar problemas de mensagem de push no aplicativo.
-seo-title: Solução de problemas de mensagens no aplicativo
-solution: Marketing Cloud, Analytics
-title: Solução de problemas de mensagens no aplicativo
+seo-title: Troubleshoot In-App Messaging
+solution: Marketing Cloud,Analytics
+title: Troubleshoot In-App Messaging
 topic: Métricas
-uuid: 39 c 3 a 21 d -92 c 2-4004-b 00 f -99 b 6 f 91 d 3696
+uuid: 39c3a21d-92c2-4004-b00f-99b6f91d3696
 translation-type: tm+mt
 source-git-commit: 12e01e112debffd877dd62f1fd2505724b2aae7d
 
@@ -35,11 +35,11 @@ Certifique-se de que o destinatário de transmissão de notificação local este
 
 Para verificar se a mensagem é em tempo real, na página Gerenciar mensagens no aplicativo, na coluna **Status**, verifique a lista de mensagens.
 
-## Observe *mostrar uma vez*, *mostrar sempre*, *mostrar* configurações offline na guia Público-alvo.
+## Look at show once, show always, show offline  settings on the Audience tab.******
 
 Verifique se essas configurações estão definidas do modo como você deseja. Na guia **[!UICONTROL Público-alvo]**, revise as opções do **Acionar], que permitem especificar a frequência de exibição da mensagem.[!UICONTROL **
 
-## Se estiver usando um evento de inicialização como acionador…
+## If using a launch event as the trigger...
 
 O acionador só será ativado em uma nova sessão. Para obter mais informações sobre o início de uma sessão, consulte a linha `lifecycleTimeout` na [Configuração JSON](/help/android/configuration/json-config/json-config.md).
 
