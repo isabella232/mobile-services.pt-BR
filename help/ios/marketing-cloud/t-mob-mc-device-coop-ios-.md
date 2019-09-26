@@ -3,7 +3,7 @@ description: Para começar a usar o Device Co-op da Experience Cloud, entre em c
 seo-description: Para começar a usar o Device Co-op da Experience Cloud, entre em contato com seu representante da Adobe.
 seo-title: Device Co-op da Experience Cloud
 title: Device Co-op da Experience Cloud
-uuid: 434 a 6 f 8 f-ec 24-439 d -95 f 0-a 246 b 384 b 3 b 5
+uuid: 434a6f8f-ec24-439d-95f0-a246b384b3b5
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -18,21 +18,21 @@ Para habilitar os aplicativos móveis no Device Co-op da Experience Cloud, compl
 
 >[!IMPORTANT]
 >
->Essa funcionalidade exige a versão 4.8.5 ou posterior do SDK do iOS.
+>This functionality requires iOS SDK version 4.8.5 or later.
 
 A partir da versão 4.16.1 do SDK, membros do Device Co-op podem remover seus dados de dispositivo móvel do Device Co-op da Experience Cloud. Para obter mais informações, consulte [ADBMobile JSON Config](/help/ios/configuration/json-config/json-config.md) e o método `visitorAPI.js` para [isCoopSafe](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-coopsafe.html).
 
 1. Implemente o SDK do Adobe Mobile.
 
-   Para obter mais informações, consulte [Implementação principal e ciclo de vida](/help/ios/getting-started/dev-qs.md).
+   Para obter mais informações, consulte Implementação [principal e ciclo de vida](/help/ios/getting-started/dev-qs.md).
 1. Habilitar sua Experience Cloud ID.
 
    For more information, see [Experience Cloud ID](/help/ios/marketing-cloud/mcvid.md).
 1. Passe identidade autenticadas, como IDs do SRM ou emails com hash, usando um dos métodos de sincronização contidos aqui.
 
-   Para obter mais informações, consulte [Métodos de serviço de identidade da Adobe Experience Platform](/help/ios/marketing-cloud/mc-methods.md).
+   Para obter mais informações, consulte Métodos [do serviço de identidade da plataforma](/help/ios/marketing-cloud/mc-methods.md)Adobe Experience.
 
-## `coopUnsafe` sinalizador
+## `coopUnsafe` bandeira
 
 Here is some additional information on the `coopUnsafe` flag:
 
