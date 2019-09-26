@@ -1,12 +1,12 @@
 ---
 description: A variável products não pode ser configurada usando as regras de processamento. No SDK móvel, é preciso usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos na chamada do servidor.
-keywords: android; biblioteca; dispositivos móveis; sdk
+keywords: android;biblioteca;móvel;sdk
 seo-description: A variável products não pode ser configurada usando as regras de processamento. No SDK móvel, é preciso usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos na chamada do servidor.
 seo-title: Variável products
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Variável products
 topic: Desenvolvedor e implementação
-uuid: f 4484022-cb 8 b -4 dea -9209-5 a 110 ba 607 df
+uuid: f4484022-cb8b-4dea-9209-5a110ba607df
 translation-type: tm+mt
 source-git-commit: 7aff336586058302046a728a0b1b0ce12660c1ba
 
@@ -46,4 +46,4 @@ The *products* variable is set on the image request, and the other variables are
 
 ![](assets/map-products.png)
 
-Não é necessário mapear a variável *variável products* usando as regras de processamento porque essa variável é definida diretamente na solicitação de imagem pelo SDK.
+Não é necessário mapear a variável *products* variable by using processing rules because this variable is set directly on the image request by the SDK.
