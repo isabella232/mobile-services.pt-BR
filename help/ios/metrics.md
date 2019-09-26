@@ -7,27 +7,23 @@ title: Medições de ciclo de vida
 topic: Desenvolvedor e implementação
 uuid: b795e383-d59b-4a3c-9e14-ffe8fb58412c
 translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+source-git-commit: a6608bf4d36a6fb6aca00f50cc058c09dbd931b1
 
 ---
 
 
 # Lifecycle metrics {#lifecycle-metrics}
 
-Estas são as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida.
+Here are the metrics and dimensions that can be automatically measured by the mobile library after lifecycle is implemented.
 
-## Nova versão do SDK da Adobe Experience Cloud
+## New Adobe Experience Platform Mobile SDK Release
 
 Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para acessar a documentação mais recente.
 
 Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
 
-* Para começar, acesse o Launch.
+* To get started, go to [Experience Platform Launch](https://launch.adobe.com/).
 * Para ver o conteúdo dos repositórios do Experience Platform SDK, acesse [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
-
->[!IMPORTANT]
->
-> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as in-App messaging, push notifications or Acquisition links. Para obter mais informações, consulte [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services).
 
 
 ## Lifecycle metrics and dimensions {#section_78F036C4296F4BA3A47C2044F79C86C1}
@@ -93,9 +89,9 @@ Para o Analytics, os dados de contexto que são enviados com cada chamada de ras
 
 >[!IMPORTANT]
 >
-> As métricas Usuários *envolvidos* diariamente e Usuários ** envolvidos mensalmente não são armazenadas automaticamente em uma métrica do Analytics. You must create a processing rule that sets a custom event to capture these metrics.
+> As métricas Usuários *envolvidos* diariamente e Usuários ** envolvidos mensalmente não são armazenadas automaticamente em uma métrica do Analytics. É necessário criar uma regra de processamento que defina um evento personalizado para capturar essas métricas.
 
-### Dimensões
+#### Dimensões
 
 * **Data de instalação**
 
@@ -189,12 +185,12 @@ Para o Analytics, os dados de contexto que são enviados com cada chamada de ras
    * Gerenciamento de público-alvo: `c_a_Resolution`
    >[!IMPORTANT]
    >
-   >The Days since last upgrade, Launches since last upgrade, and the Carrier Name dimensions are not automatically stored in an Analytics variable. ****** You must create a processing rule to copy the values to an Analytics variable for reporting.
+   >Os *Dias desde a última atualização*, as *Inicializações desde a última atualização* e as dimensões Nome *da* operadora não são armazenadas automaticamente em uma variável do Analytics. É necessário criar uma regra de processamento para copiar os valores para uma variável do Analytics para geração de relatórios.
 
 
 ## Additional mobile metrics and dimensions {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
 
-The following metrics and dimensions are captured in mobile solution variables by the listed method.
+As métricas e dimensões a seguir são capturadas em variáveis de solução móvel pelo método listado.
 
 ### Métricas
 
@@ -230,7 +226,7 @@ The following metrics and dimensions are captured in mobile solution variables b
 
       * `a.loc.lat.a`
       * `a.loc.lon.a`
-   * Característica do Gerenciamento de público-alvo:
+   * Audience Management trait:
 
       * `c_a_loc_lat_a`
       * `c_a_loc_lon_a`
@@ -240,11 +236,11 @@ The following metrics and dimensions are captured in mobile solution variables b
 
    Preenchido pelos métodos trackLocation.
 
-   * Parâmetro Dados de contexto/Target do Analytics:
+   * Analytics Context Data/Target parameter:
 
       * `a.loc.lat.b`
       * `a.loc.lon.b`
-   * Característica do Gerenciamento de público-alvo:
+   * Audience Management trait:
 
       * `c_a_loc_lat_b`
       * `c_a_loc_lon_b`
@@ -254,7 +250,7 @@ The following metrics and dimensions are captured in mobile solution variables b
 
    Populated by `trackLocation` methods.
 
-   * Parâmetro Dados de contexto/Target do Analytics:
+   * Analytics Context Data/Target parameter:
 
       * `a.loc.lat.c`
       * `a.loc.lon.c`
