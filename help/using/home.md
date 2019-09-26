@@ -1,10 +1,10 @@
 ---
-description: Documentos técnicos para Adobe Mobile Services
-seo-description: Este guia descreve a documentação técnica e a autoajuda para o Adobe Mobile Services, que reúne recursos de marketing móvel para aplicativos móveis em toda a Adobe Experience Cloud, permitindo que você entenda e aprimore a participação do usuário com aplicativos móveis.
+description: Documentos técnicos do Adobe Mobile Services
+seo-description: Este guia descreve a documentação técnica e a autoajuda do Adobe Mobile Services, que reúne recursos de marketing móvel para aplicativos móveis na Adobe Experience Cloud, permitindo que você entenda e aprimore a participação do usuário com aplicativos móveis.
 seo-title: Adobe Mobile Services
 solution: Marketing Cloud, Analytics, Experience Cloud
 title: Adobe Mobile Services
-uuid: e 86 a 77 c 9-4 ff 1-403 f-a 5 a 1-4 afbdc 4 e 6 f 68
+uuid: e86a77c9-4ff1-403f-a5a1-4afbdc4e6f68
 translation-type: tm+mt
 source-git-commit: 20fdbba819f7c182a23a01cd06e1738ad83eba38
 
@@ -13,11 +13,11 @@ source-git-commit: 20fdbba819f7c182a23a01cd06e1738ad83eba38
 
 # Adobe Mobile Services {#adobe-mobile-services}
 
-Este guia descreve a documentação técnica e a autoajuda para o Adobe Mobile Services, que reúne recursos de marketing móvel para aplicativos móveis em toda a Adobe Experience Cloud, permitindo que você entenda e aprimore a participação do usuário com aplicativos móveis.
+Este guia descreve a documentação técnica e a autoajuda do Adobe Mobile Services, que reúne recursos de marketing móvel para aplicativos móveis na Adobe Experience Cloud, permitindo que você entenda e aprimore a participação do usuário com aplicativos móveis.
 
 >[!IMPORTANT]
 >
->O SKU do Adobe Analytics Mobile Marketing Add-on é necessário para permitir o acesso ao Mobile Services a aquisição móvel, deep linking, geolocalização e recursos de mensagens móveis. Para obter mais informações, entre em contato com o Adobe CSM.
+>O Adobe Analytics Mobile Marketing Add-on SKU é necessário para permitir o acesso aos recursos de aquisição móvel, deep linking, geolocalização e mensagens móveis do Mobile Services. Para obter mais informações, entre em contato com seu Adobe CSM.
 
 ## Nova versão do SDK da Adobe Experience Cloud
 
