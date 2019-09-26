@@ -2,10 +2,10 @@
 description: O valor de vida útil permite medir e atribuir um valor para cada usuário Android. O valor pode ser usado para armazenar compras vitalícias, visualizações de anúncios, vídeos, compartilhamentos sociais, uploads de fotos etc.
 seo-description: O valor de vida útil permite medir e atribuir um valor para cada usuário Android. O valor pode ser usado para armazenar compras vitalícias, visualizações de anúncios, vídeos, compartilhamentos sociais, uploads de fotos etc.
 seo-title: Valor do tempo de vida do visitante
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Valor do tempo de vida do visitante
 topic: Desenvolvedor e implementação
-uuid: ba 0308 de -282 e -46 f 9-a 14 c -19 fb 6 d 5 c 363 e
+uuid: ba0308de-282e-46f9-a14c-19fb6d5c363e
 translation-type: tm+mt
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
@@ -20,9 +20,9 @@ Cada vez que um valor é enviado com `trackLifetimeValueIncrease`, o valor é ad
 
 ## Track the visitor lifetime value {#section_390943A49AF841F2941E65D6DF2B3F5A}
 
-1. Adicione a [biblioteca ao seu projeto e implemente o ciclo de vida.
+1. Adicione a [biblioteca] ao seu projeto e implemente o ciclo de vida.
 
-   Para obter mais informações, consulte *Adicionar o SDK e o Arquivo de configuração ao projeto intellij IDEA ou Eclipse* na [implementação principal e ciclo de vida](/help/android/getting-started/dev-qs.md).
+   For more information, see Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project in Core implementation and lifecycle.**[](/help/android/getting-started/dev-qs.md)
 1. Importe a biblioteca:
 
    ```java
