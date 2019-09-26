@@ -2,10 +2,10 @@
 description: Esta informação ajuda a usar os recursos de Localização nos aplicativos iOS.
 seo-description: Esta informação ajuda a usar os recursos de Localização nos aplicativos iOS.
 seo-title: Localização
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Localização
 topic: Desenvolvedor e implementação
-uuid: a 4 e 5650 a-f 5 d 3-4 fb 1-bd 11-a 27 a 3918 d 763
+uuid: a4e5650a-f5d3-4fb1-bd11-a27a3918d763
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -14,7 +14,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 # Localização {#location}
 
-As informações nesta seção ajudam você a usar os recursos de Localização nos aplicativos iOS.
+As informações nesta seção ajudam a usar os recursos de Localização nos aplicativos iOS.
 
 ## Nova versão do SDK da Adobe Experience Cloud
 
