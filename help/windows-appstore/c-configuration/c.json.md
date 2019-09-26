@@ -1,18 +1,18 @@
 ---
 description: Informações para ajudá-lo a usar o arquivo de configurações JSON do ADBMobile.
 seo-description: Informações para ajudá-lo a usar o arquivo de configurações JSON do ADBMobile.
-seo-title: Arquivo de configuração adbmobileconfig. json
-solution: Marketing Cloud, Analytics
-title: Arquivo de configuração adbmobileconfig. json
+seo-title: ADBMobileConfig.json config file
+solution: Marketing Cloud,Analytics
+title: ADBMobileConfig.json config file
 topic: Desenvolvedor e implementação
-uuid: a 45 b 91 cc -982 e -4 d 6 c-a 4 e 4-d 2 e 4 b 4 fa 7556
+uuid: a45b91cc-982e-4d6c-a4e4-d2e4b4fa7556
 translation-type: tm+mt
 source-git-commit: 1dbdb998228bd3b0ae41e774b6e9aa111d8dbe1c
 
 ---
 
 
-# `ADBMobileConfig.json` arquivo de configuração {#adbmobileconfig-json-config}
+# `ADBMobileConfig.json` config file {#adbmobileconfig-json-config}
 
 Information to help you use the `ADBMobile.json` config file.
 
@@ -22,7 +22,7 @@ O SDK atualmente é compatível com diversas Soluções da Adobe Experience Clou
 
    (Exigido pelo Analytics) Um ou mais conjuntos de relatórios que receberão dados do Analytics. Diversas IDs de conjunto de relatórios devem ser separadas por vírgulas, sem espaçamento entre as mesmas.
 
-   * Aqui estão exemplos de código para essa variável:
+   * Here are the code samples for this variable:
 
       ```js
       "rsids" : "rsid"
@@ -40,7 +40,7 @@ O SDK atualmente é compatível com diversas Soluções da Adobe Experience Clou
 
 * **charset**
 
-   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte [s. charset](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html).
+   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. For more information, see s.charSet.[](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html)
 
 * **ssl**
 
@@ -60,7 +60,7 @@ O SDK atualmente é compatível com diversas Soluções da Adobe Experience Clou
 
 * **batchLimit**
 
-   Envia as ocorrências em lotes. Por exemplo, se definido como 50, as ocorrências são enfileiradas até que 50 estejam armazenadas, depois todas as ocorrências armazenadas são enviadas. Requer `offlineEnabled=true`. O valor padrão é `0` (Sem lote).
+   Envia as ocorrências em lotes. Por exemplo, se definido como 50, as ocorrências são enfileiradas até que 50 estejam armazenadas, depois todas as ocorrências armazenadas são enviadas. Exige `offlineEnabled=true`. O valor padrão é `0` (Sem agrupamento).
 
 * **privacyDefault**
 
@@ -72,7 +72,7 @@ O SDK atualmente é compatível com diversas Soluções da Adobe Experience Clou
 
       >[!TIP]
       >
-      >Isso define apenas o valor padrão. Se este valor for definido ou alterado no código, então o valor definido pelo código é salvo no armazenamento local e é usado dali em diante até que seja alterado ou o aplicativo seja desinstalado e depois reinstalado.
+      >Isso define somente o valor padrão. Se este valor for definido ou alterado no código, então o valor definido pelo código é salvo no armazenamento local e é usado dali em diante até que seja alterado ou o aplicativo seja desinstalado e depois reinstalado.
 
 * **poi**
 
