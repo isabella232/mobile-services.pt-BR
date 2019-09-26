@@ -1,40 +1,36 @@
 ---
 description: É possível gerar links de aquisição com códigos de rastreamento exclusivos no Adobe Mobile Services. Quando um usuário baixa e executa um aplicativo da App Store depois de clicar no link gerado, o SDK coleta e envia automaticamente os dados de aquisição para os Adobe Mobile Services.
 keywords: android;biblioteca;móvel;sdk
-seo-description: É possível gerar links de aquisição com códigos de rastreamento exclusivos no Adobe Mobile Services. When a user downloads and runs an app from the App store after clicking on the generated link, the SDK automatically collects and sends the acquisition data to Adobe Mobile services.
+seo-description: É possível gerar links de aquisição com códigos de rastreamento exclusivos no Adobe Mobile Services. Quando um usuário baixa e executa um aplicativo da App Store depois de clicar no link gerado, o SDK coleta e envia automaticamente os dados de aquisição para os Adobe Mobile Services.
 seo-title: Aquisição de aplicativos móveis
 solution: Marketing Cloud,Analytics
 title: Aquisição de aplicativos móveis
 topic: Desenvolvedor e implementação
 uuid: 4d32eae9-e856-4e40-8a29-2b5bccd106e0
 translation-type: tm+mt
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
 
 ---
 
 
 # Mobile app acquisition {#mobile-app-acquisition}
 
-É possível gerar links de aquisição com códigos de rastreamento exclusivos no Adobe Mobile Services. Quando um usuário baixa e executa um aplicativo da App Store depois de clicar no link gerado, o SDK coleta e envia automaticamente os dados de aquisição para os Adobe Mobile Services.
+É possível gerar links de aquisição com códigos de rastreamento exclusivos no Adobe Mobile Services. When a user downloads and runs an app from the App store after clicking on the generated link, the SDK automatically collects and sends the acquisition data to Adobe Mobile services.
 
-## Nova versão do SDK da Adobe Experience Cloud
+## Nova versão do Adobe Experience Platform Mobile SDK
 
 Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para acessar a documentação mais recente.
 
 Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
 
-* Para começar, acesse o [Launch](https://launch.adobe.com/).
+* Para começar, acesse o Adobe Experience Platform Launch.
 * Para ver o conteúdo dos repositórios do Experience Platform SDK, acesse [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
-
->[!IMPORTANT]
->
-> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as Acquisition links. Para obter mais informações, consulte [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services). For more information about using Acquisition and Marketing Links with the Experience Cloud SDKs, see [Acquisition and Marketing Links](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services#acquisition-and-marketing-links).
 
 >[!IMPORTANT]
 >
 >Para usar o Acquisition, você **deve** ter a versão 4.1 ou posterior do SDK.
 
-Os links de aquisição devem ser criados nos Adobe Mobile Services. Para obter mais informações, consulte [Aquisição](/help/using/acquisition-main/acquisition-main.md).
+Os links de aquisição devem ser criados nos Adobe Mobile Services. For more information, see [Acquisition](/help/using/acquisition-main/acquisition-main.md).
 
 **Nas versões 4.13.1 e posteriores do SDK**:
 
@@ -62,19 +58,19 @@ Se você estiver usando os links do Acquisition criados no Adobe Mobile Services
 
    When the SDK receives the acquisition data from Adobe Mobile Services (on first launch), that data will be stored and also available in the `AdobeDataCallback` instance registered earlier with the SDK, as mentioned in [Configuration Methods](/help/android/configuration/methods.md).
 
-1. O tipo `MobileDataEvent.MOBILE_EVENT_ACQUISITION_INSTALL` ou o tipo de `MobileDataEvent.MOBILE_EVENT_ACQUISITION_LAUNCH` evento será usado.
+1. The `MobileDataEvent.MOBILE_EVENT_ACQUISITION_INSTALL` or the `MobileDataEvent.MOBILE_EVENT_ACQUISITION_LAUNCH` event type will be used.
 
-1. As chaves de dados personalizadas recebem o prefixo "`a.acquisition.custom.`"
+1. The custom data keys are prefixed with "`a.acquisition.custom.`"
 
 >[!TIP]
 >
->If you are sending data to multiple report suites, use the acquisition data from the app that is associated with the first report suite in your list of report suite IDs.
+>Se você estiver enviando dados para vários conjuntos de relatórios, use os dados de aquisição do aplicativo que está associado ao primeiro conjunto de relatórios na lista de IDs de conjunto de relatórios.
 
 As atualizações nessa seção permitem que o SDK envie dados de aquisição a partir de um link de aquisição.
 
 ## Tracking mobile acquisition {#section_CEA30C652AC8470784B8054E299B80FA}
 
-1. Adicione a biblioteca [ao seu projeto e implemente o ciclo de vida.
+1. Add the library [to your project and implement lifecycle.
 
    Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao projeto* IntelliJ IDEA ou Eclipse na implementação e ciclo de vida [principal](/help/android/getting-started/dev-qs.md).
 
@@ -125,7 +121,7 @@ As atualizações nessa seção permitem que o SDK envie dados de aquisição a 
 
    >[!IMPORTANT]
    >
-   >Se você estiver enviando dados para vários conjuntos de relatórios, use as configurações de aquisição (servidor de aquisição e appid) do aplicativo associado ao primeiro conjunto de relatórios na lista de IDs de conjunto de relatórios.
+   > Se estiver enviando dados para vários conjuntos de relatórios, use as configurações de aquisição (servidor de aquisição e appid) do aplicativo associado ao primeiro conjunto de relatórios na sua lista de IDs de conjuntos de relatórios.
 
    The `acquisition` settings are generated by Adobe Mobile services and should not be changed. For more information about how to download a customized `ADBMobileConfig.json` file with the `acquisition` settings pre-configured, see [Before You Start](/help/android/getting-started/requirements.md).
 
@@ -133,4 +129,4 @@ Quando estas configurações estiverem habilitadas, após a primeira inicializa�
 
 >[!CAUTION]
 >
->`referrerTimeout` must be set to a value higher than 0 to enable app acquisition.
+>`referrerTimeout` O  deve ser definido com um valor maior que 0 para habilitar a aquisição do aplicativo.
