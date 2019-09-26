@@ -3,10 +3,10 @@ description: Estas informações ajudam você a compreender e usar o Adobe Mobil
 keywords: mobile
 seo-description: Estas informações ajudam você a compreender e usar o Adobe Mobile Services.
 seo-title: Introdução
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Introdução
 topic: Métricas
-uuid: a 7 ae 7 c 5 a-dab 8-4603-b 4 cd-af 73 a 2 f 09 f 71
+uuid: a7ae7c5a-dab8-4603-b4cd-af73a2f09f71
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -41,7 +41,7 @@ O Adobe Mobile Services ajuda a impulsionar a participação do aplicativo móve
 
 Em *Adquirir*, você usa mídia paga, de propriedade e ganhada para impulsionar a aquisição de usuários para downloads de aplicativos nas principais app stores. Com o Adobe Mobile Services, você pode acelerar o processo de aquisição de usuários do aplicativo.
 
-O Adobe Mobile Services fornece fluxos de trabalho de aquisição de usuários, incluindo rastreamento de aquisições e deep links, que medem a eficácia dos canais na aquisição de usuários. Com Links de marketing que rastreiam quais usuários vieram de qual canal, você pode obter visibilidade sobre quais canais de aquisição são mais eficazes em impulsionar usuários lucrativos e engajados.
+O Adobe Mobile Services fornece fluxos de trabalho de aquisição de usuários, incluindo rastreamento de aquisições e deep links, que medem a eficácia dos canais na aquisição de usuários. Com os Links de marketing que rastreiam quais usuários vieram de qual canal, você pode ganhar visibilidade sobre quais canais de aquisição são mais eficazes para direcionar usuários lucrativos e engajados.
 
 Além disso, com os deep links, é possível direcionar os usuários diretamente para o conteúdo do aplicativo que você deseja que eles vejam e incentivá-los a instalar seu aplicativo, se necessário.
 
@@ -121,7 +121,7 @@ O Adobe Target para aplicativos móveis agora aproveita toda a segmentação ava
 
 Para obter mais informações sobre localização, consulte o seguinte conteúdo:
 
-* [Localização no guia do usuário do Mobile Services](/help/using/location/c-location-overview.md)
+* [Location in the Mobile Services user's guide](/help/using/location/c-location-overview.md)
 * [Localização no guia do SDK do Android.](/help/android/location/location.md)
 * [Localização no guia do SDK do iOS.](/help/ios/location/location.md)
 
