@@ -3,10 +3,10 @@ description: Estas informações ajudam você a personalizar os relatórios inte
 keywords: mobile
 seo-description: Estas informações ajudam você a personalizar os relatórios internos, adicionando séries (métricas) ou aplicativos em diferentes conjuntos de relatórios para comparar os dados.
 seo-title: Adição de séries (métricas) aos relatórios
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Adição de séries (métricas) aos relatórios
 topic: Relatórios, Métricas
-uuid: 84 fdfb 1 f -70 e 6-4 c 02-9 b 3 b -526 e 9 c 924 f 74
+uuid: 84fdfb1f-70e6-4c02-9b3b-526e9c924f74
 translation-type: tm+mt
 source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
@@ -19,7 +19,7 @@ Estas informações ajudam você a personalizar os relatórios internos, adicion
 
 >[!IMPORTANT]
 >
->As métricas do aplicativo móvel também estão disponíveis em relatórios e análises de marketing, análises ad hoc, data warehouse e outras interfaces de relatórios do Analytics. Se um detalhamento ou tipo de relatório não estiver disponível no Adobe Mobile, poderá ser gerado usando uma interface de relatórios diferente.
+>Mobile app metrics are also available in marketing reports and analytics, ad hoc analysis, data warehouse, and other Analytics reporting interfaces. Se um detalhamento ou tipo de relatório não estiver disponível no Adobe Mobile, poderá ser gerado usando uma interface de relatórios diferente.
 
 In this example, we will customize the **[!UICONTROL Users &amp; Sessions]** report, but the instructions can apply to any report.
 
@@ -43,7 +43,7 @@ In this example, we will customize the **[!UICONTROL Users &amp; Sessions]** rep
 
       ![Resultado da etapa](assets/add_series.png)
 
-   * Para adicionar um novo aplicativo em um conjunto de relatórios diferente para comparar os dados entre aplicativos, clique no nome do aplicativo nas séries criadas recentemente e selecione o aplicativo desejado.
+   * Para adicionar um novo aplicativo em um conjunto de relatórios diferente para que você possa comparar dados entre aplicativos, clique no nome do aplicativo na série recém-criada e selecione o aplicativo desejado.
 
       ![](assets/add_series_app.png)
 
