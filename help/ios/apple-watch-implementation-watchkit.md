@@ -2,10 +2,10 @@
 description: A partir do WatchOS 2, suas extensões WatchKit serão executadas em um dispositivo Apple Watch. Os aplicativos executados neste ambiente exigem a estrutura WatchConnectivity para compartilhar dados com o aplicativo iOS contentor.
 seo-description: A partir do WatchOS 2, suas extensões WatchKit serão executadas em um dispositivo Apple Watch. Os aplicativos executados neste ambiente exigem a estrutura WatchConnectivity para compartilhar dados com o aplicativo iOS contentor.
 seo-title: Implementação do Apple Watch com o WatchOS 2
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Implementação do Apple Watch com o WatchOS 2
 topic: Desenvolvedor e implementação
-uuid: 9498467 e-db 5 e -411 e-a 00 e-d 19841 f 485 de
+uuid: 9498467e-db5e-411e-a00e-d19841f485de
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -14,17 +14,17 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 # Apple Watch implementation with WatchOS 2{#apple-watch-implementation-with-watchos}
 
-A partir do watchos 2, suas extensões watchkit podem ser executadas em um Apple Watch. Applications that run in this environment require the `WatchConnectivity` framework to share data with their containing iOS app.
+A partir do WatchOS 2, suas extensões WatchKit podem ser executadas em um Apple Watch. Applications that run in this environment require the `WatchConnectivity` framework to share data with their containing iOS app.
 
 >[!TIP]
 >
->A partir `AdobeMobileLibrary` da versão v 4.6.0, `WatchConnectivity` é suportado.
+>Começando com `AdobeMobileLibrary` v4.6.0, `WatchConnectivity` há suporte.
 
 ## Introdução {#section_70BC28BB69414F169196953D3D264BC1}
 
 >[!IMPORTANT]
 >
->Certifique-se de ter um projeto com pelo menos as seguintes metas:
+>Verifique se você tem um projeto com pelo menos as seguintes metas:
 >
 >* O aplicativo contêiner
 >* O aplicativo WatchKit
@@ -73,7 +73,7 @@ Conclua as seguintes etapas no projeto Xcode:
 
 1. In your app delegate, implement the `session:didReceiveMessage:` and `session:didReceiveUserInfo:` methods.
 
-   `syncSettings:` é chamado na `ADBMobile` biblioteca, que retorna um bool que indica se o dicionário se destina a consumo pela `ADBMobile` biblioteca. Se retornar `No` (Não), a mensagem não foi iniciada a partir do SDK da Adobe.
+   `syncSettings:` is called in the  library, which returns a bool that indicates whether the dictionary was meant for consumption by the  library. `ADBMobile``ADBMobile` Se retornar `No` (Não), a mensagem não foi iniciada a partir do SDK da Adobe.
 
    ```objective-c
    - (void) session:(WCSession *)session didReceiveMessage:(NSDictionary<NSString *,id> *)message { 
@@ -90,7 +90,7 @@ Conclua as seguintes etapas no projeto Xcode:
    } 
    ```
 
-## Configurar a extensão do watchkit {#section_5ADE31741E514330A381F2E3CFD4A814}
+## Configurar a extensão WatchKit {#section_5ADE31741E514330A381F2E3CFD4A814}
 
 1. Ensure that the `ADBMobileConfig.json` file is a member of your WatchKit extension’s target.
 1. Na guia **[!UICONTROL Criar fases]** do destino da sua extensão do WatchKit, expanda a seção **Link binário com bibliotecas]e adicione as seguintes bibliotecas:[!UICONTROL **
@@ -130,7 +130,7 @@ Conclua as seguintes etapas no projeto Xcode:
 
 1. In your extension delegate, implement the `session:didReceiveMessage:` and `session:didReceiveUserInfo:` methods.
 
-   `syncSettings:` é chamado na `ADBMobile` biblioteca, que retorna um bool que indica se o dicionário se destina a consumo pela `ADBMobile` biblioteca. Se retornar `NO` (Não), a mensagem não foi iniciada a partir do SDK da Adobe.
+   `syncSettings:` é chamado na `ADBMobile` biblioteca, que retorna uma ferramenta que indica se o dicionário foi destinado ao consumo pela `ADBMobile` biblioteca. Se retornar `NO` (Não), a mensagem não foi iniciada a partir do SDK da Adobe.
 
    ```objective-c
    - (void) session:(WCSession *)session didReceiveMessage:(NSDictionary<NSString *,id> *)message { 
