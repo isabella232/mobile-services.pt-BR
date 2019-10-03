@@ -7,7 +7,7 @@ title: Implementação principal e ciclo de vida
 topic: Desenvolvedor e implementação
 uuid: 96d06325-e424-4770-8659-4b5431318ee3
 translation-type: tm+mt
-source-git-commit: be980e0e639d5b0df3f1b6a6f91f3ad0a5efe8d7
+source-git-commit: 4db9781e6e1e75a04d9715a41c5a32c10ede1bf4
 
 ---
 
@@ -32,7 +32,7 @@ Para baixar o SDK:
 
    * `ADBMobile.h`, arquivo de cabeçalho em Objective-C usado no AppMeasurement do iOS.
    * `ADBMobileConfig.json`, que é o arquivo de configuração de SDK personalizado para o seu aplicativo.
-   * `AdobeMobileLibrary.a`, a bitcode-enabled fat binary that contains the library builds for iOS devices (armv7, armv7s, arm64), and simulators (i386, x86_64).
+   * `AdobeMobileLibrary.a`, um binário multiarquitetura habilitado para código de bits que contém os builds da biblioteca para dispositivos iOS (armv7, armv7s, arm64) e simuladores (i386, x86_64).
 
       Esse binário deve ser vinculado quando o destino for pretendido para um aplicativo do iOS.
 
@@ -78,6 +78,7 @@ Para baixar o SDK:
       * `WebKit.framework`
       * `libsqlite3.0.tbd`
       * `AdobeMobileLibrary.a`
+      * `CoreLocation.framework` (opcional, mas obrigatório para recursos de rastreamento geográfico)
    * **Destino de extensão do iOS**
 
       * `SystemConfiguration.framework`
@@ -115,7 +116,7 @@ Adicione uma chamada `collectLifecycleData`/ `collectLifecycleDataWithAdditional
 }
 ```
 
-### Include additional data with lifecycle calls
+### Incluir dados adicionais com chamadas de ciclo de vida
 
 Para incluir dados adicionais com chamadas de ciclo de vida, use `collectLifecycleDataWithAdditionalData`:
 
