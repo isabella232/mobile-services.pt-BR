@@ -2,18 +2,18 @@
 description: Este plug-in permite enviar chamadas do Android AppMeasurement a partir do seu projeto PhoneGap.
 keywords: android;biblioteca;móvel;sdk
 seo-description: Este plug-in permite enviar chamadas do Android AppMeasurement a partir do seu projeto PhoneGap.
-seo-title: PhoneGap plug-in overview
+seo-title: Visão geral do plug-in PhoneGap
 solution: Marketing Cloud,Analytics
 title: Visão geral do plug-in PhoneGap
 topic: Desenvolvedor e implementação
 uuid: c5c32357-d8df-458a-b0e8-e0c56040241d
 translation-type: tm+mt
-source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
+source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 ---
 
 
-# PhoneGap plug-in overview {#phonegap-plug-in}
+# Visão geral do plug-in PhoneGap {#phonegap-plug-in}
 
 Este plug-in permite enviar chamadas do Android AppMeasurement a partir do seu projeto PhoneGap. Para criar um projeto PhoneGap, consulte [PhoneGap](https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap.html).
 
@@ -43,7 +43,7 @@ cordova plugin add adobe-mobile-services
 
    Para mover esse arquivo, clique em **[!UICONTROL OK]**.
 
-1. Drag the  file into the folder that contains the  file`ADB_Helper.js``index.html`
+1. Arraste o `ADB_Helper.js` arquivo para a pasta que contém o `index.html` arquivo
 
    Para mover esse arquivo, clique em **[!UICONTROL OK]**.
 
@@ -64,7 +64,7 @@ cordova plugin add adobe-mobile-services
 ## Incluir a biblioteca do AppMeasurement
 
 1. To download the AppMeasurement library, see [Get the SDK](/help/android/getting-started/dev-qs.md).
-1. Arraste o arquivo para a `adobeMobileLibrary.jar` sua `src` pasta.
+1. Arraste o `adobeMobileLibrary.jar` arquivo para a sua `src` pasta.
 
    Para mover esse arquivo, clique em **[!UICONTROL OK]**.
 
