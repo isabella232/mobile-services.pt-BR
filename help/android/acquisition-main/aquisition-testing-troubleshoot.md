@@ -1,25 +1,25 @@
 ---
-description: The following information helps you troubleshoot Acquisition testing issues.
-keywords: android;Acquisition;testing
-seo-description: The following information helps you troubleshoot Acquisition testing issues.
-seo-title: Troubleshooting Acquisition testing
+description: As seguintes informações ajudam a solucionar problemas de teste de aquisição.
+keywords: android;Aquisição;teste;android;Acquisition;testing
+seo-description: As seguintes informações ajudam a solucionar problemas de teste de aquisição.
+seo-title: Solução de problemas de teste de aquisição
 solution: Marketing Cloud,Analytics
-title: Troubleshooting Acquisition testing
+title: Solução de problemas de teste de aquisição
 translation-type: tm+mt
-source-git-commit: da8798d7ee1f05dcade31cced5404d78c9cf360a
+source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 ---
 
 
-# Troubleshooting Acquisition testing {#aquistion-testing-troubleshooting}
+# Solução de problemas de teste de aquisição {#aquistion-testing-troubleshooting}
 
-Here are some issues you might face when testing Acquisition and some possible solutions:
+Estes são alguns problemas que você pode enfrentar ao testar a Aquisição e algumas soluções possíveis:
 
-* If not otherwise specified, the ADBMobileConfig.json file should be placed in the assets folder.
+* Caso contrário, o arquivo ADBMobileConfig.json deve ser colocado na pasta assets.
 
-* The name is case sensitive, so do not provide a name in lower-case letters.
+* O nome diferencia maiúsculas de minúsculas, portanto, não forneça um nome em letras minúsculas.
 
-   You need to ensure that  is called from the main activity. `Config.setContext(this.getApplicationContext())` For more information, see Configuration methods.[](https://docs.adobe.com/content/help/en/mobile-services/android/configuration-android/methods.html)
+   É necessário garantir que a atividade principal `Config.setContext(this.getApplicationContext())` seja chamada. Para obter mais informações, consulte Métodos [](https://docs.adobe.com/content/help/en/mobile-services/android/configuration-android/methods.html)de configuração.
 
 * Há algumas permissões de usuário ausentes do arquivo AndroidManifest.xml fornecido, necessárias para enviar dados e gravar chamadas de rastreamento offline:
 
