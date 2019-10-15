@@ -1,6 +1,6 @@
 ---
 description: Estas são as métricas e as dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida, e um link para solucionar problemas de dados do ciclo de vida.
-keywords: android;library;mobile;sdk
+keywords: android;biblioteca;móvel;sdk
 seo-description: Estas são as métricas e as dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida, e um link para solucionar problemas de dados do ciclo de vida.
 seo-title: Medições de ciclo de vida
 solution: Marketing Cloud,Analytics
@@ -8,7 +8,7 @@ title: Medições de ciclo de vida
 topic: Desenvolvedor e implementação
 uuid: a8f3ebac-be3b-4948-82bb-105d46cfff6d
 translation-type: tm+mt
-source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
+source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 ---
 
@@ -30,7 +30,7 @@ Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Ad
 
 Quando configuradas, as medições de ciclo de vida são enviadas em parâmetros de dados de contexto ao Analytics, nos parâmetros para o Target com cada chamada mbox e como um sinal ao gerenciamento de público-alvo. O Analytics e o Target usam o mesmo formato, enquanto que o gerenciamento de público-alvo usa um prefixo diferente para cada métrica.
 
-For Analytics, the context data that is sent with each lifecycle tracking call is automatically captured in and reported on by using the metric or dimension, and the exceptions are noted.
+Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento de ciclo de vida são capturados automaticamente e reportados usando a métrica ou dimensão, e as exceções são observadas.
 
 ### Métricas
 
@@ -65,7 +65,7 @@ For Analytics, the context data that is sent with each lifecycle tracking call i
 
    >[!IMPORTANT]
    >
-   >This metric is not automatically stored in an Analytics metric. Você deve criar uma regra de processamento que defina um evento personalizado para capturar essa métrica.
+   >Essa métrica não é armazenada automaticamente em uma métrica do Analytics. Você deve criar uma regra de processamento que defina um evento personalizado para capturar essa métrica.
 
    * Parâmetro do Target/Dados de contexto do Analytics: `a.MonthlyEngUserEvent`
    * Audience Manager Signal: `c_a_MonthlyEngUserEvent`
@@ -284,53 +284,53 @@ As seguintes métricas e dimensões são capturadas nas variáveis da solução 
    Preenchido pelos métodos trackLocation quando o dispositivo está dentro de um POI definido.
 
    * Analytics Context Data/Target Parameters: `a.loc.dist`
-   * Audience Manager Trait: `c_a_loc_dist`
+   * Característica do Audience Manager: `c_a_loc_dist`
 
 * **Valor de tempo de vida (variável de conversão)**
 
    Preenchido pelos métodos trackLifetimeValue.
 
    * Analytics Context Data/Target Parameters: `a.ltv.amount`
-   * Audience Manager Trait: `c_a_ltv_amount`
+   * Característica do Audience Manager: `c_a_ltv_amount`
 
 * **Código de acompanhamento**
 
    Preenchida pela Aquisição de aplicativos móveis e gerado automaticamente pelo Adobe Mobile Services.
 
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.trackingcode`
-   * Audience Manager Trait: `c_a_referrer_campaign_trackingcode`
+   * Característica do Audience Manager: `c_a_referrer_campaign_trackingcode`
 
-* ** Campaign
+* **Campaign**
 
    Nome da campanha, também armazenado na variável da campanha. Preenchido pela Aquisição do dispositivo móvel.
 
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.name`
-   * Audience Manager Trait: `c_a_referrer_campaign_name`
+   * Característica do Audience Manager: `c_a_referrer_campaign_name`
 
 * **Conteúdo da campanha**
 
    O nome ou ID do conteúdo que exibiu o link. Preenchido pela Aquisição do dispositivo móvel.
 
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.content`
-   * Audience Manager Trait: `c_a_referrer_campaign_content`
+   * Característica do Audience Manager: `c_a_referrer_campaign_content`
 
 * **Meio da campanha**
 
    Meio de marketing, como banner ou email. Preenchido pela Aquisição do dispositivo móvel.
 
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.medium`
-   * Audience Manager Trait: `c_a_referrer_campaign_medium`
+   * Característica do Audience Manager: `c_a_referrer_campaign_medium`
 
 * **Fonte da campanha**
 
    Referenciador original, como boletins informativos ou uma rede social. Preenchido pela Aquisição do dispositivo móvel.
 
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.source`
-   * Audience Manager Trait: `c_a_referrer_campaign_source`
+   * Característica do Audience Manager: `c_a_referrer_campaign_source`
 
 * **Termo da campanha**
 
    Palavras-chave pagas ou outros termos que você deseja rastrear com essa aquisição. Preenchido pela Aquisição do dispositivo móvel.
 
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.term`
-   * Audience Manager Trait: `c_a_referrer_campaign_term`
+   * Característica do Audience Manager: `c_a_referrer_campaign_term`
