@@ -1,20 +1,20 @@
 ---
 description: Este tópico fornece informações sobre como solucionar problemas que você pode enfrentar durante o teste de aquisição.
-keywords: android;library;mobile;sdk
+keywords: android;biblioteca;móvel;sdk
 seo-description: Este tópico fornece informações sobre como solucionar problemas que você pode enfrentar durante o teste de aquisição.
 seo-title: Solução de problemas de teste de aquisição
 solution: Marketing Cloud,Analytics
 title: Solução de problemas de teste de aquisição
 topic: Desenvolvedor e implementação
 translation-type: tm+mt
-source-git-commit: 97202c672d7349496f83b9ac0c365dd8b3e13eda
+source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 ---
 
 
 # Solução de problemas de teste de aquisição {#troubleshoot-acquisition-testing}
 
-This topic provides information about how to troubleshoot issues you might face during Acquisition testing.
+Este tópico fornece informações sobre como solucionar problemas que você pode enfrentar durante o teste de aquisição.
 
 * Caso contrário, o arquivo ADBMobileConfig.json deve ser colocado na `assets` pasta.
 
@@ -34,7 +34,7 @@ This topic provides information about how to troubleshoot issues you might face 
    </manifest>
    ```
 
-* Se o `referrerTimeout` estiver definido como 5 no arquivo ADMobileConfig.json, você deverá enviar o propósito de instalação em um período de 5 segundos após a instalação e inicialização do aplicativo pela primeira vez para ver as informações do referenciador anexadas à ocorrência de instalação.
+* Se o `referrerTimeout` estiver definido como 5 no arquivo ADMobileConfig.json, será necessário enviar o propósito de instalação em um período de 5 segundos após a instalação e inicialização do aplicativo pela primeira vez para ver as informações do referenciador anexadas à ocorrência de instalação.
 
    Para testes manuais, recomendamos que você aumente `referrerTimeout` para 10 a 15 segundos, para que tenha tempo suficiente para enviar as informações do referenciador antes que a ocorrência de instalação seja processada.
 
