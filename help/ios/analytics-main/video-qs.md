@@ -7,7 +7,7 @@ title: Análise de vídeo
 topic: Desenvolvedor e implementação
 uuid: d75fa415-78f6-4f50-a563-76949f040138
 translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 ---
 
@@ -32,7 +32,7 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
 
    (Opcional) A variável de Insight personalizado oferece informações de caminho de vídeo.
 
-   * Variable type: eVar
+   * Tipo de variável: eVar
    * Expiração padrão: visita
    * Insight personalizado (s.prop, usado para caminhos de vídeo)
 
@@ -54,7 +54,7 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
    * término do vídeo (stop)
    O Analytics conta a primeira exibição de segmento no início, quando o visitante começa a assistir. As exibições de segmento subsequente ocorrem quando o segmento começa.
 
-   * Variable type: eVar
+   * Tipo de variável: eVar
    * Expiração padrão: visualização de página
 
 
@@ -69,21 +69,21 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
 
    Contabiliza o tempo, em segundos, que é gasto com a exibição de um vídeo desde o último processo de coleta de dados (solicitação da imagem).
 
-   * Variable type: Event
+   * Tipo de variável: Evento
    * Tipo: contador
 
 * **a.media.view**
 
    Indica que um visitante visualizou uma parte de um vídeo. No entanto, não fornece informações algumas sobre quanto ou a que parte de um vídeo o visitante assistiu.
 
-   * Variable type: Event
+   * Tipo de variável: Evento
    * Tipo: contador
 
 * **a.media.segmentView**
 
    Indica que um visitante visualizou uma parte de um segmento de vídeo. No entanto, não fornece informações algumas sobre quanto ou a que parte de um vídeo o visitante assistiu.
 
-   * Variable type: Event
+   * Tipo de variável: Evento
    * Tipo: contador
 
 * **a.media.complete**
@@ -116,7 +116,7 @@ mediaSettings.trackSeconds = 30; // sends a hit every 30 seconds
 [ADBMobile mediaOpenWithSettings:mediaSettings callback:nil]; 
  
 // You are now ready to play the video, for example, [movieViewController.moviePlayer play]; 
-// Note the the mediaPlay, mediaStop and mediaClose methods are called in the 
+// Note the mediaPlay, mediaStop and mediaClose methods are called in the 
 // event handlers described in the next section
 ```
 
