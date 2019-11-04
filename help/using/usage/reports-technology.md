@@ -1,13 +1,13 @@
 ---
 description: O relatório Tecnologia permite ver os diferentes tipos de dispositivos, sistemas operacionais, versões de sistemas operacionais e operadoras de celular nos quais seu aplicativo é usado.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: O relatório Tecnologia permite ver os diferentes tipos de dispositivos, sistemas operacionais, versões de sistemas operacionais e operadoras de celular nos quais seu aplicativo é usado.
 seo-title: Relatório de tecnologia
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud, Analytics
 title: Relatório de tecnologia
 topic: Relatórios, Métricas
 uuid: 4b7322c4-8920-43cd-bb72-5a5bd515ae84
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 # Relatório de tecnologia {#technology}
 
-O relatório de **[!UICONTROL Tecnologia]permite ver os diferentes tipos de dispositivos, sistemas operacionais, versões de sistemas operacionais e operadoras de celular nos quais seu aplicativo é usado.**
+O relatório de **[!UICONTROL Tecnologia]** permite ver os diferentes tipos de dispositivos, sistemas operacionais, versões de sistemas operacionais e operadoras de celular nos quais seu aplicativo é usado.
 
 Este relatório fornece uma visualização em forma de raio de sol dos dados existentes, e você pode usar o relatório para descobrir segmentos de público-alvo (coleções de visitantes) para segmentação. A criação e o gerenciamento de públicos-alvo é semelhante à criação e utilização de segmentos, exceto a possibilidade de disponibilizar os públicos-alvo na Experience Cloud.
 
@@ -25,16 +25,16 @@ Esta visualização fornece, por exemplo, o relatório de base e detalhamentos, 
 
 >[!TIP]
 >
->Além dessas informações, você pode visualizar um tutorial no produto que descreve como interagir com o gráfico em forma de raio de sol. To start the tutorial, click **[!UICONTROL Technology Breakdown]** in the title bar of the report, click **[!UICONTROL Customize]**, and click the **[!UICONTROL i]** icon.
+>Além dessas informações, você pode ver um tutorial no produto que descreve como interagir com o gráfico de explosão solar. Para iniciar o tutorial, clique em **[!UICONTROL Detalhamento da tecnologia]** na barra de título do relatório, clique em **[!UICONTROL Personalizar]**, depois no ícone **[!UICONTROL i]**.
 
 ![](assets/report_technology.png)
 
 O gráfico em forma de raio de sol é interativo e você pode realizar as seguintes tarefas:
 
 * Passe o mouse sobre qualquer parte do gráfico para exibir mais informações.
-* Altere o período de tempo, clicando no ícone **[!UICONTROL Calendário].**
+* Altere o período de tempo, clicando no ícone **[!UICONTROL Calendário]**.
 * Clique em uma parte do anel para selecionar o público-alvo no qual você pode realizar ações, como ampliar, ocultar públicos-alvo, criar uma mensagem no aplicativo ou um filtro fixo.
-* No canto superior direito, selecione **[!UICONTROL Tipo de dispositivo]** e **Dispositivo]para exibir as informações sobre os dispositivos e tipos de dispositivos.[!UICONTROL **
+* No canto superior direito, selecione **[!UICONTROL Tipo de dispositivo]** e **[!UICONTROL Dispositivo]** para exibir as informações sobre os dispositivos e tipos de dispositivos.
 
 * Clique em uma métrica secundária à direita para adicioná-la à visualização.
 
@@ -51,7 +51,7 @@ A tabela abaixo descreve os relatórios padrão e como eles são preenchidos no 
 
 >[!TIP]
 >
->No relatório **[!UICONTROL Operadoras]** , os usuários de Wi-Fi são reportados como `none`.
+>No relatório **[!UICONTROL Operadoras]**, os usuários de Wi-Fi estão registrados como `none`.
 
 
 ## Adição de detalhamentos e métricas {#section_15833511E82648869E7B1EFC24EF7B82}
@@ -60,16 +60,16 @@ A tabela abaixo descreve os relatórios padrão e como eles são preenchidos no 
 
 >[!IMPORTANT]
 >
->Quanto mais anéis você adicionar ao raio de sol, mais demorado será o processamento.
+>Quanto mais anéis você adicionar ao gráfico, mais demorado será o processamento.
 
 Para adicionar detalhamentos e métricas secundárias, clique em **[!UICONTROL Detalhamento da tecnologia]** na barra de título do relatório e em **[!UICONTROL Personalizar]**.
 
-When you click **[!UICONTROL Add Breakdown]** or **[!UICONTROL Add Metric]**, a new item displays with the same name as the previous item in the list. Clique na métrica ou detalhamento criado recentemente para acessar uma lista suspensa na qual poderá selecionar um novo item.
+Se você clicar em **[!UICONTROL Adicionar detalhamento]** ou **[!UICONTROL Adicionar métrica]**, um novo item será exibido com o mesmo nome do item anterior da lista. Clique na métrica ou detalhamento criado recentemente para acessar uma lista suspensa na qual poderá selecionar um novo item.
 
 ## Criação do filtro fixo {#section_B4E355CD1FE34E4C8ADC38139ED67FC8}
 
 Clique em uma parte do anel para selecionar o público-alvo para o qual deseja criar um filtro fixo e clique em **[!UICONTROL Filtro fixo]**. Este filtro permite aplicar os filtros atuais e executar um novo relatório com base neles.
 
-## Compartilhamento de relatórios {#section_560DD5CED5144249B7E49461E2422100}
+## Compartilhar relatórios  {#section_560DD5CED5144249B7E49461E2422100}
 
 Depois de criar um relatório, suas configurações são usadas para criar um URL personalizado que você pode copiar e compartilhar.
