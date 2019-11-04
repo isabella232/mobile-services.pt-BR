@@ -3,19 +3,19 @@ description: É possível usar essas informações para ajudá-lo a entender os 
 keywords: android;biblioteca;móvel;sdk
 seo-description: É possível usar essas informações para ajudá-lo a entender os postbacks e como eles funcionam.
 seo-title: Exemplo de postbacks
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Exemplo de postbacks
 topic: Desenvolvedor e implementação
 uuid: 8010cd00-d42b-4e16-8403-692fab2550f1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 ---
 
 
-# Postbacks example {#postbacks-example}
+# Exemplo de postbacks {#postbacks-example}
 
-Você pode usar essas informações para ajudá-lo a entender o que são postbacks e como eles funcionam.
+Você pode usar essas informações para entender os postbacks e como eles funcionam.
 
 >[!CAUTION]
 >
@@ -52,7 +52,7 @@ Você pode usar essas informações para ajudá-lo a entender o que são postbac
 ] 
 ```
 
-## Code sample {#section_D063DE82976D4EDEA97E804BD1C4718F}
+## Amostra de código {#section_D063DE82976D4EDEA97E804BD1C4718F}
 
 ```js
 HashMap<String, Object> contextData = new HashMap<String, Object>(); 
@@ -61,6 +61,6 @@ contextData.put("user.zip", "90210");
 Analytics.trackState("MainMenu", contextData);
 ```
 
-Because its state is `“MainMenu”`, this tracking call triggers the above postback message. O URL substituirá todas as variáveis do modelo com valores da ocorrência. Supondo que a sessão anterior do usuário tenha sido de 132 segundos, e que o usuário esteja no Android SDK versão 4.6.0, o URL resultante terá a seguinte aparência:
+Como seu estado é `“MainMenu”`, essa chamada de rastreamento aciona a mensagem de postback acima. O URL substituirá todas as variáveis do modelo com valores da ocorrência. Supondo que a sessão anterior do usuário era de 132 segundos e que o usuário utiliza a versão 4.6.0 do Android SDK, o URL resultante seria como o seguinte:
 
 `https://my.server.com/?user=bob&zip=90210&c16=4.6.0-AN&c27=cln,132`
