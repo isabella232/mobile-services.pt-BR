@@ -1,24 +1,24 @@
 ---
-description: As instruções a seguir ajudam a fazer uma viagem de ida e volta em uma campanha de aquisição com um Link de marketing baseado em uma impressão digital do dispositivo.
+description: As instruções a seguir ajudam a redirecionar uma campanha de aquisição com um link de marketing baseado em uma impressão digital do dispositivo.
 keywords: android;biblioteca;móvel;sdk
-seo-description: As instruções a seguir ajudam a fazer uma viagem de ida e volta em uma campanha de aquisição com um Link de marketing baseado em uma impressão digital do dispositivo.
-seo-title: Teste da aquisição do Marketing Link
-solution: Marketing Cloud,Analytics
-title: Testing Marketing Link acquisition
+seo-description: As instruções a seguir ajudam a redirecionar uma campanha de aquisição com um link de marketing baseado em uma impressão digital do dispositivo.
+seo-title: Teste de aquisição de links de marketing
+solution: Experience Cloud,Analytics
+title: Teste de aquisição de links de marketing
 topic: Desenvolvedor e implementação
 uuid: 69503e01-182d-44c6-b0fb-e1c012ffa3bd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ---
 
 
-# Testing Marketing Link acquisition {#testing-marketing-link-acquisition}
+# Teste de aquisição de links de marketing {#testing-marketing-link-acquisition}
 
-As instruções a seguir ajudam a fazer uma viagem de ida e volta em uma campanha de aquisição com um Link de marketing baseado em uma impressão digital do dispositivo.
+As instruções a seguir ajudam a redirecionar uma campanha de aquisição com um link de marketing baseado em uma impressão digital do dispositivo.
 
-1. Conclua as tarefas de pré-requisito na Aquisição [](/help/ios/acquisition-main/acquisition.md)de aplicativos para dispositivos móveis.
-1. In the Adobe Mobile Services UI, click **[!UICONTROL Marketing Links Builder]** and generate an acquisition Marketing Link URL that sets the App Store as the destination for iOS devices.
+1. Conclua as tarefas de pré-requisito na [Aquisição de aplicativos para dispositivos móveis](/help/ios/acquisition-main/acquisition.md).
+1. Na interface do usuário dos Adobe Mobile Services, clique em **[!UICONTROL Criador de links de marketing]** e gere um URL de link de marketing de aquisição que estabeleça a App Store como destino para dispositivos iOS.
 
    Por exemplo:
 
@@ -29,7 +29,7 @@ As instruções a seguir ajudam a fazer uma viagem de ida e volta em uma campanh
    Para obter mais informações, consulte [Criador de links de marketing](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md).
 
 
-1. Open the generated link on the iOS device and open `https://c00.adobe.com/v3/<appid>/end`.
+1. Abra o link gerado no dispositivo iOS e abra `https://c00.adobe.com/v3/<appid>/end`.
 
    Você deve ver o contextData na resposta JSON:
 
@@ -42,7 +42,7 @@ As instruções a seguir ajudam a fazer uma viagem de ida e volta em uma campanh
 
    | Configuração | Valor |
    |--- |--- |
-   | aquisição | The server should be  `c00.adobe.com`. `appid` deve ser igual ao *`appid`* no link de aquisição. |
+   | aquisição | O servidor deve ser  `c00.adobe.com`. `appid` deve ser igual ao *`appid`* no link de aquisição. |
    | analytics | `referrerTimeout` deve ter um valor maior que 0. |
 
 1. (Condicional) Se a configuração SSL no arquivo de configuração do seu aplicativo for `false`, atualize seu link de aquisição para usar o protocolo HTTP em vez de HTTPS.
@@ -59,7 +59,7 @@ As instruções a seguir ajudam a fazer uma viagem de ida e volta em uma campanh
    `"Analytics - Trying to fetch referrer data from <acquisition end url>"`
    `"Analytics - Received Referrer Data(<Json Object>)"`
 
-   Se você não vir esses registros, verifique se concluiu as etapas 4 e 5.
+   Se você não vir os registros acima, verifique se completou as etapas 4 e 5.
 
    Estas são algumas informações sobre possíveis erros:
 
@@ -91,16 +91,16 @@ Lembre-se das seguintes informações:
 
 * Ao usar ferramentas de monitoramento HTTP, as ocorrências enviadas pelo aplicativo podem ser monitoradas para fornecer a verificação da atribuição de aquisição.
 
-   You should see one `/v3/<appid>/start` request and one `/v3/<appid>/end` request that are sent to the acquisition server.
+   Você deve ver uma solicitação `/v3/<appid>/start` e uma solicitação `/v3/<appid>/end` enviadas ao servidor de aquisição.
 
 * As variações no agente-usuário enviado podem causar falha na atribuição.
 
-   Certifique-se de que `https://c00.adobe.com/v3/<appid>/start` e que `https://c00.adobe.com/v3/<appid>/end` tenham os mesmos valores agente-usuário.
+   Certifique-se de que `https://c00.adobe.com/v3/<appid>/start` e `https://c00.adobe.com/v3/<appid>/end` tenham os mesmos valores de agente-usuário.
 
 * O link de aquisição e a ocorrência do SDK devem usar o mesmo protocolo HTTP/HTTPS.
 
-   Se o link e a ocorrência estiverem usando protocolos diferentes, onde, por exemplo, o link usa HTTP e o SDK usa HTTPS, o endereço IP pode diferir em algumas operadoras para cada solicitação. Isso pode fazer com que a atribuição falhe.
+   Se o link e a ocorrência estiverem usando diferentes protocolos, em que, por exemplo, o link usa HTTP e o SDK usa HTTPS, o endereço IP poderá ser diferente para cada solicitação em algumas operadoras. Isso pode fazer com que a atribuição falhe.
 
 * Os Links de marketing são armazenados em cache no lado do servidor com um tempo de expiração de dez minutos.
 
-   Ao fazer alterações nos Links de marketing, aguarde cerca de 10 minutos antes de usar os links.
+   Quando você faz alterações em links de marketing, deve aguardar cerca de 10 minutos antes de usar os links.
