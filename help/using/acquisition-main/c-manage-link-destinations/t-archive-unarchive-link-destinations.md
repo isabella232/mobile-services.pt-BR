@@ -1,26 +1,26 @@
 ---
 description: Você pode usar a página Destinos do link para editar, arquivar, desarquivar ou excluir o destino existente.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: Você pode usar a página Destinos do link para editar, arquivar, desarquivar ou excluir o destino existente.
 seo-title: Gerenciar destinos de links
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud, Analytics
 title: Gerenciar destinos de links
 topic: Métricas
 uuid: 3a38d40d-b4c7-4f9f-aa6e-979613faaba2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 ---
 
 
-# Manage link destinations{#manage-link-destinations}
+# Gerenciar destinos de links{#manage-link-destinations}
 
 Você pode usar a página Destinos do link para editar, arquivar, desarquivar ou excluir o destino existente.
 
 Para exibir a página Gerenciar destinos do link:
 
-1. In the Mobile Services UI, click **[!UICONTROL Manage Apps]**.
-1. Na página Informações do aplicativo, clique em **[!UICONTROL Gerenciar destinos]** de links.
+1. Na interface do Mobile Services, clique em **[!UICONTROL Gerenciar aplicativos]**.
+1. Na página Informações do aplicativo do seu aplicativo, clique em **[!UICONTROL Gerenciar destinos de links]**.
 
    ![Destino do link](assets/link_destinations_list.png)
 
@@ -28,17 +28,17 @@ Para exibir a página Gerenciar destinos do link:
 
    * **Editar**
 
-      Para editar um destino de link existente, clique no seu nome na lista e edite os campos relevantes. Para obter mais informações, consulte [Criar um novo destino](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md)de link.
+      Para editar um destino de link existente, clique no seu nome na lista e edite os campos relevantes. Para obter mais informações, consulte [Criar um novo destino de link](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md).
 
       >[!IMPORTANT]
       >
-      >Pode levar até 15 minutos para que essas alterações entrem em vigor.
+      >Essas alterações podem levar até 15 minutos para entrarem em vigor.
 
    * **Arquivar**
 
-      You can archive link destinations that you want to retain, but you want to remove from the **[!UICONTROL Link Destinations]** list.
+      Você pode arquivar os destinos de links que deseja manter, mas remover da lista de **[!UICONTROL Destinos de links]**.
 
-      To archive link destinations, select one or more check boxes next to the link names and click **[!UICONTROL Archive Selected]**. Como o destino do link é arquivado e pode ser desarquivado a qualquer momento, não é necessário confirmar a ação.
+      Para arquivar destinos de links existentes, marque uma ou mais caixas de seleção ao lado dos nomes dos links e clique em **[!UICONTROL Arquivar selecionados]**. Como o destino de link está arquivado e pode ser desarquivado a qualquer momento, não é necessário confirmar sua ação.
 
    * **Desarquivar**
 
@@ -46,14 +46,14 @@ Para exibir a página Gerenciar destinos do link:
 
       Para desarquivar um destino de link:
 
-      1. click **[!UICONTROL View Archive]**.
+      1. clique em **[!UICONTROL Exibir arquivo]**.
       1. Marque uma ou mais caixas de seleção ao lado dos nomes dos links que você deseja desarquivar.
       1. Clique em **[!UICONTROL Desarquivar selecionados]**.
-      A opção **[!UICONTROL Arquivo de exibições]somente é exibido se você arquivou destinos de links anteriormente.**
+      A opção **[!UICONTROL Arquivo de exibições]** somente é exibido se você arquivou destinos de links anteriormente.
 
    * **Excluir**
 
-      To delete a link destination, select one or more check boxes next to the links you want to delete, click **[!UICONTROL Delete Selected]**, and click **[!UICONTROL Delete]** to confirm your action.
+      Para excluir um destino de link, marque uma ou mais caixas de seleção ao lado dos itens que deseja excluir, clique em **[!UICONTROL Excluir selecionados]**, e em **[!UICONTROL Excluir]** para confirmar a ação.
 
       >[!IMPORTANT]
       >
