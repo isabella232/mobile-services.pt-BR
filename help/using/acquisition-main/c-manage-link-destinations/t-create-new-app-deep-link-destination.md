@@ -1,13 +1,13 @@
 ---
 description: É possível criar um novo destino de link que direciona os usuários para a Web ou um deep link no seu aplicativo.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: É possível criar um novo destino de link que direciona os usuários para a Web ou um deep link no seu aplicativo.
 seo-title: Criar novo destino de link
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud, Analytics
 title: Criar novo destino de link
 topic: Métricas
 uuid: 390e3dea-0221-4f97-980d-a90ca9f162fa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ---
@@ -17,39 +17,40 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 É possível criar um novo destino de link que direciona os usuários para a Web ou um deep link no seu aplicativo.
 
-1. In the Mobile Services UI, click **[!UICONTROL Manage Apps]**.
+1. Na interface do Mobile Services, clique em **[!UICONTROL Gerenciar aplicativos]**.
 1. Clique no nome do aplicativo para exibir a página Informações do aplicativo.
-1. Click **[!UICONTROL Manage Link Destinations]**.
+1. Clique em **[!UICONTROL Gerenciar destinos do link]**.
 1. Clique em **[!UICONTROL Criar novo]**.
 1. Digite informações nos seguintes campos:
    * **[!UICONTROL Título]**
 
-      Digite um nome descritivo para o destino do Link do aplicativo. O título é exibido apenas na página Gerenciar destinos de links na interface do usuário do Adobe Mobile Services. Um nome descritivo ajuda você ou outras pessoas na sua organização a encontrar rapidamente um destino do link específico e pode fornecer informações sobre a sua finalidade.
+      Digite um nome descritivo para o destino do link do aplicativo. O título é exibido apenas na página Gerenciar destinos de links na interface do usuário do Adobe Mobile Services. Um nome descritivo ajuda você ou outras pessoas na sua organização a encontrar rapidamente um destino do link específico e pode fornecer informações sobre a sua finalidade.
 
    * **[!UICONTROL Tipo de link]**
 
-      Here is a list of the available link types:
+      Veja a seguir uma lista dos tipos de links disponíveis:
 
       * **[!UICONTROL Deep link do aplicativo]**
 
-         Provide a URI schema deep link (for example, `yourapp://section`). Os destinos de deep link do aplicativo são deep links do esquema URI que direcionam os usuários para um deep link no seu aplicativo. Por exemplo, você pode direcionar os usuários para uma linha de produtos específica no aplicativo móvel de um varejista online.
+         Forneça um link profundo de esquema URI (por exemplo, `yourapp://section`). Os destinos de deep link de aplicativo são deep link de esquema de URI que direcionam os usuários para um deep link no seu aplicativo. Por exemplo, você pode direcionar os usuários para uma linha de produtos específica no aplicativo móvel de um varejista online.
 
       * **[!UICONTROL Link da Web]**
 
-         Type a web HTTP or HTTPS URL, for example,`https://adobe.com`. Os destinos de links da Web direcionam os usuários para um URL. Por exemplo, você pode direcionar os usuários para uma linha de produtos no site de um revendedor online.
+         Digite um URL HTTP ou HTTPS, por exemplo, `https://adobe.com`. Os destinos de links da Web direcionam os usuários para um URL. Por exemplo, você pode direcionar os usuários para uma linha de produtos no site de um revendedor online.
 
       * **[!UICONTROL Link híbrido]**
 
-         Type an iOS Universal Link or an Android App Link (for example, `https://yourwebsite.com`). Os links híbridos são compatíveis com os Links universais do iOS e os Links de aplicativo do Android.
-   * **[!UICONTROL Aplicativo]** Selecione o aplicativo que está associado ao link que você vai fornecer.
+         Digite um Link universal do iOS ou um Link do aplicativo Android (por exemplo, `https://yourwebsite.com`). Os links híbridos são compatíveis com os Links universais do iOS e os Links de aplicativo do Android.
+   * **[!UICONTROL Aplicativo]**
+Selecione o aplicativo que está associado ao link que você vai fornecer.
 
       >[!TIP]
       >
-      >This information is required only if you selected an App Deep Link or a Hybrid Link in **[!UICONTROL Link Type]**. Se o aplicativo não for exibido na lista de seleção, clique em **[!UICONTROL Adicionar novo aplicativo]para fazer referência a um novo aplicativo em uma app store.**
+      >Essas informações serão necessárias somente se você tiver selecionado um link profundo do aplicativo ou um link híbrido no **[!UICONTROL Tipo de link]**. Se o aplicativo não for exibido na lista de seleção, clique em **[!UICONTROL Adicionar novo aplicativo]** para fazer referência a um novo aplicativo em uma app store.
 
    * **[!UICONTROL Tipo de link]**
 
-      Type the actual URL for the link you selected. The label of this field will vary depeneding on the type of link you selected.
+      Digite o URL real do link selecionado. O rótulo deste campo varia dependendo do tipo de link selecionado.
 
    * **[!UICONTROL Notas]**
 
