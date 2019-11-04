@@ -1,10 +1,10 @@
 ---
 description: O recurso de busca prévia do Adobe Target usa o SDK móvel do Android para buscar conteúdo de oferta a menor quantidade de vezes possível, armazenando as respostas do servidor em cache.
 seo-description: O recurso de busca prévia do Adobe Target usa o SDK móvel do Android para buscar conteúdo de oferta a menor quantidade de vezes possível, armazenando as respostas do servidor em cache.
-seo-title: Usar a busca prévia para encontrar conteúdos de oferta no Android
-title: Usar a busca prévia para encontrar conteúdos de oferta no Android
+seo-title: Usar a busca prévia para encontrar conteúdos em oferta no Android
+title: Usar a busca prévia para encontrar conteúdos em oferta no Android
 uuid: 063451b8-e191-4d58-8ed8-1723e310ad1a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa7375ac8a1345d81748bcf635791c46d3943fed
 
 ---
@@ -16,15 +16,15 @@ O recurso de busca prévia do Adobe Target usa o SDK móvel do Android para busc
 
 >[!IMPORTANT]
 >
->Prefetch functionality in the Mobile SDKs for Android is not supported for Auto Target, Auto Allocate, and Automated Personalization activity types in Adobe Target.
+>A funcionalidade de busca prévia no SDK móvel para Android não é compatível com os tipos de atividades de Destino automático, Alocação automática e Personalização automatizada no Adobe Target.
 
 Esse processo reduz o tempo de carregamento, previne várias chamadas de rede e permite que o Adobe Target seja notificado sobre que mbox foi visitada pelo usuário do aplicativo móvel. Todo o conteúdo será recuperado e armazenado em cache durante a chamada da busca prévia, e esse conteúdo será recuperado do cache em todas as chamadas futuras que contenham conteúdo armazenado em cache para o nome da mbox especificado.
 
-O conteúdo da busca prévia não persiste entre inicializações. The prefetch content is cached as long as the application lives or until the `clearPrefetchCache()` method is called.
+O conteúdo da busca prévia não persiste entre inicializações. O conteúdo da busca prévia é armazenado em cache enquanto o aplicativo estiver executando ou até que o método `clearPrefetchCache()` seja chamado.
 
 >[!IMPORTANT]
 >
->Target prefetch APIs have been available since SDK version 4.14.0. For more information about parameter limitations, see [Batch-input-parameters](https://developers.adobetarget.com/api/#batch-input-parameters).
+>As APIs de busca prévia do Target estão disponíveis desde a versão 4.14.0 do SDK. Para obter mais informações sobre as limitações de parâmetros, consulte [Batch-input-parameters](https://developers.adobetarget.com/api/#batch-input-parameters).
 
 No SDK de versão 4.14 ou posterior, se especificado, a `environmentId``ADBMobileConfig.json` é extraída do arquivo ao iniciar uma chamada v2 batch mbox TnT. Caso nenhuma `environmentId` esteja especificada nesse arquivo, nenhum parâmetro de ambiente é enviado pela chamada TNT batch mbox, e a oferta é entregue ao ambiente padrão.
 
@@ -39,7 +39,7 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
         }
 ```
 
-## Pre-fetch methods {#section_05967F1F3A554B0FBC2C08A954554BDE}
+## Métodos de busca prévia {#section_05967F1F3A554B0FBC2C08A954554BDE}
 
 Estes são os métodos que você pode usar para realizar uma busca prévia no Android:
 
@@ -56,7 +56,7 @@ Estes são os métodos que você pode usar para realizar uma busca prévia no An
       final TargetCallback<Boolean> callback)
       ```
 
-   * Here are the parameters for this method:
+   * Estes são os parâmetros para este método:
 
       * **targetPrefetchArray**
 
@@ -68,7 +68,7 @@ Estes são os métodos que você pode usar para realizar uma busca prévia no An
 
       * **callback**
 
-         Invocado quando a busca prévia está concluída. Returns `true` if the prefetch was successful and `false` if the prefetch was unsuccesful.
+         Invocado quando a busca prévia está concluída. Retorna `true` se a busca prévia foi bem-sucedida, e `false` caso contrário.
 
 * **loadRequests**
 
@@ -76,7 +76,7 @@ Estes são os métodos que você pode usar para realizar uma busca prévia no An
 
    >[!IMPORTANT]
    >
-   >Se o conteúdo dos locais solicitados já estiver armazenado em cache, ele será retornado imediatamente na chamada de retorno fornecida. Caso contrário, o SDK enviará uma solicitação de rede para que os servidores do Target recuperem o conteúdo.
+   >Se o conteúdo das localizações solicitadas já estiver armazenado em cache, ele será retornado imediatamente na chamada de retorno fornecida. Caso contrário, o SDK enviará uma solicitação de rede para que os servidores do Target recuperem o conteúdo.
 
    * Esta é a sintaxe para este método:
 
@@ -84,7 +84,7 @@ Estes são os métodos que você pode usar para realizar uma busca prévia no An
       public static void loadRequests( final List<TargetRequestObject> requestArray,  final Map<String, Object> profileParameters)
       ```
 
-   * Here are the parameters for this method:
+   * Estes são os parâmetros para este método:
 
       * **requestArray**
 
@@ -104,7 +104,7 @@ Estes são os métodos que você pode usar para realizar uma busca prévia no An
       public static void clearPrefetchCache();
       ```
 
-   * There are no parameters for this method.
+   * Não há parâmetros para este método.
 
 * **createTargetRequestObject**
 
@@ -136,11 +136,11 @@ Estes são os métodos que você pode usar para realizar uma busca prévia no An
       final Map<String, Object> productParams)
       ```
 
-## Public classes {#section_A273E53F069E4327BBC8CE4910B37888}
+## Classes públicas {#section_A273E53F069E4327BBC8CE4910B37888}
 
 Estas são as classes públicas que oferecem suporte para busca prévia no Android:
 
-### Class reference: TargetPrefetchObject
+### Referência da classe: TargetPrefetchObject
 
 Encapsula o nome e os parâmetros da mbox usados na busca prévia da mbox.
 
@@ -152,21 +152,21 @@ Encapsula o nome e os parâmetros da mbox usados na busca prévia da mbox.
 * `mboxParameters`
 
    Coleção de pares de chave-valor que serão anexados como `mboxParameters` nessa solicitação do `TargetPrefetchObject`.
-   * **Type**: Map`<String, Object>`
+   * **Tipo**: mapa`<String, Object>`
 
 * **`orderParameters`**
 
    Coleção de pares de chave-valor que serão anexados a mbox atual no nó ordem.
-   * **Type: Map**`<String, Object>`
+   * **Tipo**: mapa `<String, Object>`
 
 * **`productParameters`**
 
    Coleção de pares de chave-valor que serão anexados a mbox atual no nó produtos.
 
-   * **Type: Map**`<String, Object>`
+   * **Tipo**: mapa `<String, Object>`
 
 
-### Class reference: TargetRequestObject
+### Referência de classe: TargetRequestObject
 
 Essa classe encapsula o nome da mbox, o conteúdo padrão, os parâmetros da mbox e a função de retorno usada nas solicitações de localização do Target.
 
@@ -180,19 +180,19 @@ Essa classe encapsula o nome da mbox, o conteúdo padrão, os parâmetros da mbo
 
    Coleção de pares de chave-valor que serão anexados como `mboxParameters` nesse  `TargetRequestObject`.
 
-   * **Tipo: Map`<String, Object>`**
+   * **Tipo: mapa`<String, Object>`**
 
 * **`orderParameters`**
 
    Coleção de pares de chave-valor que serão anexados a mbox atual no nó ordem.
 
-   * **Type: Map**`<String, Object>`
+   * **Tipo**: mapa `<String, Object>`
 
 * **`productParameters`**
 
    Coleção de pares de chave-valor que serão anexados a mbox atual no nó produtos.
 
-   * **Type: Map**`<String, Object>`
+   * **Tipo**: mapa `<String, Object>`
 
 * **`defaultContent`**
 
@@ -204,10 +204,10 @@ Essa classe encapsula o nome da mbox, o conteúdo padrão, os parâmetros da mbo
 
    Ponteiro para a função a ser chamada quando o conteúdo de um dado `TargetRequestObject` estiver disponível.
 
-   * **Type: Target.TargetCallback**`<String>`
+   * **Tipo**: Target.TargetCallback`<String>`
 
 
-## Code sample {#section_BF7F49763D254371B4656E17953D520C}
+## Amostra de código {#section_BF7F49763D254371B4656E17953D520C}
 
 Este é um exemplo de como fazer uma busca prévia de conteúdo por meio dos SDKs do Android:
 
