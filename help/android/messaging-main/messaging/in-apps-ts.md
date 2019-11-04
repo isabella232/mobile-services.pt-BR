@@ -2,18 +2,18 @@
 description: Estas informações ajudam a solucionar problemas de mensagem de push no aplicativo.
 keywords: mobile
 seo-description: Estas informações ajudam a solucionar problemas de mensagem de push no aplicativo.
-seo-title: Troubleshoot In-App Messaging
-solution: Marketing Cloud,Analytics
-title: Troubleshoot In-App Messaging
+seo-title: Resolução de problemas nas mensagens no aplicativo
+solution: Experience Cloud,Analytics
+title: Resolução de problemas nas mensagens no aplicativo
 topic: Métricas
 uuid: 39c3a21d-92c2-4004-b00f-99b6f91d3696
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12e01e112debffd877dd62f1fd2505724b2aae7d
 
 ---
 
 
-# Solução de problemas de mensagens no aplicativo{#troubleshooting-in-app-messaging}
+# Resolução de problemas de mensagens no aplicativo{#troubleshooting-in-app-messaging}
 
 Estas informações ajudam a solucionar problemas de mensagem de push no aplicativo.
 
@@ -21,7 +21,7 @@ Se você concluiu todos os requisitos para as mensagens no aplicativo, mas as me
 
 ## Você está inserindo a nova configuração e o novo SDK no aplicativo?
 
-Ensure that you have an [In-App Messaging](/help/android/messaging-main/messaging/messaging.md) section in your configuration (downloaded JSON file) or have a Messages remote endpoint, so that it can be retrieved from dynamic tag management.
+Certifique-se de que há uma seção [Mensagens no aplicativo](/help/android/messaging-main/messaging/messaging.md) na sua configuração (arquivo JSON baixado) ou um terminal remoto de mensagens, para que ele possa ser recuperado do gerenciamento dinâmico de tags.
 
 ## Minha mensagem de tela inteira não está aparecendo no Android. Estou usando o SDK correto e a configuração certa, mas meus acionadores não estão funcionando.
 
@@ -29,17 +29,17 @@ Você atualizou seu arquivo de manifesto para definir a atividade de tela inteir
 
 ## Minha mensagem de notificação local no Android não está funcionando.
 
-Certifique-se de que o destinatário de transmissão de notificação local esteja declarado no manifesto. For more information, see step 2 in *Enabling In-App Messaging* in [In-App Messaging](/help/android/messaging-main/messaging/messaging.md).
+Certifique-se de que o destinatário de transmissão de notificação local esteja declarado no manifesto. Para obter mais informações, consulte a etapa 2 em *Habilitar mensagens no aplicativo* em [Mensagens no aplicativo](/help/android/messaging-main/messaging/messaging.md).
 
 ## A mensagem foi publicada?
 
-Para verificar se a mensagem é em tempo real, na página Gerenciar mensagens no aplicativo, na coluna **Status**, verifique a lista de mensagens.
+Para verificar se a mensagem é em tempo real, na página Gerenciar mensagens no aplicativo, na coluna **[!UICONTROL Status]**, verifique a lista de mensagens.
 
-## Look at show once, show always, show offline  settings on the Audience tab.******
+## Observe as configurações *mostrar uma vez*, *mostrar sempre* e *mostrar offline* na guia Público-alvo.
 
-Verifique se essas configurações estão definidas do modo como você deseja. Na guia **[!UICONTROL Público-alvo]**, revise as opções do **Acionar], que permitem especificar a frequência de exibição da mensagem.[!UICONTROL **
+Verifique se essas configurações estão definidas do modo como você deseja. Na guia **[!UICONTROL Público-alvo]**, revise as opções do **[!UICONTROL Acionar]**, que permitem especificar a frequência de exibição da mensagem.
 
-## If using a launch event as the trigger...
+## Caso esteja usando um evento de inicialização como acionador:
 
 O acionador só será ativado em uma nova sessão. Para obter mais informações sobre o início de uma sessão, consulte a linha `lifecycleTimeout` na [Configuração JSON](/help/android/configuration/json-config/json-config.md).
 
