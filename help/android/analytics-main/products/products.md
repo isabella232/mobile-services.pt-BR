@@ -3,21 +3,21 @@ description: A variável products não pode ser configurada usando as regras de 
 keywords: android;biblioteca;móvel;sdk
 seo-description: A variável products não pode ser configurada usando as regras de processamento. No SDK móvel, é preciso usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos na chamada do servidor.
 seo-title: Variável products
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Variável products
 topic: Desenvolvedor e implementação
 uuid: f4484022-cb8b-4dea-9209-5a110ba607df
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7aff336586058302046a728a0b1b0ce12660c1ba
 
 ---
 
 
-# Products variable {#products-variable}
+# Variável products {#products-variable}
 
 A variável products não pode ser configurada usando as regras de processamento. No SDK móvel, é preciso usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos na chamada do servidor.
 
-To set the *products* variable, set a context data key to `"&&products"`, and set the value by using the syntax that is defined for the *products* variable:
+Para configurar a variável *products*, defina uma chave de dados de contexto como `"&&products"` e defina o valor usando a sintaxe definida para a variável *products*:
 
 ```java
 cdata.put("&&products", "Category;Product;Quantity;Price[,Category;Product;Quantity;Price]");
@@ -42,8 +42,8 @@ Analytics.trackAction("purchase", cdata);
 Analytics.trackState("Order Confirmation", cdata);
 ```
 
-The *products* variable is set on the image request, and the other variables are set as context data. Todas as variáveis de dados de contexto devem ser mapeadas usando as regras de processamento:
+A variável *products* está definida na solicitação de imagem e as outras variáveis estão definidas como dados de contexto. Todas as variáveis de dados de contexto devem ser mapeadas usando as regras de processamento:
 
 ![](assets/map-products.png)
 
-Não é necessário mapear a variável *products* variable by using processing rules because this variable is set directly on the image request by the SDK.
+Não é necessário mapear a variável *products* usando as regras de processamento, pois essa variável é definida diretamente na solicitação de imagem pelo SDK.
