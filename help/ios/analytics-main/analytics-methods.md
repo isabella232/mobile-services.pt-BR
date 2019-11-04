@@ -2,31 +2,31 @@
 description: Esta é uma lista de métodos do Adobe Analytics fornecidos pela biblioteca do iOS.
 seo-description: Esta é uma lista de métodos do Adobe Analytics fornecidos pela biblioteca do iOS.
 seo-title: Métodos do Analytics
-solution: Marketing Cloud,Analytics
-title: Analytics methods
+solution: Experience Cloud,Analytics
+title: Métodos do Analytics
 topic: Desenvolvedor e implementação
 uuid: d49fe6de-cb32-4b96-9891-c567310e59a6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 ---
 
 
-# Analytics methods {#analytics-methods}
+# Métodos do Analytics {#analytics-methods}
 
 Esta é uma lista de métodos do Adobe Analytics fornecidos pela biblioteca do iOS.
 
-O SDK suporta atualmente várias Soluções da Adobe Experience Cloud, incluindo o Analytics, o Target, o Audience Manager e o Adobe Experience Platform Identity Service. Methods are prefixed according to the solution. Experience Cloud ID methods are prefixed with `track`.
+Atualmente, o SDK é compatível com várias soluções da Adobe Experience Cloud, como o Analytics, o Target, o Audience Manager e o Adobe Experience Platform Identity Service. Métodos recebem o prefixo de acordo com a solução. Os métodos da Experience Cloud ID recebem o prefixo `track`.
 
 Cada um desses métodos é usado para enviar dados para seu conjunto de relatórios do Adobe Analytics.
 
 * **trackState:&#x200B;data:**
 
-   States are the views that are available in your app, such as `home dashboard`, `app settings`, `cart`, and so on. Esses estados são semelhantes às páginas em um site e as chamadas de `trackState` aumentam as exibições de página. If `state` is empty, it displays as *app name app version (build)* in reports. If you see this value in reports, ensure you are setting `state` in each `trackState` call.
+   Os estados são as exibições disponíveis no aplicativo, como `home dashboard`, `app settings`, `cart`, e assim por diante. Esses estados são semelhantes às páginas em um site, e as chamadas de `trackState` aumentam as visualizações de página. Se `state` estiver vazio, ele é exibido como *nome do aplicativo versão do aplicativo(build)* nos relatórios. Caso veja esse valor em relatórios, certifique-se de configurar um `state` em cada chamada de `trackState`.
 
    >[!TIP]
    >
-   >This is the only tracking call that increments page views.
+   >Esta é a única chamada de rastreamento que aumenta as exibições de página.
 
    * Esta é a sintaxe para este método:
 
@@ -44,11 +44,11 @@ Cada um desses métodos é usado para enviar dados para seu conjunto de relatór
 
 * **trackAction:&#x200B;data:**
 
-   Rastreia uma ação no seu aplicativo. Actions that you want to measure, such as `logons`, `banner taps`, `feed subscriptions`, and other metrics, occur in your app.
+   Rastreia uma ação no seu aplicativo. Ações que deseja medir, como `logons`, `banner taps`, `feed subscriptions` e outras métricas, ocorrem no aplicativo.
 
    >[!TIP]
    >
-   >If you have code that might run while the app is in the background (for example, a background data retrieval), use `trackActionFromBackground` instead.
+   >Se você tem um código que pode funcionar enquanto o aplicativo é executado em segundo plano (por exemplo, uma recuperação de dados em segundo plano), use `trackActionFromBackground`.
 
    * Esta é a sintaxe para este método:
 
@@ -86,7 +86,7 @@ Cada um desses métodos é usado para enviar dados para seu conjunto de relatór
 
    >[!TIP]
    >
-   >This method should only be called in code that runs while your app is in the background.
+   >Este método deve ser chamado somente no código em execução enquanto o aplicativo estiver em segundo plano.
 
    * Esta é a sintaxe para este método:
 
@@ -196,7 +196,7 @@ Cada um desses métodos é usado para enviar dados para seu conjunto de relatór
 
 * **trackTimedActionUpdate:&#x200B;data:**
 
-   Transmite `data` para atualizar os dados de contexto associados à `action`. The `data` that is passed in is appended to the existing data for the action, and if the same key is already defined for `action`, overwrites the data.
+   Transmite `data` para atualizar os dados de contexto associados à `action`. Os `data` passados estão anexados aos dados existentes da ação e, se a mesma chave já estiver definida como `action`, eles substituirão os dados.
 
    >[!TIP]
    >
@@ -218,11 +218,11 @@ Cada um desses métodos é usado para enviar dados para seu conjunto de relatór
 
 * **trackTimedActionEnd:&#x200B;logic:**
 
-   Encerra uma ação programada. If you provide `block`, you will have access to the final time values and be able to manipulate `data` prior to sending the final hit.
+   Encerra uma ação programada. Se você fornecer `block`, terá acesso aos valores de tempo finais e poderá manipular os `data` antes de enviar a ocorrência final.
 
    >[!TIP]
    >
-   >If you provide `block`, you must return `YES` to send a hit. Passing in `nil` for `block` sends the final hit.
+   >Se você fornecer `block`, deverá retornar `YES` para enviar uma ocorrência. Transmitir `nil` para `block` envia a ocorrência final.
 
    * Esta é a sintaxe para este método:
 
@@ -263,7 +263,7 @@ Cada um desses métodos é usado para enviar dados para seu conjunto de relatór
 
 * **trackingSendQueuedHits**
 
-   Requires SDK 4.1. Regardless of how many hits are currently queued, forces the library to send all hits in the offline queue.
+   Exige SDK 4.1. Independentemente da quantidade de ocorrências presentes atualmente na fila, força a biblioteca a enviar todas as ocorrências da fila offline.
 
    * Esta é a sintaxe para este método:
 
@@ -321,7 +321,7 @@ Cada um desses métodos é usado para enviar dados para seu conjunto de relatór
 
    >[!IMPORTANT]
    >
-   >This method does not increment page views.
+   >Este método não incrementa as visualizações de página.
 
    * Esta é a sintaxe para este método:
 
