@@ -2,17 +2,17 @@
 description: A geolocalização ajuda a avaliar os dados de localização usando latitude, longitude e pontos de interesse predefinidos em aplicativos do Android.
 seo-description: A geolocalização ajuda a avaliar os dados de localização usando latitude, longitude e pontos de interesse predefinidos em aplicativos do Android.
 seo-title: Geolocalização e pontos de interesse
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Geolocalização e pontos de interesse
 topic: Desenvolvedor e implementação
 uuid: b8209370-cbc4-40f9-97d8-017e2d74a377
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ---
 
 
-# Geo-location and points of interest {#geo-location-and-points-of-interest}
+# Geolocalização e pontos de interesse {#geo-location-and-points-of-interest}
 
 A geolocalização ajuda a avaliar os dados de localização usando latitude, longitude e pontos de interesse predefinidos em aplicativos do Android.
 
@@ -24,23 +24,23 @@ Cada chamada `trackLocation` envia as seguintes informações:
 
 * Distância do centro e precisão passada como dados de contexto.
 
-   Essas variáveis não são capturadas automaticamente. You must map these context data variables by using the instructions in the *Sending Additional Data* section below.
+   Essas variáveis não são capturadas automaticamente. Você deve mapear essas variáveis de dados de contexto usando as instruções em *Envio de dados adicionais* na seção abaixo.
 
 ## Atualização de POI dinâmico {#section_3747B310DD5147E2AAE915E762997712}
 
-A partir da versão 4.2, os POIs são definidos na interface do usuário do Adobe Mobile e sincronizados dinamicamente com o arquivo de configuração do aplicativo. Esta sincronização requer uma `analytics.poi` configuração na configuração [ADBMobile JSON](/help/android/configuration/json-config/json-config.md):
+A partir da versão 4.2, os POIs são definidos na interface do usuário do Adobe Mobile e sincronizados dinamicamente com o arquivo de configuração do aplicativo. Esta sincronização requer uma configuração `analytics.poi` na [Configuração JSON do ADBMobile](/help/android/configuration/json-config/json-config.md):
 
 ```js
 “analytics.poi”: “https://assets.adobedtm.com/…/yourfile.json”,
 ```
 
-Se não estiver configurado, é necessário baixar uma versão atualizada do arquivo `ADBMobile.json` e adicioná-la ao aplicativo. Para obter mais informações, consulte [Download do SDK e Ferramentas](/help/android/getting-started/requirements.md)de teste.
+Se não estiver configurado, é necessário baixar uma versão atualizada do arquivo `ADBMobile.json` e adicioná-la ao aplicativo. Para obter mais informações, consulte [Download do SDK e Ferramentas de teste](/help/android/getting-started/requirements.md).
 
-## Tracking geo-location and POIs {#section_B1616E400A7548F9A672F97FEC75AE27}
+## Rastreamento de geolocalização e POIs {#section_B1616E400A7548F9A672F97FEC75AE27}
 
 1. Adicione a biblioteca ao projeto e implemente o ciclo de vida.
 
-   Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao projeto* IntelliJ IDEA ou Eclipse na implementação e ciclo de vida [principal](/help/android/getting-started/dev-qs.md).
+   Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao projeto IntelliJ IDEA ou Eclipse* na [Implementação principal e ciclo de vida](/help/android/getting-started/dev-qs.md).
 
 1. Importe a biblioteca:
 
@@ -57,13 +57,13 @@ Se não estiver configurado, é necessário baixar uma versão atualizada do arq
 
    >[!TIP]
    >
-   >Você pode ligar a qualquer `trackLocation` momento.
+   >Você pode chamar `trackLocation` a qualquer momento.
 
-   You can use location strategies to determine the location that is passed to the `trackLocation` call. Para obter mais informações, consulte Estratégias [de localização do](https://developer.android.com/guide/topics/location/strategies.html)Android.
+   É possível usar as estratégias de localização para determinar a localização passada para a chamada `trackLocation`. Para obter mais informações, consulte [Estratégias de localização do Android](https://developer.android.com/guide/topics/location/strategies.html).
 
-Além disso, se a localização estiver determinada a estar em um raio de POI definido, uma variável `a.loc.poi` dos dados de contexto é enviada com a ocorrência `trackLocation`, além de ser relatada como um POI nos relatórios do **Detalhamento de localização**. Uma variável de contexto `a.loc.dist` também é enviada com a distância em metros a partir das coordenadas definidas.
+Além disso, se a localização estiver determinada a estar em um raio de POI definido, uma variável `a.loc.poi` dos dados de contexto é enviada com a ocorrência `trackLocation`, além de ser relatada como um POI nos relatórios do **[!UICONTROL Detalhamento de localização]**. Uma variável de contexto `a.loc.dist` também é enviada com a distância em metros a partir das coordenadas definidas.
 
-## Sending additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## Envio de dados adicionais {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 Além dos dados de localização, você pode enviar dados de contexto adicionais com cada chamada de localização de rastreamento:
 
@@ -79,7 +79,7 @@ Os valores de dados de contexto devem ser mapeados para variáveis personalizada
 
 ![](assets/map-location-context-data.png)
 
-## Location context data {#section_FFB71E6653F9410A89CC6ACC0C9164A9}
+## Dados do contexto de localização {#section_FFB71E6653F9410A89CC6ACC0C9164A9}
 
 A latitude e longitude são enviadas usando três parâmetros de dados de contexto diferentes, com cada parâmetro representando um diferente nível de precisão, com um total de seis parâmetros de dados de contexto.
 
@@ -91,7 +91,7 @@ Por exemplo, as coordenadas lat = 40.93231, long = -111.93152 representam uma lo
 
 `a.loc.lat.c` = 31
 
-`a.loc.lon.a` = -111.9
+`a.loc.lon.a` = -111,9
 
 `a.loc.lon.b` = 31
 
@@ -101,7 +101,7 @@ Alguns níveis de precisão podem aparecer como `00`, dependendo da precisão da
 
 Lembre-se das seguintes informações:
 
-* A `trackLocation` request sends in the equivalent of a `trackAction` call.
+* Uma solicitação `trackLocation` envia o equivalente a uma chamada `trackAction`.
 
 * Os POIs não são passados como chamadas `trackAction` e `trackState` típicas, então você deve usar uma chamada `trackLocation` para rastrear os POIs.
 
