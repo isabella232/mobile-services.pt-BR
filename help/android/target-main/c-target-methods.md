@@ -1,29 +1,29 @@
 ---
-description: Esta é uma lista de métodos do Adobe Target fornecida pela biblioteca do Android.
+description: Esta é a lista de métodos do Adobe Target fornecida pela biblioteca do Android.
 keywords: android;biblioteca;móvel;sdk
-seo-description: Esta é uma lista de métodos do Adobe Target fornecida pela biblioteca do Android.
-seo-title: Target methods for Android
-solution: Marketing Cloud,Analytics
-title: Target methods for Android
+seo-description: Esta é a lista de métodos do Adobe Target fornecida pela biblioteca do Android.
+seo-title: Métodos do Target para o Android
+solution: Experience Cloud,Analytics
+title: Métodos do Target para o Android
 topic: Desenvolvedor e implementação
 uuid: 8e9808b2-ba80-4646-ba05-8e62d4fde065
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
 
 
-# Target methods for Android{#target-methods}
+# Métodos do Target para o Android{#target-methods}
 
-Esta é uma lista de métodos do Adobe Target fornecida pela biblioteca do Android.
+Esta é a lista de métodos do Adobe Target fornecida pela biblioteca do Android.
 
-O SDK suporta atualmente várias Soluções da Adobe Experience Cloud, incluindo o Analytics, o Target, o Audience Manager e o Adobe Experience Platform Identity Service]. Methods are prefixed according to the solution. For example, Experience Cloud ID methods are prefixed with `target`.
+Atualmente, o SDK é compatível com várias soluções da Adobe Experience Cloud, incluindo o Analytics, o Target, o Audience Manager e o Adobe Experience Platform Identity Service. Os métodos recebem o prefixo de acordo com a solução. Por exemplo, métodos da Experience Cloud ID recebem o prefixo `target`.
 
 >[!TIP]
 >
 >[Medições de ciclo de vida](/help/android/metrics.md) são enviadas como parâmetros para cada carregamento de mbox.
 
-## Class reference : TargetLocationRequest {#section_A8CC898922164E819EC730DC92A6742B}
+## Referência de classe: TargetLocationRequest {#section_A8CC898922164E819EC730DC92A6742B}
 
 **Propriedades:**
 
@@ -33,11 +33,11 @@ public String defaultContent;
 public HashMap<String, Object> parameters;
 ```
 
-**Constantes de string**
+**Constantes da cadeia de caracteres**
 
 >[!TIP]
 >
->As constantes a seguir facilitam o uso ao definir chaves para parâmetros personalizados.
+>As constantes seguintes facilitam o uso ao configurar as chaves para parâmetros personalizados.
 
 ```java
 public static final String TARGET_PARAMETER_ORDER_ID   = "orderId"; 
@@ -53,10 +53,10 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 
 >[!IMPORTANT]
 >
->* If you are using SDKs **before** version 4.14.0, see [https://developers.adobetarget.com/api/#input-parameters](https://developers.adobetarget.com/api/#input-parameters) for parameters limitations.
+>* Se você estiver usando SDKs **anteriores** à versão 4.14.0, consulte [https://developers.adobetarget.com/api/#input-parameters](https://developers.adobetarget.com/api/#input-parameters) para limitações de parâmetros.
    >
    >
-* If you are using SDKs version 4.14.0 **or later**, see [https://developers.adobetarget.com/api/#batch-input-parameters](https://developers.adobetarget.com/api/#batch-input-parameters) for parameters limitations.
+* Se você estiver usando SDKs versão 4.14.0 **ou posterior**, consulte [https://developers.adobetarget.com/api/#batch-input-parameters](https://developers.adobetarget.com/api/#batch-input-parameters) para limitações de parâmetros.
 
 
 * **loadRequest**
@@ -116,44 +116,44 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 
    * **Parâmetros:**
 
-      Here are the parameters for this method:
+      Estes são os parâmetros para este método:
 
       * **name**
 
          Nome da mbox/localização do Target que você quer recuperar.
 
-         * **** Tipo: String
+         * **Tipo:** cadeia de caracteres
       * **defaultContent**
 
          O valor retornado no retorno de chamada se não for possível alcançar o servidor do Target, ou se o usuário não estiver qualificado para a campanha.
 
-         * **** Tipo: String
+         * **Tipo:** cadeia de caracteres
       * **profileParameters**
 
          Os valores neste dicionário serão adicionados ao objeto "profileParameters" na solicitação para o Target.
 
-         * **** Tipo: Map `<String, Object>`
+         * **Tipo:** mapa `<String, Object>`
       * **orderParameters**
 
          Os valores neste dicionário serão adicionados ao objeto "order" na solicitação para o Target.
 
-         * **** Tipo: Mapa `<String, Object>`
+         * **Tipo:** mapa `<String, Object>`
       * **mboxParameters**
 
          Os valores neste dicionário aparecerão na solicitação para o Target.
 
-         * **** Tipo: Mapa `<String, Object>`
+         * **Tipo:** mapa `<String, Object>`
       * **requestLocationParameters**
 
          Os valores neste dicionário serão adicionados ao objeto "requestLocation" na solicitação para o Target.
 
-         * **** Tipo: Mapa `<String, Object>`
+         * **Tipo:** mapa `<String, Object>`
       * **callback**
 
          Este método será chamado com o conteúdo da oferta do servidor Target. Se não for possível alcançar o servidor do Target ou se o usuário não for qualificado para a campanha, defaultContent será retornado.
 
-         * **** Tipo: TargetCallback `<String>`
-   * Este é um exemplo de código para este método:
+         * **Tipo:** TargetCallback `<String>`
+   * Esta é uma amostra de código para este método:
 
       ```java
       Map `<String, Object>` profileParameters = new HashMap `<String, Object>`(); profileParameters.put(“profile-parameter-key”, “profile-parameter-value”); 
