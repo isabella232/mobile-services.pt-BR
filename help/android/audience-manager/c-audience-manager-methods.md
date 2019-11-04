@@ -2,22 +2,22 @@
 description: Esta é uma lista de métodos do Audience Manager fornecida pela biblioteca do Android.
 keywords: android;biblioteca;móvel;sdk
 seo-description: Esta é uma lista de métodos do Audience Manager fornecida pela biblioteca do Android.
-seo-title: Audience Manager methods
-solution: Marketing Cloud,Analytics
-title: Audience Manager methods
+seo-title: Métodos do Audience Manager
+solution: Experience Cloud,Analytics
+title: Métodos do Audience Manager
 topic: Desenvolvedor e implementação
 uuid: 2f6e4664-1306-41d4-9fa7-e3a99f1df4ab
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 ---
 
 
-# Audience Manager methods{#audience-manager-methods}
+# Métodos do Audience Manager{#audience-manager-methods}
 
 Esta é uma lista de métodos do Audience Manager fornecida pela biblioteca do Android.
 
-O SDK suporta atualmente várias Soluções da Adobe Experience Cloud, incluindo o Analytics, o Target, o Audience Manager e o Adobe Experience Platform Identity Service. Methods are prefixed according to the solution. For example, Experience Cloud ID methods are prefixed with `audience manager`.
+Atualmente, o SDK é compatível com várias soluções da Adobe Experience Cloud, como o Analytics, o Target, o Audience Manager e o Adobe Experience Platform Identity Service. Os métodos recebem o prefixo de acordo com a solução. Por exemplo, métodos da Experience Cloud ID recebem o prefixo `audience manager`.
 
 Se o Audience Manager estiver configurado no arquivo JSON, um sinal que contém medições de ciclo de vida será enviado com a ocorrência de ciclo de vida.
 
