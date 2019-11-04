@@ -1,19 +1,19 @@
 ---
 description: É possível medir diferentes métricas usando o Adobe Mobile e coletando as métricas que você deseja acompanhar para o seu aplicativo.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: É possível medir diferentes métricas usando o Adobe Mobile e coletando as métricas que você deseja acompanhar para o seu aplicativo.
 seo-title: Métricas do Mobile
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud, Analytics
 title: Métricas do Mobile
 topic: Métricas
 uuid: c4457f4a-9d1c-4fe9-ad4a-9eb2e37feab7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
 ---
 
 
-# Mobile metrics{#mobile-metrics}
+# Métricas móveis{#mobile-metrics}
 
 É possível medir diferentes métricas usando o Adobe Mobile e coletando as métricas que você deseja acompanhar para o seu aplicativo.
 
@@ -31,11 +31,11 @@ Os seguintes tipos de métricas são medidos:
 
 * **Receita**
 
-   Você pode exibir a receita coletada pelas app stores e a receita medida diretamente com os eventos de compra no aplicativo. Other cart metrics are available by [Customize Reports](/help/using/usage/reports-customize/reports-customize.md).
+   É possível visualizar a receita coletada pelas loja de aplicativos e a receita medida diretamente com os eventos de compra do aplicativo. Outras métricas estão disponíveis em [Personalizar relatórios](/help/using/usage/reports-customize/reports-customize.md).
 
 * **Eventos do aplicativo**
 
-   Os eventos do aplicativo são os Principais indicadores de desempenho (KPIs) definidos por você para medir o sucesso do aplicativo. Dependendo do tipo de aplicativo fornecido por você, os KPIs podem variar entre artigos lidos e níveis concluídos a receita da duração.
+   Os eventos do aplicativo são os Principais indicadores de desempenho (KPIs) definidos por você para medir o sucesso do aplicativo. Dependendo do tipo de aplicativo fornecido por você, os KPIs podem variar entre  artigos lidos, níveis concluídos e receita vitalícia, por exemplo.
 
 * **Estados do aplicativo**
 
@@ -43,7 +43,7 @@ Os seguintes tipos de métricas são medidos:
 
 * **Localidade e pontos de interesse**
 
-   Se o GeoReporting estiver habilitado no seu conjunto de relatórios do Analytics, vários relatórios baseados em local estarão disponíveis. On Wi-Fi, GeoReporting accuracy is similar to that of a desktop web browser. Em uma conexão de dados, a precisão varia com base no provedor e em como as solicitações são roteadas.
+   Se o GeoReporting estiver habilitado no seu conjunto de relatórios do Analytics, vários relatórios baseados em local estarão disponíveis. No Wi-Fi, a precisão do GeoReporting é similar àquela do navegador da Web para desktop. Em uma conexão de dados, a precisão varia com base no provedor e em como as solicitações são roteadas.
 
    Para maior precisão, você também pode adicionar o rastreamento da localização e de pontos de interesse ao seu aplicativo. Essas opções permitem relatar dados detalhados de latitude e longitude e usar cerca virtual geográfica para determinar quando um usuário está no raio de um ponto de interesse pré-definido.
 
