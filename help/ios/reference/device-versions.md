@@ -2,23 +2,23 @@
 description: A tabela a seguir contém a cadeia de caracteres da versão do iOS enviada por muitos dispositivos iOS.
 seo-description: A tabela a seguir contém a cadeia de caracteres da versão do iOS enviada por muitos dispositivos iOS.
 seo-title: Versões do dispositivo iOS
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Versões do dispositivo iOS
 topic: Desenvolvedor e implementação
 uuid: 8b8a9bc3-0737-4de2-9792-0b112aa4cf65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 ---
 
 
-# iOS device versions {#ios-device-versions}
+# Versões do dispositivo iOS {#ios-device-versions}
 
 A tabela a seguir contém a cadeia de caracteres da versão do iOS enviada por muitos dispositivos iOS.
 
 >[!IMPORTANT]
 >
->Esta lista baseia-se em testes internos e informações online e pode conter inexatidões ou informações incompletas.
+>Esta lista é baseada em testes internos e informações encontradas online. Pode conter informações incompletas ou inconsistentes.
 
 Para obter mais informações sobre dispositivos iOS, vá para sites como [The iPhone Wiki](https://theiphonewiki.com/wiki/Models).
 
