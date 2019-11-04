@@ -2,21 +2,21 @@
 description: Esta é uma lista de métodos do Audience Manager fornecidos pela biblioteca do iOS.
 seo-description: Esta é uma lista de métodos do Audience Manager fornecidos pela biblioteca do iOS.
 seo-title: Métodos do Audience Manager
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Métodos do Audience Manager
 topic: Desenvolvedor e implementação
 uuid: 97658bd6-4c4f-4875-abe9-36dad4ec8bae
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 ---
 
 
-# Audience Manager methods {#audience-manager-methods}
+# Métodos do Audience Manager {#audience-manager-methods}
 
 Esta é uma lista de métodos do Audience Manager fornecidos pela biblioteca do iOS.
 
-The SDK currently supports multiple Adobe Experience Cloud Solutions, including Analytics, Target, Audience Manager, and the Adobe Experience Platform Identity Service. Os métodos apresentam prefixos de acordo com a solução a qual estão associados. Logo, os métodos do Manager apresentam o prefixo "`audience`audience."
+Atualmente, o SDK é compatível com várias soluções da Adobe Experience Cloud, como o Analytics, o Target, o Audience Manager e o Adobe Experience Platform Identity Service. Os métodos apresentam prefixos de acordo com a solução a qual estão associados. Logo, os métodos do Audience Manager apresentam o prefixo "`audience`."
 
 Se o Audience Manager estiver configurado em seu arquivo JSON, um sinal contendo as medições de ciclo de vida será enviado com `application:didFinishLaunchingWithOptions:`.
 
