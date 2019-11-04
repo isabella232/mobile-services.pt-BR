@@ -2,17 +2,17 @@
 description: Definição e exemplos de código-fonte para o recurso Postbacks.
 seo-description: Definição e exemplos de código-fonte para o recurso Postbacks.
 seo-title: Exemplo de postback
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Exemplo de postback
 topic: Desenvolvedor e implementação
 uuid: 809c5646-7a80-40df-984b-0af89d854259
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 ---
 
 
-# Postback example {#postback-example}
+# Exemplo de postback {#postback-example}
 
 Definição e exemplos de código-fonte para o recurso Postbacks.
 
@@ -20,7 +20,7 @@ Definição e exemplos de código-fonte para o recurso Postbacks.
 >
 >Este exemplo é fornecido apenas para fins informativos. O arquivo `ADBMobileConfig.json` deve ser configurado na interface do usuário do Adobe Mobile e não deve ser modificado manualmente. Um arquivo de configuração editado manualmente pode ser perigoso quando a configuração remota de mensagens estiver habilitada.
 
-## ADBMobileConfig.json definition {#section_0F6EC001AB6D488E815F50C7F5DA022E}
+## Definição de ADBMobileConfig.json {#section_0F6EC001AB6D488E815F50C7F5DA022E}
 
 ```js
 "messages": [ 
@@ -51,13 +51,13 @@ Definição e exemplos de código-fonte para o recurso Postbacks.
 ] 
 ```
 
-## Code sample {#section_8169B88A2C634CB788DA574EE8C4B1DC}
+## Amostra de código {#section_8169B88A2C634CB788DA574EE8C4B1DC}
 
 ```objective-c
 NSDictionary *contextData = @{@"user.name":@"bob", @"user.zip":@"90210"}; 
 [ADBMobile trackState:@"MainMenu" data:contextData];
 ```
 
-Because its state is `“MainMenu”`, this tracking call triggers the above postback message. The URL replaces all template variables with values from the hit. Supondo que a sessão anterior do usuário tenha sido de 132 segundos e que o usuário esteja no iOS SDK versão 4.6.0, veja um exemplo do URL resultante:
+Como seu estado é `“MainMenu”`, essa chamada de rastreamento aciona a mensagem de postback acima. O URL substituirá todas as variáveis do modelo com valores da ocorrência. Supondo que a sessão anterior do usuário tenha sido de 132 segundos e que o usuário esteja no iOS SDK versão 4.6.0, o URL resultante seria como o do exemplo seguinte:
 
 `https://my.server.com/?user=bob&zip=90210&c16=4.6.0-iOS&c27=cln,132`
