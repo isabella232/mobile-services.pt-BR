@@ -3,17 +3,17 @@ description: Estas informações ajudam a solucionar problemas de mensagem de pu
 keywords: mobile
 seo-description: Estas informações ajudam a solucionar problemas de mensagem de push.
 seo-title: Solucionar problemas de mensagens de push
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Solucionar problemas de mensagens de push
 topic: Métricas
 uuid: 87d7dcb6-82a8-46e3-a6ed-7f895a22f2af
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ---
 
 
-# Troubleshooting push messaging {#troubleshooting-push-messaging}
+# Solução de problemas de mensagens por push {#troubleshooting-push-messaging}
 
 Estas informações ajudam a solucionar problemas de mensagem de push.
 
@@ -33,7 +33,7 @@ Os seguintes tipos de atrasos podem estar associados a mensagens de push para os
 
    >[!TIP]
    >
-   >Os serviços de push não garantem que uma mensagem seja enviada. Para obter mais informações sobre a confiabilidade dos serviços, consulte a documentação apropriada:
+   >Os serviços de push não garantem que uma mensagem será enviada. Para obter mais informações sobre a confiabilidade dos serviços, consulte a documentação apropriada:
    >
    >* **APNS**: [Qualidade do serviço](https://developer.apple.com/documentation/usernotifications)
       >
