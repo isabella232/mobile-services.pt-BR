@@ -1,13 +1,13 @@
 ---
 description: É possível criar links da app store que permitem ao usuário baixar os aplicativos diretamente da Apple App Store e do Google Play. Os links criados permitem que você atribua seus eventos de sucesso aos downloads.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: É possível criar links da app store que permitem ao usuário baixar os aplicativos diretamente da Apple App Store e do Google Play. Os links criados permitem que você atribua seus eventos de sucesso aos downloads.
 seo-title: Criação de um link de aquisição
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud, Analytics
 title: Criação de um link de aquisição
 topic: Métricas
 uuid: bb603013-fca9-44a2-820a-59e1c85d9444
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ---
@@ -17,37 +17,41 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 É possível criar links da app store que permitem ao usuário baixar os aplicativos diretamente da Apple App Store e do Google Play. Os links criados permitem que você atribua seus eventos de sucesso aos downloads.
 
-1. Click **[!UICONTROL Acquisition]** &gt; **[!UICONTROL Manage Acquisition Links]** &gt; **[!UICONTROL Create New]**.
-1. Type the following information in the **[!UICONTROL Link Information]** section:
+1. Clique em **[!UICONTROL Aquisição]** &gt; **[!UICONTROL Gerenciar links de aquisição]** &gt; **[!UICONTROL Criar novo]**.
+1. Digite as seguintes informações nos campos na seção **[!UICONTROL Informações do link]**:
 
-   * (**Required**) **[!UICONTROL Name]**
-Specify a descriptive name for the App Link.
-   * **[!UICONTROL Código]** de rastreamentoEspecifique o código de rastreamento desejado ou clique em **[!UICONTROL Gerar]** para criar um novo código de rastreamento.
-   * (**Required**) **[!UICONTROL Source]**
-Specify the original referrer, such as "newsletter" or "homepage."
-   * **[!UICONTROL Médio]** Especifique a mídia de marketing, como "banner" ou "email".
-   * **[!UICONTROL Conteúdo]** Especifique o nome ou a ID do anúncio com o link.
-   * **[!UICONTROL Termo]** Especifique os termos pagos ou outros termos de pesquisa para o anúncio.
+   * (**Obrigatório**) **[!UICONTROL Nome]**
+Especifique um nome descritivo para o link do aplicativo.
+   * **[!UICONTROL Código de rastreamento]**
+Especifique o código de rastreamento desejado ou clique em **[!UICONTROL Gerar]** para criar um novo código.
+   * (**Obrigatório**) **[!UICONTROL Fonte]**
+Especifique o referenciador original, como “boletim informativo” ou “página inicial”.
+   * **[!UICONTROL Meio]**
+Especifique o meio de marketing, como “banner” ou “email”.
+   * **[!UICONTROL Conteúdo]**
+Especifique o nome ou a ID do anúncio com o link.
+   * **[!UICONTROL Termo]**
+Especifique os termos de pagamento ou outros termos de pesquisa para o anúncio.
    >[!IMPORTANT]
    >
-   >Os valores nos campos acima não podem ser alterados após a criação do link de aquisição.
+   >Não é possível alterar os valores nos campos acima após a criação do link de aquisição.
 
-1. Type information in the fields in the **[!UICONTROL Add App Store Link]** section.
+1. Digite as informações nos campos na seção **[!UICONTROL Adicionar link da loja de aplicativos]**.
 
-   * **[!UICONTROL App Store]**
+   * **[!UICONTROL Loja de aplicativos]**
 
-      Selecione uma app store:
+      Selecione uma loja de aplicativos:
       * Apple App Store
       * Google Play
-      As opções para cada App Store variam, conforme descrito abaixo.
+      As opções para cada loja de aplicativos variam, conforme descrito abaixo.
 
-   * **[!UICONTROL Browser Region (Apple App Store Only)]**
+   * **[!UICONTROL Região do navegador (somente para a Apple App Store)]**
 
       Especifique uma App Store regional específica para navegadores de desktop.
 
       Esta configuração permite definir o link de aquisição que direcionará para a app store de uma região específica quando um usuário clicar no link de um navegador para desktop. Os dispositivos remotos são redirecionados automaticamente de acordo com as configurações do dispositivo.
 
-   * **[!UICONTROL Browser Language (Google Language (Google Play Only))]**
+   * **[!UICONTROL Idioma do navegador (Idioma do Google (somente Google Play))]**
 
       Selecione um idioma na lista suspensa.
 
@@ -55,9 +59,9 @@ Specify the original referrer, such as "newsletter" or "homepage."
 
    * **[!UICONTROL Pesquisar por nome]**
 
-      * For the Apple App Store, if you do not know the App ID, you can search for the app by its name.
+      * Na Apple App Store, se você não souber a ID do aplicativo, poderá pesquisá-lo pelo nome.
 
-         É possível restringir sua pesquisa selecionando uma região opcional na lista suspensa **[!UICONTROL Na região].**
+         É possível restringir sua pesquisa selecionando uma região opcional na lista suspensa **[!UICONTROL Na região]**.
 
       * No Google Play, se você não souber o Nome do pacote, poderá pesquisar pelo nome do aplicativo.
    * **[!UICONTROL ID do aplicativo (somente na Apple App Store)]**
@@ -66,16 +70,16 @@ Specify the original referrer, such as "newsletter" or "homepage."
 
    * **[!UICONTROL Nome do pacote (somente no Google Play)]**
 
-      Se tiver pesquisado o aplicativo, esse campo será preenchido automaticamente. Instead of searching. you can also directly type the Package Name value.
+      Se tiver pesquisado o aplicativo, esse campo será preenchido automaticamente. Em vez de pesquisar, você também pode digitar diretamente o valor Nome do pacote.
 
 
 
-1. To save your configuration and to generate the link, click **[!UICONTROL Add]** &gt; **[!UICONTROL Save]**.
+1. Para salvar sua configuração e gerar o link, clique em **[!UICONTROL Adicionar]** &gt; **[!UICONTROL Salvar]**.
 
-   O link criado recentemente é exibido na seção **[!UICONTROL Links da App Store].**
+   O link criado recentemente é exibido na seção **[!UICONTROL Links da App Store]**.
 
-   ![store link](assets/apps_store_links.png)
+   ![link de loja](assets/apps_store_links.png)
 
-1. Click ![clipboard icon](assets/icon_clipboard.png) to copy the tracked link to your clipboard.
+1. Clique em ![clipboard icon](assets/icon_clipboard.png) para copiar o link rastreado para a área de transferência.
 
-1. Paste the link in your social media posts, ads, email messages, and so on.
+1. Cole o link em suas postagens nas mídias sociais, anúncios, mensagens de email e assim por diante.
