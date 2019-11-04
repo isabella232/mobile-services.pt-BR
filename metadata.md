@@ -1,16 +1,16 @@
 ---
 cloud: experience-cloud
-product: serviços móveis
+product: mobile-services
 solution-title: Aprendizagem e suporte
 solution-hub-url: https://helpx.adobe.com/br/support/experience-cloud/core-services.html
 solution-icon: help/assets/experience-cloud-logo-24.png
 getting-started-title: Introdução
-getting-started-url: https://docs.adobe.com/content/help/en/mobile-services/using/get-started-ug/gs.html
+getting-started-url: https://docs.adobe.com/content/help/pt-BR/mobile-services/using/get-started-ug/gs.html
 tutorials-title: Tutoriais
 tutorials-url: https://helpx.adobe.com/br/experience-cloud/tutorials.html
 git-repo: https://github.com/AdobeDocs/mobile-services.en
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aad8cec624ea2dd4741d1cc3d1d76af5dba44227
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: aad8cec624ea2dd4741d1cc3d1d76af5dba44227
 
 # Metadados para uso interno
 
-O arquivo metadata. md inclui metadados de nível de reposição transmitidos para os arquivos TOC. md do guia do usuário na reposição. Se desejar alterar o conteúdo metadata. md para qualquer guia do usuário, faça isso em qualquer arquivo TOC. md.
+O arquivo metadata.md inclui metadados de nível de repositório transmitidos para os arquivos TOC.md do guia do usuário no repositório. Se desejar alterar o conteúdo metadata. md para qualquer guia do usuário, faça isso em qualquer arquivo TOC. md.
 
 | metadata | o que faz |
 |--- |--- |
@@ -32,7 +32,7 @@ O arquivo metadata. md inclui metadados de nível de reposição transmitidos pa
 | tutorials-title | Raramente usado quando os tutoriais não são apropriados |
 | tutorials-url | Link para tutoriais em vídeo—tutoriais helpx ou tutoriais do KT |
 | mini-toc-levels | Determina o número de níveis de cabeçalho que aparecem no painel à direita. o padrão é 2 |
-| git-repo | Especifica o local do repo de colaboração. Use o espelhamento github.com para documentos lidos pelo público |
+| git-repo | Especifica o local do repositório de colaboração. Use o espelhamento github.com para documentos lidos pelo público |
 | índice | definir index=no para inicialização suave |
 
 No arquivo TOC.md
