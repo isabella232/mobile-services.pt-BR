@@ -4,7 +4,7 @@ seo-description: O recurso de busca prévia do Adobe Target usa o SDK móvel do 
 seo-title: Realizar uma busca prévia por conteúdos em oferta no iOS
 title: Realizar uma busca prévia por conteúdos em oferta no iOS
 uuid: fef58042-65e2-4579-b8f1-d21554d2af57
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa7375ac8a1345d81748bcf635791c46d3943fed
 
 ---
@@ -20,11 +20,11 @@ O recurso de busca prévia do Adobe Target usa o SDK móvel do iOS para buscar c
 
 Esse processo reduz o tempo de carregamento, previne várias chamadas de rede e permite que o Adobe Target seja notificado sobre que mbox foi visitada pelo usuário do aplicativo móvel. Todo o conteúdo será recuperado e armazenado em cache durante a chamada da busca prévia, e esse conteúdo será recuperado do cache em todas as chamadas futuras que contenham conteúdo armazenado em cache para o nome da mbox especificado.
 
-O conteúdo da busca prévia não persiste entre inicializações. The prefetch content is cached as long as the application lives or until the `clearPrefetchCache()` method is called.
+O conteúdo da busca prévia não persiste entre inicializações. O conteúdo da busca prévia é armazenado em cache enquanto o aplicativo estiver executando ou até que o método `clearPrefetchCache()` seja chamado.
 
 >[!IMPORTANT]
 >
->Target prefetch APIs have been available since SDK version 4.14.0. For more information about parameter limitations, see [Batch Input Parameters](https://developers.adobetarget.com/api/#batch-input-parameters).
+>As APIs de busca prévia do Target estão disponíveis desde a versão 4.14.0 do SDK. Para obter mais informações sobre as limitações de parâmetros, consulte [Parâmetros de entrada de lotes](https://developers.adobetarget.com/api/#batch-input-parameters).
 
 No SDK de versão 4.14 ou posterior, se especificado, a `environmentId``ADBMobileConfig.json` é extraída do arquivo ao iniciar uma chamada v2 batch mbox TnT. Caso nenhuma `environmentId` esteja especificada nesse arquivo, nenhum parâmetro de ambiente é enviado pela chamada TNT batch mbox, e a oferta é entregue ao ambiente padrão.
 
@@ -39,7 +39,7 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
         }
 ```
 
-## Prefetch methods {#section_05967F1F3A554B0FBC2C08A954554BDE}
+## Métodos de busca prévia {#section_05967F1F3A554B0FBC2C08A954554BDE}
 
 Estes são os métodos que podem ser usados para realizar a busca prévia no iOS:
 
@@ -67,7 +67,7 @@ Estes são os métodos que podem ser usados para realizar a busca prévia no iOS
 
       * **`callback`**
 
-         Invocado quando a busca prévia está concluída. Returns `true` if the prefetch was successful and `false` if the prefetch was unsuccesful.
+         Invocado quando a busca prévia está concluída. Retorna `true` se a busca prévia foi bem-sucedida, e `false` caso contrário.
 
 * **targetLoadRequests**
 
@@ -75,7 +75,7 @@ Estes são os métodos que podem ser usados para realizar a busca prévia no iOS
 
    >[!IMPORTANT]
    >
-   >Se o conteúdo dos locais solicitados já estiver armazenado em cache, ele será retornado imediatamente na chamada de retorno fornecida. Caso contrário, o SDK enviará uma solicitação de rede para que os servidores do Target recuperem o conteúdo.
+   >Se o conteúdo das localizações solicitadas já estiver armazenado em cache, ele será retornado imediatamente na chamada de retorno fornecida. Caso contrário, o SDK enviará uma solicitação de rede para que os servidores do Target recuperem o conteúdo.
 
    * Esta é a sintaxe para este método:
 
@@ -132,11 +132,11 @@ Estes são os métodos que podem ser usados para realizar a busca prévia no iOS
       mboxParameters:(nullableNSDictionary *)mboxParameters;
       ```
 
-## Public classes {#section_A273E53F069E4327BBC8CE4910B37888}
+## Classes públicas {#section_A273E53F069E4327BBC8CE4910B37888}
 
 Estas são as classes públicas que oferecem suporte para a busca prévia no iOS:
 
-### Class reference: TargetPreFetchObject
+### Referência da classe: TargetPreFetchObject
 
 Encapsula o nome e os parâmetros da mbox usados na busca prévia da mbox.
 
@@ -192,7 +192,7 @@ Essa classe encapsula o nome da mbox, o conteúdo padrão, os parâmetros da mbo
 
    * **Tipo**: função
 
-## Code sample {#section_BF7F49763D254371B4656E17953D520C}
+## Amostra de código {#section_BF7F49763D254371B4656E17953D520C}
 
 Este é um exemplo de como realizar uma busca prévia por conteúdo por meio dos SDKs do iOS:
 
