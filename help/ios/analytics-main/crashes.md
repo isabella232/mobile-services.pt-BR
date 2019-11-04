@@ -2,11 +2,11 @@
 description: Essas informações ajudam a entender como as falhas são rastreadas e as práticas recomendadas para lidar com falsas falhas.
 seo-description: Essas informações ajudam a entender como as falhas são rastreadas e as práticas recomendadas para lidar com falsas falhas.
 seo-title: Rastrear falhas do aplicativo
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Rastreamento de falhas do aplicativo
 topic: Desenvolvedor e implementação
 uuid: 4f81988b-198a-4ba9-ad53-78af90e43856
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
@@ -18,7 +18,7 @@ Essas informações ajudam a entender como as falhas são rastreadas e as práti
 
 >[!IMPORTANT]
 >
->Você deve atualizar para o iOS SDK versão 4.8.6, que contém alterações críticas que impedem que falhas falsas sejam relatadas.
+>Você deve atualizar para o SDK do iOS versão 4.8.6, que contém alterações críticas que impedem que falhas falsas sejam relatadas.
 
 ## Quando a Adobe relata uma falha?
 
@@ -44,13 +44,13 @@ Os seguintes cenários são conhecidos por causar o falso relato de uma falha pe
 
    >[!TIP]
    >
-   >Você pode evitar uma falha nesse cenário colocando o aplicativo em segundo plano antes de iniciá-lo novamente a partir do Xcode.
+   >É possível evitar uma falha neste cenário, colocando o aplicativo em segundo plano antes de iniciá-lo novamente no Xcode.
 
-* If your app is in the background and sends Analytics hits through a call other than `trackActionFromBackground`, `trackLocation`, or `trackBeacon`, and the app is terminated (manually or by the OS) while in the background, and the next launch will be a crash.
+* Se o aplicativo estiver em segundo plano e enviar ocorrências do Analytics por meio de uma chamada diferente de `trackActionFromBackground`, `trackLocation`, ou `trackBeacon`, e o aplicativo for encerrado (manualmente ou pelo sistema operacional) enquanto estiver em segundo plano, a próxima inicialização causará uma falha.
 
    >[!TIP]
    >
-   >Background activity that occurs beyond the `lifecycleTimeout` threshold might also result in an additional false launch.
+   >A atividade em segundo plano que ocorre além do limite `lifecycleTimeout` também pode resultar em uma inicialização falsa adicional.
 
 * Se o aplicativo for inicializado em segundo plano (como resultado de uma busca em segundo plano, atualização de localização e outros) e for encerrado pelo sistema operacional sem nunca passar para o primeiro plano, a próxima inicialização (em segundo ou primeiro plano) resultará em uma falha.
 * Se você excluir programaticamente o sinalizador de pausa da Adobe do `NSUserDefaults` enquanto o aplicativo estiver em segundo plano, a próxima inicialização ou retomada causará uma falha.
@@ -66,5 +66,5 @@ As seguintes práticas podem ajudá-lo a evitar que falhas falsas sejam relatada
 * Certifique-se de executar o seu desenvolvimento contra conjuntos de relatórios de não produção, o que deve evitar a ocorrência da falha falsa número 1.
 * Não exclua nem modifique quaisquer valores que o SDK do Adobe Mobile coloque em `NSUserDefaults`.
 
-   Se esses valores forem modificados fora do SDK, os dados reportados serão inválidos.
+   Se esses valores forem modificados fora do SDK, os dados relatados serão inválidos.
 
