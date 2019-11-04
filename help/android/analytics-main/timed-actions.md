@@ -2,17 +2,17 @@
 description: As ações cronometradas permitem medir o tempo no aplicativo e o tempo total entre o início e o fim de uma ação. O SDK calcula a quantidade de tempo em cada sessão e o tempo total em todas as sessões que levará para uma ação ser concluída. É possível usar as ações cronometradas para definir segmentos e comparar o tempo de compra, o nível de passagem, o fluxo de finalização da compra e assim por diante.
 seo-description: As ações cronometradas permitem medir o tempo no aplicativo e o tempo total entre o início e o fim de uma ação. O SDK calcula a quantidade de tempo em cada sessão e o tempo total em todas as sessões que levará para uma ação ser concluída. É possível usar as ações cronometradas para definir segmentos e comparar o tempo de compra, o nível de passagem, o fluxo de finalização da compra e assim por diante.
 seo-title: Ações cronometradas
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Ações cronometradas
 topic: Desenvolvedor e implementação
-uuid: 5a48a580-b942-4e49-9f1b-078fea7fcdb
-translation-type: tm+mt
+uuid: 5a48a580-b942-4e49-9f1b-078fea7fccdb
+translation-type: ht
 source-git-commit: 97c0dc17bcc624b38e9eb8023eb1d69d02568d11
 
 ---
 
 
-# Timed actions {#timed-actions}
+# Ações cronometradas {#timed-actions}
 
 As ações cronometradas permitem medir o tempo no aplicativo e o tempo total entre o início e o fim de uma ação. O SDK calcula a quantidade de tempo em cada sessão e o tempo total em todas as sessões que levará para uma ação ser concluída. É possível usar as ações cronometradas para definir segmentos e comparar o tempo de compra, o nível de passagem, o fluxo de finalização da compra e assim por diante.
 
@@ -27,11 +27,11 @@ Um retorno de chamada opcional permite que você tome uma ação adicional quand
 * Adicionar dados de contexto antes de passar as durações.
 * Cancelar ocorrência e durações ainda não enviadas.
 
-## Track timed actions {#section_FF5B1EDC1A5340A5B13BC0F1BF2E13E1}
+## Rastrear ações cronometradas {#section_FF5B1EDC1A5340A5B13BC0F1BF2E13E1}
 
 1. Adicione a biblioteca ao projeto e implemente o ciclo de vida.
 
-   Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao projeto* IntelliJ IDEA ou Eclipse na implementação [principal e no ciclo de vida](/help/android/getting-started/dev-qs.md).
+   Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao projeto IntelliJ IDEA ou Eclipse* na [implementação principal e no ciclo de vida](/help/android/getting-started/dev-qs.md).
 1. Importe a biblioteca:
 
    ```java
@@ -62,7 +62,7 @@ Um retorno de chamada opcional permite que você tome uma ação adicional quand
 
    As métricas de eventos cronometrados são salvas em variáveis da solução móvel para relatórios automáticos.
 
-## Sending additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## Envio de dados adicionais {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 Além disso, em adição ao nome da ação programada, é possível enviar dados de contexto adicionais com o início da ação e as chamadas de atualização de ação:
 
