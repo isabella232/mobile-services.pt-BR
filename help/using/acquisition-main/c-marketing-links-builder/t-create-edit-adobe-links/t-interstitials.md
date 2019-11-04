@@ -1,13 +1,13 @@
 ---
 description: É possível direcionar os usuários para um destino, dependendo se eles têm o aplicativo instalado (um deep link de aplicativo) ou não (para um site ou uma app store).
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: É possível direcionar os usuários para um destino, dependendo se eles têm o aplicativo instalado (um deep link de aplicativo) ou não (para um site ou uma app store).
 seo-title: Intersticiais
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud, Analytics
 title: Intersticiais
 topic: Métricas
 uuid: 7dce8ab2-2a5d-4384-ac1e-e31dfaa33654
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ---
@@ -17,11 +17,11 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 É possível direcionar os usuários para um destino, dependendo se eles têm o aplicativo instalado (um deep link de aplicativo) ou não (para um site ou uma app store). É melhor deixar a escolha do roteamento para os usuários. Os profissionais de marketing podem fornecer opções aos usuários, configurando uma página intersticial que mostra aos usuários os destinos disponíveis.
 
-Para configurar um intersticial ao criação de um Link de marketing:
+Para configurar um intersticial ao  criar um Link de marketing:
 
-1. Click **[!UICONTROL Edit Deep Link Interstitial]**.
+1. Clique em **[!UICONTROL Editar link profundo intersticial]**.
 
-   ![Deep link interstitial](assets/interstitial2.png)
+   ![Link profundo intersticial](assets/interstitial2.png)
 
 1. Digite informações nos seguintes campos:
 
@@ -34,14 +34,14 @@ Para configurar um intersticial ao criação de um Link de marketing:
       Estes são os requisitos da página HTML:
 
       * Deve ser um arquivo HTML.
-      * Must contain the `%%DEST%%` and `%%FALLBACK%%` placeholders.
+      * Deve conter os espaços reservados `%%DEST%%` e `%%FALLBACK%%`.
       * O HTML carregado será tratado em um `<iframe>`.
 
-         Você deve garantir que os destinos dos links apontem para uma janela principal. You can include `<base target="_parent" />` in `<head>` or specify a target property for each `<a/>` individually.
+         Você deve garantir que os destinos dos links apontem para uma janela principal. Você pode incluir `<base target="_parent" />` no `<head>` ou especificar uma propriedade-alvo para cada `<a/>` individualmente.
 
          >[!TIP]
          >
-         >Se você carregar HTML personalizado, as outras quatro opções nesta tabela não serão usadas a menos que você remova o arquivo carregado.
+         >Se você fizer upload de um HTML personalizado, as outras quatro opções nessa tabela não serão usadas, a menos que você remova o arquivo enviado.
    * **[!UICONTROL URL da imagem]**
 
       Especifique o URL para um ativo de imagem.
@@ -61,7 +61,7 @@ Para configurar um intersticial ao criação de um Link de marketing:
       Este campo atualizará o botão de texto se um deep link falhar. Os usuários são direcionados para experimentar o deep link para que possam voltar para outra opção. Por exemplo, uma emergência pode ser para uma app store para baixar e instalar o aplicativo ou levar os usuários para o site da empresa. O texto de fallback permite que os usuários saibam que há outra opção disponível se ocorrer uma falha no link direto.
 
 
-1. (**Optional**) Click the icons above the image to see how the interstitial looks rotated and on different devices.
+1. (**Opcional**) Clique nos ícones acima da imagem para ver como o intersticial aparece rotacionado e em dispositivos diferentes.
 
    Você pode alterar ou editar a imagem fora do Mobile Services para garantir que a imagem seja exibida corretamente em diferentes situações.
 1. Clique em **[!UICONTROL Salvar]**.
