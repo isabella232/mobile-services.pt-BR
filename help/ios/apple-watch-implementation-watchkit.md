@@ -2,38 +2,38 @@
 description: A partir do WatchOS 2, suas extensões WatchKit serão executadas em um dispositivo Apple Watch. Os aplicativos executados neste ambiente exigem a estrutura WatchConnectivity para compartilhar dados com o aplicativo iOS contentor.
 seo-description: A partir do WatchOS 2, suas extensões WatchKit serão executadas em um dispositivo Apple Watch. Os aplicativos executados neste ambiente exigem a estrutura WatchConnectivity para compartilhar dados com o aplicativo iOS contentor.
 seo-title: Implementação do Apple Watch com o WatchOS 2
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Implementação do Apple Watch com o WatchOS 2
 topic: Desenvolvedor e implementação
 uuid: 9498467e-db5e-411e-a00e-d19841f485de
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
 
 ---
 
 
-# Apple Watch implementation with WatchOS 2{#apple-watch-implementation-with-watchos}
+# Implementação do Apple Watch com o WatchOS 2{#apple-watch-implementation-with-watchos}
 
-A partir do WatchOS 2, suas extensões WatchKit podem ser executadas em um Apple Watch. Applications that run in this environment require the `WatchConnectivity` framework to share data with their containing iOS app.
+A partir do WatchOS 2, suas extensões WatchKit serão executadas em um dispositivo Apple Watch. Os aplicativos executados neste ambiente exigem a estrutura `WatchConnectivity` para compartilhar dados com o aplicativo iOS contentor.
 
 >[!TIP]
 >
->Starting with `AdobeMobileLibrary` v4.6.0, `WatchConnectivity` is supported.
+>A partir da `AdobeMobileLibrary` v4.6.0, há suporte para `WatchConnectivity`.
 
-## New Adobe Experience Platform Mobile SDK Release
+## Nova versão do Adobe Experience Platform Mobile SDK
 
 Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para acessar a documentação mais recente.
 
-Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/br/experience-platform/launch.html).
 
 * Para começar, acesse o Adobe Experience Platform Launch.
-* Para ver o conteúdo dos repositórios do Experience Platform SDK, acesse [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+* Para ver o conteúdo dos repositórios SDK da Experience Platform, acesse [Github: SDKs da Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 ## Introdução {#section_70BC28BB69414F169196953D3D264BC1}
 
 >[!IMPORTANT]
 >
->Ensure that you have a project with at least the following targets:
+>Certifique-se de ter um projeto com pelo menos os seguintes destinos:
 >
 >* O aplicativo contêiner
 >* O aplicativo WatchKit
@@ -49,8 +49,8 @@ Para obter mais informações sobre o desenvolvimento de aplicativos WatchKit, c
 Conclua as seguintes etapas no projeto Xcode:
 
 1. Arraste a pasta `AdobeMobileLibrary` no seu projeto.
-1. Ensure that the `ADBMobileConfig.json` file is a member of the containing app’s target.
-1. Na guia **[!UICONTROL Criar fases]** do destino do seu aplicativo contêiner, expanda a seção **Link binário com bibliotecas]e adicione as seguintes bibliotecas:[!UICONTROL **
+1. Certifique-se de que o arquivo `ADBMobileConfig.json` é um membro do destino do seu aplicativo contêiner.
+1. Na guia **[!UICONTROL Criar fases]** do destino do seu aplicativo contêiner, expanda a seção **[!UICONTROL Link binário com bibliotecas]** e adicione as seguintes bibliotecas:
 
    * `AdobeMobileLibrary.a`
    * `libsqlite3.tbd`
@@ -69,7 +69,7 @@ Conclua as seguintes etapas no projeto Xcode:
    #import “ADBMobile.h”
    ```
 
-1. Before making a call to the `ADBMobile` library, in `application:didFinishLaunchingWithOptions:` of your app delegate, configure your `WCSession`.
+1. Antes de chamar a biblioteca `ADBMobile`, em `application:didFinishLaunchingWithOptions:` do delegado do aplicativo, configure `WCSession`.
 
    ```objective-c
    // check for session availability 
@@ -80,9 +80,9 @@ Conclua as seguintes etapas no projeto Xcode:
    }
    ```
 
-1. In your app delegate, implement the `session:didReceiveMessage:` and `session:didReceiveUserInfo:` methods.
+1. No delegado do aplicativo, implemente os métodos `session:didReceiveMessage:` e `session:didReceiveUserInfo:`.
 
-   `syncSettings:` é chamado na `ADBMobile` biblioteca, que retorna uma ferramenta que indica se o dicionário foi destinado ao consumo pela `ADBMobile` biblioteca. Se retornar `No` (Não), a mensagem não foi iniciada a partir do SDK da Adobe.
+   `syncSettings:` é chamado na biblioteca `ADBMobile`, que retorna um bool indicando se o dicionário deve ser consumido pela biblioteca `ADBMobile`. Se retornar `No` (Não), a mensagem não foi iniciada a partir do SDK da Adobe.
 
    ```objective-c
    - (void) session:(WCSession *)session didReceiveMessage:(NSDictionary<NSString *,id> *)message { 
@@ -101,13 +101,13 @@ Conclua as seguintes etapas no projeto Xcode:
 
 ## Configurar a extensão WatchKit {#section_5ADE31741E514330A381F2E3CFD4A814}
 
-1. Ensure that the `ADBMobileConfig.json` file is a member of your WatchKit extension’s target.
-1. Na guia **[!UICONTROL Criar fases]** do destino da sua extensão do WatchKit, expanda a seção **Link binário com bibliotecas]e adicione as seguintes bibliotecas:[!UICONTROL **
+1. Certifique-se de que o arquivo `ADBMobileConfig.json` é um membro do destino da sua extensão.
+1. Na guia **[!UICONTROL Criar fases]** do destino da sua extensão do WatchKit, expanda a seção **[!UICONTROL Link binário com bibliotecas]** e adicione as seguintes bibliotecas:
 
    * `AdobeMobileLibrary_Watch.a`
    * `libsqlite3.tbd`
 
-1. In your class that implements the `WKExtensionDelegate` protocol, import `WatchConnectivity` and add the `WCSessionDelegate` protocol.
+1. Na classe que implementa o protocolo `WKExtensionDelegate`, importe `WatchConnectivity` e adicione o protocolo `WCSessionDelegate`.
 
    ```objective-c
    #import <WatchConnectivity/WatchConnectivity.h> 
@@ -120,7 +120,7 @@ Conclua as seguintes etapas no projeto Xcode:
    #import “ADBMobile.h”
    ```
 
-1. In `applicationDidFinishLaunching` of your extension delegate, configure your `WCSession` before making any calls to the `ADBMobile` library.
+1. Em `applicationDidFinishLaunching` do delegado de extensão, configure `WCSession` antes de chamar a biblioteca `ADBMobile`.
 
    ```objective-c
    // check for session availability 
@@ -137,9 +137,9 @@ Conclua as seguintes etapas no projeto Xcode:
    [ADBMobile initializeWatch];
    ```
 
-1. In your extension delegate, implement the `session:didReceiveMessage:` and `session:didReceiveUserInfo:` methods.
+1. No delegado de extensão, implemente os métodos `session:didReceiveMessage:` e `session:didReceiveUserInfo:`.
 
-   `syncSettings:` é chamado na `ADBMobile` biblioteca, que retorna uma ferramenta que indica se o dicionário foi destinado ao consumo pela `ADBMobile` biblioteca. Se retornar `NO` (Não), a mensagem não foi iniciada a partir do SDK da Adobe.
+   `syncSettings:` é chamado na biblioteca `ADBMobile`, que retorna um bool indicando se o dicionário deve ser consumido pela biblioteca `ADBMobile`. Se retornar `NO` (Não), a mensagem não foi iniciada a partir do SDK da Adobe.
 
    ```objective-c
    - (void) session:(WCSession *)session didReceiveMessage:(NSDictionary<NSString *,id> *)message { 
@@ -160,7 +160,7 @@ Conclua as seguintes etapas no projeto Xcode:
 
 Lembre-se das seguintes informações:
 
-* For WatchKit apps, `a.RunMode` will be set to `Extension`.
+* Para os aplicativos WatchKit, `a.RunMode` será definido para `Extension`.
 * Como os aplicativos WatchKit são executados no relógio, os aplicativos registrarão corretamente seus nomes em `a.AppID`.
 * Nenhuma chamada de ciclo de vida é acionada nos aplicativos WatchOS2.
 
