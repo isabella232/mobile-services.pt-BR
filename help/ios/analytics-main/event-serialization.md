@@ -2,11 +2,11 @@
 description: A serialização de eventos não é suportada pelas regras de processamento. No SDK móvel, é necessário usar uma sintaxe especial no parâmetro de dados de contexto para definir eventos serializados diretamente na chamada do servidor.
 seo-description: A serialização de eventos não é suportada pelas regras de processamento. No SDK móvel, é necessário usar uma sintaxe especial no parâmetro de dados de contexto para definir eventos serializados diretamente na chamada do servidor.
 seo-title: Serialização de eventos
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Serialização de eventos
 topic: Desenvolvedor e implementação
 uuid: 19a27df4-0998-403d-800c-26ff61149208
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 ---
