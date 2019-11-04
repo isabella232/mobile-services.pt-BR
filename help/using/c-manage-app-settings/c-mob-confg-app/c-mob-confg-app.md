@@ -4,7 +4,7 @@ seo-description: 'Na página Gerenciar configurações do aplicativo, é possív
 seo-title: Configuração do aplicativo
 title: Configuração do aplicativo
 uuid: c088e12d-73b6-40c4-b8cc-ec3bb3d3aa4a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
@@ -22,7 +22,7 @@ Na página Gerenciar configurações do aplicativo, é possível fazer os seguin
 
       >[!TIP]
       >
-      >Caso tenha criado o conjunto de relatórios no Adobe Analytics, ative os relatórios de ciclo de vida. Caso tenha criado o conjunto de relatórios no Adobe Mobile, essa opção é ativada por padrão.
+      >Caso tenha criado o conjunto de relatórios no Adobe Analytics, você deve habilitar os relatórios de ciclo de vida. Caso tenha criado o conjunto de relatórios no Adobe Mobile, essa opção é ativada por padrão.
 
       Este relatório permite medir as seguintes métricas:
 
@@ -59,7 +59,7 @@ Na página Gerenciar configurações do aplicativo, é possível fazer os seguin
 
    >[!IMPORTANT]
    >
-   >Antes de baixar os SDKs e as ferramentas, configure as opções do SDK Analytics. Para obter mais informações, consulte [Configurar as opções](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md)do SDK Analytics.
+   >Antes de baixar os SDKs e as ferramentas, você deve configurar as opções do SDK Analytics. Para obter mais informações, consulte [Configurar as opções do SDK Analytics](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md).
 
    Quando estiver pronto para atualizar para os SDKs 4.x ou se estiver trabalhando em um novo aplicativo, baixe os SDKs e as ferramentas de desenvolvimento mais recentes, na parte inferior da página Gerenciar configurações do aplicativo.
 
