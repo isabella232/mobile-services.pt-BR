@@ -1,19 +1,19 @@
 ---
 description: Estas informações podem ajudar a solucionar problemas com as mensagens no aplicativo.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: Estas informações podem ajudar a solucionar problemas com as mensagens no aplicativo.
 seo-title: Resolução de problemas nas mensagens no aplicativo
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Resolução de problemas nas mensagens no aplicativo
 topic: Métricas
 uuid: 8813e8d8-bb1e-46ad-83cd-98ae68f73ce6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 ---
 
 
-# Troubleshooting in-app messaging{#troubleshooting-in-app-messaging}
+# Solução de problemas das mensagens no aplicativo{#troubleshooting-in-app-messaging}
 
 Estas informações podem ajudar a solucionar problemas com as mensagens no aplicativo.
 
@@ -23,7 +23,7 @@ Se você concluiu todos os requisitos para as mensagens no aplicativo, mas as me
 
 * Verifique se a versão do SDK é a 4.2 ou superior. Verifique também se foi configurado corretamente.
 
-* Ensure that you have a [Messaging](/help/using/in-app-messaging/in-app-messaging.md) section in your configuration (the downloaded JSON file) or have a Messages remote endpoint, so that it can be retrieved from dynamic tag management.
+* Verifique se há uma seção de [Mensagens](/help/using/in-app-messaging/in-app-messaging.md) na sua configuração (o arquivo JSON baixado) ou um terminal remoto de mensagens, para serem recuperados do gerenciamento dinâmico de tags.
 
 ## Minha mensagem de tela inteira não está aparecendo no Android. Estou usando o SDK correto e a configuração certa, mas meus acionadores não estão funcionando.
 
@@ -31,19 +31,19 @@ Você atualizou seu arquivo de manifesto para definir a atividade de tela inteir
 
 ## Minha mensagem de notificação local no Android não está funcionando.
 
-Verifique se o receptor da transmissão de notificação local esteja declarado no seu manifesto. For more information, see step #1 in [In-app messaging](/help/android/messaging-main/messaging/messaging.md).
+Verifique se o receptor da transmissão de notificação local esteja declarado no seu manifesto. Para obter mais informações, consulte a etapa 1 em [Mensagens no aplicativo](/help/android/messaging-main/messaging/messaging.md).
 
 ## A mensagem foi publicada?
 
 Verifique a exibição de lista na coluna **[!UICONTROL Status]** na página Gerenciar mensagens no aplicativo e verifique se a mensagem está ativa.
 
-## Observe *mostrar uma vez*, *mostrar sempre*, *mostrar configurações offline* na página Público-alvo.
+## Verifique as configurações *mostrar uma vez*, *mostrar sempre*, *mostrar offline* na página Público.
 
-Verifique se essas configurações estão corretas. Na página Público-alvo, analise as opções na guia **Acionador**, na qual você pode especificar a frequência com que a mensagem é exibida.
+Verifique se essas configurações estão corretas. Na página Público-alvo, analise as opções na guia **[!UICONTROL Acionador]**, na qual você pode especificar a frequência com que a mensagem é exibida.
 
 ## Caso esteja usando um evento de inicialização como acionador...
 
-O acionador só será ativado em uma nova sessão. Para obter informações sobre quando uma sessão começa, consulte `lifecycleTimeout` in the [ADBMobile JSON config](/help/ios/configuration/json-config/json-config.md) file.
+O acionador só será ativado em uma nova sessão. Para obter informações sobre quando começa uma sessão, consulte  `lifecycleTimeout` no arquivo [ADBMobile JSON config](/help/ios/configuration/json-config/json-config.md).
 
 ## Atualizei minha mensagem remotamente, mas meu aplicativo ainda exibe a mensagem antiga.
 
@@ -77,7 +77,7 @@ O SDK recupera as mensagens novas/atualizadas no momento da inicialização de u
 
 Complete as etapas a seguir:
 
-1. Curvar o URL das mensagens no arquivo de configuração para verificar se a mensagem remota foi atualizada (por exemplo, `curl "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-542c62859662383b1a0008f4.json"`)
+1. Use o comando Curl no URL das mensagens no arquivo de configuração para verificar se a mensagem remota foi atualizada (por exemplo, `curl "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-542c62859662383b1a0008f4.json"`)
 1. Feche o aplicativo.
-1. Wait for a time period that is longer than the `lifecycleTimeout` in the config file.
+1. Aguarde um período que seja maior que o `lifecycleTimeout` no arquivo de configuração.
 1. Abra o aplicativo, navegue até o local onde a mensagem deve ser exibida e verifique se ela foi atualizada.
