@@ -3,11 +3,11 @@ description: Ao personalizar relatórios, é possível que a ampla flexibilidade
 keywords: dispositivos móveis
 seo-description: Ao personalizar relatórios, é possível que a ampla flexibilidade faça com que surjam algumas dúvidas em relação ao tipo de relatório que é mais adequado para obter os dados de que você necessita.
 seo-title: Tipos de relatórios
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud, Analytics
 title: Tipos de relatórios
 topic: Relatórios, Métricas
 uuid: 8747b11e-31b1-47bc-ad55-db5ab4ef7078
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
@@ -21,11 +21,11 @@ Antes de personalizar os relatórios, você deve entender a diferença entre uma
 
 * Métrica
 
-   Uma métrica é usada para medir seus dados. As métricas são valores que podem ser contados e adicionados e são usadas para ver a frequência com que ações específicas ocorrem no aplicativo. Métricas comuns incluem instalações, inicializações, rendimento, valor de duração e logons. Por exemplo, cada vez que o seu aplicativo é inicializado, o valor das _launches_value is increased by one.
+   Uma métrica é usada para medir seus dados. As métricas são valores que podem ser contados e adicionados e são usadas para ver a frequência com que ações específicas ocorrem no aplicativo. Métricas comuns incluem instalações, inicializações, rendimento, valor de duração e logons. Por exemplo, cada vez que o seu aplicativo é inicializado,  o  _launches_value aumenta uma unidade.
 
 * Dimensão
 
-   Uma dimensão é usada para descrever seus dados. As dimensões são representadas usando uma sequência de caracteres ou um número que age como uma sequência de caracteres (como um código postal, e é usado para organizar e segmentar seus dados. Exemplos de dimensões comuns incluem a versão do sistema operacional, o nome da campanha, o nome do produto e a operadora de celular. Cada dimensão tem uma série de valores específicos que estão associadas a essa dimensão. For example, the OS version dimension has values such as _iOS 7_ and _Android 4.1.2_.
+   Uma dimensão é usada para descrever seus dados. As dimensões são representadas usando uma sequência de caracteres ou um número que atue como uma sequência de caracteres (por exemplo, um código postal) e são usadas para organizar e segmentar seus dados. Exemplos de dimensões comuns incluem a versão do sistema operacional, o nome da campanha, o nome do produto e a operadora de celular. Cada dimensão tem uma série de valores específicos que estão associadas a essa dimensão. Por exemplo, a dimensão da versão de sistema operacional possui valores como _iOS 7_ e _Android 4.1.2_.
 
 Estes são os tipos de relatórios que você pode gerar na interface do usuário móvel:
 
@@ -39,7 +39,7 @@ Por exemplo, se perceber um crescimento nas inicializações, será possível ex
 
 Para exibir valores de dimensão com outras métricas em um relatório ao longo do tempo, você pode usar a métrica de instâncias e definir um filtro de dimensão.
 
-## Relatório de tendências {#section_C9BE9A2EDBFF4D938B9AF14C8AA67883}
+## Relatório de tendências  {#section_C9BE9A2EDBFF4D938B9AF14C8AA67883}
 
 Os relatórios de tendência ajudam você a ver o desempenho de suas dimensões mais populares em relação a uma métrica. Você pode usar esse relatório para determinar quais valores estão contribuindo mais para uma alteração em uma métrica.
 
@@ -59,7 +59,7 @@ Os relatórios classificados mostram a frequência com que as 50 principais dime
 
 ![](assets/ranked.png)
 
-## Relatório em forma de raio de sol {#section_17A9842039174DE094A6B1E9837E35BB}
+## Gráfico de explosão solar  {#section_17A9842039174DE094A6B1E9837E35BB}
 
 Os relatórios em forma de raio de sol fornecem, por exemplo, o relatório base junto com os detalhamentos. A visualização usa a altura para mostrar a métrica e as diferenças de desempenho entre as métricas. Cada círculo concêntrico representa um segmento de público-alvo na categoria desse círculo. É possível realizar ações com um público-alvo, como aplicar um filtro fixo, ocultar uma métrica e visualizar métricas.
 
@@ -69,8 +69,8 @@ Para iniciar o tutorial:
 
 1. em Gerenciar configurações do aplicativo, clique em **[!UICONTROL Utilização]**.
 
-1. Click **[!UICONTROL Technology]** &gt; **[!UICONTROL Technology Breakdown]**.
-1. In the title bar of the report, click **[!UICONTROL Customize]**, and click the information icon.
+1. Clique em **[!UICONTROL Tecnologia]** &gt; **[!UICONTROL Detalhamento da tecnologia]**.
+1. Na barra de título do relatório, clique em **[!UICONTROL Personalizar]**, e clique no ícone de informações.
 
 ![](assets/report_technology.png)
 
@@ -82,9 +82,9 @@ Um relatório de definição de Caminhos se baseia na análise de caminhos e mos
 
 Cada nó tem a forma de uma caixa e representa um estado nos caminhos dos usuários em um aplicativo. Por exemplo, na ilustração acima, o nó superior representa o número de usuários que inicializaram o aplicativo e escolheram uma foto da galeria.
 
-### Relatório de funil {#section_AF3B0C899D844FC3AD1F91A2C452C92F}
+### Relatório de funil  {#section_AF3B0C899D844FC3AD1F91A2C452C92F}
 
-Os relatórios de funil permitem identificar onde os clientes abandonam uma campanha de marketing ou foram desviados de um caminho de conversão definido ao interagirem com o aplicativo móvel. Você também pode usar o relatório Funil para comparar ações de segmentos diferentes.
+Os relatórios de funil permitem identificar onde os clientes abandonam uma campanha de marketing ou foram desviados de um caminho de conversão definido ao interagirem com o aplicativo móvel. Você também pode usar o relatório Funil para comparar as ações de segmentos diferentes.
 
 A visualização em funil permite observar onde os clientes saem do processo. Obter visibilidade sobre as decisões do cliente em cada etapa permite compreender onde são dissuadidos, que caminho costumam seguir e quando saem do aplicativo.
 
