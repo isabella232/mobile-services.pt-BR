@@ -1,31 +1,31 @@
 ---
 description: Você pode configurar as opções do Analytics do SDK na página Gerenciar configurações do aplicativo, enquanto cria um novo aplicativo ou edita um aplicativo existente.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: Você pode configurar as opções do Analytics do SDK na página Gerenciar configurações do aplicativo, enquanto cria um novo aplicativo ou edita um aplicativo existente.
 seo-title: Configuração de opções de SDK do Analytics
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud, Analytics
 title: Configuração de opções de SDK do Analytics
 topic: Métricas
 uuid: fd3a21d2-6560-4e96-92fe-b99caac5e834
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
 ---
 
 
-# Configure SDK Analytics options {#configure-sdk-analytics-options}
+# Configurar as opções do Analytics do SDK {#configure-sdk-analytics-options}
 
 Você pode configurar as opções do Analytics do SDK na página Gerenciar configurações do aplicativo, enquanto cria um novo aplicativo ou edita um aplicativo existente.
 
-Type information in the following fields under **[!UICONTROL SDK Analytics Options]**:
+Digite as informações nos seguintes campos em **[!UICONTROL Opções do Analytics do SDK]**:
 
 * **[!UICONTROL Usar HTTPS]**
 
-   Ativa o HTTPS para ter mais segurança.
+   Ative o HTTPS para ter mais segurança.
 
 * **[!UICONTROL Colocar data retroativa em hits da sessão]**
 
-   Ative ou desative a capacidade do Adobe SDK de pré-datar as ocorrências de informações da sessão. Atualmente, as ocorrências de informação da sessão são os travamentos e a duração da sessão. Quando ativado, o Adobe SDK colocará data retroativa em informações da sessão para 1 segundo após o último hit da sessão anterior. Isso significa que os dados dos travamentos e da sessão estarão relacionados à data exata em que ocorreram. Uma ocorrência receberá data retroativa em cada nova inicialização do aplicativo. Quando desativado, o Adobe SDK anexará as informações da sessão ao ciclo de vida atual.
+   Ative/desative a capacidade do Adobe SDK de colocar data retroativa nas ocorrências de informação da sessão. Atualmente, as ocorrências de informação da sessão são os travamentos e a duração da sessão. Quando ativado, o Adobe SDK colocará data retroativa em informações da sessão para 1 segundo após o último hit da sessão anterior. Isso significa que os dados dos travamentos e da sessão estarão relacionados à data exata em que ocorreram. Uma ocorrência receberá data retroativa em cada nova inicialização do aplicativo. Quando desativado, o Adobe SDK anexará as informações da sessão ao ciclo de vida atual.
 
 * **[!UICONTROL Privacidade]**
 
@@ -48,6 +48,6 @@ Type information in the following fields under **[!UICONTROL SDK Analytics Optio
 
 * **[!UICONTROL Mais detalhes]**
 
-   Clique no link **[!UICONTROL Mais detalhes]para exibir a ID do conjunto de relatórios e o servidor de rastreamento, ativar ou desativar o rastreamento offline e exibir o modelo de codificação de caracteres em uso (como UTF-8).**
+   Clique no link **[!UICONTROL Mais detalhes]** para exibir a ID do conjunto de relatórios e o servidor de rastreamento, ativar ou desativar o rastreamento offline e exibir o modelo de codificação de caracteres em uso (como UTF-8).
 
    Quando o rastreamento offline está desativado, os dados gerados enquanto o dispositivo está offline recebem o carimbo de data/hora e são enviados posteriormente. Se essa opção estiver desativada, os dados offline são descartados.
