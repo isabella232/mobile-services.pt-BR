@@ -2,32 +2,32 @@
 description: Aqui estão os métodos do Serviço da Experience Cloud ID fornecidos pela biblioteca do Android.
 keywords: android;biblioteca;móvel;sdk
 seo-description: Aqui estão os métodos do Serviço da Experience Cloud ID fornecidos pela biblioteca do Android.
-seo-title: Adobe Experience Platform Identity Service methods
-solution: Marketing Cloud,Analytics
+seo-title: Métodos do Adobe Experience Platform Identity Service
+solution: Experience Cloud,Analytics
 title: Métodos do Adobe Experience Platform Identity Service
 topic: Desenvolvedor e implementação
 uuid: c5107a7e-273b-4f71-8738-4c603479b24c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8fc515a6e89044b9dac98b3f207c5f43b658a2ec
 
 ---
 
 
-# Adobe Experience Platform Identity Service methods{#experience-cloud-id-service-methods}
+# Métodos do Adobe Experience Platform Identity Service{#experience-cloud-id-service-methods}
 
 Aqui estão os métodos do Serviço da Experience Cloud ID fornecidos pela biblioteca do Android.
 
-The SDK currently supports multiple Adobe Experience Cloud Solutions], including Analytics, Target, Audience Manager, and the Adobe Experience Platform Identity Service.
+Atualmente, o SDK é compatível com várias soluções da Adobe Experience Cloud, incluindo o Analytics, o Target, o Audience Manager e o Adobe Experience Platform Identity Service.
 
-Methods are prefixed according to the solution. For example, Experience Cloud ID methods are prefixed with `visitor`. For more information, see [Experience Cloud ID Configuration](/help/android/c-marketing-cloud/mcvid.md).
+Os métodos recebem o prefixo de acordo com a solução. Por exemplo, métodos da Experience Cloud ID recebem o prefixo `visitor`. Para obter mais informações, consulte [Configuração da Experience Cloud ID](/help/android/c-marketing-cloud/mcvid.md).
 
 * **public static String appendToURL(final String URL)**
 
-   Anexa os dados de visitante da Adobe a uma cadeia de caracteres do URL para usar com a biblioteca do Adobe JavaScript. É necessário ter o Mobile SDK 4.12+ para usar esse método. Para obter mais informações, consulte [Anexar função de ajuda da ID de visitante](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-appendvisitorid.html).
+   Acrescenta dados de visitantes da Adobe a uma cadeia de caracteres de URL para uso com a biblioteca JavaScript da Adobe. É necessário ter o Mobile SDK 4.12+ para usar esse método. Para obter mais informações, consulte [Anexar função de ajuda da ID de visitante](https://marketing.adobe.com/resources/help/pt_BR/mcvid/mcvid-appendvisitorid.html).
 
    >[!IMPORTANT]
    >
-   >This method can cause a blocking network call. Não chame este método em tópicos sensíveis ao tempo.
+   >Este método pode causar uma chamada de rede de bloqueio. Não chame este método em tópicos sensíveis ao tempo.
 
    * Esta é a sintaxe para este método:
 
@@ -66,7 +66,7 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
 
       >[!IMPORTANT]
       >
-      >This method can cause a blocking network call and should **not** be called from a UI thread.
+      >Este método pode causar uma chamada de bloqueio de rede e **não** deve ser chamado de um encadeamento da interface do usuário.
 
 * **syncIdentifiers**
 
@@ -149,7 +149,7 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
 
 * **getUrlVariablesAsync**
 
-   Introduzido na versão 4.16.0, este método retorna uma sequência de caracteres devidamente formada que contém variáveis de URL do Serviço de ID de visitante. For more information about how this method is used, see Adobe Experience Platform Identity Service methods.[](/help/android/reference/hybrid-app.md)
+   Introduzido na versão 4.16.0, este método retorna uma sequência de caracteres devidamente formada que contém variáveis de URL do Serviço de ID de visitante. Para obter mais informações sobre como esse método é usado, consulte [Métodos do Adobe Experience Platform Identity Service](/help/android/reference/hybrid-app.md).
 
    * Esta é a sintaxe para este método:
 
@@ -170,7 +170,7 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
       });
       ```
 
-## Public methods {#section_8AC744B431A3438C9B45629CA3EA0F51}
+## Métodos públicos {#section_8AC744B431A3438C9B45629CA3EA0F51}
 
 ```java
 public class VisitorID { 
