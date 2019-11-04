@@ -2,24 +2,24 @@
 description: As seguintes informações ajudam a redirecionar um link de campanha de aquisição de legado com base em uma impressão digital do dispositivo.
 seo-description: As seguintes informações ajudam a redirecionar um link de campanha de aquisição de legado com base em uma impressão digital do dispositivo.
 seo-title: Teste da aquisição de legado
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Teste da aquisição de legado
 uuid: e0591f4a-e26b-4fe4-97c1-a6831a926fa5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 ---
 
 
-# Testing legacy acquisition {#testing-legacy-acquisition}
+# Teste de aquisição de legado {#testing-legacy-acquisition}
 
 As seguintes informações ajudam a redirecionar um link de campanha de aquisição de legado com base em uma impressão digital do dispositivo.
 
 Se o aplicativo móvel ainda não estiver no Google Play, você pode selecionar qualquer aplicativo móvel como destino ao criar o link da campanha. Isso não afeta a capacidade de testar o link de aquisição, afeta somente o aplicativo para o qual você é redirecionado pelo servidor de aquisição após clicar no link.
 
-1. Navigate to **[!UICONTROL Use Legacy Acquisition Links]** in Adobe Mobile Services and generate an acquisition campaign URL.
+1. Navegue até **[!UICONTROL Usar links de aquisição de legado]** no Adobe Mobile Services e gere um URL de campanha de aquisição.
 
-   Para obter mais informações, consulte [Usar links de aquisição herdados](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-use-legacy-acquisition-links.md).
+   Para obter mais informações, consulte [Usar links de aquisição de legado](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-use-legacy-acquisition-links.md).
 
 1. No dispositivo móvel no qual você instalará o aplicativo, clique no link gerado.
 
