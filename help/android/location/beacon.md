@@ -3,11 +3,11 @@ description: O rastreamento de sinal permite medir e direcionar localizações d
 keywords: android;biblioteca;móvel;sdk
 seo-description: O rastreamento de sinal permite medir e direcionar localizações de micro ao usar o iBeacon e o Bluetooth de baixa energia.
 seo-title: Rastreamento de sinal
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Rastreamento de sinal
 topic: Desenvolvedor e implementação
 uuid: 16c1d267-85f4-4a6a-a6d3-d6ffb0f80b29
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ---
@@ -19,7 +19,7 @@ O rastreamento de sinal permite medir e direcionar localizações de micro ao us
 
 Os seguintes dados de beacon são enviados para o Analytics e o Target quando `trackBeacon` é chamado:
 
-* `a.beacon.uuid` - ProximityUUID do sinal
+* `a.beacon.uuid` - ProximityUUID do beacon
 * `a.beacon.major` - Maior número do sinal (como número de armazenamento)
 * `a.beacon.minor` - Menor número do sinal (como número exclusivo em um armazenamento)
 * `a.beacon.prox` - Valores de 0 a 3 que representam a proximidade do usuário em relação ao sinal.
@@ -33,11 +33,11 @@ Esses valores significam:
 
 Estes dados de sinal são coletados nas variáveis da solução móvel.
 
-## Rastrear beacons {#section_FC3F213545944A468B1E6D5D5C8E2F1F}
+## Rastrear sinais {#section_FC3F213545944A468B1E6D5D5C8E2F1F}
 
 1. Adicione a biblioteca ao projeto e implemente o ciclo de vida.
 
-   Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao projeto* IntelliJ IDEA ou Eclipse na implementação e ciclo de vida [principal](/help/android/getting-started/dev-qs.md).
+   Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao projeto IntelliJ IDEA ou Eclipse* na [Implementação principal e ciclo de vida](/help/android/getting-started/dev-qs.md).
 
 1. Importe a biblioteca:
 
@@ -67,7 +67,7 @@ Estes dados de sinal são coletados nas variáveis da solução móvel.
    Analytics.clearBeacon();
    ```
 
-## Send additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## Enviar dados adicionais {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 Além dos dados de sinal, é possível enviar dados de contexto adicionais com cada chamada `trackBeacon`:
 
@@ -77,7 +77,7 @@ cdata.put("myapp.ImageLiked", imageName);
 Analytics.trackBeacon(beaconUUID, major, minor, proximity, cdata);
 ```
 
-Context data values must be mapped to custom variables in the Adobe Mobile services:
+Os valores de dados de contexto devem ser mapeados para variáveis personalizadas no Adobe Mobile Services:
 
 ![](assets/map-variable-context-ltv.png)
 
