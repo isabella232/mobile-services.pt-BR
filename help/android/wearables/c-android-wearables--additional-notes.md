@@ -1,18 +1,18 @@
 ---
 description: Estas informações ajudam a configurar a extensão do Android que permite coletar dados do aplicativo Android Wearable.
 seo-description: Estas informações ajudam a configurar a extensão do Android que permite coletar dados do aplicativo Android Wearable.
-seo-title: Android Wearables  Additional Notes
-solution: Marketing Cloud,Analytics
-title: Notas adicionais do Android Wearables
+seo-title: Android Wearables  Observações adicionais
+solution: Experience Cloud,Analytics
+title: Android Wearables  Observações adicionais
 topic: Desenvolvedor e implementação
 uuid: 3bcf352b-4d46-4ab3-81ec-c27e86fe9be3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
 
 
-# Android Wearables: additional notes{#android-wearables-additional-notes}
+# Android Wearables: observações adicionais{#android-wearables-additional-notes}
 
 Estas informações ajudam a configurar a extensão do Android que permite coletar dados do aplicativo Android Wearable.
 
@@ -27,6 +27,6 @@ Estas informações ajudam a configurar a extensão do Android que permite colet
 
       A ocorrência vem do aplicativo wearable.
 
-* The SDK automatically syncs the `aid`/`vid`/`visitor` `service id`/`privacy` status from the handheld app to the wearable app, so do not call `setPrivacyStatus`/`setUserIdentifier`/`idSync` from the wearable app.
-* [As mensagens](/help/android/messaging-main/messaging/messaging.md)no aplicativo, o [Target](/help/android/target-main/target.md)e o [Audience Manager](/help/android/audience-manager/audiencemgmt.md) estão desativados para o aplicativo wearable.
+* O SDK sincroniza automaticamente o status `aid`/`vid`/`visitor` `service id`/`privacy` do aplicativo portátil para o aplicativo wearable; portanto, não faça uma chamada `setPrivacyStatus`/`setUserIdentifier`/`idSync` do aplicativo wearable.
+* [As mensagens no aplicativo](/help/android/messaging-main/messaging/messaging.md), o [Target](/help/android/target-main/target.md) e o [Audience Manager](/help/android/audience-manager/audiencemgmt.md) estão desativados para o aplicativo wearable.
 
