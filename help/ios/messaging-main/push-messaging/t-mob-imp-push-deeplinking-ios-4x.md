@@ -4,13 +4,13 @@ seo-description: Depois de configurar o URL de deep linking na interface do usu�
 seo-title: Implementar mensagens de push com deep linking
 title: Implementar mensagens de push com deep linking
 uuid: ee9590fc-8bd3-4111-9221-9011d9edbd84
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 ---
 
 
-# Implement push messaging with deep linking {#implement-push-messaging-with-deep-linking}
+# Implementar mensagens por push com deep linking {#implement-push-messaging-with-deep-linking}
 
 Depois de configurar o URL de deep linking na interface do usuário do Adobe Mobile Services, este URL estará na carga de envio com a chave `adb_deeplink`.
 
@@ -22,11 +22,11 @@ Depois de configurar o URL de deep linking na interface do usuário do Adobe Mob
 
    * Os métodos delegados para Notificação remota
 
-      In the `didReceiveRemoteNotification:` application or in the `didReceiveRemoteNotification:fetchCompletionHandler:` application, you can get the URL by accessing the `userInfo` dictionary with the `adb_deeplink` key.
+      No aplicativo `didReceiveRemoteNotification:` ou `didReceiveRemoteNotification:fetchCompletionHandler:`, é possível obter o URL acessando o dicionário `userInfo` com a chave `adb_deeplink`.
 
-   * The delegate methods for `UNUserNotificationCenter`
+   * Os métodos delegados para `UNUserNotificationCenter`
 
-      In the `userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:` method, you can get the push payload from the `userInfo` dictionary, in the `adb_deeplink` key.
+      No método `userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:`, é possível obter a carga de push do dicionário `userInfo`, na chave `adb_deeplink`.
 
 Por exemplo:
 
