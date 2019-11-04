@@ -1,29 +1,29 @@
 ---
-description: O relatório de Funil permite identificar onde os clientes abandonaram uma campanha de marketing ou foram desviados de um caminho de conversão definido ao interagirem com o aplicativo móvel. Você também pode usar o relatório Funil para comparar ações de segmentos diferentes.
-keywords: mobile
-seo-description: O relatório de Funil permite identificar onde os clientes abandonaram uma campanha de marketing ou foram desviados de um caminho de conversão definido ao interagirem com o aplicativo móvel. Você também pode usar o relatório Funil para comparar ações de segmentos diferentes.
+description: O relatório de Funil permite identificar onde os clientes abandonaram uma campanha de marketing ou foram desviados de um caminho de conversão definido ao interagirem com o aplicativo móvel. Você também pode usar o relatório Funil para comparar as ações de segmentos diferentes.
+keywords: dispositivos móveis
+seo-description: O relatório de Funil permite identificar onde os clientes abandonaram uma campanha de marketing ou foram desviados de um caminho de conversão definido ao interagirem com o aplicativo móvel. Você também pode usar o relatório Funil para comparar as ações de segmentos diferentes.
 seo-title: Relatório de funil
-solution: Marketing Cloud,Analytics
-title: Funnel report
+solution: Experience Cloud, Analytics
+title: Relatório de funil
 topic: Relatórios, Métricas
 uuid: 268b4ab9-2e29-4423-9f79-ad93f5231ede
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 ---
 
 
-# Funnel report{#funnel}
+# Relatório de funil{#funnel}
 
-O relatório de **[!UICONTROL Funil]permite identificar onde os clientes abandonaram uma campanha de marketing ou foram desviados de um caminho de conversão definido ao interagirem com o aplicativo móvel.** Você também pode usar o relatório **[!UICONTROL Funil]para comparar as ações de segmentos diferentes.**
+O relatório de **[!UICONTROL Funil]** permite identificar onde os clientes abandonaram uma campanha de marketing ou foram desviados de um caminho de conversão definido ao interagirem com o aplicativo móvel. Você também pode usar o relatório **[!UICONTROL Funil]** para comparar as ações de segmentos diferentes.
 
 Obter visibilidade sobre as decisões do cliente em cada etapa permite compreender onde são dissuadidos, que caminho costumam seguir e quando saem do aplicativo.
 
-Quando você abre o relatório **[!UICONTROL Funil], deve criar um funil personalizado.** For more information, see [Customize Reports](/help/using/usage/reports-customize/reports-customize.md).
+Quando você abre o relatório **[!UICONTROL Funil]**, deve criar um funil personalizado. Para obter mais informações, consulte [Personalizar relatórios](/help/using/usage/reports-customize/reports-customize.md).
 
 >[!TIP]
 >
->To save your custom funnel, save the URL after you configure its settings and run the report. Você pode compartilhar o URL ou salvá-lo em um documento.
+>Para salvar seu funil personalizado, salve o URL após definir as configurações e executar o relatório. Você pode compartilhar o URL ou salvá-lo em um documento.
 
 Este é um exemplo desse relatório:
 
@@ -47,13 +47,13 @@ Você pode configurar as seguintes opções no relatório:
 
 * **[!UICONTROL Período de tempo]**
 
-   Clique no ícone **[!UICONTROL Calendário]e selecione um período de tempo personalizado ou escolha um período de tempo predefinido na lista suspensa.**
+   Clique no ícone **[!UICONTROL Calendário]** e selecione um período de tempo personalizado ou escolha um período de tempo predefinido na lista suspensa.
 * **[!UICONTROL Personalizar]**
 
-   Personalize seus relatórios alterando as opções **[!UICONTROL Mostrar por], adicionando métricas e filtros e adicionando séries (métricas) e muito mais.** For more information, see [Customize Reports](/help/using/usage/reports-customize/reports-customize.md).
+   Personalize seus relatórios alterando as opções **[!UICONTROL Mostrar por]**, adicionando métricas e filtros e adicionando séries (métricas) e muito mais. Para obter mais informações, consulte [Personalizar relatórios](/help/using/usage/reports-customize/reports-customize.md).
 * **[!UICONTROL Filtro]**
 
-   Clique em **[!UICONTROL Filtro]para criar um filtro que abrange vários relatórios e observar o desempenho de um segmento específico em todos os relatórios móveis.** Um filtro fixo permite definir um filtro aplicado a todos os relatórios não relacionados à definição de caminho. Para obter mais informações, consulte [Adicionar filtro](/help/using/usage/reports-customize/t-sticky-filter.md)fixo.
+   Clique em **[!UICONTROL Filtro]** para criar um filtro que abrange vários relatórios e observar o desempenho de um segmento específico em todos os relatórios móveis. Um filtro fixo permite definir um filtro aplicado a todos os relatórios não relacionados à definição de caminho. Para mais informações, consulte [Adicionar filtro fixo](/help/using/usage/reports-customize/t-sticky-filter.md).
 * **[!UICONTROL Baixar]**
 
-   Click **[!UICONTROL PDF]** or **[!UICONTROL CSV]** to download or open documents and share with users who do not have access to Mobile Services or to use the file in presentations.
+   Clique em **[!UICONTROL PDF]** ou **[!UICONTROL CSV]** para baixar ou abrir documentos e compartilhá-los com usuários que não têm acesso ao Mobile Services ou para usá-los em apresentações.
