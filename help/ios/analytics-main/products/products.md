@@ -2,21 +2,21 @@
 description: A variável products não pode ser configurada usando as regras de processamento. No SDK 4.x para iOS, é necessário usar uma sintaxe especial no parâmetro de dados de contexto para definir products diretamente na chamada do servidor.
 seo-description: A variável products não pode ser configurada usando as regras de processamento. No SDK 4.x para iOS, é necessário usar uma sintaxe especial no parâmetro de dados de contexto para definir products diretamente na chamada do servidor.
 seo-title: Variável products
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Variável products
 topic: Desenvolvedor e implementação
 uuid: 6ece4d27-ef86-435c-a6f7-bd76be1c95ca
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7aff336586058302046a728a0b1b0ce12660c1ba
 
 ---
 
 
-# Products variable {#products-variable}
+# Variável products {#products-variable}
 
 A variável products não pode ser configurada usando as regras de processamento. No SDK 4.x para iOS, é necessário usar uma sintaxe especial no parâmetro de dados de contexto para definir products diretamente na chamada do servidor.
 
-To set the *`products`* variable, set a context data key to `"&&products"`, and set the value by using the syntax that is defined for the *`products`* variable:
+Para configurar a variável *`products`*, defina uma chave de dados de contexto para `"&&products"` e defina o valor usando a sintaxe definida para a variável *`products`*:
 
 ```objective-c
 [contextData setObject:@"Category;Product;Quantity;Price[,Category;Product;Quantity;Price]" forKey:@"&&products"];
@@ -45,4 +45,4 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 
 ![](assets/map-products.png)
 
-Não é necessário mapear a variável *`products`* usando regras de processamento porque é definida diretamente na solicitação de imagem pelo SDK.
+Não é necessário mapear a variável *`products`* usando regras de processamento, porque é definida diretamente na solicitação de imagem pelo SDK.
