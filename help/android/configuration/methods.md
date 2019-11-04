@@ -2,22 +2,22 @@
 description: Esta é uma lista de métodos do fornecida pela biblioteca do Android.
 keywords: android;biblioteca;móvel;sdk
 seo-description: Esta é uma lista de métodos do fornecida pela biblioteca do Android.
-seo-title: Configuração de métodos
-solution: Marketing Cloud,Analytics
-title: Configuração de métodos
+seo-title: Métodos de configuração
+solution: Experience Cloud,Analytics
+title: Métodos de configuração
 topic: Desenvolvedor e implementação
 uuid: 663aeb6c-1b97-4a3a-8c0e-dd4c2ec28c01
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 ---
 
 
-# Configuration methods{#configuration-methods}
+# Métodos de configuração{#configuration-methods}
 
 Esta é uma lista de métodos do fornecida pela biblioteca do Android.
 
-## Initial configuration {#section_9169243ECC4744A899A8271F92090ECD}
+## Configuração inicial {#section_9169243ECC4744A899A8271F92090ECD}
 
 O método a seguir deve ser chamado uma vez no método `onCreate` da atividade principal:
 
@@ -34,15 +34,15 @@ Esta é a amostra de código para este método:
    ````
 
 
-## SDK settings (Config Class) {#section_C1EB977043C04D2B93E5A63DB72828B6}
+## Configurações do SDK (Classe de configuração) {#section_C1EB977043C04D2B93E5A63DB72828B6}
 
 * **registerAdobeDataCallback**
 
-   * Registra um objeto que implementa a interface do `AdobeDataCallback`. The overwritten "call" method will be invoked with a `Config.MobileDataEvent` value and the associated data in a `Map<String, Object>` for the triggering event. Para obter mais detalhes sobre quais eventos acionarão esse retorno de chamada, consulte *MobileDataEventEnum* na parte inferior deste tópico.
+   * Registra um objeto que implementa a interface do `AdobeDataCallback`. O método "call" substituído será chamado com um valor `Config.MobileDataEvent` e os dados referentes em uma `Map<String, Object>` para o evento de acionamento. Para obter mais detalhes sobre quais eventos acionarão esse retorno de chamada, consulte *MobileDataEventEnum* no final deste tópico.
 
       >[!TIP]
       >
-      >Este método requer a versão 4.9.0 ou posterior.
+      >Este método exige a versão 4.9.0 ou posteriores.
 
    * Esta é a sintaxe para este método:
 
@@ -86,9 +86,9 @@ Esta é a amostra de código para este método:
 
       Estes são os valores do status de privacidade:
 
-      * `MOBILE_PRIVACY_STATUS_OPT_IN`, onde as ocorrências são enviadas imediatamente.
-      * `MOBILE_PRIVACY_STATUS_OPT_OUT`, where the its are discarded.
-      * `MOBILE_PRIVACY_STATUS_UNKNOWN`, se o conjunto de relatórios tiver um carimbo de hora e data, as ocorrências serão salvas até que o status de privacidade seja alterado para opt-in (as ocorrências são enviadas) ou opt-out (as ocorrências são descartadas).
+      * `MOBILE_PRIVACY_STATUS_OPT_IN`, em que as ocorrências são enviadas imediatamente.
+      * `MOBILE_PRIVACY_STATUS_OPT_OUT`, em que as ocorrências são descartadas.
+      * `MOBILE_PRIVACY_STATUS_UNKNOWN`, se o conjunto de relatórios tiver um carimbo de hora e data, as ocorrências serão salvas até que o status de privacidade seja alterado para “aceitar” (as ocorrências são enviadas) ou “recursar”(as ocorrências são descartadas).
 
          Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in. O valor padrão está definido no arquivo `ADBMobileConfig.json`.
    * Esta é a sintaxe para este método:
@@ -109,8 +109,8 @@ Esta é a amostra de código para este método:
    * Define o de privacidade do usuário atual como `status`status.
 
       E possível definir o status de privacidade para um dos valores a seguir:
-      * `MOBILE_PRIVACY_STATUS_OPT_IN`, onde as ocorrências são enviadas imediatamente. Essas ocorrências são enviadas imediatamente.
-      * `MOBILE_PRIVACY_STATUS_OPT_OUT`, quando as suas emissões forem eliminadas. Essas ocorrências são descartadas.
+      * `MOBILE_PRIVACY_STATUS_OPT_IN`, em que as ocorrências são enviadas imediatamente. Essas ocorrências são enviadas imediatamente.
+      * `MOBILE_PRIVACY_STATUS_OPT_OUT`, em que as ocorrências são descartadas. Essas ocorrências são descartadas.
       * `MOBILE_PRIVACY_STATUS_UNKNOWN`, se o conjunto de relatórios tiver um carimbo de hora e data, as ocorrências serão salvas até que o status de privacidade seja alterado para opt-in (as ocorrências são enviadas) ou opt-out (as ocorrências são descartadas).
 Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in.
    * Esta é a sintaxe para este método:
@@ -136,7 +136,7 @@ Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências 
       public static BigDecimal getLifetimeValue();
       ```
 
-   * Here is a code sample for this method:
+   * Esta é uma amostra de código para este método:
 
       ```java
       BigDecimal currentLifetimeValue Config.getLifetimeValue(); 
@@ -148,7 +148,7 @@ Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências 
 
       >[!TIP]
       >
-      >Se seu aplicativo for atualizado do Experience Cloud 3.x para o SDK 4.x, a ID de visitante personalizada ou gerada automaticamente anterior será recuperada e armazenada como o identificador de usuário personalizado. Isso preserva os dados dos visitantes entre as atualizações de SDK. Para novas instalações do SDK 4.x, até que seja definido, o identificador do usuário é `null`.
+      >Se seu aplicativo for atualizado do SDK 3.x da Experience Cloud para o 4.x, a ID anterior de visitante, personalizada ou gerada automaticamente, será recuperada e armazenada como o identificador personalizado do usuário. Isso preserva os dados dos visitantes entre as atualizações de SDK. Para novas instalações do SDK 4.x, até que seja definido, o identificador do usuário é `null`.
 
    * Esta é a sintaxe para este método:
 
@@ -156,7 +156,7 @@ Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências 
       public static String&amp getUserIdentifier();
       ```
 
-   * Aqui está a amostra de código para este método:
+   * Esta é a amostra de código para este método:
 
       ```java
       String userId = Config.getUserIdentifier();
@@ -345,7 +345,7 @@ Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências 
 
       >[!IMPORTANT]
       > 
-      >If you want to use the Advertising Identifier in Acquisition or Lifecycle, call it before calling `Config.collectLifecycleData`.
+      >Caso queira usar o Identificador de anúncio na Aquisição ou Ciclo de vida, é necessário chamá-lo antes de fazer uma chamada `Config.collectLifecycleData`.
 
       * Esta é a sintaxe para este método:
 
