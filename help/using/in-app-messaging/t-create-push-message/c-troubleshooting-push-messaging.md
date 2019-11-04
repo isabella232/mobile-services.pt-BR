@@ -1,19 +1,19 @@
 ---
 description: Estas informações podem ajudar a solucionar problemas com as mensagens de push.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: Estas informações podem ajudar a solucionar problemas com as mensagens de push.
 seo-title: Solucionar problemas de mensagens de push
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Solucionar problemas de mensagens de push
 topic: Métricas
 uuid: c7be4ab7-0cfe-4296-84a8-01412f4fd93f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 ---
 
 
-# Troubleshooting push messaging{#troubleshooting-push-messaging}
+# Solucionar problemas de mensagens por push{#troubleshooting-push-messaging}
 
 Estas informações podem ajudar a solucionar problemas com as mensagens de push.
 
@@ -21,7 +21,7 @@ Estas informações podem ajudar a solucionar problemas com as mensagens de push
 
 Os seguintes tipos de atrasos podem estar associados a mensagens de push para os Mobile Services:
 
-* **Aguardando ocorrências do Analytics**
+* **Aguardar as ocorrências do Analytics**
 
    Todo conjunto de relatórios possui uma configuração que determina quando processar as ocorrências que chegam do Analytics. O padrão é a cada 1 hora.
 
@@ -29,7 +29,7 @@ Os seguintes tipos de atrasos podem estar associados a mensagens de push para os
 
 * **Aguardar o serviço de push**
 
-   O serviço de push (APNS ou GCM) talvez não envie a mensagem imediatamente. Embora seja incomum, houve ocorrências de tempos de espera de 5 a 10 minutos. É possível verificar se a mensagem de push foi enviada ao serviço de push na exibição **[!UICONTROL Relatório]** da mensagem de push, localizando a mensagem na tabela **[!UICONTROL Histórico de mensagens]e verificando a contagem de** Publicado **.**
+   O serviço de push (APNS ou GCM) talvez não envie a mensagem imediatamente. Embora seja incomum, houve ocorrências de tempos de espera de 5 a 10 minutos. É possível verificar se a mensagem de push foi enviada ao serviço de push na exibição **[!UICONTROL Relatório]** da mensagem de push, localizando a mensagem na tabela **[!UICONTROL Histórico de mensagens]** e verificando a contagem de **[!UICONTROL Publicado]**.
 
    >[!TIP]
    >
@@ -38,7 +38,7 @@ Os seguintes tipos de atrasos podem estar associados a mensagens de push para os
    Para obter mais informações sobre a confiabilidade do serviço, consulte:
 
    * [Qualidade do serviço](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW5l)
-   * [Duração de uma mensagem](https://developers.google.com/cloud-messaging/concept-options#lifetime).
+   * [Tempo de vida de uma mensagem](https://developers.google.com/cloud-messaging/concept-options#lifetime).
 
 ## Por que minha chave de API GCM do Android é inválida?
 
@@ -70,7 +70,7 @@ Os seguintes tipos de atrasos podem estar associados a mensagens de push para os
    canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
    ```
 
-   You can also check the validity of a registration token by replacing `"ABC"` with the token.
+   Também é possível verificar a validade de um token de registro, substituindo `"ABC"` pelo token.
 
 ## Por que meu certificado APNS não está funcionando?
 
@@ -78,11 +78,11 @@ O certificado APNS pode ser inválido pelos seguintes motivos:
 
 * Você pode usar um certificado de sandbox em vez do certificado de produção.
 * Você está usando um novo certificado de produção/sandbox que não é suportado.
-* You are using `.p8` file instead of a `.p12` file.
+* Você está usando um arquivo `.p8` em vez de `.p12`.
 
 ## Resolução de falhas na mensagem de push
 
-**Exemplo**
+**Um exemplo**
 
 O exemplo a seguir ilustra como você pode resolver uma falha de push ao usar um VRS.
 
@@ -97,10 +97,10 @@ O seguinte cliente tem dois aplicativos iOS:
    * RSID: PhotoShop_iOS_app_LA
    * Segmento de definição de VRSID: `a.os contains “iOS”`
 
-In this example, if a Photoshop employee sends a push to the *PhotoShop_iOS_app_SF* app, all *PhotoShop_iOS_app_SF app* users receive the push message as expected. But, if the employee sends a message to the *PhotoShop_iOS_app_LA* app, because its VRSID Definition Segment is incorrect (`iOS` instead of `a.os contains "PhotoShop_iOS_app_LA"`), the message is sent to **all** iOS users in *AllAdobe PhotoShop_apps*. Although the message still goes to *PhotoShop_iOS_app_LA* users, the message also blacklists the push IDs for *PhotoShop_iOS_app_SF* users because the *PhotoShop_iOS_app_SF* app has a different certificate. If the segment had been defined as `a.os contains “PhotoShop_iOS_app_LA”`, the push message would have been sent to only *PhotoShop_iOS_app_LA* users.
+Neste exemplo, se um colaborador do Photoshop enviar uma mensagem por push para o aplicativo *PhotoShop_iOS_app_SF*, todos os usuários do *aplicativo PhotoShop_iOS_app_SF* receberão a mensagem como esperado. Porém, se o colaborador enviar uma mensagem para o aplicativo *PhotoShop_app_LA*, porque o segmento de definição do VRSID está incorreto (`iOS` em vez de `a.os contains "PhotoShop_iOS_app_LA"`), a mensagem será enviada para **todos** os usuários do iOS em *AllAdobe PhotoShop_apps*. A mensagem não deixará de ser enviada para os usuários do *PhotoShop_iOS_app_LA*, mas também incluirá na blacklist as IDs de push dos usuários do *PhotoShop_iOS_app_SF*, porque o aplicativo *PhotoShop_iOS_app_SF* tem um certificado diferente. Se o segmento tivesse sido definido como `a.os contains “PhotoShop_iOS_app_LA”`, a mensagem por push teria sido enviada apenas para os usuários do *PhotoShop_iOS_app_LA*.
 
-If passed with the *PhotoShop_IOS_app_LA* push certificate, the push identifiers for the *PhotoShop_iOS_app_SF* come back as `invalid`.
+Se aprovados com o certificado de push do *PhotoShop_IOS_app_LA*, os identificadores de push para o *PhotoShop_iOS_app_SF* voltam como `invalid`.
 
 >[!CAUTION]
 >
->After you create a push message for an app that is using a VRS and click **[!UICONTROL Save &amp; Send]**, an alert appears that reminds you ensure that each app that is listed **must** have a valid certificate. Caso cada aplicativo **não** tenha um certificado válido, os segmentos de público-alvo talvez sejam adicionados à lista negra indefinidamente e você não pode mais enviar futuras mensagens de push para os usuários afetados. Para obter mais informações sobre segmentos de público-alvo, consulte [Público-alvo: defina e configure as opções de público-alvo para mensagens](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md)de push.
+>Uma vez criada uma mensagem por push para um aplicativo que esteja usando um VRS e após clicar em **[!UICONTROL Salvar e enviar]**, será exibido um alerta para lembrar que cada aplicativo listado **deve** ter um certificado válido. Caso cada aplicativo **não** tenha um certificado válido, os segmentos de público-alvo talvez sejam adicionados à lista negra indefinidamente e você não pode mais enviar futuras mensagens de push para os usuários afetados. Para obter mais informações sobre segmentos de público, consulte [Público: definir e configurar as opções de público para mensagens por push](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md).
