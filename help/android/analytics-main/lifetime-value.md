@@ -1,28 +1,28 @@
 ---
 description: O valor de vida útil permite medir e atribuir um valor para cada usuário Android. O valor pode ser usado para armazenar compras vitalícias, visualizações de anúncios, vídeos, compartilhamentos sociais, uploads de fotos etc.
 seo-description: O valor de vida útil permite medir e atribuir um valor para cada usuário Android. O valor pode ser usado para armazenar compras vitalícias, visualizações de anúncios, vídeos, compartilhamentos sociais, uploads de fotos etc.
-seo-title: Valor do tempo de vida do visitante
-solution: Marketing Cloud,Analytics
-title: Valor do tempo de vida do visitante
+seo-title: Valor vitalício do visitante
+solution: Experience Cloud,Analytics
+title: 'Valor vitalício do visitante  '
 topic: Desenvolvedor e implementação
 uuid: ba0308de-282e-46f9-a14c-19fb6d5c363e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 ---
 
 
-# Visitor lifetime value {#visitor-lifetime-value}
+# Valor vitalício do visitante {#visitor-lifetime-value}
 
 O valor de vida útil permite medir e atribuir um valor para cada usuário Android. O valor pode ser usado para armazenar compras vitalícias, visualizações de anúncios, vídeos, compartilhamentos sociais, uploads de fotos etc.
 
 Cada vez que um valor é enviado com `trackLifetimeValueIncrease`, o valor é adicionado ao valor existente. O valor de tempo de vida é armazenado no dispositivo e pode ser recuperado a qualquer momento ao chamar `lifetimeValue`.
 
-## Track the visitor lifetime value {#section_390943A49AF841F2941E65D6DF2B3F5A}
+## Rastrear o valor vitalício do visitante {#section_390943A49AF841F2941E65D6DF2B3F5A}
 
-1. Adicione a [biblioteca] ao seu projeto e implemente o ciclo de vida.
+1. Adicione a biblioteca ao projeto e implemente o ciclo de vida.
 
-   For more information, see Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project in Core implementation and lifecycle.**[](/help/android/getting-started/dev-qs.md)
+   Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao projeto IntelliJ IDEA ou Eclipse* na [Implementação principal e ciclo de vida](/help/android/getting-started/dev-qs.md).
 1. Importe a biblioteca:
 
    ```java
@@ -35,7 +35,7 @@ Cada vez que um valor é enviado com `trackLifetimeValueIncrease`, o valor é ad
    Analytics.trackLifetimeValueIncrease(BigDecimal.valueOf(5.0), null);
    ```
 
-## Send additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## Enviar dados adicionais {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 Em adição ao valor da vida útil, é possível enviar dados de contexto adicionais com cada chamada de rastreamento de ação:
 
