@@ -1,28 +1,28 @@
 ---
 description: Essas informações o ajudam a recuperar identidades de SDK armazenadas localmente do aplicativo Android e com solicitações de acesso a dados do GDPR.
 seo-description: Essas informações o ajudam a recuperar identidades de SDK armazenadas localmente do aplicativo Android e com solicitações de acesso a dados do GDPR.
-seo-title: Recuperando identificadores armazenados
-title: Recuperando identificadores armazenados
+seo-title: Recuperar identificadores armazenados
+title: Recuperar identificadores armazenados
 uuid: 6fd3d202-b0a1-4c80-96f4-369fc24ac0a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ---
 
 
-# Retrieving stored identifiers{#retrieving-stored-identifiers}
+# Recuperar identificadores armazenados{#retrieving-stored-identifiers}
 
 Essas informações o ajudam a recuperar identidades de SDK armazenadas localmente do aplicativo Android e com solicitações de acesso a dados do GDPR.
 
 >[!IMPORTANT]
 >
->The `getAllIdentifiersAsync` method retrieves identities stored in the SDK. Você deve chamar esse método **antes** que usuário saia.
+>O método `getAllIdentifiersAsync` recupera identidades armazenadas no SDK. Você deve chamar esse método **antes** que usuário saia.
 
 Identidades de SDK (se for o caso) são armazenadas localmente e retornam em uma sequência de caracteres JSON, que pode conter:
 
 * Contexto da empresa - IDs de org IMS
 * IDs de usuário
-* Experience Cloud ID (MID), anteriormente conhecida como Marketing Cloud ID
+* Experience Cloud ID (MID), anteriormente conhecida como Experience Cloud ID
 * Códigos de integração (ADID, Push ID)
 * IDs da fonte de dados (DPID, DPUUID)
 * Analytics IDs (AVID, AID, VID e RSIDs associados)
