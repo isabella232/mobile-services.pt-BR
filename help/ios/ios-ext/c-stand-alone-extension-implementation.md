@@ -2,29 +2,29 @@
 description: A partir do iOS 10, a Apple permitirá a criação de uma extensão chamada de extensão independente, que pode ser distribuída sem um aplicativo contêiner. Com esta extensão, não é necessário ter um grupo de aplicativos, já que não há um aplicativo contêiner com o qual compartilhar os dados.
 seo-description: A partir do iOS 10, a Apple permitirá a criação de uma extensão chamada de extensão independente, que pode ser distribuída sem um aplicativo contêiner. Com esta extensão, não é necessário ter um grupo de aplicativos, já que não há um aplicativo contêiner com o qual compartilhar os dados.
 seo-title: Implementação de extensão independente
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Implementação de extensão independente
 topic: Desenvolvedor e implementação
 uuid: 9b47f082-b78f-4611-968d-014c32ede6bc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 ---
 
 
-# Stand-alone extension implementation {#stand-alone-extension-implementation}
+# Implementação de extensão independente {#stand-alone-extension-implementation}
 
 A partir do iOS 10, a Apple permitirá a criação de uma extensão chamada de extensão independente, que pode ser distribuída sem um aplicativo contêiner. Com esta extensão, não é necessário ter um grupo de aplicativos, já que não há um aplicativo contêiner com o qual compartilhar os dados.
 
 >[!IMPORTANT]
 >
->To use stand-alone extensions, you must have Mobile SDK version 4.13.0 or later.
+>Para usar extensões independentes, você deve ter o Mobile SDK versão 4.13.0 ou posterior.
 
 ## Configurar sua extensão independente para usar com o SDK {#section_B7A84603BB9D4B48BB46BE8D3B9E3CF0}
 
 Para configurar sua extensão independente:
 
-1. Ensure that the `ADBMobileConfig.json` file is a member of your extension's target.
+1. Certifique-se de que o arquivo `ADBMobileConfig.json` é um membro do destino da sua extensão.
 1. Vincule as seguintes bibliotecas e estruturas:
 
    * `AdobeMobileLibrary_Extension.a`
@@ -39,7 +39,7 @@ Para configurar sua extensão independente:
 
 1. Verifique se o aplicativo foi criado sem erros inesperados.
 
-## Additional notes {#section_1C9A55E2309A44BF842310F735702B3D}
+## Observações adicionais {#section_1C9A55E2309A44BF842310F735702B3D}
 
 Estas são algumas informações adicionais:
 
