@@ -1,27 +1,27 @@
 ---
-description: As Regras de processamento são usadas para copiar os dados enviados em variáveis de dados de contexto para evars, props e outras variáveis de relatório.
-seo-description: As Regras de processamento são usadas para copiar os dados enviados em variáveis de dados de contexto para evars, props e outras variáveis de relatório.
+description: 'As Regras de processamento são usadas para copiar os dados enviados em variáveis de dados de contexto para evars, props e outras variáveis de relatório. '
+seo-description: 'As Regras de processamento são usadas para copiar os dados enviados em variáveis de dados de contexto para evars, props e outras variáveis de relatório. '
 seo-title: Regras de processamento e dados de contexto
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Regras de processamento e dados de contexto
 topic: Desenvolvedor e implementação
 uuid: 51338ccd-fa52-4d9c-97c4-947a4100465d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 ---
 
 
-# Processing rules and context data{#processing-rules-and-context-data}
+# Regras de processamento e dados de contexto{#processing-rules-and-context-data}
 
-As Regras de processamento são usadas para copiar os dados enviados em variáveis de dados de contexto para evars, props e outras variáveis de relatório.
+As Regras de processamento são usadas para copiar os dados enviados em variáveis de dados de contexto para evars, props e outras variáveis de relatório. 
 
 Para obter mais informações, consulte o seguinte conteúdo:
 
 * [Treinamento sobre regras de processamento](https://tv.adobe.com/embed/1181/16506/) @ Summit 2013
 * Receber autorização para usar as regras de processamento
 
-   Para obter mais informações sobre regras de processamento, consulte Visão geral [das regras de](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html)processamento.
+   Para obter mais informações sobre regras de processamento, consulte [Visão geral das regras de processamento](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
 Ao trabalhar com as regras de processamento, lembre-se das seguintes informações:
 
