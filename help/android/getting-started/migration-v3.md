@@ -1,29 +1,29 @@
 ---
 description: Essas informações ajudam a migrar das versões 3.x ou 2.x da biblioteca do Android para a versão 4.x.
-keywords: android;library;mobile;sdk
+keywords: android;biblioteca;móvel;sdk
 seo-description: Essas informações ajudam a migrar das versões 3.x ou 2.x da biblioteca do Android para a versão 4.x.
 seo-title: Migrar para a biblioteca do Android 4.x
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Migrar para a biblioteca do Android 4.x
 topic: Desenvolvedor e implementação
 uuid: 906e83bb-2faf-4aa2-ac9b-3fba6b833c7e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
 ---
 
 
-# Migrating to the Android 4.x library {#migrating-to-the-android-x-library}
+# Migração para a biblioteca do Android 4.x {#migrating-to-the-android-x-library}
 
 Essas informações ajudam a migrar das versões 3.x ou 2.x da biblioteca do Android para a versão 4.x.
 
 >[!IMPORTANT]
 >
->The SDK uses `SharedPreferences` to store data that is needed to calculate unique users, lifecycle metrics, and other data related to core SDK functionality.  Se modificar ou remover os valores no `SharedPreferences` esperados pelo SDK, pode resultar um comportamento inesperado na forma de inconsistência de dados.
+>O SDK usa o `SharedPreferences` para armazenar dados necessários para calcular usuários únicos, métricas de ciclo de vida e outros dados relacionados à funcionalidade principal do SDK.  Se modificar ou remover os valores no `SharedPreferences` esperados pelo SDK, pode resultar um comportamento inesperado na forma de inconsistência de dados.
 
 Na biblioteca da versão 4.x, os métodos públicos são consolidados em um cabeçalho. Além disso, todas as funcionalidades agora são acessíveis pelos métodos de nível de classe, sendo assim, não é preciso rastrear os ponteiros, instâncias ou singletons.
 
-## Events, props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
+## Eventos, propriedades e eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
 Na versão 4, não é mais possível designar variáveis como events, eVars, props, heirs e lists no aplicativo. Em vez disso, o SDK usa dados de contexto e regras de processamento de forma a mapear os dados do aplicativo para as variáveis do Analytics para relatório.
 
@@ -37,9 +37,9 @@ As regras de processamento fornecem as seguintes vantagens:
 
 >[!TIP]
 >
->Values that you assigned directly to variables should be added to the `data` HashMap.
+>Os valores atribuídos diretamente às variáveis devem ser adicionados ao `data` HashMap.
 
-## Remove unused properties {#section_145222EAA20F4CC2977DD883FDDBBFC5}
+## Remover propriedades não usadas {#section_145222EAA20F4CC2977DD883FDDBBFC5}
 
 O novo arquivo `ADBMobileConfig.json` contém configurações globais específicas do aplicativo e substitui a maioria das variáveis de configuração usadas em versões anteriores. Este é um exemplo de um arquivo `ADBMobileConfig.json`:
 
@@ -69,7 +69,7 @@ O novo arquivo `ADBMobileConfig.json` contém configurações globais específic
 }
 ```
 
-## Moving the configuration file and migrating to version 4 {#section_0B844235E0B04DD4B36976A73DB28FB5}
+## Mover o arquivo de configuração e migrar para a versão 4 {#section_0B844235E0B04DD4B36976A73DB28FB5}
 
 As tabelas a seguir listam as variáveis de configuração que você precisa mover para o arquivo de configuração.
 
@@ -80,9 +80,9 @@ As tabelas a seguir listam as variáveis de configuração que você precisa mov
 
 ### Migrar da versão 3.x
 
-Para migrar da versão 3.x para a 4, mova o valor da variável/método de configuração para a `ADBMobileConfig.json` variável.
+Para migrar da versão 3.x para a 4, mova o valor da variável/método de configuração para a variável `ADBMobileConfig.json`.
 
-| Variável ou método de configuração | Variable in the `ADBMobileConfig.json` file |
+| Variável ou método de configuração | Variável no arquivo `ADBMobileConfig.json` |
 |--- |--- |
 | setOfflineTrackingEnabled | "offlineEnabled" |
 | setOfflineHitLimit | "batchLimit" |
@@ -98,12 +98,12 @@ Para migrar da versão 3.x para a 4, mova o valor da variável/método de config
 
 Para migrar da versão 2.x para a 4, mova o valor da primeira coluna para a variável na segunda coluna.
 
-| Variável de configuração | Variable in the `ADBMobileConfig.json` file |
+| Variável de configuração | Variável no arquivo `ADBMobileConfig.json` |
 | --- |--- |
 | trackOffline | "offlineEnabled" |
 | offlineLimit | "batchLimit" |
 | account | "rsids" |
-| trackingServer | "server", remova o `"https://"` prefixo. O prefixo do protocolo é adicionado automaticamente com base na configuração "ssl". |
+| trackingServer | "server", remover o prefixo `"https://"`. O prefixo do protocolo é adicionado automaticamente com base na configuração "ssl". |
 | trackingServerSecure | Remover. Para conexões seguras, defina "server" e ative "ssl". |
 | charSet | "charset" |
 | currencyCode | "currency" |
@@ -116,21 +116,21 @@ Para migrar da versão 2.x para a 4, mova o valor da primeira coluna para a vari
 | dynamicVariablePrefix | Remover, não é mais usado. |
 | visitorNamespace | Remover, não é mais usado. |
 | usePlugins | Remover, não é mais usado. |
-| useBestPractices  todas as chamadas para medição de rotatividade (getChurnInstance) | Remover, substituído por Medições de ciclo de vida. |
+| useBestPractices  todas as chamadas para medição de abandono (getChurnInstance) | Remover, substituído por Métricas de ciclo de vida. |
 
-## Update track calls and tracking variables {#section_96E7D9B3CDAC444789503B7E7F139AB9}
+## Atualizar chamadas e variáveis de rastreamento {#section_96E7D9B3CDAC444789503B7E7F139AB9}
 
 Em vez de usar as chamadas focadas na Web `track` e `trackLink`, o SDK versão 4 usa os seguintes métodos:
 
-* `trackState`, que são as exibições disponíveis no aplicativo, como `home dashboard`, `app settings`, `cart`etc.
+* `trackState`, que são as exibições disponíveis no aplicativo, como `home dashboard`, `app settings`, `cart` e assim por diante.
 
-   Esses estados são semelhantes às páginas em um site e as chamadas de `trackState` aumentam as exibições de página.
+   Esses estados são semelhantes às páginas em um site, e as chamadas de `trackState` aumentam as visualizações de página.
 
-* `trackAction` ações, como `logons`, `banner taps`, `feed subscriptions`etc., que ocorrem no aplicativo e que você deseja avaliar.
+* ações `trackAction`, como `logons`, `banner taps`, `feed subscriptions`, entre outras, que ocorrem no aplicativo e que você deseja medir.
 
-The `contextData` parameter for both of these methods is a `HashMap<String, Object>`, which contains the name-value pairs that are sent as context data.
+O parâmetro `contextData` para os dois métodos é um `HashMap<String, Object>`, que contém os pares de nome-valor enviados como dados de contexto.
 
-## Eventos, props e eVars
+## Eventos, propriedades e eVars
 
 Na versão 4, não é mais possível designar variáveis como eventos, eVars, propriedades, herdeiros e listas diretamente no aplicativo. O SDK agora usa dados de contexto e regras de processamento para mapear os dados do seu aplicativo para variáveis do Analytics para gerar relatórios.
 
@@ -140,15 +140,15 @@ As regras de processamento fornecem as seguintes vantagens:
 * Como alternativa, use nomes significativos para os dados em vez de configurar variáveis específicas para um conjunto de relatórios.
 * Há pouco impacto no envio de dados adicionais.
 
-   Esses valores não aparecerão nos relatórios até que sejam mapeados usando as regras de processamento. Para obter mais informações, consulte Regras [de processamento e Dados](/help/android/getting-started/proc-rules.md)de contexto.
+   Esses valores não aparecerão nos relatórios até que sejam mapeados usando as regras de processamento. Para obter mais informações, consulte [Regras de processamento e Dados de contexto](/help/android/getting-started/proc-rules.md).
 
-Values that you were assigning directly to variables should be added to the `data` HashMap. This means that calls to `setProp`, `setEvar`, and assignments to persistent context data should be removed and the values be added to the `data` parameter.
+Os valores designados às variáveis devem ser adicionados ao HashMap `data`. Isso significa que as chamadas para `setProp`, `setEvar` e atribuições para dados de contexto persistentes devem ser removidas e os valores devem ser adicionados ao parâmetro `data`.
 
-## AppSection/server, GeoZip, transaction ID, Campaign, and other standard variables
+## AppSection/servidor, GeoZip, ID da transação, campanha e outras variáveis padrão
 
-Data that you were setting on the measurement object, including the variables listed above, should be added to the `data` HashMap. Os únicos dados enviados com uma chamada `trackState` ou `trackAction` são a carga no parâmetro `data`.
+Os dados que você estava configurando no objeto de medição, incluindo as variáveis listadas acima, devem ser adicionados ao HashMap `data`. Os únicos dados enviados com uma chamada `trackState` ou `trackAction` são a carga no parâmetro `data`.
 
-### Replace tracking calls
+### Substituir chamadas de rastreamento
 
 Substitua os seguintes métodos com uma chamada para `trackState` ou `trackAction`:
 
@@ -164,13 +164,13 @@ Substitua os seguintes métodos com uma chamada para `trackState` ou `trackActio
    * `track (trackState)`
    * `trackLink (trackAction)`
 
-## Custom visitor ID {#section_2CF930C13BA64F04959846E578B608F3}
+## ID de visitante personalizada {#section_2CF930C13BA64F04959846E578B608F3}
 
-Replace the `visitorID` variable with a call to `setUserIdentifier`.
+Substitua a variável `visitorID` por uma chamada de `setUserIdentifier`.
 
-## Offline tracking {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
+## Rastreamento offline {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
 
-Offline tracking is enabled in the `ADBMobileConfig.json` file, and all other offline configuration is done automatically.
+O rastreamento offline está habilitado no arquivo `ADBMobileConfig.json` e todas as outras configurações offline são feitas automaticamente.
 
 Remova chamadas dos seguintes métodos:
 
@@ -184,7 +184,7 @@ Remova chamadas dos seguintes métodos:
 * `forceOffline`
 * `forceOnline`
 
-## Products variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
+## Variável products {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
-For more information about the products variable, see [Products variable](/help/android/analytics-main/products/products.md).
+Para obter mais informações sobre a variável products, consulte [Variável products](/help/android/analytics-main/products/products.md).
 
