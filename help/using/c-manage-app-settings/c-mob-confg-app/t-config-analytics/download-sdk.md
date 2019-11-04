@@ -1,36 +1,36 @@
 ---
 description: Estas informações ajudam você a baixar os SDKs do Mobile Services e as ferramentas que ajudam na implementação do Mobile Services.
-keywords: mobile;android;ios;sdk
+keywords: dispositivos móveis;android;ios;sdk
 seo-description: Estas informações ajudam você a baixar os SDKs do Mobile Services e as ferramentas que ajudam na implementação do Mobile Services.
 seo-title: Download de SDKs e ferramentas móveis
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud, Analytics
 title: Download de SDKs e ferramentas móveis
 topic: Desenvolvedor e implementação, Métricas
-uuid: 4af757f7-4e4d-4939-9b6a-49a29c20192
-translation-type: tm+mt
+uuid: 4af757f7-4e4d-4939-9b6a-49a29c220192
+translation-type: ht
 source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
 ---
 
 
-# Download mobile SDKs and tools{#download-mobile-sdks-and-tools}
+# Baixar SDKs e ferramentas móveis{#download-mobile-sdks-and-tools}
 
-This information helps you download the Mobile Services SDKs and tools.
+Essas informações ajudam a baixar os SDKs e as ferramentas do Mobile Services.
 
-## App SDK downloads {#section_F647A95C96B0439BA276781E0C97C689}
+## Downloads de SDK do aplicativo {#section_F647A95C96B0439BA276781E0C97C689}
 
 É possível baixar um arquivo `ADBMobileConfig.json` personalizado com as configurações do aplicativo selecionado. Por exemplo, o arquivo de configuração é preenchido automaticamente com sua ID de conjunto de relatórios, o servidor de rastreio e a configuração de privacidade padrão HTTPS, bem como o tempo limite de sessão selecionado por você nessa tela.
 
 >[!TIP]
 >
->If you download the mobile SDK, the customized `ADBMobileConfig.json` file is automatically included.
+>Caso baixe o SDK móvel, o arquivo personalizado `ADBMobileConfig.json` é automaticamente incluído.
 
-## Native libraries {#section_C2ADC3068D9F4EAEBE5B266852738C90}
+## Bibliotecas nativas {#section_C2ADC3068D9F4EAEBE5B266852738C90}
 
 Configure seu aplicativo nos serviços Adobe Mobile Services para baixar um conjunto personalizado, que inclui uma versão preenchida automaticamente do arquivo de configuração:
 
 * [Instruções do iOS](/help/ios/getting-started/requirements.md)
-* [Android instructions](/help/android/getting-started/requirements.md)
+* [Instruções do Android](/help/android/getting-started/requirements.md)
 
-Para consultar a documentação das bibliotecas nativas, incluindo o Windows Phone 8, Blackberry, Xamarin e outros, consulte a seção Documentação *do* SDK no [Adobe Mobile Services](/help/using/home.md).
+Para consultar a documentação das bibliotecas nativas, incluindo Windows Phone 8, Blackberry, Xamarin e outros, consulte a seção *Documentação do SDK* no [Adobe Mobile Services](/help/using/home.md).
 
