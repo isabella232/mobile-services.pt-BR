@@ -2,31 +2,31 @@
 description: As tabelas a seguir listam as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida.
 seo-description: As tabelas a seguir listam as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida.
 seo-title: Medições de ciclo de vida
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Medições de ciclo de vida
 topic: Desenvolvedor e implementação
 uuid: b795e383-d59b-4a3c-9e14-ffe8fb58412c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a6608bf4d36a6fb6aca00f50cc058c09dbd931b1
 
 ---
 
 
-# Lifecycle metrics {#lifecycle-metrics}
+# Métricas de ciclo de vida {#lifecycle-metrics}
 
-Here are the metrics and dimensions that can be automatically measured by the mobile library after lifecycle is implemented.
+Estas tabelas listam as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida.
 
-## New Adobe Experience Platform Mobile SDK Release
+## Nova versão do Adobe Experience Platform Mobile SDK
 
-Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para acessar a documentação mais recente.
+Nova versão do Adobe Experience Platform Mobile SDKProcurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para acessar a documentação mais recente.
 
-Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/br/experience-platform/launch.html).
 
-* To get started, go to [Experience Platform Launch](https://launch.adobe.com/).
-* Para ver o conteúdo dos repositórios do Experience Platform SDK, acesse [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+* Para começar, acesse o [Experience Platform Launch](https://launch.adobe.com/).
+* Para ver o conteúdo dos repositórios SDK da Experience Platform, acesse [Github: SDKs da Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 
-## Lifecycle metrics and dimensions {#section_78F036C4296F4BA3A47C2044F79C86C1}
+## Medições e dimensões de ciclo de vida {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
 Após as medições de ciclo de vida serem configuradas, elas são enviadas nos parâmetros de dados de contexto ao Analytics, nos parâmetros ao Target com cada chamada da mbox e como um sinal ao Audience Manager. O Analytics e o Target usam o mesmo formato, enquanto o Audience Manager usa um prefixo diferente para cada métrica.
 
@@ -42,54 +42,54 @@ Para o Analytics, os dados de contexto que são enviados com cada chamada de ras
 
    Disparado na primeira execução após a instalação ou reinstalação.
 
-   * Analytics Context Data/Target parameter: `a.InstallEvent`
-   * Audience Manager signal: `c_a_InstallEvent`
+   * Parâmetro do Target/Dados de contexto do Analytics: `a.InstallEvent`
+   * Sinal do Audience Manager: `c_a_InstallEvent`
 
 * **Atualizações**
 
    Disparado na primeira execução após a atualização ou quando o número da versão se altera.
 
-   * Analytics Context Data/Target parameter: `a.UpgradeEvent`
-   * Audience Manager signal: `c_a_UpgradeEvent`
+   * Parâmetros do Target/Dados de contexto do Analytics: `a.UpgradeEvent`
+   * Sinal do Audience Manager: `c_a_UpgradeEvent`
 
 * **Usuários envolvidos diariamente**
 
    Disparado quando o aplicativo é utilizado em um dia específico.
 
-   * Analytics Context Data/Target parameter: `a.DailyEngUserEvent`
-   * Audience Manager signal: `c_a_DailyEngUserEvent`
+   * Parâmetros do Target/Dados de contexto do Analytics: `a.DailyEngUserEvent`
+   * Sinal do Audience Manager: `c_a_DailyEngUserEvent`
 
 * **Usuários envolvidos mensalmente**
 
    Disparado quando o aplicativo é utilizado durante um mês específico.
 
-   * Analytics Context Data/Target parameter: `a.MonthlyEngUserEvent`
-   * Audience Manager signal: `c_a_MonthlyEngUserEvent`
+   * Parâmetros do Target/Dados de contexto do Analytics: `a.MonthlyEngUserEvent`
+   * Sinal do Audience Manager: `c_a_MonthlyEngUserEvent`
 
 * **Inicializações**
 
    Desencadeado a cada execução, incluindo falhas e instalações. Também disparado quando o aplicativo é retomado do segundo plano após o limite de tempo da sessão de ciclo de vida ser excedido.
 
-   * Analytics Context Data/Target parameter: `a.LaunchEvent`
-   * Audience Manager signal: `c_a_LaunchEvent`
+   * Parâmetros do Target/Dados de contexto do Analytics: `a.LaunchEvent`
+   * Sinal do Audience Manager: `c_a_LaunchEvent`
 
 * **Falhas**
 
    Acionado quando o aplicativo não estiver em segundo plano antes do fechamento. O evento é enviado quando o aplicativo é iniciado novamente após a falha.  O relatório de falha do Adobe Mobile não implementa um gerenciador de exceção global não detectado.
 
-   * Analytics Context Data/Target parameter: `a.CrashEvent`
-   * Audience Manager signal: `c_a_CrashEvent`
+   * Parâmetros do Target/Dados de contexto do Analytics: `a.CrashEvent`
+   * Sinal do Audience Manager: `c_a_CrashEvent`
 
 * **Duração da sessão anterior**
 
    Informa o número de segundos que uma sessão anterior do aplicativo durou com base no tempo em que o aplicativo ficou aberto e no primeiro plano.
 
-   * Analytics Context Data/Target parameter: `a.PrevSessionLength`
-   * Audience Manager signal: `c_a_PrevSessionLength`
+   * Parâmetros do Target/Dados de contexto do Analytics: `a.PrevSessionLength`
+   * Sinal do Audience Manager: `c_a_PrevSessionLength`
 
 >[!IMPORTANT]
 >
-> As métricas Usuários *envolvidos* diariamente e Usuários ** envolvidos mensalmente não são armazenadas automaticamente em uma métrica do Analytics. É necessário criar uma regra de processamento que defina um evento personalizado para capturar essas métricas.
+> As métricas dos *Usuários envolvidos diariamente* e *Usuários envolvidos mensalmente* não são armazenadas automaticamente em uma métrica do Analytics. Você deve criar uma regra de processamento que defina um evento personalizado para capturar essa métrica.
 
 #### Dimensões
 
@@ -102,7 +102,7 @@ Para o Analytics, os dados de contexto que são enviados com cada chamada de ras
 
 * **ID do aplicativo**
 
-   Stores the Application name and version in the `[AppName] [BundleVersion]` format. Por exemplo, `myapp 1.1`.
+   Armazena o nome e a versão do aplicativo no formato `[AppName] [BundleVersion]`. Por exemplo, `myapp 1.1`.
 
    * Target/Dados de contexto do Analytics: `a.AppID`
    * Gerenciamento de público-alvo: `c_a_AppID`
@@ -165,7 +165,7 @@ Para o Analytics, os dados de contexto que são enviados com cada chamada de ras
 
 * **Nome do dispositivo**
 
-   Armazena o nome do dispositivo.  Cadeia de caracteres de dígitos separados por vírgulas que identifica o dispositivo iOS. O primeiro número tipicamente representa a geração do dispositivo e o segundo, versões dos diferentes membros da família do dispositivo. Para obter uma lista de nomes comuns, consulte  Versões do dispositivo iOS.
+   Armazena o nome do dispositivo.  Cadeia de caracteres de dígitos separados por vírgulas que identifica o dispositivo iOS. O primeiro número tipicamente representa a geração do dispositivo e o segundo, versões dos diferentes membros da família do dispositivo. Para obter uma lista de nomes comuns, consulte  as versões do dispositivo iOS.
 
    * Target/Dados de contexto do Analytics: `a.DeviceName`
    * Gerenciamento de público-alvo: `c_a_DeviceName`
@@ -185,10 +185,10 @@ Para o Analytics, os dados de contexto que são enviados com cada chamada de ras
    * Gerenciamento de público-alvo: `c_a_Resolution`
    >[!IMPORTANT]
    >
-   >Os *Dias desde a última atualização*, as *Inicializações desde a última atualização* e as dimensões Nome *da* operadora não são armazenadas automaticamente em uma variável do Analytics. É necessário criar uma regra de processamento para copiar os valores para uma variável do Analytics para geração de relatórios.
+   >Os *Dias desde a última atualização*, as *Inicializações desde a última atualização* e as dimensões do *Nome da operadora* não são armazenadas automaticamente em uma variável do Analytics. Para os relatórios, é necessário criar uma regra de processamento para copiar os valores para uma variável do Analytics.
 
 
-## Additional mobile metrics and dimensions {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
+## Métricas e dimensões móveis adicionais {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
 
 As métricas e dimensões a seguir são capturadas em variáveis de solução móvel pelo método listado.
 
@@ -198,35 +198,35 @@ As métricas e dimensões a seguir são capturadas em variáveis de solução m�
 
    Preenchido pelos métodos trackTimedAction.
 
-   * Analytics Context Data/Target parameter: `a.action.time.total`
-   * Audience Management trait: `c_a_action_time_total`
+   * Parâmetros do Target/Dados de contexto do Analytics: `a.action.time.total`
+   * Característica do Audience Management: `c_a_action_time_total`
 
 * **Tempo da ação no aplicativo**
 
    Preenchido pelos métodos trackTimedAction.
 
-   * Analytics Context Data/Target parameter: `a.action.time.inapp`
-   * Audience Management trait: `c_a_action_time_inapp`
+   * Parâmetros do Target/Dados de contexto do Analytics: `a.action.time.inapp`
+   * Característica do Audience Management: `c_a_action_time_inapp`
 
-* **Valor de tempo de vida (evento)**
+* **Valor vitalício (evento)**
 
    Preenchido pelos métodos trackLifetimeValue.
 
-   * Analytics Context Data/Target parameter: `a.ltv.amount`
-   * Audience Management trait: `c_a_ltv_amount`
+   * Parâmetros do Target/Dados de contexto do Analytics: `a.ltv.amount`
+   * Característica do Audience Management: `c_a_ltv_amount`
 
 
 ### Dimensões
 
 * **Localização (abaixo de 10 km)**
 
-   Populated by `trackLocation` methods.
+   Preenchido pelos métodos `trackLocation`.
 
-   * Parâmetro Dados de contexto/Target do Analytics:
+   * Parâmetros do Target/Dados de contexto do Analytics:
 
       * `a.loc.lat.a`
       * `a.loc.lon.a`
-   * Audience Management trait:
+   * Característica do Audience Management:
 
       * `c_a_loc_lat_a`
       * `c_a_loc_lon_a`
@@ -236,11 +236,11 @@ As métricas e dimensões a seguir são capturadas em variáveis de solução m�
 
    Preenchido pelos métodos trackLocation.
 
-   * Analytics Context Data/Target parameter:
+   * Parâmetros do Target/Dados de contexto do Analytics:
 
       * `a.loc.lat.b`
       * `a.loc.lon.b`
-   * Audience Management trait:
+   * Característica do Audience Management:
 
       * `c_a_loc_lat_b`
       * `c_a_loc_lon_b`
@@ -248,13 +248,13 @@ As métricas e dimensões a seguir são capturadas em variáveis de solução m�
 
 * **Localização (abaixo de 1 m)**
 
-   Populated by `trackLocation` methods.
+   Preenchido pelos métodos `trackLocation`.
 
-   * Analytics Context Data/Target parameter:
+   * Parâmetros do Target/Dados de contexto do Analytics:
 
       * `a.loc.lat.c`
       * `a.loc.lon.c`
-   * Característica do Gerenciamento de público-alvo:
+   * Característica do Audience Management:
 
       * `c_a_loc_lat_c`
       * `c_a_loc_lon_c`
@@ -264,61 +264,61 @@ As métricas e dimensões a seguir são capturadas em variáveis de solução m�
 
    Preenchido pelos métodos trackLocation quando o dispositivo está em um POI definido.
 
-   * Analytics Context Data/Target parameter: `a.loc.poi`
-   * Audience Management trait: `c_a_loc_poi`
+   * Parâmetros do Target/Dados de contexto do Analytics: `a.loc.poi`
+   * Característica do Audience Management: `c_a_loc_poi`
 
 * **Distância até o centro do ponto de interesse**
 
    Preenchido pelos métodos trackLocation quando o dispositivo está em um POI definido.
 
-   * Analytics Context Data/Target parameter: `a.loc.dist`
-   * Audience Management trait: `c_a_loc_dist`
+   * Parâmetros do Target/Dados de contexto do Analytics: `a.loc.dist`
+   * Característica do Audience Management: `c_a_loc_dist`
 
 * **Valor de tempo de vida (variável de conversão)**
 
    Preenchido pelos métodos trackLifetimeValue.
 
-   * Analytics Context Data/Target parameter: `a.ltv.amount`
-   * Audience Management trait: `c_a_ltv_amount`
+   * Parâmetros do Target/Dados de contexto do Analytics: `a.ltv.amount`
+   * Característica do Audience Management: `c_a_ltv_amount`
 
 * **Código de acompanhamento**
 
    Preenchido pela Aquisição do dispositivo móvel. Gerado automaticamente pelos Adobe Mobile Services.
 
-   * Analytics Context Data/Target parameter: `a.referrer.campaign.trackingcode`
-   * Audience Management trait: `c_a_referrer_campaign_trackingcode`
+   * Parâmetros do Target/Dados de contexto do Analytics: `a.referrer.campaign.trackingcode`
+   * Característica do Audience Management: `c_a_referrer_campaign_trackingcode`
 
 * **Campaign**
 
    Nome da campanha, também armazenado na variável da campanha. Preenchido pela Aquisição do dispositivo móvel.
 
-   * Analytics Context Data/Target parameter: `a.referrer.campaign.name`
-   * Audience Management trait: `c_a_referrer_campaign_name`
+   * Parâmetros do Target/Dados de contexto do Analytics: `a.referrer.campaign.name`
+   * Característica do Audience Management: `c_a_referrer_campaign_name`
 
 * **Conteúdo da campanha**
 
    O nome ou ID do conteúdo que exibiu o link. Preenchido pela Aquisição do dispositivo móvel.
 
-   * Analytics Context Data/Target parameter: `a.referrer.campaign.content`
-   * Audience Management trait: `c_a_referrer_campaign_content`
+   * Parâmetros do Target/Dados de contexto do Analytics: `a.referrer.campaign.content`
+   * Característica do Audience Management: `c_a_referrer_campaign_content`
 
 * **Meio da campanha**
 
    Meio de marketing, como banner ou email. Preenchido pela Aquisição do dispositivo móvel.
 
-   * Analytics Context Data/Target parameter: `a.referrer.campaign.medium`
-   * Audience Management trait: `c_a_referrer_campaign_medium`
+   * Parâmetros do Target/Dados de contexto do Analytics: `a.referrer.campaign.medium`
+   * Característica do Audience Management: `c_a_referrer_campaign_medium`
 
 * **Fonte da campanha**
 
-   Referenciador original, como boletins informativos ou redes de mídia social. Preenchido pela Aquisição do dispositivo móvel.
+   Referenciador original, como informativos ou mídias sociais. Preenchido pela Aquisição do dispositivo móvel.
 
-   * Analytics Context Data/Target parameter: `a.referrer.campaign.source`
-   * Audience Management trait: `c_a_referrer_campaign_source`
+   * Parâmetros do Target/Dados de contexto do Analytics: `a.referrer.campaign.source`
+   * Característica do Audience Management: `c_a_referrer_campaign_source`
 
 * **Termo da campanha**
 
    Palavras-chave pagas ou outros termos que você deseja acompanhar com essa aquisição. Preenchido pela Aquisição do dispositivo móvel.
 
-   * Analytics Context Data/Target parameter: `a.referrer.campaign.term`
-   * Audience Management trait: `c_a_referrer_campaign_term`
+   * Parâmetros do Target/Dados de contexto do Analytics: `a.referrer.campaign.term`
+   * Característica do Audience Management: `c_a_referrer_campaign_term`
