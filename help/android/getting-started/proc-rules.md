@@ -1,22 +1,22 @@
 ---
-description: As Regras de processamento são usadas para copiar os dados enviados em variáveis de dados de contexto para evars, props e outras variáveis de relatório.
-seo-description: As Regras de processamento são usadas para copiar os dados enviados em variáveis de dados de contexto para evars, props e outras variáveis de relatório.
+description: 'As Regras de processamento são usadas para copiar os dados enviados em variáveis de dados de contexto para evars, props e outras variáveis de relatório. '
+seo-description: 'As Regras de processamento são usadas para copiar os dados enviados em variáveis de dados de contexto para evars, props e outras variáveis de relatório. '
 seo-title: Regras de processamento e dados de contexto
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Regras de processamento e dados de contexto
 topic: Desenvolvedor e implementação
 uuid: ea892228-86f5-4980-acb8-45ae43c6996d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 ---
 
 
-# Processing rules and context data {#processing-rules-and-context-data}
+# Regras de processamento e dados de contexto {#processing-rules-and-context-data}
 
-As Regras de processamento são usadas para copiar os dados enviados em variáveis de dados de contexto para evars, props e outras variáveis de relatório. For more information, see Processing Rules.[](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html)
+As Regras de processamento são usadas para copiar os dados enviados em variáveis de dados de contexto para evars, props e outras variáveis de relatório. Para obter mais informações, consulte [Regras de processamento](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
-Ao trabalhar com regras de processamento, lembre-se das informações a seguir:
+Ao trabalhar com as regras de processamento, lembre-se das seguintes informações:
 
 * Agrupe as variáveis de dados de contexto usando espaços para nome, isso ajudará a manter uma ordem lógica. Por exemplo, para coletar informações sobre um produto, é possível definir as variáveis a seguir:
 
