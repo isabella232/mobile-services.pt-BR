@@ -4,7 +4,7 @@ seo-description: A Visualização do Target permite que você realize tarefas in
 seo-title: Visualização do Target no iOS
 title: Visualização do Target no iOS
 uuid: d92867a4-0569-4732-a928-28f9e2f8b21e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 ---
@@ -14,11 +14,11 @@ source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 A Visualização do Target permite que você realize tarefas integrais de controle de qualidade para atividades do Target e visualizá-las em seu dispositivo.
 
-For more information on how to set up and use Target Preview, see [Target Mobile Preview](https://docs.adobe.com/content/help/en/target/using/implement-target/mobile-apps/target-mobile-preview.html).
+Para obter mais informações sobre como usar a Visualização do Target, vá para [Visualização do Target para dispositivos móveis](https://docs.adobe.com/content/help/pt-BR/target/using/implement-target/mobile-apps/target-mobile-preview.html).
 
 >[!IMPORTANT]
 >
->Para usar a Visualização do Target, você precisa da versão 4.14.0 ou posterior do SDK.
+>Para usar a Visualização do Target, é necessário ter a versão 4.14.0 ou posterior do SDK.
 
 ## Método de visualização do Target
 
