@@ -2,17 +2,17 @@
 description: Esta informação ajuda a implementar a biblioteca do iOS e coletar medições de ciclo de vida, como inicializações, atualizações, sessões, usuários envolvidos e assim por diante.
 seo-description: Esta informação ajuda a implementar a biblioteca do iOS e coletar medições de ciclo de vida, como inicializações, atualizações, sessões, usuários envolvidos e assim por diante.
 seo-title: Implementação principal e ciclo de vida
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Implementação principal e ciclo de vida
 topic: Desenvolvedor e implementação
 uuid: 96d06325-e424-4770-8659-4b5431318ee3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4db9781e6e1e75a04d9715a41c5a32c10ede1bf4
 
 ---
 
 
-# Core implementation and lifecycle {#core-implementation-and-lifecycle}
+# Implementação principal e ciclo de vida {#core-implementation-and-lifecycle}
 
 Esta informação ajuda a implementar a biblioteca do iOS e coletar medições de ciclo de vida, como inicializações, atualizações, sessões, usuários envolvidos e assim por diante.
 
@@ -20,19 +20,19 @@ Esta informação ajuda a implementar a biblioteca do iOS e coletar medições d
 
 >[!IMPORTANT]
 >
->To download the SDKs, you **must** use iOS 6 or later.
+>Para baixar o SDK, você **deve** usar o iOS 6 ou posterior.
 
 **Pré-requisitos**
 
-Antes de baixar o SDK, conclua as etapas em *Criar um conjunto* de relatórios na implementação [principal e no ciclo de vida](/help/ios/getting-started/requirements.md) para configurar um conjunto de relatórios de desenvolvimento e baixar uma versão pré-preenchida do arquivo de configuração.
+Antes de baixar o SDK, conclua as etapas em *Criar um conjunto de relatórios* na [Implementação principal e no ciclo de vida](/help/ios/getting-started/requirements.md) para configurar um conjunto de relatórios de desenvolvimento e baixar uma versão pré-preenchida do arquivo de configuração.
 
 Para baixar o SDK:
 
-1. Download, unzip the `[Your_App_Name_]AdobeMobileLibrary-4.*-iOS.zip` file and verify that you have the following software components:
+1. Baixe, descompacte o arquivo `[Your_App_Name_]AdobeMobileLibrary-4.*-iOS.zip` e verifique se você tem os seguintes componentes de software:
 
    * `ADBMobile.h`, arquivo de cabeçalho em Objective-C usado no AppMeasurement do iOS.
    * `ADBMobileConfig.json`, que é o arquivo de configuração de SDK personalizado para o seu aplicativo.
-   * `AdobeMobileLibrary.a`, um binário multiarquitetura habilitado para código de bits que contém os builds da biblioteca para dispositivos iOS (armv7, armv7s, arm64) e simuladores (i386, x86_64).
+   * `AdobeMobileLibrary.a`, um binário multiarquitetura habilitado para código de bits que contém os builds da biblioteca de dispositivos (armv7, armv7s, arm64) e dos simuladores (i386 e x86_64) do iOS.
 
       Esse binário deve ser vinculado quando o destino for pretendido para um aplicativo do iOS.
 
@@ -50,35 +50,35 @@ Para baixar o SDK:
 
 >[!IMPORTANT]
 >
->If you download the SDK outside the Adobe Mobile services UI, the `ADBMobileConfig.json` file must be manually configured. If you are new to Analytics and the Mobile SDK, see [Before You Start](/help/ios/getting-started/requirements.md) to set up a development report suite and download a pre-populated version of the configuration file.
+>Se você baixar o SDK fora da interface do Adobe Mobile Services, o arquivo `ADBMobileConfig.json` deverá ser configurado manualmente. Se você nunca usou o Analytics e o Mobile SDK, consulte [Antes de começar](/help/ios/getting-started/requirements.md) para configurar um conjunto de relatórios de desenvolvimento e baixar uma versão já preenchida do arquivo de configuração.
 
-## Add the SDK and config file to your project {#section_93C25D893B4A4CD3B996CF3C5590C8DC}
+## Adicionar o SDK e o arquivo de configuração ao projeto {#section_93C25D893B4A4CD3B996CF3C5590C8DC}
 
 1. Abra o Xcode IDE e o seu aplicativo.
 1. No Navegador de projetos, arraste a pasta `AdobeMobileLibrary` e solte-a no seu projeto.
 1. Verifique o seguinte:
 
-   * A caixa de seleção **[!UICONTROL Copiar itens se necessário]está marcada.**
+   * A caixa de seleção **[!UICONTROL Copiar itens se necessário]** está marcada.
    * **[!UICONTROL Criar grupos]** está selecionado.
-   * Nenhuma das caixas de seleção na seção **[!UICONTROL Adicionar aos destinos]está marcada.**
+   * Nenhuma das caixas de seleção na seção **[!UICONTROL Adicionar aos destinos]** está marcada.
    ![](assets/step_3.png)
 
 1. Clique em **[!UICONTROL Concluir]**.
-1. In **[!UICONTROL Project Navigator]**, select **[!UICONTROL`ADBMobileConfig.json`]**.
-1. In **[!UICONTROL File Inspector]**, add the JSON file to any targets in your project that will use the Adobe SDK.
+1. No **[!UICONTROL Navegador de projetos]**, selecione **[!UICONTROL`ADBMobileConfig.json`]**.
+1. Em **[!UICONTROL Inspetor de arquivos]**, adicione o arquivo JSON a todos os destinos em seu projeto que usarão o SDK da Adobe.
 
    ![](assets/step_4.png)
 
-1. In **[!UICONTROL Project Navigator]**, complete the following steps:
+1. No **[!UICONTROL Navegador de projetos]**, conclua as seguintes etapas:
 
    1. Clique no seu aplicativo.
-   1. Na guia **[!UICONTROL Geral]**, selecione seus alvos e vincule as estruturas e bibliotecas necessárias nas seções **[!UICONTROL Estruturas vinculadas]e** Bibliotecas **.**
+   1. Na guia **[!UICONTROL Geral]**, selecione seus alvos e vincule as estruturas e bibliotecas necessárias nas seções **[!UICONTROL Estruturas vinculadas]** e **[!UICONTROL Bibliotecas]**.
    * **Destinos de aplicativos iOS**
       * `SystemConfiguration.framework`
       * `WebKit.framework`
       * `libsqlite3.0.tbd`
       * `AdobeMobileLibrary.a`
-      * `CoreLocation.framework` (opcional, mas obrigatório para recursos de rastreamento geográfico)
+      * `CoreLocation.framework` (opcional, porém obrigatório para recursos de rastreamento geográfico)
    * **Destino de extensão do iOS**
 
       * `SystemConfiguration.framework`
@@ -95,19 +95,19 @@ Para baixar o SDK:
       * `AdobeMobileLibrary\_TV.a`
    >[!CAUTION]
    >
-   > Linking more than one `AdobeMobileLibrary*.a` file in the same target will result in unexpected behavior or the inability to build.
+   > Vincular mais de um arquivo `AdobeMobileLibrary*.a` ao mesmo destino resultará em um comportamento inesperado ou na incapacidade de criar o build.
 
 1. Verifique se o aplicativo foi criado sem erros.
 
-## Implement lifecycle metrics {#section_532702562A7A43809407C9A2CBA80E1E}
+## Implementar medições de ciclo de vida {#section_532702562A7A43809407C9A2CBA80E1E}
 
 >[!IMPORTANT]
 >
->iOS will send lifecycle information with or without calling `collectlifecycledata`, and `collectlifecycledata` is only a way to initiate lifecycle earlier in the application's launch sequence.
+>O iOS enviará informações de ciclo de vida fazendo ou não uma chamada com o `collectlifecycledata`, e o `collectlifecycledata` é só uma maneira de iniciar o ciclo de vida anteriormente na sequência de iniciação do aplicativo.
 
-After you enable lifecycle, each time your app is launched, one hit is sent to measure launches, upgrades, sessions, engaged users, and other [Lifecycle Metrics](/help/ios/metrics.md).
+Após habilitar o ciclo de vida, cada vez que o aplicativo é iniciado uma ocorrência é enviada para medir as inicializações, atualizações, usuários engajados e outras [Métricas de ciclo de vida](/help/ios/metrics.md).
 
-Adicione uma chamada `collectLifecycleData`/ `collectLifecycleDataWithAdditionalData` em `application:didFinishLaunchingWithOptions`:
+Adicionar uma chamada `collectLifecycleData`/ `collectLifecycleDataWithAdditionalData` em `application:didFinishLaunchingWithOptions`:
 
 ```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions { 
@@ -122,7 +122,7 @@ Para incluir dados adicionais com chamadas de ciclo de vida, use `collectLifecyc
 
 >[!IMPORTANT]
 >
->Any data that is passed to the SDK through `collectLifecycleDataWithAdditionalData:` is persisted in `NSUserDefaults` by the SDK. O SDK desmonta os valores no parâmetro `NSDictionary` que não são dos tipos `NSString` ou `NSNumber`.
+>Quaisquer dados transmitidos para o SDK por meio de `collectLifecycleDataWithAdditionalData:` serão mantidos em `NSUserDefaults` pelo SDK. O SDK desmonta os valores no parâmetro `NSDictionary` que não são dos tipos `NSString` ou `NSNumber`.
 
 ```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions { 
