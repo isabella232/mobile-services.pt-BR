@@ -1,24 +1,24 @@
 ---
-description: É possível carregar um arquivo de configuração JSON do ADBMobile diferente ao iniciar o aplicativo.
-seo-description: É possível carregar um arquivo de configuração JSON do ADBMobile diferente ao iniciar o aplicativo.
-seo-title: Substituir o caminho de configuração ADBMobile JSON
-solution: Marketing Cloud,Analytics
-title: Substituir o caminho de configuração ADBMobile JSON
+description: É possível carregar um arquivo de configuração JSON do ADBMobile diferente quando o aplicativo for iniciado.
+seo-description: É possível carregar um arquivo de configuração JSON do ADBMobile diferente quando o aplicativo for iniciado.
+seo-title: Substituir o caminho de configuração JSON do ADBMobile
+solution: Experience Cloud,Analytics
+title: Substituir o caminho de configuração JSON do ADBMobile
 topic: Desenvolvedor e implementação
 uuid: 0d1be674-c634-4a48-aa31-5701681911b9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 ---
 
 
-# Override the ADBMobile JSON config path {#override-the-adbmobile-json-config-path}
+# Substituir o caminho de configuração JSON do ADBMobile {#override-the-adbmobile-json-config-path}
 
-É possível carregar um arquivo de configuração JSON do ADBMobile diferente ao iniciar o aplicativo.
+É possível carregar um arquivo de configuração JSON do ADBMobile diferente quando o aplicativo for iniciado.
 
-The `ADBMobile overrideConfigPath:filePath` method allows you to specify the path to a different `ADBMobile.json` configuration file when the application starts. Esse método deve ser chamado no método `applicationDidFinishLaunchingWithOptions` e a chamada deve ocorrer antes de qualquer outra chamada do SDK da Experience Cloud, como `collectLifecycleData`.
+O método `ADBMobile overrideConfigPath:filePath` permite especificar o caminho para um arquivo de configuração `ADBMobile.json` diferente quando o aplicativo é iniciado. Esse método deve ser chamado no método `applicationDidFinishLaunchingWithOptions` e a chamada deve ocorrer antes de qualquer outra chamada do SDK da Experience Cloud, como `collectLifecycleData`.
 
-Quando você chama esse método com um caminho diferente, uma substituição única do arquivo de configuração ocorre até que o aplicativo seja fechado.
+Ao chamar esse método com um caminho diferente, ocorre uma substituição única do arquivo de configuração até que o aplicativo seja fechado.
 
 Por exemplo:
 
