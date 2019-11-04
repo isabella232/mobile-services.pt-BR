@@ -1,13 +1,13 @@
 ---
 description: Estas informações ajudam você a compreender e usar o Adobe Mobile Services.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: Estas informações ajudam você a compreender e usar o Adobe Mobile Services.
 seo-title: Introdução
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Introdução
 topic: Métricas
 uuid: a7ae7c5a-dab8-4603-b4cd-af73a2f09f71
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ---
@@ -26,7 +26,7 @@ Para as empresas que procuram a maneira mais eficaz de aumentar a participação
 
 Atualmente, o cenário de aplicativos móveis é significativamente diferente do momento em que os smartphones foram lançados pela primeira vez. Ter um aplicativo móvel para conectar seus clientes com sua marca já não é suficiente; hoje, você deve apresentar uma experiência coesa e convincente para o cliente em todos os canais e usar seu aplicativo móvel como um ponto de contato estratégico para envolver seus clientes mais leais e de alto valor. Porém, fazer esses usuários interagirem com seu aplicativo requer conteúdo atraente, notificações contextuais, personalização inteligente, análises de aplicativo integrada, e assim por diante.
 
-## Interface do usuário do Adobe Mobile Services {#mobile-services-ui}
+## Interface do usuário do Adobe Mobile Services  {#mobile-services-ui}
 
 A interface do Mobile Services é compatível com os seguintes navegadores:
 
@@ -41,7 +41,7 @@ O Adobe Mobile Services ajuda a impulsionar a participação do aplicativo móve
 
 Em *Adquirir*, você usa mídia paga, de propriedade e ganhada para impulsionar a aquisição de usuários para downloads de aplicativos nas principais app stores. Com o Adobe Mobile Services, você pode acelerar o processo de aquisição de usuários do aplicativo.
 
-O Adobe Mobile Services fornece fluxos de trabalho de aquisição de usuários, incluindo rastreamento de aquisições e deep links, que medem a eficácia dos canais na aquisição de usuários. Com os Links de marketing que rastreiam quais usuários vieram de qual canal, você pode ganhar visibilidade sobre quais canais de aquisição são mais eficazes para direcionar usuários lucrativos e engajados.
+O Adobe Mobile Services fornece fluxos de trabalho de aquisição de usuários, incluindo rastreamento de aquisições e deep links, que medem a eficácia dos canais na aquisição de usuários. Com os Links de marketing que rastreiam o canal de origem de cada usuário, você pode ver quais são os canais de aquisição mais eficazes na atração de usuários lucrativos e engajados.
 
 Além disso, com os deep links, é possível direcionar os usuários diretamente para o conteúdo do aplicativo que você deseja que eles vejam e incentivá-los a instalar seu aplicativo, se necessário.
 
@@ -52,7 +52,7 @@ O Acquisition oferece os seguintes recursos principais:
 * Deep links para aplicativos
 * Integração de postback com redes publicitárias
 
-Para obter mais informações sobre este fase, consulte [Aquisição](/help/using/acquisition-main/acquisition-main.md).
+Para obter mais informações sobre esta fase, consulte  [Aquisição](/help/using/acquisition-main/acquisition-main.md).
 
 ### Analisar
 
@@ -70,7 +70,7 @@ Você pode usar o Adobe Audience Manager para aprimorar seus segmentos de públi
 * Análise de localização
 * Suporte abrangente a dispositivos e plataformas
 
-Para obter mais informações sobre os relatórios que você pode executar para analisar seus clientes, consulte [Relatórios](/help/using/usage/usage.md).
+Para obter mais informações sobre os relatórios que você pode executar para analisar seus clientes, consulte  [Relatórios](/help/using/usage/usage.md).
 
 ### Mobilizar
 
@@ -88,13 +88,13 @@ Você pode usar as notificações de push e no aplicativo para se comunicar com 
 
 No Adobe Mobile, você pode configurar os seguintes tipos de mensagens:
 
-As **notificações por push**, que aparecem fora do seu aplicativo, oferecem os seguintes recursos:
+As **Notificações por push**, que aparecem fora do seu aplicativo, oferecem os seguintes recursos:
 
 * Impulsionar nova participação pelas notificações por push relevantes.
 * Criar, segmentar e enviar mensagens para clientes que baixaram o aplicativo de uma marca e aceitaram receber notificações por push.
 * São enviados do lado do servidor pelas app stores, e não pelo aplicativo móvel.
 
-Para obter mais informações sobre como criar notificações por push, consulte [Criação de uma mensagem de push](/help/using/in-app-messaging/t-create-push-message/t-create-push-message.md).
+Para obter mais informações sobre como criar notificações por push, consulte  [Criação de uma mensagem por push](/help/using/in-app-messaging/t-create-push-message/t-create-push-message.md).
 
 As **Notificações no aplicativo** oferecem os seguintes recursos:
 
@@ -105,13 +105,13 @@ As **Notificações no aplicativo** oferecem os seguintes recursos:
 * Incentivar os usuários a deixar uma avaliação na app store.
 * Entregar mensagens em tempo real e baseadas na localização
 
-Para obter mais informações sobre como criar mensagens no aplicativo, consulte [Criar uma mensagem no aplicativo](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md).
+Para obter mais informações sobre como criar mensagens no aplicativo, consulte  [Criar uma mensagem no aplicativo](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md).
 
 ### Otimizar
 
 Em *Otimizar*, você pode otimizar conversões (assinaturas, comércio, receita publicitária, etc.) e melhore a retenção de clientes. Otimizar a experiência do usuário em seu aplicativo pode ajudá-lo a personalizar o conteúdo para gerar o maior ROI e conversão.
 
-Para obter mais informações sobre como testar o Adobe Target, vá para [Adobe Target](https://docs.adobe.com/content/help/en/target/using/target-home.html).
+Para obter mais informações sobre como testar o Adobe Target, vá para [Adobe Target](https://docs.adobe.com/content/help/pt-BR/target/using/target-home.html).
 
 ### Geolocalização
 
@@ -121,7 +121,7 @@ O Adobe Target para aplicativos móveis agora aproveita toda a segmentação ava
 
 Para obter mais informações sobre localização, consulte o seguinte conteúdo:
 
-* [Location in the Mobile Services user's guide](/help/using/location/c-location-overview.md)
+* [Localização no guia do usuário do Mobile Services](/help/using/location/c-location-overview.md)
 * [Localização no guia do SDK do Android.](/help/android/location/location.md)
 * [Localização no guia do SDK do iOS.](/help/ios/location/location.md)
 
@@ -158,4 +158,4 @@ O SDK do Adobe Mobile oferece os seguintes recursos:
    * Minimiza a carga de processamento do dispositivo para enviar dados aos servidores da Adobe e sistemas de terceiros.
    * O tamanho reduzido minimiza o tamanho do pacote do aplicativo que é enviado às app stores.
 
-Para obter mais informações sobre os Adobe Mobile SDKs, consulte [Android SDK 4.x para Soluções da Experience Cloud](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html) e [iOS SDK 4.x para Soluções da Experience Cloud](https://docs.adobe.com/content/help/en/mobile-services/ios/rel-notes.html).
+Para obter mais informações sobre os Adobe Mobile SDKs, consulte [Android SDK 4.x para Soluções da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/mobile-services/android/overview.html) e [iOS SDK 4.x para Soluções da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/mobile-services/ios/rel-notes.html).
