@@ -1,42 +1,42 @@
 ---
 description: Na interface do usuário do Adobe Mobile Services, é possível agendar uma mensagem de push para ser entregue imediatamente, mais tarde e como um evento recorrente. Esses eventos podem ser agendados diária, semanal ou mensalmente.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: Na interface do usuário do Adobe Mobile Services, é possível agendar uma mensagem de push para ser entregue imediatamente, mais tarde e como um evento recorrente. Esses eventos podem ser agendados diária, semanal ou mensalmente.
-seo-title: Agendar mensagem de push
-solution: Marketing Cloud,Analytics
-title: Agendar mensagem de push
+seo-title: Programar mensagem por push
+solution: Experience Cloud, Analytics
+title: Programar mensagem por push
 topic: Métricas
 uuid: 6810e27a-016f-4286-8fe2-9972d85fa326
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
 ---
 
 
-# Agendamento: mensagens de push{#schedule-push-message}
+# Programar: mensagens por push{#schedule-push-message}
 
 Na interface do usuário do Adobe Mobile Services, é possível agendar uma mensagem de push para ser entregue imediatamente, mais tarde e como um evento recorrente. Esses eventos podem ser agendados diária, semanal ou mensalmente.
 
 >[!TIP]
 >
->Os usuários podem modificar as configurações de agendamento de um trabalho de mensagem de push a qualquer momento. Se não houver uma data aplicável para enviar uma mensagem recorrente agendada, por exemplo, uma tarefa mensal recorrente no 31º dia, no dia 31 de fevereiro ou na 5ª terça-feira do mês, nenhuma mensagem será enviada.
+>Os usuários podem modificar as configurações de programação para uma tarefa de mensagem por push a qualquer momento. Se não houver uma data aplicável para enviar uma mensagem recorrente agendada, por exemplo, uma tarefa mensal recorrente no 31º dia, no dia 31 de fevereiro ou na 5ª terça-feira do mês, nenhuma mensagem será enviada.
 
 Lembre-se das seguintes informações:
 
-* O formato de data e hora correto é `hh:mm` e `mm/dd/yyyy`.
+* O formato correto de data e hora é `hh:mm` e `mm/dd/yyyy`.
 
 * Você pode editar uma mensagem agendada das seguintes maneiras:
 
-   * Altere a data para uma data posterior.
+   * Mudar a data para uma data posterior.
    * Altere o intervalo de repetição.
 
       Por exemplo, para uma mensagem que é enviada todos os dias, você pode alternar a recorrência para semanalmente.
 
-## Antes de programar mensagens de push recorrentes
+## Antes de agendar mensagens por push recorrentes
 
 Você **deve** compreender as seguintes informações antes de agendar mensagens de push recorrentes:
 
-* As opções exibidas na lista suspensa **[!UICONTROL Repetir]dependem da data que você digitou ou selecionou.**
+* As opções exibidas na lista suspensa **[!UICONTROL Repetir]** dependem da data que você digitou ou selecionou.
 
    Por exemplo, se você digitou `Saturday, October 7`, as seguintes opções são exibidas:
 
@@ -57,19 +57,19 @@ Você **deve** compreender as seguintes informações antes de agendar mensagens
 
    Por exemplo, se a hora de início for 12h **PST**, embora a mensagem seja enviada às 19h **GMT**, o relatório da mensagem exibirá a hora de envio como 12h **PST**.
 
-## Schedule a recurring push message {#section_675BD754E5A04423A1751193698A978F}
+## Programar uma mensagem por push recorrente {#section_675BD754E5A04423A1751193698A978F}
 
-1. Na página Agendar para uma nova mensagem de push, selecione **[!UICONTROL Agendado]** ou **[!UICONTROL Agora]**.
+1. Na página Programação de uma nova mensagem por push, selecione **[!UICONTROL Programada]** ou **[!UICONTROL Agora]**.
 
-   For more information, see [Create a push message](/help/using/in-app-messaging/t-create-push-message/t-create-push-message.md).
+   Para obter mais informações, consulte [Criar uma mensagem por push](/help/using/in-app-messaging/t-create-push-message/t-create-push-message.md).
 
-   If you selected **[!UICONTROL Now]**, the message is pushed immediately. Para evitar que a mensagem seja agendada imediatamente, clique em **[!UICONTROL Salvar como rascunho]**.
+   Se você selecionou **[!UICONTROL Agora]**, a mensagem será enviada imediatamente. Para evitar que a mensagem seja agendada imediatamente, clique em **[!UICONTROL Salvar como rascunho]**.
 
    ![](assets/schedule-push-message.png)
 
-1. If you selected **[!UICONTROL Scheduled]**, click the calendar icon and select or type a start date.
+1. Se você selecionou **[!UICONTROL Programada]**, clique no ícone do calendário e selecione ou digite uma data de início.
 1. Digite uma hora. 
-1. Under **[!UICONTROL Repeat]**, select one of the following options:
+1. Em **[!UICONTROL Repetir]**, selecione uma das seguintes opções:
 
    * **[!UICONTROL Nunca]**
    * **[!UICONTROL Todos os dias]**
@@ -77,18 +77,18 @@ Você **deve** compreender as seguintes informações antes de agendar mensagens
    * **`<Day x>`do mês**
 
       As opções exibidas mudam de acordo com o dia selecionado ou digitado como o dia de início.
-   * **`<nth day>`of Every Month**
+   * **`<nth day>`de cada mês**
 
       O valor exibido muda de acordo com a data que você selecionou ou digitou como a data de início.
 
-1. In **[!UICONTROL End Repeat]**, type an end date and time.
+1. Em **[!UICONTROL Fim da repetição]**, digite uma data e hora de término.
 1. Clique em uma das seguintes opções:
 
    * **[!UICONTROL Salvar como rascunho]**
 
       Esta opção salva a mensagem no formato de rascunho. Você pode escolher essa opção para salvar uma mensagem não finalizada ou para salvar a mensagem de modo que uma pessoa edite-a e aprove-a antes de ativá-la.
 
-      If you selected **[!UICONTROL Now]** in the previous step, the draft message is sent immediately on activation. Se você selecionou uma data e hora para encaminhar a mensagem, ela será encaminhada de acordo com este agendamento.
+      Se você selecionou **[!UICONTROL Agora]** na etapa anterior, a mensagem de rascunho é enviada imediatamente após a ativação. Caso tenha selecionado a data e a hora para encaminhar a mensagem, ela será encaminhada de acordo com essa programação.
 
    * **[!UICONTROL Salvar e agendar]**
 
@@ -96,5 +96,5 @@ Você **deve** compreender as seguintes informações antes de agendar mensagens
 
 Para enviar a mensagem de rascunho mais tarde, siga um destes procedimentos:
 
-* Click **[!UICONTROL Manage Messages]**, select the check box next to the message, and click **[!UICONTROL Activate Selected]**.
-* Clique em **[!UICONTROL Salvar e enviar]para salvar a mensagem e enviá-la.**
+* Clique em **[!UICONTROL Gerenciar mensagens]**, marque a caixa de seleção ao lado da mensagem e clique em **[!UICONTROL Ativar mensagens selecionadas]**.
+* Clique em **[!UICONTROL Salvar e enviar]** para salvar a mensagem e enviá-la.
