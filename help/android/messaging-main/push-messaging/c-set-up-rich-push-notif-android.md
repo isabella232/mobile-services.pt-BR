@@ -4,17 +4,17 @@ seo-description: É possível anexar arquivos de imagem às notificações do An
 seo-title: Receber notificações por push detalhadas
 title: Receber notificações por push avançadas
 uuid: 4a0340a6-666b-49b6-907a-9afc966dfdba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dca3663986b3ecc6e9fb736cc99513279715225c
 
 ---
 
 
-# Receive rich push notifications {#receive-rich-push-notifications}
+# Receber notificações por push avançadas {#receive-rich-push-notifications}
 
 É possível anexar arquivos de imagem às notificações do Android. A adição de componentes visuais pode aumentar consideravelmente a participação do usuário com as notificações por push.
 
-## Handle the incoming rich push message (FCM) {#section_AF1A3BC2312C4E1DA517CC90296C11E2}
+## Gerenciar a mensagem de push de entrada detalhada (FCM) {#section_AF1A3BC2312C4E1DA517CC90296C11E2}
 
 Se o aplicativo estiver em primeiro plano, a mensagem de push será gerenciada pelo aplicativo que estende a classe `FirebaseMessagingService` e é declarada no arquivo de manifesto da seguinte forma:
 
@@ -30,9 +30,9 @@ Se o aplicativo estiver em primeiro plano, a mensagem de push será gerenciada p
 
 >[!IMPORTANT]
 >
->The class that contains the  implementation handles the data that is received.`onMessageReceived()`
+>A classe que contém a implementação `onMessageReceived()` processa os dados recebidos.
 
-If the push message contains a Media URL, the URL will be available in the `RemoteMessage` parameter that is passed to the `onMessageReceived()` function. A chave a ser usada é `attachment-url`, como aparece na seguinte amostra de código:
+Se a mensagem por push tiver um URL de mídia, o URL estará disponível no parâmetro `RemoteMessage` passado para a função `onMessageReceived()`. A chave a ser usada é `attachment-url`, como aparece na seguinte amostra de código:
 
 ```java
 public class MyFirebaseMessagingService extends FirebaseMessagingService {
@@ -90,9 +90,9 @@ private void sendNotification(RemoteMessage message) {
 
 >[!IMPORTANT]
 >
->When you set `NotificationCompat.BigPictureStyle`, large images might not be displayed. Para assegurar que imagens grandes sejam sempre exibidas, defina o `Notification.BigPictureStyle` nativo.
+>Ao definir `NotificationCompat.BigPictureStyle`, imagens grandes podem não ser exibidas. Para assegurar que imagens grandes sejam sempre exibidas, defina o `Notification.BigPictureStyle` nativo.
 
-## Sample rich push notification {#section_6819316BEDDE45108413B541CA2BB2DC}
+## Amostra de notificação por push avançada {#section_6819316BEDDE45108413B541CA2BB2DC}
 
 Na seguinte imagem, há um exemplo de uma notificação por push detalhada:
 
