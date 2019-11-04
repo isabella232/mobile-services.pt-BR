@@ -1,18 +1,18 @@
 ---
 description: As ações cronometradas permitem medir o tempo no aplicativo e o tempo total entre o início e o fim de uma ação. O SDK calcula a quantidade de tempo em cada sessão e o tempo total em todas as sessões que levará para uma ação ser concluída. É possível usar as ações cronometradas para definir segmentos e comparar o tempo de compra, o nível de passagem, o fluxo de finalização da compra e assim por diante.
 seo-description: As ações cronometradas permitem medir o tempo no aplicativo e o tempo total entre o início e o fim de uma ação. O SDK calcula a quantidade de tempo em cada sessão e o tempo total em todas as sessões que levará para uma ação ser concluída. É possível usar as ações cronometradas para definir segmentos e comparar o tempo de compra, o nível de passagem, o fluxo de finalização da compra e assim por diante.
-seo-title: Ações programadas
-solution: Marketing Cloud,Analytics
-title: Timed actions
+seo-title: Ações cronometradas
+solution: Experience Cloud,Analytics
+title: Ações cronometradas
 topic: Desenvolvedor e implementação
 uuid: dbcbac5a-6345-49f6-b050-0db05292f005
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ---
 
 
-# Timed actions {#timed-actions}
+# Ações cronometradas {#timed-actions}
 
 As ações cronometradas permitem medir o tempo no aplicativo e o tempo total entre o início e o fim de uma ação. O SDK calcula a quantidade de tempo em cada sessão e o tempo total em todas as sessões que levará para uma ação ser concluída. É possível usar as ações cronometradas para definir segmentos e comparar o tempo de compra, o nível de passagem, o fluxo de finalização da compra e assim por diante.
 
@@ -27,11 +27,11 @@ Um retorno de chamada opcional permite que você tome uma ação adicional quand
 * Adicione dados de contexto antes de transmitir as durações.
 * O cancelamento das ocorrências e durações ainda não foi enviado.
 
-## Tracking timed actions {#section_FF5B1EDC1A5340A5B13BC0F1BF2E13E1}
+## Rastreamento de ações cronometradas {#section_FF5B1EDC1A5340A5B13BC0F1BF2E13E1}
 
 1. Adicione a biblioteca ao projeto e implemente o ciclo de vida.
 
-   Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao seu projeto* em Implementação [principal e Ciclo de vida](/help/ios/getting-started/dev-qs.md).
+   Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao seu projeto* em [Implementação principal e ciclo de vida](/help/ios/getting-started/dev-qs.md).
 1. Importe a biblioteca:
 
    ```objective-c
@@ -61,7 +61,7 @@ Um retorno de chamada opcional permite que você tome uma ação adicional quand
                             logic:nil];
    ```
 
-## Sending additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## Envio de dados adicionais {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 Além do nome da ação cronometrada, você pode enviar dados de contexto adicionais com as chamadas de ação de atualização e de início:
 
@@ -70,7 +70,7 @@ Além do nome da ação cronometrada, você pode enviar dados de contexto adicio
                              data:@{@"myapp.ImageLiked" : imageName}];
 ```
 
-Context data values must be mapped to custom variables:
+Os valores dos dados de contexto devem ser mapeados para variáveis personalizadas:
 
 ![](assets/map-variable-context-ltv.png)
 
