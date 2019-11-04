@@ -2,11 +2,11 @@
 description: Estas são algumas informações sobre a medição de vídeos no iOS usando a medição de vídeos por etapas.
 seo-description: Estas são algumas informações sobre a medição de vídeos no iOS usando a medição de vídeos por etapas.
 seo-title: Análise de vídeo
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Análise de vídeo
 topic: Desenvolvedor e implementação
 uuid: d75fa415-78f6-4f50-a563-76949f040138
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 ---
@@ -18,17 +18,17 @@ Estas são algumas informações sobre a medição de vídeos no iOS usando a me
 
 >[!TIP]
 >
->Durante a reprodução do vídeo, chamadas "heartbeat" frequentes são enviadas a esse serviço para medir o tempo reproduzido. Essas chamadas de heartbeat são enviadas a cada 10 segundos, o que resulta em métricas granulares de envolvimento com o vídeo e relatórios de repercussão de vídeo mais precisos. Para obter mais informações, consulte [Medição de áudio e vídeo no Adobe Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
+>Durante a reprodução do vídeo, chamadas "heartbeat" frequentes são enviadas a esse serviço para medir o tempo reproduzido. Essas chamadas de heartbeat são enviadas a cada 10 segundos, o que resulta em métricas granulares de envolvimento com o vídeo e relatórios de repercussão de vídeo mais precisos. Para obter mais informações, consulte [Medição de áudio e vídeo no Adobe Analytics](https://docs.adobe.com/content/help/pt-BR/media-analytics/using/media-overview.html).
 
 O processo geral para medição de vídeo é muito parecido em todas as plataformas. Este conteúdo fornece uma visão geral básica das tarefas do desenvolvedor com exemplos de código.
 
-## Map player events to Analytics variables {#section_E84987F878AB4A3A83AE700FEC4C9D4D}
+## Mapear eventos do player para variáveis do Analytics {#section_E84987F878AB4A3A83AE700FEC4C9D4D}
 
-A tabela a seguir lista os dados de mídia que são enviados para o Analytics. Use as regras de processamento para mapear os dados de contexto para uma variável do Analytics.
+A tabela a seguir lista os dados de mídia que são enviados para o Analytics. Usar as regras de processamento para mapear os dados de contexto para uma variável do Analytics.
 
 * **a.media.name**
 
-   (obrigatório) Coleta o nome do vídeo, conforme especificado na implementação, quando um visitante exibe o vídeo. É possível adicionar classificações para essa variável.
+   (Obrigatório) Coleta o nome do vídeo, conforme especificado na implementação, quando um visitante exibe o vídeo. É possível adicionar classificações para essa variável.
 
    (Opcional) A variável de Insight personalizado oferece informações de caminho de vídeo.
 
@@ -38,14 +38,14 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
 
 * **a.media.name**
 
-   (opcional) Fornece informações sobre o caminho de vídeo. O caminho deve ser habilitado para a variável pelo Atendimento ao cliente.
+   (Opcional) Fornece informações sobre o caminho do vídeo. O caminho deve ser habilitado para a variável pelo Atendimento ao cliente.
 
    * Tipo de variável: Insight personalizado (s.prop)
    * Tipo de evento: Insight personalizado (s.prop)
 
 * **a.media.segment**
 
-   (obrigatório) Coleta dados de segmento do vídeo, incluindo o nome do segmento e a ordem na qual ele ocorre no vídeo. Essa variável é preenchida com a habilitação da variável `segmentByMilestones` durante o monitoramento de eventos de player de modo automático, ou ao configurar um nome de segmento personalizado durante o monitoramento manual dos eventos do player. For example, when a visitor views the first segment in a video, SiteCatalyst might collect the following in the `1:M:0-25` Segments evar.
+   (Obrigatório) Coleta dados de segmento do vídeo, incluindo o nome do segmento e a ordem na qual ele ocorre no vídeo. Essa variável é preenchida com a habilitação da variável `segmentByMilestones` durante o monitoramento de eventos de player de modo automático, ou ao configurar um nome de segmento personalizado durante o monitoramento manual dos eventos do player. Por exemplo, quando um visitante exibe o primeiro segmento em um vídeo, o SiteCatalyst pode coletar as seguintes informações no eVar de segmentos `1:M:0-25`.
 
    O método de coleção de dados de vídeo coleta os dados dos pontos as seguir:
 
@@ -60,7 +60,7 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
 
 * **a.contentType**
 
-   Coleta dados sobre o tipo de conteúdo que é visualizado por um visitante. Hits sent by video measurement are assigned a content type of `video`. Essa variável não precisa estar reservada exclusivamente para o rastreamento de vídeo. Quando outros conteúdos relatam o tipo por meio da mesma variável, é possível analisar a distribuição de visitantes em tipos diferentes de conteúdo. Por exemplo, é possível marcar outros tipos de conteúdo por meio de valores como “artigo” ou “página do produto” com essa variável. Da perspectiva da avaliação de vídeo, o Tipo de conteúdo permite identificar os visitantes e calcular as taxas de conversão do vídeo.
+   Coleta dados sobre o tipo de conteúdo que é visualizado por um visitante. Ocorrências enviadas por meio da medição de vídeo recebem um tipo de conteúdo de `video`. Essa variável não precisa estar reservada exclusivamente para o rastreamento de vídeo. Quando outros conteúdos relatam o tipo por meio da mesma variável, é possível analisar a distribuição de visitantes em tipos diferentes de conteúdo. Por exemplo, é possível marcar outros tipos de conteúdo por meio de valores como “artigo” ou “página do produto” com essa variável. Da perspectiva da avaliação de vídeo, o Tipo de conteúdo permite identificar os visitantes e calcular as taxas de conversão do vídeo.
 
    * Tipo de variável: eVar
    * Expiração padrão: visualização de página
@@ -93,7 +93,7 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
    * Tipo de variável: Evento
    * Tipo: contador
 
-## Configure media settings {#section_929945D4183C428AAF3B983EFD3E2500}
+## Definir as configurações de mídia {#section_929945D4183C428AAF3B983EFD3E2500}
 
 Configure um objeto `ADBMediaSettings` com as configurações que deseja usar para rastrear vídeos:
 
@@ -120,9 +120,9 @@ mediaSettings.trackSeconds = 30; // sends a hit every 30 seconds
 // event handlers described in the next section
 ```
 
-## Track player events {#section_C7F43AECBC0D425390F7FCDF3035B65D}
+## Rastrear eventos de vídeo {#section_C7F43AECBC0D425390F7FCDF3035B65D}
 
-To measure video playback, The `mediaPlay`, `mediaStop`, and `mediaClose` methods need to be called at the appropriate times. Por exemplo, quando o reprodutor está pausado, `mediaStop`. `mediaPlay` é chamado quando a reprodução começa ou é retomada.
+Para avaliar a reprodução de vídeo, os métodos `mediaPlay`, `mediaStop`, e `mediaClose` devem ser chamados em momentos apropriados. Por exemplo, quando o reprodutor está pausado, `mediaStop`. `mediaPlay` é chamado quando a reprodução começa ou é retomada.
 
 O seguinte exemplo demonstra como configurar as notificações e chamar os métodos de mídia para avaliar o vídeo:
 
@@ -220,7 +220,7 @@ NSUInteger segmentNum
 NSUInteger eventType
 ```
 
-## Media measurement class and method reference {#section_50DF9359A7B14DF092634C8E913C77FE}
+## Referência de método e classe de medição de mídia {#section_50DF9359A7B14DF092634C8E913C77FE}
 
 * **mediaCreateSettings&#x200B;WithName:&#x200B;length:&#x200B;playerName:&#x200B;playerID:**
 
