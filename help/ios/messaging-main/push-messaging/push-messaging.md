@@ -1,50 +1,49 @@
 ---
 description: O Adobe Mobile e seu SDK permitem enviar mensagens por push para seus usuários. O SDK também permite registrar com facilidade os usuários que abriram seu aplicativo clicando em uma mensagem por push.
 seo-description: O Adobe Mobile e seu SDK permitem enviar mensagens por push para seus usuários. O SDK também permite registrar com facilidade os usuários que abriram seu aplicativo clicando em uma mensagem por push.
-seo-title: Mensagens de push
-solution: Marketing Cloud,Analytics
-title: Mensagens de push
+seo-title: Mensagens por push
+solution: Experience Cloud,Analytics
+title: Mensagens por push
 topic: Desenvolvedor e implementação
 uuid: 2e2d8175-d7d0-4b6b-a14e-d419da1f9615
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 ---
 
 
-# Push messaging {#push-messaging}
+# Mensagens por push {#push-messaging}
 
 O Adobe Mobile e seu SDK permitem enviar mensagens por push para seus usuários. O SDK também permite registrar com facilidade os usuários que abriram seu aplicativo clicando em uma mensagem por push.
 
 >[!IMPORTANT]
 >
->As informações neste tópico são uma sugestão para uma possível implementação. Recomendamos que você consulte a documentação do iOS da Apple para determinar qual é a melhor implementação para seu aplicativo. Sua implementação deve ser determinada pelas estruturas que você está usando e pelas versões do iOS que seu aplicativo direcionará.
+>As informações neste tópico são sugestões para uma possível implementação. Recomendamos que você consulte a documentação do iOS da Apple para determinar qual é a melhor implementação para seu aplicativo. Sua implementação deve ser determinada pelas estruturas que você está usando e pelas versões do iOS às quais seu aplicativo será direcionado.
 
 Para usar mensagens de push, você **deve** ter o SDK versão 4.6 ou posterior.
 
 >[!IMPORTANT]
 >
->Não defina manualmente a Experience Cloud ID dentro do aplicativo. Isso ocasiona na criação de um novo usuário exclusivo que não receberá mensagens de push por causa do status de aceitação. Por exemplo, suponha que um usuário que aceitou receber mensagens de push registre-se no seu aplicativo. Depois de fazer logon, se você definir manualmente a ID dentro do aplicativo, um novo usuário exclusivo que não aceitou receber mensagens de push é criado. Este novo usuário não receberá suas mensagens de push.
+>Não defina a Experience Cloud ID manualmente dentro do aplicativo. Isso ocasiona na criação de um novo usuário exclusivo que não receberá mensagens de push por causa do status de aceitação. Por exemplo, suponha que um usuário que aceitou receber mensagens de push registre-se no seu aplicativo. Depois de fazer logon, se você definir manualmente a ID dentro do aplicativo, um novo usuário exclusivo que não aceitou receber mensagens de push é criado. Este novo usuário não receberá suas mensagens de push.
 
 ## Pré-requisitos {#section_06655ABE973743DC965897B229A2118D}
 
-* Adicione a biblioteca ao seu projeto e implemente as medições de ciclo de vida.
+* Adicione a biblioteca ao projeto e implemente as métricas de ciclo de vida.
 
-   For more information, see [Lifecycle metrics](/help/ios/metrics.md).
+   Para obter mais informações, consulte [Métricas de ciclo de vida](/help/ios/metrics.md).
 
 
-* O SDK deve estar habilitado para o serviço de ID.
-Para obter mais informações, consulte [Configurar opções](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md)do serviço de ID do SDK.
+* O SDK deve estar habilitado para o serviço de ID. Para obter mais informações, consulte [Configurar opções do serviço de ID do SDK](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md).
 
 >[!IMPORTANT]
 >
->Não há suporte para mover seu aplicativo para um novo conjunto de relatórios. Se você migrar para um novo conjunto de relatórios, sua configuração de push pode ser interrompida e as mensagens podem não ser enviadas.
+>Não é possível mover seu aplicativo para um novo conjunto de relatórios. Se você migrar para um novo conjunto de relatórios, sua configuração de push pode ser interrompida e as mensagens podem não ser enviadas.
 
-## Enabling push messaging {#section_CBD63C5B11FE4424BC2BF552C23F2BD9}
+## Ativação de mensagens por push {#section_CBD63C5B11FE4424BC2BF552C23F2BD9}
 
-1. Verify that the `ADBMobileConfig.json` file contains the required settings for push messaging.
+1. Verifique se o arquivo `ADBMobileConfig.json` contém as configurações exigidas para mensagens por push.
 
-   The `"marketingCloud"` object must have its `"org"` property configured for push messaging.
+   O objeto `"marketingCloud"` deve ter sua propriedade `"org"` configurada para enviar mensagens por push.
 
    ```objective-c
    "marketingCloud": { 
@@ -58,9 +57,9 @@ Para obter mais informações, consulte [Configurar opções](/help/using/c-mana
    #import "ADBMobile.h"
    ```
 
-1. Para determinar as configurações para as quais seu aplicativo precisa solicitar permissão, consulte [Configuração do suporte](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html#//apple_ref/doc/uid/TP40008194-CH6-SW1)de notificação remota.
+1. Para determinar as configurações para as quais seu aplicativo precisa solicitar permissão, consulte [Configuração de suporte de notificação remota](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html#//apple_ref/doc/uid/TP40008194-CH6-SW1).
 
-   Este é um exemplo de uma possível implementação que está solicitando permissão para usar Alertas, Badges, Sons e notificação remota:
+   Este é um exemplo de uma possível implementação que solicita permissão para usar Alertas, Aviso no ícone, Sons e Notificação remota:
 
    ```objective-c
    // iOS 10 and newer 
@@ -94,7 +93,7 @@ Para obter mais informações, consulte [Configurar opções](/help/using/c-mana
    }
    ```
 
-1. The push token must be passed to the SDK using the `setPushIdentifier:` method in ADBMobile class.
+1. O token de push deve ser transmitido ao SDK usando o método `setPushIdentifier:` na classe ADBMobile.
 
    ```objective-c
    - (void) application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken { 
@@ -104,7 +103,7 @@ Para obter mais informações, consulte [Configurar opções](/help/using/c-mana
    }
    ```
 
-1. Para determinar a implementação correta para seu ambiente, vá para [UserNotifications](https://developer.apple.com/documentation/usernotifications).
+1. Para determinar a implementação correta para seu ambiente, acesse [UserNotifications](https://developer.apple.com/documentation/usernotifications).
 
    Esta etapa ajuda a habilitar o relatório de push ao passar o dicionário `userInfo` para o SDK quando o usuário abre o aplicativo usando o click-through de uma mensagem de push.
 
@@ -138,7 +137,7 @@ Para obter mais informações, consulte [Configurar opções](/help/using/c-mana
    }
    ```
 
-1. To keep your estimated push audience accurate, notify the SDK when a user manually disables push messaging for your app by calling `[ADBMobile setPushIdentifier: nil]` in the `applicationDidBecomeActive:` method in your `AppDelegate`.
+1. Para manter a precisão de seu público de push, notifique o SDK quando um usuário desabilitar manualmente as mensagens por push de seu aplicativo, chamando `[ADBMobile setPushIdentifier: nil]` no método `applicationDidBecomeActive:` em seu `AppDelegate`.
 
    ```objective-c
    // device running < iOS 7 
