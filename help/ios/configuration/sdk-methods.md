@@ -2,21 +2,21 @@
 description: Esta é uma lista de métodos fornecidos pela biblioteca do iOS.
 seo-description: Esta é uma lista de métodos fornecidos pela biblioteca do iOS.
 seo-title: Métodos de configuração
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Métodos de configuração
 topic: Desenvolvedor e implementação
 uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 ---
 
 
-# Configuration methods {#configuration-methods}
+# Métodos de configuração {#configuration-methods}
 
 Esta é uma lista de métodos fornecidos pela biblioteca do iOS.
 
-O SDK suporta atualmente várias Soluções da Adobe Experience Cloud, incluindo o Analytics, o Target, o Audience Manager e o Adobe Experience Platform Identity Service.
+Atualmente, o SDK é compatível com várias soluções da Adobe Experience Cloud, como o Analytics, o Target, o Audience Manager e o Adobe Experience Platform Identity Service.
 
 * **setAppExtensionType**
 
@@ -27,7 +27,7 @@ O SDK suporta atualmente várias Soluções da Adobe Experience Cloud, incluindo
    * `ADBMobileAppExtensionTypeStandAlone` - a extensão não é fornecida com um aplicativo contêiner.
    >[!TIP]
    >
-   >This method should **only** be used if your app has an extension or is a stand-alone extension. For more information, see *ADBMobileAppExtensionType* below.
+   >Este método **só** deve ser usado se o aplicativo tiver uma extensão ou for uma extensão independente. Para obter mais informações, consulte *ADBMobileAppExtensionType* abaixo.
 
    * Esta é a sintaxe para este método:
 
@@ -124,7 +124,7 @@ O valor padrão está definido no arquivo `ADBMobileConfig.json`.
 
    >[!TIP]
    >
-   >Se seu aplicativo for atualizado do Experience Cloud 3.x para o SDK 4.x, a ID de visitante personalizada ou gerada automaticamente anterior será recuperada e armazenada como o identificador de usuário personalizado. Para obter mais informações, consulte a linha `userIdentifier` abaixo. Isso preserva os dados dos visitantes entre as atualizações de SDK. Para novas instalações no SDK 4.x, o identificador do usuário é `nil` e o identificador de rastreamento é usado.
+   >Se seu aplicativo for atualizado do SDK 3.x da Experience Cloud para o 4.x, a ID anterior de visitante, personalizada ou gerada automaticamente, será recuperada e armazenada como o identificador personalizado do usuário. Para obter mais informações, consulte a linha `userIdentifier` abaixo. Isso preserva os dados dos visitantes entre as atualizações de SDK. Para novas instalações no SDK 4.x, o identificador do usuário é `nil` e o identificador de rastreamento é usado.
 
    * Esta é a sintaxe para este método:
 
@@ -144,7 +144,7 @@ O valor padrão está definido no arquivo `ADBMobileConfig.json`.
 
    >[!TIP]
    >
-   >Se seu aplicativo for atualizado do SDK 3.x da Experience Cloud para o 4.x, a ID de visitante personalizada ou gerada automaticamente anterior será recuperada e armazenada como o identificador de usuário personalizado. Isso preserva os dados do visitante entre as atualizações de SDK.
+   >Se seu aplicativo for atualizado do SDK 3.x da Experience Cloud para o 4.x, a ID anterior de visitante, personalizada ou gerada automaticamente, será recuperada e armazenada como o identificador personalizado do usuário. Isso preserva os dados do visitante entre as atualizações de SDK.
 
    Para novas instalações do SDK 4.x, o identificador do usuário é `nil` até que seja definido.
 
@@ -214,7 +214,7 @@ O valor padrão está definido no arquivo `ADBMobileConfig.json`.
 
    >[!TIP]
    >
-   >Este método é destinado a aplicativos que se registram para receber notificações enquanto estão em segundo plano e só deve ser chamado a partir do código executado enquanto o aplicativo está em segundo plano.
+   >Este método é destinado a aplicativos que realizam registros para receber notificações quando são executados em segundo plano e só deve ser chamado a partir do código executado enquanto o aplicativo está em segundo plano.
 
    * Esta é a sintaxe para este método:
 
@@ -234,7 +234,7 @@ O valor padrão está definido no arquivo `ADBMobileConfig.json`.
 
    >[!TIP]
    >
-   >The preferred location to invoke this method is in `application:didFinishLaunchingWithOptions:`.
+   >A localização preferida para invocar este método está em `application:didFinishLaunchingWithOptions:`.
 
    * Esta é a sintaxe para este método:
 
@@ -252,11 +252,11 @@ O valor padrão está definido no arquivo `ADBMobileConfig.json`.
 
    Permite que você envie dados adicionais ao coletar medições de ciclo de vida.
 
-   Esse método deve ser chamado a partir do ponto de entrada do aplicativo. Where applicable, this may include one or both of the methods `application:didFinishLaunchingWithOptions:` and/or `applicationWillEnterForeground:` in your AppDelegate class.
+   Este método deve ser chamado do ponto de entrada do seu aplicativo. Sempre que aplicável, isso pode incluir um ou ambos os métodos: `application:didFinishLaunchingWithOptions:` e/ou `applicationWillEnterForeground:` na classe AppDelegate.
 
    >[!IMPORTANT]
    >
-   >Data that is passed to the SDK via `collectLifecycleDataWithAdditionalData:` will be persisted by the SDK in `NSUserDefaults`. O SDK eliminará quaisquer valores no parâmetro `NSDictionary` que não sejam do tipo `NSString` ou `NSNumber`. To use  `collectLifecycleDataWithAdditionalData:`, you must have SDK **version 4.4** or later.
+   >Os dados passados para o SDK por meio do `collectLifecycleDataWithAdditionalData:` persistirão no SDK em `NSUserDefaults`. O SDK eliminará quaisquer valores no parâmetro `NSDictionary` que não sejam do tipo `NSString` ou `NSNumber`. Para usar o `collectLifecycleDataWithAdditionalData:`, você deve ter a **versão 4.4** ou posterior do SDK.
 
    * Esta é a sintaxe para este método:
 
@@ -276,7 +276,7 @@ O valor padrão está definido no arquivo `ADBMobileConfig.json`.
 
    >[!IMPORTANT]
    >
-   >To use `overrideConfigPath`, you must have SDK version 4.2 or later.
+   >Para usar o `overrideConfigPath`, você deve ter a versão 4.2 ou posterior do SDK.
 
    * Esta é a sintaxe para este método:
 
@@ -297,7 +297,7 @@ O valor padrão está definido no arquivo `ADBMobileConfig.json`.
 
    >[!IMPORTANT]
    >
-   >This method should only be used in the  `application:didRegisterForRemoteNotificationsWithDeviceToken:` method.
+   >Este método só deve ser usado no método `application:didRegisterForRemoteNotificationsWithDeviceToken:`.
 
    * Esta é a sintaxe para este método:
 
@@ -319,7 +319,7 @@ O valor padrão está definido no arquivo `ADBMobileConfig.json`.
 
    >[!TIP]
    >
-   >Retrieve the IDFA from Apple APIs **only** if you are using an ad service. Se você recuperar o IDFA e não o utilizar corretamente, seu aplicativo poderá ser rejeitado.
+   >Recupere a IDFA das APIs da Apple **só** se você estiver usando um serviço de anúncios. Se você recuperar o IDFA e não o utilizar corretamente, seu aplicativo poderá ser rejeitado.
 
    * Esta é a sintaxe para este método:
 
