@@ -3,17 +3,17 @@ description: Estas informações ajudam a solucionar problemas de mensagem de pu
 keywords: mobile
 seo-description: Estas informações ajudam a solucionar problemas de mensagem de push no aplicativo.
 seo-title: Resolução de problemas nas mensagens no aplicativo
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Resolução de problemas nas mensagens no aplicativo
 topic: Métricas
 uuid: 58533aa3-2eb2-4597-8525-77e4e5975e56
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1154bab39b5215e00d47ad8e66caeec15e4e98de
 
 ---
 
 
-# Troubleshooting in-app messaging{#troubleshooting-in-app-messaging}
+# Resolução de problemas nas mensagens no aplicativo{#troubleshooting-in-app-messaging}
 
 Estas informações ajudam a solucionar problemas de mensagem de push no aplicativo.
 
@@ -21,7 +21,7 @@ Se você concluiu todos os requisitos para as mensagens no aplicativo, mas as me
 
 ## Você está inserindo a nova configuração e o novo SDK no aplicativo?
 
-Verifique se a versão do SDK é 4.2 ou superior. Verifique também se ele foi configurado corretamente. Ensure that you have a `Messages` section in your configuration (downloaded JSON file), or have a Messages remote endpoint, so that it can be retrieved from dynamic tag management.
+Verifique se a versão do SDK é 4.2 ou superior. Verifique também se ele foi configurado corretamente. Certifique-se de que haja uma seção `Messages` em sua configuração (arquivo JSON baixado) ou um terminal remoto de mensagens para que ele possa ser recuperado do gerenciamento dinâmico de tags.
 
 ## Minha mensagem de tela inteira não está aparecendo no Android. Estou usando o SDK correto e a configuração certa, mas meus acionadores não estão funcionando.
 
@@ -29,19 +29,19 @@ Você atualizou seu arquivo de manifesto para definir a atividade de tela inteir
 
 ## Minha mensagem de notificação local no Android não está funcionando.
 
-Certifique-se de que o destinatário de transmissão de notificação local esteja declarado no manifesto. For more information, see step 2 in [Enabling In-App Messages](/help/android/messaging-main/messaging/messaging.md).
+Certifique-se de que o destinatário de transmissão de notificação local esteja declarado no manifesto. Para obter mais informações, consulte a etapa 2 em [Habilitar mensagens no aplicativo](/help/android/messaging-main/messaging/messaging.md).
 
 ## A mensagem foi publicada?
 
 Verifique a exibição de lista na página Gerenciar mensagens no aplicativo, localizada na coluna Status, e veja se ela foi publicada.
 
-## Look at show once, show always, show offline settings on the Audience tab.******
+## Observe as configurações *mostrar uma vez*, *mostrar sempre* e *mostrar offline* na guia Público-alvo.
 
-Verifique se essas configurações estão definidas do modo como você deseja. Na guia **[!UICONTROL Público-alvo]**, revise as opções do **Acionar], que permitem especificar a frequência de exibição da mensagem.[!UICONTROL **
+Verifique se essas configurações estão definidas do modo como você deseja. Na guia **[!UICONTROL Público-alvo]**, revise as opções do **[!UICONTROL Acionar]**, que permitem especificar a frequência de exibição da mensagem.
 
 ## Caso esteja usando um evento de inicialização como acionador...
 
-O acionador só será ativado em uma nova sessão. For more information about when a session begins, see the `lifecycleTimeout` row in the JSON Config file. For more information, see  ADBMobile JSON Config.[](/help/ios/configuration/json-config/json-config.md)
+O acionador só será ativado em uma nova sessão. Para obter mais informações sobre o início de uma sessão, consulte a linha `lifecycleTimeout` no arquivo de Configuração JSON. Para obter mais informações, consulte [Configuração JSON do ADBMobile](/help/ios/configuration/json-config/json-config.md).
 
 ## Atualizei minha mensagem remotamente, mas meu aplicativo ainda exibe a mensagem antiga.
 
@@ -80,7 +80,7 @@ Se tiver problemas com o modelo em tela cheia, é possível baixar e usar o mode
 
 Para exibir mensagens no aplicativo no modo de tela cheia em um iPhone X:
 
-1. Add `viewport-fit=cover` in the meta tag.
+1. Adicione `viewport-fit=cover` na meta tag.
 
    ```html
    <meta name="viewport" content="viewport-fit=cover">
