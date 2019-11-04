@@ -2,17 +2,17 @@
 description: A localização geográfica auxilia na avaliação dos dados de localização usando latitude, longitude e pontos de interesse predefinidos em seus aplicativos iOS.
 seo-description: A localização geográfica auxilia na avaliação dos dados de localização usando latitude, longitude e pontos de interesse predefinidos em seus aplicativos iOS.
 seo-title: Geolocalização e pontos de interesse
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Geolocalização e pontos de interesse
 topic: Desenvolvedor e implementação
 uuid: c800ec85-a33f-425d-b28f-bfe8bf229ae8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 ---
 
 
-# Geo-location and points of interest {#geo-location-and-points-of-interest}
+# Geolocalização e pontos de interesse {#geo-location-and-points-of-interest}
 
 A localização geográfica auxilia na avaliação dos dados de localização usando latitude, longitude e pontos de interesse predefinidos em seus aplicativos iOS.
 
@@ -24,25 +24,25 @@ Cada chamada `trackLocation` envia o seguinte:
 
 * Distância do centro e precisão passada como dados de contexto.
 
-   Essas variáveis não são capturadas automaticamente. You must map these context data variables by using the instructions in *Sending Additional Data* section below.
+   Essas variáveis não são capturadas automaticamente. Você deve mapear essas variáveis de dados de contexto usando as instruções na seção *Envio de dados adicionais* abaixo.
 
 ## Atualização de POI dinâmico {#section_3747B310DD5147E2AAE915E762997712}
 
-A partir da versão 4.2, os POIs são definidos na interface do Adobe Mobile e sincronizados dinamicamente no arquivo de configuração do aplicativo. This synchronization requires an `analytics.poi` setting in the `ADBMobile.json` file:
+A partir da versão 4.2, os POIs são definidos na interface do Adobe Mobile e sincronizados dinamicamente no arquivo de configuração do aplicativo. Esta sincronização requer uma configuração `analytics.poi` no arquivo `ADBMobile.json`:
 
 ```js
 “analytics.poi”: “https://assets.adobedtm.com/…/yourfile.json”,
 ```
 
-Para obter mais informações, consulte Configuração [JSON do](/help/ios/configuration/json-config/json-config.md)ADBMobile.
+Para obter mais informações, consulte [Configuração JSON do ADBMobile](/help/ios/configuration/json-config/json-config.md).
 
-Se isso não for configurado, uma versão atualizada do arquivo `ADBMobile.json` deve ser baixada e adicionada ao aplicativo. Para obter mais informações e instruções, consulte *Download do SDK e Ferramentas* de teste em [Antes de iniciar](/help/ios/getting-started/requirements.md).
+Se isso não for configurado, uma versão atualizada do arquivo `ADBMobile.json` deve ser baixada e adicionada ao aplicativo. Para obter mais informações e instruções, consulte *Download do SDK e Ferramentas de teste* em [Antes de iniciar](/help/ios/getting-started/requirements.md).
 
-## Rastrear localizações geográficas e POIs {#section_B1616E400A7548F9A672F97FEC75AE27}
+## Rastrear geolocalizações e POIs {#section_B1616E400A7548F9A672F97FEC75AE27}
 
 1. Adicione a biblioteca ao projeto e implemente o ciclo de vida.
 
-   Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao seu projeto* em Implementação [principal e Ciclo de vida](/help/ios/getting-started/dev-qs.md).
+   Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao seu projeto* em [Implementação principal e ciclo de vida](/help/ios/getting-started/dev-qs.md).
 1. Importe a biblioteca:
 
    ```objective-c
@@ -58,13 +58,13 @@ Se isso não for configurado, uma versão atualizada do arquivo `ADBMobile.json`
 
    >[!TIP]
    >
-   >Você pode ligar a qualquer `trackLocation` momento.
+   >Você pode chamar `trackLocation` a qualquer momento.
 
-   Para determinar o local passado para a `trackLocation` chamada, use [Obter o local](https://developer.apple.com/Library/ios/documentation/UserExperience/Conceptual/LocationAwarenessPG/CoreLocation/CoreLocation.html)do usuário.
+   Para determinar a localização passada para a chamada `trackLocation`, use [Obter a localização do usuário](https://developer.apple.com/Library/ios/documentation/UserExperience/Conceptual/LocationAwarenessPG/CoreLocation/CoreLocation.html).
 
 Além disso, se for determinado que a localização está em um raio de POI definido, uma variável de dados de contexto `a.loc.poi` é enviada com a ocorrência `trackLocation` e é relatado como um POI nos relatórios de Localização. Uma variável de contexto `a.loc.dist` também é enviada com a distância em metros a partir das coordenadas definidas.
 
-## Send additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## Enviar dados adicionais {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 Além dos dados de localização, você pode enviar dados de contexto adicionais com cada chamada de localização de rastreamento:
 
@@ -74,11 +74,11 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 [ADBMobile trackLocation: currentLocation data:contextData];
 ```
 
-Context data values must be mapped to custom variables:
+Os valores dos dados de contexto devem ser mapeados para variáveis personalizadas:
 
 ![](assets/map-location-context-data.png)
 
-## Location context data {#section_FFB71E6653F9410A89CC6ACC0C9164A9}
+## Dados do contexto de localização {#section_FFB71E6653F9410A89CC6ACC0C9164A9}
 
 A latitude e a longitude são enviadas usando três parâmetros de dados de contexto diferentes, com cada parâmetro representando um nível de precisão diferente, para um total de seis parâmetros de dados de contexto.
 
@@ -87,7 +87,7 @@ Por exemplo, as coordenadas lat = 40.93231, long = -111.93152 representam uma lo
 * `a.loc.lat.a`= 040.9
 * `a.loc.lat.b` = 32
 * `a.loc.lat.c` = 31
-* `a.loc.lon.a` = -111.9
+* `a.loc.lon.a` = -111,9
 * `a.loc.lon.b` = 31
 * `a.loc.lon.c` = 52
 
@@ -97,7 +97,7 @@ Alguns níveis de precisão podem aparecer como "00", dependendo da precisão da
 
 Lembre-se das seguintes informações:
 
-* A `trackLocation` request sends in the equivalent of a `trackAction` call.
+* Uma solicitação `trackLocation` envia o equivalente a uma chamada `trackAction`.
 
 * Os POIs não são transmitidos como parte das chamadas `trackAction` e `trackState` normais; portanto, você deve usar uma chamada `trackLocation` para rastrear POIs.
 
