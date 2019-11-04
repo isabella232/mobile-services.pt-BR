@@ -3,11 +3,11 @@ description: Este plug-in permite enviar chamadas do Android AppMeasurement a pa
 keywords: android;biblioteca;móvel;sdk
 seo-description: Este plug-in permite enviar chamadas do Android AppMeasurement a partir do seu projeto PhoneGap.
 seo-title: Visão geral do plug-in PhoneGap
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Visão geral do plug-in PhoneGap
 topic: Desenvolvedor e implementação
 uuid: c5c32357-d8df-458a-b0e8-e0c56040241d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 ---
@@ -15,16 +15,16 @@ source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 # Visão geral do plug-in PhoneGap {#phonegap-plug-in}
 
-Este plug-in permite enviar chamadas do Android AppMeasurement a partir do seu projeto PhoneGap. Para criar um projeto PhoneGap, consulte [PhoneGap](https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap.html).
+Este plug-in permite enviar chamadas do Android AppMeasurement a partir do seu projeto PhoneGap. Para criar um projeto PhoneGap, consulte [PhoneGap](https://helpx.adobe.com/br/experience-manager/6-4/mobile/using/phonegap.html).
 
 ## Nova versão do Adobe Experience Platform Mobile SDK
 
 Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para acessar a documentação mais recente.
 
-Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/br/experience-platform/launch.html).
 
 * Para começar, acesse o Adobe Experience Platform Launch.
-* Para ver o conteúdo dos repositórios do Experience Platform SDK, acesse [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+* Para ver o conteúdo dos repositórios SDK da Experience Platform, acesse [Github: SDKs da Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 
 ## Instalar o plug-in usando npm {#section_43229E57C16944C0B51531CB92089189}
@@ -39,15 +39,15 @@ cordova plugin add adobe-mobile-services
 
 ## Incluir o plug-in
 
-1. Arraste o `ADBMobile_PhoneGap.java` arquivo para a sua `src` pasta.
+1. Arraste o arquivo `ADBMobile_PhoneGap.java` para a sua pasta `src`.
 
    Para mover esse arquivo, clique em **[!UICONTROL OK]**.
 
-1. Arraste o `ADB_Helper.js` arquivo para a pasta que contém o `index.html` arquivo
+1. Arraste o arquivo `ADB_Helper.js` para a pasta que contém o arquivo `index.html`
 
    Para mover esse arquivo, clique em **[!UICONTROL OK]**.
 
-1. In the `res/xml` folder, open the `config.xml` file and register an new plugin by adding the following:
+1. Na pasta `res/xml`, abra `config.xml` e registre um novo plug-in, adicionando o seguinte:
 
    ```xml
    <feature name="ADBMobile_PhoneGap"> 
@@ -63,19 +63,19 @@ cordova plugin add adobe-mobile-services
 
 ## Incluir a biblioteca do AppMeasurement
 
-1. To download the AppMeasurement library, see [Get the SDK](/help/android/getting-started/dev-qs.md).
-1. Arraste o `adobeMobileLibrary.jar` arquivo para a sua `src` pasta.
+1. Para baixar a biblioteca do AppMeasurement, consulte [Baixar o SDK](/help/android/getting-started/dev-qs.md).
+1. Arraste o arquivo `adobeMobileLibrary.jar` para a sua pasta `src`.
 
    Para mover esse arquivo, clique em **[!UICONTROL OK]**.
 
-1. Right-click the `adobeMobileLibrary.jar file and select **[!UICONTROL Add as Library]**.
+1. Clique com o botão direito do mouse no arquivo adobeMobileLibrary.jar e selecione **[!UICONTROL Adicionar como biblioteca]**.
 1. Com base nas solicitações do projeto, insira o nome, nível e localização da biblioteca.
-1. Drag the `ADBMobileConfig.json` file to your `assets` folder in the application root.
+1. Arraste o arquivo `ADBMobileConfig.json` até a pasta `assets` no aplicativo raiz.
 1. Confirme que selecionou o aplicativo raiz e **não** um aplicativo em um aplicativo.
 
    Para mover esse arquivo, clique em **[!UICONTROL OK]**.
 
-## Adicionar permissões de aplicativo
+## Adicionar permissões do aplicativo
 
 A biblioteca do AppMeasurement pede as seguintes permissões para enviar dados e gravar chamadas de rastreamento offline:
 
@@ -116,9 +116,9 @@ android:windowSoftInputMode="adjustUnspecified|stateHidden" />
 <receiver android:name="com.adobe.mobile.MessageNotificationHandler" />
 ```
 
-## Implement custom tracking {#section_FD102B3CDAA4492FB04E56BF17E28663}
+## Implementar o rastreamento personalizado {#section_FD102B3CDAA4492FB04E56BF17E28663}
 
-In `html` files, add the following to the `<head>` tag where you want to use tracking:
+Nos arquivos `html`, adicione o seguinte código à tag `<head>` em que você deseja usar o rastreamento:
 
 ```
 <script type="text/javascript" charset="utf-8" src="ADB_Helper.js"></script>
