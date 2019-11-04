@@ -1,13 +1,13 @@
 ---
 description: O relatório Usuários e sessões exibe as métricas de visitantes únicos para o período de tempo selecionado.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: O relatório Usuários e sessões exibe as métricas de visitantes únicos para o período de tempo selecionado.
-seo-title: Relatório de usuários e sessões
-solution: Marketing Cloud,Analytics
-title: Relatório de usuários e sessões
+seo-title: Relatório de Usuários e Sessões
+solution: Experience Cloud, Analytics
+title: Relatório de Usuários e Sessões
 topic: Relatórios, Métricas
 uuid: 6d70d7f6-de81-4307-a4f3-14f18fc3c9b3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 ---
@@ -23,16 +23,16 @@ Você pode configurar as seguintes opções no relatório:
 
 * **[!UICONTROL Período de tempo]**
 
-   Clique no ícone **[!UICONTROL Calendário]e selecione um período de tempo personalizado ou escolha um período de tempo predefinido na lista suspensa.**
+   Clique no ícone **[!UICONTROL Calendário]** e selecione um período de tempo personalizado ou escolha um período de tempo predefinido na lista suspensa.
 
 * **[!UICONTROL Personalizar]**
 
-   Personalize seus relatórios alterando as opções **[!UICONTROL Mostrar por], adicionando métricas e filtros e adicionando séries (métricas) e muito mais.** For more information, see [Customize Reports](/help/using/usage/reports-customize/t-reports-customize.md).
+   Personalize seus relatórios alterando as opções **[!UICONTROL Mostrar por]**, adicionando métricas e filtros e adicionando séries (métricas) e muito mais. Para obter mais informações, consulte [Personalizar relatórios](/help/using/usage/reports-customize/t-reports-customize.md).
 
 * **[!UICONTROL Filtro]**
 
-   Clique em **[!UICONTROL Filtro]para criar um filtro que abrange vários relatórios e observar o desempenho de um segmento específico em todos os relatórios móveis.** Um filtro fixo permite definir um filtro aplicado a todos os relatórios não relacionados à definição de caminho. Para obter mais informações, consulte [Adicionar filtro](/help/using/usage/reports-customize/t-sticky-filter.md)fixo.
+   Clique em **[!UICONTROL Filtro]** para criar um filtro que abrange vários relatórios e observar o desempenho de um segmento específico em todos os relatórios móveis. Um filtro fixo permite definir um filtro aplicado a todos os relatórios não relacionados à definição de caminho. Para obter mais informações, consulte [Adicionar filtro fixo](/help/using/usage/reports-customize/t-sticky-filter.md).
 
 * **[!UICONTROL Baixar]**
 
-   Click **[!UICONTROL PDF]** or **[!UICONTROL CSV]** to download or open documents and share with users who do not have access to Mobile Services or to use the file in presentations.
+   Clique em **[!UICONTROL PDF]** ou **[!UICONTROL CSV]** para baixar ou abrir documentos e compartilhá-los com usuários que não têm acesso ao Mobile Services ou para usá-los em apresentações.
