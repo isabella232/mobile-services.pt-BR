@@ -1,24 +1,24 @@
 ---
 description: Os postbacks permitem enviar os dados coletados pelo Adobe Mobile a um servidor separado de terceiros. Ao usar os mesmos acionadores e características usados para exibir uma mensagem no aplicativo, é possível configurar o Mobile Services para enviar dados personalizados a um destino de terceiros.
 seo-description: Os postbacks permitem enviar os dados coletados pelo Adobe Mobile a um servidor separado de terceiros. Ao usar os mesmos acionadores e características usados para exibir uma mensagem no aplicativo, é possível configurar o Mobile Services para enviar dados personalizados a um destino de terceiros.
-seo-title: Configuração de postbacks
-title: Configuração de postbacks
+seo-title: Configurar postbacks
+title: Configurar postbacks
 uuid: a026575c-057b-4868-b6c8-9514cbc32b4d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
 ---
 
 
-# Configure postbacks {#configure-postbacks}
+# Configurar postbacks {#configure-postbacks}
 
 Os postbacks permitem enviar os dados coletados pelo Adobe Mobile a um servidor separado de terceiros. Ao usar os mesmos acionadores e características usados para exibir uma mensagem no aplicativo, é possível configurar o Mobile Services para enviar dados personalizados a um destino de terceiros.
 
 >[!IMPORTANT]
 >
->To use postbacks, you must install the 4.6 SDK or later. Para obter mais informações, consulte [Android - Postbacks](/help/android/analytics-main/postbacks/postbacks.md) ou [iOS - Postbacks](/help/ios/analytics-main/postback/postback.md).
+>Para usar postbacks, você deve instalar o SDK 4.6 ou versão posterior. Para obter mais informações, consulte [Android - Postbacks](/help/android/analytics-main/postbacks/postbacks.md) ou [iOS - Postbacks](/help/ios/analytics-main/postback/postback.md).
 
-1. Clique no nome do aplicativo desejado para ir para a página Gerenciar configurações do aplicativo e clique no link **Gerenciar postbacks** no canto superior direito.
+1. Clique no nome do aplicativo desejado para ir para a página Gerenciar configurações do aplicativo e clique no link **[!UICONTROL Gerenciar postbacks]** no canto superior direito.
 1. Clique em **[!UICONTROL Criar postback]**.
 1. Digite as seguintes informações nos campos:
 
@@ -32,15 +32,15 @@ Os postbacks permitem enviar os dados coletados pelo Adobe Mobile a um servidor 
 
    * **[!UICONTROL URL]**
 
-      Especifique um URL de ponto de extremidade válido (com parâmetros de consulta adequados, conforme necessário, para solicitações GET). Esse URL é obtido com a parte na qual você está enviando os dados (servidor de publicidade ou seu próprio terminal). Por exemplo `https://my.server.com/?user=bob&amp;zip=90210&amp;c16=4.6.0-iOS&amp;c27=cln,132`.
+      Especifique um URL válido de terminal (com parâmetros de consulta apropriados, conforme necessário para as solicitações GET). Esse URL é obtido com a parte na qual você está enviando os dados (servidor de publicidade ou seu próprio terminal). Por exemplo `https://my.server.com/?user=bob&amp;zip=90210&amp;c16=4.6.0-iOS&amp;c27=cln,132`.
 
    * **[!UICONTROL Variável de contexto]**
 
-      Realce as partes do URL e selecione a variável de contexto desejada na lista suspensa. You can also insert context variables into the URL, and the URL will replace all template variables with values from the hit.
+      Realce as partes do URL e selecione a variável de contexto desejada na lista suspensa. Você também pode inserir variáveis de contexto no URL, e o URL substituirá todas as variáveis de modelo por valores da ocorrência.
 
    * **[!UICONTROL Adicionar corpo da publicação]**
 
-      Especifique qualquer outro conteúdo do corpo da postagem, por exemplo, em uma solicitação de postagem. Se você especificar o texto do corpo da postagem, especifique o tipo de conteúdo para o corpo da postagem. Por exemplo, `application/json`.
+      Especifique qualquer outro conteúdo do corpo da postagem, por exemplo, em uma solicitação de postagem. Se você especificar o corpo de texto da publicação, especifique o tipo de conteúdo para o corpo da publicação. Por exemplo, `application/json`.
 
    * **[!UICONTROL Tempo limite (em segundos)]**
 
@@ -48,14 +48,14 @@ Os postbacks permitem enviar os dados coletados pelo Adobe Mobile a um servidor 
 
    * **[!UICONTROL Acionadores]**
 
-      Especifique uma ou mais tags de data e condições que acionam o postback. For example, you might choose **[!UICONTROL Crashed]** as the trigger and **[!UICONTROL Exists]** as the condition to trigger the postback when the app crashes. Você também pode especificar quais métricas ativam o postback. For example, you can select **[!UICONTROL Device Name]** as the trigger, **[!UICONTROL Equals]**, and **[!UICONTROL iPhone 6 Plus]** as conditions to activate the postback when the app crashes on iPhone 6 Plus devices.
+      Especifique uma ou mais tags de data e condições que acionam o postback. Por exemplo, você pode escolher **[!UICONTROL Falha]** como acionador e **[!UICONTROL Existe]** como condição para acionar o postback quando o aplicativo travar. Você também pode especificar quais métricas ativam o postback. Por exemplo, você pode selecionar **[!UICONTROL Nome do dispositivo]** como acionador e **[!UICONTROL Igual]** e **[!UICONTROL iPhone 6 Plus]** como condições para ativar o postback quando o aplicativo travar em dispositivos iPhone 6 Plus.
 
    * **[!UICONTROL Característica(s)]**
-   Especifique quem pode ver a mensagem quando ela é acionada. Options include **[!UICONTROL Session Length**, **[!UICONTROL First Launch Date]**, and **[!UICONTROL App ID]**.
+   Especifique quem pode ver a mensagem quando ela é acionada. As opções incluem **[!UICONTROL Duração da sessão**, **[!UICONTROL Data da primeira inicialização]** e **[!UICONTROL ID do aplicativo]**.
 
-1. Clique em **[!UICONTROL Salvar]** para criar o postback e adicioná-lo à lista **Gerenciar postbacks[!UICONTROL .]**
+1. Clique em **[!UICONTROL Salvar]** para criar o postback e adicioná-lo à lista **[!UICONTROL Gerenciar postbacks]**.
 
    Para ativar o postback no futuro, siga um destes procedimentos:
 
    * Marque a caixa de seleção ao lado do postback na lista **[!UICONTROL Gerenciar postbacks]** e clique em **[!UICONTROL Ativar seleção]**.
-   * Clique em **[!UICONTROL Salvar e ativar]para salvar suas alterações e ativar imediatamente o postback.**
+   * Clique em **[!UICONTROL Salvar e ativar]** para salvar suas alterações e ativar imediatamente o postback.
