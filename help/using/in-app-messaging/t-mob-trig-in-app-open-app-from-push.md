@@ -4,13 +4,13 @@ seo-description: É possível definir o acionador de mensagem no aplicativo para
 seo-title: Acionar uma mensagem no aplicativo quando o aplicativo for aberto por uma mensagem de push
 title: Acionar uma mensagem no aplicativo quando o aplicativo for aberto por uma mensagem de push
 uuid: e1c8e29d-1c2b-47b2-8ab2-6b6e15df86f6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 114bce95e41c8e13695689dd2da2dbc04cb17ad7
 
 ---
 
 
-# Trigger an in-app message when the app is opened from a push message{#trigger-an-in-app-message-when-the-app-is-opened-from-a-push-message}
+# Acionar uma mensagem no aplicativo quando o aplicativo for aberto a partir de uma mensagem por push{#trigger-an-in-app-message-when-the-app-is-opened-from-a-push-message}
 
 É possível definir o acionador de mensagem no aplicativo para ser a ID da mensagem de push que é enviada quando um usuário abre o aplicativo por meio da mensagem de push.
 
@@ -28,9 +28,9 @@ source-git-commit: 114bce95e41c8e13695689dd2da2dbc04cb17ad7
 
    >[!TIP]
    >
-   >A ID da mensagem de push é a ID localizada na etapa 1.
+   >A ID da mensagem por push é a ID localizada na etapa 1.
 
-   Este acionador deve ser adicionado manualmente pois não está disponível na lista suspensa **[!UICONTROL Acionador].**
+   Este acionador deve ser adicionado manualmente pois não está disponível na lista suspensa **[!UICONTROL Acionador]**.
 
    ![](assets/brandon_task2.png)
 
