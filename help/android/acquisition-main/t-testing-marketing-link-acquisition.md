@@ -1,28 +1,28 @@
 ---
-description: The following instructions help you roundtrip an acquisition campaign with a Marketing Link on an Android device.
+description: As instruções a seguir ajudam a fazer uma viagem de ida e volta em uma campanha de aquisição com um link de marketing em um dispositivo Android.
 keywords: android;biblioteca;móvel;sdk
-seo-description: As instruções a seguir ajudam a fazer uma viagem de ida e volta em uma campanha de aquisição com um Link de marketing em um dispositivo Android.
-seo-title: Testar a aquisição de links de marketing
-solution: Marketing Cloud,Analytics
-title: Testar a aquisição de links de marketing
+seo-description: As instruções a seguir ajudam a fazer uma viagem de ida e volta em uma campanha de aquisição com um link de marketing em um dispositivo Android.
+seo-title: Teste de aquisição de links de marketing
+solution: Experience Cloud,Analytics
+title: Teste de aquisição de links de marketing
 topic: Desenvolvedor e implementação
 uuid: d0933dcc-8fc3-4f60-987f-7a54559aacf5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ---
 
 
-# Testing Marketing Link acquisition {#testing-marketing-link-acquisition}
+# Testar a aquisição de Links de marketing {#testing-marketing-link-acquisition}
 
-The following instructions help you roundtrip an acquisition campaign with a Marketing Link on an Android device.
+As instruções a seguir ajudam a fazer uma viagem de ida e volta em uma campanha de aquisição com um link de marketing em um dispositivo Android.
 
-If your mobile app is not yet in Google Play, you can select any mobile app as a destination when creating the Marketing Link. Isso não afeta a capacidade de testar o link de aquisição, somente o aplicativo para o qual você é redirecionado pelo servidor de aquisição após clicar no link. Os parâmetros da cadeia de caracteres de consulta são passados para a Google Play store, que é passada para o aplicativo na instalação como parte de uma difusão de campanha. A viagem de ida e volta do teste de aquisição do aplicativo móvel requer uma simulação desse tipo de difusão.
+Se o aplicativo móvel ainda não estiver no Google Play, é possível selecionar qualquer aplicativo móvel como destino ao criar o link de marketing. Isso não afeta a capacidade de testar o link de aquisição, somente o aplicativo para o qual você é redirecionado pelo servidor de aquisição após clicar no link. Os parâmetros da cadeia de caracteres de consulta são passados para a Google Play store, que é passada para o aplicativo na instalação como parte de uma difusão de campanha. A viagem de ida e volta do teste de aquisição do aplicativo móvel requer uma simulação desse tipo de difusão.
 
-The app must be freshly installed, or have data cleared in **[!UICONTROL Settings]**, each time a test is run. Isso garante que as medições de ciclo de vida inicial associadas aos parâmetros de cadeia de caracteres de consulta da campanha sejam enviadas quando o aplicativo é inicializado pela primeira vez.
+O aplicativo deve estar recém-instalado ou ter os dados limpos em [!UICONTROL **Configurações**] sempre que um teste for executado. Isso garante que as medições de ciclo de vida inicial associadas aos parâmetros de cadeia de caracteres de consulta da campanha sejam enviadas quando o aplicativo é inicializado pela primeira vez.
 
-1. Complete the prerequisite tasks in [Mobile app acquisition](/help/android/acquisition-main/acquisition.md) and ensure that you have correctly implemented the broadcast receiver for `INSTALL_REFERRER`.
-1. In the Adobe Mobile Services] UI, click  **[!UICONTROL Acquisition]** &gt; **[!UICONTROL Marketing Links Builder]** and generate an Acquisition Marketing Link URL that sets Google Play as the destination for Android devices.
+1. Conclua as tarefas de pré-requisito na [Aquisição de aplicativos móveis](/help/android/acquisition-main/acquisition.md) e certifique-se de que você implementou corretamente o receptor de transmissão para `INSTALL_REFERRER`.
+1. Na interface do Adobe Mobile Services, clique em **[!UICONTROL Aquisição]** &gt; **[!UICONTROL Construtor de links de marketing]** e gere um URL de Aquisição de link de marketing que defina o Google Play como destino para dispositivos Android.
 
    Para obter mais informações, consulte [Criador de links de marketing](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md).
 
@@ -36,9 +36,9 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
    `https://play.google.com/store/apps/details?id=com.adobe.android&referrer=utm_campaign%3Dadb_acq_v3%26utm_source%3Dadb_acq_v3%26utm_content%3D91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`
 
-1. Copy the unique ID after `utm_content%3D`.
+1. Copie a ID única depois de `utm_content%3D`.
 
-   In the previous example, the ID is .`91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`
+   No exemplo anterior, a ID é `91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`.
 
    Caso não consiga obter a ID única no dispositivo, execute o comando `CURL` no desktop para obter a ID única da cadeia de caracteres de resposta.
 
@@ -69,7 +69,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
    | Configuração | Valor |
    |--- |--- |
-   | aquisição | The server should be , and        should equal the  in your acquisition link.`c00.adobe.com`*`appid`*`appid` |
+   | aquisição | O servidor deve ser `c00.adobe.com`, e *`appid`* deve ser igual ao `appid` no link de aquisição. |
    | analytics | Para fins de teste, defina o limite de tempo do referencial para permitir que o tempo adequado (60 segundos ou mais) envie a difusão automaticamente. É possível restaurar a configuração original de limite de tempo após testar. |
 
 1. Conecte o dispositivo a um computador, desinstale e instale o aplicativo novamente.
@@ -115,19 +115,19 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
    | Analytics - Unable to parse response (`a JSON Response`). | A cadeia de caracteres JSON está malformada. |
    | Analytics - Unable to parse acquisition service response (no `contextData` parameter in response). | Não há um parâmetro `contextData` na resposta. |
    | Analytics - Acquisition referrer data was not complete (no `a.referrer.campaign.name` in context data), ignoring. | `a.referrer.campaign.name` não está incluído em contextData. |
-   | Analytics - tempo limite do referenciador de aquisição. | Falha ao obter a resposta no tempo definido pelo `referrerTimeout`. Aumente o valor e tente novamente.  Também é necessário ter certeza de que você abriu o link de aquisição antes de instalar o aplicativo. |
+   | Analytics - Acquisition referrer timed out. | Falha ao obter a resposta no tempo definido pelo `referrerTimeout`. Aumente o valor e tente novamente.  Também é necessário ter certeza de que você abriu o link de aquisição antes de instalar o aplicativo. |
 
 Lembre-se das seguintes informações:
 
 * As ocorrências enviadas pelo aplicativo podem ser monitoradas usando as ferramentas de monitoramento HTTP para verificar a atribuição da aquisição.
-* Para obter mais informações sobre como fazer a transmissão do `INSTALL_REFERRER`, consulte [Testar medida de campanha do Google Play](https://developers.google.com/analytics/solutions/testing-play-campaigns) no Guia de desenvolvedores do Google.
+* Para obter mais informações sobre como fazer a transmissão do `INSTALL_REFERRER`, consulte [Testar medição de campanha do Google Play](https://developers.google.com/analytics/solutions/testing-play-campaigns) no Guia de desenvolvedores do Google.
 * É possível usar a ferramenta `acquisitionTest.jar` do Java fornecida para ajudá-lo a obter a ID única e o referencial de instalação da transmissão que, por sua vez, o ajuda a obter as informações das etapas de 3 a 10.
 
-**Instalar a ferramenta Java**
+**Instalação da ferramenta Java**
 
 Para instalar a ferramenta Java:
 
-1. Download the [`acquistionTester.zip`](../assets/acquisitionTester.zip) file.
+1. Baixe o arquivo [`acquistionTester.zip`](../assets/acquisitionTester.zip).
 1. Extraia o arquivo .jar.
 
    É possível executar o arquivo .jar na linha de comando.
