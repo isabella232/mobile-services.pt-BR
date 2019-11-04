@@ -2,17 +2,17 @@
 description: Esta informação ajuda a usar o arquivo de configuração ADBMobile.json.
 seo-description: Esta informação ajuda a usar o arquivo de configuração ADBMobile.json.
 seo-title: Configuração JSON do ADBMobile
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Configuração JSON do ADBMobile
 topic: Desenvolvedor e implementação
 uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
 ---
 
 
-# ADBMobile JSON config file {#adbmobile-json-config}
+# Arquivo de configuração JSON do ADBMobile {#adbmobile-json-config}
 
 Essas informações ajudam você a entender as variáveis no arquivo de configuração ADBMobile.json.
 
@@ -22,9 +22,9 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
 
 >[!TIP]
 >
->In **Android**, the `ADBMobileConfig.json` file must be placed in the `assets` folder.
+>No **Android**, o arquivo `ADBMobileConfig.json` deve ser colocado na pasta `assets`.
 
-Esta é uma lista das variáveis no arquivo JSON e a versão mínima do SDK necessária para cada variável:
+Veja a seguir uma lista das variáveis no arquivo JSON e a versão mínima do SDK necessária para cada variável:
 
 * **aquisição**
    * Versão mínima do SDK: 4.1
@@ -53,7 +53,7 @@ Esta é uma lista das variáveis no arquivo JSON e a versão mínima do SDK nece
 
          >[!IMPORTANT]
          >
-         >As informações de ocorrência de sessão com data retroativa são enviadas em uma chamada de servidor de informações de sessão e podem ser aplicadas chamadas de servidor adicionais.
+         >As informações de ocorrência de sessão retroativa são enviadas em uma chamada de servidor da sessão de informações e podem ser aplicadas chamadas de servidor adicionais.
 
 * **batchLimit**
    * Versão mínima do SDK: 4.1
@@ -70,7 +70,7 @@ Esta é uma lista das variáveis no arquivo JSON e a versão mínima do SDK nece
    * Versão mínima do SDK: 4.0
    * Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics.
 
-      O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios.
+      O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. 
 
 * **clientCode**
    * Versão mínima do SDK: 4.0
@@ -78,19 +78,19 @@ Esta é uma lista das variáveis no arquivo JSON e a versão mínima do SDK nece
 
       >[!IMPORTANT]
       >
-      >Essa variável é exigida pelo Target.
+      >Esta variável é exigida pelo Target.
 
 * **coopUnsafe**
    * Versão mínima do SDK: 4.16.1
-   * The Boolean property of the `marketingCloud` object that, when set to `true`, causes the device to be opted-out of the Experience Cloud's Device Co-Op.
+   * A propriedade booleana do objeto `marketingCloud` que, quando definido como `true`, causa a remoção do dispositivo do Device Co-op da Experience Cloud.
    * O valor padrão é `false`.
    * Essa configuração é usada **somente** para clientes provisionados do Device Co-op.
    Para membros do Device Co-op que requerem que esse valor seja definido como `true`, é necessário trabalhar com a equipe do Co-op para solicitar um sinalizador de lista de bloqueios em sua conta do Device Co-op. Não há um caminho de autoatendimento para habilitar esses sinalizadores.
 
    Lembre-se das seguintes informações:
 
-   * When `coopUnsafe` is set to `true`, `coop_unsafe=1` will always be appended to Audience Manager and Visitor ID hits.
-   * If you enable Analytics server-side forwarding to Audience Manager, you will also see `coop_unsafe=1` Analytics hits.
+   * Quando `coopUnsafe` estiver definido como `true`, `coop_unsafe=1` sempre será anexado a ocorrências do Audience Manager e da ID do visitante.
+   * Se você habilitar o encaminhamento pelo lado do servidor do Analytics para o Audience Manager, você também verá `coop_unsafe=1` em ocorrências do Analytics.
 
 
 * **environmentId**
@@ -125,7 +125,7 @@ Esta é uma lista das variáveis no arquivo JSON e a versão mínima do SDK nece
       >
       >Se o carimbo de data e hora estiver ativado no conjunto de relatórios, sua propriedade de configuração `offlineEnabled` **deve** ser verdadeira. Caso o conjunto de relatórios não tenha um carimbo de data e hora, sua propriedade de configuração `offlineEnabled` **deve** ser false.
       >
-      >Se isso não for configurado corretamente, os dados serão perdidos. Caso não tenha certeza se um conjunto de relatórios tem um carimbo de data e hora, entre em contato com o Atendimento ao Cliente ou baixe o arquivo de configuração do Adobe Mobile Services.
+      >Se isso não for configurado corretamente, os dados serão perdidos. Caso não tenha certeza se um conjunto de relatórios tem um carimbo de data e hora, entre em contato com o Atendimento ao cliente ou baixe o arquivo de configuração do Adobe Mobile Services.
 
       Caso esteja relatando dados AppMeasurement para um conjunto de relatórios que também coleta dados JavaScript, pode ser necessário configurar um conjunto de relatórios separado para dados móveis, a fim de evitar a perda de dados, ou incluir um carimbo de data e hora personalizado nas ocorrências de JavaScript que usam a variável `s.timestamp`.
 
@@ -168,7 +168,7 @@ Esta é uma lista das variáveis no arquivo JSON e a versão mínima do SDK nece
         "timeout": 0 // optional - number of seconds to wait before timing out.  Default is 2.}
       ```
 
-      The `payload` object in the code is a sample payload for a message definition that goes in the `ADBMobileConfig.json` file. For more information, see [Postbacks](/help/android/analytics-main/postbacks/postbacks.md).
+      O objeto `payload` no código é uma amostra de carga para uma definição de mensagem que consta no arquivo `ADBMobileConfig.json`. Para obter mais informações, consulte [Postbacks](/help/android/analytics-main/postbacks/postbacks.md).
 
 * **privacyDefault**
    * Versão mínima do SDK: 4.0
@@ -185,7 +185,7 @@ Esta é uma lista das variáveis no arquivo JSON e a versão mínima do SDK nece
 
       >[!IMPORTANT]
       >
-      >Essa variável é exigida pela Aquisição. Se a variável estiver definida para `0` ou não estiver incluída, o SDK não aguardará os dados de aquisição e as métricas de aquisição não serão rastreadas.
+      >Esta variável é exigida pela Aquisição. Se a variável estiver definida para `0` ou não estiver incluída, o SDK não aguardará os dados de aquisição e as métricas de aquisição não serão rastreadas.
 
 * **remotes**
    * Versão mínima do SDK: 4.2
@@ -209,11 +209,11 @@ Esta é uma lista das variáveis no arquivo JSON e a versão mínima do SDK nece
 
       >[!IMPORTANT]
       >
-      >Essa variável é exigida pelo Analytics.
+      >Esta variável é exigida pelo Analytics.
 
 * **server**
    * Versão mínima do SDK: 4.0
-   * O servidor Analytics ou Gerenciamento de público-alvo, com base no nó principal. This variable should be populated with the server domain, without an `https://` or `https://` protocol prefix. Este prefixo é manipulado automaticamente pela biblioteca com base na variável `ssl`. Se `ssl` for `true`, é realizada uma conexão segura com o servidor. Se `ssl` for `false`, é realizada uma conexão insegura com o servidor.
+   * O servidor Analytics ou Gerenciamento de público-alvo, com base no nó principal. Essa variável deve ser preenchida com o domínio do servidor, sem um prefixo de protocolo `https://` ou `https://`. Este prefixo é manipulado automaticamente pela biblioteca com base na variável `ssl`. Se `ssl` for `true`, é realizada uma conexão segura com o servidor. Se `ssl` for `false`, é realizada uma conexão insegura com o servidor.
 
 * **ssl**
    * Versão mínima do SDK: 4.0
@@ -236,7 +236,7 @@ Esta é uma lista das variáveis no arquivo JSON e a versão mínima do SDK nece
    * Determina quanto tempo o Target aguarda uma resposta.
 
 
-## Sample `ADBMobileConfig.json` file {#section_4655EF79744649E5A5AE19E3224C472C}
+## Exemplo de arquivo `ADBMobileConfig.json` {#section_4655EF79744649E5A5AE19E3224C472C}
 
 A seguir, há um exemplo de arquivo `ADBMobileConfig.json`:
 
