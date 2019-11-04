@@ -3,19 +3,19 @@ description: 'Os seguintes métodos de aquisição são fornecidos pela bibliote
 keywords: android;biblioteca;móvel;sdk
 seo-description: 'Os seguintes métodos de aquisição são fornecidos pela biblioteca do Android '
 seo-title: Métodos de aquisição
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Métodos de aquisição
 topic: Desenvolvedor e implementação
 uuid: 22ec432f-e7ae-4e89-be07-26206bbeacf8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 ---
 
 
-# Acquisition methods{#acquisition-methods}
+# Métodos de aquisição{#acquisition-methods}
 
-O seguinte método de aquisição é fornecido pela biblioteca do Android:
+Os seguintes métodos de aquisição são fornecidos pela biblioteca do Android:
 
 * **campaignStartForApp**
 
