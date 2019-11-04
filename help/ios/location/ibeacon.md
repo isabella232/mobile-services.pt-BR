@@ -2,11 +2,11 @@
 description: O rastreamento do iBeacon permite medir e segmentar micro locais usando iBeacon e Low Energy Bluetooth.
 seo-description: O rastreamento do iBeacon permite medir e segmentar micro locais usando iBeacon e Low Energy Bluetooth.
 seo-title: Rastreamento iBeacon
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Rastreamento iBeacon
 topic: Desenvolvedor e implementação
 uuid: 390883db-027e-4d12-8a16-86d514579db1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ---
@@ -18,7 +18,7 @@ O rastreamento do iBeacon permite medir e segmentar micro locais usando iBeacon 
 
 Os seguintes dados de beacon são enviados para o Analytics e o Target quando `trackBeacon` é chamado:
 
-* `a.beacon.uuid` - ProximityUUID do sinal
+* `a.beacon.uuid` - ProximityUUID do beacon
 * `a.beacon.major` - Número principal do beacon, como o número da loja
 * `a.beacon.minor` - Número menor do beacon, como um número exclusivo em uma loja
 * `a.beacon.prox` - Os seguintes valores representam a proximidade do usuário com o beacon:
@@ -32,7 +32,7 @@ Os seguintes dados de beacon são enviados para o Analytics e o Target quando `t
 
 1. Adicione a biblioteca ao projeto e implemente o ciclo de vida.
 
-   Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao seu projeto* em Implementação [principal e Ciclo de vida](/help/ios/getting-started/dev-qs.md).
+   Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao seu projeto* em [Implementação principal e ciclo de vida](/help/ios/getting-started/dev-qs.md).
 1. Importe a biblioteca:
 
    ```objective-c
@@ -51,7 +51,7 @@ Os seguintes dados de beacon são enviados para o Analytics e o Target quando `t
    [ADBMobile trackingClearCurrentBeacon];
    ```
 
-## Send additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## Enviar dados adicionais {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 Além do nome da ação cronometrada, você pode enviar dados de contexto adicionais com cada chamada de ação de rastreamento:
 
@@ -59,7 +59,7 @@ Além do nome da ação cronometrada, você pode enviar dados de contexto adicio
 [ADBMobile trackBeacon:beacon data:@{@"myapp.ImageLiked" : imageName}];
 ```
 
-Os valores de dados de contexto devem ser mapeados para variáveis personalizadas:
+Os valores dos dados de contexto devem ser mapeados para variáveis personalizadas:
 
 ![](assets/map-variable-context-ltv.png)
 
