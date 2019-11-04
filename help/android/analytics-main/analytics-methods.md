@@ -3,33 +3,33 @@ description: Esta é uma lista de métodos do Adobe Analytics fornecida pela bib
 keywords: android;biblioteca;móvel;sdk
 seo-description: Esta é uma lista de métodos do Adobe Analytics fornecida pela biblioteca do Android.
 seo-title: Métodos do Analytics
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Métodos do Analytics
 topic: Desenvolvedor e implementação
 uuid: ac7c640e-9dcc-4724-b561-019cc025d5a7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
 
 
-# Analytics methods {#analytics-methods}
+# Métodos do Analytics {#analytics-methods}
 
 Esta é uma lista de métodos do Adobe Analytics fornecida pela biblioteca do Android.
 
-The SDK currently supports multiple Adobe Experience Cloud Solutions], including Analytics], Target], Audience Manager], and the Adobe Experience Platform Identity Service]. Os métodos recebem o prefixo de acordo com a solução, por exemplo, métodos da Experience Cloud ID recebem o prefixo `analytics`.
+Atualmente, o SDK é compatível com várias soluções da Adobe Experience Cloud, incluindo o Analytics, o Target, o Audience Manager e o Adobe Experience Platform Identity Service. Os métodos recebem o prefixo de acordo com a solução, por exemplo, métodos da Experience Cloud ID recebem o prefixo `analytics`.
 
 Cada um destes métodos é usado para enviar dados para o conjunto de relatórios do Adobe Analytics:
 
 * **trackState**
 
-   Rastreia um estado de aplicativo com dados de contexto opcionais. States are the views that are available in your app, such as `home dashboard`, `app settings`, `cart`, and so on. Esses estados são semelhantes às páginas em um site e as chamadas de `trackState` aumentam as exibições de página.
+   Rastreia um estado de aplicativo com dados de contexto opcionais. Os estados são as exibições disponíveis no aplicativo, como `home dashboard`, `app settings`, `cart`, e assim por diante. Esses estados são semelhantes às páginas em um site, e as chamadas de `trackState` aumentam as visualizações de página.
 
-   If `state` is empty, `app name app version (build)` is displayed in reports. Caso veja esse valor em relatórios, certifique-se de configurar `state` em cada chamada de `trackState`.
+   Se `state` estiver vazio, `app name app version (build)` será exibido nos relatórios. Caso veja esse valor em relatórios, certifique-se de configurar `state` em cada chamada de `trackState`.
 
    >[!TIP]
    >
-   >Essa é a única chamada de rastreamento que aumenta as exibições de página.
+   >Esta é a única chamada de rastreamento que aumenta as exibições de página.
 
    * Esta é a sintaxe para este método:
 
@@ -43,9 +43,10 @@ Cada um destes métodos é usado para enviar dados para o conjunto de relatório
       Analytics.trackState("loginScreen",null);
       ```
 
-* **trackAction** Rastreia uma ação no aplicativo.
+* **trackAction**
+Rastreia uma ação no seu aplicativo.
 
-   Actions that you want to measure, such as `logons`, `banner taps`, `feed subscriptions`, and other metrics, that occur in your app.
+   Ações que deseja medir, como `logons`, `banner taps`, `feed subscriptions` e outras métricas que ocorrem no aplicativo.
 
    * Esta é a sintaxe para este método:
 
@@ -59,7 +60,8 @@ Cada um destes métodos é usado para enviar dados para o conjunto de relatório
       Analytics.trackAction("heroBannerTouched",null);
       ```
 
-* **getTrackingIdentifier** Retorna o identificador de visitante gerado automaticamente para o Analytics.
+* **getTrackingIdentifier**
+Retorna o identificador de visitante gerado automaticamente pelo Analytics.
 
    Esta é uma ID de visitante única e específica do aplicativo gerada na primeira inicialização, armazenada e utilizada a partir desse ponto. A ID é preservada entre as atualizações do aplicativo e é removida quando o aplicativo é desinstalado.
 
@@ -77,7 +79,7 @@ Cada um destes métodos é usado para enviar dados para o conjunto de relatório
 
 * **trackLocation**
 
-   Envia a latitude, a longitude e o local atuais em um ponto de interesse definido. Para obter mais informações, consulte [Localização geográfica e pontos de interesse](/help/android/location/geo-poi.md).
+   Envia latitude, longitude e localização atuais em um ponto de interesse definido. Para obter mais informações, consulte [Geolocalização e pontos de interesse](/help/android/location/geo-poi.md).
 
    * Esta é a sintaxe para este método:
 
@@ -131,7 +133,7 @@ Cada um destes métodos é usado para enviar dados para o conjunto de relatório
 
 * **trackTimed&#x200B;ActionUpdate**
 
-   Pass in `contextData` to update the context data that is associated with the `action`. The `data` that is passed in is appended to the existing data for the action, and if the same key is already defined for `action`, overwrites the data.
+   Passa em `contextData` para atualizar os dados de contexto associados a `action`. Os `data` passados estão anexados aos dados existentes da ação e, se a mesma chave já estiver definida como `action`, eles substituirão os dados.
 
    >[!TIP]
    >
@@ -153,11 +155,11 @@ Cada um destes métodos é usado para enviar dados para o conjunto de relatório
 
 * **trackTimed&#x200B;ActionEnd**
 
-   Encerra uma ação programada. If you provide `block`, you can access the final time values and can manipulate `data` before sending the final hit.
+   Encerra uma ação programada. Se você fornecer `block`, poderá acessar os valores de tempo finais e manipular `data` antes de enviar a ocorrência final.
 
    >[!TIP]
    >
-   >If you provide `block`, you must return `true` to send a hit. Passing `null` for `block` sends the final hit.
+   >Se você fornecer `block`, deverá retornar `true` para enviar uma ocorrência. Passar `null` para `block` envia a ocorrência final.
 
    * Esta é a sintaxe para este método:
 
