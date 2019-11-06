@@ -799,6 +799,7 @@ Estado de autenticação do usuário. Os valores possíveis incluem:
          * Tipo: `String`
          * A ID de terceiros a usar para solicitações de destino.
    * Esta é a amostra de código para este método:
+
    ```objective-c
    ADBMobile.targetSetThirdPartyID(‘thirdPartyID’);
    ```

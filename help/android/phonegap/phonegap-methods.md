@@ -202,6 +202,7 @@ Nos arquivos `html` em que deseja usar o rastreamento, adicione o código a segu
    Envia uma solicitação de coleta de PII.
 
    * Esta é a sintaxe para este método:
+
    ```javascript
    ADB.collectPII(piiData,success, fail);
    ```

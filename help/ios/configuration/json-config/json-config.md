@@ -145,6 +145,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
    Cada matriz de POI contém o nome do POI, a latitude, a longitude e o raio (em metros) para a área do ponto. O nome do POI pode ser qualquer cadeia de caracteres. Quando uma chamada `trackLocation` é enviada, se as coordenadas atuais estiverem em um POI definido, uma variável de dados de contexto será preenchida e enviada com a chamada `trackLocation`.
 
    * Versão mínima do SDK: 4.0
+
    ```js
    "poi" [ 
            ["sanfrancisco",37.757144,-122.44812,7000]

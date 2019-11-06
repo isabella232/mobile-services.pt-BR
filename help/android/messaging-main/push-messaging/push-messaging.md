@@ -43,6 +43,7 @@ Para usar mensagens de push, você **deve** ter o SDK versão 4.6 ou posterior.
 1. Obtenha a ID/token de registro usando a API do Firebase Cloud Messaging (FCM).
 
    * Para obter mais informações sobre como configurar o FCM, consulte [Definir um aplicativo do cliente GCM no Android](https://firebase.google.com/docs/cloud-messaging/android/client).
+
    ```js
    String token = FirebaseInstanceId.getInstance().getToken();
    ```
@@ -57,7 +58,8 @@ Para usar mensagens de push, você **deve** ter o SDK versão 4.6 ou posterior.
 
    A seguir, os requisitos para ativar o relatório de click-through de push:
 
-   * Na implementação do `FireBaseMessageService`, o objeto Pacote, que contém os dados de mensagem passados para o método `onMessageReceived` com o objeto RemoteMessage, devem ser adicionados à Finalidade usada para abrir a atividade alvo em um click-through. Isso pode ser feito usando o método `putExtras`. Para obter mais informações, consulte [putExtras](https://developer.android.com/reference/android/content/Intent.html#putExtras(android.os.Bundle))).
+   * Na implementação do `FireBaseMessageService`, o objeto Pacote, que contém os dados de mensagem passados para o método `onMessageReceived` com o objeto RemoteMessage, devem ser adicionados à Finalidade usada para abrir a atividade alvo em um click-through. Isso pode ser feito usando o método `putExtras`. Para obter mais informações, consulte [putExtras](https://developer.android.com/reference/android/content/Intent.html#putExtras(android.os.Bundle)).
+
    ```java
    Intent intent = new Intent(this, MainActivity.class);
       intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
