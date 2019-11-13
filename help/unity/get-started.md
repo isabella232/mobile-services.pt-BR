@@ -7,7 +7,7 @@ solution: Marketing Cloud,Desenvolvedor
 title: Plug-in Unity para SDKs 4.x de iOS e de Android
 uuid: 83289a73-982d-4472-a8c8-00b562dc80f5
 translation-type: tm+mt
-source-git-commit: 5fbba02eb61679344f638b6465e47b0d9ae5a988
+source-git-commit: df4ff7128357a18c56d840eb5697f9c8813ad751
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 5fbba02eb61679344f638b6465e47b0d9ae5a988
 
 Este plug-in permite o envio de chamadas do Adobe Analytics por meio dos aplicativos Unity.
 
-Última atualização em: **20 outubro de 2016**
+Last Updated: **November 12, 2019**
 
 ## Introdução {#section_246D1F9B32ED47EABC41BDA8D0BD0CC7}
 
@@ -28,16 +28,6 @@ Estes são os conteúdos do `ADBMobile.unitypackage` arquivo:
 
    * ADBMobile
 
-      * Demonstração
-
-         * ADBMobileDemo.cs
-         * BooDemo.boo
-         * BooScene.unity
-         * CSharpScene.unity
-         * JavaScriptDemo.js
-         * JavaScriptScene.unity
-         * SecondScene.unity
-         * SecondSceneScript.cs
    * Plug-ins
 
       * ADBMobile.cs
@@ -55,7 +45,6 @@ Estes são os conteúdos do `ADBMobile.unitypackage` arquivo:
          * ADBMobileWrapper.h
          * ADBMobileWrapper.mm
          * AdobeMobileLibrary.a
-
 
 
 Pastas opcionais: a pasta Demonstração contém cenas e códigos de amostra do Unity para cada uma das linguagens de script compatíveis.
