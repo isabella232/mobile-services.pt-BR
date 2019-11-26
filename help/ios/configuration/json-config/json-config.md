@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: Configuração JSON do ADBMobile
 topic: Developer and implementation
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bb7fc1c1fc6e88549a1673baedae19f808d222f0
 
 ---
@@ -70,7 +70,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
 
 * **charset**
 
-   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte [s.charSet](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html).
+   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte [s.charSet](https://marketing.adobe.com/resources/help/pt_BR/sc/implement/charset.html).
 
    * Versão mínima do SDK: 4.0
 
@@ -247,7 +247,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
 
    >[!IMPORTANT]
    >
-   > A partir da versão 4.10.0, o padrão SSL será true se o sinalizador não estiver definido.
+   > A partir da versão 4.10.0, o padrão SSL será true, se o sinalizador não estiver definido.
 
    Ativa (`true`) ou desativa (`false`) a capacidade de enviar dados de medição por SSL (HTTPS).
 
