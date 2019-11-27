@@ -1,14 +1,14 @@
 ---
 description: Você pode exibir as principais métricas de desempenho dos aplicativos que você visualizou recentemente. Por padrão, você pode exibir até 12 aplicativos. É possível alterar o intervalo de datas e criar filtros para segmentar os dados e qualquer aplicativo na página Visão geral.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: Você pode exibir as principais métricas de desempenho dos aplicativos que você visualizou recentemente. Por padrão, você pode exibir até 12 aplicativos. É possível alterar o intervalo de datas e criar filtros para segmentar os dados e qualquer aplicativo na página Visão geral.
 seo-title: Exibir métricas do Mobile
-solution: Experience Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Exibir métricas do Mobile
-topic: Métricas
+topic: Metrics
 uuid: 57db0b77-6b0a-4a0c-9aad-0731275233fd
-translation-type: ht
-source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
+translation-type: tm+mt
+source-git-commit: bd8aa0c7ff58e4cf28a67b8a107db52fb30cd3dc
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
 Você pode exibir as principais métricas de desempenho dos aplicativos que você visualizou recentemente. Por padrão, você pode exibir até 12 aplicativos. É possível alterar o intervalo de datas e criar filtros para segmentar os dados e qualquer aplicativo na página Visão geral.
 
-As métricas exibidas para cada aplicativo refletem as métricas principais que você selecionou quando criou o aplicativo. Para obter mais informações, consulte [Adicionar um novo aplicativo](/help/using/manage-apps/t-new-app.md).
+As métricas exibidas para cada aplicativo refletem as métricas principais que você selecionou quando criou o aplicativo. Para obter mais informações, consulte  [Adicionar um novo aplicativo](/help/using/manage-apps/t-new-app.md).
 
 Se o aplicativo que deseja visualizar não for exibido, procure-o digitando o nome do aplicativo ou clicando na lista suspensa em **[!UICONTROL Todos os aplicativos]**.
 
@@ -53,7 +53,7 @@ Você pode executar as seguintes tarefas na página Visão geral:
 
 * **Exibir indicadores chave de desempenho**
 
-   Clique no nome do aplicativo para exibir detalhes sobre os principais indicadores de desempenho. As linhas no gráfico são codificadas por cores e você pode passar o mouse sobre o ponto de dados para exibir as estatísticas de datas específicas. Para detalhar, clique no ícone **** &gt; ao lado de **[!UICONTROL Indicadores chave de desempenho]**. As linhas no gráfico são codificadas por cores e você pode passar o mouse sobre qualquer ponto de dados para ver as estatísticas de datas específicas. Clique em um cabeçalho da coluna na tabela para classificar os dados em ordem crescente ou decrescente.
+   Clique no nome do aplicativo para exibir detalhes sobre os principais indicadores de desempenho. As linhas no gráfico são codificadas por cores e você pode passar o mouse sobre o ponto de dados para exibir as estatísticas de datas específicas. To drill down, click the icon next to **[!UICONTROL Key Performance Indicators]**. As linhas no gráfico são codificadas por cores e você pode passar o mouse sobre qualquer ponto de dados para ver as estatísticas de datas específicas. Clique em um cabeçalho da coluna na tabela para classificar os dados em ordem crescente ou decrescente.
 
 ## Editar as configurações de um aplicativo {#section_C1CF227A2E534A798F0073E43AD6A2D1}
 
