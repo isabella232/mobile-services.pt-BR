@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: Implementação principal e ciclo de vida
 topic: Developer and implementation
 uuid: 96d06325-e424-4770-8659-4b5431318ee3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bd8aa0c7ff58e4cf28a67b8a107db52fb30cd3dc
 
 ---
@@ -105,7 +105,7 @@ Para baixar o SDK:
 >
 >O iOS enviará informações de ciclo de vida fazendo ou não uma chamada com o `collectlifecycledata`, e o `collectlifecycledata` é só uma maneira de iniciar o ciclo de vida anteriormente na sequência de iniciação do aplicativo.
 
-Após habilitar o ciclo de vida, cada vez que o aplicativo é iniciado uma ocorrência é enviada para medir as inicializações, atualizações, usuários engajados e outras [Métricas de ciclo de vida](/help/ios/metrics.md).
+Após habilitar o ciclo de vida, cada vez que o aplicativo é iniciado uma ocorrência é enviada para medir as inicializações, atualizações, usuários engajados e outras [Medições de ciclo de vida](/help/ios/metrics.md).
 
 Adicionar uma chamada `collectLifecycleData`/ `collectLifecycleDataWithAdditionalData` em `application:didFinishLaunchingWithOptions`:
 
