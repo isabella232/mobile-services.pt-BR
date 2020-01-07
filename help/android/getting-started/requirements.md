@@ -2,12 +2,12 @@
 description: 'Antes de configurar um conjunto de relatórios e coletar os dados de aplicativo do Android, complete as seguintes tarefas de pré-requisitos '
 seo-description: 'Antes de configurar um conjunto de relatórios e coletar os dados de aplicativo do Android, complete as seguintes tarefas de pré-requisitos '
 seo-title: Antes de começar
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Antes de começar
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 0ca9e937-8d40-4570-9dbf-9aecc6ecedf6
-translation-type: ht
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+translation-type: tm+mt
+source-git-commit: 0720b2004097eb288bd8f59723eeb09a79dd81e7
 
 ---
 
@@ -35,10 +35,9 @@ Os desenvolvedores de aplicativos agora têm acesso para visualizar o(s) conjunt
 
 ### Desenvolvedores do aplicativo
 
-1. Assegure-se de que o administrador do Analytics concluiu as etapas na seção *Administradores do Analytics* em [Tarefas específicas por função](../getting-started/requirements.md#section_8B9EA1FA189F4C6DB7D829F0B5844FBC).
-
+1. Ensure that your Analytics administrator has completed the steps in the *Analytics Administrators* in [Role-Specific Tasks](../getting-started/requirements.md#section_8B9EA1FA189F4C6DB7D829F0B5844FBC).
 1. Verifique se o administrador do Analytics concluiu uma das seções em [Fazer logon na interface do usuário do Adobe Mobile Services](../getting-started/requirements.md#section_690A2EC4572E47869F183974E932A6A8).
-1. Após o conjunto de relatórios ser configurado, conclua as etapas em [Baixar o SDK](../getting-started/requirements.md#section_044C17DF82BC4FD8A3E409C456CE9A46).
+1. After the report suite has been configured, complete steps in the [Download the SDK](../getting-started/requirements.md#section_044C17DF82BC4FD8A3E409C456CE9A46).
 
 Para obter mais informações sobre funções e permissões, consulte [Funções e permissões](/help/using/gs/c-mob-roles-and-permissions.md).
 
@@ -50,7 +49,7 @@ O Adobe Mobile Services é a principal interface de relatórios para análise e 
 
 ### Experience Cloud
 
-Faça logon na [Experience Cloud](https://marketing.adobe.com) com sua Adobe ID. Esse método entende que sua empresa foi provisionada na Experience Cloud e que você vinculou sua conta do Analytics. Para obter mais informações, consulte [Gerenciar usuários e produtos da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Faça logon na [Experience Cloud](https://marketing.adobe.com) com sua Adobe ID. Esse método entende que sua empresa foi provisionada na Experience Cloud e que você vinculou sua conta do Analytics. Para obter mais informações, consulte [Gerenciar usuários e produtos da Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 >[!TIP]
 >
@@ -58,23 +57,24 @@ Faça logon na [Experience Cloud](https://marketing.adobe.com) com sua Adobe ID.
 
 ### Adobe Analytics
 
-Clique em **[!UICONTROL Fazer logon com o Analytics]** e digite o nome da empresa do Analytics, o nome de usuário e a senha.
+Clique em **[!UICONTROL Fazer logon com o Analytics]**e digite o nome da empresa do Analytics, o nome de usuário e a senha.
 
 ## Criar um novo conjunto de relatórios {#section_7BC602ED1ABA42C6AB722F506B5219F3}
 
 Para criar um conjunto de relatórios para coletar dados do aplicativo e definir um aplicativo:
 
-1. Clique em **[!UICONTROL Criar novo aplicativo]**.
+1. Faça logon na interface do usuário do Mobile Services digitando [https://mobilemarketing.adobe.com/](https://mobilemarketing.adobe.com/) em um navegador.
+1. Click **[!UICONTROL Create an App]**.
 
-   Se não vir este botão, clique em **[!UICONTROL Gerenciar aplicativos]** &gt; **[!UICONTROL Adicionar]**.
+   Se não vir este botão, clique em **[!UICONTROL Gerenciar aplicativos]**>**[!UICONTROL  Adicionar]**.
 
-1. No menu suspenso **[!UICONTROL Conjunto de relatórios]**, selecione **[!UICONTROL Novo conjunto de relatórios]**.
+1. No menu suspenso **[!UICONTROL Conjunto de relatórios]**, selecione**[!UICONTROL  Novo conjunto de relatórios]**.
 
 1. Digite o nome do aplicativo e selecione um tipo de conjunto de relatórios.
 
    Um exemplo de uma ID de conjunto de relatórios é `mycomobileappdev`. É necessário definir conjuntos de relatórios e aplicativos separados das versões de desenvolvimento e produção, de forma que possa repetir essas etapas quando estiver pronto para configurar a versão de produção.
 1. Em **[!UICONTROL ID de conjunto de relatórios]**, verifique se o nome do seu conjunto de relatórios é exibido.
-1. Em **[!UICONTROL Copiar configurações de]**, verifique se **[!UICONTROL Modelo de aplicativo móvel]** está selecionado.
+1. Em **[!UICONTROL Copiar configurações de]**, verifique se**[!UICONTROL  Modelo de aplicativo móvel]** está selecionado.
 
    Este modelo permite que os carimbos de data e hora coletem dados offline e ativem as variáveis da solução móvel para capturar medições de ciclo de vida.
 
@@ -84,14 +84,21 @@ Para criar um conjunto de relatórios para coletar dados do aplicativo e definir
 
 Para baixar o SDK móvel:
 
-1. Faça logon na interface do usuário do Mobile Services e abra o aplicativo de uma das seguintes maneiras:
+1. faça logon na interface do usuário do Mobile Services digitando [https://mobilemarketing.adobe.com/](https://mobilemarketing.adobe.com/) em um navegador.
+1. No painel esquerdo, clique na lista suspensa **[!UICONTROL Todos os aplicativos]**e selecione seu aplicativo.
+Você também pode selecionar seu aplicativo no painel direito.
 
-   * Na lista suspensa **[!UICONTROL Todos os aplicativos]**, selecione o aplicativo.
-   * No painel direito, encontre seu aplicativo e abra-o.
+   >[!IMPORTANT]
+   >
+   >Para ver seu aplicativo exibido no painel direito, primeiro crie um aplicativo. Para obter informações sobre como criar um aplicativo, consulte [Adicionar um novo aplicativo.](https://docs.adobe.com/content/help/en/mobile-services/using/manage-apps-ug/t-new-app.html)
 
-1. Clique em **[!UICONTROL Gerenciar configurações do aplicativo]**.
-1. Role até a seção **[!UICONTROL Downloads do SDK para aplicativos]**.
-1. Baixe o SDK e do aplicativo de exemplo para a sua plataforma.
+1. No aplicativo, no painel esquerdo, clique em **[!UICONTROL Gerenciar configurações]**do aplicativo.
+
+   >[!IMPORTANT]
+   >
+   >Se não vir a opção **[!UICONTROL Gerenciar configurações]**do aplicativo, verifique se você está conectado ao Adobe Mobile Services. Para verificar, clique no ícone do alternador![de](assets/solution-switcher.png)soluções no lado superior direito da página e verifique se o**[!UICONTROL  Adobe Mobile Services]** é exibido no lado superior esquerdo.
+
+1. Na parte inferior da página Gerenciar configurações do aplicativo, na seção Downloads **[!UICONTROL do SDK do]**aplicativo, baixe o SDK e o aplicativo de amostra para sua plataforma.
 
 >[!TIP]
 >
