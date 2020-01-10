@@ -57,7 +57,7 @@ Faça logon na [Experience Cloud](https://marketing.adobe.com) com sua Adobe ID.
 
 ### Adobe Analytics
 
-Clique em **[!UICONTROL Fazer logon com o Analytics]**e digite o nome da empresa do Analytics, o nome de usuário e a senha.
+Clique em **[!UICONTROL Fazer logon com o Analytics]** e digite o nome da empresa do Analytics, o nome de usuário e a senha.
 
 ## Criar um novo conjunto de relatórios {#section_7BC602ED1ABA42C6AB722F506B5219F3}
 
@@ -66,15 +66,15 @@ Para criar um conjunto de relatórios para coletar dados do aplicativo e definir
 1. Faça logon na interface do usuário do Mobile Services digitando [https://mobilemarketing.adobe.com/](https://mobilemarketing.adobe.com/) em um navegador.
 1. Click **[!UICONTROL Create an App]**.
 
-   Se não vir este botão, clique em **[!UICONTROL Gerenciar aplicativos]**>**[!UICONTROL  Adicionar]**.
+   Se não vir este botão, clique em **[!UICONTROL Gerenciar aplicativos]** > **[!UICONTROL  Adicionar]**.
 
-1. No menu suspenso **[!UICONTROL Conjunto de relatórios]**, selecione**[!UICONTROL  Novo conjunto de relatórios]**.
+1. No menu suspenso **[!UICONTROL Conjunto de relatórios]**, selecione **[!UICONTROL  Novo conjunto de relatórios]**.
 
 1. Digite o nome do aplicativo e selecione um tipo de conjunto de relatórios.
 
    Um exemplo de uma ID de conjunto de relatórios é `mycomobileappdev`. É necessário definir conjuntos de relatórios e aplicativos separados das versões de desenvolvimento e produção, de forma que possa repetir essas etapas quando estiver pronto para configurar a versão de produção.
 1. Em **[!UICONTROL ID de conjunto de relatórios]**, verifique se o nome do seu conjunto de relatórios é exibido.
-1. Em **[!UICONTROL Copiar configurações de]**, verifique se**[!UICONTROL  Modelo de aplicativo móvel]** está selecionado.
+1. Em **[!UICONTROL Copiar configurações de]**, verifique se **[!UICONTROL  Modelo de aplicativo móvel]** está selecionado.
 
    Este modelo permite que os carimbos de data e hora coletem dados offline e ativem as variáveis da solução móvel para capturar medições de ciclo de vida.
 
@@ -85,20 +85,20 @@ Para criar um conjunto de relatórios para coletar dados do aplicativo e definir
 Para baixar o SDK móvel:
 
 1. faça logon na interface do usuário do Mobile Services digitando [https://mobilemarketing.adobe.com/](https://mobilemarketing.adobe.com/) em um navegador.
-1. No painel esquerdo, clique na lista suspensa **[!UICONTROL Todos os aplicativos]**e selecione seu aplicativo.
+1. No painel esquerdo, clique na lista suspensa **[!UICONTROL Todos os aplicativos]** e selecione seu aplicativo.
 Você também pode selecionar seu aplicativo no painel direito.
 
    >[!IMPORTANT]
    >
    >Para ver seu aplicativo exibido no painel direito, primeiro crie um aplicativo. Para obter informações sobre como criar um aplicativo, consulte [Adicionar um novo aplicativo.](https://docs.adobe.com/content/help/en/mobile-services/using/manage-apps-ug/t-new-app.html)
 
-1. No aplicativo, no painel esquerdo, clique em **[!UICONTROL Gerenciar configurações]**do aplicativo.
+1. No aplicativo, no painel esquerdo, clique em **[!UICONTROL Gerenciar configurações]** do aplicativo.
 
    >[!IMPORTANT]
    >
-   >Se não vir a opção **[!UICONTROL Gerenciar configurações]**do aplicativo, verifique se você está conectado ao Adobe Mobile Services. Para verificar, clique no ícone do alternador![de](assets/solution-switcher.png)soluções no lado superior direito da página e verifique se o**[!UICONTROL  Adobe Mobile Services]** é exibido no lado superior esquerdo.
+   >Se não vir a opção **[!UICONTROL Gerenciar configurações]** do aplicativo, verifique se você está conectado ao Adobe Mobile Services. Para verificar, clique no ícone do alternador ![de](assets/solution-switcher.png)soluções no lado superior direito da página e verifique se o **[!UICONTROL  Adobe Mobile Services]** é exibido no lado superior esquerdo.
 
-1. Na parte inferior da página Gerenciar configurações do aplicativo, na seção Downloads **[!UICONTROL do SDK do]**aplicativo, baixe o SDK e o aplicativo de amostra para sua plataforma.
+1. Na parte inferior da página Gerenciar configurações do aplicativo, na seção Downloads **[!UICONTROL do SDK do]** aplicativo, baixe o SDK e o aplicativo de amostra para sua plataforma.
 
 >[!TIP]
 >
