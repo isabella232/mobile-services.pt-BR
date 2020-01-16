@@ -2,12 +2,12 @@
 description: Notas de versão e problemas conhecidos do Android SDK 4.x para as Soluções da Experience Cloud.
 seo-description: Notas de versão e problemas conhecidos do Android SDK 4.x para as Soluções da Experience Cloud.
 seo-title: Notas de versão
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Notas de versão
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 16bb4de8-a216-47a8-928c-0b1e1421adcf
-translation-type: ht
-source-git-commit: 7fe7c78262a6d35dd27787554bb4f9ee92faa952
+translation-type: tm+mt
+source-git-commit: 712a1107b317f02216e4df8d75fddda67a6f1feb
 
 ---
 
@@ -15,6 +15,12 @@ source-git-commit: 7fe7c78262a6d35dd27787554bb4f9ee92faa952
 # Notas de versão {#release-notes}
 
 Estas são as notas de versão, problemas conhecidos e informações de hot fix do Android SDK 4.x para Soluções da Experience Cloud:
+
+**16 de janeiro de 2020: 4,18,0**
+
+* Aquisição - Adicionada uma nova API, `Analytics.processGooglePlayInstallReferrerUrl(final String url)`para oferecer suporte às APIs de referência de instalação do Google Play.
+
+   Para obter mais informações sobre as APIs de referência de instalação, consulte [Ainda usando o InstallBroadcast? Alterne para a API do referenciador Play até 1º de março de 2020](https://android-developers.googleblog.com/2019/11/still-using-installbroadcast-switch-to.html) .
 
 **20 de setembro de 2019: Versão 4.17.10**
 
@@ -41,4 +47,4 @@ Estas são as notas de versão, problemas conhecidos e informações de hot fix 
 * Serviço de ID de visitante - Aumento da conexão e do tempo limite de leitura de 2 segundos para 5 segundos.
 
 
-Para obter mais informações sobre as notas de versão atuais e anteriores para todas as soluções, consulte [Notas de versão da Adobe Experience Cloud](https://marketing.adobe.com/resources/help/pt_BR/whatsnew/).
+Para obter mais informações sobre as notas de versão atuais e anteriores para todas as soluções, consulte [Notas de versão da Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
