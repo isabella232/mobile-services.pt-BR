@@ -1,14 +1,14 @@
 ---
 description: Estas informações ajudam a fazer uma viagem de ida e volta no link da campanha de aquisição da versão 3 em um dispositivo Android.
-keywords: android;biblioteca;móvel;sdk
+keywords: android;library;mobile;sdk
 seo-description: Estas informações ajudam a fazer uma viagem de ida e volta no link da campanha de aquisição da versão 3 em um dispositivo Android.
 seo-title: Testar a Aquisição versão 3
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Testar a Aquisição versão 3
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 5e38b43d-389e-4412-99e5-3e6223b6ad28
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: 657e8b93d1516690ad21d6cf504f9c8f611747b6
 
 ---
 
@@ -23,10 +23,15 @@ Estas informações ajudam a fazer uma viagem de ida e volta no link da campanha
 
 Se o aplicativo móvel ainda não estiver no Google Play, ao criar o link de campanha é possível selecionar qualquer aplicativo móvel como destino. Essa ação só afeta o aplicativo ao qual o servidor da aquisição te direciona após clicar no link de aquisição, mas não afeta a capacidade de testar o link. Os parâmetros da cadeia de caracteres de consulta são passados para a Google Play store, que é passada para o aplicativo na instalação como parte de uma difusão de campanha. A viagem de ida e volta do teste de aquisição do aplicativo móvel requer uma simulação desse tipo de difusão.
 
-O aplicativo deve estar recém-instalado ou ter os dados limpos em [!UICONTROL **Configurações**] sempre que um teste for executado. Isso garante que as medições de ciclo de vida inicial associadas aos parâmetros de cadeia de caracteres de consulta da campanha sejam enviadas quando o aplicativo é inicializado pela primeira vez.
+>[!IMPORTANT]
+>
+>Se você estiver implementando usando as APIs de referência de instalação do Google Play, não será possível testar a aquisição antes que seu aplicativo esteja na Google Play store.
+
+O aplicativo deve estar recém-instalado ou ter os dados limpos em **[!UICONTROL Configurações]**sempre que um teste for executado. Isso garante que as medições de ciclo de vida inicial associadas aos parâmetros de cadeia de caracteres de consulta da campanha sejam enviadas quando o aplicativo é inicializado pela primeira vez.
 
 1. Conclua as tarefas de pré-requisito na [Aquisição de aplicativos móveis](/help/android/acquisition-main/acquisition.md) e certifique-se de que você implementou corretamente o receptor de transmissão para `INSTALL_REFERRER`.
-1. Na interface do usuário do Adobe Mobile Services, clique em **[!UICONTROL Aquisição]** &gt; **[!UICONTROL Construtor de links de marketing]** e gere um URL de Link de marketing de aquisição que defina o Google Play como destino para dispositivos Android.
+
+1. In the Adobe Mobile Services UI, click  **[!UICONTROL Acquisition]**>**[!UICONTROL  Marketing Links Builder]** and generate an Acquisition Marketing Link URL that sets Google Play as the destination for Android devices.
 
    Para obter mais informações, consulte [Criador de links de marketing](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md).
 
@@ -63,7 +68,7 @@ O aplicativo deve estar recém-instalado ou ter os dados limpos em [!UICONTROL *
 
    | Configuração | Valor |
    |--- |--- |
-   | aquisição | O servidor deve ser `c00.adobe.com`.   *`appid`* deve ser igual ao `appid` no link de aquisição. |
+   | aquisição | The server should be `c00.adobe.com`.   *`appid`*should equal the`appid`in your acquisition link. |
    | analytics | Para fins de teste, defina o limite de tempo do referencial para permitir que o tempo adequado (60 segundos ou mais) envie a difusão automaticamente. É possível restaurar a configuração original de limite de tempo após testar. |
 
 1. Conecte o dispositivo a um computador, desinstale e instale o aplicativo novamente.
@@ -78,8 +83,8 @@ O aplicativo deve estar recém-instalado ou ter os dados limpos em [!UICONTROL *
    1. Substitua os valores associados ao `utm_content`.
    Se a transmissão for bem sucedida, você pode esperar uma resposta como o exemplo a seguir:
 
-   `Broadcasting: Intent 
-{ act=com.android.vending.INSTALL_REFERRER cmp=com.adobe.adms.tests/.ReferralReceiver (has extras) } 
+   `Broadcasting: Intent
+{ act=com.android.vending.INSTALL_REFERRER cmp=com.adobe.adms.tests/.ReferralReceiver (has extras) }
 Broadcast completed: result=0`
 
 1. (Opcional) É possível ativar o registro de depuração do SDK para obter informações adicionais.
