@@ -1,14 +1,14 @@
 ---
 description: Esta é uma lista de métodos do Adobe Analytics fornecida pela biblioteca do Android.
-keywords: android;biblioteca;móvel;sdk
+keywords: android;library;mobile;sdk
 seo-description: Esta é uma lista de métodos do Adobe Analytics fornecida pela biblioteca do Android.
 seo-title: Métodos do Analytics
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Métodos do Analytics
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: ac7c640e-9dcc-4724-b561-019cc025d5a7
-translation-type: ht
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+translation-type: tm+mt
+source-git-commit: 657e8b93d1516690ad21d6cf504f9c8f611747b6
 
 ---
 
@@ -34,13 +34,13 @@ Cada um destes métodos é usado para enviar dados para o conjunto de relatório
    * Esta é a sintaxe para este método:
 
       ```java
-      public staticvoidtrackState(Stringstate, Map<String,Object> contextData);
+      public static void trackState(String state, Map<String, Object> contextData);
       ```
 
    * Esta é a amostra de código para este método:
 
       ```java
-      Analytics.trackState("loginScreen",null);
+      Analytics.trackState("loginScreen", null);
       ```
 
 * **trackAction**
@@ -51,13 +51,13 @@ Rastreia uma ação no seu aplicativo.
    * Esta é a sintaxe para este método:
 
       ```java
-      publicstaticvoidtrackAction(Stringstate,Map<String,Object> contextData);
+      public static void trackAction(String state, Map<String, Object> contextData);
       ```
 
    * Esta é a amostra de código para este método:
 
       ```java
-      Analytics.trackAction("heroBannerTouched",null);
+      Analytics.trackAction("heroBannerTouched", null);
       ```
 
 * **getTrackingIdentifier**
@@ -68,13 +68,13 @@ Retorna o identificador de visitante gerado automaticamente pelo Analytics.
    * Esta é a sintaxe para este método:
 
       ```java
-      public static String getTrackingIdentifier(); 
+      public static String getTrackingIdentifier();
       ```
 
    * Esta é a amostra de código para este método:
 
       ```java
-      String trackingId = Analytics.getTrackingIdentifier(); 
+      String trackingId = Analytics.getTrackingIdentifier();
       ```
 
 * **trackLocation**
@@ -84,7 +84,7 @@ Retorna o identificador de visitante gerado automaticamente pelo Analytics.
    * Esta é a sintaxe para este método:
 
       ```java
-      public static void trackLocation(Location location, Map<String,Object> contextData); 
+      public static void trackLocation(Location location, Map<String, Object> contextData);
       ```
 
    * Esta é a amostra de código para este método:
@@ -100,7 +100,7 @@ Retorna o identificador de visitante gerado automaticamente pelo Analytics.
    * Esta é a sintaxe para este método:
 
       ```java
-      publicstaticvoidtrackLifetimeValueIncrease(BigDecimalamount,Map<String,Object>contextData);
+      public static void trackLifetimeValueIncrease(BigDecimal amount, Map<String, Object> contextData);
       ```
 
    * Esta é a amostra de código para este método:
@@ -122,13 +122,13 @@ Retorna o identificador de visitante gerado automaticamente pelo Analytics.
    * Esta é a sintaxe para este método:
 
    ```java
-   publicstaticvoidtrackTimedActionStart(Stringaction,Map<String,Object>contextData);
+   public static void trackTimedActionStart(String action, Map<String, Object> contextData);
    ```
 
    * Esta é a amostra de código para este método:
 
       ```java
-      Analytics.trackTimedActionStart("cartToCheckout",null)
+      Analytics.trackTimedActionStart("cartToCheckout", null)
       ```
 
 
@@ -143,14 +143,14 @@ Retorna o identificador de visitante gerado automaticamente pelo Analytics.
    * Esta é a sintaxe para este método:
 
       ```java
-      public static void trackTimedActionUpdate(Stringaction,Map <String,Object> contextData); 
+      public static void trackTimedActionUpdate(String action, Map<String, Object> contextData);
       ```
 
    * Esta é uma amostra de código para este método:
 
       ```java
-      HashMap cdata = new HashMap<String Object> (); 
-      cdata.put("quantity",3); 
+      HashMap cdata = new HashMap<String Object> ();
+      cdata.put("quantity",3);
       Analytics.trackTimedActionUpdate("cartToCheckout", cdata);
       ```
 
@@ -165,7 +165,7 @@ Retorna o identificador de visitante gerado automaticamente pelo Analytics.
    * Esta é a sintaxe para este método:
 
       ```java
-      public static void trackTimedActionEnd(Stringaction,TimedActionBlock<Boolean> logic); 
+      public static void trackTimedActionEnd(String action, TimedActionBlock<Boolean> logic);
       ```
 
    * Esta é a amostra de código para este método:
@@ -173,12 +173,11 @@ Retorna o identificador de visitante gerado automaticamente pelo Analytics.
       ```java
       Analytics.trackTimedActionEnd("cartToCheckout",new
       Analytics.TimedActionBlock<Boolean>(){
-        @Override
-        public Booleancall(long inAppDuration,long totalDuration, Map<String,
-      Object> contextData) {
+          @Override
+          public Boolean call(long inAppDuration, long totalDuration, Map<String, Object> contextData) {
               contextData.put("price", 49.95);
               return true;
-         }
+          }
       });
       ```
 
@@ -191,7 +190,7 @@ Retorna o identificador de visitante gerado automaticamente pelo Analytics.
    * Esta é a sintaxe para este método:
 
       ```java
-      voidsendQueuedHits()
+      public static void sendQueuedHits();
       ```
 
    * Esta é a amostra de código para este método:
@@ -207,13 +206,13 @@ Retorna o identificador de visitante gerado automaticamente pelo Analytics.
    * Esta é a sintaxe para este método:
 
       ```java
-      long getQueueSize()
+      public static long getQueueSize();
       ```
 
    * Esta é a amostra de código para este método:
 
       ```java
-      long queueSize = Analytics.getQueueSize(); 
+      long queueSize = Analytics.getQueueSize();
       ```
 
 * **clearQueue**
@@ -223,7 +222,7 @@ Retorna o identificador de visitante gerado automaticamente pelo Analytics.
    * Esta é a sintaxe para este método:
 
       ```java
-      voidclearQueue()
+      public static void clearQueue();
       ```
 
    * Esta é a amostra de código para este método:
@@ -235,3 +234,45 @@ Retorna o identificador de visitante gerado automaticamente pelo Analytics.
       >[!WARNING]
       >
       > Tenha cuidado ao limpar manualmente a fila. Esse processo não pode ser revertido.
+
+* **processReferrer**
+
+   Processa dados de campanha do referenciador da Google Play Store para uso posterior.
+
+   * Esta é a sintaxe para este método:
+
+      ```java
+      public static void processReferrer(final Context context, final Intent intent);
+      ```
+
+   * Esta é a amostra de código para este método:
+
+      ```java
+      Analytics.processReferrer(getApplicationContext(), intent);
+      ```
+
+* **processGooglePlayInstallReferrerUrl**
+
+   >[!IMPORTANT]
+   >
+   > Esta API está disponível a partir do SDK versão 4.18.0
+
+   Recupera dados de aquisição do URL de referência de instalação do Google Play fornecido.
+
+   Os dados coletados dessa API serão enviados em ocorrências de instalação enviadas ao Analytics e estarão disponíveis na chamada de retorno de dados da Adobe.
+
+   Se os dados do referenciador já tiverem sido coletados pelo SDK, chamar esse método resultará em uma operação inoperante.
+
+   Para obter informações sobre como recuperar o URL do referenciador, consulte a documentação do Google: https://developer.android.com/google/play/installreferrer/library.
+
+   * Esta é a sintaxe para este método:
+
+      ```java
+      public static void processGooglePlayInstallReferrerUrl(final String referrerUrl);
+      ```
+
+   * Esta é a amostra de código para este método:
+
+      ```java
+      Analytics.processGooglePlayInstallReferrerUrl(referrerUrl);
+      ```
