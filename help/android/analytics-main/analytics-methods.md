@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics
 title: Métodos do Analytics
 topic: Developer and implementation
 uuid: ac7c640e-9dcc-4724-b561-019cc025d5a7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 657e8b93d1516690ad21d6cf504f9c8f611747b6
 
 ---
@@ -255,13 +255,13 @@ Retorna o identificador de visitante gerado automaticamente pelo Analytics.
 
    >[!IMPORTANT]
    >
-   > Esta API está disponível a partir do SDK versão 4.18.0
+   > Essa API está disponível a partir do SDK versão 4.18.0
 
-   Recupera dados de aquisição do URL de referência de instalação do Google Play fornecido.
+   Recupera dados de aquisição do URL do Referenciador de instalação do Google Play fornecido.
 
-   Os dados coletados dessa API serão enviados em ocorrências de instalação enviadas ao Analytics e estarão disponíveis na chamada de retorno de dados da Adobe.
+   Os dados coletados dessa API serão enviados com ocorrências de instalação enviadas ao Analytics e estarão disponíveis na chamada de retorno de dados da Adobe.
 
-   Se os dados do referenciador já tiverem sido coletados pelo SDK, chamar esse método resultará em uma operação inoperante.
+   Se os dados do referenciador já tiverem sido coletados pelo SDK, chamar esse método resultará em uma operação inútil.
 
    Para obter informações sobre como recuperar o URL do referenciador, consulte a documentação do Google: https://developer.android.com/google/play/installreferrer/library.
 
