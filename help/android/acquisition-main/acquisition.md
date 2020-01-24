@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics
 title: Aquisição de aplicativos móveis
 topic: Developer and implementation
 uuid: 4d32eae9-e856-4e40-8a29-2b5bccd106e0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8a25259732a916f977f733cd22971b1d847aae5f
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 8a25259732a916f977f733cd22971b1d847aae5f
 
 Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para acessar a documentação mais recente.
 
-Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/br/experience-platform/launch.html).
 
 * Para começar, acesse o Adobe Experience Platform Launch.
 * Para ver o conteúdo dos repositórios SDK da Experience Platform, acesse [Github: SDKs da Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
@@ -34,15 +34,15 @@ Os links de aquisição devem ser criados nos Adobe Mobile Services. Para obter 
 
 **Nas versões 4.18.0 e posteriores do SDK**:
 
-A partir de 1º de março de 2020, o Google está descontinuando o mecanismo de difusão intent install_referrer. Para obter mais informações, consulte [Ainda usando o InstallBroadcast? Alterne para a API do referenciador Play até 1º de março de 2020](https://android-developers.googleblog.com/2019/11/still-using-installbroadcast-switch-to.html). Para continuar coletando informações do referenciador de instalação da Google Play store, atualize seu aplicativo para usar a versão 4.18.0 ou mais recente do SDK.
+A partir de 1º de março de 2020, o Google descontinuará o mecanismo de difusão de intenção INSTALL_REFERRER. Para obter mais informações, consulte [Ainda usando o InstallBroadcast? Alterne para a API do referenciador Play até 1º de março de 2020](https://android-developers.googleblog.com/2019/11/still-using-installbroadcast-switch-to.html). Para continuar coletando informações do referenciador de instalação da Google Play Store, atualize seu aplicativo para usar a versão 4.18.0 ou mais recente do SDK.
 
-Com a desaprovação, em vez de criar um `BroadcastReceiver`, é necessário coletar o URL do referenciador de instalação de uma nova API do Google e passar o URL resultante para o SDK.
+Por causa dessa descontinuação, em vez de criar um `BroadcastReceiver`, é necessário coletar o URL do referenciador de instalação em uma nova API do Google e passar o URL resultante para o SDK.
 
-1. Adicione o pacote Referenciador de instalação do Google Play às dependências do arquivo gradle:
+1. Adicione o pacote Referenciador de instalação do Google Play às dependências do arquivo do Gradle:
 
    `implementation 'com.android.installreferrer:installreferrer:1.1'`
 
-1. Para recuperar o URL do referenciador da API Install Referrer, conclua as etapas em [Obter o referenciador](https://developer.android.com/google/play/installreferrer/library#install-referrer)de instalação.
+1. Para recuperar o URL da API do Referenciador de instalação, conclua as etapas em [Obter o Referenciador de instalação](https://developer.android.com/google/play/installreferrer/library#install-referrer).
 
 1. Passe o URL do referenciador para o SDK:
 
@@ -50,9 +50,9 @@ Com a desaprovação, em vez de criar um `BroadcastReceiver`, é necessário col
 
 >[!IMPORTANT]
 >
->Para evitar chamadas desnecessárias de API em seu aplicativo, o Google recomenda que você chame a API apenas uma vez imediatamente após a instalação.
+>Para evitar chamadas desnecessárias de API em seu aplicativo, o Google recomenda que você chame a API apenas uma vez, imediatamente após a instalação.
 
-Para decidir a melhor maneira de usar as APIs de referência de instalação do Google Play no aplicativo, consulte a documentação do Google. Este é um exemplo de como usar o Adobe SDK com as APIs de referência de instalação do Google Play:
+Para decidir a melhor maneira de usar as APIs do Referenciador de instalação do Google Play no aplicativo, consulte a documentação do Google. Esse é um exemplo de como usar o Adobe SDK com as APIs de referência de instalação do Google Play:
 
 ```java
 void handleGooglePlayReferrer() {
@@ -141,7 +141,7 @@ Se você estiver usando os links do Acquisition criados no Adobe Mobile Services
 
 1. Coloque o prefixo &quot;`adb`&quot; em uma variável da aquisição.
 
-   Quando o SDK recebe os dados de aquisição do Adobe Mobile Services na primeira inicialização, os dados são armazenados e estão disponíveis na `AdobeDataCallback` instância que foi registrada anteriormente com o SDK. Para obter mais informações, consulte [Métodos de configuração](/help/android/configuration/methods.md).
+   Quando o SDK recebe os dados de aquisição do Adobe Mobile Services na primeira inicialização, os dados são armazenados e ficam disponíveis na instância `AdobeDataCallback` que foi registrada anteriormente com o SDK. Para obter mais informações, consulte [Métodos de configuração](/help/android/configuration/methods.md).
 
 1. O tipo de evento `MobileDataEvent.MOBILE_EVENT_ACQUISITION_INSTALL` ou `MobileDataEvent.MOBILE_EVENT_ACQUISITION_LAUNCH` será usado.
 
