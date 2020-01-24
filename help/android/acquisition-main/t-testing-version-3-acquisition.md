@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics
 title: Testar a Aquisição versão 3
 topic: Developer and implementation
 uuid: 5e38b43d-389e-4412-99e5-3e6223b6ad28
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 657e8b93d1516690ad21d6cf504f9c8f611747b6
 
 ---
@@ -25,13 +25,13 @@ Se o aplicativo móvel ainda não estiver no Google Play, ao criar o link de cam
 
 >[!IMPORTANT]
 >
->Se você estiver implementando usando as APIs de referência de instalação do Google Play, não será possível testar a aquisição antes que seu aplicativo esteja na Google Play store.
+>Se você estiver fazendo uma implementação usando as APIs do Referenciador de instalação do Google Play, não será possível testar a aquisição antes que seu aplicativo esteja na Google Play Store.
 
 O aplicativo deve estar recém-instalado ou ter os dados limpos em **[!UICONTROL Configurações]**sempre que um teste for executado. Isso garante que as medições de ciclo de vida inicial associadas aos parâmetros de cadeia de caracteres de consulta da campanha sejam enviadas quando o aplicativo é inicializado pela primeira vez.
 
 1. Conclua as tarefas de pré-requisito na [Aquisição de aplicativos móveis](/help/android/acquisition-main/acquisition.md) e certifique-se de que você implementou corretamente o receptor de transmissão para `INSTALL_REFERRER`.
 
-1. In the Adobe Mobile Services UI, click  **[!UICONTROL Acquisition]**>**[!UICONTROL  Marketing Links Builder]** and generate an Acquisition Marketing Link URL that sets Google Play as the destination for Android devices.
+1. Na interface do Adobe Mobile Services, clique em **[!UICONTROL Aquisição]**>**[!UICONTROL  Construtor de links de marketing]** e gere um URL de Aquisição de link de marketing que defina o Google Play como destino para dispositivos Android.
 
    Para obter mais informações, consulte [Criador de links de marketing](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md).
 
@@ -68,7 +68,7 @@ O aplicativo deve estar recém-instalado ou ter os dados limpos em **[!UICONTROL
 
    | Configuração | Valor |
    |--- |--- |
-   | aquisição | The server should be `c00.adobe.com`.   *`appid`*should equal the`appid`in your acquisition link. |
+   | aquisição | O servidor deve ser `c00.adobe.com`. *`appid`*deve ser igual ao`appid`no link de aquisição. |
    | analytics | Para fins de teste, defina o limite de tempo do referencial para permitir que o tempo adequado (60 segundos ou mais) envie a difusão automaticamente. É possível restaurar a configuração original de limite de tempo após testar. |
 
 1. Conecte o dispositivo a um computador, desinstale e instale o aplicativo novamente.
