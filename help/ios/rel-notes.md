@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: Notas de versão
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c7a0fde8b981ae5cfb0f54131d8ae59a008825b3
 
 ---
@@ -18,7 +18,7 @@ Veja a seguir as notas de versão, os problemas conhecidos e as informações de
 
 **4 de fevereiro de 2020: Versão 4.19.0**
 
-* Ciclo de vida - Adicionada uma nova API, pauseCollectingLifecycleData, para atenuar os dados de duração anormais da sessão reportados em alguns dispositivos iOS antigos.
+* Ciclo de vida - adição de uma nova API, pauseCollectingLifecycleData, para atenuar os dados de duração anormais da sessão reportados em alguns dispositivos iOS antigos.
 
 **8 de novembro de 2019: Versão 4.18.9**
 
@@ -60,4 +60,4 @@ Veja a seguir as notas de versão, os problemas conhecidos e as informações de
 
 * Serviço de ID do visitante - A chamada da API `setPushIdentifier` agora envia uma chamada de sincronização para o Serviço de ID do visitante sempre que é chamada.
 
-Para obter mais informações sobre as notas de versão atuais e anteriores para todas as soluções, consulte [Notas de versão da Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
+Para obter mais informações sobre as notas de versão atuais e anteriores para todas as soluções, consulte [Notas de versão da Adobe Experience Cloud](https://marketing.adobe.com/resources/help/pt_BR/whatsnew/).
