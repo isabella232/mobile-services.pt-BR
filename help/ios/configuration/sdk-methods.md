@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: Métodos de configuração
 topic: Developer and implementation
 uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ea4b054fbeea3967c28ee938aed5997a4c287a0d
 
 ---
@@ -272,13 +272,13 @@ O valor padrão está definido no arquivo `ADBMobileConfig.json`.
 
 * **pauseCollectingLifecycleData**
 
-   Use essa API para pausar a coleta de dados do ciclo de vida. Para obter mais informações, consulte [Medições de ciclo de vida](/help/ios/metrics.md).
+   Use esta API para pausar a coleta de dados do ciclo de vida. Para obter mais informações, consulte [Medições de ciclo de vida](/help/ios/metrics.md).
 
    >[!IMPORTANT]
    >
-   >No método `applicationDidEnterBackground` delegate, você deve primeiro chamar o `pauseCollectingLifecycleData` método.
+   >No método delegado do `applicationDidEnterBackground`, você deve chamar primeiro o método `pauseCollectingLifecycleData`.
    >
-   >A API é fornecida para atenuar o problema no iPhone 7/7s ou dispositivos mais antigos com o iOS 13, onde a métrica de duração da sessão se tornou anormal. Isso se deve a algumas alterações desconhecidas que ocorreram no iOS 13, onde o iOS não deixa tempo suficiente para que a tarefa em segundo plano seja concluída quando você cria o aplicativo em segundo plano.
+   >A API é fornecida para atenuar o problema no iPhone 7/7s ou em dispositivos mais antigos com o iOS 13, em que a métrica de duração da sessão ficou anormal. Isso se deve a algumas alterações desconhecidas que ocorreram no iOS 13, onde o iOS não deixa tempo suficiente para que a tarefa em segundo plano seja concluída quando você cria o aplicativo em segundo plano.
 
    * Esta é a sintaxe para este método:
 
