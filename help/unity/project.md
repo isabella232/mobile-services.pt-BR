@@ -3,11 +3,11 @@ description: 'null'
 keywords: Unity
 seo-description: 'null'
 seo-title: Construção do projeto
-solution: Marketing Cloud,Desenvolvedor
-title: Building your project
+solution: Marketing Cloud,Developer
+title: Construção do projeto
 uuid: 5550a394-6f3f-4b87-b840-89621d8a0c1e
 translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 ---
 
@@ -25,7 +25,7 @@ Ao construir para iOS, um Projeto Xcode é criado. Por padrão, os arquivos `ADB
 1. In the **[!UICONTROL Build Phases]** tab of your project, add a link to the following libraries:
 
    * `SystemConfiguration.framework`
-(This library might be linked already.)
+(Essa biblioteca já pode estar vinculada.)
 
    * `libsqlite3.0.dylib`
 
@@ -45,7 +45,7 @@ Adicionar permissões para:
 * `ACCESS_NETWORK_STATE`
 
 ```java
-<uses-permission android:name="android.permission.INTERNET" /> 
+<uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 ```
 
@@ -53,16 +53,6 @@ Se você estiver usando mensagens no aplicativo, adicione a seguinte atividade e
 
 ```java
 <activity android:name="com.adobe.mobile.MessageFullScreenActivity"  
-android:theme="@android:style/Theme.Translucent.NoTitleBar" /> 
-<receiver android:name="com.adobe.mobile.MessageNotificationHandler" /> 
-```
-
-If you are using acquisition, add the following receiver:
-
-```java
-<receiver android:name="com.your.package.name.GPBroadcastReceiver" android:exported="true"> 
-   <intent-filter> 
-      <action android:name="com.android.vending.INSTALL_REFERRER" /> 
-   </intent-filter> 
-</receiver>
+android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+<receiver android:name="com.adobe.mobile.MessageNotificationHandler" />
 ```
