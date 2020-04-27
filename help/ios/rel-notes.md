@@ -1,13 +1,13 @@
 ---
-description: Notas de versão e problemas conhecidos dos SDKs do iOS 4.x para as Soluções da Experience Cloud.
-seo-description: Notas de versão e problemas conhecidos dos SDKs do iOS 4.x para as Soluções da Experience Cloud.
+description: Notas de versão e problemas conhecidos do iOS SDKs 4.x para Soluções da Experience Cloud.
+seo-description: Notas de versão e problemas conhecidos do iOS SDKs 4.x para Soluções da Experience Cloud.
 seo-title: Notas de versão
 solution: Marketing Cloud,Analytics
 title: Notas de versão
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: ht
-source-git-commit: b608516b0103db3ae0eed1deaa4fb9733a98f7fa
+translation-type: tm+mt
+source-git-commit: c9ee89ef5039c52ebab41a9495f1794c08a415ba
 
 ---
 
@@ -15,6 +15,15 @@ source-git-commit: b608516b0103db3ae0eed1deaa4fb9733a98f7fa
 # Notas de versão {#release-notes}
 
 Veja a seguir as notas de versão, os problemas conhecidos e as informações de hot fix dos iOS SDKs 4.x para Soluções da Experience Cloud:
+
+**24 de março de 2020: Versão 4.19.2**
+
+* Geral - Corrigidos alguns vazamentos no código do Público alvo.
+
+**12 de março de 2020: Versão 4.19.1**
+
+* Geral - Solução de uma falha potencial causada quando os enumeradores Swift são incluídos nos dados de contexto para chamadas de rastreamento.
+* Público alvo - A ID da sessão do Público alvo agora será adicionada como um parâmetro de dados de contexto &quot;a.público alvo.sessionId&quot; no Analytics interno para ocorrência de Público alvo enviada para o Adobe Analytics.
 
 **4 de fevereiro de 2020: Versão 4.19.0**
 
