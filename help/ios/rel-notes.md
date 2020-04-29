@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: Notas de versão
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9ee89ef5039c52ebab41a9495f1794c08a415ba
 
 ---
@@ -18,12 +18,12 @@ Veja a seguir as notas de versão, os problemas conhecidos e as informações de
 
 **24 de março de 2020: Versão 4.19.2**
 
-* Geral - Corrigidos alguns vazamentos no código do Público alvo.
+* Geral - Correção de alguns vazamentos no código do Target.
 
 **12 de março de 2020: Versão 4.19.1**
 
-* Geral - Solução de uma falha potencial causada quando os enumeradores Swift são incluídos nos dados de contexto para chamadas de rastreamento.
-* Público alvo - A ID da sessão do Público alvo agora será adicionada como um parâmetro de dados de contexto &quot;a.público alvo.sessionId&quot; no Analytics interno para ocorrência de Público alvo enviada para o Adobe Analytics.
+* Geral - Resolução de uma possível falha quando as enumerações Swift são incluídas nos dados de contexto para chamadas de rastreamento.
+* Target - Agora a ID de sessão do target será adicionada como parâmetro de dados de contexto &quot;a.target.sessionId&quot; na ocorrência interna do Analytics para Target enviada para o Adobe Analytics.
 
 **4 de fevereiro de 2020: Versão 4.19.0**
 
