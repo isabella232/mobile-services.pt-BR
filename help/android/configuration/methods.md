@@ -1,14 +1,14 @@
 ---
 description: Esta é uma lista de métodos do fornecida pela biblioteca do Android.
-keywords: android;biblioteca;móvel;sdk
+keywords: android;library;mobile;sdk
 seo-description: Esta é uma lista de métodos do fornecida pela biblioteca do Android.
 seo-title: Métodos de configuração
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Métodos de configuração
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 663aeb6c-1b97-4a3a-8c0e-dd4c2ec28c01
-translation-type: ht
-source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
+translation-type: tm+mt
+source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
 
 ---
 
@@ -31,14 +31,13 @@ Esta é a amostra de código para este método:
       setContentView(R.layout.main);
       Config.setContext(this.getApplicationContext());
     }
-   ````
-
+   ```
 
 ## Configurações do SDK (Classe de configuração) {#section_C1EB977043C04D2B93E5A63DB72828B6}
 
 * **registerAdobeDataCallback**
 
-   * Registra um objeto que implementa a interface do `AdobeDataCallback`. O método "call" substituído será chamado com um valor `Config.MobileDataEvent` e os dados referentes em uma `Map<String, Object>` para o evento de acionamento. Para obter mais detalhes sobre quais eventos acionarão esse retorno de chamada, consulte *MobileDataEventEnum* no final deste tópico.
+   * Registra um objeto que implementa a interface do `AdobeDataCallback`. O método &quot;call&quot; substituído será chamado com um valor `Config.MobileDataEvent` e os dados referentes em uma `Map<String, Object>` para o evento de acionamento. Para obter mais detalhes sobre quais eventos acionarão esse retorno de chamada, consulte *MobileDataEventEnum* no final deste tópico.
 
       >[!TIP]
       >
@@ -84,7 +83,7 @@ Esta é a amostra de código para este método:
 
    * Retorna a representação de enumeração do status de privacidade do usuário atual.
 
-      Estes são os valores do status de privacidade:
+      Estes são os valores de status de privacidade:
 
       * `MOBILE_PRIVACY_STATUS_OPT_IN`, em que as ocorrências são enviadas imediatamente.
       * `MOBILE_PRIVACY_STATUS_OPT_OUT`, em que as ocorrências são descartadas.
@@ -274,7 +273,7 @@ Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências 
 
 * **setSmallIconResourceId(int resourceId)**
 
-   * (**Versão 4.2 ou superior**) Define o ícone pequeno que será usado nas notificações criadas pelo SDK. Este ícone aparecerá na barra de status e será a imagem secundária exibida quando o usuário visualizar a notificação completa na central de notificações.
+   * (**Versão 4.2 ou posterior**) Define o ícone pequeno que será usado para notificações criadas pelo SDK. Esse ícone aparecerá na barra de status e será a imagem secundária exibida quando o usuário visualizar a notificação completa na central de notificações.
    * Esta é a sintaxe para este método:
 
       ```java
@@ -289,7 +288,7 @@ Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências 
 
 * **setLargeIconResourceId(int resourceId)**
 
-   * (**Versão 4.2 ou superior**) Define o ícone grande que será usado nas notificações criadas pelo SDK. Este ícone será a principal imagem exibida quando o usuário visualizar a notificação completa na central de notificações.
+   * (**Versão 4.2 ou posterior**) Define o ícone grande que será usado para notificações criadas pelo SDK. Este ícone será a principal imagem exibida quando o usuário visualizar a notificação completa na central de notificações.
    * Esta é a sintaxe para este método:
 
       ```java
@@ -304,7 +303,7 @@ Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências 
 
 * **overrideConfigStream(InputStream configInput)**
 
-   * (**Versão 4.2 ou superior**) Permite carregar um arquivo de configuração ADBMobile JSON diferente quando o aplicativo é iniciado. A configuração diferente é utilizada até o aplicativo ser fechado.
+   * (**Versão 4.2 ou posterior**) Permite carregar um arquivo de configuração ADBMobile JSON diferente quando o aplicativo é start. A configuração diferente é utilizada até o aplicativo ser fechado.
    * Esta é a sintaxe para este método:
 
       ```java
