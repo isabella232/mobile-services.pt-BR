@@ -2,12 +2,12 @@
 description: Esta é uma lista de métodos do Adobe Analytics fornecidos pela biblioteca do iOS.
 seo-description: Esta é uma lista de métodos do Adobe Analytics fornecidos pela biblioteca do iOS.
 seo-title: Métodos do Analytics
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Métodos do Analytics
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: d49fe6de-cb32-4b96-9891-c567310e59a6
-translation-type: ht
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+translation-type: tm+mt
+source-git-commit: 82c8e82ce5ce333c2482252e96f928829d322e7e
 
 ---
 
@@ -40,7 +40,7 @@ Cada um desses métodos é usado para enviar dados para seu conjunto de relatór
       ```objective-c
       [ADBMobile  trackState:@"loginScreen"
                         data:nil]; 
-      ````
+      ```
 
 * **trackAction:&#x200B;data:**
 
