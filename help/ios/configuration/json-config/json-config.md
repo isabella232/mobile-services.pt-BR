@@ -1,13 +1,13 @@
 ---
-description: Esta informação ajuda a usar o arquivo de configuração ADBMobile.json.
-seo-description: Esta informação ajuda a usar o arquivo de configuração ADBMobile.json.
+description: Estas informações ajudam a usar o arquivo de configuração ADBMobile.json.
+seo-description: Estas informações ajudam a usar o arquivo de configuração ADBMobile.json.
 seo-title: Configuração JSON do ADBMobile
 solution: Marketing Cloud,Analytics
 title: Configuração JSON do ADBMobile
 topic: Developer and implementation
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
-translation-type: ht
-source-git-commit: bb7fc1c1fc6e88549a1673baedae19f808d222f0
+translation-type: tm+mt
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
@@ -28,7 +28,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
 
    Ativa a aquisição de aplicativos móveis.
 
-   Se esta seção estiver faltando, habilite a aquisição do aplicativo móvel e baixe o arquivo de configuração do SDK novamente. Para obter mais informações, consulte *referrerTimeout* abaixo.
+   Se esta seção estiver faltando, habilite a aquisição do aplicativo móvel e baixe o arquivo de configuração do SDK novamente. For more information, see *referrerTimeout* below.
 
    * `server` - Servidor de aquisição que está marcado na primeira inicialização para um referenciador de aquisição.
    * `appid` - ID gerada que identifica de forma exclusiva este aplicativo no servidor de aquisição.
@@ -44,15 +44,15 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
 
    Ativa/desativa a capacidade do Adobe SDK de colocar data retroativa em ocorrências de informações de sessão.
 
-   Ocorrências de informações de sessão, no momento, consistem-se em falhas e duração de sessões e podem ser habilitadas ou desabilitadas.
+   As ocorrências de informações da sessão consistem em falhas e duração da sessão e podem ser ativadas ou desativadas.
 
    * Se você definir o valor como `false`, as ocorrências são **desabilitadas**.
 
-      O SDK retorna ao comportamento pré-4.1 de agrupar as informações de sessão referentes à sessão anterior com a primeira ocorrência da sessão subsequente. O Adobe SDK também anexa as informações da sessão ao ciclo de vida atual, o que impede a criação de uma visita inflada. Como visitas infladas não são mais criadas, ocorre uma queda imediata em contagens de visitas.
+      O SDK retorna ao comportamento anterior ao 4.1 de agregar as informações da sessão anterior com a primeira ocorrência da sessão subsequente. O Adobe SDK também anexa as informações da sessão ao ciclo de vida atual, evitando a criação de uma visita inflada. Como as visitas infladas não são mais criadas, ocorre uma queda imediata na contagem de visitas.
 
    * Se você não fornecer um valor, o valor padrão é `true` e as ocorrências são **habilitadas**.
 
-      Quando as ocorrências são ativadas, o Adobe SDK define a ocorrência de informações de sessão para 1 segundo depois da ocorrência final na sessão anterior. Isso significa que os dados de falhas e da sessão estarão relacionados à data exata em que ocorreram. Como efeito secundário, o SDK pode criar uma visita para a ocorrência retroativa. Uma ocorrência recebe data retroativa em cada nova inicialização do aplicativo.
+      Quando as ocorrências são ativadas, o Adobe SDK atualiza a ocorrência de informações da sessão para 1 segundo após a ocorrência final na sessão anterior. Isso significa que os dados de falha e sessão estarão correlacionados com a data correta em que ocorreram. Um efeito colateral é que o SDK pode criar uma visita para a ocorrência retroativa. Uma ocorrência recebe data retroativa em cada nova inicialização do aplicativo.
 
    * Versão mínima do SDK: 4.6
    >[!IMPORTANT]
@@ -70,7 +70,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
 
 * **charset**
 
-   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte [s.charSet](https://marketing.adobe.com/resources/help/pt_BR/sc/implement/charset.html).
+   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte [s.charSet](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/charset.html).
 
    * Versão mínima do SDK: 4.0
 
@@ -111,13 +111,13 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
 
    O valor padrão é 300 segundos.
 
-   Especifica o período de tempo, em segundos, que deve decorrer entre o momento em que o aplicativo é iniciado e antes de a inicialização ser considerada uma nova sessão. Esse tempo de espera também se aplica quando seu aplicativo é enviado para segundo plano e reativado. O tempo que seu aplicativo gasta em segundo plano não está incluído na duração da sessão.
+   Especifica o tempo, em segundos, que deve decorrer entre o momento em que o aplicativo é iniciado, mas antes que a inicialização seja considerada uma nova sessão. Esse tempo limite também se aplica quando seu aplicativo é enviado para o plano de fundo e reativado. O tempo que seu aplicativo gasta em segundo plano não é incluído na duração da sessão.
 
    * Versão mínima do SDK: 4.0
 
 * **messages**
 
-   Gerada automaticamente pelo Adobe Mobile Services, define as configurações das mensagens no aplicativo. Para obter mais informações, consulte a seção *Descrição de mensagens* abaixo:
+   Gerado automaticamente pelo Adobe Mobile Services, define as configurações para as mensagens no aplicativo. Para obter mais informações, consulte a seção Descrição *de* mensagens abaixo.
 
    * Versão mínima do SDK: 4.2
 
@@ -165,7 +165,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
 
 * **postback**
 
-   A definição para o modelo de mensagem "callback" é mostrada abaixo:
+   A definição para o modelo de mensagem &quot;callback&quot; é mostrada abaixo:
 
    ```js
    "payload":{
@@ -187,13 +187,13 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
 
       Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in.
 
-      Esta ação apenas define o valor inicial. Se este valor estiver definido ou alterado no código, o novo valor é usado até que seja alterado novamente, ou quando o aplicativo é desinstalado e instalado novamente. O valor padrão é `optedin`.
+      Isso só define o valor inicial. Se este valor estiver definido ou alterado no código, o novo valor é usado até que seja alterado novamente, ou quando o aplicativo é desinstalado e instalado novamente. O valor padrão é `optedin`.
 
    * Versão mínima do SDK: 4.0
 
 * **referrerTimeout**
 
-   Número de segundos que o SDK aguarda para dados de referência de aquisição na primeira inicialização antes do tempo limite. Se você estiver usando a aquisição, recomendamos um tempo limite de 5 segundos.
+   Número de segundos que o SDK aguarda pelos dados da quem indicou de aquisição na inicialização inicial antes de expirar. Se você estiver usando a aquisição, recomendamos um tempo limite de 5 segundos.
 
    >[!IMPORTANT]
    >
@@ -213,7 +213,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
 
 * **rsids**
 
-   Um ou mais conjuntos de relatórios para receber dados do Analytics. Diversas IDs de conjunto de relatórios devem ser separadas por vírgulas, sem espaçamento entre as mesmas.
+   Um ou mais conjuntos de relatórios para receber dados do Analytics. Várias IDs de conjunto de relatórios devem ser separadas por vírgulas, sem espaços entre elas.
 
    ```js
    "rsids": "rsid"
@@ -251,7 +251,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
 
    Ativa (`true`) ou desativa (`false`) a capacidade de enviar dados de medição por SSL (HTTPS).
 
-   A definição para o modelo de mensagem "callback" é mostrada abaixo:
+   A definição para o modelo de mensagem &quot;callback&quot; é mostrada abaixo:
 
    ```js
    "payload":{
@@ -343,56 +343,56 @@ A seguir, há um exemplo de arquivo `ADBMobileConfig.json`:
 
 ## Descrição das mensagens {#section_B97D654BA92149CE91F525268D7AD71F}
 
-O nó de mensagens é gerado automaticamente pelo Adobe Mobile Services e, normalmente, a alteração não precisa ser manual. A descrição a seguir é fornecida para fins de solução de problemas:
+O nó de mensagens é gerado automaticamente pelo Adobe Mobile Services e geralmente não precisa ser alterado manualmente. A descrição a seguir é fornecida para fins de solução de problemas:
 
-* "messageId"
+* &quot;messageId&quot;
 
-   * ID gerada, obrigatória
+   * ID gerada, obrigatório
 
-* "template"
+* &quot;modelo&quot;
 
-   * "alert", "fullscreen" ou "local"
-   * obrigatório
+   * &quot;alert&quot;, &quot;tela cheia&quot; ou &quot;local&quot;
+   * required
 
-* "payload"
+* &quot;carga&quot;
 
-   * "html"
+   * &quot;html&quot;
 
-      * apenas o modelo de tela cheia, obrigatório
+      * apenas modelo de tela cheia, obrigatório
       * html definindo a mensagem
-   * "image"
+   * &quot;image&quot;
 
-      * somente tela cheia, opcional
+      * apenas tela cheia, opcional
       * url para a imagem a ser usada para uma imagem em tela cheia
-   * "altImage"
+   * &quot;altImage&quot;
 
-      * somente tela cheia, opcional
-      * nome da imagem empacotada a usar se o url especificado em
+      * apenas tela cheia, opcional
+      * nome da imagem agrupada a ser usada se o url especificado em
          `image` está inatingível
-   * "title"
+   * &quot;título&quot;
 
       * tela cheia e alerta, obrigatório
       * texto de título para uma tela cheia ou mensagem de alerta
-   * "content"
+   * &quot;conteúdo&quot;
 
       * alerta e notificação local, obrigatório
-      * sub-texto para uma mensagem de alerta ou texto de notificação para uma mensagem de notificação local
-   * "confirm"
+      * subtexto para uma mensagem de alerta ou texto de notificação para uma mensagem de notificação local
+   * &quot;confirm&quot;
 
       * alerta, opcional
       * texto usado no botão confirmar
-   * "cancel"
+   * &quot;cancel&quot;
 
       * alerta, obrigatório
-      * texto usado no botão cancelar
-   * "url"
+      * texto usado no botão Cancelar
+   * &quot;url&quot;
 
       * alerta, opcional
-      * ação do URL a carregar se o botão de confirmação for clicado
-   * "wait"
+      * ação de url a ser carregada se o botão confirmar for clicado
+   * &quot;wait&quot;
 
       * notificação local, obrigatória
-      * quantidade de tempo para aguardar (em segundos) para publicar a notificação local depois de combinar os critérios
+      * quantidade de tempo de espera (em segundos) para postar a notificação local depois de corresponder aos seus critérios
 
 
 
@@ -402,35 +402,35 @@ O nó de mensagens é gerado automaticamente pelo Adobe Mobile Services e, norma
 
 
 
-* "showOffline"
+* &quot;showOffline&quot;
 
    * true ou false
    * o padrão é false
 
-* "showRule"
+* &quot;showRule&quot;
 
-   * "always", "once", ou "untilClick"
-   * obrigatório
+   * &quot;always&quot;, &quot;once&quot; ou &quot;untilClick&quot;
+   * required
 
-* "endDate"
+* &quot;endDate&quot;
 
-   * número de segundos desde 1º de janeiro de 1970
+   * número de segundos desde 1° de janeiro de 1970
    * o padrão é 2524730400
 
-* "startDate"
+* &quot;startDate&quot;
 
-   * número de segundos desde 1º de janeiro de 1970
+   * número de segundos desde 1° de janeiro de 1970
    * o padrão é 0
 
-* "audiences"
+* &quot;audiences&quot;
 
    Uma matriz de objetos que define como a mensagem deve ser mostrada:
 
-   * "key"
+   * &quot;key&quot;
 
       Nome da variável a ser procurada na ocorrência, e é obrigatório.
 
-   * "matches"
+   * &quot;matches&quot;
 
       Tipo de correspondência usado ao fazer a comparação:
 
@@ -438,15 +438,15 @@ O nó de mensagens é gerado automaticamente pelo Adobe Mobile Services e, norma
       * ne = não é igual
       * co = contém
       * nc = não contém
-      * sw = inicia com
+      * sw = start com
       * ew = termina com
       * ex = existe
       * nx = não existe
-      * It = menor que
+      * lt = menor que
       * le = menor que ou igual
       * gt = maior que
       * ge = maior que ou igual
-   * "values"
+   * &quot;values&quot;
 
       Uma matriz de valores usada para corresponder com o valor da variável nomeada no seguinte:
 
@@ -455,10 +455,10 @@ O nó de mensagens é gerado automaticamente pelo Adobe Mobile Services e, norma
       * matches
 
 
-* "triggers"
+* &quot;triggers&quot;
 
    O mesmo que audiences, mas aqui são as ações em vez do público-alvo:
 
-   * "key"
-   * "matches"
-   * "values"
+   * &quot;key&quot;
+   * &quot;matches&quot;
+   * &quot;values&quot;
