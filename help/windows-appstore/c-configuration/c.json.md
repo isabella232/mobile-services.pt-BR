@@ -1,28 +1,28 @@
 ---
-description: Informações para ajudá-lo a usar o arquivo de configurações JSON do ADBMobile.
-seo-description: Informações para ajudá-lo a usar o arquivo de configurações JSON do ADBMobile.
-seo-title: ADBMobileConfig.json config file
+description: Informações para ajudá-lo a usar o arquivo de configuração JSON do ADBMobile.
+seo-description: Informações para ajudá-lo a usar o arquivo de configuração JSON do ADBMobile.
+seo-title: Arquivo de configuração ADBMobileConfig.json
 solution: Marketing Cloud,Analytics
-title: ADBMobileConfig.json config file
-topic: Desenvolvedor e implementação
+title: Arquivo de configuração ADBMobileConfig.json
+topic: Developer and implementation
 uuid: a45b91cc-982e-4d6c-a4e4-d2e4b4fa7556
 translation-type: tm+mt
-source-git-commit: 1dbdb998228bd3b0ae41e774b6e9aa111d8dbe1c
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
 
-# `ADBMobileConfig.json` config file {#adbmobileconfig-json-config}
+# `ADBMobileConfig.json` arquivo de configuração {#adbmobileconfig-json-config}
 
-Information to help you use the `ADBMobile.json` config file.
+Informações para ajudá-lo a usar o arquivo de `ADBMobile.json` configuração.
 
-O SDK atualmente é compatível com diversas Soluções da Adobe Experience Cloud, incluindo Analytics, Target e Audience Manager. Os métodos apresentam prefixos de acordo com a solução. Métodos de configuração recebem o prefixo “Config”.
+Atualmente, o SDK oferece suporte para várias Soluções da Adobe Experience Cloud, incluindo Analytics, Público alvo e Audiência Manager. Os métodos apresentam prefixos de acordo com a solução. Métodos de configuração recebem o prefixo &quot;Config&quot;.
 
 * **rsids**
 
-   (Exigido pelo Analytics) Um ou mais conjuntos de relatórios que receberão dados do Analytics. Diversas IDs de conjunto de relatórios devem ser separadas por vírgulas, sem espaçamento entre as mesmas.
+   (Exigido pelo Analytics) Um ou mais conjuntos de relatórios para receber dados do Analytics. Várias IDs de conjunto de relatórios devem ser separadas por vírgulas, sem espaços entre elas.
 
-   * Here are the code samples for this variable:
+   * Estas são as amostras de código para esta variável:
 
       ```js
       "rsids" : "rsid"
@@ -34,45 +34,45 @@ O SDK atualmente é compatível com diversas Soluções da Adobe Experience Clou
 
 * **server**
 
-   (Exigido pelo Analytics e pelo Gerenciamento de público-alvo). O servidor do Analytics ou do Gerenciamento de público-alvo, com base no nó principal. This variable should be populated with the server domain, without an `https://` or `https://` protocol prefix. O prefixo de protocolo é manipulado automaticamente pela biblioteca com base na variável `ssl`.
+   (Exigido pelo Analytics e Gerenciamento de Audiências). Servidor do Analytics ou Gerenciamento de Audiências, com base no nó pai. Essa variável deve ser preenchida com o domínio do servidor, sem um prefixo de protocolo `https://` ou `https://`. O prefixo do protocolo é manipulado automaticamente pela biblioteca com base na `ssl` variável.
 
    Se `ssl` for `true`, é realizada uma conexão segura com o servidor. Se `ssl` for `false`, é realizada uma conexão insegura com o servidor.
 
 * **charset**
 
-   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. For more information, see s.charSet.[](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html)
+   Define o conjunto de caracteres que você está usando para os dados enviados ao Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte [s.charSet](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/charset.html).
 
 * **ssl**
 
-   Enables (`true`) or disables (`false`) sending measurement data via SSL (HTTPS). O valor padrão é `false`.
+   Ativa (`true`) ou desativa (`false`) o envio de dados de medição via SSL (HTTPS). O valor padrão é `false`.
 
 * **offlineEnabled**
 
-   Quando habilitado (true), as ocorrências são enfileiradas enquanto o dispositivo estiver offline e enviadas posteriormente, quando o dispositivo estiver online. Seu conjunto de relatórios deve ter o carimbo de data e hora habilitado para usar o rastreamento offline.
+   Quando ativado (true), as ocorrências são enfileiradas enquanto o dispositivo está offline e enviadas posteriormente quando o dispositivo está online. Seu conjunto de relatórios deve ter o carimbo de data e hora habilitado para usar o rastreamento offline.
 
    >[!IMPORTANT]
    >
-   >IIf time stamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be true. Caso o conjunto de relatórios não tenha um carimbo de data e hora, sua propriedade de configuração `offlineEnabled` *deve* ser false. Se isso não for configurado corretamente, os dados serão perdidos. Se você não tem certeza se um conjunto de relatórios tem um carimbo de data e hora, entre em contato com Atendimento ao cliente. Caso esteja relatando dados AppMeasurement para um conjunto de relatórios que também coleta dados JavaScript, pode ser necessário configurar um conjunto de relatórios separado para dados de dispositivos móveis, ou incluir um carimbo de data e hora personalizado nas ocorrências de JavaScript que usam a variável `s.timestamp`.
+   >IIf time stamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be true. Caso o conjunto de relatórios não tenha um carimbo de data e hora, sua propriedade de configuração `offlineEnabled` *deve* ser false. Se isso não for configurado corretamente, os dados serão perdidos. Se você não tem certeza se um conjunto de relatórios tem um carimbo de data e hora, entre em contato com o Atendimento ao cliente. If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data, or include a custom timestamp on all JavaScript hits using the `s.timestamp` variable.
 
 * **lifecycleTimeout**
 
-   Especifica a duração, em segundos, entre as inicializações do aplicativo antes que a inicialização seja considerada uma nova sessão. Esse tempo de espera também se aplica quando seu aplicativo é enviado para segundo plano e reativado. O tempo que seu aplicativo gasta em segundo plano não está incluído na duração da sessão. O valor padrão é 300 segundos.
+   Especifica a duração, em segundos, entre as inicializações do aplicativo antes que a inicialização seja considerada uma nova sessão. Esse tempo limite também se aplica quando seu aplicativo é enviado para o plano de fundo e reativado. O tempo que seu aplicativo gasta em segundo plano não é incluído na duração da sessão. O valor padrão é de 300 segundos.
 
 * **batchLimit**
 
-   Envia as ocorrências em lotes. Por exemplo, se definido como 50, as ocorrências são enfileiradas até que 50 estejam armazenadas, depois todas as ocorrências armazenadas são enviadas. Exige `offlineEnabled=true`. O valor padrão é `0` (Sem agrupamento).
+   Envie ocorrências em lotes. Por exemplo, se definido como 50, as ocorrências são enfileiradas até que 50 sejam armazenadas e todas as ocorrências em fila são enviadas. Exige `offlineEnabled=true`. O valor padrão é `0` (Sem agrupamento).
 
 * **privacyDefault**
 
    * `optedin` - as ocorrências são enviadas imediatamente.
    * `optedout` - as ocorrências serão descartadas.
-   * `optunknown` - Se o conjunto de relatórios estiver habilitado para mostrar o carimbo de data e hora, as ocorrências serão salvas até o status de privacidade ser alterado para opt-in (as ocorrências são enviadas) ou opt-out (as ocorrências são descartadas). Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in.
+   * `optunknown` - Se o conjunto de relatórios tiver um carimbo de data e hora, as ocorrências serão salvas até o status de privacidade ser alterado para aceitar (as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas). Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in.
 
       O valor padrão é `optedin`.
 
       >[!TIP]
       >
-      >Isso define somente o valor padrão. Se este valor for definido ou alterado no código, então o valor definido pelo código é salvo no armazenamento local e é usado dali em diante até que seja alterado ou o aplicativo seja desinstalado e depois reinstalado.
+      >Isso define somente o valor padrão. Se esse valor for definido ou alterado no código, o valor definido pelo código será salvo no armazenamento local e será usado para frente até que seja alterado ou o aplicativo seja desinstalado e reinstalado.
 
 * **poi**
 
@@ -89,13 +89,13 @@ O SDK atualmente é compatível com diversas Soluções da Adobe Experience Clou
 
 * **clientCode**
 
-   (**Required by Target**) Your assigned client code.
+   (**Exigido pelo Público alvo**) Seu código de cliente atribuído.
 
 * **timeout**
 
    Determina quanto tempo o Target aguarda uma resposta.
 
-A seguir, um exemplo de um arquivo `ADBMobileConfig.json`:
+The following is an example of an `ADBMobileConfig.json` file:
 
 ```js
 { 
