@@ -2,12 +2,12 @@
 description: O Adobe Experience Platform Identity Service fornece uma ID de visitante universal em todas as soluções da Experience Cloud. O serviço de ID é exigido pelo Analytics para Target, heartbeat de vídeo e por futuras integrações da Experience Cloud.
 seo-description: O Adobe Experience Platform Identity Service fornece uma ID de visitante universal em todas as soluções da Experience Cloud. O serviço de ID é exigido pelo Analytics para Target, heartbeat de vídeo e por futuras integrações da Experience Cloud.
 seo-title: Experience Cloud ID
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Experience Cloud ID
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 13628ea8-3cd4-4cfc-8ff6-722c33f7813a
-translation-type: ht
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+translation-type: tm+mt
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
@@ -18,7 +18,7 @@ O Adobe Experience Platform Identity Service fornece uma ID de visitante univers
 
 >[!TIP]
 >
->Não é necessário preencher a Experience Cloud ID, a menos que você esteja usando o serviço de identidade da Adobe Experience Platform. Para obter mais informações, consulte [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/pt_BR/mcvid/).
+>Não é necessário preencher a Experience Cloud ID, a menos que você esteja usando o serviço de identidade da Adobe Experience Platform. Para obter mais informações, consulte [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html).
 
 **Exige o SDK versão 4.3 ou posterior**
 
