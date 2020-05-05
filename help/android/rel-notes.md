@@ -1,13 +1,13 @@
 ---
-description: Notas de versão e problemas conhecidos do Android SDK 4.x para as Soluções da Experience Cloud.
-seo-description: Notas de versão e problemas conhecidos do Android SDK 4.x para as Soluções da Experience Cloud.
+description: Notas de versão e problemas conhecidos do Android SDK 4.x para Soluções da Experience Cloud.
+seo-description: Notas de versão e problemas conhecidos do Android SDK 4.x para Soluções da Experience Cloud.
 seo-title: Notas de versão
 solution: Marketing Cloud,Analytics
 title: Notas de versão
 topic: Developer and implementation
 uuid: 16bb4de8-a216-47a8-928c-0b1e1421adcf
-translation-type: ht
-source-git-commit: 712a1107b317f02216e4df8d75fddda67a6f1feb
+translation-type: tm+mt
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
@@ -47,4 +47,4 @@ Estas são as notas de versão, problemas conhecidos e informações de hot fix 
 * Serviço de ID de visitante - Aumento da conexão e do tempo limite de leitura de 2 segundos para 5 segundos.
 
 
-Para obter mais informações sobre as notas de versão atuais e anteriores para todas as soluções, consulte [Notas de versão da Adobe Experience Cloud](https://marketing.adobe.com/resources/help/pt_BR/whatsnew/).
+Para obter mais informações sobre as notas de versão atuais e anteriores para todas as soluções, consulte [Notas de versão da Adobe Experience Cloud](hhttps://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
