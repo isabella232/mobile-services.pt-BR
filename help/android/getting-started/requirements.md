@@ -6,8 +6,8 @@ solution: Marketing Cloud,Analytics
 title: Antes de começar
 topic: Developer and implementation
 uuid: 0ca9e937-8d40-4570-9dbf-9aecc6ecedf6
-translation-type: ht
-source-git-commit: 0720b2004097eb288bd8f59723eeb09a79dd81e7
+translation-type: tm+mt
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
@@ -24,10 +24,10 @@ Os administradores do Analytics e desenvolvedores de aplicativos devem realizar 
 
 Para configurar um conjunto de relatórios e coletar dados do aplicativo móvel:
 
-1. Conclua uma das seções em [Fazer logon na interface do usuário do Adobe Mobile Services](../getting-started/requirements.md#section_690A2EC4572E47869F183974E932A6A8).
+1. Conclua uma das seções em Fazer [logon na interface do usuário](../getting-started/requirements.md#section_690A2EC4572E47869F183974E932A6A8)do Adobe Mobile Services.
 1. Crie uma conta do Analytics para cada desenvolvedor de aplicativos.
 
-Os desenvolvedores de aplicativos agora têm acesso para visualizar o(s) conjunto(s) de relatórios criados por você.
+Os desenvolvedores de aplicativos agora têm acesso à visualização dos conjuntos de relatórios criados.
 
 >[!IMPORTANT]
 >
@@ -43,13 +43,13 @@ Para obter mais informações sobre funções e permissões, consulte [Funções
 
 ## Fazer logon na interface do usuário do Adobe Mobile Services {#section_690A2EC4572E47869F183974E932A6A8}
 
-O Adobe Mobile Services é a principal interface de relatórios para análise e segmentação de aplicativos móveis. Após concluir estas etapas, é possível baixar um arquivo de configuração pré-configurado com seu servidor de coleta de dados, conjunto de relatórios e muitas outras configurações.
+O Adobe Mobile Services é a principal interface de relatórios para análise e direcionamento de aplicativos móveis. Após concluir essas etapas, é possível baixar um arquivo de configuração pré-configurado com seu servidor de coleta de dados, conjunto de relatórios e muitas outras configurações.
 
-É possível fazer logon na interface do usuário do Adobe Mobile Services por meio de uma das maneiras a seguir:
+Você pode fazer logon na interface do usuário do Adobe Mobile Services de uma das seguintes maneiras:
 
 ### Experience Cloud
 
-Faça logon na [Experience Cloud](https://marketing.adobe.com) com sua Adobe ID. Esse método entende que sua empresa foi provisionada na Experience Cloud e que você vinculou sua conta do Analytics. Para obter mais informações, consulte [Gerenciar usuários e produtos da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Faça logon na [Experience Cloud](https://experiencecloud.adobe.com) com sua Adobe ID. Esse método entende que sua empresa foi provisionada na Experience Cloud e que você vinculou sua conta do Analytics. Para obter mais informações, consulte [Gerenciar usuários e produtos da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 >[!TIP]
 >
@@ -66,15 +66,15 @@ Para criar um conjunto de relatórios para coletar dados do aplicativo e definir
 1. Para fazer logon na interface do usuário do Mobile Services, digite [https://mobilemarketing.adobe.com/](https://mobilemarketing.adobe.com/) em um navegador.
 1. Clique em **[!UICONTROL Criar um aplicativo]**.
 
-   Se não vir este botão, clique em **[!UICONTROL Gerenciar aplicativos]** > **[!UICONTROL  Adicionar]**.
+   Se não vir este botão, clique em **[!UICONTROL Gerenciar aplicativos]** > **[!UICONTROL Adicionar]**.
 
-1. No menu suspenso **[!UICONTROL Conjunto de relatórios]**, selecione **[!UICONTROL  Novo conjunto de relatórios]**.
+1. No menu suspenso **[!UICONTROL Conjunto de relatórios]**, selecione **[!UICONTROL Novo conjunto de relatórios]**.
 
 1. Digite o nome do aplicativo e selecione um tipo de conjunto de relatórios.
 
    Um exemplo de uma ID de conjunto de relatórios é `mycomobileappdev`. É necessário definir conjuntos de relatórios e aplicativos separados das versões de desenvolvimento e produção, de forma que possa repetir essas etapas quando estiver pronto para configurar a versão de produção.
 1. Em **[!UICONTROL ID de conjunto de relatórios]**, verifique se o nome do seu conjunto de relatórios é exibido.
-1. Em **[!UICONTROL Copiar configurações de]**, verifique se **[!UICONTROL  Modelo de aplicativo móvel]** está selecionado.
+1. Em **[!UICONTROL Copiar configurações de]**, verifique se **[!UICONTROL Modelo de aplicativo móvel]** está selecionado.
 
    Este modelo permite que os carimbos de data e hora coletem dados offline e ativem as variáveis da solução móvel para capturar medições de ciclo de vida.
 
@@ -96,7 +96,7 @@ Você também pode selecionar seu aplicativo no painel direito.
 
    >[!IMPORTANT]
    >
-   >Se não vir a opção **[!UICONTROL Gerenciar configurações do aplicativo]**, verifique se você está conectado ao Adobe Mobile Services. Para verificar, clique no ícone do ![alternador de soluções](assets/solution-switcher.png) no lado superior direito da página e verifique se o **[!UICONTROL  Adobe Mobile Services]** é exibido no lado superior esquerdo.
+   >Se não vir a opção **[!UICONTROL Gerenciar configurações do aplicativo]**, verifique se você está conectado ao Adobe Mobile Services. Para verificar, clique no ícone do ![alternador de soluções](assets/solution-switcher.png) no lado superior direito da página e verifique se o **[!UICONTROL Adobe Mobile Services]** é exibido no lado superior esquerdo.
 
 1. Na parte inferior da página Gerenciar configurações do aplicativo, na seção **[!UICONTROL Downloads do SDK do aplicativo]**, baixe o SDK e o aplicativo de amostra para sua plataforma.
 
@@ -112,5 +112,5 @@ compile 'com.adobe.mobile:adobeMobileLibrary:4.13.7'
 
 Lembre-se das seguintes informações:
 
-* Substitua o número da versão na amostra de código pela versão apropriada dos Android SDKs.
-* Baixe o arquivo de configuração e inclua-o em seu projeto.
+* Substitua o número da versão na amostra de código pela versão apropriada dos SDKs do Android.
+* Baixe o arquivo de configuração e inclua-o no seu projeto.
