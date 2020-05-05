@@ -1,26 +1,26 @@
 ---
-description: Informações para ajudá-lo a usar o arquivo de configurações JSON do ADBMobile.
-seo-description: Informações para ajudá-lo a usar o arquivo de configurações JSON do ADBMobile.
-seo-title: ADBMobileConfig.json config
+description: Informações para ajudá-lo a usar o arquivo de configuração JSON do ADBMobile.
+seo-description: Informações para ajudá-lo a usar o arquivo de configuração JSON do ADBMobile.
+seo-title: Configuração ADBMobileConfig.json
 solution: Marketing Cloud,Analytics
 title: Configuração ADBMobileConfig.json
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: cbcb54a3-4b8f-4651-8ce9-2731ac988545
 translation-type: tm+mt
-source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
 
-# Arquivo de configuração ADBMobileConfig.json {#adbmobileconfig-json-config}
+# ADBMobileConfig.json config file {#adbmobileconfig-json-config}
 
-Informações para ajudá-lo a usar o arquivo de configurações JSON do ADBMobile.
+Informações para ajudá-lo a usar o arquivo de configuração JSON do ADBMobile.
 
-O SDK atualmente é compatível com diversas Soluções da Adobe Experience Cloud, incluindo Analytics, Target e Audience Manager. Os métodos apresentam prefixos de acordo com a solução. Métodos de configuração recebem o prefixo “Config”.
+Atualmente, o SDK oferece suporte para várias Soluções da Adobe Experience Cloud, incluindo Analytics, Público alvo e Audiência Manager. Os métodos apresentam prefixos de acordo com a solução. Métodos de configuração recebem o prefixo &quot;Config&quot;.
 
 * **rsids**
 
-   (**Required by Analytics**) One or more report suites to receive Analytics data. Diversas IDs de conjunto de relatórios devem ser separadas por vírgulas, sem espaçamento entre as mesmas.
+   (**Exigido pelo Analytics**) Um ou mais conjuntos de relatórios para receber dados do Analytics. Várias IDs de conjunto de relatórios devem ser separadas por vírgulas, sem espaços entre elas.
 
    * Esta é a sintaxe para este método:
 
@@ -34,17 +34,17 @@ O SDK atualmente é compatível com diversas Soluções da Adobe Experience Clou
 
 * **server**
 
-   (**Exigido pelo Analytics e pelo Gerenciamento de público-alvo**). O servidor do Analytics ou do Gerenciamento de público-alvo, com base no nó principal. This variable should be populated with the server domain, without an `"https://"` or `"https://"` protocol prefix. O prefixo de protocolo é manipulado automaticamente pela biblioteca com base na variável `ssl`.
+   (**Exigido pelo Analytics e Gerenciamento** de Audiências). Servidor do Analytics ou Gerenciamento de Audiências, com base no nó pai. Essa variável deve ser preenchida com o domínio do servidor, sem um prefixo de protocolo `"https://"` ou `"https://"`. O prefixo do protocolo é manipulado automaticamente pela biblioteca com base na `ssl` variável.
 
    Se `ssl` for `true`, é realizada uma conexão segura com o servidor. Se `ssl` for `false`, é realizada uma conexão insegura com o servidor.
 
 * **charset**
 
-   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte [s.charSet](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html).
+   Define o conjunto de caracteres que você está usando para os dados enviados ao Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte [s.charSet](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/charset.html).
 
 * **ssl**
 
-   Enables (`true`) or disables (`false`) sending measurement data via SSL (`HTTPS`). O valor padrão é `false`.
+   Ativa (`true`) ou desativa (`false`) o envio de dados de medição via SSL (`HTTPS`). O valor padrão é `false`.
 
 * **offlineEnabled**
 
@@ -58,15 +58,15 @@ O SDK atualmente é compatível com diversas Soluções da Adobe Experience Clou
 
 * **lifecycleTimeout**
 
-   Especifica a duração, em segundos, entre as inicializações do aplicativo antes que a inicialização seja considerada uma nova sessão. Esse tempo de espera também se aplica quando seu aplicativo é enviado para segundo plano e reativado. O tempo que seu aplicativo gasta em segundo plano não está incluído na duração da sessão.
+   Especifica a duração, em segundos, entre as inicializações do aplicativo antes que a inicialização seja considerada uma nova sessão. Esse tempo limite também se aplica quando seu aplicativo é enviado para o plano de fundo e reativado. O tempo que seu aplicativo gasta em segundo plano não é incluído na duração da sessão.
 
-   O valor padrão é 300 segundos.
+   O valor padrão é de 300 segundos.
 
 * **batchLimit**
 
-   Envia as ocorrências em lotes.
+   Envie ocorrências em lotes.
 
-   For example, if set to `50`, hits are queued until 50 are stored, then all queued hits are sent. Exige `offlineEnabled=true`e o valor padrão é `0` (Sem agrupamento).
+   Por exemplo, se definido como `50`, as ocorrências são enfileiradas até que 50 sejam armazenadas e todas as ocorrências em fila são enviadas. Exige `offlineEnabled=true`e o valor padrão é `0` (Sem agrupamento).
 
 * **privacyDefault**
 
@@ -74,9 +74,9 @@ O SDK atualmente é compatível com diversas Soluções da Adobe Experience Clou
 
    * `optedin` - as ocorrências são enviadas imediatamente.
    * `optedout` - as ocorrências serão descartadas.
-   * `optunknown` - Se o conjunto de relatórios estiver habilitado para mostrar o carimbo de data e hora, as ocorrências serão salvas até o status de privacidade ser alterado para opt-in (as ocorrências são enviadas) ou opt-out (as ocorrências são descartadas). Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in.
+   * `optunknown` - Se o conjunto de relatórios tiver um carimbo de data e hora, as ocorrências serão salvas até o status de privacidade ser alterado para aceitar (as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas). Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in.
 
-      Isso define somente o valor padrão. Se este valor for definido ou alterado no código, então o valor definido pelo código é salvo no armazenamento local e é usado dali em diante até que seja alterado ou o aplicativo seja desinstalado e depois reinstalado.
+      Isso define somente o valor padrão. Se esse valor for definido ou alterado no código, o valor definido pelo código será salvo no armazenamento local e será usado para frente até que seja alterado ou o aplicativo seja desinstalado e reinstalado.
 
       O valor padrão é `optedin`.
 
@@ -84,7 +84,7 @@ O SDK atualmente é compatível com diversas Soluções da Adobe Experience Clou
 
    Cada matriz de POI contém o nome do POI, a latitude, a longitude e o raio (em metros) para a área do ponto. O nome do POI pode ser qualquer cadeia de caracteres. Quando uma chamada `trackLocation` é enviada, se as coordenadas atuais estão dentro de um POI definido, uma variável de dados de contexto é preenchida e enviada com a chamada `trackLocation`.
 
-   * Here is the code sample for this variable:
+   * Esta é a amostra de código para esta variável:
 
       ```js
        "poi" [ 
@@ -95,13 +95,13 @@ O SDK atualmente é compatível com diversas Soluções da Adobe Experience Clou
 
 * **clientCode**
 
-   (**Required by Target**) Your assigned client code.
+   (**Exigido pelo Público alvo**) Seu código de cliente atribuído.
 
 * **timeout**
 
-   Determina quanto tempo o Target aguarda por uma resposta.
+   Determina quanto tempo o público alvo aguarda uma resposta.
 
-A seguir, um exemplo de um arquivo `ADBMobileConfig.json`:
+The following is an example of an `ADBMobileConfig.json` file:
 
 ```js
 { 
