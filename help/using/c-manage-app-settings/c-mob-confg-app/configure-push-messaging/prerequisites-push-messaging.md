@@ -1,14 +1,14 @@
 ---
 description: Você deve concluir essas tarefas antes de configurar Mensagens de push nos aplicativos.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: Você deve concluir essas tarefas antes de configurar Mensagens de push nos aplicativos.
 seo-title: Pré-requisitos para ativar as mensagens de push
-solution: Experience Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Pré-requisitos para ativar as mensagens de push
-topic: Métricas
+topic: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
-translation-type: ht
-source-git-commit: 92b1e430293fbded666e8af3f01393898c0e5811
+translation-type: tm+mt
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
@@ -39,9 +39,9 @@ Para obter mais informações, consulte o seguinte conteúdo:
 
 >[!IMPORTANT]
 >
->Para usar a funcionalidade Serviços de push, os usuários devem fazer logon no Mobile Core Service usando a Adobe ID. Além disso, a conta do Analytics desses usuários deve estar vinculada à sua Adobe ID. A funcionalidade serviços de push não será disponibilizada se os usuários fizerem logon usando suas contas existentes do Adobe Analytics.
+>Para usar a funcionalidade Serviços de push, os usuários devem fazer logon no Mobile Core Service usando a Adobe ID. Além disso, a conta do Analytics desses usuários deve estar vinculada à sua Adobe ID. A funcionalidade Serviços de push não estará disponível se os usuários fizerem logon usando suas contas existentes do Adobe Analytics.
 
-Se os usuários não tiverem Adobe IDs, siga as seguintes etapas:
+Se os usuários não tiverem Adobe IDs, conclua as seguintes etapas:
 
 1. (**Administrador da Experiencie Cloud**) Convidar usuários para a Experience Cloud.
 
@@ -65,29 +65,29 @@ Cada usuário deve vincular a conta da solução do Analytics a partir da organi
 
    A Adobe ID agora está vinculada às suas credenciais de conta, empresa e logon do Analytics.
 
-Para obter mais informações, consulte [Resolução de problemas na vinculação da conta](https://marketing.adobe.com/resources/help/pt_BR/mcloud/organizations.html).
+Para obter mais informações, consulte [Resolução de problemas na vinculação da conta](https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/organizations.html).
 
 ## Configurar serviços de push e o serviço de ID do SDK na interface do usuário do Mobile
 
 Antes de habilitar o Serviço de ID para o aplicativo, a seção **[!UICONTROL Serviços de push]** é desabilitada. Mas, depois de habilitar o serviço de ID, a seção Serviços de push é habilitada. Para obter mais informações sobre como ativar serviços de push, consulte [Configurar opções do serviço de ID do SDK](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md).
 
->[!IMPORTANT:]: Você deve clicar em **[!UICONTROL Salvar]** para salvar suas alterações e atualizar os Serviços de push.
+>[!IMPORTANT]:: Você deve clicar em **[!UICONTROL Salvar]** para salvar suas alterações e atualizar os Serviços de push.
 >
->É possível configurar um aplicativo da app store para a Apple e um para o Google em cada conjunto de relatórios. Se precisar de aplicativos adicionais, por exemplo, um para um ambiente de produção e outro para um ambiente de desenvolvimento, defina um novo aplicativo na app store e um novo conjunto de relatórios para cada ambiente.
+>Você pode configurar um aplicativo da app store para a Apple e um para o Google em cada conjunto de relatórios. Se você precisar de aplicativos adicionais, por exemplo, um para um ambiente de produção e outro para um ambiente dev, configure um novo aplicativo app store e um novo conjunto de relatórios para cada ambiente.
 
-* Para **Apple**, arraste e solte sua chave privada e/ou certificado. Se sua chave privada estiver criptografada por senha, digite a senha.
+* Para a **Apple**, arraste e solte sua chave privada e/ou certificado. Se sua chave privada estiver criptografada por senha, digite sua senha.
 
    * Para a **Chave privada**, arraste e solte seu arquivo de chave privada na caixa.
 
       Você também pode clicar em **[!UICONTROL Navegar]** para selecionar o arquivo. Esse arquivo possui a chave privada. O certificado também pode estar incluído nesse arquivo (`.p12`, `pkcs12`, `.pfx`, `.key`, `.pem`).
 
-   * Para obter a **Senha da chave privada**, se seu arquivo de chave privada estiver criptografado, digite a senha.
+   * Para a Senha **da chave** privada, se o arquivo da chave privada estiver criptografado, digite a senha.
 
       (Condicional) Para o **Certificado**, arraste e solte o arquivo do certificado na caixa. Você também pode clicar em **[!UICONTROL Navegar]** para selecionar o arquivo. Esse campo não é necessário se o arquivo da chave privada também contiver o certificado ( `.cert`, `.cer`, `.crt`, `.pem`).
 
 * Para o **Google**, especifique a chave de API do aplicativo.
 
-   Clique em **[!UICONTROL Testar]** para validar se o aplicativo e o Mobile Services estão configurados corretamente. Essa opção é útil para a depuração e resolução de problemas.
+   Clique em **[!UICONTROL Testar]** para validar se o aplicativo e o Mobile Services estão configurados corretamente. Essa opção é útil para a depuração e solução de problemas.
 
    Digite os tokens de push do dispositivo que você deseja enviar a mensagem. Você pode enviar a mensagem para vários dispositivos especificando tokens em uma lista separada por vírgula.
 
