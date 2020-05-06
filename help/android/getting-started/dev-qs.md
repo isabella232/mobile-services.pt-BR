@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics
 title: Implementação principal e ciclo de vida
 topic: Developer and implementation
 uuid: af4d11ac-8245-46a0-9b3a-4a0a29cfbbb2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
 
 ---
@@ -48,7 +48,7 @@ Para adicionar o SDK e o arquivo de configuração ao projeto:
 1. Clique com o botão direito no seu projeto, no painel Navegação do projeto.
 1. Selecione **[!UICONTROL Abrir configurações do módulo]**.
 1. Em **[!UICONTROL Configurações do projeto]**, selecione **[!UICONTROL Bibliotecas]**.
-1. Click the **[!UICONTROL +]** icon to add a new library.
+1. Clique no ícone **[!UICONTROL +]** para adicionar uma nova biblioteca.
 1. Selecione **[!UICONTROL Java]** e navegue até o arquivo `adobeMobileLibrary.jar`.
 1. Selecione os módulos nos quais planeja usar a biblioteca móvel.
 1. Clique em **[!UICONTROL Aplicar]** e em **[!UICONTROL OK]** para fechar a janela Configurações do módulo.
@@ -60,9 +60,9 @@ Para adicionar o SDK e o arquivo de configuração ao projeto:
 1. Adicione o arquivo `ADBMobileConfig.json` à pasta `assets` do projeto.
 1. No **[!UICONTROL Eclipse IDE]**, clique com o botão direito do mouse no nome do projeto.
 1. Clique em **[!UICONTROL Criar caminho]** > **[!UICONTROL Adicionar arquivos externos]**.
-1. Select `adobeMobileLibrary.jar`.
+1. Selecione `adobeMobileLibrary.jar`.
 1. Clique em **[!UICONTROL Abrir]**.
-1. Right-click the project again and select **[!UICONTROL Build Path]** > **[!UICONTROL Configure Build Path]**.
+1. Clique com o botão direito no projeto novamente e selecione **[!UICONTROL Criar caminho]** > **[!UICONTROL Configurar caminho de construção]**.
 1. Na guia **[!UICONTROL Fazer pedido e exportar]**, certifique-se de que o **`adobeMobileLibrary.jar`** esteja selecionado.
 
 ## Adicionar permissões do aplicativo {#section_2EAF73ABF6424647B219A63B33B02CD5}
