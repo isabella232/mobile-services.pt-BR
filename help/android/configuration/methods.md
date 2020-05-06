@@ -7,13 +7,13 @@ solution: Marketing Cloud,Analytics
 title: Métodos de configuração
 topic: Developer and implementation
 uuid: 663aeb6c-1b97-4a3a-8c0e-dd4c2ec28c01
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
 
 ---
 
 
-# Métodos de configuração{#configuration-methods}
+# Métodos de configuração {#configuration-methods}
 
 Esta é uma lista de métodos do fornecida pela biblioteca do Android.
 
@@ -303,7 +303,7 @@ Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências 
 
 * **overrideConfigStream(InputStream configInput)**
 
-   * (**Versão 4.2 ou posterior**) Permite carregar um arquivo de configuração ADBMobile JSON diferente quando o aplicativo é start. A configuração diferente é utilizada até o aplicativo ser fechado.
+   * (**Versão 4.2 ou posterior**) Permite carregar um arquivo de configuração ADBMobile JSON diferente quando o aplicativo é iniciado. A configuração diferente é utilizada até o aplicativo ser fechado.
    * Esta é a sintaxe para este método:
 
       ```java
