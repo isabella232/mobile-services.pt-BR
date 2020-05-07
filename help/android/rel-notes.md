@@ -7,7 +7,10 @@ title: Notas de versão
 topic: Developer and implementation
 uuid: 16bb4de8-a216-47a8-928c-0b1e1421adcf
 translation-type: tm+mt
-source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+source-git-commit: a2a2ea4bd3826b061b198e684dd31d9328137d7e
+workflow-type: tm+mt
+source-wordcount: '297'
+ht-degree: 76%
 
 ---
 
@@ -15,6 +18,14 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 # Notas de versão {#release-notes}
 
 Estas são as notas de versão, problemas conhecidos e informações de hot fix do Android SDK 4.x para Soluções da Experience Cloud:
+
+**3 de abril de 2020: 4,18,2**
+
+* Em Mensagens do aplicativo - por motivos de segurança, WebViews criadas pelo SDK agora definem a propriedade &#39;setAllowFileAccess&#39; igual a false.
+
+**12 de março de 2020: 4,18,1**
+
+* Público alvo - A ID da sessão do Público alvo agora será adicionada como um parâmetro de dados de contexto &quot;a.público alvo.sessionId&quot; na ocorrência interna do Analytics para Público alvo enviada para o Adobe Analytics.
 
 **16 de janeiro de 2020: 4.18.0**
 
