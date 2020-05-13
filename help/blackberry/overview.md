@@ -4,8 +4,11 @@ seo-description: O BlackBerry 10 SDK 4.x para Soluções da Experience Cloud per
 seo-title: BlackBerry 10 SDK 4.x para Soluções da Experience Cloud
 title: BlackBerry 10 SDK 4.x para Soluções da Experience Cloud
 uuid: c336db33-2cb5-48fe-a3f5-2d3ced6c3966
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+workflow-type: ht
+source-wordcount: '186'
+ht-degree: 100%
 
 ---
 
@@ -18,11 +21,11 @@ O BlackBerry 10 SDK 4.x para Soluções da Experience Cloud permite medir aplica
 
 Para começar a usar os BlackBerry SDKs:
 
-1. Para adicionar os SDKs ao seu projeto, conclua as tarefas no Start [rápido do](/help/blackberry/dev-qs.md)desenvolvedor.
-1. Consulte a Referência [de método e classe](/help/blackberry/methods.md)ADBMobile.
+1. Para adicionar os SDKs ao seu projeto, conclua as tarefas no [Developer Quick Start](/help/blackberry/dev-qs.md).
+1. Consulte a referência [ADBMobile Class and Method](/help/blackberry/methods.md).
 1. Implemente o [Analytics](/help/blackberry/analytics.md).
 
-## Supported versions {#section_45978BF5C62E4986AAB7FFD96402BF2D}
+## Versões compatíveis {#section_45978BF5C62E4986AAB7FFD96402BF2D}
 
 BlackBerry 10 ou posterior.
 
@@ -32,9 +35,9 @@ Além de aumentos significativos no desempenho, a versão 4 adiciona os seguinte
 
 | Recurso | Descrição |
 |--- |--- |
-| Inclusão/recusa | Habilite e desabilite rapidamente a análise. |
+| Aceitação/recusa | Ative e desative rapidamente a análise. |
 
-For more information about the release notes for all solutions, see [Adobe Experience Cloud Release Notes](https://docs.adobe.com/content/help/pt-BR/release-notes/experience-cloud/current.html).
+Para obter mais informações sobre as notas de versão para todas as soluções, consulte [Notas de versão da Adobe Experience Cloud](https://docs.adobe.com/content/help/pt-BR/release-notes/experience-cloud/current.html).
 
 ## Usar o Bloodhound
 
