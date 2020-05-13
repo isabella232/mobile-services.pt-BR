@@ -1,13 +1,16 @@
 ---
-description: Estas informações ajudam a usar o arquivo de configuração ADBMobile.json.
-seo-description: Estas informações ajudam a usar o arquivo de configuração ADBMobile.json.
+description: Esta informação ajuda a usar o arquivo de configuração ADBMobile.json.
+seo-description: Esta informação ajuda a usar o arquivo de configuração ADBMobile.json.
 seo-title: Configuração JSON do ADBMobile
 solution: Marketing Cloud,Analytics
 title: Configuração JSON do ADBMobile
 topic: Developer and implementation
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+workflow-type: ht
+source-wordcount: '1715'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
 
    Ativa a aquisição de aplicativos móveis.
 
-   Se esta seção estiver faltando, habilite a aquisição do aplicativo móvel e baixe o arquivo de configuração do SDK novamente. For more information, see *referrerTimeout* below.
+   Se esta seção estiver faltando, habilite a aquisição do aplicativo móvel e baixe o arquivo de configuração do SDK novamente. Para obter mais informações, consulte *referrerTimeout* abaixo.
 
    * `server` - Servidor de aquisição que está marcado na primeira inicialização para um referenciador de aquisição.
    * `appid` - ID gerada que identifica de forma exclusiva este aplicativo no servidor de aquisição.
@@ -70,7 +73,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
 
 * **charset**
 
-   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte [s.charSet](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/charset.html).
+   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte [s.charSet](https://docs.adobe.com/content/help/br/analytics/implementation/vars/config-vars/charset.html).
 
    * Versão mínima do SDK: 4.0
 
@@ -109,15 +112,15 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
 
 * **lifecycleTimeout**
 
-   O valor padrão é 300 segundos.
+   O valor padrão é de 300 segundos.
 
-   Especifica o tempo, em segundos, que deve decorrer entre o momento em que o aplicativo é iniciado, mas antes que a inicialização seja considerada uma nova sessão. Esse tempo limite também se aplica quando seu aplicativo é enviado para o plano de fundo e reativado. O tempo que seu aplicativo gasta em segundo plano não é incluído na duração da sessão.
+   Especifica o tempo, em segundos, que deve decorrer entre o momento em que o aplicativo é iniciado, mas antes que a inicialização seja considerada uma nova sessão. Esse tempo limite também se aplica quando o aplicativo é enviado para o plano de fundo e reativado. O tempo que o aplicativo gasta em segundo plano não é incluído na duração da sessão.
 
    * Versão mínima do SDK: 4.0
 
 * **messages**
 
-   Gerado automaticamente pelo Adobe Mobile Services, define as configurações para as mensagens no aplicativo. Para obter mais informações, consulte a seção Descrição *de* mensagens abaixo.
+   Gerado automaticamente pelo Adobe Mobile Services, define as configurações para as mensagens no aplicativo. Para obter mais informações, consulte a seção *Descrição das mensagens* abaixo.
 
    * Versão mínima do SDK: 4.2
 
@@ -130,7 +133,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
    * Se o carimbo de data e hora estiver ativado no conjunto de relatórios, sua propriedade de configuração `offlineEnabled` *deve* ser verdadeira.
    * Caso o conjunto de relatórios não tenha um carimbo de data e hora, sua propriedade de configuração `offlineEnabled` *deve* ser “false”.
 
-      Se isso não for configurado corretamente, os dados serão perdidos. Se você não tem certeza se um conjunto de relatórios tem um carimbo de data e hora, entre em contato com o Atendimento ao Cliente ou baixe o arquivo de configuração em Adobe Mobile Services. Caso esteja relatando dados AppMeasurement para um conjunto de relatórios que também coleta dados JavaScript, pode ser necessário configurar um conjunto de relatórios separado para dados móveis, a fim de evitar a perda de dados, ou incluir um carimbo de data e hora personalizado nas ocorrências de JavaScript que usam a variável `s.timestamp`.
+      Se isso não for configurado corretamente, os dados serão perdidos. Se você não tem certeza se um conjunto de relatórios tem um carimbo de data e hora,  entre em contato com o  Atendimento ao Cliente ou baixe o arquivo de configuração em Adobe Mobile Services. Caso esteja relatando dados AppMeasurement para um conjunto de relatórios que também coleta dados JavaScript, pode ser necessário configurar um conjunto de relatórios separado para dados móveis, a fim de evitar a perda de dados, ou incluir um carimbo de data e hora personalizado nas ocorrências de JavaScript que usam a variável `s.timestamp`.
 
    * Versão mínima do SDK: 4.0
 
@@ -193,7 +196,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
 
 * **referrerTimeout**
 
-   Número de segundos que o SDK aguarda pelos dados da quem indicou de aquisição na inicialização inicial antes de expirar. Se você estiver usando a aquisição, recomendamos um tempo limite de 5 segundos.
+   Número de segundos que o SDK aguarda os dados do referenciador de aquisição no lançamento inicial antes de atingir o tempo limite. Se você estiver usando a aquisição, recomendamos um tempo limite de 5 segundos.
 
    >[!IMPORTANT]
    >
@@ -347,12 +350,12 @@ O nó de mensagens é gerado automaticamente pelo Adobe Mobile Services e geralm
 
 * &quot;messageId&quot;
 
-   * ID gerada, obrigatório
+   * ID gerada, obrigatória
 
 * &quot;modelo&quot;
 
-   * &quot;alert&quot;, &quot;tela cheia&quot; ou &quot;local&quot;
-   * required
+   * &quot;alerta&quot;, &quot;tela cheia&quot; ou &quot;local&quot;
+   * obrigatório
 
 * &quot;carga&quot;
 
@@ -360,14 +363,14 @@ O nó de mensagens é gerado automaticamente pelo Adobe Mobile Services e geralm
 
       * apenas modelo de tela cheia, obrigatório
       * html definindo a mensagem
-   * &quot;image&quot;
+   * &quot;imagem&quot;
 
       * apenas tela cheia, opcional
-      * url para a imagem a ser usada para uma imagem em tela cheia
+      * url para a imagem que será usada para uma imagem em tela cheia
    * &quot;altImage&quot;
 
       * apenas tela cheia, opcional
-      * nome da imagem agrupada a ser usada se o url especificado em
+      * nome da imagem agrupada que será usada se o url especificado em
          `image` está inatingível
    * &quot;título&quot;
 
@@ -377,21 +380,21 @@ O nó de mensagens é gerado automaticamente pelo Adobe Mobile Services e geralm
 
       * alerta e notificação local, obrigatório
       * subtexto para uma mensagem de alerta ou texto de notificação para uma mensagem de notificação local
-   * &quot;confirm&quot;
+   * &quot;confirmar&quot;
 
       * alerta, opcional
       * texto usado no botão confirmar
-   * &quot;cancel&quot;
+   * &quot;cancelar&quot;
 
       * alerta, obrigatório
-      * texto usado no botão Cancelar
+      * texto usado no botão cancelar
    * &quot;url&quot;
 
       * alerta, opcional
-      * ação de url a ser carregada se o botão confirmar for clicado
-   * &quot;wait&quot;
+      * ação de url que será carregada se o botão confirmar for clicado
+   * &quot;aguardar&quot;
 
-      * notificação local, obrigatória
+      * notificação local, obrigatório
       * quantidade de tempo de espera (em segundos) para postar a notificação local depois de corresponder aos seus critérios
 
 
@@ -404,13 +407,13 @@ O nó de mensagens é gerado automaticamente pelo Adobe Mobile Services e geralm
 
 * &quot;showOffline&quot;
 
-   * true ou false
-   * o padrão é false
+   * verdadeiro ou falso
+   * o padrão é falso
 
 * &quot;showRule&quot;
 
-   * &quot;always&quot;, &quot;once&quot; ou &quot;untilClick&quot;
-   * required
+   * &quot;sempre&quot;, &quot;uma vez” ou &quot;untilClick&quot;
+   * obrigatório
 
 * &quot;endDate&quot;
 
@@ -438,7 +441,7 @@ O nó de mensagens é gerado automaticamente pelo Adobe Mobile Services e geralm
       * ne = não é igual
       * co = contém
       * nc = não contém
-      * sw = start com
+      * sw = inicia com
       * ew = termina com
       * ex = existe
       * nx = não existe
