@@ -6,8 +6,11 @@ solution: Marketing Cloud,Analytics
 title: Métodos do Analytics
 topic: Developer and implementation
 uuid: d49fe6de-cb32-4b96-9891-c567310e59a6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82c8e82ce5ce333c2482252e96f928829d322e7e
+workflow-type: ht
+source-wordcount: '784'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,7 @@ Cada um desses métodos é usado para enviar dados para seu conjunto de relatór
 
 * **trackState:&#x200B;data:**
 
-   Os estados são as exibições disponíveis no aplicativo, como `home dashboard`, `app settings`, `cart`, e assim por diante. Esses estados são semelhantes às páginas em um site, e as chamadas de `trackState` aumentam as visualizações de página. Se `state` estiver vazio, ele é exibido como *nome do aplicativo versão do aplicativo(build)* nos relatórios. Caso veja esse valor em relatórios, certifique-se de configurar um `state` em cada chamada de `trackState`.
+   Os estados são as exibições disponíveis no aplicativo, como `home dashboard`, `app settings`, `cart`, e assim por diante. Esses estados são semelhantes às páginas em um site, e as chamadas de `trackState` aumentam as visualizações de página. Se `state` estiver vazio, ele é exibido como *nome do aplicativo versão do aplicativo (build)* nos relatórios. Caso veja esse valor em relatórios, certifique-se de configurar um `state` em cada chamada de `trackState`.
 
    >[!TIP]
    >
