@@ -6,8 +6,11 @@ solution: Marketing Cloud,Analytics
 title: Antes de começar
 topic: Developer and implementation
 uuid: 0ca9e937-8d40-4570-9dbf-9aecc6ecedf6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+workflow-type: ht
+source-wordcount: '760'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,7 @@ Os administradores do Analytics e desenvolvedores de aplicativos devem realizar 
 
 Para configurar um conjunto de relatórios e coletar dados do aplicativo móvel:
 
-1. Conclua uma das seções em Fazer [logon na interface do usuário](../getting-started/requirements.md#section_690A2EC4572E47869F183974E932A6A8)do Adobe Mobile Services.
+1. Conclua uma das seções em [Fazer logon na interface do usuário do Adobe Mobile Services](../getting-started/requirements.md#section_690A2EC4572E47869F183974E932A6A8).
 1. Crie uma conta do Analytics para cada desenvolvedor de aplicativos.
 
 Os desenvolvedores de aplicativos agora têm acesso à visualização dos conjuntos de relatórios criados.
@@ -41,7 +44,7 @@ Os desenvolvedores de aplicativos agora têm acesso à visualização dos conjun
 
 Para obter mais informações sobre funções e permissões, consulte [Funções e permissões](/help/using/gs/c-mob-roles-and-permissions.md).
 
-## Fazer logon na interface do usuário do Adobe Mobile Services {#section_690A2EC4572E47869F183974E932A6A8}
+## Fazer logon na interface do usuário do Adobe Mobile Services  {#section_690A2EC4572E47869F183974E932A6A8}
 
 O Adobe Mobile Services é a principal interface de relatórios para análise e direcionamento de aplicativos móveis. Após concluir essas etapas, é possível baixar um arquivo de configuração pré-configurado com seu servidor de coleta de dados, conjunto de relatórios e muitas outras configurações.
 
@@ -49,7 +52,7 @@ Você pode fazer logon na interface do usuário do Adobe Mobile Services de uma 
 
 ### Experience Cloud
 
-Faça logon na [Experience Cloud](https://experiencecloud.adobe.com) com sua Adobe ID. Esse método entende que sua empresa foi provisionada na Experience Cloud e que você vinculou sua conta do Analytics. Para obter mais informações, consulte [Gerenciar usuários e produtos da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Faça logon na [Experience Cloud](https://experiencecloud.adobe.com) com sua Adobe ID. Esse método entende que sua empresa foi provisionada na Experience Cloud e que você vinculou sua conta do Analytics. Para obter mais informações, consulte [Gerenciar usuários e produtos da Experience Cloud](https://docs.adobe.com/content/help/br/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 >[!TIP]
 >
@@ -113,4 +116,4 @@ compile 'com.adobe.mobile:adobeMobileLibrary:4.13.7'
 Lembre-se das seguintes informações:
 
 * Substitua o número da versão na amostra de código pela versão apropriada dos SDKs do Android.
-* Baixe o arquivo de configuração e inclua-o no seu projeto.
+* Baixe o arquivo de configuração e inclua-o no projeto.
