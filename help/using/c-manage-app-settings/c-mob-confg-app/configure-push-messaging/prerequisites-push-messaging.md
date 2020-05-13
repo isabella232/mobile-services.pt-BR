@@ -7,8 +7,11 @@ solution: Marketing Cloud,Analytics
 title: Pré-requisitos para ativar as mensagens de push
 topic: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+workflow-type: ht
+source-wordcount: '646'
+ht-degree: 100%
 
 ---
 
@@ -41,7 +44,7 @@ Para obter mais informações, consulte o seguinte conteúdo:
 >
 >Para usar a funcionalidade Serviços de push, os usuários devem fazer logon no Mobile Core Service usando a Adobe ID. Além disso, a conta do Analytics desses usuários deve estar vinculada à sua Adobe ID. A funcionalidade Serviços de push não estará disponível se os usuários fizerem logon usando suas contas existentes do Adobe Analytics.
 
-Se os usuários não tiverem Adobe IDs, conclua as seguintes etapas:
+Se os usuários não tiverem Adobe IDs, siga estas etapas:
 
 1. (**Administrador da Experiencie Cloud**) Convidar usuários para a Experience Cloud.
 
@@ -65,7 +68,7 @@ Cada usuário deve vincular a conta da solução do Analytics a partir da organi
 
    A Adobe ID agora está vinculada às suas credenciais de conta, empresa e logon do Analytics.
 
-Para obter mais informações, consulte [Resolução de problemas na vinculação da conta](https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/organizations.html).
+Para obter mais informações, consulte [Resolução de problemas na vinculação da conta](https://docs.adobe.com/content/help/br/core-services/interface/manage-users-and-products/organizations.html).
 
 ## Configurar serviços de push e o serviço de ID do SDK na interface do usuário do Mobile
 
@@ -73,15 +76,15 @@ Antes de habilitar o Serviço de ID para o aplicativo, a seção **[!UICONTROL S
 
 >[!IMPORTANT]:: Você deve clicar em **[!UICONTROL Salvar]** para salvar suas alterações e atualizar os Serviços de push.
 >
->Você pode configurar um aplicativo da app store para a Apple e um para o Google em cada conjunto de relatórios. Se você precisar de aplicativos adicionais, por exemplo, um para um ambiente de produção e outro para um ambiente dev, configure um novo aplicativo app store e um novo conjunto de relatórios para cada ambiente.
+>Você pode configurar um aplicativo da app store para a Apple e um para o Google em cada conjunto de relatórios. Se você precisar de aplicativos adicionais, por exemplo, um para um ambiente de produção e outro para um ambiente dev, configure um novo aplicativo da app store e um novo conjunto de relatórios para cada ambiente.
 
-* Para a **Apple**, arraste e solte sua chave privada e/ou certificado. Se sua chave privada estiver criptografada por senha, digite sua senha.
+* Para a **Apple**, arraste e solte sua chave privada e/ou certificado. Se a chave privada estiver criptografada por senha, digite a senha.
 
    * Para a **Chave privada**, arraste e solte seu arquivo de chave privada na caixa.
 
       Você também pode clicar em **[!UICONTROL Navegar]** para selecionar o arquivo. Esse arquivo possui a chave privada. O certificado também pode estar incluído nesse arquivo (`.p12`, `pkcs12`, `.pfx`, `.key`, `.pem`).
 
-   * Para a Senha **da chave** privada, se o arquivo da chave privada estiver criptografado, digite a senha.
+   * Para a **Senha da chave privada**, se o arquivo da chave privada estiver criptografado, digite a senha.
 
       (Condicional) Para o **Certificado**, arraste e solte o arquivo do certificado na caixa. Você também pode clicar em **[!UICONTROL Navegar]** para selecionar o arquivo. Esse campo não é necessário se o arquivo da chave privada também contiver o certificado ( `.cert`, `.cer`, `.crt`, `.pem`).
 
