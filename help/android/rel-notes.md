@@ -6,11 +6,11 @@ solution: Marketing Cloud,Analytics
 title: Notas de versão
 topic: Developer and implementation
 uuid: 16bb4de8-a216-47a8-928c-0b1e1421adcf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a2a2ea4bd3826b061b198e684dd31d9328137d7e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -19,19 +19,19 @@ ht-degree: 76%
 
 Estas são as notas de versão, problemas conhecidos e informações de hot fix do Android SDK 4.x para Soluções da Experience Cloud:
 
-**3 de abril de 2020: 4,18,2**
+**3 de abril de 2020: 4.18.2**
 
-* Em Mensagens do aplicativo - por motivos de segurança, WebViews criadas pelo SDK agora definem a propriedade &#39;setAllowFileAccess&#39; igual a false.
+* Mensagens no aplicativo - Por motivos de segurança, WebViews criadas pelo SDK agora definem a propriedade &#39;setAllowFileAccess&#39; igual a false.
 
-**12 de março de 2020: 4,18,1**
+**12 de março de 2020: 4.18.1**
 
-* Público alvo - A ID da sessão do Público alvo agora será adicionada como um parâmetro de dados de contexto &quot;a.público alvo.sessionId&quot; na ocorrência interna do Analytics para Público alvo enviada para o Adobe Analytics.
+* Target - Agora a ID de sessão do Target será adicionada como parâmetro de dados de contexto &quot;a.target.sessionId&quot; na ocorrência interna do Analytics para Target enviada para o Adobe Analytics.
 
 **16 de janeiro de 2020: 4.18.0**
 
 * Aquisição - Uma nova API adicionada, `Analytics.processGooglePlayInstallReferrerUrl(final String url)`, para suportar as APIs do referenciador de instalação do Google Play.
 
-   Para obter mais informações sobre as APIs do referenciador de instalação, consulte [Ainda usando o InstallBroadcast? Alterne para a API do referenciador do Play até 1º de março de 2020](https://android-developers.googleblog.com/2019/11/still-using-installbroadcast-switch-to.html) .
+   Para obter mais informações sobre as APIs do referenciador de instalação, consulte [Ainda usando o InstallBroadcast? Alterne para a API do referenciador do Play até 1º de março de 2020](https://android-developers.googleblog.com/2019/11/still-using-installbroadcast-switch-to.html).
 
 **20 de setembro de 2019: Versão 4.17.10**
 
@@ -52,7 +52,7 @@ Estas são as notas de versão, problemas conhecidos e informações de hot fix 
 
 **24 de maio de 2019: Versão 4.17.6**
 
-* serviço de ID do visitante - A
+* Serviço de ID do visitante - A
    chamada de API `setPushIdentifier` agora envia uma chamada de sincronização para o Serviço de ID do visitante sempre que é chamada.
 
 * Serviço de ID de visitante - Aumento da conexão e do tempo limite de leitura de 2 segundos para 5 segundos.
