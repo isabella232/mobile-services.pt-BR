@@ -1,14 +1,17 @@
 ---
 description: Estas informações podem ajudar a solucionar problemas com as mensagens de push.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: Estas informações podem ajudar a solucionar problemas com as mensagens de push.
 seo-title: Solucionar problemas de mensagens de push
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Solucionar problemas de mensagens de push
-topic: Métricas
+topic: Metrics
 uuid: c7be4ab7-0cfe-4296-84a8-01412f4fd93f
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: e6af295ddc5fea2a3e649b659894e6c6123a3457
+workflow-type: tm+mt
+source-wordcount: '736'
+ht-degree: 59%
 
 ---
 
@@ -25,11 +28,11 @@ Os seguintes tipos de atrasos podem estar associados a mensagens de push para os
 
    Todo conjunto de relatórios possui uma configuração que determina quando processar as ocorrências que chegam do Analytics. O padrão é a cada 1 hora.
 
-   O processamento atual de ocorrências do Analytics pode levar até 30 minutos, embora normalmente demore de 15 a 20 minutos. Por exemplo, um conjunto de relatórios processa ocorrências a cada hora. Quando você considera o tempo de processamento necessário de 30 minutos (no máximo), talvez demore até 90 minutos para que uma ocorrência recebida esteja disponível para uma mensagem de push. Se um usuário inicializasse o aplicativo às 9h01, a ocorrência apareceria na interface do usuário do Mobile Services como um novo usuário exclusivo entre 10h15 e 10h30.
+   O processamento atual de ocorrências do Analytics pode levar até 30 minutos, embora normalmente demore de 15 a 20 minutos. Por exemplo, um conjunto de relatórios processa ocorrências a cada hora. Quando você considera o tempo de processamento necessário de 30 minutos no máximo, pode levar até 90 minutos para que uma ocorrência recebida esteja disponível para uma mensagem de push. Se um usuário inicializasse o aplicativo às 9h01, a ocorrência apareceria na interface do usuário do Mobile Services como um novo usuário exclusivo entre 10h15 e 10h30.
 
-* **Aguardar o serviço de push**
+* **Aguardando o serviço de push**
 
-   O serviço de push (APNS ou GCM) talvez não envie a mensagem imediatamente. Embora seja incomum, houve ocorrências de tempos de espera de 5 a 10 minutos. É possível verificar se a mensagem de push foi enviada ao serviço de push na exibição **[!UICONTROL Relatório]** da mensagem de push, localizando a mensagem na tabela **[!UICONTROL Histórico de mensagens]** e verificando a contagem de **[!UICONTROL Publicado]**.
+   O serviço de push (APNS ou GCM) pode não enviar a mensagem imediatamente. Embora seja incomum, houve ocorrências de tempos de espera de 5 a 10 minutos. É possível verificar se a mensagem de push foi enviada ao serviço de push na exibição **[!UICONTROL Relatório]** da mensagem de push, localizando a mensagem na tabela **[!UICONTROL Histórico de mensagens]** e verificando a contagem de **[!UICONTROL Publicado]**.
 
    >[!TIP]
    >
@@ -44,14 +47,14 @@ Os seguintes tipos de atrasos podem estar associados a mensagens de push para os
 
 * **Chave de API inválida**
 
-   A chave de API pode ser inválida pelos seguintes motivos:
+   Sua chave da API pode ser inválida pelos seguintes motivos:
 
-   * A chave de API que você forneceu não é uma chave de servidor com o valor de chave de API GCM correto.
-   * A chave do servidor incluiu os IPs em uma lista de permissões e está impedindo os servidores da Adobe de enviarem uma mensagem de push.
+   * A chave de API fornecida não é uma chave de servidor com o valor correto da chave de API GCM.
+   * A chave do servidor permitiu os IPs e está impedindo os servidores da Adobe de enviarem uma mensagem de push.
 
-* **Determinar a validade da chave de API**
+* **Determine a validade da chave da API**
 
-   Para determinar a validade da chave de API, execute o seguinte comando:
+   Para determinar a validade da sua chave de API, execute o seguinte comando:
 
    **Android**
 
@@ -63,7 +66,7 @@ Os seguintes tipos de atrasos podem estar associados a mensagens de push para os
        -d"{\"registration_ids\":[\"ABC\"]}"
    ```
 
-   Um código do status 401 HTTP retornado significa que a chave de API é inválida. Caso contrário, você verá algo semelhante a isto:
+   Um código de status 401 HTTP retornado significa que sua chave de API é inválida. Caso contrário, você verá algo semelhante a isto:
 
    ```java
    {"multicast_id":6782339717028231855,"success":0,"failure":1,
@@ -74,9 +77,9 @@ Os seguintes tipos de atrasos podem estar associados a mensagens de push para os
 
 ## Por que meu certificado APNS não está funcionando?
 
-O certificado APNS pode ser inválido pelos seguintes motivos:
+Seu certificado APNS pode ser inválido pelos seguintes motivos:
 
-* Você pode usar um certificado de sandbox em vez do certificado de produção.
+* Você pode estar usando um certificado de sandbox em vez do certificado de produção.
 * Você está usando um novo certificado de produção/sandbox que não é suportado.
 * Você está usando um arquivo `.p8` em vez de `.p12`.
 
@@ -84,7 +87,7 @@ O certificado APNS pode ser inválido pelos seguintes motivos:
 
 **Um exemplo**
 
-O exemplo a seguir ilustra como você pode resolver uma falha de push ao usar um VRS.
+O exemplo a seguir ilustra como você pode resolver uma falha de envio ao usar um VRS.
 
 O seguinte cliente tem dois aplicativos iOS:
 
@@ -97,10 +100,10 @@ O seguinte cliente tem dois aplicativos iOS:
    * RSID: PhotoShop_iOS_app_LA
    * Segmento de definição de VRSID: `a.os contains “iOS”`
 
-Neste exemplo, se um colaborador do Photoshop enviar uma mensagem por push para o aplicativo *PhotoShop_iOS_app_SF*, todos os usuários do *aplicativo PhotoShop_iOS_app_SF* receberão a mensagem como esperado. Porém, se o colaborador enviar uma mensagem para o aplicativo *PhotoShop_app_LA*, porque o segmento de definição do VRSID está incorreto (`iOS` em vez de `a.os contains "PhotoShop_iOS_app_LA"`), a mensagem será enviada para **todos** os usuários do iOS em *AllAdobe PhotoShop_apps*. A mensagem não deixará de ser enviada para os usuários do *PhotoShop_iOS_app_LA*, mas também incluirá na blacklist as IDs de push dos usuários do *PhotoShop_iOS_app_SF*, porque o aplicativo *PhotoShop_iOS_app_SF* tem um certificado diferente. Se o segmento tivesse sido definido como `a.os contains “PhotoShop_iOS_app_LA”`, a mensagem por push teria sido enviada apenas para os usuários do *PhotoShop_iOS_app_LA*.
+Neste exemplo, se um colaborador do Photoshop enviar uma mensagem por push para o aplicativo *PhotoShop_iOS_app_SF*, todos os usuários do *aplicativo PhotoShop_iOS_app_SF* receberão a mensagem como esperado. Porém, se o colaborador enviar uma mensagem para o aplicativo *PhotoShop_app_LA*, porque o segmento de definição do VRSID está incorreto (`iOS` em vez de `a.os contains "PhotoShop_iOS_app_LA"`), a mensagem será enviada para **todos** os usuários do iOS em *AllAdobe PhotoShop_apps*. Although the message still goes to *PhotoShop_iOS_app_LA* users, the message also deny-lists the push IDs for *PhotoShop_iOS_app_SF* users because the *PhotoShop_iOS_app_SF* app has a different certificate. Se o segmento tivesse sido definido como `a.os contains “PhotoShop_iOS_app_LA”`, a mensagem por push teria sido enviada apenas para os usuários do *PhotoShop_iOS_app_LA*.
 
 Se aprovados com o certificado de push do *PhotoShop_IOS_app_LA*, os identificadores de push para o *PhotoShop_iOS_app_SF* voltam como `invalid`.
 
 >[!CAUTION]
 >
->Uma vez criada uma mensagem por push para um aplicativo que esteja usando um VRS e após clicar em **[!UICONTROL Salvar e enviar]**, será exibido um alerta para lembrar que cada aplicativo listado **deve** ter um certificado válido. Caso cada aplicativo **não** tenha um certificado válido, os segmentos de público-alvo talvez sejam adicionados à lista negra indefinidamente e você não pode mais enviar futuras mensagens de push para os usuários afetados. Para obter mais informações sobre segmentos de público, consulte [Público: definir e configurar as opções de público para mensagens por push](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md).
+>Uma vez criada uma mensagem por push para um aplicativo que esteja usando um VRS e após clicar em **[!UICONTROL Salvar e enviar]**, será exibido um alerta para lembrar que cada aplicativo listado **deve** ter um certificado válido. If each app does **not** have a valid certificate, your audience segments might be indefinitely deny listed, and you might not be able to send future push messages to the affected users. Para obter mais informações sobre segmentos de público, consulte [Público: definir e configurar as opções de público para mensagens por push](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md).
