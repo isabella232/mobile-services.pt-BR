@@ -1,14 +1,17 @@
 ---
 description: Você pode exibir relatórios de mensagens para mensagens no aplicativo e de push.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: Você pode exibir relatórios de mensagens para mensagens no aplicativo e de push.
 seo-title: Visualizar relatórios de mensagem
-solution: Experience Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Visualizar relatórios de mensagem
-topic: Métricas
+topic: Metrics
 uuid: 0ac73a81-388f-4dfd-84d5-21b8db4b8c83
-translation-type: ht
-source-git-commit: 44f531ad140827d563255fad197811185c5337c9
+translation-type: tm+mt
+source-git-commit: e6af295ddc5fea2a3e649b659894e6c6123a3457
+workflow-type: tm+mt
+source-wordcount: '493'
+ht-degree: 78%
 
 ---
 
@@ -79,13 +82,13 @@ Esta é uma lista das métricas disponíveis para mensagens por push:
 
    * Uma pushID inválida
 
-   * A plataforma de push (APNS, FCM e outros) que foi fornecida para o push não existe para o aplicativo do trabalho. Por exemplo, a plataforma pode coletar tokens de push do iOS, mas não tem um serviço de APNS configurado.
+   * A plataforma de push (APNS, FCM e outros) que foi fornecida para o push não existe para o aplicativo do trabalho. Por exemplo, a plataforma pode coletar tokens de push do iOS, mas não tem o serviço APNS configurado.
 
-   * A mensagem pode ter falhado porque o serviço de push não foi configurado corretamente ou o sistema Mobile Services está desativado.
+   * A mensagem pode ter falhado porque o serviço de push não foi configurado corretamente ou o sistema Mobile Services está inativo.
    >[!IMPORTANT]
    >
-   >Caso haja um grande número incomum de falhas, verifique a configuração dos serviços de push. Se os serviços de push estiverem configurados corretamente, entre em contato com o Atendimento ao cliente da Adobe.
+   >Se você tiver um número invulgarmente grande de falhas, verifique a configuração dos serviços de push. Se os serviços de push parecerem estar configurados corretamente, entre em contato com o Atendimento ao cliente da Adobe.
 
 * **[!UICONTROL Não autorizado]**
 
-   O número de tokens de dispositivo inválidos para enviar ao serviço APNS ou FCM. Isto normalmente significa que o aplicativo foi desinstalado do dispositivo ou o usuário alterou suas configurações de autorização para receber mensagens. O Android e o iOS diferem sobre quando os tokens são considerados como bloqueados. Os tokens do Android são imediatamente mostrados na contagem da lista negra. Os tokens do iOS são inicialmente exibidos como publicados, mas com base no feedback do APNS, são mostrados como bloqueados nas mensagens subsequentes.
+   O número de tokens de dispositivo inválidos para enviar ao serviço APNS ou FCM. Isto normalmente significa que o aplicativo foi desinstalado do dispositivo ou o usuário alterou suas configurações de autorização para receber mensagens. O Android e o iOS diferem sobre quando os tokens são contados como negados listados. Os tokens do Android são imediatamente exibidos na contagem de lista de negação. Os tokens do iOS são exibidos inicialmente como publicados, mas com base no feedback do APNS, são mostrados como negados listados nas mensagens subsequentes.
