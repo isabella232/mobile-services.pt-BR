@@ -4,11 +4,11 @@ seo-description: Para começar a usar o Device Co-op da Experience Cloud, entre 
 seo-title: Device Co-op da Experience Cloud
 title: Device Co-op da Experience Cloud
 uuid: 7bb8a19c-4b80-4911-879d-f9941baa3b62
-translation-type: ht
-source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
-workflow-type: ht
-source-wordcount: '290'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e6af295ddc5fea2a3e649b659894e6c6123a3457
+workflow-type: tm+mt
+source-wordcount: '291'
+ht-degree: 90%
 
 ---
 
@@ -44,7 +44,7 @@ Aqui estão algumas informações adicionais sobre o sinalizador `coopUnsafe`:
 * O valor padrão é `false`.
 * Essa configuração é usada **somente** para clientes provisionados do Device Co-op.
 
-Para membros do Device Co-op que requerem que esse valor seja definido como `true`, é necessário trabalhar com a equipe do Co-op para solicitar um sinalizador de lista de bloqueios em sua conta do Device Co-op. Não há um caminho de autoatendimento para habilitar esses sinalizadores.
+For Device Co-op members who require this value set to `true`, you need to work with the Co-op team to request a deny list flag on your Device Co-op account. Não há um caminho de autoatendimento para habilitar esses sinalizadores.
 
 Lembre-se das seguintes informações:
 
