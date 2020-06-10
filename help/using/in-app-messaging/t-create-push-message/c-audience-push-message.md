@@ -1,14 +1,17 @@
 ---
 description: É possível definir e configurar as opções de público-alvo para mensagens de push, incluindo as opções de intervalo de data, os segmentos do Analytics e os segmentos personalizados.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: É possível definir e configurar as opções de público-alvo para mensagens de push, incluindo as opções de intervalo de data, os segmentos do Analytics e os segmentos personalizados.
 seo-title: Público Definir e configurar os segmentos de público para as mensagens por push
-solution: Experience Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Público Definir e configurar os segmentos de público para as mensagens por push
-topic: Métricas
+topic: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
-translation-type: ht
-source-git-commit: f28ea0db13b8d8f209d7521d1f61f1c290e688aa
+translation-type: tm+mt
+source-git-commit: e6af295ddc5fea2a3e649b659894e6c6123a3457
+workflow-type: tm+mt
+source-wordcount: '1024'
+ht-degree: 76%
 
 ---
 
@@ -21,13 +24,13 @@ source-git-commit: f28ea0db13b8d8f209d7521d1f61f1c290e688aa
 
 Quando um segmento de público-alvo das mensagens de push é criado, o segmento pode envolver usuários de um ou mais aplicativos porque os conjuntos de relatórios ou conjuntos de relatórios virtuais podem conter dados de um ou mais aplicativos. Para obter mais informações sobre conjuntos de relatórios virtuais, consulte  [Conjuntos de relatórios virtuais](/help/using/manage-apps/c-mob-vrs.md).
 
-No Adobe Mobile Services, os profissionais de marketing podem apenas enviar para um aplicativo por plataforma. Se os profissionais de marketing tentarem enviar para segmentos que contêm usuários de vários aplicativos, será exibido um aviso afirmando que o processo pode resultar em falhas de envio graves e na possível inclusão de usuários na lista negra. Se você tiver uma falha de envio por push, consulte *Solução de falhas de envio por push* em [Solucionar problemas de mensagens por push](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md)
+No Adobe Mobile Services, os profissionais de marketing podem enviar somente para um aplicativo por plataforma. Se os profissionais de marketing tentarem encaminhar para segmentos que contêm usuários de vários aplicativos, um aviso será exibido informando que o processo pode resultar em falhas graves de envio e na lista de negação potencial dos usuários. Se você tiver uma falha de envio por push, consulte *Solução de falhas de envio por push* em [Solucionar problemas de mensagens por push](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md)
 
 Para usar os dados do Audience Manager na definição do seu segmento, consulte [Análise de público-alvo](https://docs.adobe.com/content/help/pt-BR/analytics/integration/audience-analytics/mc-audiences-aam.html).
 
 >[!IMPORTANT]
 >
->Se os usuários do aplicativo forem incluídos na blacklist, os profissionais de marketing **não** poderão voltar a enviar mensagens por push para esses usuários.
+>If app users are deny listed, marketers can **never** send push messages to those affected users again.
 
 Se você selecionar um segmento de público que contenha usuários de vários aplicativos, você pode ver o seguinte alerta:
 
@@ -39,7 +42,7 @@ O nome do aplicativo é baseado na versão reduzida do appId, que é automaticam
 >
 >O número da versão é opcional.
 
-São removidos até 6 conjuntos de números para a versão e até 5 conjuntos de números para a ID do pacote.
+Até 6 conjuntos de números para a versão e 5 conjuntos de números para a ID do pacote são removidos.
 
 Por exemplo:
 
@@ -60,11 +63,11 @@ Isso garante que as notificações por push sejam enviadas para um segmento de p
 
 ### Exemplos
 
-Alguns exemplos para ajudá-lo a entender como definir segmentos corretamente:
+Estes são alguns exemplos para ajudá-lo a entender como definir segmentos corretamente:
 
-**Sim**: o profissional de marketing fornece certificados de push das versões para iOS e Android de um aplicativo, por exemplo, para o Adobe Photoshop. O profissional de marketing pode enviar uma notificação por push para um segmento de usuário que abrange as duas plataformas.
+**Fazer**: O profissional de marketing fornece certificados de push para as versões para iOS e Android de um aplicativo, por exemplo, para o Adobe Photoshop. O profissional de marketing pode enviar uma notificação por push para um segmento de usuário que se estende por ambas as plataformas.
 
-**Não**: os profissionais de marketing fornecem certificados de push das versões para iOS e Android de um aplicativo, por exemplo, para o Adobe Photoshop. Se o profissional de marketing criar e enviar um push para um segmento de *todos os usuários ativos nos últimos 30 dias*, apenas os usuários do aplicativo Adobe Photoshop para iOS e Android receberão o push e todos os usuários desses aplicativos serão adicionados à lista negra. Para obter mais detalhes, consulte *Solução de falhas de mensagem por push* em [Solucionar problemas de mensagens por push](/help/using/in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md).
+**Não**: Os profissionais de marketing fornecem certificados de push para versões iOS e Android de um aplicativo, por exemplo, para o Adobe Photoshop. Se o profissional de marketing criar e enviar para um segmento de *todos os usuários ativos nos últimos 30 dias*, somente os usuários do aplicativo Adobe Photoshop iOS e Android receberão o push, e todos os usuários do aplicativo Adobe Illustrator iOS e Android não serão listados. Para obter mais detalhes, consulte *Solução de falhas de mensagem por push* em [Solucionar problemas de mensagens por push](/help/using/in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md).
 
 ## Configurar segmentos de público {#section_A92C60885A30421B8150820EC1CCBF13}
 
@@ -76,7 +79,7 @@ Alguns exemplos para ajudá-lo a entender como definir segmentos corretamente:
 
    * O **[!UICONTROL Público-alvo estimado de aceitação]** é o número de dispositivos que combinam o segmento do Adobe Analytics **e** o número de dispositivos de aceitação.
 
-      É possível exibir uma estimativa do número de usuários nos segmentos selecionados que aceitaram receber mensagens e receberão a mensagem de push. O número total de usuários do aplicativo é exibido abaixo da estimativa, independentemente do status da aceitação.
+      Você pode visualização uma estimativa do número de usuários em seus segmentos selecionados que opt in receber mensagens e receberão a mensagem de push. O número total de usuários do aplicativo é exibido abaixo da estimativa, independentemente do status de aceitação.
 
    * O **[!UICONTROL Total]** é o número de dispositivos que correspondem ao segmento do Adobe Analytics.
 
