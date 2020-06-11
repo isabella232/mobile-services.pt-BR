@@ -8,9 +8,9 @@ title: Público Definir e configurar os segmentos de público para as mensagens 
 topic: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
 translation-type: tm+mt
-source-git-commit: e6af295ddc5fea2a3e649b659894e6c6123a3457
+source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1021'
 ht-degree: 76%
 
 ---
@@ -24,13 +24,13 @@ ht-degree: 76%
 
 Quando um segmento de público-alvo das mensagens de push é criado, o segmento pode envolver usuários de um ou mais aplicativos porque os conjuntos de relatórios ou conjuntos de relatórios virtuais podem conter dados de um ou mais aplicativos. Para obter mais informações sobre conjuntos de relatórios virtuais, consulte  [Conjuntos de relatórios virtuais](/help/using/manage-apps/c-mob-vrs.md).
 
-No Adobe Mobile Services, os profissionais de marketing podem enviar somente para um aplicativo por plataforma. Se os profissionais de marketing tentarem encaminhar para segmentos que contêm usuários de vários aplicativos, um aviso será exibido informando que o processo pode resultar em falhas graves de envio e na lista de negação potencial dos usuários. Se você tiver uma falha de envio por push, consulte *Solução de falhas de envio por push* em [Solucionar problemas de mensagens por push](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md)
+No Adobe Mobile Services, os profissionais de marketing podem enviar somente para um aplicativo por plataforma. Se os profissionais de marketing tentarem enviar para segmentos que contêm usuários de vários aplicativos, um aviso será exibido informando que o processo pode resultar em falhas graves de envio e na possível listagem de usuários bloqueados. Se você tiver uma falha de envio por push, consulte *Solução de falhas de envio por push* em [Solucionar problemas de mensagens por push](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md)
 
 Para usar os dados do Audience Manager na definição do seu segmento, consulte [Análise de público-alvo](https://docs.adobe.com/content/help/pt-BR/analytics/integration/audience-analytics/mc-audiences-aam.html).
 
 >[!IMPORTANT]
 >
->If app users are deny listed, marketers can **never** send push messages to those affected users again.
+>If app users are blocklisted, marketers can **never** send push messages to those affected users again.
 
 Se você selecionar um segmento de público que contenha usuários de vários aplicativos, você pode ver o seguinte alerta:
 
@@ -67,7 +67,7 @@ Estes são alguns exemplos para ajudá-lo a entender como definir segmentos corr
 
 **Fazer**: O profissional de marketing fornece certificados de push para as versões para iOS e Android de um aplicativo, por exemplo, para o Adobe Photoshop. O profissional de marketing pode enviar uma notificação por push para um segmento de usuário que se estende por ambas as plataformas.
 
-**Não**: Os profissionais de marketing fornecem certificados de push para versões iOS e Android de um aplicativo, por exemplo, para o Adobe Photoshop. Se o profissional de marketing criar e enviar para um segmento de *todos os usuários ativos nos últimos 30 dias*, somente os usuários do aplicativo Adobe Photoshop iOS e Android receberão o push, e todos os usuários do aplicativo Adobe Illustrator iOS e Android não serão listados. Para obter mais detalhes, consulte *Solução de falhas de mensagem por push* em [Solucionar problemas de mensagens por push](/help/using/in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md).
+**Não**: Os profissionais de marketing fornecem certificados de push para versões iOS e Android de um aplicativo, por exemplo, para o Adobe Photoshop. Se o comerciante criar e enviar para um segmento de *todos os usuários ativos nos últimos 30 dias*, somente os usuários do aplicativo Adobe Photoshop iOS e Android receberão o push e todos os usuários do aplicativo Adobe Illustrator iOS e Android serão bloqueados. Para obter mais detalhes, consulte *Solução de falhas de mensagem por push* em [Solucionar problemas de mensagens por push](/help/using/in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md).
 
 ## Configurar segmentos de público {#section_A92C60885A30421B8150820EC1CCBF13}
 
