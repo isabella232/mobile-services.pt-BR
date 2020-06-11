@@ -7,9 +7,9 @@ title: Configuração JSON do ADBMobile
 topic: Developer and implementation
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
 translation-type: tm+mt
-source-git-commit: e6af295ddc5fea2a3e649b659894e6c6123a3457
+source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1715'
 ht-degree: 98%
 
 ---
@@ -89,12 +89,13 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
 
 * **coopUnsafe**
 
-   For Device Co-op members who require this value be set to `true`, you need to work with the Co-op team to request a deny list flag on your Device Co-op account. Não há um caminho de autoatendimento para habilitar esses sinalizadores.
+   For Device Co-op members who require this value be set to `true`, you need to work with the Co-op team to request a blocklist flag on your Device Co-op account. Não há um caminho de autoatendimento para habilitar esses sinalizadores.
 
    Lembre-se das seguintes informações:
 
    * Quando `coopUnsafe` estiver definido como `true`, `coop_unsafe=1` sempre será anexado a ocorrências do Audience Manager e da ID do visitante.
    * Se você habilitar o encaminhamento pelo lado do servidor do Analytics para o Audience Manager, você também verá `coop_unsafe=1` em ocorrências do Analytics.
+
    Estas são algumas informações adicionais:
 
    * Versão mínima do SDK: 4.16.1
