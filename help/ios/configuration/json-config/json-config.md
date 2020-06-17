@@ -73,7 +73,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
 
 * **charset**
 
-   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte [s.charSet](https://docs.adobe.com/content/help/br/analytics/implementation/vars/config-vars/charset.html).
+   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte [s.charSet](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/config-vars/charset.html).
 
    * Versão mínima do SDK: 4.0
 
@@ -134,7 +134,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
    * Se o carimbo de data e hora estiver ativado no conjunto de relatórios, sua propriedade de configuração `offlineEnabled` *deve* ser verdadeira.
    * Caso o conjunto de relatórios não tenha um carimbo de data e hora, sua propriedade de configuração `offlineEnabled` *deve* ser “false”.
 
-      Se isso não for configurado corretamente, os dados serão perdidos. Se você não tem certeza se um conjunto de relatórios tem um carimbo de data e hora,  entre em contato com o  Atendimento ao Cliente ou baixe o arquivo de configuração em Adobe Mobile Services. Caso esteja relatando dados AppMeasurement para um conjunto de relatórios que também coleta dados JavaScript, pode ser necessário configurar um conjunto de relatórios separado para dados móveis, a fim de evitar a perda de dados, ou incluir um carimbo de data e hora personalizado nas ocorrências de JavaScript que usam a variável `s.timestamp`.
+      Se isso não for configurado corretamente, os dados serão perdidos. Se você não tem certeza se um conjunto de relatórios tem um carimbo de data e hora, entre em contato com o Atendimento ao Cliente ou baixe o arquivo de configuração em Adobe Mobile Services. Caso esteja relatando dados AppMeasurement para um conjunto de relatórios que também coleta dados JavaScript, pode ser necessário configurar um conjunto de relatórios separado para dados móveis, a fim de evitar a perda de dados, ou incluir um carimbo de data e hora personalizado nas ocorrências de JavaScript que usam a variável `s.timestamp`.
 
    * Versão mínima do SDK: 4.0
 
@@ -413,7 +413,7 @@ O nó de mensagens é gerado automaticamente pelo Adobe Mobile Services e geralm
 
 * &quot;showRule&quot;
 
-   * &quot;sempre&quot;, &quot;uma vez” ou &quot;untilClick&quot;
+   * &quot;sempre&quot;, &quot;uma vez&quot; ou &quot;untilClick&quot;
    * obrigatório
 
 * &quot;endDate&quot;
