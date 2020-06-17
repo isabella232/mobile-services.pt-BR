@@ -23,7 +23,7 @@ Para habilitar seus aplicativos móveis para o Device Co-op da Experience Cloud,
 >
 >Esta funcionalidade exige a versão 4.8.3 ou posterior do SDK do Android.
 
-A partir do SDK versão 4.16.1, os membros do Device Co-op podem excluir os dados do dispositivo móvel do Device Co-op da Experience Cloud. Para obter mais informações, consulte [ADBMobile JSON Config](/help/android/configuration/json-config/json-config.md) e o `visitorAPI.js` método para [isCoopSafe](https://docs.adobe.com/content/help/br/id-service/using/id-service-api/configurations/coopsafe.html).
+A partir do SDK versão 4.16.1, os membros do Device Co-op podem excluir os dados do dispositivo móvel do Device Co-op da Experience Cloud. Para obter mais informações, consulte [ADBMobile JSON Config](/help/android/configuration/json-config/json-config.md) e o `visitorAPI.js` método para [isCoopSafe](https://docs.adobe.com/content/help/pt-BR/id-service/using/id-service-api/configurations/coopsafe.html).
 
 1. Implemente o SDK do Adobe Mobile.
 
