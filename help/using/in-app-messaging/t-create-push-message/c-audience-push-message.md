@@ -11,20 +11,20 @@ translation-type: tm+mt
 source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 76%
+ht-degree: 90%
 
 ---
 
 
-# Público: mensagens por push{#audience-define-and-configure-audience-segments-for-push-messages}
+# Público: mensagens por push {#audience-define-and-configure-audience-segments-for-push-messages}
 
 É possível definir e configurar as opções de público-alvo para mensagens de push, incluindo as opções de intervalo de data, os segmentos do Analytics e os segmentos personalizados.
 
 ## Definir segmentos de público {#section_7C4D2393CF7441959FE2381A02867CAC}
 
-Quando um segmento de público-alvo das mensagens de push é criado, o segmento pode envolver usuários de um ou mais aplicativos porque os conjuntos de relatórios ou conjuntos de relatórios virtuais podem conter dados de um ou mais aplicativos. Para obter mais informações sobre conjuntos de relatórios virtuais, consulte  [Conjuntos de relatórios virtuais](/help/using/manage-apps/c-mob-vrs.md).
+Quando um segmento de público-alvo das mensagens de push é criado, o segmento pode envolver usuários de um ou mais aplicativos porque os conjuntos de relatórios ou conjuntos de relatórios virtuais podem conter dados de um ou mais aplicativos. Para obter mais informações sobre conjuntos de relatórios virtuais, consulte [Conjuntos de relatórios virtuais](/help/using/manage-apps/c-mob-vrs.md).
 
-No Adobe Mobile Services, os profissionais de marketing podem enviar somente para um aplicativo por plataforma. Se os profissionais de marketing tentarem enviar para segmentos que contêm usuários de vários aplicativos, um aviso será exibido informando que o processo pode resultar em falhas graves de envio e na possível listagem de usuários bloqueados. Se você tiver uma falha de envio por push, consulte *Solução de falhas de envio por push* em [Solucionar problemas de mensagens por push](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md)
+No Adobe Mobile Services, os profissionais de marketing podem enviar somente para um aplicativo por plataforma. Se os profissionais de marketing tentarem enviar para segmentos que contêm usuários de vários aplicativos, um aviso será exibido informando que o processo pode resultar em falhas graves de envio e na possível listagem de usuários bloqueados. Se você tiver uma falha de envio por push, consulte *Solução de falhas de envio por push* em [Solucionar problemas de mensagens por push](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md).
 
 Para usar os dados do Audience Manager na definição do seu segmento, consulte [Análise de público-alvo](https://docs.adobe.com/content/help/pt-BR/analytics/integration/audience-analytics/mc-audiences-aam.html).
 
@@ -63,11 +63,11 @@ Isso garante que as notificações por push sejam enviadas para um segmento de p
 
 ### Exemplos
 
-Estes são alguns exemplos para ajudá-lo a entender como definir segmentos corretamente:
+Estes são alguns exemplos para ajudar você a entender como definir segmentos corretamente:
 
-**Fazer**: O profissional de marketing fornece certificados de push para as versões para iOS e Android de um aplicativo, por exemplo, para o Adobe Photoshop. O profissional de marketing pode enviar uma notificação por push para um segmento de usuário que se estende por ambas as plataformas.
+**Permitido**: o profissional de marketing fornecer certificados de push para as versões para iOS e Android de um aplicativo, por exemplo, para o Adobe Photoshop. O profissional de marketing pode enviar uma notificação por push para um segmento de usuário que se estende por ambas as plataformas.
 
-**Não**: Os profissionais de marketing fornecem certificados de push para versões iOS e Android de um aplicativo, por exemplo, para o Adobe Photoshop. Se o comerciante criar e enviar para um segmento de *todos os usuários ativos nos últimos 30 dias*, somente os usuários do aplicativo Adobe Photoshop iOS e Android receberão o push e todos os usuários do aplicativo Adobe Illustrator iOS e Android serão bloqueados. Para obter mais detalhes, consulte *Solução de falhas de mensagem por push* em [Solucionar problemas de mensagens por push](/help/using/in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md).
+**Não permitido**: os profissionais de marketing fornecerem certificados de push para versões iOS e Android de um aplicativo, por exemplo, para o Adobe Photoshop. If the marketer creates and pushes to a segment of *all active users in the last 30 days*, only the users of the Adobe Photoshop iOS and Android app receive the push, and all of the Adobe Illustrator iOS and Android app users will be blocklisted. Para obter mais detalhes, consulte *Solução de falhas de mensagem por push* em [Solucionar problemas de mensagens por push](/help/using/in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md).
 
 ## Configurar segmentos de público {#section_A92C60885A30421B8150820EC1CCBF13}
 
@@ -79,7 +79,7 @@ Estes são alguns exemplos para ajudá-lo a entender como definir segmentos corr
 
    * O **[!UICONTROL Público-alvo estimado de aceitação]** é o número de dispositivos que combinam o segmento do Adobe Analytics **e** o número de dispositivos de aceitação.
 
-      Você pode visualização uma estimativa do número de usuários em seus segmentos selecionados que opt in receber mensagens e receberão a mensagem de push. O número total de usuários do aplicativo é exibido abaixo da estimativa, independentemente do status de aceitação.
+      Você pode visualizar uma estimativa do número de usuários em seus segmentos selecionados que optaram por receber mensagens e receberão a mensagem de push. O número total de usuários do aplicativo é exibido abaixo da estimativa, independentemente do status de aceitação.
 
    * O **[!UICONTROL Total]** é o número de dispositivos que correspondem ao segmento do Adobe Analytics.
 
@@ -91,9 +91,9 @@ Estes são alguns exemplos para ajudá-lo a entender como definir segmentos corr
 
    * Para obter mais informações sobre como solucionar problemas de mensagens de push, consulte o seguinte:
 
-      * [Mensagens por push no iOS](https://docs.adobe.com/content/help/pt/mobile-services/ios/messaging-ios/push-messaging/push-messaging.html)
+      * [Mensagens por push no iOS](https://docs.adobe.com/content/help/pt-BR/mobile-services/ios/messaging-ios/push-messaging/push-messaging.html)
 
-      * [Mensagens por push no Android](https://docs.adobe.com/content/help/pt/mobile-services/android/messaging-android/push-messaging/push-messaging.html)
+      * [Mensagens por push no Android](https://docs.adobe.com/content/help/pt-BR/mobile-services/android/messaging-android/push-messaging/push-messaging.html)
 
 1. Digite informações nos seguintes campos:
 
