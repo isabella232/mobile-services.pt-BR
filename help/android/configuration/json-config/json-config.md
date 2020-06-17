@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
 workflow-type: tm+mt
 source-wordcount: '1678'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -63,7 +63,7 @@ Veja a seguir uma lista das variáveis no arquivo JSON e a versão mínima do SD
    * Versão mínima do SDK: 4.1
    * Limite de números de ocorrências que serão enviadas em chamadas consecutivas.
 
-      Por exemplo, se o `batchLimit` for definido como 10, cada ocorrência antes da 10ª será armazenada na fila. Quando a 10ª ocorrência entrar, todas as 10 ocorrências serão enviadas consecutivamente.
+      Por exemplo, se o `batchLimit` for definido como 10, cada ocorrência antes da 10ª será armazenada na fila. Quando a 10ª ocorrência entrar, todas as 10 ocorrências serão enviadas na ordem.
 
       Lembre-se das seguintes informações:
 
@@ -74,7 +74,7 @@ Veja a seguir uma lista das variáveis no arquivo JSON e a versão mínima do SD
    * Versão mínima do SDK: 4.0
    * Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics.
 
-      O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. 
+      O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios.
 
 * **clientCode**
    * Versão mínima do SDK: 4.0
@@ -326,7 +326,7 @@ O nó de mensagens é gerado automaticamente pelo Adobe Mobile Services e geralm
    * o padrão é falso
 
 * &quot;showRule&quot;
-   * &quot;sempre&quot;, &quot;uma vez” ou &quot;untilClick&quot;
+   * &quot;sempre&quot;, &quot;uma vez&quot; ou &quot;untilClick&quot;
    * obrigatório
 
 * &quot;endDate&quot;
@@ -371,7 +371,7 @@ O nó de mensagens é gerado automaticamente pelo Adobe Mobile Services e geralm
 
 
 * &quot;audiences&quot;
-   * matriz de objetos que define como a mensagem deve ser exibida
+   * matriz de objetos que define como a mensagem deve ser mostrada
    * &quot;key&quot;
       * nome da variável a ser procurada na ocorrência, obrigatório
 * &quot;matches&quot;
@@ -389,12 +389,12 @@ O nó de mensagens é gerado automaticamente pelo Adobe Mobile Services e geralm
    * gt = maior que
    * ge = maior que ou igual
 * &quot;values&quot;
-   * uma matriz de valores usada para corresponder ao valor da variável nomeada em
+   * matriz de valores usada para corresponder com o valor da variável nomeada na
       * key
       * com o tipo de correspondência em
       * matches
 * &quot;triggers&quot;
-   * o mesmo que audiências, mas esta é a ação em vez da audiência
+   * o mesmo que públicos, mas esta é a ação em vez do público
    * &quot;key&quot;
    * &quot;matches&quot;
    * &quot;values&quot;
