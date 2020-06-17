@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 59%
+ht-degree: 91%
 
 ---
 
 
-# Solucionar problemas de mensagens por push{#troubleshooting-push-messaging}
+# Solucionar problemas de mensagens por push {#troubleshooting-push-messaging}
 
 Estas informações podem ajudar a solucionar problemas com as mensagens de push.
 
@@ -32,7 +32,7 @@ Os seguintes tipos de atrasos podem estar associados a mensagens de push para os
 
 * **Aguardando o serviço de push**
 
-   O serviço de push (APNS ou GCM) pode não enviar a mensagem imediatamente. Embora seja incomum, houve ocorrências de tempos de espera de 5 a 10 minutos. É possível verificar se a mensagem de push foi enviada ao serviço de push na exibição **[!UICONTROL Relatório]** da mensagem de push, localizando a mensagem na tabela **[!UICONTROL Histórico de mensagens]** e verificando a contagem de **[!UICONTROL Publicado]**.
+   O serviço de push (APNS ou GCM) pode não enviar imediatamente a mensagem. Embora seja incomum, houve ocorrências de tempos de espera de 5 a 10 minutos. É possível verificar se a mensagem de push foi enviada ao serviço de push na exibição **[!UICONTROL Relatório]** da mensagem de push, localizando a mensagem na tabela **[!UICONTROL Histórico de mensagens]** e verificando a contagem de **[!UICONTROL Publicado]**.
 
    >[!TIP]
    >
@@ -47,12 +47,12 @@ Os seguintes tipos de atrasos podem estar associados a mensagens de push para os
 
 * **Chave de API inválida**
 
-   Sua chave da API pode ser inválida pelos seguintes motivos:
+   Sua chave de API pode estar inválida pelos seguintes motivos:
 
    * A chave de API fornecida não é uma chave de servidor com o valor correto da chave de API GCM.
    * A chave do servidor permitiu os IPs e está impedindo os servidores da Adobe de enviarem uma mensagem de push.
 
-* **Determine a validade da chave da API**
+* **Determine a validade da chave de API**
 
    Para determinar a validade da sua chave de API, execute o seguinte comando:
 
@@ -77,10 +77,10 @@ Os seguintes tipos de atrasos podem estar associados a mensagens de push para os
 
 ## Por que meu certificado APNS não está funcionando?
 
-Seu certificado APNS pode ser inválido pelos seguintes motivos:
+Seu certificado APNS pode estar inválido pelos seguintes motivos:
 
 * Você pode estar usando um certificado de sandbox em vez do certificado de produção.
-* Você está usando um novo certificado de produção/sandbox que não é suportado.
+* Você está usando um novo certificado de produção/sandbox que não é compatível.
 * Você está usando um arquivo `.p8` em vez de `.p12`.
 
 ## Resolução de falhas na mensagem de push
@@ -100,7 +100,7 @@ O seguinte cliente tem dois aplicativos iOS:
    * RSID: PhotoShop_iOS_app_LA
    * Segmento de definição de VRSID: `a.os contains “iOS”`
 
-Neste exemplo, se um colaborador do Photoshop enviar uma mensagem por push para o aplicativo *PhotoShop_iOS_app_SF*, todos os usuários do *aplicativo PhotoShop_iOS_app_SF* receberão a mensagem como esperado. Porém, se o colaborador enviar uma mensagem para o aplicativo *PhotoShop_app_LA*, porque o segmento de definição do VRSID está incorreto (`iOS` em vez de `a.os contains "PhotoShop_iOS_app_LA"`), a mensagem será enviada para **todos** os usuários do iOS em *AllAdobe PhotoShop_apps*. Although the message still goes to *PhotoShop_iOS_app_LA* users, the message also blocklists the push IDs for *PhotoShop_iOS_app_SF* users because the *PhotoShop_iOS_app_SF* app has a different certificate. Se o segmento tivesse sido definido como `a.os contains “PhotoShop_iOS_app_LA”`, a mensagem por push teria sido enviada apenas para os usuários do *PhotoShop_iOS_app_LA*.
+Neste exemplo, se um colaborador do Photoshop enviar uma mensagem por push para o aplicativo *PhotoShop_iOS_app_SF*, todos os usuários do *aplicativo PhotoShop_iOS_app_SF* receberão a mensagem como esperado. Porém, se o colaborador enviar uma mensagem para o aplicativo *PhotoShop_iOS_app_LA*, porque o segmento de definição do VRSID está incorreto (`iOS` em vez de `a.os contains "PhotoShop_iOS_app_LA"`), a mensagem será enviada para **todos** os usuários do iOS em *AllAdobe PhotoShop_apps*. Although the message still goes to *PhotoShop_iOS_app_LA* users, the message also blocklists the push IDs for *PhotoShop_iOS_app_SF* users because the *PhotoShop_iOS_app_SF* app has a different certificate. Se o segmento tivesse sido definido como `a.os contains “PhotoShop_iOS_app_LA”`, a mensagem por push teria sido enviada apenas para os usuários do *PhotoShop_iOS_app_LA*.
 
 Se aprovados com o certificado de push do *PhotoShop_IOS_app_LA*, os identificadores de push para o *PhotoShop_iOS_app_SF* voltam como `invalid`.
 
