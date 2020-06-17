@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: 33297c9e6537f664222c91a44c20bb9ab2ee310a
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 78%
+ht-degree: 91%
 
 ---
 
 
-# Visualizar relatórios de mensagem{#view-message-reports}
+# Visualizar relatórios de mensagem {#view-message-reports}
 
 Você pode exibir relatórios de mensagens para mensagens no aplicativo e de push.
 
@@ -87,7 +87,7 @@ Esta é uma lista das métricas disponíveis para mensagens por push:
    * A mensagem pode ter falhado porque o serviço de push não foi configurado corretamente ou o sistema Mobile Services está inativo.
    >[!IMPORTANT]
    >
-   >Se você tiver um número invulgarmente grande de falhas, verifique a configuração dos serviços de push. Se os serviços de push parecerem estar configurados corretamente, entre em contato com o Atendimento ao cliente da Adobe.
+   >Se você tiver um número muito grande de falhas, verifique a configuração dos serviços de push. Se os serviços de push parecerem estar configurados corretamente, entre em contato com o Atendimento ao cliente da Adobe.
 
 * **[!UICONTROL Negar lista]**
 
