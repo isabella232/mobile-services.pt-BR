@@ -1,30 +1,33 @@
 ---
-description: É possível fornecer mensagens no aplicativo disparadas dos dados do Analytics ou de eventos. Depois da implementação, as mensagens são fornecidas dinamicamente ao aplicativo e não necessitam uma atualização de código.
-seo-description: É possível fornecer mensagens no aplicativo disparadas dos dados do Analytics ou de eventos. Depois da implementação, as mensagens são fornecidas dinamicamente ao aplicativo e não necessitam uma atualização de código.
+description: Você pode fornecer mensagens no aplicativo que são acionadas a partir de qualquer evento ou dado de análise. Após a implementação, as mensagens são entregues dinamicamente ao aplicativo e não exigem uma atualização de código.
+seo-description: Você pode fornecer mensagens no aplicativo que são acionadas a partir de qualquer evento ou dado de análise. Após a implementação, as mensagens são entregues dinamicamente ao aplicativo e não exigem uma atualização de código.
 seo-title: Mensagens no aplicativo
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Mensagens no aplicativo
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 351ee3d2-80b9-4f2d-9696-21f274d89f5a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+workflow-type: tm+mt
+source-wordcount: '803'
+ht-degree: 61%
 
 ---
 
 
 # Mensagens no aplicativo {#in-app-messaging}
 
-É possível fornecer mensagens no aplicativo disparadas dos dados do Analytics ou de eventos. Depois da implementação, as mensagens são fornecidas dinamicamente ao aplicativo e não necessitam uma atualização de código.
+Você pode fornecer mensagens no aplicativo que são acionadas a partir de qualquer evento ou dado de análise. Após a implementação, as mensagens são entregues dinamicamente ao aplicativo e não exigem uma atualização de código.
 
 ## Nova versão do SDK da Adobe Experience Cloud
 
-Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para acessar a documentação mais recente.
+Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para obter a documentação mais recente.
 
 >[!IMPORTANT]
 >
 >Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/br/experience-platform/launch.html).
 
-* Para começar, acesse o [Launch](https://launch.adobe.com/).
+* To get started, go to [Launch](https://launch.adobe.com/).
 * Para ver o conteúdo dos repositórios SDK da Experience Platform, acesse [Github: SDKs da Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 >[!IMPORTANT]
@@ -33,9 +36,9 @@ Procurando informações e documentação relacionadas ao Adobe Experience Platf
 
 >[!IMPORTANT]
 >
->Para usar as mensagens no aplicativo, você **deve** ter a versão 4.2 ou posterior do SDK.
+>To use in-app messaging, you **must** have SDK version 4.2 or later.
 
-É possível criar mensagens e regras no Adobe Mobile Services que definem quando as mensagens são exibidas. Para obter mais informações, consulte [Criar uma mensagem no aplicativo](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md). Para exibir mensagens no aplicativo, devem ser feitas atualizações no SDK. É possível completar essas etapas mesmo que não tenha definido nenhuma mensagem. Depois de definir as mensagens, elas serão entregues dinamicamente ao seu aplicativo e exibidas sem uma atualização da app store.
+Você pode criar mensagens e regras nos Adobe Mobile Services que definem quando as mensagens são exibidas. For more information, see [Create an in-app message](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md). Para exibir mensagens no aplicativo, as atualizações devem ser feitas no SDK. Você pode concluir essas etapas mesmo que ainda não tenha definido nenhuma mensagem. Depois de definir as mensagens, elas serão entregues dinamicamente ao seu aplicativo e exibidas sem uma atualização da app store.
 
 ## Ativar mensagens no aplicativo {#section_380DF56C4EE4432A823940E4AE4C9E91}
 
@@ -117,9 +120,9 @@ Procurando informações e documentação relacionadas ao Adobe Experience Platf
 
 ## Rastreamento de mensagens no aplicativo {#section_B85CDF6929564AAEA79338B55E5CB1E8}
 
-Os SDKs do Android Mobile rastreiam as seguintes métricas de suas mensagens no aplicativo:
+Os SDKs móveis do Android rastreiam as seguintes métricas para as mensagens no aplicativo:
 
-* Para mensagens no aplicativo em tela inteira ou no estilo de alerta:
+* Para mensagens no aplicativo com estilo de tela cheia e de alerta:
 
    * **Impressões**: quando o usuário aciona uma mensagem no aplicativo.
    * **Click-throughs**: quando o usuário pressiona o botão **[!UICONTROL Click-through]**.
@@ -136,7 +139,7 @@ Os SDKs do Android Mobile rastreiam as seguintes métricas de suas mensagens no 
 
 ## Imagem de fallback local {#section_DEACC1CE549B4573B556A44A52409941}
 
-Ao criar uma mensagem de tela cheia, é possível especificar uma imagem de fallback. Se a mensagem não consegue recuperar a imagem desejada da Web, o SDK tenta carregar a imagem com o mesmo nome da pasta de ativos do aplicativo. Essa ação permite exibir a mensagem na forma original, mesmo que o usuário esteja offline, ou que a imagem predeterminada não possa ser alcançada.
+Ao criar uma mensagem em tela cheia, você pode especificar uma imagem de fallback. Se a mensagem não puder recuperar a imagem desejada da Web, o SDK tentará carregar a imagem com o mesmo nome da pasta de ativos do aplicativo. Isso permite que você mostre sua mensagem em sua forma original, mesmo se o usuário estiver offline ou se a imagem predeterminada for inacessível.
 
 >[!IMPORTANT]
 >
@@ -148,7 +151,7 @@ Os métodos a seguir permitem configurar os ícones pequeno e grande que aparece
 
 * **Config.setSmallIconResourceId(int resourceId)**
 
-   Define o ícone pequeno que será utilizado para notificações criadas pelo SDK. Este ícone é exibido na barra de status, e é a imagem secundária exibida quando o usuário visualiza a notificação por completo na central de notificações.
+   Defina o ícone pequeno que será usado para notificações criadas pelo SDK. Esse ícone é exibido na barra de status e é a imagem secundária que é exibida quando o usuário visualiza a notificação completa na central de notificações.
 
    * Esta é a sintaxe para este método:
 
