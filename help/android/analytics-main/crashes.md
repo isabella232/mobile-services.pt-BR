@@ -2,12 +2,15 @@
 description: Essas informações ajudam a entender como as falhas são rastreadas e as práticas recomendadas para lidar com falsas falhas.
 seo-description: Essas informações ajudam a entender como as falhas são rastreadas e as práticas recomendadas para lidar com falsas falhas.
 seo-title: Rastreamento de falhas do aplicativo
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Rastreamento de falhas do aplicativo
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 3ab98c14-ccdf-4060-ad88-ec07c1c6bf07
-translation-type: ht
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+translation-type: tm+mt
+source-git-commit: 161212216565d56e346abc664197fedbea83d6a0
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 93%
 
 ---
 
@@ -28,7 +31,7 @@ Para assegurar um relatório de falhas preciso, você deve chamar `pauseCollecti
 
 ![](assets/android-lifecycle.png)
 
-Para obter mais informações sobre o ciclo de vida de uma atividade no Android, consulte [Atividades](https://developer.android.com/guide/components/activities.html).
+For more information about the Android activity lifecycle, see [Activities](https://developer.android.com/guide/components/activities.html).
 
 *Esta ilustração do ciclo de vida do Android foi criada e[compartilhada pelo Projeto de fonte aberta do Android](https://source.android.com/)e usado de acordo com os termos na[Licença de atribuição dos Comuns criativos 2.5](https://creativecommons.org/licenses/by/2.5/).*
 
@@ -44,7 +47,7 @@ Para obter mais informações sobre o ciclo de vida de uma atividade no Android,
 
 ## Como gerenciar os Fragmentos?
 
-Os Fragmentos possuem eventos de ciclo de vida semelhantes às Atividades. Contudo, um Fragmento não pode ser ativado sem que tenha sido anexado a uma Atividade.
+Os fragmentos têm eventos de ciclo de vida do aplicativo semelhantes ao Atividade. No entanto, um Fragmento não pode estar ativo sem estar anexado a uma Atividade.
 
 >[!IMPORTANT]
 >
