@@ -6,11 +6,11 @@ solution: Marketing Cloud,Analytics
 title: Rastreamento de falhas do aplicativo
 topic: Developer and implementation
 uuid: 3ab98c14-ccdf-4060-ad88-ec07c1c6bf07
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 161212216565d56e346abc664197fedbea83d6a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ Para assegurar um relatório de falhas preciso, você deve chamar `pauseCollecti
 
 ![](assets/android-lifecycle.png)
 
-For more information about the Android activity lifecycle, see [Activities](https://developer.android.com/guide/components/activities.html).
+Para obter mais informações sobre o ciclo de vida da atividade do Android, consulte [Atividades](https://developer.android.com/guide/components/activities.html).
 
-*Esta ilustração do ciclo de vida do Android foi criada e[compartilhada pelo Projeto de fonte aberta do Android](https://source.android.com/)e usado de acordo com os termos na[Licença de atribuição dos Comuns criativos 2.5](https://creativecommons.org/licenses/by/2.5/).*
+*Esta ilustração do ciclo de vida do Android foi criada e [compartilhada pelo Projeto de fonte aberta do Android](https://source.android.com/) e usado de acordo com os termos na [Licença de atribuição dos Comuns criativos 2.5](https://creativecommons.org/licenses/by/2.5/).*
 
 ## O que pode causar o relato de falhas falsas?
 
@@ -47,7 +47,7 @@ For more information about the Android activity lifecycle, see [Activities](http
 
 ## Como gerenciar os Fragmentos?
 
-Os fragmentos têm eventos de ciclo de vida do aplicativo semelhantes ao Atividade. No entanto, um Fragmento não pode estar ativo sem estar anexado a uma Atividade.
+Os fragmentos têm eventos de ciclo de vida do aplicativo semelhantes a Atividades. No entanto, um Fragmento não pode estar ativo sem estar anexado a uma Atividade.
 
 >[!IMPORTANT]
 >
