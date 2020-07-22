@@ -6,11 +6,11 @@ solution: Marketing Cloud,Analytics
 title: Notas de versão
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 48c3addeb929f3356990ef55b44f93dd4bb2f728
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Veja a seguir as notas de versão, os problemas conhecidos e as informações de
 
 **16 de julho de 2020: Versão 4.19.3**
 
-* Geral - Corrigido um erro que impedia que URLs de deep link com vários parâmetros de query de igual fossem tratados corretamente.
+* Geral - Correção de um erro que impedia que URLs de deep link com vários parâmetros de query de logon fossem manipulados adequadamente.
 
 **24 de março de 2020: Versão 4.19.2**
 
