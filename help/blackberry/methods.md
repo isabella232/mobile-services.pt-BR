@@ -1,22 +1,25 @@
 ---
 description: Classes e métodos fornecidos pela biblioteca do BlackBerry.
 seo-description: Classes e métodos fornecidos pela biblioteca do BlackBerry.
-seo-title: Referência de classe e método do Adobe Mobile
-title: Referência de classe e método do Adobe Mobile
+seo-title: Referência de método e classe Adobe Mobile
+title: Referência de método e classe Adobe Mobile
 uuid: 1e42d759-be43-4bb3-ac1a-c7d64133d61c
 translation-type: tm+mt
-source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '988'
+ht-degree: 55%
 
 ---
 
 
-# Adobe Mobile class and method reference {#adobe-mobile-class-and-method-reference}
+# Referência de método e classe Adobe Mobile {#adobe-mobile-class-and-method-reference}
 
 Classes e métodos fornecidos pela biblioteca do BlackBerry.
 
 Atualmente, o SDK oferece suporte ao Adobe Analytics e os métodos estão em classes separadas com base na solução.
 
-## SDK settings {#section_C1EB977043C04D2B93E5A63DB72828B6}
+## Configurações do SDK {#section_C1EB977043C04D2B93E5A63DB72828B6}
 
 * **getPrivacyStatus**
 
@@ -24,7 +27,7 @@ Atualmente, o SDK oferece suporte ao Adobe Analytics e os métodos estão em cla
 
    * ADBMobilePrivacyStatusOptIn - as ocorrências são enviadas imediatamente.
    * ADBMobilePrivacyStatusOptOut - as ocorrências são descartadas.
-   * ADBMobilePrivacyStatusUnknown - Se o conjunto de relatórios estiver habilitado para mostrar o carimbo de data e hora, as ocorrências serão salvas até o status de privacidade ser alterado para opt-in (as ocorrências são enviadas) ou opt-out (as ocorrências são descartadas). Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in.
+   * ADBMobilePrivacyStatusUnknown - se o conjunto de relatórios tiver um carimbo de data e hora, as ocorrências serão salvas até que o status de privacidade seja alterado para aceitar (as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas). Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in.
 
       O valor padrão está definido no arquivo `ADBMobileConfig.json`.
 
@@ -46,7 +49,7 @@ Atualmente, o SDK oferece suporte ao Adobe Analytics e os métodos estão em cla
 
    * `ADBMobilePrivacyStatusOptIn` - as ocorrências são enviadas imediatamente.
    * `ADBMobilePrivacyStatusOptOut` - as ocorrências serão descartadas.
-   * `ADBMobilePrivacyStatusUnknown` - Se o conjunto de relatórios estiver habilitado para mostrar o carimbo de data e hora, as ocorrências serão salvas até o status de privacidade ser alterado para opt-in (as ocorrências são enviadas) ou opt-out (as ocorrências são descartadas). Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in.
+   * `ADBMobilePrivacyStatusUnknown` - Se o conjunto de relatórios tiver um carimbo de data e hora, as ocorrências serão salvas até o status de privacidade ser alterado para aceitar (as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas). Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in.
 
    * Esta é a sintaxe para este método:
 
@@ -143,17 +146,17 @@ Atualmente, o SDK oferece suporte ao Adobe Analytics e os métodos estão em cla
       }
       ```
 
-## Analytics methods {#section_91F4AD0A045D4E4E8F9A93450503E49E}
+## Métodos do Analytics {#section_91F4AD0A045D4E4E8F9A93450503E49E}
 
 Cada um desses métodos é usado para enviar dados para seu conjunto de relatórios do Adobe Analytics.
 
 * **trackState**
 
-   Rastreia um estado de aplicativo com dados de contexto opcionais. Os estados são as visualizações que estão disponíveis no seu aplicativo, como “painel inicial”, “configurações do aplicativo”, “carrinho” e assim por diante. Esses estados são semelhantes às páginas em um site e as chamadas de `trackState` aumentam as exibições de página.
+   Rastreia um estado de aplicativo com dados de contexto opcionais. Os estados são as visualizações que estão disponíveis no aplicativo, como &quot;painel inicial&quot;, &quot;configurações do aplicativo&quot;, &quot;carrinho&quot; e assim por diante. Esses estados são semelhantes às páginas em um site, e as chamadas de `trackState` aumentam as visualizações de página.
 
    >[!TIP]
    >
-   >This is the only tracking call that increments page views.
+   >Esta é a única chamada de rastreamento que aumenta as exibições de página.
 
    * Esta é a sintaxe para este método:
 
@@ -169,7 +172,7 @@ Cada um desses métodos é usado para enviar dados para seu conjunto de relatór
 
 * **trackAction**
 
-   Rastreia uma ação no seu aplicativo. As ações são coisas que ocorrem no seu aplicativo e que deseja avaliar, como “logons”, “toques em banners”, “assinaturas de feed” e outras métricas.
+   Rastreia uma ação no seu aplicativo. As ações são coisas que ocorrem no aplicativo e que você deseja avaliar, como &quot;logons&quot;, &quot;toques em banners&quot;, &quot;subscrições de feed&quot; e outras métricas.
 
    * Esta é a sintaxe para este método:
 
@@ -185,7 +188,7 @@ Cada um desses métodos é usado para enviar dados para seu conjunto de relatór
 
 * **trackLocation**
 
-   Envia as coordenadas x e y atuais. Substitua “event” pelo evento recebido do assinante para BPS.
+   Envia as coordenadas x e y atuais. Substitua o evento pelo evento recebido do assinante para BPS.
 
    * Esta é a sintaxe para este método:
 
@@ -205,7 +208,7 @@ The `ADBMobileConfig.json` file must be placed in the *assets* folder.
 
 * **rsids**
 
-   (Obrigatório) Um ou mais conjuntos de relatórios que receberão dados do Analytics. Diversas IDs de conjunto de relatórios devem ser separadas por vírgulas, sem espaçamento entre as mesmas.
+   (Obrigatório) Um ou mais conjuntos de relatórios para receber dados do Analytics. Várias IDs de conjunto de relatórios devem ser separadas por vírgulas, sem espaços entre elas.
 
    Estas são as amostras de código para esta variável:
 
@@ -219,15 +222,15 @@ The `ADBMobileConfig.json` file must be placed in the *assets* folder.
 
 * **server**
 
-   (Obrigatório). Servidor do Analytics. This variable should be populated with the server domain, without an `https://` or `https://` protocol prefix. O prefixo de protocolo é manipulado automaticamente pela biblioteca com base na variável `ssl`. Se `ssl` for `true`, é realizada uma conexão segura com o servidor. Se `ssl` for `false`, é realizada uma conexão insegura com o servidor.
+   (Obrigatório). Servidor do Analytics. Essa variável deve ser preenchida com o domínio do servidor, sem um prefixo de protocolo `https://` ou `https://`. O prefixo do protocolo é manipulado automaticamente pela biblioteca com base na `ssl` variável. Se `ssl` for `true`, é realizada uma conexão segura com o servidor. Se `ssl` for `false`, é realizada uma conexão insegura com o servidor.
 
 * **charset**
 
-   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios.
+   Define o conjunto de caracteres que você está usando para os dados enviados ao Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios.
 
 * **ssl**
 
-   Enables (`true`) or disables (`false`) sending measurement data via SSL (HTTPS). O valor padrão é `false`.
+   Ativa (`true`) ou desativa (`false`) o envio de dados de medição via SSL (HTTPS). O valor padrão é `false`.
 
 * **offlineEnabled**
 
@@ -235,34 +238,34 @@ The `ADBMobileConfig.json` file must be placed in the *assets* folder.
 
    >[!TIP]
    >
-   >If timestamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be `true`. Caso o conjunto de relatórios não tenha um carimbo de data e hora, sua propriedade de configuração `offlineEnabled` *deve* ser false. Se isso não for configurado corretamente, os dados serão perdidos. Se você não tem certeza se um conjunto de relatórios tem um carimbo de data e hora, entre em contato com Suporte [empresarial](https://helpx.adobe.com/contact/enterprise-support.ec.html).
+   >If timestamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be `true`. Caso o conjunto de relatórios não tenha um carimbo de data e hora, sua propriedade de configuração `offlineEnabled` *deve* ser false. Se isso não for configurado corretamente, os dados serão perdidos. Se você não tem certeza se um conjunto de relatórios tem um carimbo de data e hora,  entre em contato com o  [Suporte](https://helpx.adobe.com/br/contact/enterprise-support.ec.html)empresarial.
 
-   Caso esteja relatando dados AppMeasurement para um conjunto de relatórios que também coleta dados JavaScript, pode ser necessário configurar um conjunto de relatórios separado para dados de dispositivos móveis, ou incluir um carimbo de data e hora personalizado nas ocorrências de JavaScript que usam a variável `s.timestamp`.
+   If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data, or include a custom timestamp on all JavaScript hits using the `s.timestamp` variable.
 
    O valor padrão é `false`.
 
 * **lifecycleTimeout**
 
-   Especifica a duração, em segundos, entre as inicializações do aplicativo antes que a inicialização seja considerada uma nova sessão. Esse tempo de espera também se aplica quando seu aplicativo é enviado para segundo plano e reativado. O tempo que seu aplicativo gasta em segundo plano não está incluído na duração da sessão.
+   Especifica a duração, em segundos, entre as inicializações do aplicativo antes que a inicialização seja considerada uma nova sessão. Esse tempo limite também se aplica quando o aplicativo é enviado para o plano de fundo e reativado. O tempo que o aplicativo gasta em segundo plano não é incluído na duração da sessão.
 
-   O valor padrão é 300 segundos.
+   O valor padrão é de 300 segundos.
 
 * **batchLimit**
 
-   O número máximo de ocorrências offline armazenada na fila. O valor padrão é 0 (Sem limite).
+   Número máximo de ocorrências offline armazenadas na fila. O valor padrão é 0 (Sem limite).
 
 * **privacyDefault**
 
    * `optedin` - as ocorrências são enviadas imediatamente.
    * `optedout` - as ocorrências serão descartadas.
-   * `optunknown` - Se o conjunto de relatórios estiver habilitado para mostrar o carimbo de data e hora, as ocorrências serão salvas até o status de privacidade ser alterado para opt-in (as ocorrências são enviadas) ou opt-out (as ocorrências são descartadas).
+   * `optunknown` - Se o conjunto de relatórios tiver um carimbo de data e hora, as ocorrências serão salvas até o status de privacidade ser alterado para aceitar (as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas).
 
       Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in.
-   Essa variável define somente o valor inicial. Se esse valor for definido ou alterado no código, o novo valor será usado até que seja alterado novamente, ou quando o aplicativo for desinstalado e instalado novamente.
+   Essa variável define somente o valor inicial. Se esse valor for definido ou alterado no código, o novo valor será usado até que seja alterado, ou o aplicativo será desinstalado e reinstalado.
 
    O valor padrão é `optedin`.
 
-A seguir, um exemplo de um arquivo `ADBMobileConfig.json`:
+The following is an example of an `ADBMobileConfig.json` file:
 
 ```js
 { 
