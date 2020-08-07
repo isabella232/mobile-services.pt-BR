@@ -1,28 +1,31 @@
 ---
-description: Lista de métodos do Target fornecida pela biblioteca da plataforma Universal Windows.
-seo-description: Lista de métodos do Target fornecida pela biblioteca da plataforma Universal Windows.
+description: Lista de métodos de Público alvo fornecidos pela biblioteca da plataforma Universal Windows.
+seo-description: Lista de métodos de Público alvo fornecidos pela biblioteca da plataforma Universal Windows.
 seo-title: Métodos do Target
 solution: Marketing Cloud,Analytics
 title: Métodos do Target
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 2ad5953b-7850-446a-8053-b3715b86329b
 translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '265'
+ht-degree: 36%
 
 ---
 
 
 # Métodos do Target {#target-methods}
 
-Lista de métodos do Target fornecida pela biblioteca da plataforma Universal Windows.
+Lista de métodos de Público alvo fornecidos pela biblioteca da plataforma Universal Windows.
 
-O SDK atualmente é compatível com diversas Soluções da Adobe Experience Cloud, incluindo Analytics, Target e Audience Manager.
+O SDK suporta atualmente várias Soluções Adobe Experience Cloud, incluindo Analytics, Público alvo e Audience Manager.
 
-[Lifecycle metrics](/help/universal-windows/metrics.md) are sent as parameters to each mbox load.
+[As medições](/help/universal-windows/metrics.md) de ciclo de vida são enviadas como parâmetros para cada carregamento de mbox.
 
 >[!TIP]
 >
->When you consume `winmd` methods from winJS (JavaScript), all methods automatically have their first letter lowercased.
+>Quando você consome `winmd` métodos do winJS (JavaScript), todos os métodos têm automaticamente a primeira letra em minúsculas.
 
 ## Referência de classe: TargetLocationRequest
 
@@ -34,7 +37,7 @@ property Platform::String ^defaultContent;
 property Windows::Foundation::Collections::IMap<Platform::String^, Platform::Object^> ^parameters;
 ```
 
-## Constantes da cadeia de caracteres
+## Constantes de string
 
 Estas informações ajudam a definir chaves para parâmetros personalizados.
 
@@ -89,7 +92,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **CreateRequest (winJS: createRequest)**
 
-   Cria um objeto `TargetLocationRequest` com os parâmetros fornecidos.
+   Creates a `TargetLocationRequest` object with the given parameters.
 
    * Esta é a sintaxe para este método:
 
@@ -106,7 +109,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **CreateOrder &#x200B; ConfirmRequest (winJS: createOrder &#x200B; ConfirmRequest)**
 
-   Cria um objeto `TargetLocationRequest` com os parâmetros fornecidos.
+   Creates a `TargetLocationRequest` object with the given parameters.
 
    * Esta é a sintaxe para este método:
 
@@ -123,7 +126,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **ClearCookies (winJS: clearCookies)**
 
-   Limpa os cookies do Target do aplicativo no dispositivo atual.
+   Limpa os cookies do Público alvo do aplicativo no dispositivo atual.
 
    * Esta é a sintaxe para este método:
 
@@ -168,4 +171,3 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       ```js
        autosessionId=ADBMobile.Target.getSessionId(); 
       ```
-
