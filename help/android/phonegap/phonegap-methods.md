@@ -1,14 +1,17 @@
 ---
 description: É possível usar os métodos de plug-in do iOS PhoneGap para executar várias tarefas.
-keywords: android;biblioteca;móvel;sdk
+keywords: android;library;mobile;sdk
 seo-description: É possível usar os métodos de plug-in do iOS PhoneGap para executar várias tarefas.
 seo-title: Métodos do plug-in PhoneGap
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Métodos do plug-in PhoneGap
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: bc3db9ce-81b7-45ec-88aa-6020c1db5d9c
-translation-type: ht
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '1569'
+ht-degree: 97%
 
 ---
 
@@ -93,7 +96,7 @@ Nos arquivos `html` em que deseja usar o rastreamento, adicione o código a segu
 
    Retorna o identificador de visitante gerado automaticamente.
 
-   Esta é uma ID de visitante único específica do aplicativo gerada no lançamento inicial e, em seguida, armazenada e utilizada a partir desse ponto. Esta ID é preservada entre as atualizações do aplicativo e é removida quando o aplicativo é desinstalado.
+   Esta é uma ID de visitante exclusiva e específica do aplicativo gerada quando o aplicativo é iniciado pela primeira vez e é armazenada e usada a partir desse ponto. Essa ID é preservada entre as atualizações do aplicativo e é removida quando o aplicativo é desinstalado.
 
    >[!TIP]
    >
@@ -334,7 +337,7 @@ Nos arquivos `html` em que deseja usar o rastreamento, adicione o código a segu
 
 * **trackTimed&#x200B;ActionUpdate**
 
-   Passa em `cData` para atualizar os dados de contexto associados a `action`&gt;.
+   Passa em `cData` para atualizar os dados de contexto associados a `action`>.
 
    Os `cData` passados estão anexados aos dados existentes da ação e, se a mesma chave já estiver definida como `action`, eles substituirão os dados.
 
