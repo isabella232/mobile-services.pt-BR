@@ -1,14 +1,17 @@
 ---
 description: Aqui estão as informações de referência para as métricas e dimensões móveis padrão.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: Aqui estão as informações de referência para as métricas e dimensões móveis padrão.
 seo-title: Métricas móveis e referências de dimensões
-solution: Experience Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Métricas móveis e referências de dimensões
-topic: Métricas
+topic: Metrics
 uuid: 96170ae7-8553-4f3e-ae01-65e5b664adf4
-translation-type: ht
-source-git-commit: 056bb3edb94c2ceb2961bbe8e4851c20429e1ea2
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 94%
 
 ---
 
@@ -38,6 +41,7 @@ Esta é a lista de métricas móveis por padrão:
    Disparado quando o aplicativo é utilizado em um dia específico.
 
    >[!TIP]
+   >
    >O evento Usuários envolvidos diariamente não é armazenado automaticamente em uma métrica do Analytics. Você deve criar uma regra de processamento que defina um evento personalizado para capturar essa métrica.
 
 * **Usuários envolvidos mensalmente**
@@ -56,7 +60,7 @@ Esta é a lista de métricas móveis por padrão:
 
 * **Falhas**
 
-   Acionado quando o aplicativo não fechar (sair) corretamente. Este evento é enviado quando o aplicativo é iniciado após uma falha.
+   Disparado quando o aplicativo não sai corretamente. Esse evento é enviado quando o aplicativo é start após uma falha.
 
    >[!TIP]
    >O aplicativo pode falhar se o comando Sair não for invocado.
@@ -71,7 +75,7 @@ Esta é a lista de dimensões móveis por padrão:
 
 * **Data de instalação**
 
-   Data da primeira inicialização após a instalação. A data está no formato *MM/DD/AAAA*.
+   Data da primeira inicialização após a instalação. A data está no formato *MM/DD/AAAA* .
 
 * **ID do aplicativo**
 
