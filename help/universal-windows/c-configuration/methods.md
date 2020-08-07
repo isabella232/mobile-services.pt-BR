@@ -3,11 +3,14 @@ description: Classes e métodos fornecidos pela biblioteca da plataforma Univers
 seo-description: Classes e métodos fornecidos pela biblioteca da plataforma Universal Windows.
 seo-title: Métodos do SDK
 solution: Marketing Cloud,Analytics
-title: SDK methods
-topic: Desenvolvedor e implementação
+title: Métodos do SDK
+topic: Developer and implementation
 uuid: e3aa41d6-7bc0-4208-a662-12907c209a77
 translation-type: tm+mt
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '588'
+ht-degree: 66%
 
 ---
 
@@ -18,7 +21,7 @@ Classes e métodos fornecidos pela biblioteca da plataforma Universal Windows.
 
 >[!TIP]
 >
->When you consume `winmd` methods from winJS (JavaScript), all methods automatically have their first letter lowercased.
+>Quando você consome `winmd` métodos do winJS (JavaScript), todos os métodos têm automaticamente a primeira letra em minúsculas.
 
 * **GetVersion (winJS: getVersion)**
 
@@ -40,8 +43,8 @@ Classes e métodos fornecidos pela biblioteca da plataforma Universal Windows.
 
    Retorna a representação de enumeração do status de privacidade do usuário atual.
 
-   * `ADBMobilePrivacyStatusOptIn` - As ocorrências são enviadas imediatamente.
-   * `ADBMobilePrivacyStatusOptOut` - As ocorrências são descartadas.
+   * `ADBMobilePrivacyStatusOptIn` - as ocorrências são enviadas imediatamente.
+   * `ADBMobilePrivacyStatusOptOut` - as ocorrências são descartadas.
    * `ADBMobilePrivacyStatusUnknown` - Se o conjunto de relatórios estiver habilitado para mostrar o carimbo de data e hora, as ocorrências serão salvas até o status de privacidade ser alterado para aceitar (as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas). Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in.
 
       The default value is set in the `ADBMobileConfig.json` config file. Para obter mais informações, consulte o arquivo [de configuração](/help/universal-windows/c-configuration/c.json.md)ADBMobileConfig.json.
@@ -125,12 +128,12 @@ Classes e métodos fornecidos pela biblioteca da plataforma Universal Windows.
 
 * **GetUserIdentifier (winJS: getUserIdentifier)**
 
-   Retorna o identificador do usuário personalizado se algum estiver configurado. Returns `null` if a custom identifier is not set.
+   Retorna o identificador de usuário personalizado se um identificador personalizado tiver sido definido. Returns `null` if a custom identifier is not set.
 O valor padrão é `null`.
 
    >[!IMPORTANT]
    >
-   >Se seu aplicativo for atualizado do SDK 3.x da Experience Cloud para o 4.x, o serviço de ID anterior (personalizado ou gerado automaticamente) será recuperado e armazenado como o identificador de usuário personalizado. Isso preserva os dados do visitante entre as atualizações de SDK. Para novas instalações do SDK 4.x, o identificador do usuário é `null` até que seja definido.
+   >Se seu aplicativo for atualizado do SDK Experience Cloud 3.x para 4.x, o serviço de ID anterior (personalizado ou gerado automaticamente) será recuperado e armazenado como o identificador de usuário personalizado. Isso preserva os dados do visitante entre as atualizações de SDK. Para novas instalações do SDK 4.x, o identificador do usuário é `null` até que seja definido.
 
    * Esta é a sintaxe para este método:
 
@@ -181,7 +184,7 @@ O valor padrão é `null`.
 
 * **SetDebugLogging (winJS: setDebugLogging)**
 
-   Define a preferência do log de depuração como `debugLogging`. O registro de depuração funciona apenas ao usar a versão de depuração da biblioteca, a versão de lançamento ignora esta configuração.
+   Define a preferência do log de depuração como `debugLogging`. O registro em log de depuração funciona somente ao usar a versão de depuração da biblioteca, a versão de lançamento ignora essa configuração.
 
    * Esta é a sintaxe para este método:
 
@@ -198,7 +201,7 @@ O valor padrão é `null`.
 
 * **CollectLifecycleData (winJS: collectLifecycleData)**
 
-   Indica ao SDK que os dados do ciclo de vida devem ser coletados para uso em todas as soluções no SDK. Para obter mais informações, consulte  [Lifecycle metrics](/help/universal-windows/metrics.md).
+   Indica ao SDK que os dados do ciclo de vida devem ser coletados para uso em todas as soluções no SDK. Para obter mais informações, consulte [Medições de ciclo de vida](/help/universal-windows/metrics.md).
 
    * Esta é a sintaxe para este método:
 
@@ -213,9 +216,9 @@ O valor padrão é `null`.
       ADB.Config.collectLifecycleData();
       ```
 
-* **PauseCollecting&#x200B;LifecycleData (winJS: pauseCollecting&#x200B;LifecycleData)**
+* **PauseCollecting &#x200B; LifecycleData (winJS: pauseCollecting &#x200B; LifecycleData)**
 
-   Indica ao SDK que o aplicativo está pausado, a fim de calcular corretamente as métricas de ciclo de vida. Por exemplo, durante a pausa um carimbo de data e hora é coletado para determinar a duração da sessão anterior. Também define um sinalizador para que o ciclo de vida saiba que o aplicativo não parou de funcionar. Para obter mais informações, consulte [Medições de ciclo de vida](/help/universal-windows/metrics.md).
+   Indica ao SDK que o aplicativo está pausado, a fim de calcular corretamente as medições de ciclo de vida. Por exemplo, ao pausar coleta um carimbo de data e hora para determinar a duração da sessão anterior. Isso também define um sinalizador para que o ciclo de vida saiba corretamente que o aplicativo não falhou. Para obter mais informações, consulte [Medições de ciclo de vida](/help/universal-windows/metrics.md).
 
    * Esta é a sintaxe para este método:
 
