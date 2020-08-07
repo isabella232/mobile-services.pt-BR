@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: Pré-requisitos para ativar as mensagens de push
 topic: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
-translation-type: ht
-source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -74,7 +74,9 @@ Para obter mais informações, consulte [Resolução de problemas na vinculaçã
 
 Antes de habilitar o Serviço de ID para o aplicativo, a seção **[!UICONTROL Serviços de push]** é desabilitada. Mas, depois de habilitar o serviço de ID, a seção Serviços de push é habilitada. Para obter mais informações sobre como ativar serviços de push, consulte [Configurar opções do serviço de ID do SDK](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md).
 
->[!IMPORTANT]:: Você deve clicar em **[!UICONTROL Salvar]** para salvar suas alterações e atualizar os Serviços de push.
+>[!IMPORTANT]
+>
+>You must click **[!UICONTROL Save]** to save your changes and refresh the Push Services.
 >
 >Você pode configurar um aplicativo da app store para a Apple e um para o Google em cada conjunto de relatórios. Se você precisar de aplicativos adicionais, por exemplo, um para um ambiente de produção e outro para um ambiente dev, configure um novo aplicativo da app store e um novo conjunto de relatórios para cada ambiente.
 
