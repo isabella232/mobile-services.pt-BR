@@ -3,12 +3,15 @@ description: É possível usar os métodos de plug-in do iOS PhoneGap para execu
 keywords: phonegap
 seo-description: É possível usar os métodos de plug-in do iOS PhoneGap para executar várias tarefas.
 seo-title: Métodos do plug-in PhoneGap
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Métodos do plug-in PhoneGap
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: bd830fe5-804a-4d0a-bbb6-99a6d8da6a03
-translation-type: ht
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '1730'
+ht-degree: 96%
 
 ---
 
@@ -87,7 +90,7 @@ Nos arquivos `html` em que deseja usar o rastreamento, adicione o código a segu
 
 * **trackingIdentifier**
 
-   Retorna o identificador de visitante gerado automaticamente. Esta é uma ID de visitante único e específica do aplicativo, gerada quando o aplicativo é inicializado e é armazenada e usada deste ponto em diante. Essa ID é preservada entre as atualizações de aplicativos e é removida quando o aplicativo é desinstalado.
+   Retorna o identificador de visitante gerado automaticamente. Esta é uma ID de visitante exclusiva específica do aplicativo gerada quando o aplicativo é iniciado pela primeira vez e é armazenada e usada a partir desse ponto. Essa ID é preservada entre as atualizações do aplicativo e é removida quando o aplicativo é desinstalado.
 
    >[!TIP]
    >
@@ -322,7 +325,7 @@ Nos arquivos `html` em que deseja usar o rastreamento, adicione o código a segu
 
 * **trackActionFromBackground**
 
-   Rastreia uma ação que ocorreu em segundo plano. Isso impede que os eventos do ciclo de vida sejam acionados em cenários específicos.
+   Rastreia uma ação que ocorreu em segundo plano. Isso impede que os eventos do ciclo de vida sejam acionados em determinados cenários.
 
    * Esta é a sintaxe para este método:
 
