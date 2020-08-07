@@ -2,12 +2,15 @@
 description: Esta é uma lista de métodos do Adobe Target fornecidos pela biblioteca do iOS.
 seo-description: Esta é uma lista de métodos do Adobe Target fornecidos pela biblioteca do iOS.
 seo-title: Métodos do iOS Target para Adobe Mobile Services
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Métodos do Target para iOS
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 692bcda1-02ba-4902-bd65-15888adf1952
-translation-type: ht
-source-git-commit: 8dc075603544aaab7fdedb1ff10a12f7fa7e21f5
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '656'
+ht-degree: 100%
 
 ---
 
@@ -113,22 +116,22 @@ NSString *const ADBTargetParameterMboxHost;
          * **Tipo**: NSString*
       * **`profileParameters`**
 
-         Os valores neste dicionário serão adicionados ao objeto "profileParameters" na solicitação para o Target.
+         Os valores neste dicionário serão adicionados ao objeto &quot;profileParameters&quot; na solicitação para o Target.
 
          * **Tipo**: NSDictionary*
       * **`orderParameters`**
 
-         Os valores neste dicionário serão adicionados ao objeto "order" na solicitação para o Target.
+         Os valores neste dicionário serão adicionados ao objeto &quot;order&quot; na solicitação para o Target.
 
          * **Tipo**: NSDictionary
       * **`mboxParameters`**
 
-         Os valores neste dicionário serão adicionados ao objeto "mboxParameters" na solicitação para o Target.
+         Os valores neste dicionário serão adicionados ao objeto &quot;mboxParameters&quot; na solicitação para o Target.
 
          * **Tipo**: NSDictionary*
       * **`requestLocationParameters`**
 
-         Os valores neste dicionário serão adicionados ao objeto "requestLocation" na solicitação para o Target.
+         Os valores neste dicionário serão adicionados ao objeto &quot;requestLocation&quot; na solicitação para o Target.
 
          **Tipo**: NSDictionary*
 
