@@ -1,32 +1,35 @@
 ---
-description: Lista de métodos do Audience Manager fornecida pela biblioteca da plataforma Universal Windows.
-seo-description: Lista de métodos do Audience Manager fornecida pela biblioteca da plataforma Universal Windows.
+description: Lista de métodos Audience Manager fornecidos pela biblioteca da plataforma Universal Windows.
+seo-description: Lista de métodos Audience Manager fornecidos pela biblioteca da plataforma Universal Windows.
 seo-title: Métodos do Audience Manager
 solution: Marketing Cloud,Analytics
 title: Métodos do Audience Manager
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: efbe8f33-7f53-40a6-b7aa-a36ac718c047
 translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 43%
 
 ---
 
 
-# Audience Manager methods{#audience-manager-methods}
+# Métodos do Audience Manager{#audience-manager-methods}
 
-Lista de métodos do Audience Manager fornecida pela biblioteca da plataforma Universal Windows.
+Lista de métodos Audience Manager fornecidos pela biblioteca da plataforma Universal Windows.
 
-O SDK atualmente é compatível com diversas Soluções da Adobe Experience Cloud, incluindo Analytics, Target e Audience Manager. Os métodos apresentam prefixos de acordo com a solução. Audience Manager methods are prefixed with `AudienceManager`.
+O SDK suporta atualmente várias Soluções Adobe Experience Cloud, incluindo Analytics, Público alvo e Audience Manager. Methods are prefixed according to the solution. Audience Manager methods are prefixed with `AudienceManager`.
 
 >[!TIP]
 >
->When you consume `winmd` methods from winJS (JavaScript), all methods automatically have their first letter lowercased.
+>Quando você consome `winmd` métodos do winJS (JavaScript), todos os métodos têm automaticamente a primeira letra em minúsculas.
 
-If audience manager is configured in your JSON file, a signal that contains lifecycle metrics is sent in with your lifecycle hit.
+Se o gerenciador de audiências estiver configurado no arquivo JSON, um sinal que contém medições de ciclo de vida será enviado com a ocorrência de ciclo de vida.
 
 * **GetVisitorProfile (winJS: getVisitorProfile)**
 
-   Retorna o perfil do visitante obtido recentemente. Retorna `null` se nenhum sinal tiver sido enviado. O perfil do visitante é salvo em `SharedPreferences` para facilitar o acesso em vários lançamentos do aplicativo.
+   Retorna o perfil do visitante obtido recentemente. Returns `null` if no signal has been submitted yet. Visitor profile is saved in `SharedPreferences` for easy access across multiple launches of your app.
 
    * Esta é a sintaxe para este método:
 
@@ -94,7 +97,7 @@ If audience manager is configured in your JSON file, a signal that contains life
 
 * **SignalWithData (winJS: signalWithData)**
 
-   Envia ao gerenciamento de público-alvo um sinal com características e obtém os segmentos correspondentes retornados em uma chamada de bloqueio.
+   Envia ao gerenciamento de audiências um sinal com características e obtém os segmentos correspondentes retornados em uma chamada de bloqueio.
 
    * Esta é a sintaxe para este método:
 
@@ -111,5 +114,5 @@ If audience manager is configured in your JSON file, a signal that contains life
       traits["trait"] = "b";
       ADB.AudienceManager.signalWithData(traits).then(function (visitorProfile) { 
         // segments come back here in "visitorProfile", normally found in the "segs" object of your json 
-      }); 
-      
+      });
+      ```
