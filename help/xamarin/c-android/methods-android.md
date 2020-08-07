@@ -1,22 +1,25 @@
 ---
-description: Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções da Experience Cloud.
+description: Métodos do Android para componentes do Xamarin para SDK das soluções do Experience Cloud 4.x.
 keywords: Xamarin
-seo-description: Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções da Experience Cloud.
+seo-description: Métodos do Android para componentes do Xamarin para SDK das soluções do Experience Cloud 4.x.
 seo-title: Métodos do Android
-solution: Marketing Cloud,Desenvolvedor
+solution: Marketing Cloud,Developer
 title: Métodos do Android
 uuid: 860af1c4-f57e-4bcb-8308-4e316da9a27b
 translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '1767'
+ht-degree: 66%
 
 ---
 
 
-# Android methods{#android-methods}
+# Métodos do Android{#android-methods}
 
-Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções da Experience Cloud.
+Métodos do Android para componentes do Xamarin para SDK das soluções do Experience Cloud 4.x.
 
-## Configuration methods {#section_405AA09390E346E5BB7B1F4E0F65F51E}
+## Métodos de configuração {#section_405AA09390E346E5BB7B1F4E0F65F51E}
 
 * **DebugLogging**
 
@@ -54,10 +57,11 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
 * **PrivacyStatus**
 
    Retorna a representação de enumeração do status de privacidade do usuário atual.
-   * `ADBMobilePrivacyStatus.OptIn` - hits are sent immediately.
+   * `ADBMobilePrivacyStatus.OptIn` - as ocorrências são enviadas imediatamente.
    * `ADBMobilePrivacyStatus.OptOut` - as ocorrências serão descartadas.
    * `ADBMobilePrivacyStatus.Unknown` - se o rastreamento offline estiver ativado, as ocorrências são salvas até o status de privacidade ser alterado para aceitar (e então as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas). Se o rastreamento offline não estiver ativado, as ocorrências são descartadas até o status de privacidade ser alterado parar aceitar.
-   O valor padrão está definido no arquivo [ADBMobileConfig.json](/help/android/configuration/json-config/json-config.md).
+
+   The default value is set in the [ADBMobileConfig.json](/help/android/configuration/json-config/json-config.md) file.
 
    * Esta é a sintaxe para este método:
 
@@ -108,7 +112,7 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
 
 * **PauseCollectingLifecycleData**
 
-   Indica ao SDK que o aplicativo está pausado, a fim de calcular corretamente as métricas de ciclo de vida. Por exemplo, durante a pausa um carimbo de data e hora é coletado para determinar a duração da sessão anterior. Também define um sinalizador para que o ciclo de vida saiba que o aplicativo não parou de funcionar. Para obter mais informações, consulte [Medições de ciclo de vida](/help/android/metrics.md).
+   Indica ao SDK que o aplicativo está pausado, a fim de calcular corretamente as medições de ciclo de vida. Por exemplo, ao pausar coleta um carimbo de data e hora para determinar a duração da sessão anterior. Isso também define um sinalizador para que o ciclo de vida saiba corretamente que o aplicativo não falhou. Para obter mais informações, consulte [Medições de ciclo de vida](/help/android/metrics.md).
 
    * Esta é a sintaxe para este método:
 
@@ -122,9 +126,9 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
       Config.PauseCollectingLifecycleData();
       ```
 
-* **CollectLifecycleData (atividade Activity)**
+* **CollectLifecycleData (atividade de Atividade)**
 
-   (4.2 ou superior) Indica ao SDK que os dados do ciclo de vida devem ser coletados para uso em todas as soluções no SDK. Para obter mais informações, consulte [Medições de ciclo de vida](/help/android/metrics.md).
+   (4.2 ou posterior) Indica ao SDK que os dados do ciclo de vida devem ser coletados para uso em todas as soluções no SDK. Para obter mais informações, consulte [Medições de ciclo de vida](/help/android/metrics.md).
 
    * Esta é a sintaxe para este método:
 
@@ -138,9 +142,9 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
       Config.CollectLifecycleData (this);
       ```
 
-* **CollectLifecycleData (atividade Activity)**
+* **CollectLifecycleData (atividade de Atividade)**
 
-   (4.2 ou superior) Indica ao SDK que os dados do ciclo de vida devem ser coletados para uso em todas as soluções no SDK. Para obter mais informações, consulte [Medições de ciclo de vida](/help/android/metrics.md).
+   (4.2 ou posterior) Indica ao SDK que os dados do ciclo de vida devem ser coletados para uso em todas as soluções no SDK. Para obter mais informações, consulte [Medições de ciclo de vida](/help/android/metrics.md).
 
    * Esta é a sintaxe para este método:
 
@@ -159,7 +163,7 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
 
 * **OverrideConfigStream**
 
-   (4.2 or later) Lets you load a different `ADBMobile JSON` config file when the application starts. A configuração diferente é utilizada até o aplicativo ser fechado.
+   (4.2 ou posterior) Permite carregar um arquivo de `ADBMobile JSON` configuração diferente quando o aplicativo for start. A configuração diferente é utilizada até o aplicativo ser fechado.
 
    * Esta é a sintaxe para este método:
 
@@ -176,7 +180,7 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
 
 * **SetLargeIconResourceId(int resourceId)**
 
-   (4.2 ou posterior) Define o ícone grande usado para notificações criadas pelo SDK. Esse ícone é a imagem principal que é exibida quando o usuário visualiza a notificação completa na central de notificações.
+   (4.2 ou posterior) Define o ícone grande usado para notificações criadas pelo SDK. Este ícone é a principal imagem exibida quando o usuário visualizar a notificação completa na central de notificações.
 
    * Esta é a sintaxe para este método:
 
@@ -206,11 +210,11 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
        Config.SetSmallIconResourceId(R.drawable.appIcon);
       ```
 
-## Analytics methods {#section_63CF636104EF41F790C3E4190D755BBA}
+## Métodos do Analytics {#section_63CF636104EF41F790C3E4190D755BBA}
 
 * **TrackingIdentifier**
 
-   Retorna a ID gerada automaticamente pelo Analytics. This is an app-specific unique ID that is generated on initial launch and is stored and used from that point forward. Essa ID é preservada entre as atualizações do aplicativo e é removida na desinstalação.
+   Retorna a ID gerada automaticamente para o Analytics. Esta é uma ID exclusiva específica do aplicativo que é gerada na primeira inicialização e é armazenada e usada a partir desse ponto. Essa ID é preservada entre as atualizações do aplicativo e é removida na desinstalação.
 
    * Esta é a sintaxe para este método:
 
@@ -226,11 +230,11 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
 
 * **TrackState**
 
-   Rastreia um estado de aplicativo com dados de contexto opcionais. `States` são as exibições disponíveis no aplicativo, como "tela inicial", "nível 1", "pausa" e assim por diante. Esses estados são semelhantes às páginas em um site e as chamadas de `TrackState` aumentam as exibições de página. Se o estado está vazio, então é exibido como "nome do aplicativo e versão do aplicativo (construção)" nos relatórios. Se você encontrar esse valor nos relatórios, certifique-se de que esteja definindo state em cada chamada de `TrackState`.
+   Rastreia um estado de aplicativo com dados de contexto opcionais. `States` são as visualizações disponíveis no aplicativo, como &quot;tela de título&quot;, &quot;nível 1&quot;, &quot;pausa&quot; e assim por diante. Esses estados são semelhantes às páginas em um site, e as chamadas de `TrackState` aumentam as visualizações de página. Se o estado estiver vazio, será exibido como &quot;app name app version (build)&quot; nos relatórios. If you see this value in reports, make sure you are setting state in each `TrackState` call.
 
    >[!TIP]
    >
-   >Essa é a única chamada de rastreamento que aumenta as exibições de página.
+   >Esta é a única chamada de rastreamento que aumenta as exibições de página.
 
    * Esta é a sintaxe para este método:
 
@@ -249,12 +253,12 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
 
 * **TrackAction**
 
-   Rastreia uma ação no seu aplicativo. As ações são coisas que ocorrem no aplicativo e que você deseja medir, como "mortes", "nível obtido", "assinaturas de feed" e outras métricas.
+   Rastreia uma ação no seu aplicativo. As ações são coisas que ocorrem no aplicativo e que você deseja avaliar, como &quot;mortes&quot;, &quot;nível ganho&quot;, &quot;subscrições de feed&quot; e outras métricas.
 
    >[!TIP]
    >
    >
-   >If you have code that might run while the app is in the background (for example, a background data retrieval), use `trackActionFromBackground` instead.
+   >Se você tem um código que pode funcionar enquanto o aplicativo é executado em segundo plano (por exemplo, uma recuperação de dados em segundo plano), use `trackActionFromBackground`.
 
    * Esta é a sintaxe para este método:
 
@@ -354,7 +358,7 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
       public static void TrackTimedActionStart(string action,IDictionary<string, Object> cdata); 
       ```
 
-   * Here is code sample for this method:
+   * Esta é uma amostra de código para este método:
 
       ```java
       Analytics.TrackTimedActionStart("level2", null);
@@ -362,7 +366,7 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
 
 * **TrackTimedActionUpdate**
 
-   Repassa os dados para atualizar os dados de contexto associados à ação. Os dados transmitidos são anexados aos atuais para a ação em questão, e substituem os dados se a mesma chave já estiver definida para a ação.
+   Transmita os dados para atualizar os dados de contexto associados à ação em questão. Os dados transmitidos são anexados aos dados existentes para a ação em questão e os substituem se a mesma chave já estiver definida para a ação.
 
    >[!TIP]
    >
@@ -424,7 +428,7 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
 
 * **SendQueuedHits**
 
-   Forces the library to send all hits in the offline queue, regardless of how many hits are currently queued.
+   Força a biblioteca a enviar todas as ocorrências na fila offline, independentemente de quantas ocorrências estão na fila no momento.
 
    * Esta é a sintaxe para este método:
 
@@ -490,7 +494,7 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
 
 * **SyncIdentifiers**
 
-   Com a Experience Cloud ID, é possível definir outras IDs do cliente para associar com cada visitante. A API de visitante aceita várias IDs do cliente para o mesmo visitante, junto com um identificador de tipo de cliente para separar o escopo de diferentes IDs do cliente. Este método corresponde a `setCustomerIDs` na biblioteca do JavaScript.
+   Com a ID do Experience Cloud, é possível definir outras IDs do cliente para associar a cada visitante. A API de visitante aceita várias IDs do cliente para o mesmo visitante, juntamente com um identificador de tipo de cliente para separar o escopo de diferentes IDs do cliente. Este método corresponde a `setCustomerIDs` na biblioteca do JavaScript.
 
    * Esta é a sintaxe para este método:
 
@@ -533,7 +537,7 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
 
 * **CreateRequest**
 
-   O construtor de conveniência cria um objeto `ADBTargetLocationRequest` com os parâmetros em questão.
+   Convenience constructor to create an `ADBTargetLocationRequest` object with the given parameters.
 
    * Esta é a sintaxe para este método:
 
@@ -567,7 +571,7 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
 
 * **ClearCookies**
 
-   Limpa os cookies do Target do aplicativo.
+   Limpa os cookies do Público alvo do aplicativo.
 
    * Esta é a sintaxe para este método:
 
@@ -585,7 +589,7 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
 
 * **VisitorProfile**
 
-   Retorna o perfil do visitante obtido recentemente. Retorna nulo se nenhum sinal foi enviado ainda. O perfil do visitante é salvo em `NSUserDefaults` para facilitar o acesso nas várias inicializações do aplicativo.
+   Retorna o perfil do visitante obtido recentemente. Retorna nil se nenhum sinal tiver sido enviado ainda. O perfil do visitante é salvo em `NSUserDefaults` para facilitar o acesso nas várias inicializações do aplicativo.
 
    * Esta é a sintaxe para este método:
 
@@ -633,7 +637,7 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
 
 * **AudienceSetDpidAndDpuuid**
 
-   Define o `dpid` e `dpuuid`. If `dpid` and `dpuuid` are set, they are sent with each signal.
+   Define o `dpid` e `dpuuid`. Se `dpid` e `dpuuid` estiverem definidas, elas serão enviadas com cada sinal.
 
    * Esta é a sintaxe para este método:
 
@@ -675,7 +679,7 @@ Métodos do Android para componentes do Xamarin para os SDK 4.x das soluções d
 
 * **Redefinir**
 
-   Redefine a `UUID` do gerenciador de público-alvo e limpa o perfil de visitante atual.
+   Resets audience manager `UUID` and purges current visitor profile.
 
    * Esta é a sintaxe para este método:
 
@@ -749,7 +753,7 @@ Para obter mais informações sobre a Análise de vídeo, consulte Análise [de]
       }
       ```
 
-* **Close**
+* **Fechar**
 
    Fecha o item de mídia com nome.
 
@@ -765,9 +769,9 @@ Para obter mais informações sobre a Análise de vídeo, consulte Análise [de]
       Media.Close (settings.Name); 
       ```
 
-* **Reproduzir**
+* **Play**
 
-   Reproduz o item de mídia com o nome no deslocamento em questão (em segundos).
+   Reproduz o item de mídia com o nome nome no deslocamento em questão (em segundos).
 
    * Esta é a sintaxe para este método:
 
@@ -783,7 +787,7 @@ Para obter mais informações sobre a Análise de vídeo, consulte Análise [de]
 
 * **Concluído**
 
-   Marca manualmente o item de mídia como concluído no deslocamento em questão (em segundos).
+   Marca manualmente o item de mídia como concluído no offset em questão (em segundos).
 
    * Esta é a sintaxe para este método:
 
@@ -799,7 +803,7 @@ Para obter mais informações sobre a Análise de vídeo, consulte Análise [de]
 
 * **Stop**
 
-   Notifica ao módulo de mídia que o vídeo foi interrompido ou pausado no deslocamento em questão.
+   Notifica ao módulo de mídia que o vídeo foi interrompido ou pausado no offset em questão.
 
    * Esta é a sintaxe para este método:
 
@@ -829,7 +833,7 @@ Para obter mais informações sobre a Análise de vídeo, consulte Análise [de]
       Media.Click (settings.Name, 3); 
       ```
 
-* **Caminho**
+* **Rastreamento**
 
    Envia uma chamada de ação de rastreamento (sem exibição de página) para o estado de mídia atual.
 
