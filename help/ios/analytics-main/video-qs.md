@@ -2,12 +2,15 @@
 description: Estas são algumas informações sobre a medição de vídeos no iOS usando a medição de vídeos por etapas.
 seo-description: Estas são algumas informações sobre a medição de vídeos no iOS usando a medição de vídeos por etapas.
 seo-title: Análise de vídeo
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Análise de vídeo
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: d75fa415-78f6-4f50-a563-76949f040138
-translation-type: ht
-source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
+translation-type: tm+mt
+source-git-commit: c64e2fa7cee3cd35c4574e5007406b7604c99499
+workflow-type: tm+mt
+source-wordcount: '952'
+ht-degree: 81%
 
 ---
 
@@ -18,9 +21,9 @@ Estas são algumas informações sobre a medição de vídeos no iOS usando a me
 
 >[!TIP]
 >
->Durante a reprodução do vídeo, chamadas "heartbeat" frequentes são enviadas a esse serviço para medir o tempo reproduzido. Essas chamadas de heartbeat são enviadas a cada 10 segundos, o que resulta em métricas granulares de envolvimento com o vídeo e relatórios de repercussão de vídeo mais precisos. Para obter mais informações, consulte [Medição de áudio e vídeo no Adobe Analytics](https://docs.adobe.com/content/help/pt-BR/media-analytics/using/media-overview.html).
+>Durante a reprodução do vídeo, chamadas &quot;heartbeat&quot; frequentes são enviadas a esse serviço para medir o tempo reproduzido. Essas chamadas de heartbeat são enviadas a cada 10 segundos, o que resulta em métricas granulares de envolvimento com o vídeo e relatórios de repercussão de vídeo mais precisos. Para obter mais informações, consulte [Medição de áudio e vídeo no Adobe Analytics](https://docs.adobe.com/content/help/pt-BR/media-analytics/using/media-overview.html).
 
-O processo geral para medição de vídeo é muito parecido em todas as plataformas. Este conteúdo fornece uma visão geral básica das tarefas do desenvolvedor com exemplos de código.
+O processo geral para avaliar vídeos é muito semelhante em todas as plataformas. Este conteúdo fornece uma visão geral básica das tarefas do desenvolvedor com exemplos de código.
 
 ## Mapear eventos do player para variáveis do Analytics {#section_E84987F878AB4A3A83AE700FEC4C9D4D}
 
@@ -30,15 +33,15 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
 
    (Obrigatório) Coleta o nome do vídeo, conforme especificado na implementação, quando um visitante exibe o vídeo. É possível adicionar classificações para essa variável.
 
-   (Opcional) A variável de Insight personalizado oferece informações de caminho de vídeo.
+   (Opcional) A variável Custom Insight fornece informações de definição de caminho de vídeo.
 
    * Tipo de variável: eVar
    * Expiração padrão: visita
-   * Insight personalizado (s.prop, usado para caminhos de vídeo)
+   * Custom Insight (s.prop, usado para definição de caminho de vídeo)
 
 * **a.media.name**
 
-   (Opcional) Fornece informações sobre o caminho do vídeo. O caminho deve ser habilitado para a variável pelo Atendimento ao cliente.
+   (Opcional) Fornece informações sobre o caminho do vídeo. A definição de caminho deve ser ativada para essa variável pelo Atendimento ao cliente.
 
    * Tipo de variável: Insight personalizado (s.prop)
    * Tipo de evento: Insight personalizado (s.prop)
@@ -47,12 +50,13 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
 
    (Obrigatório) Coleta dados de segmento do vídeo, incluindo o nome do segmento e a ordem na qual ele ocorre no vídeo. Essa variável é preenchida com a habilitação da variável `segmentByMilestones` durante o monitoramento de eventos de player de modo automático, ou ao configurar um nome de segmento personalizado durante o monitoramento manual dos eventos do player. Por exemplo, quando um visitante exibe o primeiro segmento em um vídeo, o SiteCatalyst pode coletar as seguintes informações no eVar de segmentos `1:M:0-25`.
 
-   O método de coleção de dados de vídeo coleta os dados dos pontos as seguir:
+   O método padrão de coleta de dados de vídeo coleta dados nos seguintes pontos:
 
-   * início do vídeo (play)
+   * start de vídeo (play)
    * início do segmento
-   * término do vídeo (stop)
-   O Analytics conta a primeira exibição de segmento no início, quando o visitante começa a assistir. As exibições de segmento subsequente ocorrem quando o segmento começa.
+   * fim do vídeo (parar)
+
+   O Analytics conta a primeira visualização de segmento no start do segmento, quando o visitante start assistindo. O segmento subsequente visualização quando o segmento começa.
 
    * Tipo de variável: eVar
    * Expiração padrão: visualização de página
@@ -60,7 +64,7 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
 
 * **a.contentType**
 
-   Coleta dados sobre o tipo de conteúdo que é visualizado por um visitante. Ocorrências enviadas por meio da medição de vídeo recebem um tipo de conteúdo de `video`. Essa variável não precisa estar reservada exclusivamente para o rastreamento de vídeo. Quando outros conteúdos relatam o tipo por meio da mesma variável, é possível analisar a distribuição de visitantes em tipos diferentes de conteúdo. Por exemplo, é possível marcar outros tipos de conteúdo por meio de valores como “artigo” ou “página do produto” com essa variável. Da perspectiva da avaliação de vídeo, o Tipo de conteúdo permite identificar os visitantes e calcular as taxas de conversão do vídeo.
+   Coleta dados sobre o tipo de conteúdo que é visualizado por um visitante. Hits sent by video measurement are assigned a content type of `video`. This variable does not need to be reserved exclusively for video tracking. Quando outros conteúdos relatam tipos usando essa mesma variável, você pode analisar a distribuição de visitantes entre os diferentes tipos de conteúdo. Por exemplo, é possível marcar outros tipos de conteúdo por meio de valores como “artigo” ou “página do produto” com essa variável. Da perspectiva da avaliação de vídeo, o Tipo de conteúdo permite identificar os visitantes e calcular as taxas de conversão do vídeo.
 
    * Tipo de variável: eVar
    * Expiração padrão: visualização de página
@@ -74,21 +78,21 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
 
 * **a.media.view**
 
-   Indica que um visitante visualizou uma parte de um vídeo. No entanto, não fornece informações algumas sobre quanto ou a que parte de um vídeo o visitante assistiu.
+   Indica que um visitante visualizou uma parte de um de vídeo. No entanto, não fornece informações sobre quanto ou qual parte de um vídeo o visitante visualizou.
 
    * Tipo de variável: Evento
    * Tipo: contador
 
 * **a.media.segmentView**
 
-   Indica que um visitante visualizou uma parte de um segmento de vídeo. No entanto, não fornece informações algumas sobre quanto ou a que parte de um vídeo o visitante assistiu.
+   Indica que um visitante visualizou uma parte de um segmento de vídeo. No entanto, não fornece informações sobre quanto ou qual parte de um vídeo o visitante visualizou.
 
    * Tipo de variável: Evento
    * Tipo: contador
 
 * **a.media.complete**
 
-   Indica se o usuário exibiu um vídeo completo. Por padrão, o evento completo é avaliado um segundo antes do fim do vídeo. Durante a implementação, é possível especificar quantos segundos a partir do fim do vídeo são necessários para considerar a visualização como concluída. Para vídeos ao vivo e outras transmissões que não tenham um final definido, é possível especificar um ponto personalizado para avaliar sua conclusão (por exemplo, após um tempo específico de exibição).
+   Indica se o usuário exibiu um vídeo completo. Por padrão, o evento completo é avaliado um segundo antes do fim do vídeo. Durante a implementação, é possível especificar quantos segundos a partir do fim do vídeo são necessários para considerar a visualização como concluída. Para vídeos ao vivo e outros fluxos que não tenham um fim definido, você pode especificar um ponto personalizado para avaliar conclusões, por exemplo, após um tempo de exibição específico.
 
    * Tipo de variável: Evento
    * Tipo: contador
