@@ -7,10 +7,10 @@ title: Configuração JSON do ADBMobile
 topic: Developer and implementation
 uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
 translation-type: tm+mt
-source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
 workflow-type: tm+mt
 source-wordcount: '1678'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ Veja a seguir uma lista das variáveis no arquivo JSON e a versão mínima do SD
    * O valor padrão é `false`.
    * Essa configuração é usada **somente** para clientes provisionados do Device Co-op.
 
-   For Device Co-op members who require this value set to `true`, you need to work with the Co-op team to request a blocklist flag on your Device Co-op account. Não há um caminho de autoatendimento para habilitar esses sinalizadores.
+   Para membros do Device Co-op que requerem que esse valor seja definido como `true`, é necessário trabalhar com a equipe do Co-op para solicitar um sinalizador de lista de bloqueios em sua conta do Device Co-op. Não há um caminho de autoatendimento para habilitar esses sinalizadores.
 
    Lembre-se das seguintes informações:
 
@@ -130,7 +130,7 @@ Veja a seguir uma lista das variáveis no arquivo JSON e a versão mínima do SD
       >
       >Se o carimbo de data e hora estiver ativado no conjunto de relatórios, sua propriedade de configuração `offlineEnabled` **deve** ser verdadeira. Caso o conjunto de relatórios não tenha um carimbo de data e hora, sua propriedade de configuração `offlineEnabled` **deve** ser false.
       >
-      >Se isso não for configurado corretamente, os dados serão perdidos. Caso não tenha certeza se um conjunto de relatórios tem um carimbo de data e hora, entre em contato com o Atendimento ao cliente ou baixe o arquivo de configuração do Adobe Mobile Services.
+      >Se isso não for configurado corretamente, os dados serão perdidos. Caso não tenha certeza se um conjunto de relatórios tem um carimbo de data e hora,  entre em contato com o Atendimento ao cliente ou baixe o arquivo de configuração do Adobe Mobile Services.
 
       Caso esteja relatando dados AppMeasurement para um conjunto de relatórios que também coleta dados JavaScript, pode ser necessário configurar um conjunto de relatórios separado para dados móveis, a fim de evitar a perda de dados, ou incluir um carimbo de data e hora personalizado nas ocorrências de JavaScript que usam a variável `s.timestamp`.
 
@@ -155,7 +155,7 @@ Veja a seguir uma lista das variáveis no arquivo JSON e a versão mínima do SD
       A partir da versão 4.2, os POIs são definidos na interface do Adobe Mobile e sincronizados dinamicamente no arquivo de configuração do aplicativo. Esta sincronização exige a configuração `analytics.poi`:
 
       ```javascript
-      “analytics.poi“: `https://assets.adobedtm.com/`
+        “analytics.poi“: `https://assets.adobedtm.com/`
       …/yourfile.json”`,
       ```
 
