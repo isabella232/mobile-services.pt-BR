@@ -1,14 +1,17 @@
 ---
 description: As instruções a seguir ajudam a redirecionar uma campanha de aquisição com um link de marketing baseado em uma impressão digital do dispositivo.
-keywords: android;biblioteca;móvel;sdk
+keywords: android;library;mobile;sdk
 seo-description: As instruções a seguir ajudam a redirecionar uma campanha de aquisição com um link de marketing baseado em uma impressão digital do dispositivo.
 seo-title: Teste de aquisição de links de marketing
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Teste de aquisição de links de marketing
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 69503e01-182d-44c6-b0fb-e1c012ffa3bd
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: c64e2fa7cee3cd35c4574e5007406b7604c99499
+workflow-type: tm+mt
+source-wordcount: '562'
+ht-degree: 94%
 
 ---
 
@@ -33,7 +36,8 @@ As instruções a seguir ajudam a redirecionar uma campanha de aquisição com u
 
    Você deve ver o contextData na resposta JSON:
 
-   ```js{"fingerprint":"bae91bb778f0ad52e37f0892961d06ac6a5c935b","endCallbacks":["***"],"timestamp":1464301217,"appguid":"da120731d6c09658b82d8fac78da1d5fc2d09c48e21b3a55f9e2d7344e08425d","contextData":
+   ```js
+   {"fingerprint":"bae91bb778f0ad52e37f0892961d06ac6a5c935b","endCallbacks":["***"],"timestamp":1464301217,"appguid":"da120731d6c09658b82d8fac78da1d5fc2d09c48e21b3a55f9e2d7344e08425d","contextData":
    {"a.launch.campaign.trackingcode":"twdf4546","a.referrer.campaign.name":"iOS Demo","a.referrer.campaign.trackingcode":"twdf4546"}
    ,"adobeData":{"unique_id":"8c14098d7c79e8a180c15e4b2403549d3cc21ea8","deeplinkid":"57477650072932ec6d3a470f"}}
    ```
@@ -42,7 +46,7 @@ As instruções a seguir ajudam a redirecionar uma campanha de aquisição com u
 
    | Configuração | Valor |
    |--- |--- |
-   | aquisição | O servidor deve ser  `c00.adobe.com`. `appid` deve ser igual ao *`appid`* no link de aquisição. |
+   | aquisição | O servidor deve ser `c00.adobe.com`. `appid` deve ser igual ao *`appid`* no link de aquisição. |
    | analytics | `referrerTimeout` deve ter um valor maior que 0. |
 
 1. (Condicional) Se a configuração SSL no arquivo de configuração do seu aplicativo for `false`, atualize seu link de aquisição para usar o protocolo HTTP em vez de HTTPS.
@@ -81,7 +85,7 @@ As instruções a seguir ajudam a redirecionar uma campanha de aquisição com u
 
    * `Analytics - Acquisition referrer timed out`
 
-      Falha ao obter a resposta no tempo definido por `referrerTimeout`. Aumente o valor e tente novamente. Você também deve garantir que abriu o link de aquisição antes de instalar o aplicativo e que esteja usando a mesma rede quando clicar no URL e abrir o aplicativo.
+      Falha ao obter a resposta no tempo definido por `referrerTimeout`. Aumente o valor e tente novamente. Você também deve garantir que abriu o link de aquisição antes de instalar o aplicativo e que está usando a mesma rede ao clicar no URL e abrir o aplicativo.
 
 Lembre-se das seguintes informações:
 
