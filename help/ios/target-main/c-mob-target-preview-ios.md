@@ -4,8 +4,11 @@ seo-description: A Visualização do Target permite que você realize tarefas in
 seo-title: Visualização do Target no iOS
 title: Visualização do Target no iOS
 uuid: d92867a4-0569-4732-a928-28f9e2f8b21e
-translation-type: ht
-source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 87%
 
 ---
 
@@ -24,7 +27,7 @@ Para obter mais informações sobre como usar a Visualização do Target, vá pa
 
 * **setPreviewRestartDeeplink**
 
-   Define um deeplink de aplicativo que será acionado quando seleções de visualização são aplicadas no modo de Visualização.
+   Define um link direto do aplicativo que será acionado quando as seleções de pré-visualização forem aplicadas no modo de Pré-visualização.
 
    * Esta é a sintaxe para este método:
 
