@@ -7,16 +7,16 @@ solution: Marketing Cloud,Analytics
 title: Métodos do plug-in PhoneGap
 topic: Developer and implementation
 uuid: bc3db9ce-81b7-45ec-88aa-6020c1db5d9c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1569'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Métodos do plug-in PhoneGap{#phonegap-plug-in-methods}
+# Métodos do plug-in PhoneGap {#phonegap-plug-in-methods}
 
 Os métodos do plug-in PhoneGap no Android podem ser usados para desempenhar uma variedade de tarefas.
 
@@ -48,7 +48,7 @@ Nos arquivos `html` em que deseja usar o rastreamento, adicione o código a segu
 
 * **setPrivacyStatus**
 
-   Define o de privacidade do usuário atual como `status`status.
+   Define o de privacidade do usuário atual como `status` status.
 
    Você pode definir um dos seguintes estados:
 
@@ -96,7 +96,7 @@ Nos arquivos `html` em que deseja usar o rastreamento, adicione o código a segu
 
    Retorna o identificador de visitante gerado automaticamente.
 
-   Esta é uma ID de visitante exclusiva e específica do aplicativo gerada quando o aplicativo é iniciado pela primeira vez e é armazenada e usada a partir desse ponto. Essa ID é preservada entre as atualizações do aplicativo e é removida quando o aplicativo é desinstalado.
+   Esta é uma ID de visitante exclusiva e específica do aplicativo gerada quando ele é iniciado pela primeira vez e é armazenada e usada a partir desse ponto. Essa ID é preservada entre as atualizações do aplicativo e é removida quando o aplicativo é desinstalado.
 
    >[!TIP]
    >
@@ -695,8 +695,6 @@ Na atividade principal gerada pelo Cordova, faça uma chamada `Config.submitAdve
 * **visitorGetMarketingCloudId**
 
    Retorna a Experience Cloud ID do Serviço de ID.
-
-
 
    * Esta é a sintaxe para este método:
 
