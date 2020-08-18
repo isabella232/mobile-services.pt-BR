@@ -7,9 +7,9 @@ solution: Marketing Cloud,Analytics
 title: Métodos de configuração
 topic: Developer and implementation
 uuid: 663aeb6c-1b97-4a3a-8c0e-dd4c2ec28c01
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '985'
 ht-degree: 100%
 
@@ -108,7 +108,7 @@ Esta é a amostra de código para este método:
 
 * **setPrivacyStatus**
 
-   * Define o de privacidade do usuário atual como `status`status.
+   * Define o de privacidade do usuário atual como `status` status.
 
       E possível definir o status de privacidade para um dos valores a seguir:
       * `MOBILE_PRIVACY_STATUS_OPT_IN`, em que as ocorrências são enviadas imediatamente. Essas ocorrências são enviadas imediatamente.
