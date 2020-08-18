@@ -1,40 +1,40 @@
 ---
-description: Este tópico descreve como começar a usar os componentes Xamarin para o SDK 4.x das soluções móveis.
+description: Este tópico descreve como começar a usar os componentes do Xamarin para o SDK 4.x de soluções móveis.
 keywords: Xamarin
-seo-description: Este tópico descreve como começar a usar os componentes Xamarin para o SDK 4.x das soluções móveis.
-seo-title: Componentes Xamarin para Experience Cloud Solutions 4.x SDK
+seo-description: Este tópico descreve como começar a usar os componentes do Xamarin para o SDK 4.x de soluções móveis.
+seo-title: Componentes do Xamarin para o SDK 4.x das soluções da Experience Cloud
 solution: Marketing Cloud,Developer
-title: Componentes Xamarin para Experience Cloud Solutions 4.x SDK
+title: Componentes do Xamarin para o SDK 4.x das soluções da Experience Cloud
 uuid: e7a48107-bd0e-47d6-b49c-dfdae189ac37
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
 
-# Xamarin components for Experience Cloud Solutions 4.x SDK {#xamarin-components-for-experience-cloud-solutions-x-sdk}
+# Componentes do Xamarin para o SDK 4.x das soluções da Experience Cloud {#xamarin-components-for-experience-cloud-solutions-x-sdk}
 
-Este tópico descreve como começar a usar os componentes Xamarin para o SDK 4.x das soluções móveis.
+Este tópico descreve como começar a usar os componentes do Xamarin para o SDK 4.x de soluções móveis.
 
-Last Updated: **January 10, 2019**
+Última atualização: **10 de janeiro de 2019**
 
 ## Introdução {#section_59D434C30C8F4765A7DEFE877D5268D0}
 
 >[!IMPORTANT]
 >
->O Adobe Mobile SDK não está mais disponível na Loja de componentes do Xamarin ou na Galeria do NuGet. Para baixar os componentes do Xamarin, vá para [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services).
+>O SDK móvel da Adobe não está mais disponível na Loja de componentes do Xamarin ou na Galeria do NuGet. Para baixar os componentes do Xamarin, acesse [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services).
 
 ## Android {#section_9CAE1BFD359242568D8288C12A4B7A7D}
 
 Importe o componente ADBMobile para seu projeto Xamarin.Android:
 
-1. Abra seu projeto Xamarin
-1. Abra a caixa de diálogo **[!UICONTROL Referências]** e clique na guia Assembly **** .Net.
-1. Selecione `ADBMobile.XamarinAndroidBinding.dll` na pasta **[!UICONTROL lib/Android]** .
-1. Add your `ADBMobileConfig.json` file to the **[!UICONTROL Assets]** folder of your project.
+1. Abra o projeto do Xamarin
+1. Abra a caixa de diálogo **[!UICONTROL Referências]** e clique na guia **[!UICONTROL .Net Assembly]**.
+1. Selecione `ADBMobile.XamarinAndroidBinding.dll` na pasta **[!UICONTROL lib/Android]**.
+1. Adicione o arquivo `ADBMobileConfig.json` à pasta **[!UICONTROL Assets]** do projeto.
 1. Adicionar permissões para:
 
    * `INTERNET`
@@ -54,7 +54,7 @@ Importe o componente ADBMobile para seu projeto Xamarin.Android:
     <receiver android:name="com.adobe.mobile.MessageNotificationHandler" />
    ```
 
-1. Se você estiver usando a aquisição, adicione o seguinte receptor:
+1. Se você estiver usando aquisição, adicione o seguinte receptor:
 
    ```java
     <receiver android:name="com.your.package.name.GPBroadcastReceiver" android:exported="true">
@@ -66,9 +66,9 @@ Importe o componente ADBMobile para seu projeto Xamarin.Android:
 
 ## iOS {#section_1531928DDE904D769B3987BF927D0E02}
 
-Importe o componente ADBMobile para seu projeto Xamarin.iOS:
+Importe o componente ADBMobile para o projeto Xamarin.iOS:
 
-1. Abra seu projeto Xamarin.
-1. Abra a caixa de diálogo **[!UICONTROL Referências]** e clique na guia Assembly **** .Net.
-1. Selecione `ADBMobile.XamarinIOSBinding.dll` na pasta **[!UICONTROL lib/ios-unified]** .
-1. Adicione seu `ADBMobileConfig.json` arquivo ao projeto.
+1. Abra o projeto do Xamarin.
+1. Abra a caixa de diálogo **[!UICONTROL Referências]** e clique na guia **[!UICONTROL .Net Assembly]**.
+1. Selecione `ADBMobile.XamarinIOSBinding.dll` na pasta **[!UICONTROL lib/ios-unified]**.
+1. Adicione o arquivo `ADBMobileConfig.json` ao projeto.
