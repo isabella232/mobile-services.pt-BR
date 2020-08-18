@@ -7,16 +7,16 @@ solution: Marketing Cloud,Analytics
 title: Adicionar um novo aplicativo
 topic: Metrics
 uuid: 706b5e4d-1318-4a9e-8c69-ffabf51fa02c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '710'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
-# Adicionar um novo aplicativo{#add-a-new-app}
+# Adicionar um novo aplicativo {#add-a-new-app}
 
 É possível usar estas informações para criar um novo aplicativo e configurar suas métricas principais; configurar as opções do SDK para o Adobe Analytics e o Adobe Audience Manager; configurar as opções de aquisição e de serviço de ID; e baixar o arquivo de configuração, os SDKs e as ferramentas de desenvolvedor e de testador.
 
@@ -72,13 +72,13 @@ Antes de configurar seu aplicativo, você deve adicioná-lo na interface do usu�
 
    * **[!UICONTROL Tipo]**
 
-      Selecione um tipo na lista suspensa. Os relatórios disponíveis exibidos no menu de navegação esquerdo variam dependendo do tipo de aplicativo selecionado.
+      Selecione um tipo na lista suspensa. Os relatórios disponíveis exibidos no menu de navegação esquerdo variam de acordo com o tipo de aplicativo selecionado.
 
       Estes são os tipos disponíveis:
 
       * **[!UICONTROL Padrão]**
 
-         É possível deixar a opção **[!UICONTROL Padrão}** selecionada para a maioria dos aplicativos.
+         É possível deixar a opção **[!UICONTROL Padrão]** selecionada para a maioria dos aplicativos.
 
       * **[!UICONTROL Publicação]**
 
