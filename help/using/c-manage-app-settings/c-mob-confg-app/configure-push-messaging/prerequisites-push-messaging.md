@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: Pré-requisitos para ativar as mensagens de push
 topic: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Cada usuário deve vincular a conta da solução do Analytics a partir da organi
 
    A Adobe ID agora está vinculada às suas credenciais de conta, empresa e logon do Analytics.
 
-Para obter mais informações, consulte [Resolução de problemas na vinculação da conta](https://docs.adobe.com/content/help/br/core-services/interface/manage-users-and-products/organizations.html).
+Para obter mais informações, consulte [Resolução de problemas na vinculação da conta](https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/organizations.html).
 
 ## Configurar serviços de push e o serviço de ID do SDK na interface do usuário do Mobile
 
@@ -76,7 +76,7 @@ Antes de habilitar o Serviço de ID para o aplicativo, a seção **[!UICONTROL S
 
 >[!IMPORTANT]
 >
->You must click **[!UICONTROL Save]** to save your changes and refresh the Push Services.
+>Você deve clicar em **[!UICONTROL Salvar]** para salvar as alterações e atualizar os Serviços de push.
 >
 >Você pode configurar um aplicativo da app store para a Apple e um para o Google em cada conjunto de relatórios. Se você precisar de aplicativos adicionais, por exemplo, um para um ambiente de produção e outro para um ambiente dev, configure um novo aplicativo da app store e um novo conjunto de relatórios para cada ambiente.
 
@@ -96,4 +96,4 @@ Antes de habilitar o Serviço de ID para o aplicativo, a seção **[!UICONTROL S
 
    Digite os tokens de push do dispositivo que você deseja enviar a mensagem. Você pode enviar a mensagem para vários dispositivos especificando tokens em uma lista separada por vírgula.
 
-   ![push test message](assets/push_test_list.png)
+   ![mensagem de teste de push](assets/push_test_list.png)
