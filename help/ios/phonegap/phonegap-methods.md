@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: Métodos do plug-in PhoneGap
 topic: Developer and implementation
 uuid: bd830fe5-804a-4d0a-bbb6-99a6d8da6a03
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1730'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Nos arquivos `html` em que deseja usar o rastreamento, adicione o código a segu
 
 * **setPrivacyStatus**
 
-   Define o de privacidade do usuário atual como `status`status. Você pode definir um dos seguintes estados:
+   Define o de privacidade do usuário atual como `status` status. Você pode definir um dos seguintes estados:
    * `ADB.optedIn`, em que as ocorrências são enviadas imediatamente.
    * `ADB.optedOut`, em que as ocorrências são descartadas.
    * `ADB.optUnknown` - Se o conjunto de relatórios **estiver** habilitado para mostrar o carimbo de data e hora, as ocorrências serão salvas até o status de privacidade ser alterado para aceitar (as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas).
@@ -90,7 +90,7 @@ Nos arquivos `html` em que deseja usar o rastreamento, adicione o código a segu
 
 * **trackingIdentifier**
 
-   Retorna o identificador de visitante gerado automaticamente. Esta é uma ID de visitante exclusiva específica do aplicativo gerada quando o aplicativo é iniciado pela primeira vez e é armazenada e usada a partir desse ponto. Essa ID é preservada entre as atualizações do aplicativo e é removida quando o aplicativo é desinstalado.
+   Retorna o identificador de visitante gerado automaticamente. Esta é uma ID de visitante exclusiva específica do aplicativo gerada quando ele é iniciado pela primeira vez e é armazenada e usada a partir desse ponto. Essa ID é preservada entre as atualizações do aplicativo e é removida quando o aplicativo é desinstalado.
 
    >[!TIP]
    >
@@ -325,7 +325,7 @@ Nos arquivos `html` em que deseja usar o rastreamento, adicione o código a segu
 
 * **trackActionFromBackground**
 
-   Rastreia uma ação que ocorreu em segundo plano. Isso impede que os eventos do ciclo de vida sejam acionados em determinados cenários.
+   Rastreia uma ação que ocorreu em segundo plano. Impede que os eventos do ciclo de vida sejam acionados em determinados cenários.
 
    * Esta é a sintaxe para este método:
 
