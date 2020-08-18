@@ -6,11 +6,11 @@ solution: Marketing Cloud,Analytics
 title: Métodos TVJS
 topic: Developer and implementation
 uuid: a7bfa85a-0d6e-4f51-9a9e-70429c2a9806
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2013'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Esta é uma lista de métodos TVJS fornecidos pela biblioteca tvOS.
 
 * **privacyStatus**
 
-   Retorna a representação NSUInteger da enumeração de status de privacidade do usuário atual.
+   Retorna a representação NSUInteger do enum de status de privacidade para o usuário atual.
 
    Estas são as opções:
 
@@ -221,7 +221,7 @@ Esta é uma lista de métodos TVJS fornecidos pela biblioteca tvOS.
          * Tipo: `String`
          * Nome do estado da página
       * Parâmetro: `contextData`
-         * Tipo: Objeto
+         * Tipo: objeto
          * Dados de contexto adicionais para esta ocorrência.
    * Esta é a amostra de código para este método:
 
@@ -244,10 +244,10 @@ Esta é uma lista de métodos TVJS fornecidos pela biblioteca tvOS.
 
       * Retorna: N/A
       * Parâmetros: `actionName`
-         * Tipo: String
+         * Tipo: string
          * Nome da ação que está sendo rastreada.
       * Parâmetro: `contextData`
-         * Tipo: Objeto
+         * Tipo: objeto
          * Dados de contexto adicionais para esta ocorrência.
    * Esta é a amostra de código para este método:
 
@@ -271,13 +271,13 @@ Esta é uma lista de métodos TVJS fornecidos pela biblioteca tvOS.
 
       * Retorna: N/A
       * Parâmetro: `lat`
-         * Tipo: Número
+         * Tipo: número
          * Latitude da localização.
       * Parâmetro: `lon`
-         * Tipo: Número
+         * Tipo: número
          * Longitude do local.
       * Parâmetro: `contextData`
-         * Tipo: Objeto
+         * Tipo: objeto
          * Dados de contexto adicionais para esta ocorrência.
    * Esta é a amostra de código para este método:
 
@@ -300,8 +300,8 @@ Esta é uma lista de métodos TVJS fornecidos pela biblioteca tvOS.
 
       * Retorna: N/A
       * Parâmetro: `increaseAmount`
-         * Tipo: Número
-         * Valor a ser adicionado ao valor atual do tempo de vida do usuário.
+         * Tipo: número
+         * Valor que será adicionado ao valor vitalício atual do usuário.
    * Esta é a amostra de código para este método:
 
       ```objective-c
@@ -328,7 +328,7 @@ Esta é uma lista de métodos TVJS fornecidos pela biblioteca tvOS.
          * Tipo: String
          * Nome da ação cronometrada que está sendo iniciada.
       * Parâmetro: `contextData`
-         * Tipo: Objeto
+         * Tipo: objeto
          * Dados de contexto adicionais para esta ocorrência.
    * Esta é a amostra de código para este método:
 
@@ -339,9 +339,9 @@ Esta é uma lista de métodos TVJS fornecidos pela biblioteca tvOS.
 
 * **trackTimedActionUpdateData**
 
-   Transmita os dados para atualizar os dados de contexto associados à ação em questão.
+   Transmita dados para atualizar os dados de contexto associados a determinada ação.
 
-   Os dados transmitidos são anexados aos dados existentes para a ação em questão e, se a mesma chave já estiver definida para a ação, os dados serão substituídos.
+   Os dados transmitidos são anexados aos dados existentes para determinada ação e, se a mesma chave já estiver definida para a ação, os dados são sobrescritos.
 
    >[!TIP]
    >
@@ -358,7 +358,7 @@ Esta é uma lista de métodos TVJS fornecidos pela biblioteca tvOS.
          * Tipo: String
          * Nome da ação cronometrada que está sendo atualizada.
       * Parâmetro: `contextData`
-         * Tipo: Objeto
+         * Tipo: objeto
          * Dados de contexto adicionais para esta ocorrência.
    * Esta é a amostra de código para este método:
 
@@ -372,7 +372,7 @@ Esta é uma lista de métodos TVJS fornecidos pela biblioteca tvOS.
 
    Encerra uma ação programada.
 
-   Se você fornecer uma função de retorno de chamada, poderá acessar os valores de tempo finais. Se nenhum retorno de chamada for fornecido, ou se o retorno de chamada retornar true, o SDK do Adobe enviará automaticamente uma ocorrência. Quando volta um “false” da chamada de retorno, a ocorrência de ação cronometrada é eliminada.
+   Se você fornecer uma função de retorno de chamada, poderá acessar os valores de tempo finais. Se nenhum retorno de chamada for fornecido, ou se o retorno de chamada retornar true, o SDK da Adobe enviará automaticamente uma ocorrência. Quando volta um “false” da chamada de retorno, a ocorrência de ação cronometrada é eliminada.
 
    * Esta é a sintaxe para este método:
 
@@ -427,7 +427,7 @@ Esta é uma lista de métodos TVJS fornecidos pela biblioteca tvOS.
 
    Retorna o identificador de visitante gerado automaticamente.
 
-   Esta é uma ID de visitante exclusiva específica do aplicativo, gerada pelos servidores da Adobe. Se não for possível atingir a geração de servidores no momento, a ID será gerada usando a CFUUUID da Apple. O valor é gerado na primeira inicialização e é armazenado e usado a partir desse ponto. Essa ID é preservada entre as atualizações do aplicativo, é salva e restaurada durante o processo padrão de backup do aplicativo e é removida quando o aplicativo é desinstalado.
+   Esta é uma ID de visitante exclusiva específica do aplicativo gerada pelos servidores da Adobe. Se não for possível atingir a geração de servidores no momento, a ID será gerada usando a CFUUID da Apple. O valor é gerado na primeira inicialização e é armazenado e usado a partir desse ponto. Essa ID é preservada entre as atualizações do aplicativo, é salva e restaurada durante o processo padrão de backup do aplicativo e é removida quando o aplicativo é desinstalado.
 
    >[!TIP]
    >
@@ -602,10 +602,10 @@ Esta é uma lista de métodos TVJS fornecidos pela biblioteca tvOS.
       ```
 
       * Parâmetro: `traits`
-         * Tipo: Objeto
+         * Tipo: objeto
          * Dicionário de características para este usuário.
       * Parâmetro: `callback`
-         * Tipo: function(perfil)
+         * Tipo: função (perfil)
          * O perfil retornou do Audience Manager no parâmetro para a função de retorno de chamada.
    * Esta é a amostra de código para este método:
 
@@ -660,7 +660,7 @@ Esta é uma lista de métodos TVJS fornecidos pela biblioteca tvOS.
 
 * **visitorSyncIdentifiers**
 
-   Além da ID do Experience Cloud, é possível definir IDs adicionais do cliente para serem associadas a cada visitante. A API de visitante aceita várias IDs do cliente para o mesmo visitante, juntamente com um identificador de tipo de cliente para separar o escopo de diferentes IDs do cliente. Este método corresponde a setCustomerIDs na biblioteca do JavaScript.
+   Além da Experience Cloud ID, você pode definir IDs de cliente adicionais para serem associados a cada visitante. A API de visitante aceita várias IDs do cliente para o mesmo visitante, juntamente com um identificador de tipo de cliente para separar o escopo de diferentes IDs do cliente. Este método corresponde a setCustomerIDs na biblioteca do JavaScript.
 
    * Esta é a sintaxe para este método:
 
