@@ -7,16 +7,16 @@ solution: Marketing Cloud,Analytics
 title: Resolução de problemas nas mensagens no aplicativo
 topic: Metrics
 uuid: 58533aa3-2eb2-4597-8525-77e4e5975e56
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '595'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
 
-# Resolução de problemas nas mensagens no aplicativo{#troubleshooting-in-app-messaging}
+# Resolução de problemas nas mensagens no aplicativo {#troubleshooting-in-app-messaging}
 
 Estas informações ajudam a solucionar problemas de mensagem de push no aplicativo.
 
@@ -24,11 +24,11 @@ Se você concluiu todos os requisitos para mensagens no aplicativo, mas as mensa
 
 ## Você está inserindo a nova configuração e o novo SDK no aplicativo?
 
-Verifique se a versão do SDK é 4.2 ou superior e se está configurada corretamente. Certifique-se de que haja uma seção `Messages` em sua configuração (arquivo JSON baixado) ou um terminal remoto de mensagens para que ele possa ser recuperado do gerenciamento dinâmico de tags.
+Verifique se a versão do SDK é a 4.2 ou posterior e se está configurada corretamente. Certifique-se de que haja uma seção `Messages` em sua configuração (arquivo JSON baixado) ou um terminal remoto de mensagens para que ele possa ser recuperado do gerenciamento dinâmico de tags.
 
 ## Minha mensagem em tela cheia no Android não é exibida. Estou usando o SDK correto, a configuração e meus acionadores estão sendo atendidos.
 
-Você atualizou seu arquivo manifest para definir a atividade em tela cheia?
+Você atualizou o arquivo de manifesto para definir a atividade em tela cheia?
 
 ## Minha mensagem de notificação local no Android não está funcionando.
 
@@ -42,11 +42,11 @@ Verifique a visualização da lista na página Gerenciar mensagens no aplicativo
 
 Verifique se essas configurações estão definidas do modo como você deseja. Na guia **[!UICONTROL Público-alvo]**, revise as opções do **[!UICONTROL Acionar]**, que permitem especificar a frequência de exibição da mensagem.
 
-## Se estiver usando evento de inicialização como acionador...
+## Caso esteja usando um evento de inicialização como acionador...
 
 O acionador só será ativado em uma nova sessão. Para obter mais informações sobre o início de uma sessão, consulte a linha `lifecycleTimeout` no arquivo de Configuração JSON. Para obter mais informações, consulte [Configuração JSON do ADBMobile](/help/ios/configuration/json-config/json-config.md).
 
-## Atualizei minha mensagem remotamente, mas meu aplicativo ainda está mostrando a mensagem antiga.
+## Atualizei minha mensagem remotamente mas meu aplicativo ainda exibe a mensagem antiga.
 
 Conclua uma das seguintes tarefas:
 
@@ -61,7 +61,7 @@ Se o aplicativo tiver sido reiniciado dentro do tempo limite da sessão do ciclo
 
 ## Minha imagem não se encaixa perfeitamente no espaço fornecido pelo modelo.
 
-O modelo em tela cheia de mensagens no aplicativo é compatível com a exibição de uma imagem de um servidor remoto (URL da imagem) ou do conjunto de aplicativos (Imagem embutida). A imagem deve estar em um formato padrão, por exemplo, JPG, GIF ou PNG.
+O modelo em tela cheia de mensagens no aplicativo é compatível com a exibição de uma imagem de um servidor remoto (URL da imagem) ou do conjunto de aplicativos (Imagem empacotada). A imagem deve estar em um formato padrão, por exemplo, JPG, GIF ou PNG.
 
 Como as telas dos dispositivos podem ter muitas dimensões diferentes, a imagem provavelmente não se encaixará perfeitamente no espaço fornecido pelo modelo. O modelo foca em mostrar o centro da imagem e, se ela não couber, recorta (retrato) ou esmaece (paisagem) as laterais.
 
@@ -75,7 +75,7 @@ Estas são as regras de posicionamento e dimensionamento para cada orientação:
 
 * **Paisagem**:
    * A imagem foi dimensionada para 100% da altura do dispositivo.
-   * A largura é de 75% do dispositivo, com um apagão à direita.
+   * A largura é de 75% do dispositivo, com um fade out à direita.
 
 Se tiver problemas com o modelo em tela cheia, você pode baixar e usar o modelo HTML personalizado. Este modelo oferece mais flexibilidade para imagens e permite o controle total do modelo.
 
