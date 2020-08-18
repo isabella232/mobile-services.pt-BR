@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: Métricas móveis e referências de dimensões
 topic: Metrics
 uuid: 96170ae7-8553-4f3e-ae01-65e5b664adf4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '637'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Esta é a lista de métricas móveis por padrão:
 
 * **Falhas**
 
-   Disparado quando o aplicativo não sai corretamente. Esse evento é enviado quando o aplicativo é start após uma falha.
+   Acionado quando o aplicativo não sai corretamente. Esse evento é enviado quando o aplicativo é iniciado após uma falha.
 
    >[!TIP]
    >O aplicativo pode falhar se o comando Sair não for invocado.
@@ -75,7 +75,7 @@ Esta é a lista de dimensões móveis por padrão:
 
 * **Data de instalação**
 
-   Data da primeira inicialização após a instalação. A data está no formato *MM/DD/AAAA* .
+   Data do primeiro lançamento após a instalação. A data está no formato *MM/DD/AAAA*.
 
 * **ID do aplicativo**
 
