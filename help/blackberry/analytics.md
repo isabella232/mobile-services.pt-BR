@@ -1,40 +1,43 @@
 ---
-description: Após adicionar a biblioteca ao projeto, é possível executar todas as chamadas de método do Analytics em qualquer lugar no aplicativo (certifique-se de importar o ADBMobile.h para sua classe).
-seo-description: Após adicionar a biblioteca ao projeto, é possível executar todas as chamadas de método do Analytics em qualquer lugar no aplicativo (certifique-se de importar o ADBMobile.h para sua classe).
+description: Depois de adicionar a biblioteca ao seu projeto, você pode efetuar qualquer uma das chamadas de método do Analytics em qualquer lugar no seu aplicativo (certifique-se de importar ADBMobile.h para sua classe).
+seo-description: Depois de adicionar a biblioteca ao seu projeto, você pode efetuar qualquer uma das chamadas de método do Analytics em qualquer lugar no seu aplicativo (certifique-se de importar ADBMobile.h para sua classe).
 seo-title: Analytics
 title: Analytics
 uuid: de018eda-b37d-4afe-83a0-8011381d7aff
 translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+workflow-type: tm+mt
+source-wordcount: '684'
+ht-degree: 5%
 
 ---
 
 
 # Analytics {#analytics}
 
-Após adicionar a biblioteca ao projeto, é possível executar todas as chamadas de método do Analytics em qualquer lugar no aplicativo (certifique-se de importar o ADBMobile.h para sua classe).
+Depois de adicionar a biblioteca ao seu projeto, você pode efetuar qualquer uma das chamadas de método do Analytics em qualquer lugar no seu aplicativo (certifique-se de importar ADBMobile.h para sua classe).
 
-## Enable mobile application reports in Analytics {#task_3DA1354942CF4BF4B11B9CC97588A9ED}
+## Ativar relatórios de aplicativos móveis no Analytics {#task_3DA1354942CF4BF4B11B9CC97588A9ED}
 
-Antes de adicionar um código, peça para que um dos administradores do Analytics conclua as etapas a seguir para ativar o acompanhamento de Ciclo de vida do aplicativo móvel. Isso garante que o conjunto de relatórios esteja pronto para capturar métricas assim que você iniciar o desenvolvimento.
+Antes de adicionar o código, peça para que o administrador do Analytics conclua o seguinte para ativar o rastreamento do ciclo de vida do aplicativo móvel. Isso garante que seu conjunto de relatórios esteja pronto para capturar métricas à medida que você iniciar o desenvolvimento.
 
 
-1. Open **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Report Suites]** and select your mobile report suite(s).
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
+1. Abra Ferramentas **** administrativas > **[!UICONTROL Report Suites]** e selecione seus report suites móveis.
+1. Clique em **[!UICONTROL Editar configurações]** > Gerenciamento **** móvel > Relatórios **[!UICONTROL do aplicativo]** móvel.
 
    ![](assets/mobile-settings.png)
 
-1. Clique em **[!UICONTROL Habilitar relatórios de aplicativo mais recentes]**.
+1. Clique em **[!UICONTROL Ativar os relatórios]** mais recentes do aplicativo.
 
-   Opcionalmente, também é possível clicar em **[!UICONTROL Habilitar rastreamento de localização em dispositivos móveis]** e em **[!UICONTROL Habilitar Relatórios e atribuições herdados para ocorrências em segundo plano]**.
+   Opcionalmente, você também pode clicar em **[!UICONTROL Ativar rastreamento]** de localização móvel e **[!UICONTROL Ativar Relatórios e atribuição herdados para ocorrências]** em segundo plano.
 
    ![](assets/enable-lifecycle.png)
 
-Lifecycle metrics are now ready to be captured, and Mobile Application Reports] appear in the **[!UICONTROL Reports]** menu in the marketing reports interface.
+As medições de ciclo de vida estão prontas para serem capturadas e os Relatórios de aplicativo móvel são exibidos no menu **[!UICONTROL Relatórios]** na interface dos relatórios de marketing.
 
 ## Coletar medições de ciclo de vida {#task_25D469C62DF84573AEB5E8E950B96205}
 
-1. To collect lifecycle metrics in your app, call `collectLifecycleData()` in the `ApplicationUI` constructor.
+1. Para coletar medições de ciclo de vida em seu aplicativo, chame `collectLifecycleData()` o `ApplicationUI` construtor.
 
    Por exemplo:
 
@@ -45,32 +48,32 @@ Lifecycle metrics are now ready to be captured, and Mobile Application Reports] 
    } 
    ```
 
-   If `collectLifecycleData()` is called twice in the same session, then your application will report a crash on every call after the first. O SDK define um sinalizador quando o aplicativo é fechado que indica uma saída bem-sucedida. If this flag is not set, `collectLifecyleData()` reports a crash.
+   Se `collectLifecycleData()` for chamado duas vezes na mesma sessão, o aplicativo reportará uma falha em cada chamada após a primeira. O SDK define um sinalizador quando o aplicativo é desligado que indica uma saída bem-sucedida. Se esse sinalizador não estiver definido, `collectLifecyleData()` reportará uma falha.
 
-## Events, props, and eVars {#concept_B885D5A71A5D45129CE7C1C3426A7D28}
+## Eventos, propriedades e eVars {#concept_B885D5A71A5D45129CE7C1C3426A7D28}
 
 
-Se você tiver observado a Referência [de classe e método](/help/blackberry/methods.md)ADBMobile, provavelmente está se perguntando onde definir eventos, eVars, props, herdeiros e listas. Na versão 4, não é possível atribuir esses tipos de variáveis diretamente no aplicativo. Em vez disso, o SDK usa dados de contexto e regras de processamento de forma a mapear os dados do aplicativo para as variáveis do Analytics para criação de relatórios.
+Se você tiver observado a Referência [de método e classe](/help/blackberry/methods.md)ADBMobile, provavelmente está se perguntando onde definir eventos, eVars, props, herdeiros e listas. Na versão 4, não é mais possível atribuir esses tipos de variáveis diretamente no aplicativo. Em vez disso, o SDK usa dados de contexto e regras de processamento para mapear os dados do aplicativo para as variáveis do Analytics para o relatórios.
 
-As regras de processamento oferecem diversas vantagens:
+As regras de processamento oferecem várias vantagens:
 
-* Você pode alterar seu mapeamento de dados sem enviar uma atualização para a App Store.
-* Como alternativa, use nomes significativos para os dados em vez de configurar variáveis específicas para um conjunto de relatórios.
-* Há pouco impacto no envio de dados adicionais. Esses valores não aparecerão nos relatórios até que sejam mapeados usando regras de processamento.
+* Você pode alterar o mapeamento de dados sem enviar uma atualização para a App Store.
+* Você pode usar nomes significativos para dados em vez de definir variáveis específicas para um conjunto de relatórios.
+* Há pouco impacto no envio de dados extras. Esses valores não aparecerão nos relatórios até que sejam mapeados usando as regras de processamento.
 
 Any values that you were assigning directly to variables should be added to the `data` HashMap instead.
 
 ## Regras de processamento {#concept_3EA4CD602AF4488A896B0EDD3BA2D969}
 
-As regras de processamento são usadas para copiar os dados enviados nas variáveis de dados de contexto para evars, propriedades e outras variáveis para fins de criação e edição de relatórios.
+As regras de processamento são usadas para copiar os dados enviados nas variáveis de dados de contexto para evars, props e outras variáveis do relatórios.
 
-[Treinamento sobre regras de processamento](https://tv.adobe.com/embed/1181/16506/) @ Summit 2013
+[Treinamento](https://tv.adobe.com/embed/1181/16506/) das regras de processamento no Summit 2013
 
-[Regras de processamento](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html)
+[Regras de processamento](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
 [Receber autorização para usar as regras de processamento](https://helpx.adobe.com/analytics/kb/processing-rules-authorization.html)
 
-Recomendamos agrupar as variáveis de dados de contexto usando “namespaces”; isso o ajudará a manter uma ordem lógica. Por exemplo, se você quiser coletar informações sobre um produto, pode definir as seguintes variáveis:
+Recomendamos agrupar as variáveis de dados de contexto usando &quot;namespace&quot;, pois isso ajuda a manter a ordem lógica. Por exemplo, se você deseja coletar informações sobre um produto, pode definir as seguintes variáveis:
 
 ```js
 "product.type":"hat" 
@@ -78,27 +81,27 @@ Recomendamos agrupar as variáveis de dados de contexto usando “namespaces”;
 "product.color":"blue"
 ```
 
-As variáveis de dados de contexto são classificadas em ordem alfabética na interface das regras de processamento. Sendo assim, os namespaces permitem ver rapidamente as variáveis que estão no mesmo namespace.
+As variáveis de dados de contexto são classificadas em ordem alfabética na interface das regras de processamento, de modo que o namespace permite que você veja rapidamente as variáveis que estão na mesma namespace.
 
-Além disso, fomos informados de que alguns dos usuários têm nomeado as chaves de dados de contexto usando número do evar ou da propriedade:
+Além disso, ouvimos que alguns de vocês estão nomeando chaves de dados de contexto usando o número de evar ou prop:
 
 ```js
 "eVar1":"jimbo"
 ```
 
-Isso pode facilitar *um pouco* a execução do mapeamento único nas regras de processamento, mas você perderá a legibilidade durante a depuração e as futuras atualizações de código podem ser mais difíceis. Em vez disso, recomendamos o uso de nomes descritivos para chaves e valores:
+Isso pode tornar *um pouco* mais fácil ao executar o mapeamento único nas regras de processamento, mas você perde a legibilidade durante a depuração e as futuras atualizações de código podem ser mais difíceis. Em vez disso, recomendamos o uso de nomes descritivos para chaves e valores:
 
 ```js
 "username":"jimbo"
 ```
 
-As variáveis de contexto que definem eventos de contagem podem ter a mesma chave e o mesmo valor:
+As variáveis de contexto que definem eventos de contador podem ter a mesma chave e valor:
 
 ```js
 "logon":"logon"
 ```
 
-As variáveis de contexto que definem eventos de incremento podem ter o evento como a chave e a quantidade a incrementar como o valor:
+As variáveis de dados de contexto que definem eventos de incremento podem ter o evento como a chave e o valor a incrementar como o valor:
 
 ```js
 "levels completed":"6"
@@ -106,14 +109,14 @@ As variáveis de contexto que definem eventos de incremento podem ter o evento c
 
 >[!TIP]
 >
->A Adobe reserva o namespace `a.`. Além dessa pequena restrição, as variáveis de dados de contexto só precisam ser únicas no logon da empresa para evitar conflitos.
+>A Adobe reserva o namespace `a.`. Além dessa pequena restrição, as variáveis de dados de contexto só precisam ser exclusivas na sua empresa de logon para evitar colisões.
 
 ## Ativar rastreamento offline {#concept_402F4ECE240B4CA1B779322A7BFCB8DE}
 
-To store hits when the device is offline, you can optionally enable offline tracking in the `ADBMobileConfig.json` file.
+Para armazenar ocorrências quando o dispositivo estiver offline, é possível ativar o rastreamento offline no `ADBMobileConfig.json` arquivo.
 
-Preste muita atenção às exigências do carimbo de data e hora descritas na referência do arquivo de configuração antes de habilitar o rastreamento offline.
+Preste muita atenção aos requisitos de carimbo de data e hora descritos na referência do arquivo de configuração antes de ativar o rastreamento offline.
 
-## Analytics methods
+## Métodos do Analytics
 
-Para obter uma lista dos métodos do Analytics disponíveis para o BlackBerry, consulte Métodos *do* Analytics em Referência [de métodos e classes do](/help/blackberry/methods.md)Adobe Mobile.
+Para obter uma lista dos métodos do Analytics disponíveis para o BlackBerry, consulte Métodos *do* Analytics em Referência [de métodos e classes móveis do](/help/blackberry/methods.md)Adobe.
