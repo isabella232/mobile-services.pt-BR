@@ -1,18 +1,21 @@
 ---
-description: Os postbacks permitem enviar os dados coletados pelo Adobe Mobile a um servidor separado de terceiros. Ao usar os mesmos acionadores e características usados para exibir uma mensagem no aplicativo, é possível configurar o Mobile Services para enviar dados personalizados a um destino de terceiros.
-seo-description: Os postbacks permitem enviar os dados coletados pelo Adobe Mobile a um servidor separado de terceiros. Ao usar os mesmos acionadores e características usados para exibir uma mensagem no aplicativo, é possível configurar o Mobile Services para enviar dados personalizados a um destino de terceiros.
+description: Os postbacks permitem que você envie dados coletados pelo Adobe Mobile para um servidor separado de terceiros. Ao aproveitar os mesmos acionadores e características usadas para exibir uma mensagem no aplicativo, você pode configurar o Mobile Services para enviar dados personalizados para um destino de terceiros.
+seo-description: Os postbacks permitem que você envie dados coletados pelo Adobe Mobile para um servidor separado de terceiros. Ao aproveitar os mesmos acionadores e características usadas para exibir uma mensagem no aplicativo, você pode configurar o Mobile Services para enviar dados personalizados para um destino de terceiros.
 seo-title: Configurar postbacks
 title: Configurar postbacks
 uuid: a026575c-057b-4868-b6c8-9514cbc32b4d
-translation-type: ht
-source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
+translation-type: tm+mt
+source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+workflow-type: tm+mt
+source-wordcount: '474'
+ht-degree: 71%
 
 ---
 
 
 # Configurar postbacks {#configure-postbacks}
 
-Os postbacks permitem enviar os dados coletados pelo Adobe Mobile a um servidor separado de terceiros. Ao usar os mesmos acionadores e características usados para exibir uma mensagem no aplicativo, é possível configurar o Mobile Services para enviar dados personalizados a um destino de terceiros.
+Os postbacks permitem que você envie dados coletados pelo Adobe Mobile para um servidor separado de terceiros. Ao aproveitar os mesmos acionadores e características usadas para exibir uma mensagem no aplicativo, você pode configurar o Mobile Services para enviar dados personalizados para um destino de terceiros.
 
 >[!IMPORTANT]
 >
@@ -51,7 +54,7 @@ Os postbacks permitem enviar os dados coletados pelo Adobe Mobile a um servidor 
       Especifique uma ou mais tags de data e condições que acionam o postback. Por exemplo, você pode escolher **[!UICONTROL Falha]** como acionador e **[!UICONTROL Existe]** como condição para acionar o postback quando o aplicativo travar. Você também pode especificar quais métricas ativam o postback. Por exemplo, você pode selecionar **[!UICONTROL Nome do dispositivo]** como acionador e **[!UICONTROL Igual]** e **[!UICONTROL iPhone 6 Plus]** como condições para ativar o postback quando o aplicativo travar em dispositivos iPhone 6 Plus.
 
    * **[!UICONTROL Característica(s)]**
-   Especifique quem pode ver a mensagem quando ela é acionada. As opções incluem **[!UICONTROL Duração da sessão**, **[!UICONTROL Data da primeira inicialização]** e **[!UICONTROL ID do aplicativo]**.
+   Especifique quem pode ver a mensagem quando ela é acionada. Options include **[!UICONTROL Session Length]**, **[!UICONTROL First Launch Date]**, and **[!UICONTROL App ID]**.
 
 1. Clique em **[!UICONTROL Salvar]** para criar o postback e adicioná-lo à lista **[!UICONTROL Gerenciar postbacks]**.
 
