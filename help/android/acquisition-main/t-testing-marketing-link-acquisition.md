@@ -1,14 +1,17 @@
 ---
 description: As instruções a seguir ajudam a fazer uma viagem de ida e volta em uma campanha de aquisição com um link de marketing em um dispositivo Android.
-keywords: android;biblioteca;móvel;sdk
+keywords: android;library;mobile;sdk
 seo-description: As instruções a seguir ajudam a fazer uma viagem de ida e volta em uma campanha de aquisição com um link de marketing em um dispositivo Android.
 seo-title: Teste de aquisição de links de marketing
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Teste de aquisição de links de marketing
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: d0933dcc-8fc3-4f60-987f-7a54559aacf5
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+workflow-type: tm+mt
+source-wordcount: '763'
+ht-degree: 78%
 
 ---
 
@@ -17,12 +20,12 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 As instruções a seguir ajudam a fazer uma viagem de ida e volta em uma campanha de aquisição com um link de marketing em um dispositivo Android.
 
-Se o aplicativo móvel ainda não estiver no Google Play, é possível selecionar qualquer aplicativo móvel como destino ao criar o link de marketing. Isso não afeta a capacidade de testar o link de aquisição, somente o aplicativo para o qual você é redirecionado pelo servidor de aquisição após clicar no link. Os parâmetros da cadeia de caracteres de consulta são passados para a Google Play store, que é passada para o aplicativo na instalação como parte de uma difusão de campanha. A viagem de ida e volta do teste de aquisição do aplicativo móvel requer uma simulação desse tipo de difusão.
+Se o aplicativo móvel ainda não estiver no Google Play, é possível selecionar qualquer aplicativo móvel como destino ao criar o link de marketing. Isso só afeta o aplicativo para o qual o servidor de aquisição o redireciona, depois que você clica no link de aquisição, e não a capacidade de testar o link de aquisição. Os parâmetros da string de query são passados para a Google Play store, que são passados para o aplicativo na instalação como parte de uma transmissão de campanha. O teste de aquisição de aplicativo móvel de ida e volta requer a simulação desse tipo de transmissão.
 
-O aplicativo deve estar recém-instalado ou ter os dados limpos em [!UICONTROL **Configurações**] sempre que um teste for executado. Isso garante que as medições de ciclo de vida inicial associadas aos parâmetros de cadeia de caracteres de consulta da campanha sejam enviadas quando o aplicativo é inicializado pela primeira vez.
+O aplicativo deve estar recém-instalado ou ter os dados limpos em **[!UICONTROL Configurações]** sempre que um teste for executado. Isso garante que as medições de ciclo de vida inicial associadas aos parâmetros de cadeia de caracteres de consulta da campanha sejam enviadas quando o aplicativo é inicializado pela primeira vez.
 
 1. Conclua as tarefas de pré-requisito na [Aquisição de aplicativos móveis](/help/android/acquisition-main/acquisition.md) e certifique-se de que você implementou corretamente o receptor de transmissão para `INSTALL_REFERRER`.
-1. Na interface do Adobe Mobile Services, clique em **[!UICONTROL Aquisição]** &gt; **[!UICONTROL Construtor de links de marketing]** e gere um URL de Aquisição de link de marketing que defina o Google Play como destino para dispositivos Android.
+1. Na interface do Adobe Mobile Services, clique em **[!UICONTROL Aquisição]** > **[!UICONTROL Construtor de links de marketing]** e gere um URL de Aquisição de link de marketing que defina o Google Play como destino para dispositivos Android.
 
    Para obter mais informações, consulte [Criador de links de marketing](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md).
 
@@ -70,7 +73,7 @@ O aplicativo deve estar recém-instalado ou ter os dados limpos em [!UICONTROL *
    | Configuração | Valor |
    |--- |--- |
    | aquisição | O servidor deve ser `c00.adobe.com`, e *`appid`* deve ser igual ao `appid` no link de aquisição. |
-   | analytics | Para fins de teste, defina o limite de tempo do referencial para permitir que o tempo adequado (60 segundos ou mais) envie a difusão automaticamente. É possível restaurar a configuração original de limite de tempo após testar. |
+   | analytics | Para fins de teste, defina o tempo limite da quem indicou para permitir tempo adequado (60 segundos ou mais) para enviar a transmissão manualmente. É possível restaurar a configuração original de tempo limite após o teste. |
 
 1. Conecte o dispositivo a um computador, desinstale e instale o aplicativo novamente.
 1. Inicie o ADB Shell e execute o aplicativo no dispositivo.
@@ -105,9 +108,9 @@ O aplicativo deve estar recém-instalado ou ter os dados limpos em [!UICONTROL *
    "Analytics - Received Referrer Data(<A JSON Response>)"
    ```
 
-   Caso não veja esses logs, certifique-se de que tenha executado as etapas de 6 a 10.
+   Se não vir esses registros, verifique se você concluiu as etapas de 6 a 10.
 
-   A tabela a seguir contém informações adicionais sobre os erros possíveis:
+   A tabela a seguir contém informações adicionais sobre possíveis erros:
 
    | Erro | Descrição |
    |--- |--- |
@@ -115,11 +118,11 @@ O aplicativo deve estar recém-instalado ou ter os dados limpos em [!UICONTROL *
    | Analytics - Unable to parse response (`a JSON Response`). | A cadeia de caracteres JSON está malformada. |
    | Analytics - Unable to parse acquisition service response (no `contextData` parameter in response). | Não há um parâmetro `contextData` na resposta. |
    | Analytics - Acquisition referrer data was not complete (no `a.referrer.campaign.name` in context data), ignoring. | `a.referrer.campaign.name` não está incluído em contextData. |
-   | Analytics - Acquisition referrer timed out. | Falha ao obter a resposta no tempo definido pelo `referrerTimeout`. Aumente o valor e tente novamente.  Também é necessário ter certeza de que você abriu o link de aquisição antes de instalar o aplicativo. |
+   | Analytics - Acquisition referrer timed out. | Falha ao obter a resposta no tempo definido pelo `referrerTimeout`. Aumente o valor e tente novamente.  Você também deve garantir que abriu o link de aquisição antes de instalar o aplicativo. |
 
 Lembre-se das seguintes informações:
 
-* As ocorrências enviadas pelo aplicativo podem ser monitoradas usando as ferramentas de monitoramento HTTP para verificar a atribuição da aquisição.
+* As ocorrências enviadas pelo aplicativo podem ser monitoradas usando ferramentas de monitoramento HTTP para verificar a atribuição de aquisição.
 * Para obter mais informações sobre como fazer a transmissão do `INSTALL_REFERRER`, consulte [Testar medição de campanha do Google Play](https://developers.google.com/analytics/solutions/testing-play-campaigns) no Guia de desenvolvedores do Google.
 * É possível usar a ferramenta `acquisitionTest.jar` do Java fornecida para ajudá-lo a obter a ID única e o referencial de instalação da transmissão que, por sua vez, o ajuda a obter as informações das etapas de 3 a 10.
 
@@ -130,7 +133,7 @@ Para instalar a ferramenta Java:
 1. Baixe o arquivo [`acquistionTester.zip`](../assets/acquisitionTester.zip).
 1. Extraia o arquivo .jar.
 
-   É possível executar o arquivo .jar na linha de comando.
+   Você pode executar o arquivo .jar na linha de comando.
 
 Por exemplo:
 
