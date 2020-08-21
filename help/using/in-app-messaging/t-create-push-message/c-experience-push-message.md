@@ -1,28 +1,31 @@
 ---
-description: É possível configurar opções de experiência para mensagens de push e mensagens de push avançadas, incluindo as opções de nome, texto da mensagem e destino. Também é possível configurar opções avançadas, incluindo opções de carga e personalizadas para os dispositivos iOS.
-keywords: dispositivos móveis
-seo-description: É possível configurar opções de experiência para mensagens de push e mensagens de push avançadas, incluindo as opções de nome, texto da mensagem e destino. Também é possível configurar opções avançadas, incluindo opções de carga e personalizadas para os dispositivos iOS.
+description: Você pode configurar as opções de experiência para mensagens de push e mensagens de push avançadas, incluindo as opções de nome, texto da mensagem e destino. Você também pode configurar opções avançadas, incluindo opções de carga e opções personalizadas para dispositivos iOS.
+keywords: mobile
+seo-description: Você pode configurar as opções de experiência para mensagens de push e mensagens de push avançadas, incluindo as opções de nome, texto da mensagem e destino. Você também pode configurar opções avançadas, incluindo opções de carga e opções personalizadas para dispositivos iOS.
 seo-title: Experiência  mensagem por push
-solution: Experience Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Experiência  mensagem por push
-topic: Métricas
+topic: Metrics
 uuid: 1a8baf3e-9fea-452c-b0fc-4ba8ac270861
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+workflow-type: tm+mt
+source-wordcount: '799'
+ht-degree: 74%
 
 ---
 
 
 # Experiência: mensagem por push {#experience-push-message}
 
-É possível configurar opções de experiência para mensagens de push e mensagens de push avançadas, incluindo as opções de nome, texto da mensagem e destino. Também é possível configurar opções avançadas, incluindo opções de carga e personalizadas para os dispositivos iOS.
+Você pode configurar as opções de experiência para mensagens de push e mensagens de push avançadas, incluindo as opções de nome, texto da mensagem e destino. Você também pode configurar opções avançadas, incluindo opções de carga e opções personalizadas para dispositivos iOS.
 
 1. Na página Público de uma nova mensagem por push, clique em **[!UICONTROL Experiência]**.
 
    ![tela de mensagem por push da experiência](assets/experience-push-message.png)
 
 1. Digite um nome para esta mensagem.
-1. Digite as informações nos seguintes campos na seção **[!UICONTROL Mensagem]:**
+1. Digite as informações nos seguintes campos na seção **[!UICONTROL Mensagem]**:
 
    * **[!UICONTROL Conteúdo]**
 
@@ -61,14 +64,14 @@ Estes são os requisitos para enviar notificações por push avançadas:
       >
       >Lembre-se das seguintes informações:
       >* As mensagens por push avançadas enviadas para versões anteriores ainda serão enviadas, mas somente o texto será exibido.
-      >* Ainda não há suporte para Flash no momento.
+      >* Não há suporte para monitoramento neste momento.
 
 
 * **Formatos de arquivo**
 
    Estes são os formatos de arquivo suportados:
    * Imagens: JPG e PNG
-   * Animações (apenas iOS): GIF
+   * Animações (somente iOS): GIF
    * Vídeos (somente iOS): MP4
 
 * **Formatos de URL**
@@ -104,7 +107,7 @@ Para configurar uma mensagem por push na página Experiência:
 
 1. (Opcional) Visualize o layout de sua mensagem clicando nos ícones a seguir:
 
-   * **[!UICONTROL x Resumo}**
+   * **[!UICONTROL x Resumo]**
 
       Oculta o painel de visualização. Clique em ![visualizar](assets/icon_preview.png) para exibir o painel de visualização novamente.
 
@@ -126,10 +129,10 @@ Para configurar uma mensagem por push na página Experiência:
    Na parte inferior do painel de visualização, você pode ver uma descrição do público-alvo selecionado na etapa anterior.
 
 1. (**Opcional**) Clique em **[!UICONTROL Testar]** para encaminhar sua mensagem a dispositivos especificados para fins de testes.
-1. Selecione o serviço e digite os tokens de push para, pelo menos, um dispositivo ao qual você deseja enviar a mensagem.
+1. Selecione o serviço e digite os tokens de push para pelo menos um dispositivo para o qual você deseja enviar a mensagem.
 
    Especifique os tokens em uma lista separada por vírgulas para encaminhar a mensagem para mais de um dispositivo.
 
-1. Configurar as opções de agendamento para a mensagem.
+1. Configure as opções de agendamento da mensagem.
 
    Para obter mais informações, consulte [Programar: mensagem por push](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md).
