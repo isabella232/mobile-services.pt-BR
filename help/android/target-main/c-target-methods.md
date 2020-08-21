@@ -1,14 +1,17 @@
 ---
 description: Esta é a lista de métodos do Adobe Target fornecida pela biblioteca do Android.
-keywords: android;biblioteca;móvel;sdk
+keywords: android;library;mobile;sdk
 seo-description: Esta é a lista de métodos do Adobe Target fornecida pela biblioteca do Android.
 seo-title: Métodos do Target para o Android
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Métodos do Target para o Android
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 8e9808b2-ba80-4646-ba05-8e62d4fde065
-translation-type: ht
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+translation-type: tm+mt
+source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 Esta é a lista de métodos do Adobe Target fornecida pela biblioteca do Android.
 
-Atualmente, o SDK é compatível com várias soluções da Adobe Experience Cloud, incluindo o Analytics, o Target, o Audience Manager e o Adobe Experience Platform Identity Service. Os métodos recebem o prefixo de acordo com a solução. Por exemplo, métodos da Experience Cloud ID recebem o prefixo `target`.
+Atualmente, o SDK é compatível com várias soluções da Adobe Experience Cloud, como o Analytics, o Target, o Audience Manager e o Adobe Experience Platform Identity Service. Os métodos recebem o prefixo de acordo com a solução. Por exemplo, métodos da Experience Cloud ID recebem o prefixo `target`.
 
 >[!TIP]
 >
@@ -130,12 +133,12 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
          * **Tipo:** cadeia de caracteres
       * **profileParameters**
 
-         Os valores neste dicionário serão adicionados ao objeto "profileParameters" na solicitação para o Target.
+         Os valores neste dicionário serão adicionados ao objeto &quot;profileParameters&quot; na solicitação para o Target.
 
          * **Tipo:** mapa `<String, Object>`
       * **orderParameters**
 
-         Os valores neste dicionário serão adicionados ao objeto "order" na solicitação para o Target.
+         Os valores neste dicionário serão adicionados ao objeto &quot;order&quot; na solicitação para o Target.
 
          * **Tipo:** mapa `<String, Object>`
       * **mboxParameters**
@@ -145,7 +148,7 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
          * **Tipo:** mapa `<String, Object>`
       * **requestLocationParameters**
 
-         Os valores neste dicionário serão adicionados ao objeto "requestLocation" na solicitação para o Target.
+         Os valores neste dicionário serão adicionados ao objeto &quot;requestLocation&quot; na solicitação para o Target.
 
          * **Tipo:** mapa `<String, Object>`
       * **callback**
