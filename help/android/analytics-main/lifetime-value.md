@@ -1,20 +1,23 @@
 ---
-description: O valor de vida útil permite medir e atribuir um valor para cada usuário Android. O valor pode ser usado para armazenar compras vitalícias, visualizações de anúncios, vídeos, compartilhamentos sociais, uploads de fotos etc.
-seo-description: O valor de vida útil permite medir e atribuir um valor para cada usuário Android. O valor pode ser usado para armazenar compras vitalícias, visualizações de anúncios, vídeos, compartilhamentos sociais, uploads de fotos etc.
+description: O valor vitalício permite medir e público alvo em um valor vitalício para cada usuário do Android. O valor pode ser usado para armazenar compras vitalícias, visualizações de anúncios, vídeos concluídos, compartilhamentos sociais, uploads de fotos e assim por diante.
+seo-description: O valor vitalício permite medir e público alvo em um valor vitalício para cada usuário do Android. O valor pode ser usado para armazenar compras vitalícias, visualizações de anúncios, vídeos concluídos, compartilhamentos sociais, uploads de fotos e assim por diante.
 seo-title: Valor vitalício do visitante
-solution: Experience Cloud,Analytics
-title: 'Valor vitalício do visitante  '
-topic: Desenvolvedor e implementação
+solution: Marketing Cloud,Analytics
+title: Valor vitalício do visitante
+topic: Developer and implementation
 uuid: ba0308de-282e-46f9-a14c-19fb6d5c363e
-translation-type: ht
-source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
+translation-type: tm+mt
+source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+workflow-type: tm+mt
+source-wordcount: '232'
+ht-degree: 52%
 
 ---
 
 
 # Valor vitalício do visitante {#visitor-lifetime-value}
 
-O valor de vida útil permite medir e atribuir um valor para cada usuário Android. O valor pode ser usado para armazenar compras vitalícias, visualizações de anúncios, vídeos, compartilhamentos sociais, uploads de fotos etc.
+O valor vitalício permite medir e público alvo em um valor vitalício para cada usuário do Android. O valor pode ser usado para armazenar compras vitalícias, visualizações de anúncios, vídeos concluídos, compartilhamentos sociais, uploads de fotos e assim por diante.
 
 Cada vez que um valor é enviado com `trackLifetimeValueIncrease`, o valor é adicionado ao valor existente. O valor de tempo de vida é armazenado no dispositivo e pode ser recuperado a qualquer momento ao chamar `lifetimeValue`.
 
