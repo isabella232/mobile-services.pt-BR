@@ -1,22 +1,25 @@
 ---
-description: Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Experience Cloud.
+description: Métodos do iOS para componentes do Xamarin para SDK 4.x das soluções do Experience Cloud.
 keywords: Xamarin
-seo-description: Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Experience Cloud.
+seo-description: Métodos do iOS para componentes do Xamarin para SDK 4.x das soluções do Experience Cloud.
 seo-title: Métodos do iOS
-solution: Marketing Cloud,Desenvolvedor
-title: iOS methods
+solution: Marketing Cloud,Developer
+title: Métodos do iOS
 uuid: d6a056db-80c1-44d0-970f-c961ad01b0bc
 translation-type: tm+mt
-source-git-commit: f53953831e6471ea64eb2ae06ddae16ca0eab6f6
+source-git-commit: 70c79d404c29a8a35b5eadbb3ad99f953a5166e0
+workflow-type: tm+mt
+source-wordcount: '1749'
+ht-degree: 70%
 
 ---
 
 
-# iOS methods{#ios-methods}
+# Métodos do iOS{#ios-methods}
 
-Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Experience Cloud.
+Métodos do iOS para componentes do Xamarin para SDK 4.x das soluções do Experience Cloud.
 
-## Configuration methods {#section_405AA09390E346E5BB7B1F4E0F65F51E}
+## Métodos de configuração {#section_405AA09390E346E5BB7B1F4E0F65F51E}
 
 * **CollectLifecycleData**
 
@@ -52,7 +55,7 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
 
 * **SetDebugLogging**
 
-   Define a preferência do log de depuração como ativada.
+   Define a preferência de registro de depuração como ativada.
 
    * Esta é a sintaxe para este método:
 
@@ -85,9 +88,10 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
 * **PrivacyStatus**
 
    Retorna a representação de enumeração do status de privacidade do usuário atual.
-   * `ADBMobilePrivacyStatus.OptIn` - hits are sent immediately.
+   * `ADBMobilePrivacyStatus.OptIn` - as ocorrências são enviadas imediatamente.
    * `ADBMobilePrivacyStatus.OptOut` - as ocorrências serão descartadas.
-   * ADBMobilePrivacyStatus.Unknown - se o rastreamento offline estiver ativado, as ocorrências são salvas até o status de privacidade ser alterado para aceitar (e então as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas). If offline tracking is disabled, hits are discarded until the privacy status changes to opt in.
+   * ADBMobilePrivacyStatus.Unknown - se o rastreamento offline estiver ativado, as ocorrências são salvas até o status de privacidade ser alterado para aceitar (e então as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas). Se o rastreamento offline estiver desativado, as ocorrências serão descartadas até que o status de privacidade seja alterado para opt in.
+
    The default value is set in the [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
 
    * Esta é a sintaxe para este método:
@@ -124,7 +128,7 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
 
 * **UserIdentifier**
 
-   Retorna o identificador do usuário personalizado se algum estiver configurado. Retorna nulo se um identificador personalizado não estiver configurado. O valor padrão é `null`.
+   Retorna o identificador de usuário personalizado se um identificador personalizado tiver sido definido. Retorna null se um identificador personalizado não estiver definido. O valor padrão é `null`.
 
    * Esta é a sintaxe para este método:
 
@@ -140,7 +144,7 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
 
 * **SetUserIdentifier**
 
-   Retorna o identificador do usuário personalizado se algum estiver configurado. Retorna nulo se um identificador personalizado não estiver configurado. O valor padrão é `null`.
+   Retorna o identificador de usuário personalizado se um identificador personalizado tiver sido definido. Retorna null se um identificador personalizado não estiver definido. O valor padrão é `null`.
 
    * Esta é a sintaxe para este método:
 
@@ -176,7 +180,7 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
 
    >[!TIP]
    >
-   >This method is intended to be used for apps that register for notifications while in background and should only be called from your code that runs while your app is in the background.
+   >Este método é destinado a aplicativos que se registram para receber notificações enquanto estão em segundo plano e só deve ser chamado a partir do código executado enquanto o aplicativo está em segundo plano.
 
    * Esta é a sintaxe para este método:
 
@@ -190,7 +194,7 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
       ADBMobile.KeepLifecycleSessionAlive();
       ```
 
-## Analytics methods {#section_63CF636104EF41F790C3E4190D755BBA}
+## Métodos do Analytics {#section_63CF636104EF41F790C3E4190D755BBA}
 
 * **TrackingIdentifier**
 
@@ -210,11 +214,12 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
 
 * **TrackState**
 
-   Rastreia um estado de aplicativo com dados de contexto opcionais. Os estados são as exibições disponíveis no aplicativo, como "tela inicial", "nível 1", "pausar" e assim por diante. Esses estados são semelhantes às páginas em um site e `TrackState` as chamadas incrementam as exibições de página.Se o estado estiver vazio, ele será exibido como "app name app version (build)" nos relatórios. Se você encontrar esse valor nos relatórios, certifique-se de que esteja definindo state em cada chamada de `TrackState`.
+   Rastreia um estado de aplicativo com dados de contexto opcionais. Os estados são as visualizações que estão disponíveis no aplicativo, como &quot;tela de título&quot;, &quot;nível 1&quot;, &quot;pausa&quot; e assim por diante. Esses estados são semelhantes às páginas em um site, e `TrackState` as chamadas incrementam as visualizações da página.Se o estado estiver vazio, ele será exibido como &quot;app name app version (build)&quot; nos relatórios. If you see this value in reports, make sure you are setting state in each `TrackState` call.
 
-   [!TIP]
-   >Essa é a única chamada de rastreamento que aumenta as exibições de página.
+   >[!TIP]
    >
+   >Esta é a única chamada de rastreamento que aumenta as exibições de página.
+
    * Esta é a sintaxe para este método:
 
       ```objective-c
@@ -231,10 +236,11 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
 
 * **TrackAction**
 
-   Rastreia uma ação no seu aplicativo. As ações são coisas que ocorrem no aplicativo e que você deseja medir, como "mortes", "nível obtido", "assinaturas de feed" e outras métricas.
+   Rastreia uma ação no seu aplicativo. As ações são coisas que ocorrem no aplicativo e que você deseja avaliar, como &quot;mortes&quot;, &quot;nível ganho&quot;, &quot;subscrições de feed&quot; e outras métricas.
 
    >[!TIP]
-   If you have code that might run while the app is in the background (for example, a background data retrieval), use `trackActionFromBackground` instead.
+   >
+   >Se você tem um código que pode funcionar enquanto o aplicativo é executado em segundo plano (por exemplo, uma recuperação de dados em segundo plano), use `trackActionFromBackground`.
 
    * Esta é a sintaxe para este método:
 
@@ -250,10 +256,11 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
 
 * **TrackActionFromBackground (somente iOS)**
 
-   Rastreia uma ação que ocorreu em segundo plano. Isso impede que os eventos do ciclo de vida sejam acionados em cenários específicos.
+   Rastreia uma ação que ocorreu em segundo plano. Impede que os eventos do ciclo de vida sejam acionados em determinados cenários.
 
    >[!TIP]
-   Esse método deve ser chamado somente no código executado enquanto o aplicativo está em segundo plano.
+   >
+   > Este método deve ser chamado somente no código em execução enquanto o aplicativo estiver em segundo plano.
 
    * Esta é a sintaxe para este método:
 
@@ -319,11 +326,11 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
 
 * **TrackLifetimeValueIncrease**
 
-   Adiciona uma quantia para o valor do ciclo de vida do usuário.
+   Adiciona valor ao valor do tempo de vida do usuário.
 
    * Esta é a sintaxe para este método:
 
-      public nbsp;static void TrackLifetimeValueIncrease (quantidade dupla, dados NSDictionary);
+      public nbsp;static void TrackLifetimeValueIncrease(quantia de duplo, dados NSDictionary);
 
    * Esta é a amostra de código para este método:
 
@@ -336,7 +343,8 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
    Inicia uma ação programada com a ação de nome. Se você chamar este método para uma ação já iniciada, a ação programada anterior será substituída.
 
    >[!TIP]
-   Essa chamada não envia uma ocorrência.
+   >
+   >Essa chamada não envia uma ocorrência.
 
    * Esta é a sintaxe para este método:
 
@@ -352,10 +360,11 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
 
 * **TrackTimedActionUpdate**
 
-   Repassa os dados para atualizar os dados de contexto associados à ação. Os dados transmitidos são anexados aos atuais para a ação em questão, e substituem os dados se a mesma chave já estiver definida para a ação.
+   Transmita os dados para atualizar os dados de contexto associados à ação em questão. Os dados transmitidos são anexados aos dados existentes para a ação em questão e os substituem se a mesma chave já estiver definida para a ação.
 
    >[!TIP]
-   Essa chamada não envia uma ocorrência.
+   >
+   >Essa chamada não envia uma ocorrência.
 
    * Esta é a sintaxe para este método:
 
@@ -475,7 +484,7 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
 
 * **VisitorSyncIdentifiers**
 
-   Com a Experience Cloud ID, é possível definir outras IDs do cliente para associar com cada visitante. A API de visitante aceita várias IDs do cliente para o mesmo visitante, juntamente com um identificador de tipo de cliente para separar o escopo de diferentes IDs do cliente. Este método corresponde a setCustomerIDs na biblioteca do JavaScript.
+   Com a ID do Experience Cloud, é possível definir outras IDs do cliente para associar a cada visitante. A API de Visitante aceita várias IDs do cliente para o mesmo visitante, juntamente com um identificador de tipo de cliente para separar o escopo de diferentes IDs do cliente. Este método corresponde a setCustomerIDs na biblioteca do JavaScript.
 
    * Esta é a sintaxe para este método:
 
@@ -514,7 +523,7 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
 
 * **TargetCreateRequest**
 
-   O construtor de conveniência cria um objeto `ADBTargetLocationRequest` com os parâmetros em questão.
+   Convenience constructor to create an `ADBTargetLocationRequest` object with the given parameters.
 
    * Esta é a sintaxe para este método:
 
@@ -565,7 +574,7 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
 
 * **AudienceVisitorProfile**
 
-   Retorna o perfil do visitante obtido recentemente. Retorna nulo se nenhum sinal foi enviado ainda. O perfil do visitante é salvo em `NSUserDefaults` para facilitar o acesso em vários lançamentos do aplicativo.
+   Retorna o perfil do visitante obtido recentemente. Retorna nil se nenhum sinal tiver sido enviado ainda. Visitor profile is saved in `NSUserDefaults` for easy access across multiple launches of your app.
 
    * Esta é a sintaxe para este método:
 
@@ -613,7 +622,7 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
 
 * **AudienceSetDpidAndDpuuid**
 
-   Define a dpid e a dpuuid. Se dpid e dpuuid estiverem definidas, então serão enviadas com cada sinal.
+   Define dpid e dpuuid. Se dpid e dpuuid estiverem definidas, elas serão enviadas com cada sinal.
 
    * Esta é a sintaxe para este método:
 
@@ -664,7 +673,7 @@ Métodos do iOS para componentes do Xamarin para os SDK 4.x das soluções da Ex
 
 ## Vídeo {#section_CBCE1951CE204A108AD4CA7BB07C7F98}
 
-Para obter mais informações, consulte [Análise de vídeo](/help/ios/getting-started/dev-qs.md).
+Para obter mais informações, consulte Análise [de](/help/ios/getting-started/dev-qs.md)vídeo.
 
 * **MediaCreateSettings**
 
@@ -735,7 +744,7 @@ Para obter mais informações, consulte [Análise de vídeo](/help/ios/getting-s
 
 * **MediaPlay**
 
-   Reproduz o item de mídia com o nome no deslocamento em questão (em segundos).
+   Reproduz o item de mídia com o nome nome no deslocamento em questão (em segundos).
 
    * Esta é a sintaxe para este método:
 
@@ -751,7 +760,7 @@ Para obter mais informações, consulte [Análise de vídeo](/help/ios/getting-s
 
 * **MediaComplete**
 
-   Marca manualmente o item de mídia como concluído no deslocamento em questão (em segundos).
+   Marca manualmente o item de mídia como concluído no offset em questão (em segundos).
 
    * Esta é a sintaxe para este método:
 
@@ -767,7 +776,7 @@ Para obter mais informações, consulte [Análise de vídeo](/help/ios/getting-s
 
 * **MediaStop**
 
-   Notifica ao módulo de mídia que o vídeo foi interrompido ou pausado no deslocamento em questão.
+   Notifica ao módulo de mídia que o vídeo foi interrompido ou pausado no offset em questão.
 
    * Esta é a sintaxe para este método:
 
