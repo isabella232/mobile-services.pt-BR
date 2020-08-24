@@ -6,11 +6,11 @@ solution: Marketing Cloud,Analytics
 title: Análise de vídeo
 topic: Developer and implementation
 uuid: d75fa415-78f6-4f50-a563-76949f040138
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c64e2fa7cee3cd35c4574e5007406b7604c99499
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '952'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Estas são algumas informações sobre a medição de vídeos no iOS usando a me
 >
 >Durante a reprodução do vídeo, chamadas &quot;heartbeat&quot; frequentes são enviadas a esse serviço para medir o tempo reproduzido. Essas chamadas de heartbeat são enviadas a cada 10 segundos, o que resulta em métricas granulares de envolvimento com o vídeo e relatórios de repercussão de vídeo mais precisos. Para obter mais informações, consulte [Medição de áudio e vídeo no Adobe Analytics](https://docs.adobe.com/content/help/pt-BR/media-analytics/using/media-overview.html).
 
-O processo geral para avaliar vídeos é muito semelhante em todas as plataformas. Este conteúdo fornece uma visão geral básica das tarefas do desenvolvedor com exemplos de código.
+O processo geral para medição de vídeo é bem parecido em todas as plataformas. Este conteúdo oferece uma visão geral das tarefas do desenvolvedor com amostras de código.
 
 ## Mapear eventos do player para variáveis do Analytics {#section_E84987F878AB4A3A83AE700FEC4C9D4D}
 
@@ -41,7 +41,7 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
 
 * **a.media.name**
 
-   (Opcional) Fornece informações sobre o caminho do vídeo. A definição de caminho deve ser ativada para essa variável pelo Atendimento ao cliente.
+   (Opcional) Fornece informações sobre o caminho do vídeo. O caminho deve ser habilitado para esta variável pelo Atendimento ao cliente.
 
    * Tipo de variável: Insight personalizado (s.prop)
    * Tipo de evento: Insight personalizado (s.prop)
@@ -52,11 +52,11 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
 
    O método padrão de coleta de dados de vídeo coleta dados nos seguintes pontos:
 
-   * start de vídeo (play)
+   * início do vídeo (reproduzir)
    * início do segmento
    * fim do vídeo (parar)
 
-   O Analytics conta a primeira visualização de segmento no start do segmento, quando o visitante start assistindo. O segmento subsequente visualização quando o segmento começa.
+   O Analytics conta a primeira visualização de segmento no início do segmento, quando o visitante começa a assistir. As visualizações de segmento subsequentes ocorrem conforme o segmento começa.
 
    * Tipo de variável: eVar
    * Expiração padrão: visualização de página
@@ -64,7 +64,7 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
 
 * **a.contentType**
 
-   Coleta dados sobre o tipo de conteúdo que é visualizado por um visitante. Hits sent by video measurement are assigned a content type of `video`. This variable does not need to be reserved exclusively for video tracking. Quando outros conteúdos relatam tipos usando essa mesma variável, você pode analisar a distribuição de visitantes entre os diferentes tipos de conteúdo. Por exemplo, é possível marcar outros tipos de conteúdo por meio de valores como “artigo” ou “página do produto” com essa variável. Da perspectiva da avaliação de vídeo, o Tipo de conteúdo permite identificar os visitantes e calcular as taxas de conversão do vídeo.
+   Coleta dados sobre o tipo de conteúdo que é visualizado por um visitante. Ocorrências enviadas por avaliação de vídeo recebem um tipo de conteúdo de `video`. Essa variável não precisa ser reservada exclusivamente para rastreamento de vídeo. Quando outros conteúdos relatam os tipos de conteúdo por meio da mesma variável, é possível analisar a distribuição de visitantes nesses tipos diferentes. Por exemplo, é possível marcar outros tipos de conteúdo por meio de valores como “artigo” ou “página do produto” com essa variável. Da perspectiva da avaliação de vídeo, o Tipo de conteúdo permite identificar os visitantes e calcular as taxas de conversão do vídeo.
 
    * Tipo de variável: eVar
    * Expiração padrão: visualização de página
