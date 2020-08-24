@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: Teste de aquisição de links de marketing
 topic: Developer and implementation
 uuid: 69503e01-182d-44c6-b0fb-e1c012ffa3bd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c64e2fa7cee3cd35c4574e5007406b7604c99499
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '562'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ As instruções a seguir ajudam a redirecionar uma campanha de aquisição com u
 
    Estas são algumas informações sobre possíveis erros:
 
-   * `Analytics - Unable to retrieve acquisition service response (<error message>)`:
+   * `Analytics - Unable to retrieve acquisition service response (<error message>)`
 
       Ocorreu um erro de rede.
 
