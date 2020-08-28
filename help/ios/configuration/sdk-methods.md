@@ -6,8 +6,11 @@ solution: Marketing Cloud,Analytics
 title: Métodos de configuração
 topic: Developer and implementation
 uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
-translation-type: ht
-source-git-commit: ea4b054fbeea3967c28ee938aed5997a4c287a0d
+translation-type: tm+mt
+source-git-commit: 527f93ae4ec910d1d1ea3637eb3a62d749a14397
+workflow-type: tm+mt
+source-wordcount: '1198'
+ht-degree: 86%
 
 ---
 
@@ -20,11 +23,12 @@ Atualmente, o SDK é compatível com várias soluções da Adobe Experience Clou
 
 * **setAppExtensionType**
 
-   Define a configuração do SDK do Adobe Mobile para determinar que tipo de extensão está sendo executada atualmente.
+   Configura a configuração do SDK do Adobe Mobile para determinar que tipo de extensão está sendo executada no momento.
 
    É definido como um dos valores abaixo:
    * `ADBMobileAppExtensionTypeRegular` - a extensão é fornecida com um aplicativo contêiner.
    * `ADBMobileAppExtensionTypeStandAlone` - a extensão não é fornecida com um aplicativo contêiner.
+
    >[!TIP]
    >
    >Este método **só** deve ser usado se o aplicativo tiver uma extensão ou for uma extensão independente. Para obter mais informações, consulte *ADBMobileAppExtensionType* abaixo.
@@ -120,7 +124,7 @@ O valor padrão está definido no arquivo `ADBMobileConfig.json`.
 
 * **trackingIdentifier**
 
-   Retorna o identificador de visitante gerado automaticamente. Esta é uma ID de visitante único específica do aplicativo, gerada pelos servidores da Adobe. Se os servidores da Adobe não puderem ser alcançados no momento da geração, a ID será gerada por meio do CFUUID da Apple. O valor é gerado na primeira inicialização e é armazenado e usado a partir desse ponto. Essa ID é preservada entre as atualizações do aplicativo, é salva e restaurada durante o processo padrão de backup do aplicativo e é removida durante a desinstalação.
+   Retorna o identificador de visitante gerado automaticamente. Esta é uma ID de visitante exclusiva específica do aplicativo gerada pelos servidores da Adobe. Se não for possível atingir a geração de servidores no momento, a ID será gerada usando a CFUUUID da Apple. O valor é gerado na primeira inicialização e é armazenado e usado a partir desse ponto em diante. Essa ID é preservada entre as atualizações do aplicativo, é salva e restaurada durante o processo padrão de backup do aplicativo e é removida na desinstalação.
 
    >[!TIP]
    >
@@ -306,7 +310,7 @@ O valor padrão está definido no arquivo `ADBMobileConfig.json`.
 
 * **overrideConfigPath**
 
-   Permite carregar um arquivo de configuração JSON do ADBMobile diferente ao iniciar o aplicativo. A configuração diferente é utilizada até o aplicativo ser fechado.
+   Permite carregar um arquivo de configuração ADBMobile JSON diferente quando o aplicativo é start. A configuração diferente é utilizada até o aplicativo ser fechado.
 
    >[!IMPORTANT]
    >
@@ -349,12 +353,15 @@ O valor padrão está definido no arquivo `ADBMobileConfig.json`.
 
 * **setAdvertisingIdentifier**
 
-   Define o IDFA no SDK. Se a IDFA for definida no SDK, ela será enviada no ciclo de vida. Também pode ser acessado em Sinais (Postbacks).
+   Define o IDFA no SDK. Se o IDFA tiver sido definido no SDK, o IDFA será enviado no ciclo de vida. Ele também pode ser acessado em Sinais (Postbacks).
 
    >[!TIP]
    >
    >Recupere a IDFA das APIs da Apple **só** se você estiver usando um serviço de anúncios. Se você recuperar o IDFA e não o utilizar corretamente, seu aplicativo poderá ser rejeitado.
-
+   >
+   >Se seu aplicativo exigir o IDFA, verifique a documentação [da](https://developer.apple.com/documentation/adsupport) Apple para consultar as preferências do usuário no Rastreamento de anúncio e recuperar o valor do IDFA.
+   >
+   >Para iOS 14+, a nova estrutura [de Transparência de rastreamento de](https://developer.apple.com/documentation/apptrackingtransparency) aplicativos precisa ser implementada para recuperar com êxito o valor do IDFA.
    * Esta é a sintaxe para este método:
 
       ```objective-c
@@ -364,7 +371,7 @@ O valor padrão está definido no arquivo `ADBMobileConfig.json`.
    * Esta é a amostra de código para este método:
 
       ```objective-c
-      NSString *idfa = [[[ASIdentifierManager sharedManager]advertisingIdentifier] UUIDString]; 
+      NSString *idfa = // retrieve IDFA using AdSupport (before iOS 14.0) and/or AppTrackingTransparency (iOS 14.0+)
       [ADBMobile setAdvertisingIdentifier:idfa]; 
       ```
 
