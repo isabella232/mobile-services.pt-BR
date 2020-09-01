@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: Aquisição de aplicativos móveis
 topic: Developer and implementation
 uuid: 4d32eae9-e856-4e40-8a29-2b5bccd106e0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '876'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
