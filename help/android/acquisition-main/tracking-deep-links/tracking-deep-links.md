@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: Rastreamento de deep links
 topic: Developer and implementation
 uuid: ebb1c08c-a246-40b3-9ac6-4606a14b4c5a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 88%
    }
    ```
 
-The Adobe Mobile SDK can parse key and value pairs of data that is appended to any Deep or Universal Link as long as the link contains a key with the `a.deeplink.id` label and a corresponding non-null and user-generated value. Todos os pares de dados de chaves e valores adicionados ao link serão analisados, anexados a uma ocorrência de ciclo de vida e enviados ao Adobe Analytics, desde que o link contenha a chave e o valor para `a.deeplink.id`.
+O SDK do Adobe Mobile pode analisar pares de dados de chaves e valores adicionados a qualquer deep link ou link universal, desde que o link contenha uma chave com um rótulo `a.deeplink.id` e um valor não-nulo correspondente gerado pelo usuário. Todos os pares de dados de chaves e valores adicionados ao link serão analisados, anexados a uma ocorrência de ciclo de vida e enviados ao Adobe Analytics, desde que o link contenha a chave e o valor para `a.deeplink.id`.
 
 Além disso, também é possível anexar uma ou mais das seguintes chaves reservadas (com valores gerados pelo usuário) ao deep link ou ao link universal:
 
