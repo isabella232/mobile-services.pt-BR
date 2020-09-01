@@ -7,9 +7,9 @@ solution: Marketing Cloud,Analytics
 title: Métodos do Adobe Experience Platform Identity Service
 topic: Developer and implementation
 uuid: c5107a7e-273b-4f71-8738-4c603479b24c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '449'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Os métodos recebem o prefixo de acordo com a solução. Por exemplo, métodos d
 
 * **public static String appendToURL(final String URL)**
 
-   Acrescenta dados de visitantes da Adobe a uma cadeia de caracteres de URL para uso com a biblioteca JavaScript da Adobe. É necessário ter o Mobile SDK 4.12+ para usar esse método. Para obter mais informações, consulte [Anexar função de ajuda da ID de visitante](https://docs.adobe.com/content/help/br/id-service/using/id-service-api/methods/appendvisitorid.html).
+   Acrescenta dados de visitantes da Adobe a uma cadeia de caracteres de URL para uso com a biblioteca JavaScript da Adobe. É necessário ter o Mobile SDK 4.12+ para usar esse método. Para obter mais informações, consulte [Anexar função de ajuda da ID de visitante](https://docs.adobe.com/content/help/pt-BR/id-service/using/id-service-api/methods/appendvisitorid.html).
 
    >[!IMPORTANT]
    >
@@ -73,7 +73,7 @@ Os métodos recebem o prefixo de acordo com a solução. Por exemplo, métodos d
 
 * **syncIdentifiers**
 
-   Com a ID da Experience Cloud, é possível definir outras IDs do cliente que podem ser associadas a cada visitante. A API de visitante aceita várias IDs do cliente para o mesmo visitante, juntamente com um identificador de tipo de cliente para separar o escopo de diferentes IDs do cliente. Este método corresponde a `setCustomerIDs` na biblioteca do JavaScript.
+   Com a Experience Cloud ID, é possível definir outras IDs do cliente que podem ser associadas a cada visitante. A API de visitante aceita várias IDs do cliente para o mesmo visitante, juntamente com um identificador de tipo de cliente para separar o escopo de diferentes IDs do cliente. Este método corresponde a `setCustomerIDs` na biblioteca do JavaScript.
 
    * Esta é a sintaxe para este método:
 
