@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: Adicionar um novo aplicativo
 topic: Metrics
 uuid: 706b5e4d-1318-4a9e-8c69-ffabf51fa02c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '709'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Antes de configurar seu aplicativo, você deve adicioná-lo na interface do usu�
 
       * **[!UICONTROL Padrão]**
 
-         You can leave the **[!UICONTROL Standard]** option selected for most apps.
+         É possível deixar a opção **[!UICONTROL Padrão]** selecionada para a maioria dos aplicativos.
 
       * **[!UICONTROL Publicação]**
 
