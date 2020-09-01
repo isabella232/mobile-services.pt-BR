@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: Experiência  mensagem por push
 topic: Metrics
 uuid: 1a8baf3e-9fea-452c-b0fc-4ba8ac270861
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '799'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Você pode configurar as opções de experiência para mensagens de push e mensa
 
    * **[!UICONTROL Conteúdo]**
 
-      Especifique o texto da sua mensagem. É possível especificar até 140 caracteres.
+      Especifique o texto da mensagem. É possível usar até 140 caracteres.
 
    * **[!UICONTROL URL de mídia]**
 
@@ -64,12 +64,12 @@ Estes são os requisitos para enviar notificações por push avançadas:
       >
       >Lembre-se das seguintes informações:
       >* As mensagens por push avançadas enviadas para versões anteriores ainda serão enviadas, mas somente o texto será exibido.
-      >* Não há suporte para monitoramento neste momento.
+      >* Ainda não há suporte para relógio no momento.
 
 
 * **Formatos de arquivo**
 
-   Estes são os formatos de arquivo suportados:
+   Estes formatos de arquivos são aceitos:
    * Imagens: JPG e PNG
    * Animações (somente iOS): GIF
    * Vídeos (somente iOS): MP4
@@ -133,6 +133,6 @@ Para configurar uma mensagem por push na página Experiência:
 
    Especifique os tokens em uma lista separada por vírgulas para encaminhar a mensagem para mais de um dispositivo.
 
-1. Configure as opções de agendamento da mensagem.
+1. Configure as opções de agendamento para a mensagem.
 
    Para obter mais informações, consulte [Programar: mensagem por push](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md).
