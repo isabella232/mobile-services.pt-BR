@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: Teste de aquisição de links de marketing
 topic: Developer and implementation
 uuid: d0933dcc-8fc3-4f60-987f-7a54559aacf5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '763'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 78%
 
 As instruções a seguir ajudam a fazer uma viagem de ida e volta em uma campanha de aquisição com um link de marketing em um dispositivo Android.
 
-Se o aplicativo móvel ainda não estiver no Google Play, é possível selecionar qualquer aplicativo móvel como destino ao criar o link de marketing. Isso só afeta o aplicativo para o qual o servidor de aquisição o redireciona, depois que você clica no link de aquisição, e não a capacidade de testar o link de aquisição. Os parâmetros da string de query são passados para a Google Play store, que são passados para o aplicativo na instalação como parte de uma transmissão de campanha. O teste de aquisição de aplicativo móvel de ida e volta requer a simulação desse tipo de transmissão.
+Se o aplicativo móvel ainda não estiver no Google Play, é possível selecionar qualquer aplicativo móvel como destino ao criar o link de marketing. Essa ação não afeta a capacidade de testar o link de aquisição, afeta somente o aplicativo para o qual você é redirecionado pelo servidor de aquisição após clicar no link. Os parâmetros da string de query são passados para a Google Play store, que são passados para o aplicativo na instalação como parte de uma transmissão de campanha. O teste de aquisição de aplicativo móvel de ida e volta requer a simulação desse tipo de transmissão.
 
 O aplicativo deve estar recém-instalado ou ter os dados limpos em **[!UICONTROL Configurações]** sempre que um teste for executado. Isso garante que as medições de ciclo de vida inicial associadas aos parâmetros de cadeia de caracteres de consulta da campanha sejam enviadas quando o aplicativo é inicializado pela primeira vez.
 
@@ -73,7 +73,7 @@ O aplicativo deve estar recém-instalado ou ter os dados limpos em **[!UICONTROL
    | Configuração | Valor |
    |--- |--- |
    | aquisição | O servidor deve ser `c00.adobe.com`, e *`appid`* deve ser igual ao `appid` no link de aquisição. |
-   | analytics | Para fins de teste, defina o tempo limite da quem indicou para permitir tempo adequado (60 segundos ou mais) para enviar a transmissão manualmente. É possível restaurar a configuração original de tempo limite após o teste. |
+   | analytics | Para fins de teste, defina o tempo limite do referenciador para permitir o tempo adequado (60 segundos ou mais) para enviar manualmente a transmissão. É possível restaurar a configuração original de tempo limite após o teste. |
 
 1. Conecte o dispositivo a um computador, desinstale e instale o aplicativo novamente.
 1. Inicie o ADB Shell e execute o aplicativo no dispositivo.
@@ -108,7 +108,7 @@ O aplicativo deve estar recém-instalado ou ter os dados limpos em **[!UICONTROL
    "Analytics - Received Referrer Data(<A JSON Response>)"
    ```
 
-   Se não vir esses registros, verifique se você concluiu as etapas de 6 a 10.
+   Se não vir esses logs, verifique se você concluiu as etapas 6 a 10.
 
    A tabela a seguir contém informações adicionais sobre possíveis erros:
 
