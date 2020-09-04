@@ -6,11 +6,11 @@ solution: Marketing Cloud,Analytics
 title: Métodos de configuração
 topic: Developer and implementation
 uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 527f93ae4ec910d1d1ea3637eb3a62d749a14397
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1198'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Atualmente, o SDK é compatível com várias soluções da Adobe Experience Clou
 
 * **setAppExtensionType**
 
-   Configura a configuração do SDK do Adobe Mobile para determinar que tipo de extensão está sendo executada no momento.
+   Define a configuração do SDK do Adobe Mobile para determinar que tipo de extensão está sendo executada no momento.
 
    É definido como um dos valores abaixo:
    * `ADBMobileAppExtensionTypeRegular` - a extensão é fornecida com um aplicativo contêiner.
@@ -86,7 +86,7 @@ O valor padrão está definido no arquivo `ADBMobileConfig.json`.
 
 * **setPrivacyStatus**
 
-   Define o de privacidade do usuário atual como `status`status.
+   Define o de privacidade do usuário atual como `status` status.
 
    É definido como um dos valores abaixo:
 
@@ -124,7 +124,7 @@ O valor padrão está definido no arquivo `ADBMobileConfig.json`.
 
 * **trackingIdentifier**
 
-   Retorna o identificador de visitante gerado automaticamente. Esta é uma ID de visitante exclusiva específica do aplicativo gerada pelos servidores da Adobe. Se não for possível atingir a geração de servidores no momento, a ID será gerada usando a CFUUUID da Apple. O valor é gerado na primeira inicialização e é armazenado e usado a partir desse ponto em diante. Essa ID é preservada entre as atualizações do aplicativo, é salva e restaurada durante o processo padrão de backup do aplicativo e é removida na desinstalação.
+   Retorna o identificador de visitante gerado automaticamente. Esta é uma ID de visitante exclusiva específica do aplicativo gerada pelos servidores da Adobe. Se não for possível atingir a geração de servidores no momento, a ID será gerada usando a CFUUID da Apple. O valor é gerado na primeira inicialização e é armazenado e usado a partir desse ponto. Essa ID é preservada entre as atualizações do aplicativo, é salva e restaurada durante o processo padrão de backup do aplicativo e é removida na desinstalação.
 
    >[!TIP]
    >
@@ -310,7 +310,7 @@ O valor padrão está definido no arquivo `ADBMobileConfig.json`.
 
 * **overrideConfigPath**
 
-   Permite carregar um arquivo de configuração ADBMobile JSON diferente quando o aplicativo é start. A configuração diferente é utilizada até o aplicativo ser fechado.
+   Permite carregar um arquivo de configuração JSON do ADBMobile diferente quando o aplicativo é iniciado. A configuração diferente é utilizada até o aplicativo ser fechado.
 
    >[!IMPORTANT]
    >
@@ -359,9 +359,9 @@ O valor padrão está definido no arquivo `ADBMobileConfig.json`.
    >
    >Recupere a IDFA das APIs da Apple **só** se você estiver usando um serviço de anúncios. Se você recuperar o IDFA e não o utilizar corretamente, seu aplicativo poderá ser rejeitado.
    >
-   >Se seu aplicativo exigir o IDFA, verifique a documentação [da](https://developer.apple.com/documentation/adsupport) Apple para consultar as preferências do usuário no Rastreamento de anúncio e recuperar o valor do IDFA.
+   >Se seu aplicativo exigir o IDFA, verifique a [documentação da Apple](https://developer.apple.com/documentation/adsupport) para consultar as preferências do usuário no Rastreamento de anúncio e recuperar o valor do IDFA.
    >
-   >Para iOS 14+, a nova estrutura [de Transparência de rastreamento de](https://developer.apple.com/documentation/apptrackingtransparency) aplicativos precisa ser implementada para recuperar com êxito o valor do IDFA.
+   >Para iOS 14+, a nova [Estrutura de transparência de rastreamento de aplicativos](https://developer.apple.com/documentation/apptrackingtransparency) precisa ser implementada para recuperar o valor do IDFA.
    * Esta é a sintaxe para este método:
 
       ```objective-c
