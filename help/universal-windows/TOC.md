@@ -1,19 +1,23 @@
 ---
-product: serviços móveis
-audience: usuário final
-user-guide-title: Ajuda da plataforma Mobile Services Universal Windows
+product: mobile-services
+audience: end-user
+user-guide-title: Guia da Plataforma Universal Windows do Mobile Services
+breadcrumb-title: Universal Windows Platform Guide
 translation-type: tm+mt
-source-git-commit: 7aff336586058302046a728a0b1b0ce12660c1ba
+source-git-commit: 18ef20df0a32741685e35cee98a1adf4a1b823a1
+workflow-type: tm+mt
+source-wordcount: '68'
+ht-degree: 52%
 
 ---
 
 
-# Ajuda da plataforma Mobile Services Universal Windows {#universal-windows}
+# Guia da Plataforma Universal Windows do Mobile Services {#universal-windows}
 
-+ [Plataforma Universal Windows SDK 4.x para Soluções da Experience Cloud](overview.md)
-+ Começar {#get-started-univ-win-plat}
-   + [Começar](c-getting-started/c-getting-started.md)
-   + [Início rápido do desenvolvedor](c-getting-started/dev-qs.md)
++ [Universal Windows Platform SDK 4.x para Soluções da Experience Cloud](overview.md)
++ Comece já {#get-started-univ-win-plat}
+   + [Comece já](c-getting-started/c-getting-started.md)
+   + [Start rápido do desenvolvedor](c-getting-started/dev-qs.md)
 + [Notas de versão](release-notes.md)
 + Configuração {#config-univ-win-plat}
    + [Visão geral da configuração](c-configuration/c-configuration.md)
@@ -24,9 +28,9 @@ source-git-commit: 7aff336586058302046a728a0b1b0ce12660c1ba
    + [Variável products](analytics/products.md)
    + [Serialização de eventos](analytics/event-serialization.md)
    + [Análise de vídeo](analytics/video-qs.md)
-   + [Analytics methods](analytics/analytics-methods.md)
+   + [Métodos do Analytics](analytics/analytics-methods.md)
 + [Métodos do Target](target/target-methods.md)
-+ [Audience Manager methods](audiencemgmt/audience-manager-methods.md)
-+ [Lifecycle metrics](metrics.md)
-+ [Windows Visual Studio extensions for Experience Cloud Solutions 4.x SDK](extensions/win-vse-4x.md)
++ [Métodos do Audience Manager](audiencemgmt/audience-manager-methods.md)
++ [Métricas de ciclo de vida](metrics.md)
++ [Extensões do Visual Studio do Windows para Experience Cloud Solutions 4.x SDK](extensions/win-vse-4x.md)
 + [Migrar para 4.x](migration-v3.md)
