@@ -2,15 +2,15 @@
 description: Informações para ajudá-lo com o Video Analytics.
 seo-description: Informações para ajudá-lo com o Video Analytics.
 seo-title: Análise de vídeo
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Análise de vídeo
 topic: Developer and implementation
 uuid: 7d4e6668-a1d9-41da-96c8-8baac860c5b0
 translation-type: tm+mt
-source-git-commit: 4b5be6c51c716114e597a80d475f838e23abb1b1
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '898'
-ht-degree: 65%
+ht-degree: 71%
 
 ---
 
@@ -27,7 +27,7 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
 
    (Obrigatório) Coleta o nome do vídeo, conforme especificado na implementação, quando um visitante visualização o vídeo de alguma forma.Você pode adicionar classificações para essa variável.
 
-   (**Opcional**) A variável Custom Insight fornece informações de definição de caminho de vídeo.
+   (**Optional**) The Custom Insight variable provides video pathing information.
 
    * Tipo de variável: eVar
    * Expiração padrão: visita
@@ -47,11 +47,11 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
 
    O método padrão de coleta de dados de vídeo coleta dados nos seguintes pontos:
 
-   * start de vídeo (play)
+   * início do vídeo (reproduzir)
    * início do segmento
    * fim do vídeo (parar)
 
-   A Analytics conta a primeira visualização de segmento no start do segmento, quando o visitante start está assistindo. O segmento subsequente visualização quando o segmento começa.
+   O Analytics conta a primeira visualização de segmento no início do segmento, quando o visitante começa a assistir. As visualizações de segmento subsequentes ocorrem conforme o segmento começa.
 
    * Tipo de variável: eVar
    * Expiração padrão: visualização de página
