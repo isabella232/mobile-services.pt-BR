@@ -2,12 +2,15 @@
 description: Informações para ajudá-lo a usar o arquivo de configuração JSON do ADBMobile.
 seo-description: Informações para ajudá-lo a usar o arquivo de configuração JSON do ADBMobile.
 seo-title: Arquivo de configuração ADBMobileConfig.json
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Arquivo de configuração ADBMobileConfig.json
 topic: Developer and implementation
 uuid: a45b91cc-982e-4d6c-a4e4-d2e4b4fa7556
 translation-type: tm+mt
-source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '617'
+ht-degree: 43%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 Informações para ajudá-lo a usar o arquivo de `ADBMobile.json` configuração.
 
-Atualmente, o SDK oferece suporte para várias Soluções da Adobe Experience Cloud, incluindo Analytics, Público alvo e Audiência Manager. Os métodos apresentam prefixos de acordo com a solução. Métodos de configuração recebem o prefixo &quot;Config&quot;.
+O SDK suporta atualmente várias Soluções Adobe Experience Cloud, incluindo Analytics, Público alvo e Audience Manager. Os métodos apresentam prefixos de acordo com a solução. Métodos de configuração recebem o prefixo &quot;Config&quot;.
 
 * **rsids**
 
@@ -40,7 +43,7 @@ Atualmente, o SDK oferece suporte para várias Soluções da Adobe Experience Cl
 
 * **charset**
 
-   Define o conjunto de caracteres que você está usando para os dados enviados ao Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte [s.charSet](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/charset.html).
+   Define o conjunto de caracteres que você está usando para os dados enviados ao Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte [s.charSet](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/config-vars/charset.html).
 
 * **ssl**
 
@@ -52,11 +55,11 @@ Atualmente, o SDK oferece suporte para várias Soluções da Adobe Experience Cl
 
    >[!IMPORTANT]
    >
-   >IIf time stamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be true. Caso o conjunto de relatórios não tenha um carimbo de data e hora, sua propriedade de configuração `offlineEnabled` *deve* ser false. Se isso não for configurado corretamente, os dados serão perdidos. Se você não tem certeza se um conjunto de relatórios tem um carimbo de data e hora, entre em contato com o Atendimento ao cliente. If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data, or include a custom timestamp on all JavaScript hits using the `s.timestamp` variable.
+   >IIf time stamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be true. Caso o conjunto de relatórios não tenha um carimbo de data e hora, sua propriedade de configuração `offlineEnabled` *deve* ser false. Se isso não for configurado corretamente, os dados serão perdidos. Se você não tem certeza se um conjunto de relatórios tem um carimbo de data e hora,  entre em contato com o  Atendimento ao cliente. If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data, or include a custom timestamp on all JavaScript hits using the `s.timestamp` variable.
 
 * **lifecycleTimeout**
 
-   Especifica a duração, em segundos, entre as inicializações do aplicativo antes que a inicialização seja considerada uma nova sessão. Esse tempo limite também se aplica quando seu aplicativo é enviado para o plano de fundo e reativado. O tempo que seu aplicativo gasta em segundo plano não é incluído na duração da sessão. O valor padrão é de 300 segundos.
+   Especifica a duração, em segundos, entre as inicializações do aplicativo antes que a inicialização seja considerada uma nova sessão. Esse tempo limite também se aplica quando o aplicativo é enviado para o plano de fundo e reativado. O tempo que o aplicativo gasta em segundo plano não é incluído na duração da sessão. O valor padrão é de 300 segundos.
 
 * **batchLimit**
 
