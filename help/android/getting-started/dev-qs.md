@@ -3,12 +3,15 @@ description: Estas informações ajudam a implementar a biblioteca do Android e 
 keywords: android;library;mobile;sdk
 seo-description: Estas informações ajudam a implementar a biblioteca do Android e coletar medições de ciclo de vida, como lançamentos, atualizações, sessões, usuários envolvidos e assim por diante.
 seo-title: Implementação principal e ciclo de vida
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Implementação principal e ciclo de vida
 topic: Developer and implementation
 uuid: af4d11ac-8245-46a0-9b3a-4a0a29cfbbb2
-translation-type: ht
-source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '560'
+ht-degree: 100%
 
 ---
 
