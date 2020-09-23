@@ -1,26 +1,29 @@
 ---
-description: O Adobe Mobile e o Adobe Mobile SDK permitem enviar mensagens de push para os usuários. Além disso, o SDK permite reportar facilmente os usuários que abriram seu aplicativo depois de clicarem em uma mensagem de push.
-seo-description: O Adobe Mobile e o Adobe Mobile SDK permitem enviar mensagens de push para os usuários. Além disso, o SDK permite reportar facilmente os usuários que abriram seu aplicativo depois de clicarem em uma mensagem de push.
+description: O Adobe Mobile e o Adobe Mobile SDK permitem que você envie mensagens de push para seus usuários. O SDK também permite que você reporte com facilidade usuários que abriram seu aplicativo depois de clicar em uma mensagem de push.
+seo-description: O Adobe Mobile e o Adobe Mobile SDK permitem que você envie mensagens de push para seus usuários. O SDK também permite que você reporte com facilidade usuários que abriram seu aplicativo depois de clicar em uma mensagem de push.
 seo-title: Mensagens por push
 solution: Experience Cloud,Analytics
 title: Mensagens por push
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 729d4010-3733-4dff-b188-ad45bd3e7cc4
-translation-type: ht
-source-git-commit: 17cb91a28966cf32f955a2cb724e89ab228de5b8
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 61%
 
 ---
 
 
 # Mensagens por push {#push-messaging}
 
-O Adobe Mobile e o Adobe Mobile SDK permitem enviar mensagens de push para os usuários. Além disso, o SDK permite reportar facilmente os usuários que abriram seu aplicativo depois de clicarem em uma mensagem de push.
+O Adobe Mobile e o Adobe Mobile SDK permitem que você envie mensagens de push para seus usuários. O SDK também permite que você reporte com facilidade usuários que abriram seu aplicativo depois de clicar em uma mensagem de push.
 
 Para usar mensagens de push, você **deve** ter o SDK versão 4.6 ou posterior.
 
 >[!IMPORTANT]
 >
->Não defina a Experience Cloud ID manualmente dentro do aplicativo. Isso ocasiona na criação de um novo usuário exclusivo que não receberá mensagens de push por causa do status de aceitação. Por exemplo, um usuário que aceitou receber mensagens de push faz logon no seu aplicativo. Depois de fazer logon, se você definir manualmente a ID dentro do aplicativo, um novo usuário único que não aceitou receber mensagens de push é criado. Este novo usuário não receberá suas mensagens de push.
+>Não defina a Experience Cloud ID manualmente dentro do aplicativo. Isso resulta na criação de um novo usuário exclusivo que não receberá mensagens de push devido ao seu status de aceitação. Por exemplo, um usuário aceitou receber mensagens de push para fazer logon no aplicativo. Depois de fazer logon, se você definir manualmente a ID dentro do aplicativo, um novo usuário único que não optou por receber mensagens de push será criado. Este novo usuário não receberá suas mensagens de push.
 >
 >Não é possível mover seu aplicativo para um novo conjunto de relatórios. Se você migrar para um novo conjunto de relatórios, sua configuração de push pode ser interrompida e as mensagens podem não ser enviadas.
 
@@ -58,7 +61,7 @@ Para usar mensagens de push, você **deve** ter o SDK versão 4.6 ou posterior.
 
    A seguir, os requisitos para ativar o relatório de click-through de push:
 
-   * Na implementação do `FireBaseMessageService`, o objeto Pacote, que contém os dados de mensagem passados para o método `onMessageReceived` com o objeto RemoteMessage, devem ser adicionados à Finalidade usada para abrir a atividade alvo em um click-through. Isso pode ser feito usando o método `putExtras`. Para obter mais informações, consulte [putExtras](https://developer.android.com/reference/android/content/Intent.html#putExtras(android.os.Bundle)).
+   * Na implementação do `FireBaseMessageService`, o objeto Pacote, que contém os dados de mensagem passados para o método `onMessageReceived` com o objeto RemoteMessage, devem ser adicionados à Finalidade usada para abrir a atividade alvo em um click-through. Isso pode ser feito usando o método `putExtras`. Para obter mais informações, consulte [putExtras](https://developer.android.com/reference/android/content/Intent.html#putExtras(android.os.Bundle))).
 
    ```java
    Intent intent = new Intent(this, MainActivity.class);
