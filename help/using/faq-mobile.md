@@ -1,14 +1,17 @@
 ---
 description: Perguntas frequentes sobre o Adobe Mobile Services e uma descrição geral dos recursos.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: Perguntas frequentes sobre o Adobe Mobile Services e uma descrição geral dos recursos.
 seo-title: Perguntas frequentes
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Perguntas frequentes
-topic: Métricas
+topic: Metrics
 uuid: 62a9241c-2ada-483a-a594-b023916cb0b6
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '1118'
+ht-degree: 54%
 
 ---
 
@@ -19,13 +22,13 @@ A tabela a seguir contém uma lista de perguntas frequentes sobre o Adobe Mobile
 
 ## SDK do Adobe Mobile {#section_9C2181F7B39A4BEB8EE6BCEFCF14C72F}
 
-### As atualizações no SDK são feitas com frequência?
+### Você faz atualizações frequentes com o SDK?
 
-Sim, fazemos alterações constantemente para fornecer os SDKs mais seguros, ricos em recursos e em conformidade com os padrões. Normalmente lançamos uma nova versão todos os meses. Essas atualizações do SDK são substituições diretas (para a versão 4x) para facilitar a implementação. Para obter mais informações sobre nossas atualizações, consulte nossas [Notas de versão](https://docs.adobe.com/content/help/pt-BR/release-notes/experience-cloud/current.html).
+Sim, estamos constantemente fazendo atualizações para obter os SDKs mais ricos em recursos, compatíveis com padrões e seguros. Normalmente lançamos uma nova versão todos os meses. Essas atualizações do SDK são substituições diretas (para a versão 4x) para facilitar a implementação. Para obter mais informações sobre nossas atualizações, consulte nossas [Notas](https://docs.adobe.com/content/help/pt-BR/release-notes/experience-cloud/current.html)de versão.
 
 ### Qual versão do SDK devo utilizar?
 
-Nossos SDKs atuais estão na versão 4.11. Para obter mais informações, consulte nossas [Notas de versão](https://docs.adobe.com/content/help/pt-BR/release-notes/experience-cloud/current.html).
+Nossos SDKs atuais estão na versão 4.11. Para obter mais informações, consulte nossas [Notas](https://docs.adobe.com/content/help/pt-BR/release-notes/experience-cloud/current.html)de versão.
 
 ### Onde posso baixar os SDKs?
 
@@ -37,7 +40,7 @@ Depois de criar um novo conjunto de relatórios de aplicativos, vá para Gerenci
 
 ### Os SDKs do Adobe Mobile são compatíveis com IPv6 para iOS?
 
-Os SDKs do Adobe Mobile usam pilhas de rede padrão do iOS e Android. Para iOS, o SDK usa NSURLSession (versões do iOS 7 ou posteriores) e NSURLConnection (versões do iOS 7 ou posteriores), que são totalmente compatíveis com IPv6. Os desenvolvedores que criaram ou usam a sua própria pilha de rede devem querer verificar novamente se existem outras considerações atenuantes. Veja a seguir algumas informações adicionais da Apple:
+Os SDKs do Adobe Mobile usam as pilhas de rede padrão do iOS e do Android. Para iOS, o SDK usa NSURLSession (versões do iOS 7 ou posteriores) e NSURLConnection (versões do iOS 7 ou posteriores), que são totalmente compatíveis com IPv6. Os desenvolvedores que criaram ou usam a sua própria pilha de rede devem querer verificar novamente se existem outras considerações atenuantes. Veja a seguir algumas informações adicionais da Apple:
 
 *Se estiver desenvolvendo um aplicativo no lado do cliente usando APIs de rede de alto nível, como NSURLSession e as estruturas CFNetwork, e se a conexão for feita pelo nome, não será necessário alterar nada para que o aplicativo funcione com endereços IPv6.* Para obter mais informações, consulte [Suporte a redes IPv6 DNS64/NAT64](https://developer.apple.com/library/content/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/UnderstandingandPreparingfortheIPv6Transition/UnderstandingandPreparingfortheIPv6Transition.html#__/apple_ref/doc/uid/TP40010220-CH213-SW1).
 
@@ -46,41 +49,41 @@ Os SDKs do Adobe Mobile usam pilhas de rede padrão do iOS e Android. Para iOS, 
 
 ### O que são Medições de ciclo de vida?
 
-As Medições de ciclo de vida são métricas simples, coletadas automaticamente quando o SDK é implementado pela primeira vez no aplicativo. Para obter mais informações, consulte [Métricas de ciclo de vida (Android)](/help/android/metrics.md) e [Métricas de ciclo de vida (iOS)](/help/ios/metrics.md).
+As Medições de ciclo de vida são métricas &quot;predefinidas&quot; que são automaticamente coletadas quando o SDK é implementado pela primeira vez no aplicativo. Para obter mais informações, consulte [Métricas de ciclo de vida (Android)](/help/android/metrics.md) e [Métricas de ciclo de vida (iOS)](/help/ios/metrics.md).
 
 ### Como posso solucionar problemas de regras de processamento?
 
-Para obter mais informações, consulte [Dicas e truques para o processamento de regras](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html).
+Para obter mais informações, consulte Dicas e truques [das regras de](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html)processamento.
 
-### Posso enviar os meus dados analíticos para vários conjuntos de relatórios?
+### É possível enviar meus dados de análise para vários conjuntos de relatórios?
 
-Sim. Os SDKs oferecem a capacidade de enviar dados para vários conjuntos de relatórios do Adobe Analytics. Para capturar dados em vários conjunto de relatórios usando uma solicitação de imagem, defina as várias IDs de conjuntos de relatórios no campo **[!UICONTROL rsids]** na seção **[!UICONTROL analytics]** no arquivo `ADBMobileConfig.json`, delimitadas por vírgulas e sem espaços. Para obter mais informações, consulte [Configuração do JSON do ADBMobile](/help/ios/configuration/json-config/json-config.md).
+Sim. Os SDKs fornecem a capacidade de enviar dados para vários conjuntos de relatórios da Adobe Analytics. Para capturar dados em vários conjunto de relatórios usando uma solicitação de imagem, defina as várias IDs de conjuntos de relatórios no campo **[!UICONTROL rsids]** na seção **[!UICONTROL analytics]** no arquivo `ADBMobileConfig.json`, delimitadas por vírgulas e sem espaços. Para obter mais informações, consulte [Configuração do JSON do ADBMobile](/help/ios/configuration/json-config/json-config.md).
 
 ### Como as visitas do Mobile são diferentes das inicializações?
 
-Uma inicialização é medida pelo SDK quando um usuário abre o aplicativo pela primeira vez ou retorna a ele depois de permanecer fora dele por mais do que um valor de tempo limite especificado. O tempo limite típico é de 5 minutos (300 segundos) no campo **[!UICONTROL lifecycleTimeout]**, que está localizado no arquivo `ADBMobileConfig.json`. Uma visita é um cálculo do lado do servidor realizado pelo Adobe Analytics e se baseia na primeira e na última ocorrência de dados que são enviados pelo SDK, sem exceder o tempo limite de visita. Normalmente, o tempo limite de sessão é fixado em 30 minutos para um conjunto de relatórios. Embora as visitas provenham de análises da web tradicionais, essas ocorrências ainda fornecem informações valiosas sobre como os usuários entram e saem do seu aplicativo.
+Uma inicialização é medida pelo SDK quando um usuário abre o aplicativo pela primeira vez ou retorna ao aplicativo depois de ficar fora dele por mais tempo do que o valor de tempo limite especificado. O tempo limite típico é de 5 minutos (300 segundos) no campo **[!UICONTROL lifecycleTimeout]**, que está localizado no arquivo `ADBMobileConfig.json`. Uma visita é um cálculo do lado do servidor feito pela Adobe Analytics e tem por base a primeira e a última ocorrência de dados enviada pelo SDK, sem exceder o tempo limite da visita. Normalmente, os tempos limite da sessão são definidos em 30 minutos para um conjunto de relatórios. Embora as visitas sejam provenientes de análises da Web tradicionais, essas ocorrências ainda fornecem informações valiosas sobre como os usuários entram e saem do aplicativo.
 
 ## Mensagens {#section_5EFDD2B2EBA543C09902FF979C89F2EC}
 
-### Existem limitações de tamanho ou outras em relação às notificações de push?
+### Existem limitações de tamanho ou outras em notificações por push?
 
-As mensagens de notificação de push têm um limite de 140 caracteres. Não há limites de quantas notificações podem ser enviadas ou programadas ou quantas vezes elas são enviadas.
+As mensagens de notificação por push têm um limite de 140 caracteres. Não há limites para quantas notificações podem ser enviadas ou programadas ou quantas vezes elas são enviadas.
 
-### É oferecido suporte para cargas personalizadas de notificações de push?
+### Você suporta cargas personalizadas para notificações por push?
 
-Sim, oferecemos suporte para uma carga de push personalizada que pode ser codificada no JSON. As cargas do Android e iOS são restritas à 4 KB e 2 KB respectivamente. Essas cargas são enviadas para o aplicativo por uma notificação de push ou local. Para obter mais informações, consulte [Experiência: mensagem por push](/help/using/in-app-messaging/t-create-push-message/c-experience-push-message.md).
+Sim, fornecemos uma carga de push personalizada que pode ser codificada no JSON. As cargas do Android e do iOS estão restritas a 4 KB e 2 KB, respectivamente. Essas cargas são enviadas para o aplicativo por meio de uma notificação por push ou local. Para obter mais informações, consulte [Experiência: mensagem por push](/help/using/in-app-messaging/t-create-push-message/c-experience-push-message.md).
 
-### Existem limitações de tamanho nas mensagens do aplicativo?
+### Existem limitações de tamanho em mensagens no aplicativo?
 
-As mensagens no aplicativo publicadas e ativas, criadas no Adobe Mobile Services, são hospedadas em um servidor com uma restrição de tamanho de 15 MB por conjunto de relatórios do aplicativo. Embora essa restrição se aplique ao conteúdo da mensagem e aos recursos hospedados na Adobe, não há restrições de quais recursos a mensagem no aplicativo pode referir-se em outros hosts ou aqueles dentro do aplicativo.
+As mensagens no aplicativo publicadas e ativas criadas no Adobe Mobile Services são hospedadas em um servidor com uma restrição de tamanho de 15 MB por conjunto de relatórios do aplicativo. Embora essa restrição se aplique ao conteúdo da mensagem e aos recursos hospedados com o Adobe, não há restrições sobre a quais recursos a mensagem no aplicativo pode se referir em outros hosts ou aqueles dentro do aplicativo.
 
 ### Posso usar meu próprio HTML para mensagens no aplicativo?
 
-Sim, oferecemos suporte de HTML personalizado para suas mensagens no aplicativo. Para obter mais informações, consulte [Experiência: mensagem no aplicativo](/help/using/in-app-messaging/t-in-app-message/c-experience-in-app-message.md).
+Sim, oferecemos suporte a HTML personalizado para suas mensagens no aplicativo. Para obter mais informações, consulte [Experiência: mensagem no aplicativo](/help/using/in-app-messaging/t-in-app-message/c-experience-in-app-message.md).
 
-### Quais acionadores posso usar para enviar notificações de push ou mensagens no aplicativo?
+### Quais acionadores posso usar para enviar notificações por push ou mensagens no aplicativo?
 
-Os profissionais de marketing podem escolher todos os dados ou evento do Analytics enviados como um acionador para exibir as mensagens no aplicativo. As mensagens no aplicativo usam acionadores ativados localmente no dispositivo. Se vários acionadores forem escolhidos, todos devem ocorrer na mesma ocorrência para que a mensagem seja exibida. Para obter mais informações, consulte [Experiência: mensagem no aplicativo](/help/using/in-app-messaging/t-in-app-message/c-experience-in-app-message.md).
+Os profissionais de marketing podem escolher quaisquer dados ou eventos do Analytics enviados como disparadores para exibir mensagens no aplicativo. As mensagens no aplicativo usam acionadores que ocorrem localmente no dispositivo. Se vários acionadores forem escolhidos, todos devem ocorrer na mesma ocorrência para que a mensagem seja exibida. Para obter mais informações, consulte [Experiência: mensagem no aplicativo](/help/using/in-app-messaging/t-in-app-message/c-experience-in-app-message.md).
 
 As mensagens de push são enviadas usando segmentos do Adobe Analytics pré-existentes ou segmentos personalizados que podem ser criados no dados de histórico do Analytics já coletados. Para obter mais informações, consulte [Experiência: mensagem por push](/help/using/in-app-messaging/t-create-push-message/c-experience-push-message.md).
 
@@ -96,9 +99,9 @@ Não há restrição específica, mas para um desempenho ideal e devido a restri
 
 ## Aquisição {#section_B37F1129CD5843E890D0E54179455357}
 
-### Posso atribuir campanhas para atividades no aplicativo?
+### Posso atribuir campanhas a atividades no aplicativo?
 
-Sim. O Adobe Mobile Services pode auxiliar na criação de truques de marketing que ajudam a promover e direcionar o tráfego para seus aplicativos e vincular campanhas de aquisição para análise e conversões no aplicativo. Para obter mais informações, consulte [Aquisição](/help/using/acquisition-main/acquisition-main.md).
+Sim. O Adobe Mobile Services pode ajudá-lo a criar truques de marketing que ajudam a promover e direcionar o tráfego para seus aplicativos e vincular campanhas de aquisição a análises e conversões no aplicativo. Para obter mais informações, consulte [Aquisição](/help/using/acquisition-main/acquisition-main.md).
 
 ### Como posso configurar links para adquirir e rastrear novos usuários do aplicativo?
 
