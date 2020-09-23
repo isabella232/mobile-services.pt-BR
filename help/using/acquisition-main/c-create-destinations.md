@@ -1,14 +1,17 @@
 ---
 description: Os profissionais de marketing podem criar, salvar e editar destinos de links (como links da Web, links profundos e outros), que podem ser usados na criação de Links de marketing rastreáveis.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: Os profissionais de marketing podem criar, salvar e editar destinos de links (como links da Web, links profundos e outros), que podem ser usados na criação de Links de marketing rastreáveis.
 seo-title: Destinos
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Destinos
-topic: Métricas
+topic: Metrics
 uuid: 0e0e7d22-067c-4a59-abcb-a4826800944d
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 87%
 
 ---
 
@@ -27,7 +30,7 @@ Para criar diferentes tipos de destinos de links, consulte [Criar e gerenciar de
 
 * **[!UICONTROL Link da Web]**
 
-   Os destinos de link da Web direcionam os usuários para um URL específico. Por exemplo, você pode direcionar os usuários para uma linha de produtos no site de um revendedor online.
+   Os destinos de links da Web direcionam os usuários para um URL específico. Por exemplo, você pode direcionar os usuários para uma linha de produtos no site de um varejista online.
 
    >[!IMPORTANT]
    >
