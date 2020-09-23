@@ -1,14 +1,17 @@
 ---
 description: O relatório Visão geral de localização permite visualizar os diferentes países, regiões e Pontos de interesse nos quais seu aplicativo está sendo usado.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: O relatório Visão geral de localização permite visualizar os diferentes países, regiões e Pontos de interesse nos quais seu aplicativo está sendo usado.
 seo-title: Visão geral (Localização)
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Visão geral (Localização)
-topic: Relatórios, Métricas
+topic: Reports,Metrics
 uuid: a701abc3-001b-4015-843f-5fb2c6c80d17
-translation-type: ht
-source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '578'
+ht-degree: 78%
 
 ---
 
@@ -23,7 +26,7 @@ Estas são algumas informações adicionais sobre este relatório:
 
 ## Navegação e utilização {#section_4A88C3849B5847BF8CF433CCFD99FDC3}
 
-Essa visualização fornece, por exemplo, o relatório base com detalhamentos. A visualização usa a altura para mostrar a métrica em foco e as diferenças de desempenho entre as métricas. Cada anel representa um segmento de público-alvo na categoria anéis. É possível realizar ações com um público-alvo, como aplicar um filtro fixo, ocultar uma métrica e visualizar métricas.
+Essa visualização fornece, por exemplo, o relatório base com detalhamentos. A visualização usa a altura para mostrar a métrica em foco e as diferenças de desempenho entre as métricas. Cada anel representa um segmento de audiência na categoria do anel. É possível realizar ações em uma audiência, como aplicar um filtro fixo, ocultar uma métrica e visualizar métricas.
 
 >[!TIP]
 >
@@ -31,7 +34,7 @@ Essa visualização fornece, por exemplo, o relatório base com detalhamentos. A
 
 ![](assets/location.png)
 
-O gráfico em forma de raio de sol é interativo. Você pode alterar o período de tempo, clicando no ícone **[!UICONTROL Calendário]** no lado superior direito. Passe o mouse sobre qualquer parte do gráfico para exibir mais informações. Por exemplo, na figura a seguir, é possível ver o número total e a porcentagem de usuários que usam seu aplicativo nos Estados Unidos.
+O gráfico em forma de raio de sol é interativo. Você pode alterar o período de tempo, clicando no ícone **[!UICONTROL Calendário]** no lado superior direito. Passe o mouse sobre qualquer parte do gráfico para exibir mais informações. Por exemplo, na ilustração a seguir, é possível ver o número total e a porcentagem de usuários que usam seu aplicativo nos Estados Unidos.
 
 ![](assets/location_mouse.png)
 
@@ -45,7 +48,7 @@ Quando você seleciona **[!UICONTROL Pontos de interesse]** esta é a visualiza�
 
 ![](assets/location_poi.png)
 
-Clique em uma parte do anel para selecionar o público-alvo no qual você pode realizar ações, como ampliar, ocultar públicos-alvo, criar uma mensagem no aplicativo ou um filtro fixo.
+Você pode clicar em uma parte do anel para selecionar a audiência na qual você pode executar ações, como ampliar, ocultar audiências, criar uma mensagem no aplicativo ou um filtro fixo.
 
 ![](assets/location_aud.png)
 
