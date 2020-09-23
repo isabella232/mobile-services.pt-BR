@@ -1,14 +1,17 @@
 ---
 description: Estas informações ajudam a fazer uma viagem de ida e volta no link da campanha de aquisição herdada em um dispositivo Android.
-keywords: android;biblioteca;móvel;sdk
+keywords: android;library;mobile;sdk
 seo-description: Estas informações ajudam a fazer uma viagem de ida e volta no link da campanha de aquisição herdada em um dispositivo Android.
 seo-title: Teste da aquisição de legado
 solution: Experience Cloud,Analytics
 title: Teste da aquisição de legado
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: bb7ace96-68eb-4f43-b3cf-af80730b9cee
-translation-type: ht
-source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '320'
+ht-degree: 74%
 
 ---
 
@@ -17,9 +20,9 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 Estas informações ajudam a fazer uma viagem de ida e volta no link da campanha de aquisição herdada em um dispositivo Android.
 
-Se o aplicativo móvel ainda não estiver no Google Play, é possível selecionar qualquer aplicativo móvel como destino ao criar o link empresarial. Isso não afeta a capacidade de testar o link de aquisição, somente o aplicativo para o qual você é redirecionado pelo servidor de aquisição após clicar no link. Os parâmetros da cadeia de caracteres de consulta são passados para a Google Play store, que é passada para o aplicativo na instalação como parte de uma difusão de campanha. A viagem de ida e volta do teste de aquisição do aplicativo móvel requer uma simulação desse tipo de difusão.
+Se o aplicativo móvel ainda não estiver no Google Play, você pode selecionar qualquer aplicativo móvel como destino ao criar o link de campanha. Essa ação não afeta a capacidade de testar o link de aquisição, afeta somente o aplicativo para o qual você é redirecionado pelo servidor de aquisição após clicar no link. Os parâmetros da string de query são passados para a Google Play store, que são passados para o aplicativo na instalação como parte de uma transmissão de campanha. O teste de aquisição de aplicativo móvel de ida e volta requer a simulação desse tipo de transmissão.
 
-O aplicativo deve estar recém-instalado ou ter os dados limpos em [!UICONTROL **Configurações**] sempre que um teste for executado. Isso garante que as medições de ciclo de vida inicial associadas aos parâmetros de cadeia de caracteres de consulta da campanha sejam enviadas quando o aplicativo é inicializado pela primeira vez.
+O aplicativo deve estar recém-instalado ou ter os dados limpos em **[!UICONTROL Configurações]** sempre que um teste for executado. Isso garante que as medições de ciclo de vida inicial associadas aos parâmetros de cadeia de caracteres de consulta da campanha sejam enviadas quando o aplicativo é inicializado pela primeira vez.
 
 1. Na interface do usuário do Mobile Services, gere um URL de campanha de aquisição herdado.
 
@@ -36,10 +39,10 @@ O aplicativo deve estar recém-instalado ou ter os dados limpos em [!UICONTROL *
    1. Atualize a referência do destinatário com a referência da localização de rastreamento no seu aplicativo.
    1. Substitua os valores associados a `utm_source`, `utm_medium`, `utm_term`, `utm_content`, `utm_campaign`, e outros, pelos valores adequados.
 
-Se a transmissão for bem sucedida, é exibida uma resposta semelhante a apresentada abaixo:
+Se a transmissão for bem-sucedida, uma resposta semelhante à abaixo será exibida:
 
 ```
 Broadcasting: Intent { act=com.android.vending.INSTALL_REFERRER cmp=com.example.analyticsecommtest/com.google.analytics.tracking.android.AnalyticsReceiver has extras) } Broadcast completed: result=0
 ```
 
-Você visualizará também uma solicitação de imagem enviada aos servidores de coleção de dados da Adobe. Se o SDK aguardar a duração completa do tempo limite referencial, definido na etapa 1, com uma solicitação de imagem que não inclui parâmetros de campanha, a transmissão falhou.
+Você também verá uma solicitação de imagem enviada para os servidores de coleta de dados Adobe. Se o SDK aguardar a duração completa do tempo limite da quem indicou, definido na etapa 1, com uma solicitação de imagem que não inclui parâmetros de campanha, a transmissão falhou.
