@@ -4,10 +4,13 @@ seo-description: 'As Regras de processamento são usadas para copiar os dados en
 seo-title: Regras de processamento e dados de contexto
 solution: Experience Cloud,Analytics
 title: Regras de processamento e dados de contexto
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 51338ccd-fa52-4d9c-97c4-947a4100465d
-translation-type: ht
-source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '297'
+ht-degree: 51%
 
 ---
 
@@ -18,16 +21,16 @@ As Regras de processamento são usadas para copiar os dados enviados em variáve
 
 Para obter mais informações, consulte o seguinte conteúdo:
 
-* [Treinamento sobre regras de processamento](https://tv.adobe.com/embed/1181/16506/) @ Summit 2013
+* [Treinamento](https://tv.adobe.com/embed/1181/16506/) das regras de processamento no Summit 2013
 * Receber autorização para usar as regras de processamento
 
    Para obter mais informações sobre regras de processamento, consulte [Visão geral das regras de processamento](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
 Ao trabalhar com as regras de processamento, lembre-se das seguintes informações:
 
-* Agrupe as variáveis de dados de contexto usando espaços para nome, isso ajudará a manter uma ordem lógica.
+* Agrupe suas variáveis de dados de contexto usando o namespace, pois isso ajuda a manter uma ordem lógica.
 
-   Por exemplo, se você quiser coletar informações sobre um produto, pode definir as seguintes variáveis:
+   Por exemplo, se você deseja coletar informações sobre um produto, pode definir as seguintes variáveis:
 
    ```js
    "product.type":"hat" 
@@ -35,27 +38,27 @@ Ao trabalhar com as regras de processamento, lembre-se das seguintes informaçõ
    "product.color":"blue"
    ```
 
-* As variáveis de dados de contexto são classificadas em ordem alfabética na interface de regras de processamento, o que permite ver rapidamente quais variáveis estão no mesmo espaço de nome.
+* As variáveis de dados de contexto são classificadas alfabeticamente na interface de regras de processamento, o que permite que você veja rapidamente quais variáveis estão na mesma namespace.
 
-   Evite nomear as chaves de dados de contexto usando número de evar ou de propriedade:
+   Evite nomear chaves de dados de contexto usando o número de evar ou prop:
 
    ```js
    "eVar1":"jimbo"
    ```
 
-   Isso pode facilitar *um pouco* a execução do mapeamento único nas regras de processamento, mas você perderá a legibilidade durante a depuração e futuras atualizações de código, o que pode ser mais difícil. Em vez disso, use nomes descritivos nas chaves e nos valores:
+   Isso pode tornar *um pouco* mais fácil ao executar o mapeamento único nas regras de processamento, mas você perde a legibilidade durante a depuração e futuras atualizações de código, o que pode ser mais difícil. Em vez disso, use nomes descritivos para chaves e valores:
 
    ```js
    "username":"jimbo"
    ```
 
-* As variáveis de contexto que definem eventos de contagem devem ser definidas como 1:
+* As variáveis de contexto que definem eventos de contador devem ser definidas como 1:
 
    ```js
    "logon":"1"
    ```
 
-* As variáveis de dados de contexto que definem os eventos de incremento podem ter o evento como a chave e o montante a incrementar como o valor:
+* As variáveis de dados de contexto que definem eventos de incremento podem ter o evento como a chave e o valor a incrementar como o valor:
 
    ```js
    "levels completed":"6"
@@ -63,5 +66,5 @@ Ao trabalhar com as regras de processamento, lembre-se das seguintes informaçõ
 
 >[!TIP]
 >
->A Adobe reserva o namespace " `a.`". Além dessa pequena restrição, para evitar colisões, o único requisito é que as variáveis de dados de contexto sejam únicas no logon da sua empresa.
+>A Adobe reserva o namespace &quot; `a.`&quot;. Além dessa pequena restrição, para evitar colisões, o único requisito é que as variáveis de dados de contexto sejam únicas no logon da sua empresa.
 
