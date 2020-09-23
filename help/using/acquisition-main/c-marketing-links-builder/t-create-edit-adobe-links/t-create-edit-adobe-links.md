@@ -1,14 +1,17 @@
 ---
 description: É possível criar ou editar links de marketing para incluir links profundos no seu aplicativo móvel ou site.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: É possível criar ou editar links de marketing para incluir links profundos no seu aplicativo móvel ou site.
 seo-title: Criar ou editar Marketing Links
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Criar ou editar Marketing Links
-topic: Métricas
+topic: Metrics
 uuid: 305a8265-38de-4d19-8c79-b3912f5aae7c
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '633'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 1. Conclua uma das seguintes tarefas:
 
    * Para criar um novo link de marketing, clique em **[!UICONTROL Criar novo]**.
-   * Para editar um link, clique no nome do link na coluna **[!UICONTROL Título].**
+   * Para editar um link, clique no nome do link na coluna **[!UICONTROL Título]**.
 
 1. Digite informações nos seguintes campos:
 
@@ -35,7 +38,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
    * **[!UICONTROL Adicionar dados de contexto de rastreamento]**:
 
-      (**Opcional**) Clique no ícone **[!UICONTROL +]** e digite as informações relevantes para acompanhar sua campanha usando dados de contexto. Na lista suspensa **[!UICONTROL Dados contextuais personalizados]**, selecione uma tag predefinida ou uma de suas próprias tags. Os dados de contexto são usados para informar quando o link de marketing é implantado.
+      (**Optional**) Click the **[!UICONTROL +]** icon and type the relevant information to track your campaign using context data. Na lista suspensa **[!UICONTROL Dados contextuais personalizados]**, selecione uma tag predefinida ou uma de suas próprias tags. Os dados de contexto são usados para informar quando o link de marketing é implantado.
 
       As tags predefinidas a seguir estão disponíveis:
 
@@ -65,9 +68,9 @@ Especifique os termos de pagamento ou outros termos de pesquisa para o anúncio.
 
 1. Clique em **[!UICONTROL Editar link profundo intersticial]** e configure o link.
 
-   (**Opcional**) Quando existem vários destinos, os usuários que têm ou não aplicativo móvel instalado podem ser encaminhados conforme o caso. Se o aplicativo estiver instalado, uma página de destino intersticial será exibida.
+   (**Opcional**) Quando existem vários destinos, os usuários que têm ou não aplicativo móvel instalado podem ser encaminhados conforme o caso. Se o aplicativo estiver instalado, uma landing page intersticial será exibida.
 
-   Para obter mais informações, consulte [Intersticiais](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md).
+   For more information, see [Interstitials](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md).
 
 1. Clique em **[!UICONTROL Salvar]** e clique em **[!UICONTROL Próximo]**.
 1. Na página Destino, configure o link.
@@ -82,7 +85,7 @@ Especifique os termos de pagamento ou outros termos de pesquisa para o anúncio.
 
          Os sistemas operacionais suportados incluem iOS, Android, AMX, e assim por diante.
 
-      * **[!UICONTROL Tipo de dispositivo]**
+      * **[!UICONTROL Device Type]**
 
          Os tipos de dispositivos incluem dispositivos como desktops, eReaders, consoles de jogos, telefones celulares, set top boxes, e assim por diante.
    1. Clique no ícone **[!UICONTROL Destino]** ( ![square icono](assets/icon_square.png) ) e selecione um dos seguintes tipos de destino:
@@ -91,9 +94,10 @@ Especifique os termos de pagamento ou outros termos de pesquisa para o anúncio.
       * **[!UICONTROL Link da Web]**
       * **[!UICONTROL Deep link do aplicativo]**
       * **[!UICONTROL Link híbrido]**
+
       >[!TIP]
       >
-      >Se você usar os tipos de destino **[!UICONTROL Link da Web]** com um link para a loja de aplicativos, a aquisição não é rastreada. Para rastrear as aquisições, use o tipo de destino da **[!UICONTROL App Store].**
+      >Se você usar os tipos de destino **[!UICONTROL Link da Web]** com um link para a loja de aplicativos, a aquisição não é rastreada. Para rastrear as aquisições, use o tipo de destino da **[!UICONTROL App Store]**.
 
       Para obter mais informações, consulte [Criar um novo destino de link](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md).
 
