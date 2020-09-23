@@ -1,14 +1,17 @@
 ---
 description: Você pode usar a página Marketing Links para criar, usar e arquivar links de marketing.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: Você pode usar a página Marketing Links para criar, usar e arquivar links de marketing.
 seo-title: Gerenciar links de publicidade
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Gerenciar links de publicidade
-topic: Métricas
+topic: Metrics
 uuid: 98ac3520-89ed-4513-83f6-120dda9d0157
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '201'
+ht-degree: 91%
 
 ---
 
@@ -25,7 +28,7 @@ Na página Links de marketing, finalize as seguintes tarefas:
 
 * **Exibir Links de marketing**
 
-   Para exibir a lista de Links de marketing, na página inicial do Mobile Services, clique em **[!UICONTROL Aquisição]** &gt; **[!UICONTROL Construtor de Links de marketing]**.
+   To display the list of Marketing Links, in the Mobile Services home page, click **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Links Builder]**.
 
    A coluna **[!UICONTROL Cliques]** exibe o número de usuários que clicaram no Link de marketing. A coluna **[!UICONTROL Primeiras inicializações]** exibe o número de primeiras inicializações do aplicativo. Esse valor reflete o número de usuários que optaram por instalar o aplicativo e iniciá-lo depois de clicar no Link de marketing.
 
