@@ -1,14 +1,17 @@
 ---
 description: O relatório Usuários e sessões exibe as métricas de visitantes únicos para o período de tempo selecionado.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: O relatório Usuários e sessões exibe as métricas de visitantes únicos para o período de tempo selecionado.
 seo-title: Relatório de Usuários e Sessões
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Relatório de Usuários e Sessões
-topic: Relatórios, Métricas
+topic: Reports,Metrics
 uuid: 6d70d7f6-de81-4307-a4f3-14f18fc3c9b3
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 100%
 
 ---
 
