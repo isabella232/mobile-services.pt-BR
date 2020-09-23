@@ -1,14 +1,17 @@
 ---
 description: Você pode ver um mapa interativo que mostre seus pontos de interesse e outros marcadores de dados.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: Você pode ver um mapa interativo que mostre seus pontos de interesse e outros marcadores de dados.
 seo-title: Mapa
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Mapa
-topic: Métricas
+topic: Metrics
 uuid: 3c271738-eb8d-4c26-baaf-54b247bfc4da
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '313'
+ht-degree: 74%
 
 ---
 
@@ -23,10 +26,10 @@ Algumas informações importantes a lembrar:
 
 * É possível aumentar ou diminuir o tamanho do mapa.
 
-   Este recurso é útil, por exemplo, se você tiver dois pontos de interesse próximos. Aumente o mapa para visualizar os detalhes.
-* Seus pontos de interesse são exibidos na cor azul.
+   Esse recurso é útil, por exemplo, se você tiver dois pontos de interesse próximos. Ampliar o mapa permite que você o visualização com mais detalhes.
+* Seus pontos de interesse são exibidos em azul.
 
-   Outros marcadores de dados, como Inicializações, são exibidos em preto. Clique em um marcador para ver mais informações.
+   Outros marcadores de dados, como Inicializações, são exibidos em preto. Clique em um marcador para visualização de mais informações.
 
 Clique em ![camadas](assets/map_layers.png) para escolher as seguintes opções:
 
@@ -43,11 +46,11 @@ Exibir o mapa no modo satélite.
 
 * **[!UICONTROL Mapa de calor]**
 
-   Escolha se os marcadores do mapa de calor devem ser exibidos. Quanto maior for a intensidade da cor, maior será a frequência do cumprimento da condição (Inicializações, por exemplo).
+   Escolha se deseja exibir marcadores de mapa de calor. Quanto maior a intensidade da cor, mais frequentemente a condição (Inicializações, por exemplo) é atendida.
 
 * **[!UICONTROL Pontos de interesse]**
 
-   Escolha se os pontos de interesse devem ser exibidos.
+   Escolha se deseja exibir seus pontos de interesse.
 
 Você pode configurar as seguintes opções no relatório:
 
