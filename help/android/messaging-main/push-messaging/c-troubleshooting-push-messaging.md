@@ -4,11 +4,14 @@ keywords: mobile
 seo-description: Estas informações ajudam a solucionar problemas de mensagem de push.
 seo-title: 'Solucionar problemas de mensagens por push  '
 solution: Experience Cloud,Analytics
-title: Solucionar problemas de mensagens por push
-topic: Métricas
+title: 'Solucionar problemas de mensagens por push  '
+topic: Metrics
 uuid: 9c4a9371-6691-4a2c-a6c1-b9f901a41599
-translation-type: ht
-source-git-commit: 12e01e112debffd877dd62f1fd2505724b2aae7d
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '305'
+ht-degree: 89%
 
 ---
 
@@ -23,7 +26,7 @@ Os seguintes tipos de atrasos podem estar associados a mensagens de push para os
 
 * Aguardar as ocorrências do Analytics
 
-   Todo conjunto de relatórios possui uma configuração que determina quando processar as ocorrências que chegam do Analytics. O padrão é a cada hora. O processamento de ocorrências do Analytics atual pode levar até 30 minutos, embora normalmente demore de 15 a 20 minutos. Por exemplo, um conjunto de relatórios processa ocorrências a cada hora. Se você considerar um tempo de processamento de, no máximo, 30 minutos, poderá demorar até 90 minutos para que uma ocorrência recebida esteja disponível para uma mensagem por push. Se um usuário inicializasse o aplicativo às 9h01, a ocorrência apareceria na interface do usuário do Mobile Services como um novo usuário exclusivo entre 10h15 e 10h30.
+   Todo conjunto de relatórios possui uma configuração que determina quando processar as ocorrências que chegam do Analytics. O padrão é a cada hora. O processamento de ocorrências do Analytics atual pode levar até 30 minutos, embora normalmente demore de 15 a 20 minutos. Por exemplo, um conjunto de relatórios processa ocorrências a cada hora. Se você considerar o tempo de processamento de no máximo 30 minutos, pode levar até 90 minutos para que uma ocorrência recebida esteja disponível para uma mensagem de push. Se um usuário inicializasse o aplicativo às 9h01, a ocorrência apareceria na interface do usuário do Mobile Services como um novo usuário exclusivo entre 10h15 e 10h30.
 
 * Aguardar o serviço de push
 
