@@ -1,23 +1,26 @@
 ---
-description: Você pode exibir as principais métricas de desempenho dos aplicativos que você visualizou recentemente. Por padrão, você pode exibir até 12 aplicativos. É possível alterar o intervalo de datas e criar filtros para segmentar os dados e qualquer aplicativo na página Visão geral.
+description: Você pode exibir as principais métricas de desempenho dos aplicativos que você visualizou mais recentemente. Por padrão, você pode visualização até 12 aplicativos. Você pode alterar o intervalo de datas e criar filtros para segmentar os dados e editar qualquer aplicativo na página Visão geral.
 keywords: mobile
-seo-description: Você pode exibir as principais métricas de desempenho dos aplicativos que você visualizou recentemente. Por padrão, você pode exibir até 12 aplicativos. É possível alterar o intervalo de datas e criar filtros para segmentar os dados e qualquer aplicativo na página Visão geral.
+seo-description: Você pode exibir as principais métricas de desempenho dos aplicativos que você visualizou mais recentemente. Por padrão, você pode visualização até 12 aplicativos. Você pode alterar o intervalo de datas e criar filtros para segmentar os dados e editar qualquer aplicativo na página Visão geral.
 seo-title: Exibir métricas do Mobile
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Exibir métricas do Mobile
 topic: Metrics
 uuid: 57db0b77-6b0a-4a0c-9aad-0731275233fd
-translation-type: ht
-source-git-commit: bd8aa0c7ff58e4cf28a67b8a107db52fb30cd3dc
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '486'
+ht-degree: 47%
 
 ---
 
 
 # Exibir métricas móveis {#display-mobile-metrics}
 
-Você pode exibir as principais métricas de desempenho dos aplicativos que você visualizou recentemente. Por padrão, você pode exibir até 12 aplicativos. É possível alterar o intervalo de datas e criar filtros para segmentar os dados e qualquer aplicativo na página Visão geral.
+Você pode exibir as principais métricas de desempenho dos aplicativos que você visualizou mais recentemente. Por padrão, você pode visualização até 12 aplicativos. Você pode alterar o intervalo de datas e criar filtros para segmentar os dados e editar qualquer aplicativo na página Visão geral.
 
-As métricas exibidas para cada aplicativo refletem as métricas principais que você selecionou quando criou o aplicativo. Para obter mais informações, consulte [Adicionar um novo aplicativo](/help/using/manage-apps/t-new-app.md).
+As métricas exibidas para cada aplicativo refletem as métricas principais que você selecionou ao criar o aplicativo. For more information, see [Add a New App](/help/using/manage-apps/t-new-app.md).
 
 Se o aplicativo que deseja visualizar não for exibido, procure-o digitando o nome do aplicativo ou clicando na lista suspensa em **[!UICONTROL Todos os aplicativos]**.
 
@@ -25,13 +28,13 @@ Você pode executar as seguintes tarefas na página Visão geral:
 
 * **Alterar intervalo de datas**
 
-   Os dados dos 30 dias anteriores são exibidos para métricas principais. Você pode alterar isso clicando no ícone de calendário no canto superior direito. Você pode selecionar um intervalo de datas ou um período de tempo pré-determinado na lista suspensa.
+   Os dados dos 30 dias anteriores são exibidos para métricas principais. Você pode alterar isso clicando no ícone de calendário no lado superior direito. Você pode selecionar um intervalo de datas ou um intervalo de tempo predeterminado na lista suspensa.
 
 * **Filtrar dados**
 
-   É possível filtrar usuários para segmentar os dados para cada aplicativo.
+   É possível segmentar filtros de usuário para segmentar os dados de cada aplicativo.
 
-   Por exemplo, é possível filtrar os dados por Versão do aplicativo e por Tipo de dispositivo.
+   Por exemplo, você pode filtrar os dados por Versão do aplicativo e por Tipo de dispositivo.
 
    Para criar um filtro:
 
