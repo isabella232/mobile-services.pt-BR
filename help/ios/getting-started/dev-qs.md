@@ -2,12 +2,15 @@
 description: Esta informação ajuda a implementar a biblioteca do iOS e coletar medições de ciclo de vida, como inicializações, atualizações, sessões, usuários envolvidos e assim por diante.
 seo-description: Esta informação ajuda a implementar a biblioteca do iOS e coletar medições de ciclo de vida, como inicializações, atualizações, sessões, usuários envolvidos e assim por diante.
 seo-title: Implementação principal e ciclo de vida
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Implementação principal e ciclo de vida
 topic: Developer and implementation
 uuid: 96d06325-e424-4770-8659-4b5431318ee3
-translation-type: ht
-source-git-commit: bd8aa0c7ff58e4cf28a67b8a107db52fb30cd3dc
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '656'
+ht-degree: 100%
 
 ---
 
@@ -61,6 +64,7 @@ Para baixar o SDK:
    * A caixa de seleção **[!UICONTROL Copiar itens se necessário]** está marcada.
    * **[!UICONTROL Criar grupos]** está selecionado.
    * Nenhuma das caixas de seleção na seção **[!UICONTROL Adicionar aos destinos]** está marcada.
+
    ![](assets/step_3.png)
 
 1. Clique em **[!UICONTROL Concluir]**.
@@ -93,6 +97,7 @@ Para baixar o SDK:
       * `SystemConfiguration.framework`
       * `libsqlite3.0.tbd`
       * `AdobeMobileLibrary\_TV.a`
+
    >[!CAUTION]
    >
    > Vincular mais de um arquivo `AdobeMobileLibrary*.a` ao mesmo destino resultará em um comportamento inesperado ou na incapacidade de criar o build.
