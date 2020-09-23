@@ -1,14 +1,17 @@
 ---
 description: Este plug-in permite enviar chamadas do Android AppMeasurement a partir do seu projeto PhoneGap.
-keywords: android;biblioteca;móvel;sdk
+keywords: android;library;mobile;sdk
 seo-description: Este plug-in permite enviar chamadas do Android AppMeasurement a partir do seu projeto PhoneGap.
 seo-title: Visão geral do plug-in PhoneGap
 solution: Experience Cloud,Analytics
 title: Visão geral do plug-in PhoneGap
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: c5c32357-d8df-458a-b0e8-e0c56040241d
-translation-type: ht
-source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '395'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +22,7 @@ Este plug-in permite enviar chamadas do Android AppMeasurement a partir do seu p
 
 ## Nova versão do Adobe Experience Platform Mobile SDK
 
-Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para acessar a documentação mais recente.
+Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para obter a documentação mais recente.
 
 Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/br/experience-platform/launch.html).
 
