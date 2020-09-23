@@ -1,25 +1,28 @@
 ---
-description: Na interface do usuário do Adobe Mobile Services, é possível agendar uma mensagem de push para ser entregue imediatamente, mais tarde e como um evento recorrente. Esses eventos podem ser agendados diária, semanal ou mensalmente.
-keywords: dispositivos móveis
-seo-description: Na interface do usuário do Adobe Mobile Services, é possível agendar uma mensagem de push para ser entregue imediatamente, mais tarde e como um evento recorrente. Esses eventos podem ser agendados diária, semanal ou mensalmente.
+description: Na interface do usuário do Adobe Mobile Services, você pode agendar uma mensagem de push para ser entregue imediatamente, para ser entregue posteriormente e como um evento recorrente. Esses eventos podem ser agendados diariamente, semanalmente ou mensalmente.
+keywords: mobile
+seo-description: Na interface do usuário do Adobe Mobile Services, você pode agendar uma mensagem de push para ser entregue imediatamente, para ser entregue posteriormente e como um evento recorrente. Esses eventos podem ser agendados diariamente, semanalmente ou mensalmente.
 seo-title: Programar mensagem por push
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Programar mensagem por push
-topic: Métricas
+topic: Metrics
 uuid: 6810e27a-016f-4286-8fe2-9972d85fa326
-translation-type: ht
-source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 47%
 
 ---
 
 
 # Programar: mensagens por push{#schedule-push-message}
 
-Na interface do usuário do Adobe Mobile Services, é possível agendar uma mensagem de push para ser entregue imediatamente, mais tarde e como um evento recorrente. Esses eventos podem ser agendados diária, semanal ou mensalmente.
+Na interface do usuário do Adobe Mobile Services, você pode agendar uma mensagem de push para ser entregue imediatamente, para ser entregue posteriormente e como um evento recorrente. Esses eventos podem ser agendados diariamente, semanalmente ou mensalmente.
 
 >[!TIP]
 >
->Os usuários podem modificar as configurações de programação para uma tarefa de mensagem por push a qualquer momento. Se não houver uma data aplicável para enviar uma mensagem recorrente agendada, por exemplo, uma tarefa mensal recorrente no 31º dia, no dia 31 de fevereiro ou na 5ª terça-feira do mês, nenhuma mensagem será enviada.
+>Os usuários podem modificar as configurações de programação para uma tarefa de mensagem por push a qualquer momento. Se não houver uma data aplicável para enviar uma mensagem recorrente programada, por exemplo, uma tarefa mensal recorrente a cada 31 dias, no dia 31 de fevereiro ou na quinta terça-feira do mês, nenhuma mensagem será enviada.
 
 Lembre-se das seguintes informações:
 
@@ -28,9 +31,9 @@ Lembre-se das seguintes informações:
 * Você pode editar uma mensagem agendada das seguintes maneiras:
 
    * Mudar a data para uma data posterior.
-   * Altere o intervalo de repetição.
+   * Altere o intervalo de repetição para outro intervalo.
 
-      Por exemplo, para uma mensagem que é enviada todos os dias, você pode alternar a recorrência para semanalmente.
+      Por exemplo, se originalmente você tinha uma mensagem que era enviada todos os dias, é possível alternar a recorrência para semanalmente.
 
 ## Antes de agendar mensagens por push recorrentes
 
@@ -46,16 +49,16 @@ Você **deve** compreender as seguintes informações antes de agendar mensagens
    * **[!UICONTROL Dia 7 de cada mês]**
    * **[!UICONTROL 1º sábado de cada mês]**
 
-* As mensagens de push são agendadas e enviadas com base no Horário de Greenwich (GMT).
+* As mensagens de push são programadas e enviadas com base no Horário de Greenwich (GMT).
 
-   Por exemplo, se você agendou uma mensagem recorrente para ser enviada todos os sábados, ao 12h (meio-dia) **PST**, a partir de 7 de outubro, a mensagem será enviada no sábado, às 19h **GMT**.
-* As mensagens são enviadas de forma diferente, conforme sua localização (EUA, Europa ou Ásia).
+   Por exemplo, se você agendar uma mensagem recorrente para ser enviada todos os sábados às 12:00 (meio-dia) **PST**, a partir de 7 de outubro, a mensagem será enviada no sábado às 19:00 **GMT**.
+* As mensagens são enviadas de forma diferente dependendo se você estiver localizado nos Estados Unidos, Europa ou Ásia.
 
-   Por exemplo, se você estiver em San Jose, Califórnia, e agendar uma mensagem para ser enviada em ***31 de outubro*** às 17h30 **PST**, na verdade, ela será enviada em ***1º de novembro*** às 0h30 **GMT**. Se você estiver em Tóquio e agendar uma mensagem para ser enviada em ***1º de janeiro*** às 5h30, ela será enviada em ***31 de dezembro*** às 20h30 **GMT**.
-* As mensagens de push são enviadas uma hora antes ou depois, dependendo de quando ocorre o horário de verão.
-* Quando você visualiza o relatório de mensagens de push, a mensagem é exibida no fuso horário local do seu sistema.
+   Por exemplo, se você estiver em San Jose, Califórnia, e agendar uma mensagem para ser enviada em 31 ***de outubro às 17h30*** PST **, ela será enviada em 1** de novembro às 12h30 ***GMT*** ****. Se você estiver em Tóquio e agendar uma mensagem para ser enviada em 1 ***de janeiro às 5h30, ela será enviada em 31*** ***de dezembro às 20h30*** GMT ****.
+* As mensagens de push são enviadas uma hora antes ou depois, dependendo de quando a luz do dia ocorre.
+* Quando você olha para seu relatório de mensagens de push, a mensagem é exibida no fuso horário local do seu sistema.
 
-   Por exemplo, se a hora de início for 12h **PST**, embora a mensagem seja enviada às 19h **GMT**, o relatório da mensagem exibirá a hora de envio como 12h **PST**.
+   Por exemplo, se a hora do seu start for 12:00 PM **PST**, embora a mensagem seja enviada às 19:00 **GMT**, o relatório de mensagem exibirá a hora de envio como 12:00 PM **PST**.
 
 ## Programar uma mensagem por push recorrente {#section_675BD754E5A04423A1751193698A978F}
 
@@ -92,9 +95,9 @@ Você **deve** compreender as seguintes informações antes de agendar mensagens
 
    * **[!UICONTROL Salvar e agendar]**
 
-      Esta opção envia a mensagem no dia e na hora agendados.
+      Essa opção envia a mensagem no dia e na hora agendados.
 
-Para enviar a mensagem de rascunho mais tarde, siga um destes procedimentos:
+Para enviar a mensagem de rascunho mais tarde, conclua uma das seguintes tarefas:
 
 * Clique em **[!UICONTROL Gerenciar mensagens]**, marque a caixa de seleção ao lado da mensagem e clique em **[!UICONTROL Ativar mensagens selecionadas]**.
 * Clique em **[!UICONTROL Salvar e enviar]** para salvar a mensagem e enviá-la.
