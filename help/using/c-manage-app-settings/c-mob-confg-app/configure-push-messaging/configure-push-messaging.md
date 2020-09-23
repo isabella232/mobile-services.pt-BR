@@ -1,14 +1,17 @@
 ---
 description: Você pode usar estas informações para ajudar a configurar as opções de Serviços de push na página Gerenciar configurações do aplicativo, enquanto cria um novo aplicativo ou edita um existente.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: Você pode usar estas informações para ajudar a configurar as opções de Serviços de push na página Gerenciar configurações do aplicativo, enquanto cria um novo aplicativo ou edita um existente.
 seo-title: Configuração de mensagens de push
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Configuração de mensagens de push
-topic: Métricas
+topic: Metrics
 uuid: 6763858d-6046-4d36-87c0-cf3600a44fb1
-translation-type: ht
-source-git-commit: 2c85c31d2fa54de26771553a6d349d3101e0048c
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +24,7 @@ Antes de configurar mensagens por push, conclua as tarefas obrigatórias em [Pr�
 
 * **Considerações sobre o conjunto de relatórios**
 
-   É possível configurar um aplicativo da app store para a Apple e um para o Google em cada conjunto de relatórios. Se precisar de aplicativos adicionais, por exemplo, um para um ambiente de produção e outro para um ambiente de desenvolvimento, defina um novo aplicativo na app store e um novo conjunto de relatórios para cada ambiente.
+   Você pode configurar um aplicativo da app store para a Apple e um para o Google em cada conjunto de relatórios. Se você precisar de aplicativos adicionais, por exemplo, um para um ambiente de produção e outro para um ambiente dev, configure um novo aplicativo da app store e um novo conjunto de relatórios para cada ambiente.
 
 >[!IMPORTANT]
 >
