@@ -1,14 +1,17 @@
 ---
 description: O relatório Visão geral da App Store oferece um instantâneo das métricas da app store, incluindo a quantidade de downloads, compras no aplicativo, avaliação média da app store, receitas geradas por downloads, receitas no aplicativo, downloads por país, downloads por app store e compras no aplicativo por nome.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: O relatório Visão geral da App Store oferece um instantâneo das métricas da app store, incluindo a quantidade de downloads, compras no aplicativo, avaliação média da app store, receitas geradas por downloads, receitas no aplicativo, downloads por país, downloads por app store e compras no aplicativo por nome.
 seo-title: Relatório de Visão geral da App Store
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Relatório de Visão geral da App Store
-topic: Métricas
+topic: Metrics
 uuid: ac066f31-ec4b-4b67-b839-780c2cd1574e
-translation-type: ht
-source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '517'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +28,7 @@ O relatório **[!UICONTROL Visão geral]** contém um gráfico ao longo do tempo
 
 ![](assets/app_store_metrics.png)
 
-Você pode clicar em qualquer métrica para ocultar ou exibir a linha correspondente. Para ver os dados de um dia, posicione o cursor sobre o dia.
+Você pode clicar em qualquer métrica para ocultar ou exibir sua linha correspondente. Para ver os dados de um dia, posicione o cursor sobre o dia.
 
 >[!IMPORTANT]
 >
