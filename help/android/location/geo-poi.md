@@ -4,10 +4,13 @@ seo-description: A geolocalização ajuda a avaliar os dados de localização us
 seo-title: Geolocalização e pontos de interesse
 solution: Experience Cloud,Analytics
 title: Geolocalização e pontos de interesse
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: b8209370-cbc4-40f9-97d8-017e2d74a377
-translation-type: ht
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '596'
+ht-degree: 83%
 
 ---
 
@@ -20,9 +23,9 @@ Cada chamada `trackLocation` envia as seguintes informações:
 
 * Latitude, longitude e localização de um ponto de interesse (POI) definido na interface do usuário do Adobe Mobile Services.
 
-   Essas informações são passadas para as variáveis da solução móvel para relatório automático.
+   Essas informações são passadas para variáveis de solução móvel para relatórios automático.
 
-* Distância do centro e precisão passada como dados de contexto.
+* Distância do centro e precisão transmitida como dados de contexto.
 
    Essas variáveis não são capturadas automaticamente. Você deve mapear essas variáveis de dados de contexto usando as instruções em *Envio de dados adicionais* na seção abaixo.
 
@@ -81,9 +84,9 @@ Os valores de dados de contexto devem ser mapeados para variáveis personalizada
 
 ## Dados do contexto de localização {#section_FFB71E6653F9410A89CC6ACC0C9164A9}
 
-A latitude e longitude são enviadas usando três parâmetros de dados de contexto diferentes, com cada parâmetro representando um diferente nível de precisão, com um total de seis parâmetros de dados de contexto.
+A latitude e a longitude são enviadas usando três parâmetros de dados de contexto diferentes, com cada parâmetro representando um nível diferente de precisão, para um total de seis parâmetros de dados de contexto.
 
-Por exemplo, as coordenadas lat = 40.93231, long = -111.93152 representam uma localização de 1m de precisão. Esta localização é dividida de acordo com o nível de precisão das variáveis a seguir:
+Por exemplo, as coordenadas lat = 40.93231, long = -111.93152 representam um local com precisão de 1 m. Esse local é dividido de acordo com o nível de precisão nas seguintes variáveis:
 
 `a.loc.lat.a`= 040.9
 
@@ -116,5 +119,5 @@ Lembre-se das seguintes informações:
 
 * Quando dois POIs possuem diâmetros sobrepostos, é usado o primeiro POI que contém a localização atual.
 
-   Se os POIs forem sobrepostos, é necessário listar os POIs na ordem do mais para o menos granular para garantir que o POI mais granular seja relatado.
+   Se seus POIs se sobrepõem, você deve lista os POIs na ordem da mais para a menos granular para garantir que o POI mais granular seja relatado.
 
