@@ -3,12 +3,12 @@ description: Este tópico descreve como começar a usar os componentes do Xamari
 keywords: Xamarin
 seo-description: Este tópico descreve como começar a usar os componentes do Xamarin para o SDK 4.x de soluções móveis.
 seo-title: Componentes do Xamarin para o SDK 4.x das soluções da Experience Cloud
-solution: Marketing Cloud,Developer
+solution: Experience Cloud
 title: Componentes do Xamarin para o SDK 4.x das soluções da Experience Cloud
 uuid: e7a48107-bd0e-47d6-b49c-dfdae189ac37
-translation-type: ht
-source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 100%
 
