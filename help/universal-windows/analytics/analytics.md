@@ -2,12 +2,15 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Analytics
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Analytics
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: c2cef3d3-77a7-4a8e-bbe4-3db10a77996a
 translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '940'
+ht-degree: 11%
 
 ---
 
@@ -20,33 +23,33 @@ Depois de adicionar a biblioteca ao seu projeto, você pode fazer qualquer uma d
 >
 >Certifique-se de importar `ADBMobile.h` para sua classe.
 
-## Enable mobile application reports in Analytics {#section_F2F9234009184F20BA36B5CDE872B424}
+## Ativar relatórios de aplicativos móveis no Analytics {#section_F2F9234009184F20BA36B5CDE872B424}
 
-Antes de adicionar um código, peça para que um dos administradores do Analytics conclua as etapas a seguir para ativar o acompanhamento de Ciclo de vida do aplicativo móvel. Isso garante que o conjunto de relatórios esteja pronto para capturar métricas assim que você iniciar o desenvolvimento.
+Antes de adicionar o código, peça para que o administrador do Analytics conclua o seguinte para ativar o rastreamento do ciclo de vida do aplicativo móvel. Isso garante que seu conjunto de relatórios esteja pronto para capturar métricas à medida que você iniciar o desenvolvimento.
 
-1. Open **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Report Suites]** and select your mobile report suite(s).
+1. Abra Ferramentas **** administrativas > **[!UICONTROL Report Suites]** e selecione seus report suites móveis.
 
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
+1. Clique em **[!UICONTROL Editar configurações]** > Gerenciamento **** móvel > Relatórios **[!UICONTROL do aplicativo]** móvel.
 
    ![](assets/mobile-settings.png)
 
-1. Clique em **[!UICONTROL Habilitar relatórios de aplicativo mais recentes]**.
+1. Clique em **[!UICONTROL Ativar os relatórios]** mais recentes do aplicativo.
 
-   Optionally, you can also click **[!UICONTROL Enable Mobile Location Tracking]** or **[!UICONTROL Enable Legacy Reporting and Attribution for background hits]**.
+   Opcionalmente, você também pode clicar em **[!UICONTROL Ativar rastreamento]** de localização móvel ou em **[!UICONTROL Ativar Relatórios e atribuição herdados para ocorrências]** em segundo plano.
 
    ![](assets/enable-lifecycle.png)
 
-As métricas de ciclo de vida estão prontas para serem capturadas, e os Relatórios de aplicativo móvel são exibidos no menu **Relatórios**, na interface dos relatórios de marketing.
+As medições de ciclo de vida estão prontas para serem capturadas e os Relatórios de aplicativo móvel são exibidos no menu **[!UICONTROL Relatórios]** na interface dos relatórios de marketing.
 
 ### Novas versões
 
-Periodicamente, novas versões dos relatórios de aplicativo para dispositivos móveis são lançadas. As novas versões não são aplicadas a seu conjunto de relatórios automaticamente, é necessário repetir essas etapas para realizar a atualização. Cada vez que você adicionar uma nova funcionalidade da Experience Cloud ao aplicativo, recomendamos que repita essas etapas para garantir a configuração mais recente.
+Periodicamente, novas versões do relatórios de aplicativo móvel são lançadas. As novas versões não são aplicadas automaticamente ao seu conjunto de relatórios, você deve repetir essas etapas para executar a atualização. Sempre que você adicionar uma nova funcionalidade de Experience Cloud ao seu aplicativo, recomendamos que repita essas etapas para garantir que você tenha a configuração mais recente.
 
-## Lifecycle metrics {#section_532702562A7A43809407C9A2CBA80E1E}
+## Métricas de ciclo de vida {#section_532702562A7A43809407C9A2CBA80E1E}
 
-Para coletar métricas de ciclo de vida no aplicativo, adicione chamadas para quando o aplicativo estiver ativado, como mostrado nos exemplos a seguir.
+Para coletar medições de ciclo de vida em seu aplicativo, adicione chamadas para quando o aplicativo for ativado, como mostrado nos exemplos a seguir.
 
-### WinJS in default.js
+### WinJS em default.js
 
 ```js
 app.onactivated = function (args) { 
@@ -118,31 +121,31 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 }
 ```
 
-If `CollectLifecycleData()` is called twice in the same session, your application reports a crash on every call after the first. O SDK define um sinalizador quando o aplicativo é fechado que indica uma saída bem-sucedida. If this flag is not set, `CollectLifecyleData()` reports a crash.
+Se `CollectLifecycleData()` for chamado duas vezes na mesma sessão, seu aplicativo reportará uma falha em cada chamada após a primeira. O SDK define um sinalizador quando o aplicativo é desligado que indica uma saída bem-sucedida. Se esse sinalizador não estiver definido, `CollectLifecyleData()` reportará uma falha.
 
-## Events, props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
+## Eventos, propriedades e eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
-If you've looked at [SDK methods](/help/universal-windows/c-configuration/methods.md), you are probably wondering where to set events, eVars, props, heirs, and lists. Na versão 4, não é possível atribuir esses tipos de variáveis diretamente no aplicativo. Em vez disso, o SDK usa dados de contexto e regras de processamento de forma a mapear os dados do aplicativo para as variáveis do Analytics para criação de relatórios.
+Se você observou os métodos [do](/help/universal-windows/c-configuration/methods.md)SDK, provavelmente está se perguntando onde definir eventos, eVars, props, herdeiros e listas. Na versão 4, não é mais possível atribuir esses tipos de variáveis diretamente no aplicativo. Em vez disso, o SDK usa dados de contexto e regras de processamento para mapear os dados do aplicativo para as variáveis do Analytics para o relatórios.
 
-As regras de processamento oferecem diversas vantagens:
+As regras de processamento oferecem várias vantagens:
 
-* Você pode alterar seu mapeamento de dados sem enviar uma atualização para a App Store.
-* Como alternativa, use nomes significativos para os dados em vez de configurar variáveis específicas para um conjunto de relatórios.
-* Há pouco impacto no envio de dados adicionais. Esses valores não aparecerão nos relatórios até que sejam mapeados usando regras de processamento.
+* Você pode alterar o mapeamento de dados sem enviar uma atualização para a App Store.
+* Você pode usar nomes significativos para dados em vez de definir variáveis específicas para um conjunto de relatórios.
+* Há pouco impacto no envio de dados extras. Esses valores não aparecerão nos relatórios até que sejam mapeados usando as regras de processamento.
 
-Quaisquer valores atribuídos a variáveis devem ser, em vez disso, adicionados aos dados de contexto.
+Quaisquer valores atribuídos diretamente às variáveis devem ser adicionados aos dados de contexto.
 
 ## Regras de processamento {#section_66EE762EEA5E4728864166201617DEBF}
 
-As regras de processamento são usadas para copiar os dados enviados nas variáveis de dados de contexto para evars, propriedades e outras variáveis para fins de criação e edição de relatórios.
+As regras de processamento são usadas para copiar os dados enviados nas variáveis de dados de contexto para evars, props e outras variáveis do relatórios.
 
-[Treinamento sobre regras de processamento](https://tv.adobe.com/embed/1181/16506/) @ Summit 2013
+[Treinamento](https://tv.adobe.com/embed/1181/16506/) das regras de processamento no Summit 2013
 
-[Ajuda das Regras de processamento](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html)
+[Ajuda das regras de processamento](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
 [Receber autorização para usar as regras de processamento](https://helpx.adobe.com/analytics/kb/processing-rules-authorization.html)
 
-Recomendamos agrupar as variáveis de dados de contexto usando “namespaces”; isso o ajudará a manter uma ordem lógica. Por exemplo, se você quiser coletar informações sobre um produto, pode definir as seguintes variáveis:
+Recomendamos agrupar as variáveis de dados de contexto usando &quot;namespace&quot;, pois isso ajuda a manter a ordem lógica. Por exemplo, se você deseja coletar informações sobre um produto, pode definir as seguintes variáveis:
 
 ```javascript
 "product.type":"hat" 
@@ -150,27 +153,27 @@ Recomendamos agrupar as variáveis de dados de contexto usando “namespaces”;
 "product.color":"blue"
 ```
 
-As variáveis de dados de contexto são classificadas em ordem alfabética na interface das regras de processamento. Sendo assim, os namespaces permitem ver rapidamente as variáveis que estão no mesmo namespace.
+As variáveis de dados de contexto são classificadas em ordem alfabética na interface das regras de processamento, de modo que o namespace permite que você veja rapidamente as variáveis que estão na mesma namespace.
 
-Além disso, fomos informados de que alguns dos usuários têm nomeado as chaves de dados de contexto usando número do evar ou da propriedade:
+Além disso, ouvimos que alguns de vocês estão nomeando chaves de dados de contexto usando o número de evar ou prop:
 
 ```js
 "eVar1":"jimbo"
 ```
 
-Isso pode facilitar *um pouco* a execução do mapeamento único nas regras de processamento, mas você perderá a legibilidade durante a depuração e as futuras atualizações de código podem ser mais difíceis. Em vez disso, recomendamos o uso de nomes descritivos para chaves e valores:
+Isso pode tornar *um pouco* mais fácil ao executar o mapeamento único nas regras de processamento, mas você perde a legibilidade durante a depuração e as futuras atualizações de código podem ser mais difíceis. Em vez disso, recomendamos o uso de nomes descritivos para chaves e valores:
 
 ```js
 "username":"jimbo"
 ```
 
-Configure variáveis de contexto que definem eventos de contagem com o valor “1”:
+Defina variáveis de contexto que definem eventos de contador com um valor de &quot;1&quot;:
 
 ```js
 "logon":"1"
 ```
 
-As variáveis de dados de contexto que definem eventos do incrementador podem ter o valor a incrementar:
+As variáveis de dados de contexto que definem eventos de incremento podem ter o valor a incrementar:
 
 ```js
 "levels completed":"6"
@@ -178,36 +181,36 @@ As variáveis de dados de contexto que definem eventos do incrementador podem te
 
 >[!TIP]
 >
->A Adobe reserva o namespace `a.`. Other than this restriction, context data variables just need to be unique in your login company to avoid collisions.
+>A Adobe reserva o namespace `a.`. Além dessa restrição, as variáveis de dados de contexto precisam ser exclusivas na empresa de logon para evitar colisões.
 
-## Products variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
+## Variável products {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
 Para configurar *`products`* no SDK móvel, é necessário usar uma sintaxe especial. Para obter mais informações, consulte Variável [](/help/universal-windows/analytics/products.md)de produtos.
 
-## (Optional) Enable offline tracking {#section_955B2A03EB854742BDFC4A0A3C287009}
+## (Opcional) Habilitar rastreamento offline {#section_955B2A03EB854742BDFC4A0A3C287009}
 
-To store hits when the device is offline, you can enable offline tracking in the [SDK methods](/help/universal-windows/c-configuration/methods.md) file. Pay close attention to the timestamp requirements described in the config file reference before you enable offline tracking.
+Para armazenar ocorrências quando o dispositivo estiver offline, é possível ativar o rastreamento offline no arquivo de métodos [do](/help/universal-windows/c-configuration/methods.md) SDK. Preste atenção aos requisitos de carimbo de data e hora descritos na referência do arquivo de configuração antes de ativar o rastreamento offline.
 
-## Geo-location and points of interest {#section_BAD34A8DD013454DB355121316BD7FD4}
+## Geolocalização e pontos de interesse {#section_BAD34A8DD013454DB355121316BD7FD4}
 
-A localização geográfica permite medir dados de localização (latitude/longitude) e pontos de interesse predefinidos. Each `TrackLocation` call sends:
+A localização geográfica permite medir os dados de localização (latitude/longitude) e os pontos de interesse predefinidos. Cada `TrackLocation` chamada envia:
 
-* Latitude/longitude e pontos de interesse (se em um ponto de interesse definido no arquivo de configuração `ADBMobileConfig.json`). 
+* Latitude/longitude e POI (se estiver dentro de um POI definido no arquivo de `ADBMobileConfig.json` configuração).
 
-   Eles são passados para as variáveis de soluções móveis para relatórios automáticos.
+   Elas são transmitidas para variáveis de solução móvel para relatórios automático.
 
-* Distância do centro e precisão passada como dados de contexto.
+* Distância do centro e precisão transmitida como dados de contexto.
 
    Capture usando uma regra de processamento.
 
-Para rastrear uma localização:
+Para rastrear um local:
 
 ```js
 var ADB = ADBMobile; 
 ADB.Analytics.trackLocation(37.75345, -122.33207, null);
 ```
 
-Se o seguinte ponto de interesse estiver definido no arquivo de configuração `ADBMobileConfig.json`:
+Se o seguinte POI estiver definido no arquivo de `ADBMobileConfig.json` configuração:
 
 ```js
 "poi" : [ 
@@ -215,7 +218,7 @@ Se o seguinte ponto de interesse estiver definido no arquivo de configuração `
         ]
 ```
 
-When the device location is determined to be within a 7000 meter radius of the defined point, an `a.loc.poi` context data variable with the value `San Francisco` is sent in with the `TrackLocation` hit. Uma variável de contexto `a.loc.dist` também é enviada com a distância em metros das coordenadas definidas.
+Quando o local do dispositivo é determinado como estando dentro de um raio de 7.000 metros do ponto definido, uma variável de dados de `a.loc.poi` contexto com o valor `San Francisco` é enviada com a `TrackLocation` ocorrência. An `a.loc.dist` context variable is sent with the distance in meters from the defined coordinates.
 
 ## Lifetime value {#section_D2C6971545BA4D639FBE07F13EF08895}
 
@@ -232,12 +235,12 @@ cdata["PurchasePrice"] = purchasePrice;
 ADB.Analytics.trackLifetimeValueIncrease(purchasePrice, cdata);
 ```
 
-## Timed actions {#section_7FF8B6A913A0460EAA4CAE835E32D8C1}
+## Ações cronometradas {#section_7FF8B6A913A0460EAA4CAE835E32D8C1}
 
-As ações cronometradas permitem medir o tempo no aplicativo e o tempo total entre o início e o fim de uma ação. O SDK calcula o tempo da sessão e o total de tempo (entre sessões) necessário para completar a ação. É possível usar isso para definir segmentos para comparar na hora de comprar, passar de nível, do fluxo de checkout e outros.
+As ações cronometradas permitem medir o tempo no aplicativo e o tempo total entre o start e o fim de uma ação. O SDK calcula a quantidade de tempo na sessão e o tempo total (entre sessões) necessário para a ação ser concluída. Isso pode ser usado para definir segmentos a serem comparados na hora da compra, no nível de passagem, no fluxo de checkout e assim por diante.
 
-* Número total de segundos no aplicativo entre as sessões de início e de término - sessões cruzadas
-* Número total de segundos entre o início e o término (hora do relógio)
+* Número total de segundos no aplicativo entre o start e as sessões de término
+* Número total de segundos entre o start e o término (hora do relógio)
 
 ```js
 // Timed Action Start Example 
