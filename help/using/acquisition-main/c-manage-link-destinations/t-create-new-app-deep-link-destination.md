@@ -1,14 +1,17 @@
 ---
 description: É possível criar um novo destino de link que direciona os usuários para a Web ou um deep link no seu aplicativo.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: É possível criar um novo destino de link que direciona os usuários para a Web ou um deep link no seu aplicativo.
 seo-title: Criar novo destino de link
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Criar novo destino de link
-topic: Métricas
+topic: Metrics
 uuid: 390e3dea-0221-4f97-980d-a90ca9f162fa
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '417'
+ht-degree: 90%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 1. Clique em **[!UICONTROL Gerenciar destinos do link]**.
 1. Clique em **[!UICONTROL Criar novo]**.
 1. Digite informações nos seguintes campos:
-   * **[!UICONTROL Título]**
+   * **[!UICONTROL Title]**
 
       Digite um nome descritivo para o destino do link do aplicativo. O título é exibido apenas na página Gerenciar destinos de links na interface do usuário do Adobe Mobile Services. Um nome descritivo ajuda você ou outras pessoas na sua organização a encontrar rapidamente um destino do link específico e pode fornecer informações sobre a sua finalidade.
 
@@ -36,7 +39,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
       * **[!UICONTROL Link da Web]**
 
-         Digite um URL HTTP ou HTTPS, por exemplo, `https://adobe.com`. Os destinos de links da Web direcionam os usuários para um URL. Por exemplo, você pode direcionar os usuários para uma linha de produtos no site de um revendedor online.
+         Digite um URL HTTP ou HTTPS, por exemplo, `https://adobe.com`. Os destinos de links da Web direcionam os usuários para um URL. Por exemplo, você pode direcionar os usuários para uma linha de produtos no site de um varejista online.
 
       * **[!UICONTROL Link híbrido]**
 
