@@ -1,14 +1,17 @@
 ---
 description: O agrupamento de ocorrências permite que aplicativos não as enviem até que o seu número na fila tenha excedido o limite configurado.
-keywords: android;biblioteca;móvel;sdk
+keywords: android;library;mobile;sdk
 seo-description: O agrupamento de ocorrências permite que aplicativos não as enviem até que o seu número na fila tenha excedido o limite configurado.
 seo-title: Agrupamento de ocorrências
 solution: Experience Cloud,Analytics
 title: Agrupamento de ocorrências
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: ada35be3-242b-4b2b-a828-9bf998dd58b5
-translation-type: ht
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +33,7 @@ Para habilitar o agrupamento de ocorrências, atualize o arquivo `ADBMobileConfi
 }
 ```
 
-Quando o valor é configurado com um número maior que 0, o SDK enfileira o número de ocorrências igual ao valor *`batchLimit`*. Depois que esse limite é ultrapassado, todas as ocorrências na lista são enviadas.
+Quando o valor é configurado com um número maior que 0, o SDK enfileira o número de ocorrências igual ao valor *`batchLimit`*. Depois que esse limite for ultrapassado, todas as ocorrências na fila serão enviadas.
 
 Os métodos a seguir são usados com o agrupamento de ocorrências:
 
