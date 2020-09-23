@@ -5,8 +5,11 @@ seo-title: Rastreamento de deep links
 solution: Experience Cloud,Analytics
 title: Rastreamento de deep links
 uuid: 08dc2820-7fd3-419f-ac2d-dcf12532578a
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '321'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +29,7 @@ Para obter mais informações sobre como os profissionais de marketing usam deep
 
    Para obter mais informações, consulte [Comunicações entre aplicativos ](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html#//apple_ref/doc/uid/TP40007072-CH6-SW10) ou [Links universais de suporte](https://developer.apple.com/library/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html)
 
-1. Rastrear deep links em openURL.
+1. Rastrear deep link em openURL.
 
    Este é um exemplo de rastreamento de deep link:
 
