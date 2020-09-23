@@ -1,14 +1,17 @@
 ---
 description: Você pode fazer logon no Adobe Mobile Services usando um navegador da Web.
-keywords: móvel;alterar senha;fazer logon;fazer logoff;logon;logout;entrar;conectar
+keywords: mobile;change password;log in;log out;login;logout;sign in;signin
 seo-description: Você pode fazer logon no Adobe Mobile Services usando um navegador da Web.
 seo-title: Fazer logon
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Fazer logon
-topic: Métricas
+topic: Metrics
 uuid: d6ea0ca1-3511-4133-9d41-21ea2d2f7b3a
-translation-type: ht
-source-git-commit: 83e6968efb0ed1b4ef504286c6cb2e8e4d2eaf94
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 93%
 
 ---
 
@@ -66,7 +69,7 @@ Redefina sua senha seguindo um dos seguintes procedimentos:
 
    1. Clique em **[!UICONTROL Fazer logon com a Adobe ID]** e no link **[!UICONTROL Esqueceu a senha?]**.
    1. Digite a conta de email associada à sua Adobe ID e clique em **[!UICONTROL Enviar]**.
-   1. Siga as instruções para redefinir sua senha no email recebido.
+   1. Siga as instruções para redefinir sua senha no e-mail recebido.
 
 * **Adobe Analytics** Se você usar sua empresa, nome de usuário e senha:
 
