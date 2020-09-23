@@ -1,14 +1,17 @@
 ---
 description: Estas informações ajudam você a personalizar os relatórios internos, adicionando séries (métricas) ou aplicativos em diferentes conjuntos de relatórios para comparar os dados.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: Estas informações ajudam você a personalizar os relatórios internos, adicionando séries (métricas) ou aplicativos em diferentes conjuntos de relatórios para comparar os dados.
 seo-title: Adição de séries (métricas) aos relatórios
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Adição de séries (métricas) aos relatórios
-topic: Relatórios, Métricas
+topic: Reports,Metrics
 uuid: 84fdfb1f-70e6-4c02-9b3b-526e9c924f74
-translation-type: ht
-source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '311'
+ht-degree: 90%
 
 ---
 
@@ -23,11 +26,11 @@ Estas informações ajudam você a personalizar os relatórios internos, adicion
 
 Neste exemplo, vamos personalizar o relatório **[!UICONTROL Usuários e sessões]**, mas as instruções se aplicam a todos os relatórios.
 
-1. Abra o aplicativo e clique em **[!UICONTROL Utilização]** &gt; **[!UICONTROL Usuários e sessões]**.
+1. Open your app and click **[!UICONTROL Usage]** > **[!UICONTROL Users &amp; Sessions]**.
 
    ![Resultado da etapa](assets/customize1.png)
 
-   Esse relatório fornece uma visualização completa dos nossos usuários do aplicativo. Contudo, queremos adicionar uma série ao relatório sobre travamentos do aplicativo.
+   Este relatório fornece uma visualização completa de hora extra dos usuários do aplicativo. Entretanto, queremos adicionar uma série para relatar sobre falhas no aplicativo.
 
 1. Clique em **[!UICONTROL Personalizar]**.
 
