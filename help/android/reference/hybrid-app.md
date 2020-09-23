@@ -4,10 +4,13 @@ seo-description: Se o aplicativo abrir o conteúdo da internet móvel, certifiqu
 seo-title: Rastreamento de visitantes entre um aplicativo e a internet móvel
 solution: Experience Cloud,Analytics
 title: Rastreamento de visitantes entre um aplicativo e a internet móvel
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 073572e4-4c55-4b27-b4a7-e4349ccde7bf
-translation-type: ht
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 85%
 
 ---
 
@@ -18,7 +21,7 @@ Se o aplicativo abrir o conteúdo da internet móvel, certifique-se de que os vi
 
 ## IDs de visitantes em aplicativos
 
-O Android SDK gera uma ID de visitante único quando o aplicativo é instalado. Esta ID é armazenada na memória persistente no dispositivo móvel, é enviada com cada ocorrência e é removida apenas quando o usuário desinstala o aplicativo.
+O Android SDK gera uma ID de visitante exclusiva quando um aplicativo é instalado. Essa ID é armazenada na memória persistente no dispositivo móvel, é enviada com cada ocorrência e é removida somente quando o usuário desinstala o aplicativo.
 
 >[!TIP]
 >
@@ -59,7 +62,7 @@ Para usar a mesma ID de visitante no aplicativo e na Web móvel:
    });
    ```
 
-O código do serviço de ID no domínio de destino extrai a MID do URL em vez de enviar uma solicitação de nova ID para a Adobe. O código usa o que foi fornecido em MID para rastrear o visitante.
+O código do serviço de ID no domínio de destino extrai a MID do URL, em vez de enviar uma solicitação para o Adobe para uma nova ID. O código usa a ID transmitida para rastrear o visitante.
 
 Em ocorrências do conteúdo da internet móvel, verifique se o parâmetro `mid` existe em cada ocorrência e de que este valor corresponde ao parâmetro `mid` enviado por esse código do aplicativo.
 
