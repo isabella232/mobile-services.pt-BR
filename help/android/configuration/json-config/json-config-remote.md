@@ -4,10 +4,13 @@ seo-description: É possível carregar um arquivo de configuração JSON do ADBM
 seo-title: Substituir o caminho de configuração JSON do ADBMobile
 solution: Experience Cloud,Analytics
 title: Substituir o caminho de configuração JSON do ADBMobile
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 6872a5d7-0c5a-4fdc-b7bf-ad1534763a6a
-translation-type: ht
-source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 100%
 
 ---
 
