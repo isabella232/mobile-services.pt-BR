@@ -1,14 +1,17 @@
 ---
 description: O rastreamento de sinal permite medir e direcionar localizações de micro ao usar o iBeacon e o Bluetooth de baixa energia.
-keywords: android;biblioteca;móvel;sdk
+keywords: android;library;mobile;sdk
 seo-description: O rastreamento de sinal permite medir e direcionar localizações de micro ao usar o iBeacon e o Bluetooth de baixa energia.
 seo-title: Rastreamento de sinal
 solution: Experience Cloud,Analytics
 title: Rastreamento de sinal
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 16c1d267-85f4-4a6a-a6d3-d6ffb0f80b29
-translation-type: ht
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 81%
 
 ---
 
@@ -24,7 +27,7 @@ Os seguintes dados de beacon são enviados para o Analytics e o Target quando `t
 * `a.beacon.minor` - Menor número do sinal (como número exclusivo em um armazenamento)
 * `a.beacon.prox` - Valores de 0 a 3 que representam a proximidade do usuário em relação ao sinal.
 
-Esses valores significam:
+Estes valores significam:
 
 * 0 = desconhecido
 * 1 = imediato
@@ -47,8 +50,8 @@ Estes dados de sinal são coletados nas variáveis da solução móvel.
 
 1. Colete a localização do sinal.
 
-   Várias bibliotecas de terceiros estão disponíveis para varrer sinais em Bluetooth de baixa energia, dependendo do fabricante do sinal.
-1. Após a obtenção das informações do sinal, use a chamada a seguir para rastrear a localização:
+   Várias bibliotecas de terceiros estão disponíveis para digitalizar sinais Bluetooth LE, dependendo do fabricante do sinal.
+1. Após obter as informações de sinal, use a chamada a seguir para rastrear o local:
 
    ```java
    // assumed that the following variables will have been retrieved by the 3rd party beacon library 
