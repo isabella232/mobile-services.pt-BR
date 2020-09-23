@@ -4,10 +4,13 @@ seo-description: O agrupamento de ocorrências permite que os aplicativos com ra
 seo-title: Agrupamento de ocorrências
 solution: Experience Cloud,Analytics
 title: Agrupamento de ocorrências
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 3dda7372-0695-4cb7-b779-6abca2d6e0d9
-translation-type: ht
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '190'
+ht-degree: 93%
 
 ---
 
@@ -29,7 +32,7 @@ Para habilitar o agrupamento de ocorrências, atualize o arquivo `ADBMobileConfi
 }
 ```
 
-Quando configurado para um número superior a 0, o SDK enfileira o número de ocorrências igual a *`batchLimit`*. Depois que esse limite é ultrapassado, todas as ocorrências na lista são enviadas.
+Quando configurado para um número superior a 0, o SDK enfileira o número de ocorrências igual a *`batchLimit`*. Depois que esse limite for ultrapassado, todas as ocorrências na fila serão enviadas.
 
 Os métodos a seguir são usados com o agrupamento de ocorrências:
 
