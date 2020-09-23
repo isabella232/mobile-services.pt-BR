@@ -1,26 +1,29 @@
 ---
-description: Estas informações ajudam a usar as mensagens nos aplicativos iOS.
-seo-description: Estas informações ajudam a usar as mensagens nos aplicativos iOS.
+description: Estas informações ajudam a usar as mensagens no aplicativo nos aplicativos iOS.
+seo-description: Estas informações ajudam a usar as mensagens no aplicativo nos aplicativos iOS.
 seo-title: Mensagens no aplicativo
 solution: Experience Cloud,Analytics
 title: Mensagens no aplicativo
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 21fa6a94-bb7f-4c78-843b-a50f1974db22
-translation-type: ht
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 55%
 
 ---
 
 
 # Mensagens no aplicativo {#in-app-messaging}
 
-Estas informações ajudam a usar as mensagens nos aplicativos iOS.
+Estas informações ajudam a usar as mensagens no aplicativo nos aplicativos iOS.
 
-Para usar as mensagens no aplicativo, você **deve** ter o SDK versão 4.2 ou posterior.
+To use in-app messaging, you **must** have SDK version 4.2 or later.
 
 Algumas informações para lembrar:
 
-* As mensagens e as regras que definem quando as mensagens são exibidas são criadas nos Adobe Mobile Services. Para obter mais informações, consulte [Criar uma mensagem no aplicativo](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md).
+* As mensagens e as regras que definem quando as mensagens são exibidas são criadas no Adobe Mobile Services. For more information, see [Create an in-app message](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md).
 * As atualizações descritas nesta seção devem ser feitas no SDK para exibir mensagens no aplicativo.
 
    >[!TIP]
@@ -73,9 +76,9 @@ Algumas informações para lembrar:
 
 ## Rastreamento de mensagens no aplicativo {#section_B85CDF6929564AAEA79338B55E5CB1E8}
 
-Os SDKs dos iOS Mobile Services rastreiam as seguintes métricas de suas mensagens no aplicativo:
+Os SDKs do iOS Mobile Services rastreiam as seguintes métricas para as mensagens no aplicativo:
 
-* Para mensagens no aplicativo em tela inteira ou no estilo de alerta:
+* Para mensagens no aplicativo com estilo de tela cheia e de alerta:
 
    * **[!UICONTROL Impressões]**: quando o usuário aciona uma mensagem no aplicativo.
    * **[!UICONTROL Click-throughs]**: quando o usuário pressiona o botão **[!UICONTROL Click-through]**.
@@ -90,6 +93,7 @@ Os SDKs dos iOS Mobile Services rastreiam as seguintes métricas de suas mensage
 
    * **[!UICONTROL Impressões]**: quando o usuário aciona a notificação.
    * **[!UICONTROL Abrir]**: quando o usuário abre o aplicativo pela notificação.
+
    Este é um exemplo de como incluir o rastreamento aberto:
 
    ```objective-c
@@ -107,9 +111,9 @@ Os SDKs dos iOS Mobile Services rastreiam as seguintes métricas de suas mensage
 
 ## Imagem de fallback local {#section_DEACC1CE549B4573B556A44A52409941}
 
-Ao criar uma mensagem em tela cheia nos Adobe Mobile Services, você pode opcionalmente especificar uma imagem alternativa. Se a sua mensagem não conseguir recuperar a imagem desejada da Web, o SDK tentará carregar a imagem com o mesmo nome do pacote de aplicativos. Isso permite que você exiba sua mensagem em sua forma original, mesmo que o usuário esteja offline ou a imagem predeterminada esteja inacessível.
+Ao criar uma mensagem de tela cheia nos Adobe Mobile Services, você pode especificar uma imagem de fallback. Se a mensagem não conseguir recuperar a imagem desejada da Web, o SDK tentará carregar a imagem com o mesmo nome do pacote de aplicativos. Isso permite que você exiba sua mensagem em sua forma original, mesmo se o usuário estiver offline ou se a imagem predeterminada for inacessível.
 
-O nome do recurso de imagem de retorno é especificado ao configurar a mensagem nos Adobe Mobile Services.
+O nome do ativo de imagem de fallback é especificado ao configurar a mensagem nos Adobe Mobile Services.
 
 >[!IMPORTANT]
 >
