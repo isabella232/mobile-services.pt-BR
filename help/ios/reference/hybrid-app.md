@@ -4,10 +4,13 @@ seo-description: Se o seu aplicativo abrir conteúdo da Web móvel, você precis
 seo-title: Rastreamento de visitantes entre um aplicativo e a internet móvel
 solution: Experience Cloud,Analytics
 title: Rastreamento de visitantes entre um aplicativo e a internet móvel
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 2d951de6-3954-4379-a4ff-99b9695b9869
-translation-type: ht
-source-git-commit: 9257d6b6c2c14d0422cda65fcc9c677ac5ac47a9
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '528'
+ht-degree: 87%
 
 ---
 
@@ -18,7 +21,7 @@ Se o seu aplicativo abrir conteúdo da Web móvel, você precisa garantir que os
 
 ## IDs de visitantes em aplicativos
 
-O SDK do iOS gera uma ID de visitante único quando um aplicativo é instalado. Esta ID é armazenada na memória persistente no dispositivo móvel e é enviada com cada ocorrência. Esta ID é removida somente quando o usuário desinstala o aplicativo.
+O iOS SDK gera uma ID de visitante exclusiva quando um aplicativo é instalado. Essa ID é armazenada na memória persistente no dispositivo móvel e é enviada com cada ocorrência. Essa ID é removida somente quando o usuário desinstala o aplicativo.
 
 >[!TIP]
 >
@@ -56,7 +59,7 @@ Para usar a mesma ID de visitante no aplicativo e na internet móvel e transmiti
    }];
    ```
 
-O código do serviço de ID no domínio de destino extrai a MID do URL em vez de enviar uma solicitação de nova ID para a Adobe. O código do serviço de ID na página de destino utiliza a MID passada para rastrear o visitante.
+O código do serviço de ID no domínio de destino extrai a MID do URL, em vez de enviar uma solicitação para o Adobe para uma nova ID. O código do serviço de ID na página de destino usa a MID passada para rastrear o visitante.
 
 Nas ocorrências do conteúdo da Web móvel, verifique se o parâmetro `mid` está presente em cada ocorrência e se esse valor corresponde ao `mid` que está sendo enviado pelo código do aplicativo.
 
@@ -76,7 +79,7 @@ Verifique o seguinte:
 
    Para verificar se as IDs estão anexadas ao URL que está sendo aberto, procure pelo parâmetro de consulta `adobe_mc`.
 
-### O "mid" do meu aplicativo não é idêntico ao da minha exibição da Web.*
+### O &quot;mid&quot; do meu aplicativo não é idêntico ao da minha exibição da Web.*
 
 Verifique o seguinte:
 
