@@ -1,14 +1,17 @@
 ---
 description: Estas são as métricas e as dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida, e um link para solucionar problemas de dados do ciclo de vida.
-keywords: android;biblioteca;móvel;sdk
+keywords: android;library;mobile;sdk
 seo-description: Estas são as métricas e as dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida, e um link para solucionar problemas de dados do ciclo de vida.
 seo-title: Medições de ciclo de vida
 solution: Experience Cloud,Analytics
 title: Medições de ciclo de vida
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: a8f3ebac-be3b-4948-82bb-105d46cfff6d
-translation-type: ht
-source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '1240'
+ht-degree: 91%
 
 ---
 
@@ -19,7 +22,7 @@ Esta seção fornece informações sobre as métricas e as dimensões que podem 
 
 ## Nova versão do Adobe Experience Platform Mobile SDK
 
-Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para acessar a documentação mais recente.
+Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para obter a documentação mais recente.
 
 Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/br/experience-platform/launch.html).
 
@@ -28,7 +31,7 @@ Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Ad
 
 ## Métricas de ciclo de vida e dimensões {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
-Quando configuradas, as medições de ciclo de vida são enviadas em parâmetros de dados de contexto ao Analytics, nos parâmetros para o Target com cada chamada mbox e como um sinal ao gerenciamento de público-alvo. O Analytics e o Target usam o mesmo formato, enquanto que o gerenciamento de público-alvo usa um prefixo diferente para cada métrica.
+Quando configuradas, as medições de ciclo de vida são enviadas em parâmetros de dados de contexto para o Analytics, em parâmetros para Público alvo com cada chamada de mbox e como um sinal para o gerenciamento de audiências. O Analytics e o Público alvo usam o mesmo formato, enquanto o gerenciamento de audiências usa um prefixo diferente para cada métrica.
 
 Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento do ciclo de vida são automaticamente capturados e reportados usando a métrica ou a dimensão, e as exceções são anotadas.
 
@@ -72,7 +75,7 @@ Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento
 
 * **Inicializações**
 
-   Disparado a cada execução, incluindo falhas e instalações. Também pode ser disparado em um resumo a partir do plano de fundo quando o tempo limite da sessão de ciclo de vida for excedido.
+   Disparado a cada execução, incluindo falhas e instalações. Também é acionado em um resumo do plano de fundo quando o tempo limite da sessão do ciclo de vida é excedido.
 
    >[!IMPORTANT]
    >
@@ -309,14 +312,14 @@ As seguintes métricas e dimensões são capturadas nas variáveis da solução 
 
 * **Conteúdo da campanha**
 
-   O nome ou ID do conteúdo que exibiu o link. Preenchido pela Aquisição do dispositivo móvel.
+   O nome ou a ID do conteúdo que exibiu o link. Preenchido pela Aquisição do dispositivo móvel.
 
    * Parâmetros do Target/Dados de contexto do Analytics: `a.referrer.campaign.content`
    * Característica do Audience Manager: `c_a_referrer_campaign_content`
 
 * **Meio da campanha**
 
-   Meio de marketing, como banner ou email. Preenchido pela Aquisição do dispositivo móvel.
+   Meio de marketing, como um banner ou email. Preenchido pela Aquisição do dispositivo móvel.
 
    * Parâmetros do Target/Dados de contexto do Analytics: `a.referrer.campaign.medium`
    * Característica do Audience Manager: `c_a_referrer_campaign_medium`
