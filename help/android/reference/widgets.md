@@ -1,23 +1,26 @@
 ---
-description: Os widgets do Android podem ser monitorados usando os mesmos métodos do seu aplicativo. Os widgets compartilham o contexto do aplicativo com o app, de forma que o pedido de ocorrência e a identificação de visitantes são preservados.
-keywords: android;biblioteca;móvel;sdk
-seo-description: Os widgets do Android podem ser monitorados usando os mesmos métodos do seu aplicativo. Os widgets compartilham o contexto do aplicativo com o app, de forma que o pedido de ocorrência e a identificação de visitantes são preservados.
+description: Os widgets do Android podem ser rastreados usando os mesmos métodos do seu aplicativo. Os widgets compartilham o contexto do aplicativo com seu aplicativo, de modo que a ordem de ocorrência e a identificação do visitante são preservadas.
+keywords: android;library;mobile;sdk
+seo-description: Os widgets do Android podem ser rastreados usando os mesmos métodos do seu aplicativo. Os widgets compartilham o contexto do aplicativo com seu aplicativo, de modo que a ordem de ocorrência e a identificação do visitante são preservadas.
 seo-title: Widgets do Android
 solution: Experience Cloud,Analytics
 title: Widgets do Android
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 1a3718ff-967b-4c8e-ae0b-ba15bddbda0a
-translation-type: ht
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 46%
 
 ---
 
 
 # Widgets do Android {#android-widgets}
 
-Os widgets do Android podem ser monitorados usando os mesmos métodos do seu aplicativo. Os widgets compartilham o contexto do aplicativo com o app, de forma que o pedido de ocorrência e a identificação de visitantes são preservados.
+Os widgets do Android podem ser rastreados usando os mesmos métodos do seu aplicativo. Os widgets compartilham o contexto do aplicativo com seu aplicativo, de modo que a ordem de ocorrência e a identificação do visitante são preservadas.
 
-As diretrizes a seguir ajudarão você a monitorar os widgets do Android:
+As diretrizes a seguir ajudarão você a rastrear os widgets do Android:
 
 * Não implemente chamadas de métricas de ciclo de vida (`startActivity`/ `stopActivity`) no widget.
 
