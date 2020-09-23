@@ -2,11 +2,14 @@
 description: Documentos técnicos para o Adobe Mobile Services
 seo-description: Este guia apresenta a documentação técnica e a ajuda para o Adobe Mobile Services, com recursos de marketing para dispositivos móveis disponíveis para aplicativos móveis da Adobe Experience Cloud. Com esse material, você pode compreender e melhorar o engajamento do usuário com os aplicativos móveis.
 seo-title: Adobe Mobile Services
-solution: Marketing Cloud, Analytics, Experience Cloud
+solution: Experience Cloud, Analytics, Experience Cloud
 title: Adobe Mobile Services
 uuid: e86a77c9-4ff1-403f-a5a1-4afbdc4e6f68
-translation-type: ht
-source-git-commit: 9e3f199582351165d0a76ce5042b5eaeec2cc981
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '622'
+ht-degree: 100%
 
 ---
 
