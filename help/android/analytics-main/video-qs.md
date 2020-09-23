@@ -1,14 +1,17 @@
 ---
 description: Estas são algumas informações sobre a avaliação de vídeo no Android vindas da solução de avaliação de vídeo.
-keywords: android;biblioteca;móvel;sdk
+keywords: android;library;mobile;sdk
 seo-description: Estas são algumas informações sobre a avaliação de vídeo no Android vindas da solução de avaliação de vídeo.
 seo-title: Análise de vídeo
 solution: Experience Cloud,Analytics
 title: Análise de vídeo
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: a137cc27-dc28-48c0-b08e-2ca17d2c7e1d
-translation-type: ht
-source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '881'
+ht-degree: 85%
 
 ---
 
@@ -19,7 +22,7 @@ Estas são algumas informações sobre a avaliação de vídeo no Android vindas
 
 >[!TIP]
 >
->Durante a reprodução do vídeo, chamadas "heartbeat" frequentes são enviadas a esse serviço para medir o tempo reproduzido. Essas chamadas de heartbeat são enviadas a cada 10 segundos, o que resulta em métricas granulares de envolvimento com o vídeo e relatórios de repercussão de vídeo mais precisos. Para obter mais informações sobre a solução de medição de vídeos da Adobe, consulte [Medição de áudio e vídeo no Adobe Analytics](https://docs.adobe.com/content/help/pt-BR/media-analytics/using/media-overview.html).
+>Durante a reprodução do vídeo, chamadas &quot;heartbeat&quot; frequentes são enviadas a esse serviço para medir o tempo reproduzido. Essas chamadas de heartbeat são enviadas a cada 10 segundos, o que resulta em métricas granulares de envolvimento com o vídeo e relatórios de repercussão de vídeo mais precisos. Para obter mais informações sobre a solução de medição de vídeos da Adobe, consulte [Medição de áudio e vídeo no Adobe Analytics](https://docs.adobe.com/content/help/pt-BR/media-analytics/using/media-overview.html).
 
 O processo geral para medição de vídeo é parecido em todas as plataformas. Este conteúdo oferece uma visão geral das tarefas do desenvolvedor com amostras de código. A tabela a seguir lista os dados de mídia que são enviados para o Analytics. As regras de processamento são usadas para mapear os dados de contexto para uma variável do Analytics.
 
@@ -28,9 +31,9 @@ O processo geral para medição de vídeo é parecido em todas as plataformas. E
 * **a.media.name**
    * Tipo de variável: eVar
       * Expiração padrão: visita
-      * Insight personalizado (s.prop, usado para caminhos de vídeo)
-   * (**Obrigatório**) Quando um visitante visualiza o vídeo de alguma forma, essa variável de dados de contexto coleta o nome do vídeo, como especificado na implementação. É possível adicionar classificações para essa variável.
-   * (**Opcional**) A variável Insight personalizado fornece informações sobre o caminho do vídeo.
+      * Custom Insight (s.prop, usado para definição de caminho de vídeo)
+   * (**Obrigatório**) Quando um visitante visualização o vídeo de alguma forma, essa variável de dados de contexto coleta o nome do vídeo, conforme especificado na implementação. É possível adicionar classificações para essa variável.
+   * (**Optional**) The Custom Insight variable provides video pathing information.
 
 * **a.media.name**
    * Tipo de variável: Insight personalizado (s.prop)
@@ -44,16 +47,17 @@ O processo geral para medição de vídeo é parecido em todas as plataformas. E
 * **a.media.segment**
    * Tipo de variável: eVar
    * Expiração padrão: visualização de página
-   * (**Obrigatório**) Coleta dados de segmento do vídeo, incluindo o nome do segmento e a ordem na qual ele ocorre no vídeo.
+   * (**Required**) Collects video segment data, including the segment name and the order in which the segment occurs in the video.
 
       Essa variável é preenchida com a habilitação da variável `segmentByMilestones` durante o rastreamento automático de eventos de player, ou ao configurar um nome de segmento personalizado durante o rastreamento manual dos eventos do player. Por exemplo, quando um visitante exibe o primeiro segmento em um vídeo, o SiteCatalyst pode coletar as seguintes informações no eVar Segmentos: `1:M:0-25`.
 
-      O método de coleção de dados de vídeo coleta os dados dos pontos as seguir:
+      O método padrão de coleta de dados de vídeo coleta dados nos seguintes pontos:
 
-      * início do vídeo (play)
+      * início do vídeo (reproduzir)
       * início do segmento
-      * término do vídeo (stop)
-      O Analytics conta a primeira exibição de segmento no início, quando o visitante começa a assistir. As exibições de segmento subsequente ocorrem quando o segmento começa.
+      * fim do vídeo (parar)
+
+      O Analytics conta a primeira visualização de segmento no início do segmento, quando o visitante começa a assistir. As visualizações de segmento subsequentes ocorrem conforme o segmento começa.
 
 
 * **a.contentType**
@@ -66,12 +70,12 @@ O processo geral para medição de vídeo é parecido em todas as plataformas. E
 * **a.media.timePlayed**
    * Tipo de variável: evento
    * Tipo: contador
-   * Contabiliza o tempo, em segundos, que é gasto com a exibição de um vídeo desde o último processo de coleta de dados (solicitação da imagem).
+   * Conta o tempo, em segundos, que é gasto assistindo a um vídeo desde o último processo de coleta de dados (solicitação de imagem).
 
 * **a.media.view**
    * Tipo de variável: evento
    * Tipo: contador
-   * Indica que um visitante visualizou uma parte de um vídeo.
+   * Indica que um visitante visualizou uma parte de um de vídeo.
 
       No entanto, não fornece informações sobre quanto ou a qual parte de um segmento de vídeo o visitante assistiu.
 
@@ -87,7 +91,7 @@ O processo geral para medição de vídeo é parecido em todas as plataformas. E
    * Tipo: contador
    * Indica se o usuário exibiu um vídeo completo.
 
-      Por padrão, o evento completo é avaliado um segundo antes do fim do vídeo. Durante a implementação, é possível especificar quantos segundos a partir do fim do vídeo são necessários para considerar a visualização como concluída. Para vídeo em tempo real e outros fluxos que não possuem um término determinado, é possível especificar um ponto personalizado para medidas completas (por exemplo, depois de um determinado tempo após assistido).
+      Por padrão, o evento completo é avaliado um segundo antes do fim do vídeo. Durante a implementação, você pode especificar quantos segundos a partir do fim do vídeo você gostaria de considerar uma visualização como concluída. Para vídeos ao vivo e outros fluxos que não tenham um fim definido, você pode especificar um ponto personalizado para avaliar conclusões (por exemplo, após um tempo específico de exibição).
 
 
 ## Definir as configurações de mídia {#section_929945D4183C428AAF3B983EFD3E2500}
@@ -203,6 +207,7 @@ Estes são os métodos na classe de medição de mídia:
       Fecha o item de mídia com *nome*.
 
       * Esta é a sintaxe para este método:
+
       ```java
       public static void close(String name);
       ```
