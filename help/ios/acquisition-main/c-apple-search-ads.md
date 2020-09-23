@@ -4,10 +4,13 @@ seo-description: O SDK da Adobe usa as APIs de atribuição do aplicativo Search
 seo-title: Anúncios de Pesquisa da Apple
 solution: Experience Cloud,Analytics
 title: Anúncios de Pesquisa da Apple
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 790080e8-067e-4bfd-a169-0027db4fdff3
-translation-type: ht
-source-git-commit: ebcc04ab3e80aafb9d9ec2e1fbc809c743554cb7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '280'
+ht-degree: 94%
 
 ---
 
@@ -31,9 +34,9 @@ Alguns benefícios do uso dos anúncios da Apple:
 
 Para habilitar seu aplicativo para atribuição do Search Ads:
 
-1. Implementar o Adobe SDK versão 4.13.2 ou superior.
+1. Implemente o Adobe SDK versão 4.13.2 ou superior.
 
-   Para obter mais informações, consulte [Implementação principal e ciclo de vida](/help/ios/getting-started/dev-qs.md).
+   For more information, see [Core implementation and lifecycle](/help/ios/getting-started/dev-qs.md).
 
 1. Adicione a estrutura iAd ao arquivo do projeto Xcode para seu aplicativo.
 
@@ -45,8 +48,8 @@ Para habilitar seu aplicativo para atribuição do Search Ads:
 
    Além disso, os seguintes valores serão mapeados do dicionário `"iad"` para nossos campos de dados de contexto de aquisição típicos:
 
-   * `"iad-campaign-id"` --&gt; `"a.referrer.campaign.trackingcode"`
-   * `"iad-campaign-name"` --&gt; `"a.referrer.campaign.name"`
-   * `"iad-adgroup-id"` --&gt; `"a.referrer.campaign.content"`
-   * `"iad-keyword"` --&gt; `"a.referrer.campaign.term"`
+   * `"iad-campaign-id"` --> `"a.referrer.campaign.trackingcode"`
+   * `"iad-campaign-name"` --> `"a.referrer.campaign.name"`
+   * `"iad-adgroup-id"` --> `"a.referrer.campaign.content"`
+   * `"iad-keyword"` --> `"a.referrer.campaign.term"`
    Esse mapeamento assegura que os valores estejam disponíveis em nossos relatórios padrão.
