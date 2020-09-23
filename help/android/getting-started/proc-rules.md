@@ -4,10 +4,13 @@ seo-description: 'As Regras de processamento são usadas para copiar os dados en
 seo-title: Regras de processamento e dados de contexto
 solution: Experience Cloud,Analytics
 title: Regras de processamento e dados de contexto
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: ea892228-86f5-4980-acb8-45ae43c6996d
-translation-type: ht
-source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 48%
 
 ---
 
@@ -18,7 +21,7 @@ As Regras de processamento são usadas para copiar os dados enviados em variáve
 
 Ao trabalhar com as regras de processamento, lembre-se das seguintes informações:
 
-* Agrupe as variáveis de dados de contexto usando espaços para nome, isso ajudará a manter uma ordem lógica. Por exemplo, para coletar informações sobre um produto, é possível definir as variáveis a seguir:
+* Agrupe suas variáveis de dados de contexto usando o namespace, pois isso ajuda a manter uma ordem lógica. Por exemplo, para coletar informações sobre um produto, você pode definir as seguintes variáveis:
 
    ```js
    "product.type":"hat" 
@@ -26,27 +29,27 @@ Ao trabalhar com as regras de processamento, lembre-se das seguintes informaçõ
    "product.color":"blue"
    ```
 
-* As variáveis de dados de contexto são classificadas em ordem alfabética na interface das regras de processamento, que permite visualizar rapidamente quais varáveis estão no mesmo espaço de nome.
+* As variáveis de dados de contexto são classificadas alfabeticamente na interface de regras de processamento, o que permite que você veja rapidamente quais variáveis estão na mesma namespace.
 
-   Evite nomear as chaves de dados de contexto usando número de evar ou de propriedade:
+   Evite nomear chaves de dados de contexto usando o número de evar ou prop:
 
    ```js
    "eVar1":"jimbo"
    ```
 
-   Isso pode fazer com que fique *um pouco* mais fácil completar o mapeamento esta única vez nas regras de processamento, mas você perde a legibilidade ao depurar atualizações de código futuras, o que acaba dificultando. Em vez disso, recomendamos que use nomes descritivos para chaves e valores:
+   Isso pode tornar *um pouco* mais fácil ao concluir o mapeamento único nas regras de processamento, mas você perde a legibilidade durante a depuração e futuras atualizações de código, o que pode ser mais difícil. Em vez disso, recomendamos que você use nomes descritivos para chaves e valores:
 
    ```js
    "username":"jimbo"
    ```
 
-* As variáveis de contexto que definem eventos de contagem devem ser definidas como 1:
+* As variáveis de contexto que definem eventos de contador devem ser definidas como 1:
 
    ```js
    "logon":"1"
    ```
 
-* As variáveis de dados de contexto que definem os eventos de incremento podem ter o evento como a chave e o montante a incrementar como o valor:
+* As variáveis de dados de contexto que definem eventos de incremento podem ter o evento como a chave e o valor a incrementar como o valor:
 
    ```js
    "levels completed":"6"
