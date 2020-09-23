@@ -1,40 +1,42 @@
 ---
-description: O SDK 4.x da plataforma Universal Windows para Soluções da Experience Cloud permite medir aplicativos Windows 10 nativos, fornecer conteúdo direcionado dentro do aplicativo e aproveitar e coletar dados de público-alvo por meio do gerenciamento de público-alvo.
-seo-description: O SDK 4.x da plataforma Universal Windows para Soluções da Experience Cloud permite medir aplicativos Windows 10 nativos, fornecer conteúdo direcionado dentro do aplicativo e aproveitar e coletar dados de público-alvo por meio do gerenciamento de público-alvo.
-seo-title: Plataforma Universal Windows SDK 4.x para Soluções da Experience Cloud
-solution: Marketing Cloud,Analytics
-title: Plataforma Universal Windows SDK 4.x para Soluções da Experience Cloud
-topic: Desenvolvedor e implementação
+description: O SDK 4.x da plataforma Universal Windows para Soluções Experience Cloud permite avaliar aplicativos nativos do Windows 10, fornecer conteúdo direcionado dentro do aplicativo e aproveitar e coletar dados de audiência por meio do gerenciamento de audiências.
+seo-description: O SDK 4.x da plataforma Universal Windows para Soluções Experience Cloud permite avaliar aplicativos nativos do Windows 10, fornecer conteúdo direcionado dentro do aplicativo e aproveitar e coletar dados de audiência por meio do gerenciamento de audiências.
+seo-title: Universal Windows Platform SDK 4.x para Soluções da Experience Cloud
+solution: Experience Cloud,Analytics
+title: Universal Windows Platform SDK 4.x para Soluções da Experience Cloud
+topic: Developer and implementation
 uuid: 23a5bc0a-54f0-42a7-af1e-c8cbb509dfce
 translation-type: tm+mt
-source-git-commit: 9e796f590cf7717592ff3f41fa61829599264a4f
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 38%
 
 ---
 
 
-# Plataforma Universal Windows SDK 4.x para Soluções da Experience Cloud {#universal-windows-platform-sdk-x-for-experience-cloud-solutions}
+# Universal Windows Platform SDK 4.x para Soluções da Experience Cloud {#universal-windows-platform-sdk-x-for-experience-cloud-solutions}
 
-O SDK 4.x da plataforma Universal Windows para Soluções da Experience Cloud permite medir aplicativos Windows 10 nativos, fornecer conteúdo direcionado dentro do aplicativo e aproveitar e coletar dados de público-alvo por meio do gerenciamento de público-alvo.
+O SDK 4.x da plataforma Universal Windows para Soluções Experience Cloud permite avaliar aplicativos nativos do Windows 10, fornecer conteúdo direcionado dentro do aplicativo e aproveitar e coletar dados de audiência por meio do gerenciamento de audiências.
 
-**Última atualização em 17 de setembro de 2015**
+**Última atualização: 17 de setembro de 2015**
 
-## Supported platforms {#section_45978BF5C62E4986AAB7FFD96402BF2D}
+## Plataformas compatíveis {#section_45978BF5C62E4986AAB7FFD96402BF2D}
 
 Windows 10 ou posterior.
 
-## IDE compatível {#section_03905798D74940C9A9F77285DA3F27D0}
+## IDE suportado {#section_03905798D74940C9A9F77285DA3F27D0}
 
 Visual Studio 2015 ou posterior.
 
 ## Adobe Mobile Services {#section_7583FD5FDED143619048E9744A3F2D21}
 
-O Adobe Mobile Services apresenta uma nova interface do usuário que reúne recursos de marketing para aplicativos para dispositivos móveis em toda a Adobe Experience Cloud. No começo, o serviço Mobile oferecia integração simplificada de análises de aplicativos e funções de definição de meta das soluções Adobe Analytics e Adobe Target.
+O Adobe Mobile Services apresenta uma nova interface do usuário que reúne recursos de marketing para aplicativos para dispositivos móveis em toda a Adobe Experience Cloud. Inicialmente, o Mobile Service fornece integração perfeita entre os recursos de análise e segmentação de aplicativos das soluções Adobe Analytics e Adobe Target.
 
-For more information, see the [Adobe Mobile services documentation](/help/using/home.md).
+Para obter mais informações, consulte a documentação [dos serviços do](/help/using/home.md)Adobe Mobile.
 
 ## Usar o Bloodhound
 
 >[!IMPORTANT]
 >
->As of **April 30, 2017**, Adobe Bloodhound has been
-sunset. A partir de 1º de maio de 2017, não serão fornecidos aprimoramentos e suporte adicionais pela engenharia ou pelo Adobe Expert Care.
+>Em **30 de abril de 2017**, o Adobe Bloodhound foi interrompido. A partir de 1º de maio de 2017, não serão fornecidos aprimoramentos e suporte adicionais pela engenharia ou pelo Adobe Expert Care.
