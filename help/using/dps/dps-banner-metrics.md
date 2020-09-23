@@ -1,14 +1,17 @@
 ---
 description: O relatório Métricas de banner exibe uma visualização em forma de raio de sol dos dados existentes. Este relatório está disponível somente para clientes do Digital Publishing Suite (DPS).
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: O relatório Métricas de banner exibe uma visualização em forma de raio de sol dos dados existentes. Este relatório está disponível somente para clientes do Digital Publishing Suite (DPS).
 seo-title: Métricas de banner
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Métricas de banner
-topic: Métricas
+topic: Metrics
 uuid: 50638c55-f10d-43d7-8d12-e48908572766
-translation-type: ht
-source-git-commit: 7f53ece867144236f170533d8474dada4c29ad39
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 100%
 
 ---
 
