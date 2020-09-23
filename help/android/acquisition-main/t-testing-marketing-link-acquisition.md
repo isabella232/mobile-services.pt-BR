@@ -3,13 +3,13 @@ description: As instruções a seguir ajudam a fazer uma viagem de ida e volta e
 keywords: android;library;mobile;sdk
 seo-description: As instruções a seguir ajudam a fazer uma viagem de ida e volta em uma campanha de aquisição com um link de marketing em um dispositivo Android.
 seo-title: Teste de aquisição de links de marketing
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Teste de aquisição de links de marketing
 topic: Developer and implementation
 uuid: d0933dcc-8fc3-4f60-987f-7a54559aacf5
-translation-type: ht
-source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 100%
 
