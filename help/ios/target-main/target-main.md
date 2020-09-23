@@ -1,13 +1,16 @@
 ---
-description: Estas informações ajudam a fornecer conteúdo direcionado nos aplicativos iOS.
-seo-description: Estas informações ajudam a fornecer conteúdo direcionado nos aplicativos iOS.
+description: Essas informações ajudam a fornecer conteúdo direcionado em aplicativos iOS.
+seo-description: Essas informações ajudam a fornecer conteúdo direcionado em aplicativos iOS.
 seo-title: Target
 solution: Experience Cloud,Analytics
 title: Target
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: c2b134bb-1c29-4617-bd9e-fa3940483361
-translation-type: ht
-source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 83%
 
 ---
 
@@ -18,7 +21,7 @@ As informações nesta seção ajudam a fornecer conteúdo direcionado em aplica
 
 ## Nova versão do Adobe Experience Platform Mobile SDK
 
-Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para acessar a documentação mais recente.
+Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para obter a documentação mais recente.
 
 Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/br/experience-platform/launch.html).
 
