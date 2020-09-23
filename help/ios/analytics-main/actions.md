@@ -1,20 +1,23 @@
 ---
-description: As ações são eventos que ocorrem no aplicativo que você deseja avaliar. Cada ação tem uma ou mais métricas correspondentes, que são incrementadas sempre que o evento ocorre. Por exemplo, é possível rastrear uma nova assinatura sempre que um artigo for visualizado ou um nível for concluído. As métricas correspondentes a esses eventos são configuradas como assinaturas, artigos lidos e níveis concluídos.
-seo-description: As ações são eventos que ocorrem no aplicativo que você deseja avaliar. Cada ação tem uma ou mais métricas correspondentes, que são incrementadas sempre que o evento ocorre. Por exemplo, é possível rastrear uma nova assinatura sempre que um artigo for visualizado ou um nível for concluído. As métricas correspondentes a esses eventos são configuradas como assinaturas, artigos lidos e níveis concluídos.
+description: As ações são os eventos que ocorrem no aplicativo e que você deseja avaliar. Cada ação tem uma ou mais métricas correspondentes, que são incrementadas sempre que o evento ocorre. Por exemplo, você pode rastrear uma nova subscrição sempre que um artigo é exibido ou sempre que um nível é concluído. As métricas correspondentes para esses eventos são configuradas como subscrições, artigos lidos e níveis concluídos.
+seo-description: As ações são os eventos que ocorrem no aplicativo e que você deseja avaliar. Cada ação tem uma ou mais métricas correspondentes, que são incrementadas sempre que o evento ocorre. Por exemplo, você pode rastrear uma nova subscrição sempre que um artigo é exibido ou sempre que um nível é concluído. As métricas correspondentes para esses eventos são configuradas como subscrições, artigos lidos e níveis concluídos.
 seo-title: Rastrear ações do aplicativo
 solution: Experience Cloud,Analytics
 title: Rastrear ações do aplicativo
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 62017be1-5395-4d16-bde3-4c40a2c012d4
-translation-type: ht
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '537'
+ht-degree: 72%
 
 ---
 
 
 # Rastrear ações do aplicativo {#track-app-actions}
 
-As ações são eventos que ocorrem no aplicativo que você deseja avaliar. Cada ação tem uma ou mais métricas correspondentes, que são incrementadas sempre que o evento ocorre. Por exemplo, é possível rastrear uma nova assinatura sempre que um artigo for visualizado ou um nível for concluído. As métricas correspondentes a esses eventos são configuradas como assinaturas, artigos lidos e níveis concluídos.
+As ações são os eventos que ocorrem no aplicativo e que você deseja avaliar. Cada ação tem uma ou mais métricas correspondentes, que são incrementadas sempre que o evento ocorre. Por exemplo, você pode rastrear uma nova subscrição sempre que um artigo é exibido ou sempre que um nível é concluído. As métricas correspondentes para esses eventos são configuradas como subscrições, artigos lidos e níveis concluídos.
 
 As ações não são rastreadas automaticamente. Portanto para rastrear um evento é necessário chamar `trackAction`.
 
@@ -74,6 +77,6 @@ Se você estiver rastreando uma ação no código que pode ser executada quando 
 
 | Interface | Relatório |
 |--- |--- |
-| Adobe Mobile Services | Relatório dos [!UICONTROL **Caminhos de ação]**. Veja a ordem em que as ações ocorrem em seu aplicativo. Você também pode clicar em **[!UICONTROL Personalizar]** em qualquer relatório para ver as ações classificadas, apresentadas em ordem de tendência ou em um relatório detalhado, ou aplicar um filtro para ver as ações de um segmento específico. |
-| Relatórios e análises de marketing | **[!UICONTROL Relatório de Evento personalizado**]. Depois que uma ação é mapeada a um evento personalizado, é possível visualizar os eventos móveis semelhantes a todos os outros eventos do Analytics. |
+| Adobe Mobile Services | Relatório dos **[!UICONTROL Caminhos de ação.]** Veja a ordem em que as ações ocorrem em seu aplicativo. Você também pode clicar em **[!UICONTROL Personalizar]** em qualquer relatório para ver as ações classificadas, apresentadas em ordem de tendência ou em um relatório detalhado, ou aplicar um filtro para ver as ações de um segmento específico. |
+| Relatórios e análises de marketing | **[!UICONTROL Relatório de Evento personalizado]**. Depois que uma ação é mapeada a um evento personalizado, é possível visualizar os eventos móveis semelhantes a todos os outros eventos do Analytics. |
 | Ad hoc analytics | **[!UICONTROL Relatório de Evento personalizado]**. Depois que uma ação é mapeada a um evento personalizado, é possível visualizar os eventos móveis semelhantes a todos os outros eventos do Analytics. |
