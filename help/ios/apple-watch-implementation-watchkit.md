@@ -1,13 +1,16 @@
 ---
-description: A partir do WatchOS 2, suas extensões WatchKit serão executadas em um dispositivo Apple Watch. Os aplicativos executados neste ambiente exigem a estrutura WatchConnectivity para compartilhar dados com o aplicativo iOS contentor.
-seo-description: A partir do WatchOS 2, suas extensões WatchKit serão executadas em um dispositivo Apple Watch. Os aplicativos executados neste ambiente exigem a estrutura WatchConnectivity para compartilhar dados com o aplicativo iOS contentor.
+description: A partir do WatchOS 2, suas extensões WatchKit serão executadas em um dispositivo Apple Watch. Os aplicativos executados neste ambiente exigem que a estrutura WatchConnectivity compartilhe dados com seu aplicativo iOS contêiner.
+seo-description: A partir do WatchOS 2, suas extensões WatchKit serão executadas em um dispositivo Apple Watch. Os aplicativos executados neste ambiente exigem que a estrutura WatchConnectivity compartilhe dados com seu aplicativo iOS contêiner.
 seo-title: Implementação do Apple Watch com o WatchOS 2
 solution: Experience Cloud,Analytics
 title: Implementação do Apple Watch com o WatchOS 2
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 9498467e-db5e-411e-a00e-d19841f485de
-translation-type: ht
-source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 84%
 
 ---
 
@@ -22,7 +25,7 @@ A partir do WatchOS 2, suas extensões WatchKit serão executadas em um disposit
 
 ## Nova versão do Adobe Experience Platform Mobile SDK
 
-Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para acessar a documentação mais recente.
+Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para obter a documentação mais recente.
 
 Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/br/experience-platform/launch.html).
 
@@ -37,12 +40,13 @@ Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Ad
 >
 >* O aplicativo contêiner
 >* O aplicativo WatchKit
->* A extensão do WatchKit
+>* A extensão WatchKit
+
 >
 
 
 
-Para obter mais informações sobre o desenvolvimento de aplicativos WatchKit, consulte [A arquitetura do aplicativo Watch](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/DesigningaWatchKitApp.html#//apple_ref/doc/uid/TP40014969-CH3-SW1).
+Para obter mais informações sobre como desenvolver aplicativos WatchKit, consulte [A arquitetura](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/DesigningaWatchKitApp.html#//apple_ref/doc/uid/TP40014969-CH3-SW1)do aplicativo Watch.
 
 ## Configurar o aplicativo contêiner {#section_0A2A3995575B4E2ABD12E426BA06AEFF}
 
