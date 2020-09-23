@@ -1,21 +1,24 @@
 ---
-description: A variável products não pode ser configurada usando as regras de processamento. No SDK móvel, é preciso usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos na chamada do servidor.
-keywords: android;biblioteca;móvel;sdk
-seo-description: A variável products não pode ser configurada usando as regras de processamento. No SDK móvel, é preciso usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos na chamada do servidor.
+description: A variável products não pode ser definida usando regras de processamento. No SDK móvel, você deve usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos na chamada do servidor.
+keywords: android;library;mobile;sdk
+seo-description: A variável products não pode ser definida usando regras de processamento. No SDK móvel, você deve usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos na chamada do servidor.
 seo-title: Variável products
 solution: Experience Cloud,Analytics
 title: Variável products
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: f4484022-cb8b-4dea-9209-5a110ba607df
-translation-type: ht
-source-git-commit: 7aff336586058302046a728a0b1b0ce12660c1ba
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 48%
 
 ---
 
 
 # Variável products {#products-variable}
 
-A variável products não pode ser configurada usando as regras de processamento. No SDK móvel, é preciso usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos na chamada do servidor.
+A variável products não pode ser definida usando regras de processamento. No SDK móvel, você deve usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos na chamada do servidor.
 
 Para configurar a variável *products*, defina uma chave de dados de contexto como `"&&products"` e defina o valor usando a sintaxe definida para a variável *products*:
 
