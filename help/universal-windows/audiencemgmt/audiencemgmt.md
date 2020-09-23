@@ -1,21 +1,24 @@
 ---
-description: Informações para ajudá-lo a enviar sinais e recuperar segmentos de visitantes do Audience Manager.
-seo-description: Informações para ajudá-lo a enviar sinais e recuperar segmentos de visitantes do Audience Manager.
+description: Informações para ajudá-lo a enviar sinais e recuperar segmentos de visitante.
+seo-description: Informações para ajudá-lo a enviar sinais e recuperar segmentos de visitante.
 seo-title: Audience Manager
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Audience Manager
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 7fa58ffb-ecc6-46bb-b920-bda42c1f78b5
 translation-type: tm+mt
-source-git-commit: a161a4a2f2a46c351874ad9569be694e1a04333f
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '50'
+ht-degree: 22%
 
 ---
 
 
 # Audience Manager {#audience-manager}
 
-Informações para ajudá-lo a enviar sinais e recuperar segmentos de visitantes do Audience Manager.
+Informações para ajudá-lo a enviar sinais e recuperar segmentos de visitante.
 
-## Informações adicionais
+## Informações adicionais 
 
-+ [Audience Manager methods](/help/universal-windows/audiencemgmt/audience-manager-methods.md)
++ [Métodos do Audience Manager](/help/universal-windows/audiencemgmt/audience-manager-methods.md)
