@@ -1,14 +1,17 @@
 ---
 description: É possível enviar sinais e recuperar segmentos de visitantes no gerenciamento de público-alvo.
-keywords: android;biblioteca;móvel;sdk
+keywords: android;library;mobile;sdk
 seo-description: É possível enviar sinais e recuperar segmentos de visitantes no gerenciamento de público-alvo.
 seo-title: Configuração do Audience Manager
 solution: Experience Cloud,Analytics
 title: Configuração do Audience Manager
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: f68d5b2e-fa2c-4db6-98ad-d1855a2c45ac
-translation-type: ht
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '88'
+ht-degree: 100%
 
 ---
 
