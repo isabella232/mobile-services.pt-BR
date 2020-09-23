@@ -1,14 +1,17 @@
 ---
 description: Configure as opções de experiência para mensagens no aplicativo, incluindo o tipo (tela cheia, alerta ou notificação) e as opções de exibição, texto e botão.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: Configure as opções de experiência para mensagens no aplicativo, incluindo o tipo (tela cheia, alerta ou notificação) e as opções de exibição, texto e botão.
 seo-title: Experiência  Mensagem no aplicativo
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Experiência  Mensagem no aplicativo
-topic: Métricas
+topic: Metrics
 uuid: 4c6d6756-47fb-4f1b-8338-0b0c9b0fceb0
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '686'
+ht-degree: 92%
 
 ---
 
@@ -17,9 +20,9 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 Configure as opções de experiência para mensagens no aplicativo, incluindo o tipo (tela cheia, alerta ou notificação) e as opções de exibição, texto e botão.
 
-1. No seu aplicativo, clique em **[!UICONTROL Mensagens]** &gt; **[!UICONTROL Gerenciar mensagens]** &gt; **[!UICONTROL Criar mensagem]** &gt; **[!UICONTROL Criar mensagem no aplicativo]**.
+1. In your app, click **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create In-App]**.
 1. Na página Experiência, digite um nome para a mensagem.
-1. Preencha os campos na seção **[!UICONTROL Tipo]:**
+1. Preencha os campos na seção **[!UICONTROL Tipo]**:
 
    * **[!UICONTROL Tipo]**
 Selecione o tipo de mensagem para sua campanha de mensagens no aplicativo:
@@ -37,19 +40,21 @@ Selecione o tipo de mensagem para sua campanha de mensagens no aplicativo:
 
    * **[!UICONTROL Personalizado]**
 
-      Carregue o seu conteúdo HTML personalizado (apenas no modo de tela cheia). Você deve fornecer um link click-through e cancelar.
+      Carregue seu conteúdo HTML personalizado (somente tela cheia). Você deve fornecer um link click-through e um link de cancelamento.
 
       1. Clique em **[!UICONTROL Procurar]** e baixe um arquivo HTML ou arraste um documento HTML até a janela.
       1. Clique em **[!UICONTROL Baixar exemplo]** para exibir o modelo de conteúdo HTML personalizado.
+
       >[!TIP]
       >
       >Essa opção é exibida somente quando você seleciona o tipo de mensagem **[!FTela cheia]**.
 
 
 
-1. Preencha os campos na seção **[!UICONTROL Exibir]:**
+1. Preencha os campos na seção **[!UICONTROL Exibir]**:
 
    * **[!UICONTROL Tema]**
+
    Selecione um tema para a mensagem.
 
    * **[!UICONTROL Layout]**
@@ -62,12 +67,12 @@ Selecione o tipo de mensagem para sua campanha de mensagens no aplicativo:
 
    * **[!UICONTROL Imagem embutida]**
 
-      Caminho para uma imagem no pacote de códigos do seu aplicativo. Esta opção é usada quando não há imagem ou a imagem não está disponível. A imagem talvez não esteja disponível se, por exemplo, o dispositivo estiver offline. Em caso de problemas de dimensionamento ao usar o modelo de tela cheia, consulte *Minha imagem não se encaixa perfeitamente no espaço fornecido pelo modelo* em [Solução de problemas de mensagens no aplicativo](/help/using/in-app-messaging/t-in-app-message/in-apps-ts.md).
+      Caminho para uma imagem no conjunto de códigos do aplicativo. Essa opção é usada quando não há imagem. ou a imagem não está disponível. A imagem talvez não esteja disponível se, por exemplo, o dispositivo estiver offline. Em caso de problemas de dimensionamento ao usar o modelo de tela cheia, consulte *Minha imagem não se encaixa perfeitamente no espaço fornecido pelo modelo* em [Solução de problemas de mensagens no aplicativo](/help/using/in-app-messaging/t-in-app-message/in-apps-ts.md).
 
 
-1. Preencha os campos na seção **[!UICONTROL Texto]:**
+1. Preencha os campos na seção **[!UICONTROL Texto]**:
 
-   * **[!UICONTROL Cabeçalho]**
+   * **[!UICONTROL Header]**
 
       Digite o texto para o cabeçalho da mensagem.
 
@@ -75,7 +80,7 @@ Selecione o tipo de mensagem para sua campanha de mensagens no aplicativo:
 
       Digite o texto para o conteúdo da mensagem.
 
-1. Preencha os campos na seção **[!UICONTROL Botões]:**
+1. Preencha os campos na seção **[!UICONTROL Botões]**:
 
    * **[!UICONTROL Botão de Click-Through]**
 
@@ -91,6 +96,7 @@ Selecione o tipo de mensagem para sua campanha de mensagens no aplicativo:
       * `{trackingId}`, que é substituído pelo parâmetro aid (correlação com o cookie *s_vi*).
       * `{messageId}`, que é substituído pela ID exclusiva para a mensagem no aplicativo.
       * `{lifetimeValue}`, que é substituído pelo valor da duração ou por zero caso não exista tal valor.
+
       Veja um exemplo do rastreamento da ID do usuário: `https://www.mysite.com?uid={userId}`.
 
       Se o URL de click-through usar `https://` ou `https://`, o URL é aberto no navegador do dispositivo fora do aplicativo. Caso contrário, cada plataforma suportará esquemas que permitem abrir ou consultar o aplicativo se ele tiver sido desenvolvido para oferecer suporte ao esquema personalizado.
