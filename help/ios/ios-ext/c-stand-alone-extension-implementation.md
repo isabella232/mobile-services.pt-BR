@@ -1,20 +1,23 @@
 ---
-description: A partir do iOS 10, a Apple permitirá a criação de uma extensão chamada de extensão independente, que pode ser distribuída sem um aplicativo contêiner. Com esta extensão, não é necessário ter um grupo de aplicativos, já que não há um aplicativo contêiner com o qual compartilhar os dados.
-seo-description: A partir do iOS 10, a Apple permitirá a criação de uma extensão chamada de extensão independente, que pode ser distribuída sem um aplicativo contêiner. Com esta extensão, não é necessário ter um grupo de aplicativos, já que não há um aplicativo contêiner com o qual compartilhar os dados.
+description: A partir do iOS 10, a Apple permitirá que você crie uma extensão chamada de extensão independente que pode ser distribuída sem um aplicativo contêiner. Com essa extensão, você não precisa de um grupo de aplicativos, pois não há um aplicativo contêiner com o qual compartilhar dados.
+seo-description: A partir do iOS 10, a Apple permitirá que você crie uma extensão chamada de extensão independente que pode ser distribuída sem um aplicativo contêiner. Com essa extensão, você não precisa de um grupo de aplicativos, pois não há um aplicativo contêiner com o qual compartilhar dados.
 seo-title: Implementação de extensão independente
 solution: Experience Cloud,Analytics
 title: Implementação de extensão independente
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 9b47f082-b78f-4611-968d-014c32ede6bc
-translation-type: ht
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 44%
 
 ---
 
 
 # Implementação de extensão independente {#stand-alone-extension-implementation}
 
-A partir do iOS 10, a Apple permitirá a criação de uma extensão chamada de extensão independente, que pode ser distribuída sem um aplicativo contêiner. Com esta extensão, não é necessário ter um grupo de aplicativos, já que não há um aplicativo contêiner com o qual compartilhar os dados.
+A partir do iOS 10, a Apple permitirá que você crie uma extensão chamada de extensão independente que pode ser distribuída sem um aplicativo contêiner. Com essa extensão, você não precisa de um grupo de aplicativos, pois não há um aplicativo contêiner com o qual compartilhar dados.
 
 >[!IMPORTANT]
 >
