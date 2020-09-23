@@ -1,21 +1,24 @@
 ---
-description: Os relatórios de uso mostram a duração média das sessões, os usuários envolvidos mensal e diariamente, as atualizações e outras informações que ajudam a compreender como e com qual frequência seu aplicativo é usado. Os relatórios de retenção mostram rapidamente os níveis de retenção de usuários de 1 dia, 7 dias e 28 dias após a primeira inicialização.
-keywords: dispositivos móveis
-seo-description: Os relatórios de uso mostram a duração média das sessões, os usuários envolvidos mensal e diariamente, as atualizações e outras informações que ajudam a compreender como e com qual frequência seu aplicativo é usado. Os relatórios de retenção mostram rapidamente os níveis de retenção de usuários de 1 dia, 7 dias e 28 dias após a primeira inicialização.
+description: Os relatórios de uso exibem a duração média da sessão, os usuários envolvidos diariamente e mensalmente, as atualizações e outras informações que ajudam a entender como e com que frequência seu aplicativo está sendo usado. Os relatórios de retenção mostram rapidamente os níveis de retenção do usuário 1 dia, 7 dias e 28 dias após a primeira inicialização.
+keywords: mobile
+seo-description: Os relatórios de uso exibem a duração média da sessão, os usuários envolvidos diariamente e mensalmente, as atualizações e outras informações que ajudam a entender como e com que frequência seu aplicativo está sendo usado. Os relatórios de retenção mostram rapidamente os níveis de retenção do usuário 1 dia, 7 dias e 28 dias após a primeira inicialização.
 seo-title: Relatórios
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Relatórios
-topic: Relatórios, Métricas
+topic: Reports,Metrics
 uuid: 2abc2bd1-dbae-4af1-9b8d-1df2f6d3a81f
-translation-type: ht
-source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 19%
 
 ---
 
 
 # Relatórios{#reports}
 
-Os relatórios de uso mostram a duração média das sessões, os usuários envolvidos mensal e diariamente, as atualizações e outras informações que ajudam a compreender como e com qual frequência seu aplicativo é usado. Os relatórios de retenção mostram rapidamente os níveis de retenção de usuários de 1 dia, 7 dias e 28 dias após a primeira inicialização.
+Os relatórios de uso exibem a duração média da sessão, os usuários envolvidos diariamente e mensalmente, as atualizações e outras informações que ajudam a entender como e com que frequência seu aplicativo está sendo usado. Os relatórios de retenção mostram rapidamente os níveis de retenção do usuário 1 dia, 7 dias e 28 dias após a primeira inicialização.
 
 Você pode gerar os seguintes relatórios na interface do usuário do Mobile:
 
