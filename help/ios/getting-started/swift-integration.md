@@ -4,10 +4,13 @@ seo-description: O SDK do Adobe Mobile do iOS pode ser perfeitamente integrado a
 seo-title: Integração Swift
 solution: Experience Cloud,Analytics
 title: Integração Swift
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 5fb77b57-cbf9-4bcf-8b41-65a933bf9336
-translation-type: ht
-source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '129'
+ht-degree: 71%
 
 ---
 
@@ -18,13 +21,13 @@ O SDK do Adobe Mobile do iOS pode ser perfeitamente integrado a um projeto Swift
 
 Para obter mais informações, consulte [Interoperacionalidade de idioma](https://developer.apple.com/documentation/swift#2984801.html).
 
-Por exemplo, usando o método de cabeçalho de ligação conforme descrito na documentação, é possível importar o arquivo de cabeçalho do SDK do iOS do Adobe Mobile:
+Por exemplo, usando o método de cabeçalho de ponte conforme descrito na documentação, você pode importar o arquivo de cabeçalho do SDK do iOS do Adobe Mobile:
 
 ```
 #import “ADBMobile.h”
 ```
 
-Para acessar os métodos do SDK em seus arquivos Swift, use o seguinte formato:
+Para acessar métodos do SDK em seus arquivos Swift, use o seguinte formato:
 
 ```
 ADBMobile.{methodname}
