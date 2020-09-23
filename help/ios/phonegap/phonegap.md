@@ -5,10 +5,13 @@ seo-description: Este plug-in permite que você envie chamadas do iOS AppMeasure
 seo-title: Plug-in PhoneGap
 solution: Experience Cloud,Analytics
 title: Plug-in PhoneGap
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: f88bcf10-1f9e-4c97-b348-40db797c9923
-translation-type: ht
-source-git-commit: 517ae533864aebe9c6a20d877a9638d5d3e2a071
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '327'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +22,7 @@ Este plug-in permite que você envie chamadas do iOS AppMeasurement do seu proje
 
 ## Nova versão do Adobe Experience Platform Mobile SDK
 
-Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para acessar a documentação mais recente.
+Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para obter a documentação mais recente.
 
 Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/br/experience-platform/launch.html).
 
@@ -62,7 +65,7 @@ Para incluir AppMeasurement:
 
 ### Adicionar permissões do aplicativo
 
-A biblioteca AppMeasurement exige o seguinte:
+A biblioteca do AppMeasurement requer o seguinte:
 
 1. Abra o Xcode IDE e o seu aplicativo.
 1. Arraste a pasta **[!UICONTROL Adobe Mobile]** para o seu projeto Xcode e conclua as seguintes configurações:
@@ -70,7 +73,8 @@ A biblioteca AppMeasurement exige o seguinte:
    1. Selecione **[!UICONTROL Copiar itens na pasta do grupo de destino (se necessário)]**.
    1. Selecione **[!UICONTROL Criar grupos para qualquer pasta adicionada]**.
    1. Selecione os destinos nos quais você deseja usar o código de AppMeasurement e clique em **[!UICONTROL Concluir]**.
-   ![](assets/xcode-settings.png){width="672"}
+
+   ![](assets/xcode-settings.png){width=&quot;672&quot;}
 
 1. Na guia **[!UICONTROL Criar fases]** do destino do seu projeto, expanda a seção **[!UICONTROL Link binário com bibliotecas]** e adicione as seguintes bibliotecas:
 
