@@ -4,10 +4,13 @@ seo-description: A partir do Android SDK versão 4.5, uma nova extensão do Andr
 seo-title: Visão geral do Wearables
 solution: Experience Cloud,Analytics
 title: Visão geral do Wearables
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: f9a5d692-0ef6-4cdf-831e-e50be291f083
-translation-type: ht
-source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,7 @@ As informações nesta seção ajudam você a entender como usar a extensão do 
 
 ## Nova versão do Adobe Experience Platform Mobile SDK
 
-Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para acessar a documentação mais recente.
+Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para obter a documentação mais recente.
 
 Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/br/experience-platform/launch.html).
 
