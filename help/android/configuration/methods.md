@@ -3,13 +3,13 @@ description: Esta é uma lista de métodos do fornecida pela biblioteca do Andro
 keywords: android;library;mobile;sdk
 seo-description: Esta é uma lista de métodos do fornecida pela biblioteca do Android.
 seo-title: Métodos de configuração
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Métodos de configuração
 topic: Developer and implementation
 uuid: 663aeb6c-1b97-4a3a-8c0e-dd4c2ec28c01
-translation-type: ht
-source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 100%
 
