@@ -1,21 +1,24 @@
 ---
 description: É possível direcionar os usuários para um destino, dependendo se eles têm o aplicativo instalado (um deep link de aplicativo) ou não (para um site ou uma app store).
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: É possível direcionar os usuários para um destino, dependendo se eles têm o aplicativo instalado (um deep link de aplicativo) ou não (para um site ou uma app store).
 seo-title: Intersticiais
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Intersticiais
-topic: Métricas
+topic: Metrics
 uuid: 7dce8ab2-2a5d-4384-ac1e-e31dfaa33654
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '385'
+ht-degree: 79%
 
 ---
 
 
 # Intersticiais{#interstitials}
 
-É possível direcionar os usuários para um destino, dependendo se eles têm o aplicativo instalado (um deep link de aplicativo) ou não (para um site ou uma app store). É melhor deixar a escolha do roteamento para os usuários. Os profissionais de marketing podem fornecer opções aos usuários, configurando uma página intersticial que mostra aos usuários os destinos disponíveis.
+É possível direcionar os usuários para um destino, dependendo se eles têm o aplicativo instalado (um deep link de aplicativo) ou não (para um site ou uma app store). A escolha do roteamento é deixada melhor para os usuários. Os profissionais de marketing podem fornecer opções de usuário configurando uma página intersticial que mostra aos usuários os destinos de aterrissagem disponíveis.
 
 Para configurar um intersticial ao  criar um Link de marketing:
 
@@ -31,7 +34,7 @@ Para configurar um intersticial ao  criar um Link de marketing:
 
       Ao usar intersticiais personalizados, os profissionais de marketing podem personalizar páginas de aterrissagem intersticiais com HTML/CSS/JS personalizados, o que permite que você atribua uma marca às suas páginas.
 
-      Estes são os requisitos da página HTML:
+      Estes são os requisitos para a página HTML:
 
       * Deve ser um arquivo HTML.
       * Deve conter os espaços reservados `%%DEST%%` e `%%FALLBACK%%`.
@@ -56,9 +59,9 @@ Para configurar um intersticial ao  criar um Link de marketing:
 
    * **[!UICONTROL Texto de fallback]**
 
-      Especifique o texto de fallback para exibir.
+      Especifique o texto de fallback a ser exibido.
 
-      Este campo atualizará o botão de texto se um deep link falhar. Os usuários são direcionados para experimentar o deep link para que possam voltar para outra opção. Por exemplo, uma emergência pode ser para uma app store para baixar e instalar o aplicativo ou levar os usuários para o site da empresa. O texto de fallback permite que os usuários saibam que há outra opção disponível se ocorrer uma falha no link direto.
+      Esse campo atualiza o botão de texto se ocorrer uma falha em um deep link. Os usuários são direcionados para experimentar o deep link para que possam voltar para outra opção. Por exemplo, um fallback pode ser para uma loja de aplicativos para baixar e instalar o aplicativo ou levar os usuários para o site da empresa. O texto de fallback permite que os usuários saibam que há outra opção disponível se ocorrer uma falha no link direto.
 
 
 1. (**Opcional**) Clique nos ícones acima da imagem para ver como o intersticial aparece rotacionado e em dispositivos diferentes.
