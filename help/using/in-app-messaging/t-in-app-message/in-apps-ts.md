@@ -1,23 +1,26 @@
 ---
 description: Estas informações podem ajudar a solucionar problemas com as mensagens no aplicativo.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: Estas informações podem ajudar a solucionar problemas com as mensagens no aplicativo.
 seo-title: Resolução de problemas nas mensagens no aplicativo
 solution: Experience Cloud,Analytics
 title: Resolução de problemas nas mensagens no aplicativo
-topic: Métricas
+topic: Metrics
 uuid: 8813e8d8-bb1e-46ad-83cd-98ae68f73ce6
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 58%
 
 ---
 
 
-# Solução de problemas das mensagens no aplicativo{#troubleshooting-in-app-messaging}
+# Resolução de problemas nas mensagens no aplicativo {#troubleshooting-in-app-messaging}
 
 Estas informações podem ajudar a solucionar problemas com as mensagens no aplicativo.
 
-Se você concluiu todos os requisitos para as mensagens no aplicativo, mas as mensagens não forem exibidas, verifique os seguintes itens:
+Se você concluiu todos os requisitos para mensagens no aplicativo, mas as mensagens não aparecem, verifique os seguintes itens:
 
 ## Você está inserindo a nova configuração e o novo SDK no aplicativo?
 
@@ -25,9 +28,9 @@ Se você concluiu todos os requisitos para as mensagens no aplicativo, mas as me
 
 * Verifique se há uma seção de [Mensagens](/help/using/in-app-messaging/in-app-messaging.md) na sua configuração (o arquivo JSON baixado) ou um terminal remoto de mensagens, para serem recuperados do gerenciamento dinâmico de tags.
 
-## Minha mensagem de tela inteira não está aparecendo no Android. Estou usando o SDK correto e a configuração certa, mas meus acionadores não estão funcionando.
+## Minha mensagem em tela cheia no Android não é exibida. Estou usando o SDK correto, a configuração e meus acionadores estão sendo atendidos.
 
-Você atualizou seu arquivo de manifesto para definir a atividade de tela inteira?
+Você atualizou o arquivo de manifesto para definir a atividade em tela cheia?
 
 ## Minha mensagem de notificação local no Android não está funcionando.
 
@@ -45,35 +48,35 @@ Verifique se essas configurações estão corretas. Na página Público-alvo, an
 
 O acionador só será ativado em uma nova sessão. Para obter informações sobre quando começa uma sessão, consulte  `lifecycleTimeout` no arquivo [ADBMobile JSON config](/help/ios/configuration/json-config/json-config.md).
 
-## Atualizei minha mensagem remotamente, mas meu aplicativo ainda exibe a mensagem antiga.
+## Atualizei minha mensagem remotamente mas meu aplicativo ainda exibe a mensagem antiga.
 
 Conclua uma das seguintes tarefas:
 
-* O gerenciamento dinâmico de tags pode levar alguns minutos para atualizar seu terminal com a nova definição.
+* O gerenciamento dinâmico de tags pode levar alguns minutos para atualizar seu terminal com sua nova definição.
 
-   Espere um pouco e tente novamente.
+   Dê um tempo e tente novamente.
 
 * A configuração só será atualizada em um novo lançamento.
 
-   Se o aplicativo tiver sido reiniciado dentro do tempo limite da sessão do ciclo de vida, é possível que a nova configuração não tenha sido baixada.
+   Se o aplicativo foi reiniciado no tempo limite da sessão do ciclo de vida, sua nova configuração pode não ter sido baixada.
 
 ## Minha imagem não se encaixa perfeitamente no espaço fornecido pelo modelo.
 
-O modelo em tela cheia das mensagens no aplicativo é compatível com a exibição de imagens de um servidor remoto (URL da imagem) ou do conjunto de aplicativos (Imagem embutida). A imagem deve estar em um formato padrão, por exemplo, JPG, GIF ou PNG.
+O modelo em tela cheia de mensagens no aplicativo oferece suporte à exibição de uma imagem de um servidor remoto (URL da imagem) ou do pacote de aplicativos (Imagem embutida). A imagem deve estar em um formato de imagem padrão, por exemplo, JPG, GIF ou PNG.
 
-Como as telas dos dispositivos podem ter muitas dimensões diferentes, a imagem provavelmente não se encaixará perfeitamente no espaço fornecido pelo modelo. O modelo sempre se concentra em mostrar o centro da imagem e cortar (retrato) ou esconder (paisagem) as laterais se a imagem não couber.
+Devido ao fato de as telas do dispositivo terem muitas dimensões diferentes, a imagem provavelmente não se encaixará perfeitamente no espaço fornecido pelo modelo. O modelo sempre se concentra em mostrar o centro da imagem e cortar (retrato) ou esmaecer (paisagem) as laterais se a imagem não se ajustar.
 
 Estas são as regras de posicionamento e dimensionamento para cada orientação:
 
-* **Retrato**, no qual a imagem é dimensionada para a altura de 195px para telefones, 529px para tablets, centralizada se a largura da imagem for menor que a largura do dispositivo e cortada se a largura da imagem for maior que a largura do dispositivo.
+* **Retrato**, onde a imagem é dimensionada para a altura de 195px para telefone, 529px para tablet, centralizada se a largura da imagem for menor que a largura do dispositivo e cortada se a largura da imagem for maior que a largura do dispositivo.
 
-* **Paisagem**, na qual a imagem é dimensionada para 100% da altura do dispositivo, 75% da largura do dispositivo e com um desvanecimento gradual à direita.
+* **Paisagem**, onde a imagem é dimensionada para 100% da altura do dispositivo, a largura é 75% do dispositivo e com um desaparecimento gradual à direita.
 
-   Se tiver problemas com o modelo em tela cheia, é possível baixar e usar o modelo de HTML personalizado. O modelo HTML personalizado proporciona maior flexibilidade para imagens e permite controlar totalmente o modelo.
+   Se tiver problemas com o modelo em tela cheia, você pode baixar e usar o modelo HTML personalizado. O modelo HTML personalizado oferece maior flexibilidade para imagens e permite o controle total do modelo.
 
-## As minhas mensagens não estão refletindo as alterações/atualizações que fiz na interface do usuário.
+## Minhas mensagens não estão refletindo alterações/atualizações que fiz na interface do usuário.
 
-O SDK recupera as mensagens novas/atualizadas no momento da inicialização de um ciclo de vida. Isso ocorre apenas quando o aplicativo é fechado/funciona em segundo plano por um tempo mais longo do que o tempo limite do ciclo de vida e, em seguida, é reaberto.
+O SDK busca mensagens novas/atualizadas no momento de uma inicialização do ciclo de vida. Isso ocorre somente quando o aplicativo é fechado/colocado em segundo plano para um valor maior que o tempo limite do ciclo de vida e, em seguida, reaberto.
 
 Complete as etapas a seguir:
 
