@@ -4,10 +4,13 @@ seo-description: Essas informações ajudam a entender como as falhas são rastr
 seo-title: Rastrear falhas do aplicativo
 solution: Experience Cloud,Analytics
 title: Rastreamento de falhas do aplicativo
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 4f81988b-198a-4ba9-ad53-78af90e43856
-translation-type: ht
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '529'
+ht-degree: 79%
 
 ---
 
@@ -38,9 +41,9 @@ As bibliotecas de relatórios de falhas fornecidas por empresas como a Apteligen
 
 ## O que pode causar o relato de falhas falsas?
 
-Os seguintes cenários são conhecidos por causar o falso relato de uma falha pelo SDK:
+Sabe-se que os seguintes cenários fazem com que uma falha seja reportada pelo SDK:
 
-* Se você estiver depurando com o Xcode, inicializar o aplicativo novamente enquanto ele estiver em primeiro plano causará uma falha.
+* Se você estiver depurando usando o Xcode, iniciar o aplicativo novamente enquanto ele estiver em primeiro plano causará uma falha.
 
    >[!TIP]
    >
@@ -59,11 +62,11 @@ Os seguintes cenários são conhecidos por causar o falso relato de uma falha pe
 
 As seguintes práticas podem ajudá-lo a evitar que falhas falsas sejam relatadas:
 
-* No SDK 4.8.6 para iOS, código foi adicionado para determinar melhor se uma nova sessão de ciclo de vida é realmente desejada.
+* No iOS SDK 4.8.6, o código foi adicionado para determinar melhor se uma nova sessão do ciclo de vida é realmente desejada.
 
    Este código corrige falhas falsas #2 e #3 na seção anterior.
 
-* Certifique-se de executar o seu desenvolvimento contra conjuntos de relatórios de não produção, o que deve evitar a ocorrência da falha falsa número 1.
+* Certifique-se de executar seu desenvolvimento contra conjuntos de relatórios que não sejam de produção, o que deve impedir a ocorrência de falhas falsas nº 1.
 * Não exclua nem modifique quaisquer valores que o SDK do Adobe Mobile coloque em `NSUserDefaults`.
 
    Se esses valores forem modificados fora do SDK, os dados relatados serão inválidos.
