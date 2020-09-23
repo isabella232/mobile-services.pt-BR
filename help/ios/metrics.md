@@ -1,13 +1,16 @@
 ---
-description: As tabelas a seguir listam as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida.
-seo-description: As tabelas a seguir listam as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida.
+description: As tabelas a seguir listas as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida.
+seo-description: As tabelas a seguir listas as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida.
 seo-title: Medições de ciclo de vida
 solution: Experience Cloud,Analytics
 title: Medições de ciclo de vida
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: b795e383-d59b-4a3c-9e14-ffe8fb58412c
-translation-type: ht
-source-git-commit: a6608bf4d36a6fb6aca00f50cc058c09dbd931b1
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '1108'
+ht-degree: 87%
 
 ---
 
@@ -18,7 +21,7 @@ Estas tabelas listam as métricas e dimensões que podem ser medidas automaticam
 
 ## Nova versão do Adobe Experience Platform Mobile SDK
 
-Nova versão do Adobe Experience Platform Mobile SDKProcurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para acessar a documentação mais recente.
+Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para obter a documentação mais recente.
 
 Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/br/experience-platform/launch.html).
 
@@ -68,7 +71,7 @@ Para o Analytics, os dados de contexto que são enviados com cada chamada de ras
 
 * **Inicializações**
 
-   Desencadeado a cada execução, incluindo falhas e instalações. Também disparado quando o aplicativo é retomado do segundo plano após o limite de tempo da sessão de ciclo de vida ser excedido.
+   Desencadeado a cada execução, incluindo falhas e instalações. Também acionado quando o aplicativo é retomado do plano de fundo após o tempo limite da sessão do ciclo de vida ser excedido.
 
    * Parâmetros do Target/Dados de contexto do Analytics: `a.LaunchEvent`
    * Sinal do Audience Manager: `c_a_LaunchEvent`
@@ -165,7 +168,7 @@ Para o Analytics, os dados de contexto que são enviados com cada chamada de ras
 
 * **Nome do dispositivo**
 
-   Armazena o nome do dispositivo.  Cadeia de caracteres de dígitos separados por vírgulas que identifica o dispositivo iOS. O primeiro número tipicamente representa a geração do dispositivo e o segundo, versões dos diferentes membros da família do dispositivo. Para obter uma lista de nomes comuns, consulte  as versões do dispositivo iOS.
+   Armazena o nome do dispositivo.  Sequência de dois dígitos separada por vírgulas que identifica o dispositivo iOS. O primeiro número normalmente representa a geração do dispositivo e o segundo, geralmente, versões de diferentes membros da família do dispositivo. Para obter uma lista de nomes comuns, consulte  as versões do dispositivo iOS.
 
    * Target/Dados de contexto do Analytics: `a.DeviceName`
    * Gerenciamento de público-alvo: `c_a_DeviceName`
@@ -283,7 +286,7 @@ As métricas e dimensões a seguir são capturadas em variáveis de solução m�
 
 * **Código de acompanhamento**
 
-   Preenchido pela Aquisição do dispositivo móvel. Gerado automaticamente pelos Adobe Mobile Services.
+   Preenchido pela Aquisição do dispositivo móvel. Gerado automaticamente pelos serviços Adobe para dispositivos móveis.
 
    * Parâmetros do Target/Dados de contexto do Analytics: `a.referrer.campaign.trackingcode`
    * Característica do Audience Management: `c_a_referrer_campaign_trackingcode`
@@ -297,7 +300,7 @@ As métricas e dimensões a seguir são capturadas em variáveis de solução m�
 
 * **Conteúdo da campanha**
 
-   O nome ou ID do conteúdo que exibiu o link. Preenchido pela Aquisição do dispositivo móvel.
+   O nome ou a ID do conteúdo que exibiu o link. Preenchido pela Aquisição do dispositivo móvel.
 
    * Parâmetros do Target/Dados de contexto do Analytics: `a.referrer.campaign.content`
    * Característica do Audience Management: `c_a_referrer_campaign_content`
@@ -318,7 +321,7 @@ As métricas e dimensões a seguir são capturadas em variáveis de solução m�
 
 * **Termo da campanha**
 
-   Palavras-chave pagas ou outros termos que você deseja acompanhar com essa aquisição. Preenchido pela Aquisição do dispositivo móvel.
+   Palavras-chave pagas ou outros termos que você deseja rastrear com esta aquisição. Preenchido pela Aquisição do dispositivo móvel.
 
    * Parâmetros do Target/Dados de contexto do Analytics: `a.referrer.campaign.term`
    * Característica do Audience Management: `c_a_referrer_campaign_term`
