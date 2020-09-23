@@ -3,14 +3,14 @@ description: Métodos do Android para componentes do Xamarin para SDK das soluç
 keywords: Xamarin
 seo-description: Métodos do Android para componentes do Xamarin para SDK das soluções do Experience Cloud 4.x.
 seo-title: Métodos do Android
-solution: Marketing Cloud,Developer
+solution: Experience Cloud
 title: Métodos do Android
 uuid: 860af1c4-f57e-4bcb-8308-4e316da9a27b
 translation-type: tm+mt
-source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '1767'
-ht-degree: 66%
+ht-degree: 67%
 
 ---
 
@@ -366,7 +366,7 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
 
 * **TrackTimedActionUpdate**
 
-   Transmita os dados para atualizar os dados de contexto associados à ação em questão. Os dados transmitidos são anexados aos dados existentes para a ação em questão e os substituem se a mesma chave já estiver definida para a ação.
+   Transmita dados para atualizar os dados de contexto associados a determinada ação. Os dados transmitidos são anexados aos dados existentes para a ação em questão e os substituem se a mesma chave já estiver definida para a ação.
 
    >[!TIP]
    >
@@ -769,7 +769,7 @@ Para obter mais informações sobre a Análise de vídeo, consulte Análise [de]
       Media.Close (settings.Name); 
       ```
 
-* **Play**
+* **Reproduzir**
 
    Reproduz o item de mídia com o nome nome no deslocamento em questão (em segundos).
 
