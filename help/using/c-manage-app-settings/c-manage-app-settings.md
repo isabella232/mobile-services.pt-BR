@@ -1,14 +1,17 @@
 ---
 description: O gerenciamento de aplicativos envolve a configuração de um aplicativo e o gerenciamento de diversas variáveis e métricas.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: O gerenciamento de aplicativos envolve a configuração de um aplicativo e o gerenciamento de diversas variáveis e métricas.
 seo-title: Gerenciar configurações do aplicativo
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Gerenciar configurações do aplicativo
-topic: Métricas
+topic: Metrics
 uuid: 2ca93f92-f812-434c-add0-5bdf1442eb20
-translation-type: ht
-source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '88'
+ht-degree: 78%
 
 ---
 
@@ -19,4 +22,4 @@ O gerenciamento de aplicativos envolve a configuração de um aplicativo e o ger
 
 >[!IMPORTANT]
 >
->Para editar esta página, você deve ser membro do grupo de administradores do aplicativo móvel. Para determinar se você é membro deste grupo, clique em **[!UICONTROL Ferramentas administrativas]** &gt; **[!UICONTROL Gerenciamento de usuários]** &gt; **[!UICONTROL Grupos]** &gt; **[!UICONTROL Administrador do aplicativo móvel]**.
+>Para editar esta página, você deve ser membro do grupo de administradores do aplicativo móvel. To determine whether you are a member of this group, click **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Mobile App Admin]**.
