@@ -1,18 +1,18 @@
 ---
 product: mobile-services
 audience: end-user
-user-guide-title: Guia do iOS para Mobile Services
+user-guide-title: Guia do iOS do Mobile Services
 breadcrumb-title: iOS Guide
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 18ef20df0a32741685e35cee98a1adf4a1b823a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Mobile Services iOS Guide {#ios}
+# Guia do iOS do Mobile Services {#ios}
 
 + [iOS SDK 4.x para Soluções da Experience Cloud](overview.md)
 + [Notas de versão](rel-notes.md)
@@ -97,7 +97,7 @@ ht-degree: 97%
    + [IDs da Apple](reference/app-ids.md)
    + [Rastreamento de visitantes entre um aplicativo e a internet móvel](reference/hybrid-app.md)
    + [Versões do dispositivo iOS](reference/device-versions.md)
-+ Privacidade e Regulamento Geral sobre a Proteção de Dados{#privacy-gdpr-ios}
++ Privacidade e Regulamento Geral sobre a Proteção de Dados {#privacy-gdpr-ios}
    + [Privacidade e Regulamento Geral sobre a Proteção de Dados](c-mob-privacy-gdpr-ios/c-mob-privacy-gdpr-ios.md)
    + [Recuperação de identificadores armazenados](c-mob-privacy-gdpr-ios/c-mob-gdpr-ret-stored-ids-ios.md)
    + [Definição de status de opção do usuário](c-mob-privacy-gdpr-ios/privacy.md)
