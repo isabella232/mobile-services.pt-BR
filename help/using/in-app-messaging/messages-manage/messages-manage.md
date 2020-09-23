@@ -1,14 +1,17 @@
 ---
 description: Exiba uma lista das mensagens no aplicativo e de push com detalhes sobre quando cada mensagem foi atualizada pela última vez e se as mensagens estão online ou desativadas.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: Exiba uma lista das mensagens no aplicativo e de push com detalhes sobre quando cada mensagem foi atualizada pela última vez e se as mensagens estão online ou desativadas.
 seo-title: Gerenciamento de mensagens
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Gerenciamento de mensagens
-topic: Métricas
+topic: Metrics
 uuid: 4d934ede-0c68-4dd5-ba37-9caf727cc717
-translation-type: ht
-source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '469'
+ht-degree: 73%
 
 ---
 
@@ -17,17 +20,17 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
 Visualize uma lista das mensagens no aplicativo e de push com detalhes sobre quando cada mensagem foi atualizada pela última vez e se as mensagens estão online ou foram desativadas.
 
-Você pode duplicar, ativar/desativar e arquivar/desarquivar mensagens. Também é possível exibir um relatório que mostra o número de usuários que visualizaram a mensagem e os que clicaram nela.
+Você pode duplicado, ativar/desativar e arquivar/desarquivar mensagens. Você também pode visualização um relatório que exibe o número de usuários que visualizaram a mensagem e o número de usuários que clicaram nela.
 
-Para gerenciar mensagens, clique em ***nome_do_aplicativo*** &gt; **[!UICONTROL Mensagens]** &gt; **[!UICONTROL Gerenciar mensagens]**.
+Para gerenciar mensagens, clique em ***your_app_name*** > **[!UICONTROL Mensagens]** > **[!UICONTROL Gerenciar mensagens]**.
 
 ![](assets/manage_messages.png)
 
-Veja informações adicionais sobre as tarefas que você pode concluir nas mensagens:
+Estas são informações adicionais sobre as tarefas que você pode concluir nas mensagens:
 
 * **Pesquisar e filtrar mensagens**
 
-   Use a caixa de pesquisa na parte superior da lista para pesquisar e filtrar as mensagens. Tudo o que for digitado na caixa de pesquisa exibirá as mensagens correspondentes na lista. A pesquisa funciona em todas as colunas da tabela. Por exemplo, você pode digitar  `Draft` para exibir apenas mensagens com esse status. Também é possível digitar o nome de um usuário para exibir apenas as mensagens atualizadas por esse usuário.
+   Use a caixa de pesquisa na parte superior da lista para pesquisar e filtrar as mensagens. Qualquer coisa que você digitar na caixa de pesquisa exibirá mensagens correspondentes da lista. A pesquisa funciona em todas as colunas da tabela. Por exemplo, você pode digitar  `Draft` para exibir apenas mensagens com esse status. Também é possível digitar o nome de um usuário para exibir apenas as mensagens atualizadas por esse usuário.
 
    Além da caixa de pesquisa, você também pode clicar em qualquer cabeçalho de coluna para classificar a lista em ordem crescente ou decrescente pelo conteúdo dessa coluna.
 
@@ -36,10 +39,10 @@ Veja informações adicionais sobre as tarefas que você pode concluir nas mensa
 * **Duplicação de mensagens**
 
    1. Marque a caixa de seleção ao lado de uma ou mais mensagens e clique em **[!UICONTROL Duplicar seleção]**.
-   1. Selecione o aplicativo em que deseja criar uma mensagem duplicada.
+   1. Selecione o aplicativo para o qual deseja criar uma mensagem de duplicado.
    1. Digite um nome para a mensagem.
 
-      Para duplicar uma mensagem para o mesmo aplicativo, digite um novo nome para a mensagem. Se você mantiver o mesmo nome para substituir a mensagem original. Se estiver duplicando uma mensagem para outro aplicativo, mantenha o mesmo nome sem substituir a mensagem original.
+      Para duplicado de uma mensagem para o mesmo aplicativo, digite um novo nome para a mensagem. Se você mantiver o mesmo nome para substituir a mensagem original. Se estiver duplicando uma mensagem para outro aplicativo, mantenha o mesmo nome sem substituir a mensagem original.
 
    1. Clique em **[!UICONTROL Duplicar]** ou em **[!UICONTROL Substituir]**, conforme necessário.
 
