@@ -1,20 +1,23 @@
 ---
-description: Não é possível definir a variável products usando as regras de processamento. No SDK para dispositivos móveis, deve-se usar uma sintaxe especial no parâmetro de dados de contexto para definir products diretamente na chamada do servidor.
-seo-description: Não é possível definir a variável products usando as regras de processamento. No SDK para dispositivos móveis, deve-se usar uma sintaxe especial no parâmetro de dados de contexto para definir products diretamente na chamada do servidor.
-seo-title: Variável products
-solution: Marketing Cloud,Analytics
-title: Variável products
-topic: Desenvolvedor e implementação
+description: A variável products não pode ser definida usando regras de processamento. No SDK móvel, você deve usar uma sintaxe especial dentro do parâmetro de dados de contexto para definir produtos diretamente na chamada do servidor.
+seo-description: A variável products não pode ser definida usando regras de processamento. No SDK móvel, você deve usar uma sintaxe especial dentro do parâmetro de dados de contexto para definir produtos diretamente na chamada do servidor.
+seo-title: 'Variável products '
+solution: Experience Cloud,Analytics
+title: 'Variável products '
+topic: Developer and implementation
 uuid: 607983d6-48ac-4274-bfc8-b1ca4e5dad1b
 translation-type: tm+mt
-source-git-commit: 7aff336586058302046a728a0b1b0ce12660c1ba
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '220'
+ht-degree: 7%
 
 ---
 
 
-# Products variable {#products-variable}
+# Variável products {#products-variable}
 
-Não é possível definir a variável products usando as regras de processamento. No SDK para dispositivos móveis, deve-se usar uma sintaxe especial no parâmetro de dados de contexto para definir products diretamente na chamada do servidor.
+A variável products não pode ser definida usando regras de processamento. No SDK móvel, você deve usar uma sintaxe especial dentro do parâmetro de dados de contexto para definir produtos diretamente na chamada do servidor.
 
 To set the *`products`* variable, set a context data key to `"&&products"`, and set the value using the syntax defined for the *`products` variable:
 
@@ -42,13 +45,13 @@ ADB.Analytics.trackAction("purchase", cdata);
 ADB.Analytics.trackState("Order Confirmation", cdata);
 ```
 
-The *`products`* is set directly on the image request, and the other variables are set as context data. Todas as variáveis de dados de contexto devem ser mapeadas com o uso das regras de processamento:
+The *`products`* is set directly on the image request, and the other variables are set as context data. Todas as variáveis de dados de contexto devem ser mapeadas usando as regras de processamento:
 
 ![](assets/products-procrules.png)
 
-Não é necessário mapear a *`products`* variável usando regras de processamento, pois ela é definida diretamente na solicitação de imagem pelo SDK.
+Não é necessário mapear a *`products`* variável usando as regras de processamento, pois ela é definida diretamente na solicitação de imagem pelo SDK.
 
-## Products variable with merchandising eVars and product-specific events {#section_685D53AD3D064F9A8E225F995A9BA545}
+## Variável products com eVars de merchandising e eventos específicos do produto {#section_685D53AD3D064F9A8E225F995A9BA545}
 
 An example of the *`products`* variable with Merchandising eVars and product-specific events.
 
