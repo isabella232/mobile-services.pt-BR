@@ -1,14 +1,17 @@
 ---
 description: É possível medir diferentes métricas usando o Adobe Mobile e coletando as métricas que você deseja acompanhar para o seu aplicativo.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: É possível medir diferentes métricas usando o Adobe Mobile e coletando as métricas que você deseja acompanhar para o seu aplicativo.
 seo-title: Métricas do Mobile
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Métricas do Mobile
-topic: Métricas
+topic: Metrics
 uuid: c4457f4a-9d1c-4fe9-ad4a-9eb2e37feab7
-translation-type: ht
-source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '551'
+ht-degree: 33%
 
 ---
 
@@ -21,13 +24,13 @@ Os seguintes tipos de métricas são medidos:
 
 * **Inicializações, atualizações e falhas do aplicativo**
 
-   Essas métricas fornecem uma visão da integridade e uso geral do aplicativo. Você pode acompanhar o número de inicializações, o número de usuários em cada versão do seu aplicativo, falhas e assim por diante. Essas métricas, juntamente com o rendimento geral caso você esteja oferecendo um aplicativo pago, geralmente são o ponto inicial para a medição de aplicativos móveis.
+   Essas métricas fornecem uma visualização sobre a integridade e o uso geral do seu aplicativo. Você pode rastrear o número de inicializações, o número de usuários em cada versão do aplicativo, falhas e assim por diante. Essas métricas, juntamente com a receita geral (se você fornecer um aplicativo pago), normalmente são o ponto de partida para a medição de aplicativos móveis.
 
 * **Uso e retenção**
 
-   As métricas de uso permitem que você entenda a duração média das sessões, os usuários envolvidos diários e mensais, as atualizações e outras informações que permitem compreender a frequência que seu aplicativo é usado. Os relatórios de retenção mostram rapidamente os níveis de retenção de usuários no dia seguinte à primeira inicialização, após 7 dias e após 28 dias.
+   As métricas de uso ajudam você a entender a duração média da sessão, os usuários envolvidos diariamente e mensalmente, as atualizações e outras informações que permitem saber com que frequência seu aplicativo está sendo usado. Os relatórios de retenção mostram rapidamente os níveis de retenção do usuário no dia seguinte à primeira inicialização, após 7 dias e após 28 dias.
 
-   Em dispositivos Android, é possível usar a verificação do Google Play para medir quando usuários estão indo até a app store antes de baixarem o aplicativo.
+   Em dispositivos Android, você pode usar o rastreamento de quem indicou do Google Play para medir como os usuários estão chegando à app store antes de baixarem seu aplicativo.
 
 * **Receita**
 
@@ -39,22 +42,22 @@ Os seguintes tipos de métricas são medidos:
 
 * **Estados do aplicativo**
 
-   Os estados são as diferentes exibições fornecidas pelo seu aplicativo. Os estados são visualizados em um relatório de definição de caminho, então um boa maneira de definir os estados é pensar nos caminhos do aplicativo que você deseja medir. Por exemplo, para onde os usuários vão com mais frequência após a visualização inicial?
+   Os estados são visualizações diferentes fornecidas pelo aplicativo. Os estados são exibidos em um relatório de definição de caminho, portanto, uma boa maneira de definir estados é pensar nos caminhos pelo aplicativo que você deseja medir. Por exemplo, onde os usuários navegam com mais frequência a partir da visualização inicial?
 
 * **Localidade e pontos de interesse**
 
-   Se o GeoReporting estiver habilitado no seu conjunto de relatórios do Analytics, vários relatórios baseados em local estarão disponíveis. No Wi-Fi, a precisão do GeoReporting é similar àquela do navegador da Web para desktop. Em uma conexão de dados, a precisão varia com base no provedor e em como as solicitações são roteadas.
+   Se o GeoReporting estiver habilitado no seu conjunto de relatórios do Analytics, vários relatórios baseados em local estarão disponíveis. No Wi-Fi, a precisão do GeoReporting é similar àquela do navegador da Web para desktop. Em uma conexão de dados, a precisão varia de acordo com o provedor e como as solicitações são roteadas.
 
-   Para maior precisão, você também pode adicionar o rastreamento da localização e de pontos de interesse ao seu aplicativo. Essas opções permitem relatar dados detalhados de latitude e longitude e usar cerca virtual geográfica para determinar quando um usuário está no raio de um ponto de interesse pré-definido.
+   Para aumentar a precisão, você também pode adicionar o rastreamento de local e ponto de interesse ao seu aplicativo. Essas opções permitem relatar dados detalhados de latitude e longitude e usar a delimitação geográfica para determinar quando um usuário está em um raio de um ponto de interesse predefinido.
 
 * **Valor da duração**
 
-   O valor da duração permite medir um valor que persiste, desde que o usuário tenha instalado seu aplicativo. É possível atribuir diferentes ações no aplicativo, valores positivos ou negativos, ou aumentar valor da duração com o montante de cada compra.
+   O valor da duração permite medir um valor que persiste, desde que o usuário tenha seu aplicativo instalado. É possível atribuir diferentes ações no aplicativo, valores positivos ou negativos ou aumentar o valor da duração com a quantidade de cada compra.
 
 * **Tempo para completar**
 
-   Juntamente com os KPIs medidos, é possível usar o tempo de conclusão para medir o tempo na sessão e o tempo total (entre sessões) necessário para uma ação ser concluída. Por exemplo, é possível medir quanto tempo se passa entre a instalação e a compra inicial do aplicativo.
+   Com os KPIs medidos, você pode usar o tempo para concluir para medir o tempo na sessão e o tempo total (entre sessões) necessário para uma ação ser concluída. Por exemplo, você pode medir quanto tempo decorre entre a instalação e a compra inicial no aplicativo.
 
 * **Dispositivos**
 
-   Relatórios de dispositivos permitem visualizar os diferentes tipos de dispositivos, sistemas operacionais e operadoras de celular quando seu aplicativo é usado. Essas informações são úteis para planejar o suporte para a próxima versão ou segmentar relatórios e direcionar conteúdo.
+   Relatórios de dispositivos permitem que você veja os diferentes tipos de dispositivos, sistemas operacionais e operadoras de celular em que seu aplicativo está sendo usado. Essas informações são úteis para planejar o suporte para a próxima versão ou para segmentar relatórios e conteúdo do público alvo.
