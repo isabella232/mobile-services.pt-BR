@@ -1,21 +1,24 @@
 ---
-description: 'Crie um filtro abrangendo vários relatórios para observar o desempenho de um segmento específico em todos os relatórios de celular. Um filtro fixo permite definir um filtro que é aplicado em todos os relatórios sem definição de caminho. '
-keywords: dispositivos móveis
-seo-description: 'Crie um filtro abrangendo vários relatórios para observar o desempenho de um segmento específico em todos os relatórios de celular. Um filtro fixo permite definir um filtro que é aplicado em todos os relatórios sem definição de caminho. '
+description: 'Crie um filtro que abrange diferentes relatórios para ver como um segmento específico está se saindo em todos os relatórios móveis. Um filtro fixo permite definir um filtro que é aplicado em todos os relatórios sem definição de caminho. '
+keywords: mobile
+seo-description: 'Crie um filtro que abrange diferentes relatórios para ver como um segmento específico está se saindo em todos os relatórios móveis. Um filtro fixo permite definir um filtro que é aplicado em todos os relatórios sem definição de caminho. '
 seo-title: Adição de filtro fixo
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Adição de filtro fixo
-topic: Relatórios, Métricas
+topic: Reports,Metrics
 uuid: f3935c8a-811d-4080-8468-b8850202dd1e
-translation-type: ht
-source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 72%
 
 ---
 
 
 # Adicionar um filtro fixo{#add-sticky-filter}
 
-Crie um filtro abrangendo vários relatórios para observar o desempenho de um segmento específico em todos os relatórios de celular. Um filtro fixo permite definir um filtro que é aplicado em todos os relatórios sem definição de caminho. 
+Crie um filtro que abrange diferentes relatórios para ver como um segmento específico está se saindo em todos os relatórios móveis. Um filtro fixo permite definir um filtro que é aplicado em todos os relatórios sem definição de caminho. 
 
 O exemplo a seguir adiciona filtros fixos para os sistemas operacionais iOS e Android ao relatório **[!UICONTROL Usuários e sessões]**, mas as instruções se aplicam a todos os relatórios ou métricas.
 
