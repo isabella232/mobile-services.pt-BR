@@ -4,10 +4,13 @@ seo-description: A extensão iOS ajuda a coletar dados de uso dos aplicativos do
 seo-title: Implementação de extensão do iOS
 solution: Experience Cloud,Analytics
 title: Implementação de extensão do iOS
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 8afc03fe-403e-4643-ada1-30e403ede238
-translation-type: ht
-source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '721'
+ht-degree: 76%
 
 ---
 
@@ -18,7 +21,7 @@ A extensão iOS ajuda a coletar dados de uso dos aplicativos do Apple Watch (Wat
 
 ## Nova versão do Adobe Experience Platform Mobile SDK
 
-Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para acessar a documentação mais recente.
+Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para obter a documentação mais recente.
 
 Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/br/experience-platform/launch.html).
 
@@ -31,7 +34,7 @@ Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Ad
 >
 >Recomendamos o uso do SDK do iOS em vez do seu próprio invólucro.
 
-A Apple oferece um conjunto de APIs que permitem a comunicação do aplicativo Watch com o aplicativo contentor, enviando as solicitações para o aplicativo contêiner e recebendo as respostas. Embora você possa enviar dados de rastreamento como um dicionário do aplicativo Watch para o aplicativo que contém a API e depois chamar qualquer método de rastreamento no aplicativo que contém a API para enviar dados, essa solução possui algumas limitações.
+A Apple fornece um conjunto de APIs que permitem que o aplicativo Watch se comunique com o aplicativo contêiner enviando solicitações para o aplicativo contêiner e recebendo as respostas. Embora você possa enviar dados de rastreamento como um dicionário do aplicativo Watch para o aplicativo que contém a API e chamar qualquer método de rastreamento no aplicativo que contém a API para enviar os dados, essa solução tem limitações.
 
 Na maioria dos casos quando um usuário está usando o aplicativo Watch, o aplicativo contêiner está sendo executado em segundo plano e só é seguro chamar `TrackActionInBackground`, `TrackLocation`, e `TrackBeacon`. O uso de outros métodos de rastreamento interfere nos dados do ciclo de vida, por isso você deve usar apenas esses três métodos para enviar os dados do aplicativo Watch.
 
@@ -43,13 +46,14 @@ Mesmo que esses três métodos de rastreamento atendam aos seus requisitos, use 
 >
 >Certifique-se de ter um projeto com pelo menos os seguintes destinos:
 >
->* Um destino para conter o aplicativo.
->* Um destino para a extensão.
+>* Uma público alvo para conter o aplicativo.
+>* Um público alvo para a extensão.
+
 >
 
 
 
-Se você estiver trabalhando em um aplicativo WatchKit, você deve ter um terceiro destino. Para obter mais informações sobre como desenvolver software para o Apple Watch, consulte [Desenvolvimento para o Apple Watch](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1).
+Se estiver trabalhando em um aplicativo WatchKit, você deve ter um terceiro público alvo. Para obter mais informações sobre como desenvolver software para o Apple Watch, consulte [Desenvolvimento para o Apple Watch](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1).
 
 ## Configurar o aplicativo contêiner {#section_0BAB0842E4C04A62B5E03DFC4BA77851}
 
@@ -107,8 +111,8 @@ Algumas informações a lembrar:
 
       Esse valor significa que a ocorrência veio da extensão.
 
-* Se você atualizar de uma versão mais antiga do SDK, quando o aplicativo contentor for iniciado, a Adobe migra automaticamente todos os padrões do usuário e arquivos em cache da pasta do aplicativo contêiner para a pasta compartilhada do grupo de aplicativos.
-* Se o aplicativo contentor nunca for inicializado, as ocorrências da extensão serão descartadas.
-* O número da versão e o número do build devem ser os mesmos entre o aplicativo contêiner e o aplicativo de extensão.
+* Se você atualizar de uma versão anterior do SDK, quando o aplicativo contentor é iniciado, o Adobe migra automaticamente todos os padrões do usuário e arquivos em cache da pasta do aplicativo contêiner para a pasta compartilhada do grupo de aplicativos.
+* Se o aplicativo contêiner nunca for iniciado, as ocorrências da extensão serão descartadas.
+* O número da versão e o número da compilação devem ser os mesmos entre o aplicativo contêiner e o aplicativo de extensão.
 * Nenhuma chamada de ciclo de vida é acionada em aplicativos de extensão iOS.
 
