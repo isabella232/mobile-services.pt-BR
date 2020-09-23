@@ -5,10 +5,13 @@ seo-description: Estas informações ajudam a solucionar problemas de mensagem d
 seo-title: Resolução de problemas nas mensagens no aplicativo
 solution: Experience Cloud,Analytics
 title: Resolução de problemas nas mensagens no aplicativo
-topic: Métricas
+topic: Metrics
 uuid: 39c3a21d-92c2-4004-b00f-99b6f91d3696
-translation-type: ht
-source-git-commit: 12e01e112debffd877dd62f1fd2505724b2aae7d
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '528'
+ht-degree: 94%
 
 ---
 
@@ -17,15 +20,15 @@ source-git-commit: 12e01e112debffd877dd62f1fd2505724b2aae7d
 
 Estas informações ajudam a solucionar problemas de mensagem de push no aplicativo.
 
-Se você concluiu todos os requisitos para as mensagens no aplicativo, mas as mensagens não são exibidas, verifique os seguintes itens:
+Se você concluiu todos os requisitos para mensagens no aplicativo, mas as mensagens não são exibidas, verifique os seguintes itens:
 
 ## Você está inserindo a nova configuração e o novo SDK no aplicativo?
 
 Certifique-se de que há uma seção [Mensagens no aplicativo](/help/android/messaging-main/messaging/messaging.md) na sua configuração (arquivo JSON baixado) ou um terminal remoto de mensagens, para que ele possa ser recuperado do gerenciamento dinâmico de tags.
 
-## Minha mensagem de tela inteira não está aparecendo no Android. Estou usando o SDK correto e a configuração certa, mas meus acionadores não estão funcionando.
+## Minha mensagem em tela cheia no Android não é exibida. Estou usando o SDK correto, a configuração e meus acionadores estão sendo atendidos.
 
-Você atualizou seu arquivo de manifesto para definir a atividade de tela inteira?
+Você atualizou o arquivo de manifesto para definir a atividade em tela cheia?
 
 ## Minha mensagem de notificação local no Android não está funcionando.
 
@@ -54,7 +57,7 @@ Para obter mais informações, consulte [Medições de ciclo de vida](/help/andr
 
 ## Minha imagem não se encaixa perfeitamente no espaço fornecido pelo modelo.
 
-O modelo em tela cheia das mensagens no aplicativo é compatível com a exibição de imagens de um servidor remoto (URL da imagem) ou do conjunto de aplicativos (Imagem embutida). A imagem deve estar em um formato padrão, por exemplo, JPG, GIF ou PNG. Como as telas dos dispositivos podem ter muitas dimensões diferentes, a imagem provavelmente não se encaixará perfeitamente no espaço fornecido pelo modelo. O modelo foca em mostrar o centro da imagem e, se ela não couber, recorta (retrato) ou esmaece (paisagem) as laterais.
+O modelo em tela cheia de mensagens no aplicativo é compatível com a exibição de uma imagem de um servidor remoto (URL da imagem) ou do conjunto de aplicativos (Imagem empacotada). A imagem deve estar em um formato padrão, por exemplo, JPG, GIF ou PNG. Como as telas dos dispositivos podem ter muitas dimensões diferentes, a imagem provavelmente não se encaixará perfeitamente no espaço fornecido pelo modelo. O modelo foca em mostrar o centro da imagem e, se ela não couber, recorta (retrato) ou esmaece (paisagem) as laterais.
 
 Estas são as regras de posicionamento e dimensionamento para cada orientação:
 
@@ -65,7 +68,8 @@ Estas são as regras de posicionamento e dimensionamento para cada orientação:
    * Recortado se a largura da imagem for maior que a largura do dispositivo.
 
 * **Paisagem**
-   * A imagem é dimensionada para 100% da altura do dispositivo.
-   * A largura é 75% do dispositivo e esmaecida à direita.
-   Se tiver problemas com o modelo em tela cheia, é possível baixar e usar o modelo de HTML personalizado. O modelo HTML personalizado proporciona maior flexibilidade para imagens e permite controlar totalmente o modelo.
+   * A imagem foi dimensionada para 100% da altura do dispositivo.
+   * A largura é de 75% do dispositivo, com um fade out à direita.
+
+   Se tiver problemas com o modelo em tela cheia, você pode baixar e usar o modelo HTML personalizado. Este modelo oferece mais flexibilidade para imagens e permite o controle total do modelo.
 
