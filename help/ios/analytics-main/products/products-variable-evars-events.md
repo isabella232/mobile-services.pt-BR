@@ -4,10 +4,13 @@ seo-description: Este é um exemplo da variável products com eVars de merchandi
 seo-title: Variável products com eVars de merchandising e eventos específicos do produto
 solution: Experience Cloud,Analytics
 title: Variável products com eVars de merchandising e eventos específicos do produto
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: f913211e-97ad-4237-bfe4-7ded01295caf
-translation-type: ht
-source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 100%
 
 ---
 
