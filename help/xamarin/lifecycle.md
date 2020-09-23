@@ -1,26 +1,29 @@
 ---
-description: Informações para ajudá-lo a implementar Medições de ciclo de vida para Android. Medições de ciclo de vida são automaticamente coletadas para iOS.
+description: Informações para ajudá-lo a implementar Medições de ciclo de vida para Android. As medições de ciclo de vida são coletadas automaticamente para iOS.
 keywords: Xamarin
-seo-description: Informações para ajudá-lo a implementar Medições de ciclo de vida para Android. Medições de ciclo de vida são automaticamente coletadas para iOS.
+seo-description: Informações para ajudá-lo a implementar Medições de ciclo de vida para Android. As medições de ciclo de vida são coletadas automaticamente para iOS.
 seo-title: Implementar o ciclo de vida
-solution: Marketing Cloud,Desenvolvedor
+solution: Experience Cloud
 title: Implementar o ciclo de vida
 uuid: 6dccc12e-8b57-4231-9c74-d47bc0ac93ba
 translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '102'
+ht-degree: 7%
 
 ---
 
 
-# Implement lifecycle {#implement-lifecycle}
+# Implementar o ciclo de vida {#implement-lifecycle}
 
 Essas informações ajudam a implementar medições de ciclo de vida para Android.
 
 >[!TIP]
 >
->Medições de ciclo de vida são automaticamente coletadas para iOS.
+>As medições de ciclo de vida são coletadas automaticamente para iOS.
 
-For the metrics and dimensions that can be measured automatically by the mobile library after lifecycle is implemented, see [Lifecycle Metrics](/help/ios/metrics.md).
+Para as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida, consulte Medições [de ciclo de vida](/help/ios/metrics.md).
 
 ## iOS
 
@@ -28,7 +31,7 @@ No iOS, as medições de ciclo de vida são coletadas automaticamente.
 
 ## Android
 
-Na atividade principal, defina o contexto do aplicativo para o Android SDK.
+Na sua atividade principal, defina o contexto do aplicativo para o Android SDK.
 
 ```java
 protected override void OnCreate (Bundle bundle) 
