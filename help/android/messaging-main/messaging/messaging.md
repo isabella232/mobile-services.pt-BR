@@ -2,12 +2,12 @@
 description: Você pode fornecer mensagens no aplicativo que são acionadas a partir de qualquer evento ou dado de análise. Após a implementação, as mensagens são entregues dinamicamente ao aplicativo e não exigem uma atualização de código.
 seo-description: Você pode fornecer mensagens no aplicativo que são acionadas a partir de qualquer evento ou dado de análise. Após a implementação, as mensagens são entregues dinamicamente ao aplicativo e não exigem uma atualização de código.
 seo-title: Mensagens no aplicativo
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Mensagens no aplicativo
 topic: Developer and implementation
 uuid: 351ee3d2-80b9-4f2d-9696-21f274d89f5a
 translation-type: tm+mt
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 61%
@@ -60,6 +60,7 @@ Você pode criar mensagens e regras nos Adobe Mobile Services que definem quando
    * `Theme.Translucent.NoTitleBar.Fullscreen`
    * `Theme.Translucent.NoTitleBar`
    * `Theme.Translucent`
+
    Por exemplo:
 
    ```java
