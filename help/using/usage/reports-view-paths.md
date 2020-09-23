@@ -1,14 +1,17 @@
 ---
 description: O relatório Caminhos de exibição, que se baseia na análise de caminhos, mostra um gráfico que representa os caminhos que foram tomados entre estados no aplicativo.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: O relatório Caminhos de exibição, que se baseia na análise de caminhos, mostra um gráfico que representa os caminhos que foram tomados entre estados no aplicativo.
 seo-title: Exibir relatório Caminhos
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Exibir relatório Caminhos
-topic: Relatórios, Métricas
+topic: Reports,Metrics
 uuid: bc73edce-0cc0-4349-9a48-e0a40cbe1b67
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 73%
 
 ---
 
@@ -23,29 +26,29 @@ O relatório **[!UICONTROL Caminhos de exibição]**, que se baseia na análise 
 
 ![caminhos de visualização](assets/view_paths.png)
 
-Cada nó, formado como uma caixa, representa um estado nos caminhos dos usuários em um aplicativo. Por exemplo, na ilustração acima, o nó superior representa o número de usuários que inicializaram o aplicativo e navegaram até a exibição principal.
+Cada nó, formado como uma caixa, representa um estado nos caminhos dos usuários em um aplicativo. Por exemplo, na ilustração acima, o nó superior representa o número de usuários que inicializaram o aplicativo e navegaram até a visualização principal.
 
 Quando você clica em um nó para fornecer as opções adicionais para modificar o gráfico, opções adicionais como **[!UICONTROL Focar]** ou **[!UICONTROL Expandir]** são exibidas. Por exemplo, se você clicar no estado **[!UICONTROL MainView]** no nó superior, os ícones **[!UICONTROL Focar]** e **[!UICONTROL Expandir]** serão exibidos.
 
-Para expandir a exibição, clique no ícone **[!UICONTROL +]** para exibir os caminhos adicionais que entram ou saem do nó. Na ilustração abaixo, o estado 1 é a inicialização do aplicativo, o estado 2 é a visualização da página principal do aplicativo e o estado 3 inclui os seguintes caminhos que os usuários tomaram:
+To expand the view, click the **[!UICONTROL +]** icon to display the additional paths that come in to or go from the node. Na ilustração abaixo, o estado 1 é a inicialização do aplicativo, o estado 2 é a exibição da página principal do aplicativo e o estado 3 inclui os seguintes caminhos que os usuários tomaram:
 
-* Navegando até o rolo da câmera
-* navegando até o seletor de itens
+* Navegar até o rolo da câmera
+* navegar até o seletor de itens
 * navegando até a câmera
-* navegando para a página de informações do item
+* navegando até a página de informações do item
 
 ![](assets/view_paths_expand.png)
 
-Clique em ![focus icon](assets/icon_focus.png) para isolar o nó e mostrar os caminhos que entram e saem do nó selecionado. Na ilustração abaixo, os seguintes caminhos precederam os usuários que estavam vendo a exibição principal do aplicativo:
+Clique em ![focus icon](assets/icon_focus.png) para isolar o nó e mostrar os caminhos que entram e saem do nó selecionado. Na ilustração abaixo, os seguintes caminhos precederam os usuários que estavam visualizando a visualização principal do aplicativo:
 
 * informações do item
-* seletor de item
+* seletor de itens
 * Rolo da câmera
 * Câmera
 
 ![visualizar foco do caminho](assets/view_paths_focus.png)
 
-Você pode focar ou expandir vários nós para uma exibição detalhada dos caminhos que os usuários tomaram no aplicativo. Por exemplo:
+Você pode focar ou expandir vários nós para obter uma visualização detalhada dos caminhos que os usuários tomam em seu aplicativo. Por exemplo:
 
 ![caminho de visualização múltiplo](assets/view_paths_mult.png)
 
