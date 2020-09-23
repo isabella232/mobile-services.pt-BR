@@ -2,27 +2,30 @@
 description: 'null'
 keywords: Unity
 seo-description: 'null'
-seo-title: Implementação do ciclo de vida
-solution: Marketing Cloud,Developer
-title: Implementação do ciclo de vida
+seo-title: Implementar o ciclo de vida
+solution: Experience Cloud
+title: Implementar o ciclo de vida
 uuid: 7ff2c194-569c-42a6-922d-dccd2aa9eb8d
 translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 11%
 
 ---
 
 
-# Implementação do ciclo de vida{#implement-lifecycle}
+# Implementar o ciclo de vida{#implement-lifecycle}
 
 Para obter mais informações sobre as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida, consulte Medições de [ciclo de vida no Android](/help/android/metrics.md) ou [Ciclo de vida no iOS](/help/ios/metrics.md).
 
 ## iOS
 
-Lifecycle metrics are automatically collected in iOS.
+As medições de ciclo de vida são coletadas automaticamente no iOS.
 
 ## Android
 
-No script do Unity, você define o contexto do aplicativo para o SDK do Android. Add the following code to the `Awake()` function of your FIRST scene:
+No script do Unity, você define o contexto do aplicativo para o Android SDK. Adicione o seguinte código à `Awake()` função da PRIMEIRA cena:
 
 ```java
 void Awake()
@@ -33,7 +36,7 @@ void Awake()
  }
 ```
 
-Para coletar métricas de ciclo de vida, adicione o seguinte código a todos os scripts da cena:
+Para coletar medições de ciclo de vida, adicione o seguinte código a todos os scripts de cena:
 
 ```java
 void OnEnable()
