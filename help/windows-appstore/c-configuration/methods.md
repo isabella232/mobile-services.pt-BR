@@ -1,24 +1,27 @@
 ---
-description: Classes e métodos fornecidos pela biblioteca da loja universal de aplicativos do Windows 8.1.
-seo-description: Classes e métodos fornecidos pela biblioteca da loja universal de aplicativos do Windows 8.1.
-seo-title: SDK methods
-solution: Marketing Cloud,Analytics
+description: Classes e métodos fornecidos pela biblioteca da loja de aplicativos universal do Windows 8.1.
+seo-description: Classes e métodos fornecidos pela biblioteca da loja de aplicativos universal do Windows 8.1.
+seo-title: Métodos do SDK
+solution: Experience Cloud,Analytics
 title: Métodos do SDK
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 0f558ff4-73d3-4439-9d51-62fbd74d2cea
 translation-type: tm+mt
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '655'
+ht-degree: 50%
 
 ---
 
 
-# SDK methods {#sdk-methods}
+# Métodos do SDK {#sdk-methods}
 
-Classes e métodos fornecidos pela biblioteca da loja universal de aplicativos do Windows 8.1.
+Classes e métodos fornecidos pela biblioteca da loja de aplicativos universal do Windows 8.1.
 
 >[!TIP]
 >
->When you consume `winmd` methods from winJS (JavaScript), all methods automatically have their first letter lowercased.
+>Quando você consome `winmd` métodos do winJS (JavaScript), todos os métodos têm automaticamente a primeira letra em minúsculas.
 
 * **GetVersion (winJS: getVersion)**
 
@@ -42,7 +45,7 @@ Classes e métodos fornecidos pela biblioteca da loja universal de aplicativos d
 
    * `ADBMobilePrivacyStatusOptIn` - as ocorrências são enviadas imediatamente.
    * `ADBMobilePrivacyStatusOptOut` - as ocorrências serão descartadas.
-   * `ADBMobilePrivacyStatusUnknown` - Se o conjunto de relatórios estiver habilitado para mostrar o carimbo de data e hora, as ocorrências serão salvas até o status de privacidade ser alterado para opt-in (as ocorrências são enviadas) ou opt-out (as ocorrências são descartadas). Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in.
+   * `ADBMobilePrivacyStatusUnknown` - Se o conjunto de relatórios tiver um carimbo de data e hora, as ocorrências serão salvas até o status de privacidade ser alterado para aceitar (as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas). Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in.
 
       The default value is set in the [ADBMobileConfig.json config](/help/windows-appstore/c-configuration/c.json.md) file.
 
@@ -72,11 +75,11 @@ Classes e métodos fornecidos pela biblioteca da loja universal de aplicativos d
 
 * **SetPrivacyStatus (winJS: setPrivacyStatus)**
 
-   Define o de privacidade do usuário atual como `status`status. É definido como um dos valores abaixo:
+   Define o de privacidade do usuário atual como `status` status. É definido como um dos valores abaixo:
 
    * `ADBMobilePrivacyStatusOptIn` - as ocorrências são enviadas imediatamente.
    * `ADBMobilePrivacyStatusOptOut` - as ocorrências serão descartadas.
-   * `ADBMobilePrivacyStatusUnknown` - Se o conjunto de relatórios estiver habilitado para mostrar o carimbo de data e hora, as ocorrências serão salvas até o status de privacidade ser alterado para opt-in (as ocorrências são enviadas) ou opt-out (as ocorrências são descartadas). Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in.
+   * `ADBMobilePrivacyStatusUnknown` - Se o conjunto de relatórios tiver um carimbo de data e hora, as ocorrências serão salvas até o status de privacidade ser alterado para aceitar (as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas). Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in.
 
    * Esta é a sintaxe para este método:
 
@@ -118,11 +121,11 @@ Classes e métodos fornecidos pela biblioteca da loja universal de aplicativos d
 
 * **GetUserIdentifier (winJS: getUserIdentifier)**
 
-   Retorna o identificador do usuário personalizado se algum estiver configurado. Retorna nulo se um identificador personalizado não estiver configurado. O valor padrão é `null`.
+   Retorna o identificador de usuário personalizado se um identificador personalizado tiver sido definido. Retorna null se um identificador personalizado não estiver definido. O valor padrão é `null`.
 
    >[!TIP]
    >
-   >Se seu aplicativo for atualizado do SDK 3.x da Experience Cloud para o 4.x, a ID anterior (personalizada ou gerada automaticamente) será recuperada e armazenada como o identificador personalizado do usuário. Isso preserva os dados do visitante entre as atualizações de SDK. Para novas instalações do SDK 4.x, o identificador de usuário é `null` até que seja definido.
+   >Se seu aplicativo for atualizado do SDK Experience Cloud 3.x para 4.x, a ID anterior (personalizada ou gerada automaticamente) será recuperada e armazenada como o identificador de usuário personalizado. Isso preserva os dados do visitante entre as atualizações de SDK. For new installations on the 4.x SDK, user identifier is `null` until set.
 
    * Esta é a sintaxe para este método:
 
@@ -173,7 +176,7 @@ Classes e métodos fornecidos pela biblioteca da loja universal de aplicativos d
 
 * **SetDebugLogging (winJS: setDebugLogging)**
 
-   Define a preferência do log de depuração como `debugLogging`. O registro de depuração funciona apenas ao usar a versão de depuração da biblioteca, a versão de lançamento ignora esta configuração.
+   Define a preferência do log de depuração como `debugLogging`. O registro em log de depuração funciona somente ao usar a versão de depuração da biblioteca, a versão de lançamento ignora essa configuração.
 
    * Esta é a sintaxe para este método:
 
@@ -194,7 +197,7 @@ Classes e métodos fornecidos pela biblioteca da loja universal de aplicativos d
 
    >[!TIP]
    >
-   >Invoke this method in the `onResume()` method in each Activity inside of your application, as shown in the following example. Recomendamos transferir a Atividade ou o Serviço como o objeto de contexto em vez do contexto de Aplicativo global.
+   >Chame esse método no `onResume()` método de cada Atividade dentro do aplicativo, como mostrado no exemplo a seguir. Também recomendamos transmitir a Atividade ou o Serviço como o objeto de contexto em vez do contexto global do Aplicativo.
 
    * Esta é a sintaxe para este método:
 
@@ -211,11 +214,11 @@ Classes e métodos fornecidos pela biblioteca da loja universal de aplicativos d
 
 * **PauseCollecting &#x200B; LifecycleData (winJS: pauseCollecting &#x200B; LifecycleData)**
 
-   Indica ao SDK que o aplicativo está pausado, a fim de calcular corretamente as métricas de ciclo de vida. Por exemplo, durante a pausa um carimbo de data e hora é coletado para determinar a duração da sessão anterior. Também define um sinalizador para que o ciclo de vida saiba que o aplicativo não parou de funcionar. Para obter mais informações, consulte [Medições de ciclo de vida](/help/windows-appstore/metrics.md).
+   Indica ao SDK que o aplicativo está pausado, a fim de calcular corretamente as medições de ciclo de vida. Por exemplo, ao pausar coleta um carimbo de data e hora para determinar a duração da sessão anterior. Isso também define um sinalizador para que o ciclo de vida saiba corretamente que o aplicativo não falhou. Para obter mais informações, consulte [Medições de ciclo de vida](/help/windows-appstore/metrics.md).
 
    >[!TIP]
    >
-   >Invoke this method in the `onPause()` methods in each Activity inside Your application, as shown in the example. Recomendamos transferir a Atividade ou o Serviço como o objeto de contexto em vez do contexto de Aplicativo global.
+   >Chame esse método nos `onPause()` métodos de cada Atividade dentro do seu aplicativo, como mostrado no exemplo. Também recomendamos transmitir a Atividade ou o Serviço como o objeto de contexto em vez do contexto global do Aplicativo.
 
    * Esta é a sintaxe para este método:
 
