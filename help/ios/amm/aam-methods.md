@@ -4,10 +4,13 @@ seo-description: Esta é uma lista de métodos do Audience Manager fornecidos pe
 seo-title: Métodos do Audience Manager
 solution: Experience Cloud,Analytics
 title: Métodos do Audience Manager
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 97658bd6-4c4f-4875-abe9-36dad4ec8bae
-translation-type: ht
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 80%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 Esta é uma lista de métodos do Audience Manager fornecidos pela biblioteca do iOS.
 
-Atualmente, o SDK é compatível com várias soluções da Adobe Experience Cloud, como o Analytics, o Target, o Audience Manager e o Adobe Experience Platform Identity Service. Os métodos apresentam prefixos de acordo com a solução a qual estão associados. Logo, os métodos do Audience Manager apresentam o prefixo "`audience`."
+Atualmente, o SDK é compatível com várias soluções da Adobe Experience Cloud, como o Analytics, o Target, o Audience Manager e o Adobe Experience Platform Identity Service. Os métodos apresentam prefixos de acordo com a solução a qual estão associados. Logo, os métodos do Audience Manager apresentam o prefixo &quot;`audience`.&quot;
 
 Se o Audience Manager estiver configurado em seu arquivo JSON, um sinal contendo as medições de ciclo de vida será enviado com `application:didFinishLaunchingWithOptions:`.
 
@@ -70,14 +73,14 @@ Se o Audience Manager estiver configurado em seu arquivo JSON, um sinal contendo
 
 * **audienceSetDpid:&#x200B;dpuuid:**
 
-   Define a DPID e a DPUUID. Quando definido, os dois serão anexados a cada sinal.
+   Define a DPID e a DPUUID. Quando definido, ambos serão anexados a cada sinal.
 
-   * A **ID do provedor de dados (DPID)** é a ID do parceiro de dados atribuída pelo Audience Manager.
-   * A **ID única de usuário do provedor de dados (DPUUID)** é a ID única do provedor de dados para o usuário.
+   * A ID do provedor de **dados (DPID)** é a ID do parceiro de dados atribuída pelo Audience Manager.
+   * A ID de usuário exclusiva (DPUUID) **do provedor de** dados é a ID exclusiva do provedor de dados para o usuário.
 
       >[!IMPORTANT]
       >
-      >Antes da versão 4.13.x, a DPUUID não era codificada automaticamente. A partir da versão 4.13.x, o SDK primeiro decodifica o valor passado e depois codifica novamente esse valor. Esse processo assegura que o SDK não interfere na compatibilidade com versões anteriores.
+      >Antes da versão 4.13.x, a DPUUID não era codificada automaticamente. A partir da versão 4.13.x, o SDK primeiro descodifica o valor que foi passado e depois codifica novamente esse valor. Esse processo garante que o SDK não quebre a compatibilidade com versões anteriores.
 
    * Esta é a sintaxe para este método:
 
