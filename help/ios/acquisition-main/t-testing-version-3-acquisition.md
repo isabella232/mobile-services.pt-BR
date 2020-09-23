@@ -5,8 +5,11 @@ seo-title: Teste da aquisição V3
 solution: Experience Cloud,Analytics
 title: Teste da aquisição V3
 uuid: 89137ccf-4839-4b37-926e-303cf8e511a5
-translation-type: ht
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '620'
+ht-degree: 97%
 
 ---
 
@@ -17,12 +20,12 @@ Esta informação ajuda a redirecionar um link de campanha de aquisição V3 com
 
 >[!IMPORTANT]
 >
->A aquisição V3 se refere aos links de aquisição criados com o Criador de aquisição na interface do Adobe Mobile Services. Para usar esse recurso, você deve atualizar para o SDK do iOS versão 4.6.0 ou posterior.
+>A aquisição V3 se refere aos links de aquisição criados com o Criador de aquisição na interface do Adobe Mobile Services. Para usar esse recurso, é necessário atualizar para o iOS SDK versão 4.6.0 ou posterior.
 
-Se o aplicativo móvel ainda não estiver na App Store, ao criar o link da campanha, selecione qualquer aplicativo móvel como destino. Isso afeta somente o aplicativo ao qual o servidor de aquisição redireciona você depois de clicar no link de aquisição, mas não afeta a capacidade de testar o link.
+Se o aplicativo móvel ainda não estiver na App Store, ao criar o link de campanha, selecione qualquer aplicativo móvel como destino. Essa ação só afeta o aplicativo para o qual o servidor de aquisição o redireciona após clicar no link de aquisição, mas não afeta a capacidade de testar o link.
 
-1. Conclua as tarefas de pré-requisito na [Aquisição de aplicativos para dispositivos móveis](/help/ios/acquisition-main/acquisition.md).
-1. Navegue até o **[!UICONTROL Criador de aquisição]** na interface do Adobe Mobile Services e gere um URL de campanha de aquisição.
+1. Conclua as tarefas de pré-requisito na [Aplicativo móvel do Acquisition](/help/ios/acquisition-main/acquisition.md).
+1. Navegue até o **[!UICONTROL Criador de aquisição]** na interface do usuário dos Adobe Mobile Services e gere um URL de campanha de aquisição.
 
    Por exemplo:
 
@@ -31,7 +34,7 @@ Se o aplicativo móvel ainda não estiver na App Store, ao criar o link da campa
    ```
 
 
-   Se você se referir aos aplicativos iOS e Android no link de aquisição, use a Apple Store como a loja padrão.
+   Se você fizer referência aos aplicativos iOS e Android no link de aquisição, use a Apple Store como a loja padrão.
 1. Abra o link gerado em um navegador de desktop e vá para `https://c00.adobe.com/v3/<appid>/end`.
 
    Você deve ver o `contextData` na resposta JSON:
@@ -45,7 +48,7 @@ Se o aplicativo móvel ainda não estiver na App Store, ao criar o link da campa
 
    | Configuração | Valor |
    |--- |--- |
-   | aquisição | O servidor deve ser  `c00.adobe.com`. *`appid`* deve ser igual ao *`appid`* no link de aquisição. |
+   | aquisição | O servidor deve ser `c00.adobe.com`. *`appid`* deve ser igual ao *`appid`* no link de aquisição. |
    | analytics | `referrerTimeout` deve ter um valor maior que 0. |
 
 
@@ -63,7 +66,7 @@ Se o aplicativo móvel ainda não estiver na App Store, ao criar o link da campa
    `"Analytics - Trying to fetch referrer data from <acquisition end url>"`
    `"Analytics - Received Referrer Data(<Json Object>)"`
 
-   Se você não vir os registros acima, verifique se concluiu as etapas 4 e 5.
+   Se não vir os registros acima, verifique se concluiu as etapas 4 e 5.
 
    Estas são algumas informações sobre possíveis erros:
 
@@ -84,7 +87,7 @@ Ocorreu um erro de rede.
 
    * `Analytics - Acquisition referrer timed out`
 
-      Falha ao obter a resposta no tempo definido por `referrerTimeout`. Aumente o valor e tente novamente. Você também deve garantir que abriu o link de aquisição antes de instalar o aplicativo e que esteja usando a mesma rede quando clicar no URL e abrir o aplicativo.
+      Falha ao obter a resposta no tempo definido por `referrerTimeout`. Aumente o valor e tente novamente. Você também deve garantir que abriu o link de aquisição antes de instalar o aplicativo e que está usando a mesma rede ao clicar no URL e abrir o aplicativo.
 
       Lembre-se das seguintes informações:
 
