@@ -1,26 +1,29 @@
 ---
-description: Informações para ajudá-lo a fazer chamadas para o plug-in por meio de seus scripts.
+description: Informações para ajudá-lo a fazer chamadas para o plug-in a partir de seus scripts.
 keywords: Xamarin
-seo-description: Informações para ajudá-lo a fazer chamadas para o plug-in por meio de seus scripts.
-seo-title: Making calls to the library
-solution: Marketing Cloud,Developer
-title: Efetuar chamadas para a biblioteca
+seo-description: Informações para ajudá-lo a fazer chamadas para o plug-in a partir de seus scripts.
+seo-title: Fazer chamadas para a biblioteca
+solution: Experience Cloud
+title: Fazer chamadas para a biblioteca
 uuid: a480201a-4090-4662-8dd8-56f62144cd93
 translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 13%
 
 ---
 
 
-# Making calls to the library{#making-calls-to-the-library}
+# Fazer chamadas para a biblioteca{#making-calls-to-the-library}
 
 Essas informações ajudam você a fazer chamadas para o plug-in a partir de seus scripts.
 
-Caso queira realizar chamadas para o plug-in a partir dos scripts, é necessário importar o namespace.
+Quando quiser fazer chamadas para o plug-in a partir de seus scripts, é necessário importar a namespace.
 
-By using :`Com.Adobe.Mobile`
+Usando `Com.Adobe.Mobile`:
 
-* **iOS**: Depois de importar o namespace, você pode fazer chamadas diretamente para o SDK por meio dos métodos estáticos nas `ADBMobile` classes.
+* **iOS**: Depois de importar a namespace, você pode fazer chamadas diretamente para o SDK por meio dos métodos estáticos nas `ADBMobile` classes.
 
 * **Android**: Você pode fazer chamadas diretamente para o SDK por meio dos métodos estáticos nas `Config/Analytics/Target/AudienceManager/Media`classes.
 
