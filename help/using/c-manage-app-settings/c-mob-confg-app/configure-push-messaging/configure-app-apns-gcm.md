@@ -1,14 +1,17 @@
 ---
 description: É possível configurar seu aplicativo para usar o Serviço de notificação por push da Apple (APNS) ou o Firebase Cloud Messaging (FCM).
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: É possível configurar seu aplicativo para usar o Serviço de notificação por push da Apple (APNS) ou o Firebase Cloud Messaging (FCM).
 seo-title: Configurar o aplicativo para uso do APNS ou do FCM
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Configurar o aplicativo para uso do APNS ou do FCM
-topic: Métricas
+topic: Metrics
 uuid: fa411f2a-ba47-4499-bbe5-1aedef6b49ad
-translation-type: ht
-source-git-commit: 608384f1fee2a05699ff13fbd51c3cc43aeb693c
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '652'
+ht-degree: 90%
 
 ---
 
@@ -83,10 +86,10 @@ Nesse caso, para configurar seu aplicativo Android para usar o FCM, siga os pass
 
 Para configurar o aplicativo iOS para usar o APNS:
 
-1. Acesse [https://developer.apple.com/account](https://developer.apple.com/account) e faça logon com sua [conta de desenvolvedor da Apple](https://developer.apple.com/account).
+1. Go to [https://developer.apple.com/account](https://developer.apple.com/account) and log in to your [Apple Developer account](https://developer.apple.com/account).
 1. Em **[!UICONTROL Aplicativos iOS]**, selecione **[!UICONTROL Identificadores]**.
 1. Se você tiver uma ID do aplicativo configurada para push, vá para a Etapa 11.
-1. Pressione o botão **[!UICONTROL +]** para criar uma nova ID do aplicativo.
+1. Press the **[!UICONTROL +]** button to create a new App ID.
 1. Digite uma descrição da ID do aplicativo.
 1. Digite um sufixo da ID do aplicativo.
 
@@ -114,10 +117,10 @@ Para obter o certificado SSL e a chave privada (APNS):
 1. Abra **[!UICONTROL Acesso ao chaveiro]**.
 1. Clique em **[!UICONTROL Meus certificados]** e localize o **[!UICONTROL Certificado de serviços por do iOS]** apropriado para seu aplicativo e ambiente.
 
-   Você pode identificar o certificado correto ao corresponder a ID do pacote e se é de Desenvolvimento ou Produção.
+   É possível identificar o certificado correto ao corresponder à ID do pacote e se é Desenvolvimento ou Produção.
 
-1. Amplie o certificado e confira se ele contém uma chave privada.
-1. Clique com o botão direito do mouse na chave privada e selecione **[!UICONTROL Exportar "*`<name of key>`*]**.
+1. Expanda o certificado e verifique se ele contém uma chave privada.
+1. Clique com o botão direito do mouse na chave privada e selecione **[!UICONTROL Exportar &quot;*`<name of key>`*]**.
 1. Digite as informações necessárias na caixa de diálogo e salve o novo arquivo `.p12`.
 
    Não é necessário digitar uma senha.
