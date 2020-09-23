@@ -1,14 +1,17 @@
 ---
 description: Conclua os seguintes pré-requisitos para usar os links de aquisição.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: Conclua os seguintes pré-requisitos para usar os links de aquisição.
 seo-title: Pré-requisitos de aquisição
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Pré-requisitos de aquisição
-topic: Métricas
+topic: Metrics
 uuid: a224499a-5a51-4ca5-a37b-06792b774671
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 85%
 
 ---
 
@@ -41,4 +44,4 @@ Para rastrear os Links de marketing, deve-se atender aos seguintes pré-requisit
 
 1. Adicionar aplicativos da loja de aplicativos
 
-   Você deve adicionar o aplicativo da Apple App Store ou do Google Play. Para obter mais informações, consulte [Adicionar um aplicativo de uma loja de aplicativos](/help/using/manage-apps/c-app-store/t-app-store-app.md)
+   Você deve adicionar o aplicativo da Apple App Store ou do Google Play. Para obter mais informações, consulte [Adicionar um aplicativo de uma loja](/help/using/manage-apps/c-app-store/t-app-store-app.md)de aplicativos.
