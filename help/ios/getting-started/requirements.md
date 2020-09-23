@@ -4,10 +4,13 @@ seo-description: Conclua essas etapas a fim de configurar um conjunto de relató
 seo-title: Antes de começar
 solution: Experience Cloud,Analytics
 title: Antes de começar
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 04133f68-3618-41fd-8a13-aec5b6f04df6
-translation-type: ht
-source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '595'
+ht-degree: 93%
 
 ---
 
@@ -27,7 +30,7 @@ Para configurar um conjunto de relatórios e coletar dados do aplicativo móvel:
 1. Conclua uma das seções em [Fazer logon na interface do usuário do Adobe Mobile Services](/help/ios/getting-started/getting-started.md).
 1. Crie uma conta do Analytics para cada desenvolvedor de aplicativos.
 
-Os desenvolvedores de aplicativos agora têm acesso para visualizar o(s) conjunto(s) de relatórios criados por você.
+Os desenvolvedores de aplicativos agora têm acesso à visualização dos conjuntos de relatórios criados.
 
 >[!IMPORTANT]
 >
@@ -42,11 +45,11 @@ Os desenvolvedores de aplicativos agora têm acesso para visualizar o(s) conjunt
 
 Para obter mais informações sobre funções e permissões, consulte [Funções e permissões](/help/using/gs/c-mob-roles-and-permissions.md).
 
-## Fazer logon na interface do usuário do Adobe Mobile Services {#section_690A2EC4572E47869F183974E932A6A8}
+## Fazer logon na interface do usuário do Adobe Mobile Services  {#section_690A2EC4572E47869F183974E932A6A8}
 
-Os Adobe Mobile Services são a principal interface de relatórios para análise e segmentação de aplicativos móveis. Depois de concluir estas etapas, você pode baixar um arquivo de configuração pré-configurado com seu servidor de coleta de dados, conjunto de relatórios e muitas outras configurações.
+O Adobe Mobile Services é a principal interface de relatórios para análise e direcionamento de aplicativos móveis. Após concluir essas etapas, é possível baixar um arquivo de configuração pré-configurado com seu servidor de coleta de dados, conjunto de relatórios e muitas outras configurações.
 
-É possível fazer logon no Adobe Mobile Services de uma das seguintes maneiras:
+Você pode fazer logon no Adobe Mobile Services de uma das seguintes maneiras:
 
 * **Experience Cloud**
 
@@ -60,7 +63,7 @@ Os Adobe Mobile Services são a principal interface de relatórios para análise
 
 * **Adobe Analytics**
 
-   Clique em **[!UICONTROL Fazer logon com o Analytics]** e digite o nome da empresa do Analytics, o nome de usuário e a senha.
+   Clique em **[!UICONTROL Fazer logon com o Analytics]** e digite o nome da empresa do Analytics, o nome de usuário e a senha.
 
 ## Criar um novo conjunto de relatórios {#section_7BC602ED1ABA42C6AB722F506B5219F3}
 
@@ -68,9 +71,9 @@ Para criar um conjunto de relatórios para coletar dados do aplicativo e definir
 
 1. Clique em **[!UICONTROL Criar novo aplicativo]**.
 
-   Se não vir este botão, clique em **[!UICONTROL Gerenciar aplicativos]** &gt; **[!UICONTROL Adicionar]**.
+   Se não vir este botão, clique em **[!UICONTROL Gerenciar aplicativos]** > **[!UICONTROL Adicionar]**.
 
-1. No menu suspenso **[!UICONTROL Conjunto de relatórios]**, selecione **[!UICONTROL Novo conjunto de relatórios]**.
+1. No menu suspenso **[!UICONTROL Conjunto de relatórios]**, selecione **[!UICONTROL Novo conjunto de relatórios]**.
 
 1. Digite o nome do aplicativo e selecione uma ID de conjunto de relatórios exclusiva.
 
