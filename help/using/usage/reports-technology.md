@@ -1,14 +1,17 @@
 ---
 description: O relatório Tecnologia permite ver os diferentes tipos de dispositivos, sistemas operacionais, versões de sistemas operacionais e operadoras de celular nos quais seu aplicativo é usado.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: O relatório Tecnologia permite ver os diferentes tipos de dispositivos, sistemas operacionais, versões de sistemas operacionais e operadoras de celular nos quais seu aplicativo é usado.
 seo-title: Relatório de tecnologia
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Relatório de tecnologia
-topic: Relatórios, Métricas
+topic: Reports,Metrics
 uuid: 4b7322c4-8920-43cd-bb72-5a5bd515ae84
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 78%
 
 ---
 
@@ -21,7 +24,7 @@ Este relatório fornece uma visualização em forma de raio de sol dos dados exi
 
 ## Navegação e utilização {#section_83CA60E1AE6245FEBCBFF3205615C4DF}
 
-Esta visualização fornece, por exemplo, o relatório de base e detalhamentos, usa a altura para mostrar a métrica em foco e as diferenças de desempenho entre as métricas. Cada anel representa um segmento de público-alvo na categoria anéis. É possível realizar ações com um público-alvo, como aplicar um filtro fixo, ocultar uma métrica e visualizar métricas.
+Essa visualização fornece, por exemplo, o relatório básico e os detalhamentos, usa a altura para mostrar a métrica em foco e as diferenças de desempenho entre as métricas. Cada anel representa um segmento de audiência na categoria do anel. É possível realizar ações em uma audiência, como aplicar um filtro fixo, ocultar uma métrica e visualizar métricas.
 
 >[!TIP]
 >
@@ -29,14 +32,14 @@ Esta visualização fornece, por exemplo, o relatório de base e detalhamentos, 
 
 ![](assets/report_technology.png)
 
-O gráfico em forma de raio de sol é interativo e você pode realizar as seguintes tarefas:
+O gráfico em forma de raio de sol é interativo e você pode concluir as seguintes tarefas:
 
 * Passe o mouse sobre qualquer parte do gráfico para exibir mais informações.
 * Altere o período de tempo, clicando no ícone **[!UICONTROL Calendário]**.
 * Clique em uma parte do anel para selecionar o público-alvo no qual você pode realizar ações, como ampliar, ocultar públicos-alvo, criar uma mensagem no aplicativo ou um filtro fixo.
 * No canto superior direito, selecione **[!UICONTROL Tipo de dispositivo]** e **[!UICONTROL Dispositivo]** para exibir as informações sobre os dispositivos e tipos de dispositivos.
 
-* Clique em uma métrica secundária à direita para adicioná-la à visualização.
+* Clique em uma métrica secundária no lado direito para adicioná-la à visualização.
 
    Você pode exibir a métrica secundária por cor, altura ou ambos.
 
@@ -44,10 +47,10 @@ A tabela abaixo descreve os relatórios padrão e como eles são preenchidos no 
 
 | Relatório | Método de preenchimento | Descrição |
 |--- |--- |--- |
-| Dispositivo | Medições de ciclo de vida | Métricas comuns detalhadas pelo tipo de dispositivo. |
+| Dispositivo | Medições de ciclo de vida | Métricas comuns detalhadas por tipo de dispositivo. |
 | Sistemas operacionais | Automático | Métricas comuns detalhadas pelo sistema operacional. |
-| Versão do sistema operacional | Medições de ciclo de vida | Métricas comuns detalhadas pela versão do sistema operacional. |
-| Operadoras | Automático | Métricas comuns detalhadas pelas operadoras. |
+| Versão do sistema operacional | Medições de ciclo de vida | Métricas comuns detalhadas por versão do sistema operacional. |
+| Operadoras | Automático | Métricas comuns detalhadas por operadoras. |
 
 >[!TIP]
 >
