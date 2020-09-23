@@ -1,20 +1,23 @@
 ---
-description: Os estados são telas ou exibições diferentes no aplicativo. Sempre que um novo estado for exibido no aplicativo (por exemplo, quando um usuário navega da página inicial para o feed de notícias), uma chamada de rastreamento de estado será enviada. No iOS, um estado normalmente é rastreado pelo método viewDidLoad de cada exibição.
-seo-description: Os estados são telas ou exibições diferentes no aplicativo. Sempre que um novo estado for exibido no aplicativo (por exemplo, quando um usuário navega da página inicial para o feed de notícias), uma chamada de rastreamento de estado será enviada. No iOS, um estado normalmente é rastreado pelo método viewDidLoad de cada exibição.
+description: Os estados são telas ou exibições diferentes no aplicativo. Cada vez que um novo estado é exibido em seu aplicativo, por exemplo, quando um usuário navega do home page para o feed de notícias, uma chamada de rastreamento de estado deve ser enviada. No iOS, um estado normalmente é rastreado no método viewDidLoad de cada visualização.
+seo-description: Os estados são telas ou exibições diferentes no aplicativo. Cada vez que um novo estado é exibido em seu aplicativo, por exemplo, quando um usuário navega do home page para o feed de notícias, uma chamada de rastreamento de estado deve ser enviada. No iOS, um estado normalmente é rastreado no método viewDidLoad de cada visualização.
 seo-title: Rastrear estados do aplicativo
 solution: Experience Cloud,Analytics
 title: Rastrear estados do aplicativo
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 12cca4eb-1f15-4cec-a58f-76b69eaff99d
-translation-type: ht
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 58%
 
 ---
 
 
 # Rastrear estados do aplicativo {#track-app-states}
 
-Os estados são telas ou exibições diferentes no aplicativo. Sempre que um novo estado for exibido no aplicativo (por exemplo, quando um usuário navega da página inicial para o feed de notícias), uma chamada de rastreamento de estado será enviada. No iOS, um estado normalmente é rastreado pelo método viewDidLoad de cada exibição.
+Os estados são telas ou exibições diferentes no aplicativo. Cada vez que um novo estado é exibido em seu aplicativo, por exemplo, quando um usuário navega do home page para o feed de notícias, uma chamada de rastreamento de estado deve ser enviada. No iOS, um estado normalmente é rastreado no método viewDidLoad de cada visualização.
 
 >[!TIP]
 >
@@ -56,10 +59,10 @@ Os valores dos dados de contexto devem ser mapeados para variáveis personalizad
 
 ## Relatório do estado do aplicativo {#section_0F6A54AB7A3F42C9BB042D86A0FC4630}
 
-Os estados geralmente são vistos usando um relatório de definição de caminho para que você possa ver como os usuários navegam no seu aplicativo e quais estados são exibidos mais.
+Normalmente, os estados são visualizados usando um relatório de definição de caminho para que você possa ver como os usuários navegam no aplicativo e quais estados são mais visualizados.
 
 |  |  |
 |--- |--- |
-| Adobe Mobile Services | O relatório **[!UICONTROL Exibir estados]**. Este relatório está baseado nos caminhos que o usuário tomou pelo aplicativo. Um caminho de amostra é **[!UICONTROL Início]** &gt; **[!UICONTROL Configurações]** &gt; **[!UICONTROL Feed]**. |
+| Adobe Mobile Services | O relatório **[!UICONTROL Exibir estados]**. Este relatório está baseado nos caminhos que o usuário tomou pelo aplicativo. A sample path is  **[!UICONTROL Home]**  >  **[!UICONTROL Settings]**  > **[!UICONTROL Feed]**. |
 | Adobe Analytics | Os estados podem ser exibidos em qualquer lugar em que as Páginas podem ser exibidas, como o relatório **[!UICONTROL Páginas]**, o relatório **[!UICONTROL Exibições da página]** e relatórios de **[!UICONTROL Caminho]**. |
 | Ad hoc analytics | Os estados podem ser exibidos em qualquer lugar em que as Páginas possam ser exibidas usando a dimensão **[!UICONTROL Página]**, a métrica **[!UICONTROL Exibições da página]** e os relatórios de **[!UICONTROL Caminho]**. |
