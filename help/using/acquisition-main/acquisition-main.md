@@ -1,29 +1,32 @@
 ---
-description: Os profissionais de marketing podem criar links de rastreamento para promover e direcionar o tráfego para seus aplicativos. Esses links de rastreamento podem direcionar usuários para app stores, deep links de aplicativos e intersticiais, que podem ser correlacionados ao comportamento no aplicativo. Um profissional de marketing pode criar um único link para direcionar usuários para iOS, Android ou outras plataformas, conforme necessário.
-keywords: dispositivos móveis
-seo-description: Os profissionais de marketing podem criar links de rastreamento para promover e direcionar o tráfego para seus aplicativos. Esses links de rastreamento podem direcionar usuários para app stores, deep links de aplicativos e intersticiais, que podem ser correlacionados ao comportamento no aplicativo. Um profissional de marketing pode criar um único link para direcionar usuários para iOS, Android ou outras plataformas, conforme necessário.
+description: Os profissionais de marketing podem criar links de rastreamento para promover e direcionar o tráfego para seus aplicativos. Esses links de rastreamento podem direcionar usuários para app stores, deep links de aplicativos e intersticiais, que podem ser correlacionados ao comportamento no aplicativo. Um comerciante pode criar um link para direcionar usuários para iOS, Android ou outras plataformas, conforme apropriado.
+keywords: mobile
+seo-description: Os profissionais de marketing podem criar links de rastreamento para promover e direcionar o tráfego para seus aplicativos. Esses links de rastreamento podem direcionar usuários para app stores, deep links de aplicativos e intersticiais, que podem ser correlacionados ao comportamento no aplicativo. Um comerciante pode criar um link para direcionar usuários para iOS, Android ou outras plataformas, conforme apropriado.
 seo-title: Aquisição
 solution: Experience Cloud,Analytics
 title: Aquisição
-topic: Métricas
+topic: Metrics
 uuid: 987146e4-2cca-46e7-88aa-74b62d9f1dc5
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 84%
 
 ---
 
 
 # Aquisição {#acquisition}
 
-Os profissionais de marketing podem criar links de rastreamento para promover e direcionar o tráfego para seus aplicativos. Esses links de rastreamento podem direcionar usuários para app stores, deep links de aplicativos e intersticiais, que podem ser correlacionados ao comportamento no aplicativo. Um profissional de marketing pode criar um único link para direcionar usuários para iOS, Android ou outras plataformas, conforme necessário.
+Os profissionais de marketing podem criar links de rastreamento para promover e direcionar o tráfego para seus aplicativos. Esses links de rastreamento podem direcionar usuários para app stores, deep links de aplicativos e intersticiais, que podem ser correlacionados ao comportamento no aplicativo. Um comerciante pode criar um link para direcionar usuários para iOS, Android ou outras plataformas, conforme apropriado.
 
 ## Nova versão do SDK da Adobe Experience Cloud
 
-Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para acessar a documentação mais recente.
+Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para obter a documentação mais recente.
 
 Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/br/experience-platform/launch.html).
 
-* Para começar, acesse o [Launch](https://launch.adobe.com/).
+* To get started, go to [Launch](https://launch.adobe.com/).
 * Para ver o conteúdo dos repositórios SDK da Experience Platform, acesse [Github: SDKs da Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 >[!IMPORTANT]
