@@ -1,20 +1,23 @@
 ---
-description: A variável products não pode ser configurada usando as regras de processamento. No SDK 4.x para iOS, é necessário usar uma sintaxe especial no parâmetro de dados de contexto para definir products diretamente na chamada do servidor.
-seo-description: A variável products não pode ser configurada usando as regras de processamento. No SDK 4.x para iOS, é necessário usar uma sintaxe especial no parâmetro de dados de contexto para definir products diretamente na chamada do servidor.
+description: A variável products não pode ser definida usando regras de processamento. No SDK 4.x do iOS, é necessário usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos diretamente na chamada do servidor.
+seo-description: A variável products não pode ser definida usando regras de processamento. No SDK 4.x do iOS, é necessário usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos diretamente na chamada do servidor.
 seo-title: Variável products
 solution: Experience Cloud,Analytics
 title: Variável products
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 6ece4d27-ef86-435c-a6f7-bd76be1c95ca
-translation-type: ht
-source-git-commit: 7aff336586058302046a728a0b1b0ce12660c1ba
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 44%
 
 ---
 
 
 # Variável products {#products-variable}
 
-A variável products não pode ser configurada usando as regras de processamento. No SDK 4.x para iOS, é necessário usar uma sintaxe especial no parâmetro de dados de contexto para definir products diretamente na chamada do servidor.
+A variável products não pode ser definida usando regras de processamento. No SDK 4.x do iOS, é necessário usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos diretamente na chamada do servidor.
 
 Para configurar a variável *`products`*, defina uma chave de dados de contexto para `"&&products"` e defina o valor usando a sintaxe definida para a variável *`products`*:
 
