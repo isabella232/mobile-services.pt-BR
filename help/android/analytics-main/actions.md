@@ -1,20 +1,23 @@
 ---
-description: Ações são eventos que ocorrem no aplicativo Android que você deseja avaliar.
-seo-description: Ações são eventos que ocorrem no aplicativo Android que você deseja avaliar.
+description: As ações são os eventos que ocorrem no aplicativo Android que você deseja avaliar.
+seo-description: As ações são os eventos que ocorrem no aplicativo Android que você deseja avaliar.
 seo-title: Rastrear ações do aplicativo
 solution: Experience Cloud,Analytics
 title: Rastrear ações do aplicativo
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: fe01c1df-f6bb-4b32-b3ef-959d2c724af6
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '379'
+ht-degree: 88%
 
 ---
 
 
 # Rastrear ações do aplicativo {#track-app-actions}
 
-Ações são eventos que ocorrem no aplicativo Android que você deseja avaliar.
+As ações são os eventos que ocorrem no aplicativo Android que você deseja avaliar.
 
 Cada ação tem uma ou mais métricas correspondentes, que são incrementadas sempre que o evento ocorre. Por exemplo, você pode enviar uma chamada `trackAction` para cada assinatura nova sempre que um artigo é visualizado ou um nível é concluído. As ações não são rastreadas automaticamente, por isso, faça uma chamada `trackAction` quando ocorrer um evento que você deseja rastrear e mapeie a ação para um evento personalizado.
 
