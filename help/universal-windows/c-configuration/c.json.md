@@ -1,13 +1,16 @@
 ---
 description: Informações para ajudá-lo a usar o arquivo de configuração JSON do ADBMobile.
 seo-description: Informações para ajudá-lo a usar o arquivo de configuração JSON do ADBMobile.
-seo-title: Configuração ADBMobileConfig.json
-solution: Marketing Cloud,Analytics
-title: Configuração ADBMobileConfig.json
+seo-title: Configuração do ADBMobileConfig.json
+solution: Experience Cloud,Analytics
+title: Configuração do ADBMobileConfig.json
 topic: Developer and implementation
 uuid: cbcb54a3-4b8f-4651-8ce9-2731ac988545
 translation-type: tm+mt
-source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '620'
+ht-degree: 41%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 Informações para ajudá-lo a usar o arquivo de configuração JSON do ADBMobile.
 
-Atualmente, o SDK oferece suporte para várias Soluções da Adobe Experience Cloud, incluindo Analytics, Público alvo e Audiência Manager. Os métodos apresentam prefixos de acordo com a solução. Métodos de configuração recebem o prefixo &quot;Config&quot;.
+O SDK suporta atualmente várias Soluções Adobe Experience Cloud, incluindo Analytics, Público alvo e Audience Manager. Os métodos apresentam prefixos de acordo com a solução. Métodos de configuração recebem o prefixo &quot;Config&quot;.
 
 * **rsids**
 
@@ -40,7 +43,7 @@ Atualmente, o SDK oferece suporte para várias Soluções da Adobe Experience Cl
 
 * **charset**
 
-   Define o conjunto de caracteres que você está usando para os dados enviados ao Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte [s.charSet](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/charset.html).
+   Define o conjunto de caracteres que você está usando para os dados enviados ao Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte [s.charSet](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/config-vars/charset.html).
 
 * **ssl**
 
@@ -58,7 +61,7 @@ Atualmente, o SDK oferece suporte para várias Soluções da Adobe Experience Cl
 
 * **lifecycleTimeout**
 
-   Especifica a duração, em segundos, entre as inicializações do aplicativo antes que a inicialização seja considerada uma nova sessão. Esse tempo limite também se aplica quando seu aplicativo é enviado para o plano de fundo e reativado. O tempo que seu aplicativo gasta em segundo plano não é incluído na duração da sessão.
+   Especifica a duração, em segundos, entre as inicializações do aplicativo antes que a inicialização seja considerada uma nova sessão. Esse tempo limite também se aplica quando o aplicativo é enviado para o plano de fundo e reativado. O tempo que o aplicativo gasta em segundo plano não é incluído na duração da sessão.
 
    O valor padrão é de 300 segundos.
 
