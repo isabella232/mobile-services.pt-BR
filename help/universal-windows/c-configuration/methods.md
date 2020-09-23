@@ -2,20 +2,20 @@
 description: Classes e métodos fornecidos pela biblioteca da plataforma Universal Windows.
 seo-description: Classes e métodos fornecidos pela biblioteca da plataforma Universal Windows.
 seo-title: Métodos do SDK
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Métodos do SDK
 topic: Developer and implementation
 uuid: e3aa41d6-7bc0-4208-a662-12907c209a77
 translation-type: tm+mt
-source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 66%
+ht-degree: 67%
 
 ---
 
 
-# SDK methods {#sdk-methods}
+# Métodos do SDK {#sdk-methods}
 
 Classes e métodos fornecidos pela biblioteca da plataforma Universal Windows.
 
@@ -78,7 +78,7 @@ Classes e métodos fornecidos pela biblioteca da plataforma Universal Windows.
 
 * **SetPrivacyStatus (winJS: setPrivacyStatus)**
 
-   Define o de privacidade do usuário atual como `status`status. É definido como um dos valores abaixo:
+   Define o de privacidade do usuário atual como `status` status. É definido como um dos valores abaixo:
    * `ADBMobilePrivacyStatusOptIn` - as ocorrências são enviadas imediatamente.
    * `ADBMobilePrivacyStatusOptOut` - as ocorrências serão descartadas.
    * `DBMobilePrivacyStatusUnknown` - Se o conjunto de relatórios estiver habilitado para mostrar o carimbo de data e hora, as ocorrências serão salvas até o status de privacidade ser alterado para aceitar (as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas. Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in.
