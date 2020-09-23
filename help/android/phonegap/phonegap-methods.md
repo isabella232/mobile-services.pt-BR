@@ -3,13 +3,13 @@ description: É possível usar os métodos de plug-in do iOS PhoneGap para execu
 keywords: android;library;mobile;sdk
 seo-description: É possível usar os métodos de plug-in do iOS PhoneGap para executar várias tarefas.
 seo-title: Métodos do plug-in PhoneGap
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Métodos do plug-in PhoneGap
 topic: Developer and implementation
 uuid: bc3db9ce-81b7-45ec-88aa-6020c1db5d9c
-translation-type: ht
-source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 100%
 
