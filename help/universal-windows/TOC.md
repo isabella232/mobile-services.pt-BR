@@ -1,27 +1,27 @@
 ---
 product: mobile-services
 audience: end-user
-user-guide-title: Guia da Plataforma Universal Windows do Mobile Services
+user-guide-title: Guia da plataforma universal do Windows para Mobile Services
 breadcrumb-title: Universal Windows Platform Guide
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 18ef20df0a32741685e35cee98a1adf4a1b823a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '68'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
 
-# Guia da Plataforma Universal Windows do Mobile Services {#universal-windows}
+# Guia da plataforma universal do Windows para Mobile Services {#universal-windows}
 
 + [Universal Windows Platform SDK 4.x para Soluções da Experience Cloud](overview.md)
 + Comece já {#get-started-univ-win-plat}
    + [Comece já](c-getting-started/c-getting-started.md)
-   + [Start rápido do desenvolvedor](c-getting-started/dev-qs.md)
+   + [Início rápido do desenvolvedor](c-getting-started/dev-qs.md)
 + [Notas de versão](release-notes.md)
 + Configuração {#config-univ-win-plat}
    + [Visão geral da configuração](c-configuration/c-configuration.md)
-   + [Configuração ADBMobileConfig.json](c-configuration/c.json.md)
+   + [Configuração do ADBMobileConfig.json](c-configuration/c.json.md)
    + [Métodos do SDK](c-configuration/methods.md)
 + Analytics {#analytics-univ-win-plat}
    + [Visão geral do Analytics](analytics/analytics.md)
@@ -32,5 +32,5 @@ ht-degree: 52%
 + [Métodos do Target](target/target-methods.md)
 + [Métodos do Audience Manager](audiencemgmt/audience-manager-methods.md)
 + [Métricas de ciclo de vida](metrics.md)
-+ [Extensões do Visual Studio do Windows para Experience Cloud Solutions 4.x SDK](extensions/win-vse-4x.md)
++ [Extensões do Windows Visual Studio para o SDK 4.x das Soluções da Experience Cloud](extensions/win-vse-4x.md)
 + [Migrar para 4.x](migration-v3.md)
