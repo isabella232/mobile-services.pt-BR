@@ -1,30 +1,33 @@
 ---
-description: As ações cronometradas permitem medir o tempo no aplicativo e o tempo total entre o início e o fim de uma ação. O SDK calcula a quantidade de tempo em cada sessão e o tempo total em todas as sessões que levará para uma ação ser concluída. É possível usar as ações cronometradas para definir segmentos e comparar o tempo de compra, o nível de passagem, o fluxo de finalização da compra e assim por diante.
-seo-description: As ações cronometradas permitem medir o tempo no aplicativo e o tempo total entre o início e o fim de uma ação. O SDK calcula a quantidade de tempo em cada sessão e o tempo total em todas as sessões que levará para uma ação ser concluída. É possível usar as ações cronometradas para definir segmentos e comparar o tempo de compra, o nível de passagem, o fluxo de finalização da compra e assim por diante.
+description: As ações cronometradas permitem medir o tempo no aplicativo e o tempo total entre o início e o fim de uma ação. O SDK calcula a quantidade de tempo em cada sessão e o tempo total em todas as sessões que levará para a ação ser concluída. É possível usar as ações cronometradas para definir segmentos e comparar o tempo de compra, o nível de passagem, o fluxo de finalização da compra e assim por diante.
+seo-description: As ações cronometradas permitem medir o tempo no aplicativo e o tempo total entre o início e o fim de uma ação. O SDK calcula a quantidade de tempo em cada sessão e o tempo total em todas as sessões que levará para a ação ser concluída. É possível usar as ações cronometradas para definir segmentos e comparar o tempo de compra, o nível de passagem, o fluxo de finalização da compra e assim por diante.
 seo-title: Ações cronometradas
 solution: Experience Cloud,Analytics
 title: Ações cronometradas
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 5a48a580-b942-4e49-9f1b-078fea7fccdb
-translation-type: ht
-source-git-commit: 97c0dc17bcc624b38e9eb8023eb1d69d02568d11
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '415'
+ht-degree: 64%
 
 ---
 
 
 # Ações cronometradas {#timed-actions}
 
-As ações cronometradas permitem medir o tempo no aplicativo e o tempo total entre o início e o fim de uma ação. O SDK calcula a quantidade de tempo em cada sessão e o tempo total em todas as sessões que levará para uma ação ser concluída. É possível usar as ações cronometradas para definir segmentos e comparar o tempo de compra, o nível de passagem, o fluxo de finalização da compra e assim por diante.
+As ações cronometradas permitem medir o tempo no aplicativo e o tempo total entre o início e o fim de uma ação. O SDK calcula a quantidade de tempo em cada sessão e o tempo total em todas as sessões que levará para a ação ser concluída. É possível usar as ações cronometradas para definir segmentos e comparar o tempo de compra, o nível de passagem, o fluxo de finalização da compra e assim por diante.
 
-As métricas a seguir são relatadas de ações programadas:
+As seguintes métricas são reportadas para ações cronometradas:
 
-* Número total de segundos no aplicativo entre o início e término (sessões cruzadas)
-* Número total de segundos entre o início e término (horário)
+* Número total de segundos no aplicativo entre o start e o término (sessões cruzadas)
+* Número total de segundos entre o start e o término (hora do relógio)
 
-Um retorno de chamada opcional permite que você tome uma ação adicional quando a ação cronometrada for concluída:
+Um retorno de chamada opcional permite executar ações adicionais quando a ação cronometrada é concluída:
 
-* Executar o código e adicionar qualquer lógica - lógica personalizada opcional baseada na duração dos resultados.
-* Adicionar dados de contexto antes de passar as durações.
+* Execute o código e adicione qualquer lógica - lógica personalizada opcional com base nos resultados de duração.
+* Adicione dados de contexto antes de transmitir durações.
 * Cancelar ocorrência e durações ainda não enviadas.
 
 ## Rastrear ações cronometradas {#section_FF5B1EDC1A5340A5B13BC0F1BF2E13E1}
