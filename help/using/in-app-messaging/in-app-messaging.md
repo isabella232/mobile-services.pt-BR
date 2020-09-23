@@ -1,14 +1,17 @@
 ---
 description: Crie, gerencie e gere relatórios de mensagens no aplicativo e de push.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: Crie, gerencie e gere relatórios de mensagens no aplicativo e de push.
 seo-title: Mensagens
 solution: Experience Cloud,Analytics
 title: Mensagens
-topic: Métricas
+topic: Metrics
 uuid: e32d3e35-2d09-4ddf-8919-75dc895abcb3
-translation-type: ht
-source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 82%
 
 ---
 
@@ -19,11 +22,11 @@ Você pode criar, gerenciar e gerar relatórios de mensagens no aplicativo e por
 
 ## Nova versão do SDK da Adobe Experience Cloud
 
-Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para acessar a documentação mais recente.
+Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para obter a documentação mais recente.
 
 Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/br/experience-platform/launch.html).
 
-* Para começar, acesse o [Launch](https://launch.adobe.com/).
+* To get started, go to [Launch](https://launch.adobe.com/).
 * Para ver o conteúdo dos repositórios SDK da Experience Platform, acesse [Github: SDKs da Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 >[!IMPORTANT]
@@ -34,7 +37,7 @@ Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Ad
 
 As mensagens no aplicativo são enviadas aos usuários em tempo real, com base em suas ações e características. As mensagens são acionadas pelos dados do Analytics que já foram rastreados pelo SDK.
 
-Os seguintes tipos de mensagens são suportados:
+Os seguintes tipos de mensagem são suportados:
 
 * Personalizado e temático
 * Tela cheia
@@ -47,11 +50,11 @@ Para entender como funciona uma mensagem no aplicativo, veja a seguir algumas in
 * Você deve especificar quem tem direitos de administrador do aplicativo móvel.
 
    Esses direitos ativam o acesso aos links de aquisição e às mensagens no aplicativo. Para obter mais informações, consulte [Funções e permissões](/help/using/gs/c-mob-roles-and-permissions.md).
-* Após ser aprovada, a mensagem é publicada automaticamente no aplicativo.
-* O SDK apresenta a mensagem aos usuários quando seus parâmetros (como características, acionador e agendamento) são cumpridos.
-* As mensagens podem conter código HTML personalizado ou uma imagem, usando um URL online.
+* Depois que uma mensagem é aprovada, a mensagem é publicada automaticamente no aplicativo.
+* O SDK apresenta a mensagem aos usuários quando os parâmetros da mensagem, como características, acionador e agendamento, são atendidos.
+* As mensagens podem conter HTML personalizado ou uma imagem, usando um URL online.
 
-   Uma imagem alternativa ou de backup do pacote do aplicativo também pode ser especificada para mensagens acionadas de forma offline.
+   Uma imagem alternativa ou de backup do conjunto de aplicativos também pode ser especificada para mensagens que são acionadas offline.
 * Mensagens ativas e completas oferecem relatórios sobre o total de visualizações, taxa de cliques e muito mais.
 * Estão disponíveis modelos para as mensagens personalizadas, o que permite criar facilmente sua própria mensagem no aplicativo.
 
