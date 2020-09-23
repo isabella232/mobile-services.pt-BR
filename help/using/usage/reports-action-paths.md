@@ -1,14 +1,17 @@
 ---
 description: O relatório Caminhos de ação se baseia na análise de caminhos e mostra um gráfico que representa os caminhos que foram tomados de um estado para outro no aplicativo.
-keywords: dispositivos móveis
+keywords: mobile
 seo-description: O relatório Caminhos de ação se baseia na análise de caminhos e mostra um gráfico que representa os caminhos que foram tomados de um estado para outro no aplicativo.
 seo-title: Relatório dos Caminhos de ação
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Relatório dos Caminhos de ação
-topic: Relatórios, Métricas
+topic: Reports,Metrics
 uuid: a21e5d9e-fd57-4178-9d64-87181b7f988b
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 69%
 
 ---
 
@@ -31,34 +34,34 @@ Para exibir as opções para modificar o gráfico, clique em um nó e em **[!UIC
 
 ![](assets/action_paths_icons.png)
 
-Para expandir, clique no ícone **[!UICONTROL +]**. Esta opção exibe os caminhos adicionais que entram ou saem do nó. No gráfico abaixo, o estado 1 é a inicialização do aplicativo, o estado 2 é a seleção de uma foto (o item expandido anteriormente) e o estado 3 inclui os diferentes caminhos que os usuários tomaram:
+To expand, click the **[!UICONTROL +]** icon. Essa opção exibe os caminhos adicionais que entram ou saem do nó. No gráfico abaixo, o estado 1 está inicializando o aplicativo, o estado 2 está escolhendo uma foto (o item que você expandiu anteriormente) e o estado 3 inclui os diferentes caminhos que os usuários tomaram:
 
-* Seleção de um item
-* Adição de um item
+* Selecionar um item
+* Adicionar um item
 * Arrastar um item
 * Dimensionamento de um item
 
-Expandir um estado é como um funil.
+Expandir um estado é semelhante a um funil.
 
 ![expansão do caminho de ação](assets/action_paths_expand.png)
 
-Para isolar o nó e mostrar os caminhos que entram e saem do nó selecionado, clique no ícone ![focus icon](assets/icon_focus.png). No gráfico abaixo, os seguintes caminhos foram concluídos **antes** dos usuários selecionarem uma foto:
+Para isolar o nó e mostrar os caminhos que entram e saem do nó selecionado, clique no ícone ![focus icon](assets/icon_focus.png). No gráfico abaixo, os seguintes caminhos foram concluídos **antes** que os usuários selecionassem uma foto:
 
-* Rotação de um item
+* Girar um item
 * Dimensionamento de um item
 * Arrastar um item
 * Remoção de um item
 
 Dos usuários que selecionaram uma foto, os seguintes caminhos foram concluídos **após** a seleção da foto:
 
-* Seleção de um item
-* Adição de um item
+* Selecionar um item
+* Adicionar um item
 * Arrastar um item
 * Dimensionamento de um item
 
 ![foco do caminho de ação](assets/action_paths_focus.png)
 
-Você pode focalizar ou expandir vários nós para conseguir uma visualização detalhada dos caminhos que os usuários percorrem em seu aplicativo. Por exemplo:
+Você pode focar ou expandir vários nós para obter uma visualização detalhada dos caminhos que os usuários tomam no aplicativo. Por exemplo:
 
 ![caminho de ação múltiplo](assets/action_paths_mult.png)
 
