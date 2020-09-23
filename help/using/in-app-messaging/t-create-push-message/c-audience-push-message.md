@@ -3,15 +3,15 @@ description: É possível definir e configurar as opções de público-alvo para
 keywords: mobile
 seo-description: É possível definir e configurar as opções de público-alvo para mensagens de push, incluindo as opções de intervalo de data, os segmentos do Analytics e os segmentos personalizados.
 seo-title: Público Definir e configurar os segmentos de público para as mensagens por push
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Público Definir e configurar os segmentos de público para as mensagens por push
 topic: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
 translation-type: tm+mt
-source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -22,15 +22,15 @@ ht-degree: 90%
 
 ## Definir segmentos de público {#section_7C4D2393CF7441959FE2381A02867CAC}
 
-Quando um segmento de público-alvo das mensagens de push é criado, o segmento pode envolver usuários de um ou mais aplicativos porque os conjuntos de relatórios ou conjuntos de relatórios virtuais podem conter dados de um ou mais aplicativos. Para obter mais informações sobre conjuntos de relatórios virtuais, consulte [Conjuntos de relatórios virtuais](/help/using/manage-apps/c-mob-vrs.md).
+Quando um segmento de público-alvo das mensagens de push é criado, o segmento pode envolver usuários de um ou mais aplicativos porque os conjuntos de relatórios ou conjuntos de relatórios virtuais podem conter dados de um ou mais aplicativos. Para obter mais informações sobre conjuntos de relatórios virtuais, consulte  [Conjuntos de relatórios virtuais](/help/using/manage-apps/c-mob-vrs.md).
 
-No Adobe Mobile Services, os profissionais de marketing podem enviar somente para um aplicativo por plataforma. Se os profissionais de marketing tentarem enviar para segmentos que contêm usuários de vários aplicativos, um aviso será exibido informando que o processo pode resultar em falhas graves de envio e na possível listagem de usuários bloqueados. Se você tiver uma falha de envio por push, consulte *Solução de falhas de envio por push* em [Solucionar problemas de mensagens por push](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md).
+No Adobe Mobile Services, os profissionais de marketing podem enviar somente para um aplicativo por plataforma. Se os profissionais de marketing tentarem encaminhar para segmentos que contêm usuários de vários aplicativos, um aviso será exibido informando que o processo pode resultar em falhas graves de envio e os usuários podem ir para a lista de bloqueios. Se você tiver uma falha de envio por push, consulte *Solução de falhas de envio por push* em  [Solucionar problemas de mensagens por push](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md).
 
 Para usar os dados do Audience Manager na definição do seu segmento, consulte [Análise de público-alvo](https://docs.adobe.com/content/help/pt-BR/analytics/integration/audience-analytics/mc-audiences-aam.html).
 
 >[!IMPORTANT]
 >
->If app users are blocklisted, marketers can **never** send push messages to those affected users again.
+>Se os usuários do aplicativo forem incluídos na lista de bloqueios, os profissionais de marketing **não** poderão voltar a enviar mensagens por push para esses usuários.
 
 Se você selecionar um segmento de público que contenha usuários de vários aplicativos, você pode ver o seguinte alerta:
 
@@ -67,7 +67,7 @@ Estes são alguns exemplos para ajudar você a entender como definir segmentos c
 
 **Permitido**: o profissional de marketing fornecer certificados de push para as versões para iOS e Android de um aplicativo, por exemplo, para o Adobe Photoshop. O profissional de marketing pode enviar uma notificação por push para um segmento de usuário que se estende por ambas as plataformas.
 
-**Não permitido**: os profissionais de marketing fornecerem certificados de push para versões iOS e Android de um aplicativo, por exemplo, para o Adobe Photoshop. If the marketer creates and pushes to a segment of *all active users in the last 30 days*, only the users of the Adobe Photoshop iOS and Android app receive the push, and all of the Adobe Illustrator iOS and Android app users will be blocklisted. Para obter mais detalhes, consulte *Solução de falhas de mensagem por push* em [Solucionar problemas de mensagens por push](/help/using/in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md).
+**Não permitido**: os profissionais de marketing fornecerem certificados de push para versões iOS e Android de um aplicativo, por exemplo, para o Adobe Photoshop. Se o profissional de marketing criar e enviar para um segmento de *todos os usuários ativos nos últimos 30 dias*, somente os usuários do aplicativo Adobe Photoshop iOS e Android receberão o push, e todos os usuários do aplicativo Adobe Illustrator iOS e Android serão incluídos na lista de bloqueios. Para obter mais detalhes, consulte *Solução de falhas de mensagem por push* em  [Solucionar problemas de mensagens por push](/help/using/in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md).
 
 ## Configurar segmentos de público {#section_A92C60885A30421B8150820EC1CCBF13}
 
