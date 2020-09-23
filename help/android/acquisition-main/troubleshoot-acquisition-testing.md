@@ -1,13 +1,16 @@
 ---
 description: Este tópico oferece informações sobre como solucionar problemas possíveis durante o teste de aquisição.
-keywords: android;biblioteca;móvel;sdk
+keywords: android;library;mobile;sdk
 seo-description: Este tópico oferece informações sobre como solucionar problemas possíveis durante o teste de aquisição.
 seo-title: Resolução de problemas de teste de aquisição
 solution: Experience Cloud,Analytics
 title: Resolução de problemas de teste de aquisição
-topic: Desenvolvedor e implementação
-translation-type: ht
-source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
+topic: Developer and implementation
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 100%
 
 ---
 
