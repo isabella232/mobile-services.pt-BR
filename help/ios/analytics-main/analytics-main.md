@@ -7,7 +7,7 @@ title: Visão geral do Analytics
 topic: Developer and implementation
 uuid: 8c7fb76a-be0b-4465-8151-ece7bad11b55
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: bc11c1e7a4a11657ee89c40ddcbd37377ce50bb5
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 67%
@@ -33,12 +33,14 @@ Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Ad
 Nos SDKs, identificadores são usados para rastrear usuários, e aqui está a hierarquia de identificadores:
 
 1. Identificador de Visitante personalizado (VID)
-2. Identificador de rastreamento do Analytics (AID)
-3. Identificador de Experience Cloud (MID)
+1. Identificador de rastreamento do Analytics (AID)
+1. Identificador de Experience Cloud (MID)
 
 >[!TIP]
 >
 >A sigla correta para Identificador da Experience Cloud é ECID. Embora os SDKs ainda usem MID, esse é o nome antigo. 
+
+
 O AID, que às vezes também é chamado de identificador de rastreamento, é gerado pelo SDK quando o aplicativo não está configurado para usar um MID. O valor persiste entre inicializações e atualizações de aplicativos em `NSUserDefaults`. Se o usuário excluir o aplicativo do dispositivo e reinstalar o aplicativo, ou se o desenvolvedor do aplicativo limpar `NSUserDefaults`, um novo identificador é gerado pelo SDK. Esse processo resulta em um novo usuário no relatórios do Analytics.
 
 Para usuários em um aplicativo que introduz o suporte ao serviço de identidade (MID), os valores de AID existentes são enviados com ocorrências do Analytics e a ocorrência do Analytics contém um AID e uma MID. Para novos usuários em um aplicativo com suporte ao serviço de identidade, as solicitações do Analytics contêm apenas uma MID. Para mais informações sobre como identificar visitantes, consulte [Identificação de visitantes](https://docs.adobe.com/content/help/pt-BR/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-visid.html).
