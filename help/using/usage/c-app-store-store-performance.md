@@ -2,23 +2,23 @@
 description: O relatório Visão geral da App Store oferece um instantâneo das métricas da app store, incluindo a quantidade de downloads, compras no aplicativo, avaliação média da app store, receitas geradas por downloads, receitas no aplicativo, downloads por país, downloads por app store e compras no aplicativo por nome.
 keywords: mobile
 seo-description: O relatório Visão geral da App Store oferece um instantâneo das métricas da app store, incluindo a quantidade de downloads, compras no aplicativo, avaliação média da app store, receitas geradas por downloads, receitas no aplicativo, downloads por país, downloads por app store e compras no aplicativo por nome.
-seo-title: Relatório de Visão geral da App Store
+seo-title: Relatório de Visão geral da loja de aplicativos
 solution: Experience Cloud,Analytics
-title: Relatório de Visão geral da App Store
+title: Relatório de Visão geral da loja de aplicativos
 topic: Metrics
 uuid: ac066f31-ec4b-4b67-b839-780c2cd1574e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '517'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Relatório de Visão geral da loja de aplicativos{#app-store-overview-report}
+# Relatório de Visão geral da loja de aplicativos {#app-store-overview-report}
 
-O relatório **[!UICONTROL Visão geral da App Store]** oferece um instantâneo das métricas da app store, incluindo a quantidade de downloads, compras no aplicativo, avaliação média da app store, receitas geradas por downloads, receitas no aplicativo, downloads por país, downloads por app store e compras no aplicativo por nome.
+O relatório **[!UICONTROL Visão geral da loja de aplicativos]** oferece um instantâneo das métricas da loja de aplicativos, incluindo a quantidade de downloads, compras no aplicativo, avaliação média da loja de aplicativos, receitas geradas por downloads, receitas no aplicativo, downloads por país, downloads por app store e compras no aplicativo por nome.
 
 >[!TIP]
 >
@@ -44,7 +44,7 @@ Este relatório exibe a classificação média que os usuários deram ao seu apl
 
 ![](assets/app_store_rating.png)
 
-Você pode clicar em qualquer local no widget de **[!UICONTROL Avaliação média da loja de aplicativos]** para exibir um gráfico com a avaliação média por data. Para ver os dados de um dia, posicione o cursor sobre o dia.
+Você pode clicar em qualquer local no dispositivo de **[!UICONTROL Avaliação média da loja de aplicativos]** para exibir um gráfico com a avaliação média por data. Para ver os dados de um dia, posicione o cursor sobre o dia.
 
 ![](assets/app_store_downloads_detail.png)
 
@@ -52,11 +52,11 @@ Você pode clicar em qualquer local no widget de **[!UICONTROL Avaliação médi
 
 Este relatório exibe a quantidade de receita gerada pelo download do seu aplicativo.
 
-## Receita no aplicativo  {#section_58792ED9C4B54B7D836E30CF09E8E204}
+## Receita no aplicativo   {#section_58792ED9C4B54B7D836E30CF09E8E204}
 
 Este relatório exibe a quantidade de receita gerada pelas compras no aplicativo que foram feitas usando seu aplicativo.
 
-## Downloads por país  {#section_10373CD28CA94BA5859DFDEED7D548C6}
+## Downloads por país   {#section_10373CD28CA94BA5859DFDEED7D548C6}
 
 Este relatório exibe o número de downloads do seu aplicativo, agrupados por país.
 
@@ -66,7 +66,7 @@ Para exibir um gráfico com o número de downloads por país agrupados por data,
 
 ![](assets/downloads_by_country.png)
 
-## Downloads por App Store  {#section_F1CD1A3F0105469D879E4F280CE32484}
+## Downloads por App Store   {#section_F1CD1A3F0105469D879E4F280CE32484}
 
 Este relatório exibe o número de downloads do seu aplicativo agrupados pela app store.
 
@@ -76,6 +76,6 @@ Para exibir um gráfico com o número de downloads por app store agrupados por d
 
 ![](assets/app_store_downloads_detail.png)
 
-## Compras no aplicativo por nome  {#section_D747A64F9F6449E0A02EF31D56C92F83}
+## Compras no aplicativo por nome   {#section_D747A64F9F6449E0A02EF31D56C92F83}
 
 Este relatório exibe todas as compras no aplicativo por nome.
