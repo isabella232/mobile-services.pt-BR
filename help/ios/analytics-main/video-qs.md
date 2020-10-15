@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: Análise de vídeo
 topic: Developer and implementation
 uuid: d75fa415-78f6-4f50-a563-76949f040138
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '952'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
 
    (Obrigatório) Coleta o nome do vídeo, conforme especificado na implementação, quando um visitante exibe o vídeo. É possível adicionar classificações para essa variável.
 
-   (Opcional) A variável Custom Insight fornece informações de definição de caminho de vídeo.
+   (Opcional) A variável Insight personalizado fornece informações de definição de caminho de vídeo.
 
    * Tipo de variável: eVar
    * Expiração padrão: visita
