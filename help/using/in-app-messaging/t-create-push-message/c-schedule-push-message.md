@@ -1,24 +1,24 @@
 ---
-description: Na interface do usuário do Adobe Mobile Services, você pode agendar uma mensagem de push para ser entregue imediatamente, para ser entregue posteriormente e como um evento recorrente. Esses eventos podem ser agendados diariamente, semanalmente ou mensalmente.
+description: Na interface do usuário do Adobe Mobile Services, você pode agendar uma mensagem de push para ser entregue imediatamente, para ser entregue posteriormente e como um evento recorrente. Esses eventos podem ser agendados de forma diária, semanal ou mensal.
 keywords: mobile
-seo-description: Na interface do usuário do Adobe Mobile Services, você pode agendar uma mensagem de push para ser entregue imediatamente, para ser entregue posteriormente e como um evento recorrente. Esses eventos podem ser agendados diariamente, semanalmente ou mensalmente.
+seo-description: Na interface do usuário do Adobe Mobile Services, você pode agendar uma mensagem de push para ser entregue imediatamente, para ser entregue posteriormente e como um evento recorrente. Esses eventos podem ser agendados de forma diária, semanal ou mensal.
 seo-title: Programar mensagem por push
 solution: Experience Cloud,Analytics
 title: Programar mensagem por push
 topic: Metrics
 uuid: 6810e27a-016f-4286-8fe2-9972d85fa326
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
 
-# Programar: mensagens por push{#schedule-push-message}
+# Programar: mensagens por push {#schedule-push-message}
 
-Na interface do usuário do Adobe Mobile Services, você pode agendar uma mensagem de push para ser entregue imediatamente, para ser entregue posteriormente e como um evento recorrente. Esses eventos podem ser agendados diariamente, semanalmente ou mensalmente.
+Na interface do usuário do Adobe Mobile Services, você pode agendar uma mensagem de push para ser entregue imediatamente, para ser entregue posteriormente e como um evento recorrente. Esses eventos podem ser agendados de forma diária, semanal ou mensal.
 
 >[!TIP]
 >
@@ -31,7 +31,7 @@ Lembre-se das seguintes informações:
 * Você pode editar uma mensagem agendada das seguintes maneiras:
 
    * Mudar a data para uma data posterior.
-   * Altere o intervalo de repetição para outro intervalo.
+   * Altere o intervalo de repetição.
 
       Por exemplo, se originalmente você tinha uma mensagem que era enviada todos os dias, é possível alternar a recorrência para semanalmente.
 
@@ -51,14 +51,14 @@ Você **deve** compreender as seguintes informações antes de agendar mensagens
 
 * As mensagens de push são programadas e enviadas com base no Horário de Greenwich (GMT).
 
-   Por exemplo, se você agendar uma mensagem recorrente para ser enviada todos os sábados às 12:00 (meio-dia) **PST**, a partir de 7 de outubro, a mensagem será enviada no sábado às 19:00 **GMT**.
-* As mensagens são enviadas de forma diferente dependendo se você estiver localizado nos Estados Unidos, Europa ou Ásia.
+   Por exemplo, se você agendar uma mensagem recorrente para ser enviada todos os sábados às 12h (meio-dia) **PST**, a partir de 7 de outubro, a mensagem será enviada no sábado às 19h **GMT**.
+* As mensagens são enviadas de forma diferente de acordo com a sua localização: Estados Unidos, Europa ou Ásia.
 
-   Por exemplo, se você estiver em San Jose, Califórnia, e agendar uma mensagem para ser enviada em 31 ***de outubro às 17h30*** PST **, ela será enviada em 1** de novembro às 12h30 ***GMT*** ****. Se você estiver em Tóquio e agendar uma mensagem para ser enviada em 1 ***de janeiro às 5h30, ela será enviada em 31*** ***de dezembro às 20h30*** GMT ****.
-* As mensagens de push são enviadas uma hora antes ou depois, dependendo de quando a luz do dia ocorre.
-* Quando você olha para seu relatório de mensagens de push, a mensagem é exibida no fuso horário local do seu sistema.
+   Por exemplo, se você estiver em San Jose, Califórnia, e agendar uma mensagem para ser enviada em ***31 de outubro*** às 17h30 **PST**, ela será enviada em ***1 de novembro*** às 12h30 **GMT**. Se você estiver em Tóquio e agendar uma mensagem para ser enviada em ***1 de janeiro*** às 5h30, ela será enviada em ***31 de dezembro*** às 20h30 **GMT**.
+* As mensagens de push são enviadas uma hora antes ou depois, dependendo de quando ocorre o horário de verão.
+* Ao olhar para seu relatório de mensagens de push, a mensagem é exibida no fuso horário local do seu sistema.
 
-   Por exemplo, se a hora do seu start for 12:00 PM **PST**, embora a mensagem seja enviada às 19:00 **GMT**, o relatório de mensagem exibirá a hora de envio como 12:00 PM **PST**.
+   Por exemplo, se a hora de início for 12h **PST**, embora a mensagem seja enviada às 19h **GMT**, o relatório de mensagem exibirá a hora de envio como 12h **PST**.
 
 ## Programar uma mensagem por push recorrente {#section_675BD754E5A04423A1751193698A978F}
 
