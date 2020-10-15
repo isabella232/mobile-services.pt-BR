@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Relatório de funil
 topic: Reports,Metrics
 uuid: 268b4ab9-2e29-4423-9f79-ad93f5231ede
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
 
-# Relatório de funil{#funnel}
+# Relatório de funil {#funnel}
 
 O relatório de **[!UICONTROL Funil]** permite identificar onde os clientes abandonaram uma campanha de marketing ou foram desviados de um caminho de conversão definido ao interagirem com o aplicativo móvel. Você também pode usar o relatório **[!UICONTROL Funil]** para comparar as ações de segmentos diferentes.
 
@@ -32,13 +32,13 @@ Este é um exemplo desse relatório:
 
 ![](assets/funnel_create.png)
 
-Para demonstrar um funil simples, veja as configurações para uma configuração que usa três etapas de funil e duas comparações de funil. Presumimos que um aplicativo de demonstração permita que os usuários adicionem um item, como uma foto, e depois compartilhem-no.
+Para demonstrar um funil simples, veja as configurações para uma configuração que usa três etapas de funil e duas comparações de funil. Presumimos que um aplicativo de demonstração permite que os usuários adicionem um item, como uma foto, e depois o compartilhe.
 
 Na janela Personalizar, há seções para indicar que o usuário iniciou o aplicativo, adicionou uma foto de uma galeria no aplicativo, compartilhou uma ou mais fotos do aplicativo nas redes sociais, enviou uma mensagem de texto, email e assim por diante. As comparações de funil permitem comparar os níveis de adição e compartilhamento de fotos entre usuários do aplicativo iOS e do aplicativo Android.
 
 Para gerar o relatório, clique em **[!UICONTROL Executar]**.
 
-Este é um exemplo de um relatório gerado:
+Exemplo de um relatório gerado:
 
 ![](assets/funnel.png)
 
@@ -48,9 +48,9 @@ Para exibir informações adicionais, passe o mouse sobre qualquer barra no grá
 
 Você pode configurar as seguintes opções no relatório:
 
-* **[!UICONTROL Período de tempo]**
+* **[!UICONTROL Período]**
 
-   Clique no ícone **[!UICONTROL Calendário]** e selecione um período de tempo personalizado ou escolha um período de tempo predefinido na lista suspensa.
+   Clique no ícone **[!UICONTROL Calendário]** e selecione um período personalizado ou escolha um período predefinido na lista suspensa.
 * **[!UICONTROL Personalizar]**
 
    Personalize seus relatórios alterando as opções **[!UICONTROL Mostrar por]**, adicionando métricas e filtros e adicionando séries (métricas) e muito mais. Para obter mais informações, consulte [Personalizar relatórios](/help/using/usage/reports-customize/reports-customize.md).
