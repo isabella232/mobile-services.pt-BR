@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Rastreamento de sinal
 topic: Developer and implementation
 uuid: 16c1d267-85f4-4a6a-a6d3-d6ffb0f80b29
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Os seguintes dados de beacon são enviados para o Analytics e o Target quando `t
 
 Estes valores significam:
 
-* 0 = desconhecido
+* 0= desconhecido
 * 1 = imediato
 * 2 = próximo
 * 3 = distante
