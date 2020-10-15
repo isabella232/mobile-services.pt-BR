@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Relatório de retenção
 topic: Reports,Metrics
 uuid: e7639e7f-c9ed-4b19-9ac5-b36774ea9dd6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '309'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ O relatório **[!UICONTROL Retenção]** (antigo Coorte da primeira inicializaç
 
 Por padrão, esse relatório mostra a retenção de grupos de usuários com base em quando os usuários inicializaram o aplicativo pela primeira vez. Você também pode personalizar este relatório para usar uma métrica diferente de Primeira inicialização e adicionar outras ações.
 
-Um coorte é um grupo de pessoas que compartilham uma característica ou experiência em comum em um período definido. O relatório **[!UICONTROL Retenção]** reúne as características comuns dos usuários que instalaram o aplicativo em um dia, semana ou mês específico e gera um gráfico com o número de usuários que inicializarão o aplicativo nos próximos X dias, semanas ou meses. O relatório exibe o quão bem os visitantes foram mantidos como ativos ou envolvidos.
+Um coorte é um grupo de pessoas que compartilham uma característica ou experiência em comum em um período definido. O relatório **[!UICONTROL Retenção]** reúne as características comuns dos usuários que instalaram o aplicativo em um dia, semana ou mês específico e gera um gráfico com o número de usuários que inicializarão o aplicativo nos próximos X dias, semanas ou meses. O relatório exibe se os visitantes foram mantidos como ativos ou envolvidos.
 
 Este é um exemplo desse relatório:
 
