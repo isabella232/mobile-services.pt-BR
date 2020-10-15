@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Links universais da Apple e links de aplicativos Android
 topic: Metrics
 uuid: 8d6441dc-4307-4454-95ea-d77ec796f918
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1142'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Links universais da Apple e links de aplicativos Android{#universal-links-and-app-links}
+# Links universais da Apple e links de aplicativos Android {#universal-links-and-app-links}
 
 Com os Links universais (iOS) e os Links de aplicativo (Android), é possível se conectar a links profundos nos aplicativos iOS ou Android.
 
@@ -66,7 +66,7 @@ Você pode criar um Link de marketing que use um Link universal ou de aplicativo
 
 1. No Adobe Mobile Services, crie um Link de marketing que use Links universais:
 
-   a. Select the app from the Mobile Services home page, click **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Link Builder]**.
+   a. Selecione o aplicativo na página inicial do Mobile Services, clique em **[!UICONTROL Aquisição]** > **[!UICONTROL Construtor do Link de marketing]**.
 
    b. Clique em **[!UICONTROL Criar novo]**.
 
@@ -78,7 +78,7 @@ Você pode criar um Link de marketing que use um Link universal ou de aplicativo
 
    e. Se a opção **[!UICONTROL Usar links universais ou links de aplicativos]** estiver selecionada, o campo **[!UICONTROL Caminho personalizado]** será exibido.
 
-   Isso permite que os usuários definam o caminho do URL após o domínio com qualquer parâmetro de consulta. Por exemplo, se você digitar  `my/universal/link?os=9.2`, seu URL completo do Link de marketing se torna `https://[marketing link domain]/my/universal/link?[AMS default query parameters]&os=9.2`.
+   Isso permite que os usuários definam o caminho do URL após o domínio com qualquer parâmetro de consulta. Por exemplo, se você digitar   `my/universal/link?os=9.2`, seu URL completo do Link de marketing se torna `https://[marketing link domain]/my/universal/link?[AMS default query parameters]&os=9.2`.
 
    f. Clique na guia **[!UICONTROL Decisões]** e configure sua árvore decisória.
 
@@ -125,7 +125,7 @@ Você pode criar um Link de marketing que use um Link universal ou de aplicativo
 
 1. No Adobe Mobile Services, crie um Link de marketing que use Links de aplicativo:
 
-   a. Select the app from the Mobile Services home page, click **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Link Builder]**.
+   a. Selecione o aplicativo na página inicial do Mobile Services, clique em **[!UICONTROL Aquisição]** > **[!UICONTROL Construtor do Link de marketing]**.
 
    b. Clique em **[!UICONTROL Criar novo]**.
 
@@ -137,7 +137,7 @@ Você pode criar um Link de marketing que use um Link universal ou de aplicativo
 
    e. Se **[!UICONTROL Usar links universais ou links de aplicativos]** estiver selecionado, o campo **[!UICONTROL Caminho personalizado]** será exibido.
 
-   Isso permite que os usuários definam o caminho do URL após o domínio com qualquer parâmetro de consulta. Por exemplo, se você digitar  `my/app/link?os=6.0`, seu URL completo do Link de marketing se torna `https://[marketing link domain]/my/app/link?[AMS default query parameters]&os=6.0`.
+   Isso permite que os usuários definam o caminho do URL após o domínio com qualquer parâmetro de consulta. Por exemplo, se você digitar   `my/app/link?os=6.0`, seu URL completo do Link de marketing se torna `https://[marketing link domain]/my/app/link?[AMS default query parameters]&os=6.0`.
 
    f. Clique na guia **[!UICONTROL Decisões]** e configure sua árvore decisória.
 
