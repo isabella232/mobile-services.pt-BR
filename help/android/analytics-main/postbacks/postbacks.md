@@ -1,30 +1,30 @@
 ---
-description: Os postbacks permitem enviar dados coletados pelo SDK para um servidor de terceiros. Ao utilizar os mesmos acionadores e características usadas para exibir uma mensagem no aplicativo, você pode configurar o SDK para enviar dados personalizados a um destino de terceiros.
+description: Os postbacks permitem enviar dados coletados pelo SDK para um servidor de terceiros. Ao utilizar os mesmos disparadores e características usadas para exibir uma mensagem no aplicativo, é possível configurar o SDK para enviar dados personalizados a um destino de terceiros.
 keywords: android;library;mobile;sdk
-seo-description: Os postbacks permitem enviar dados coletados pelo SDK para um servidor de terceiros. Ao utilizar os mesmos acionadores e características usadas para exibir uma mensagem no aplicativo, você pode configurar o SDK para enviar dados personalizados a um destino de terceiros.
+seo-description: Os postbacks permitem enviar dados coletados pelo SDK para um servidor de terceiros. Ao utilizar os mesmos disparadores e características usadas para exibir uma mensagem no aplicativo, é possível configurar o SDK para enviar dados personalizados a um destino de terceiros.
 seo-title: Postbacks
 solution: Experience Cloud,Analytics
 title: Visão geral de postbacks
 topic: Developer and implementation
 uuid: 8bfd4374-2767-421d-891d-e1e9a99b6977
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '349'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
 
 # Postbacks {#postbacks}
 
-Os postbacks permitem enviar dados coletados pelo SDK para um servidor de terceiros. Ao utilizar os mesmos acionadores e características usadas para exibir uma mensagem no aplicativo, você pode configurar o SDK para enviar dados personalizados a um destino de terceiros.
+Os postbacks permitem enviar dados coletados pelo SDK para um servidor de terceiros. Ao utilizar os mesmos disparadores e características usadas para exibir uma mensagem no aplicativo, é possível configurar o SDK para enviar dados personalizados a um destino de terceiros.
 
 >[!IMPORTANT]
 >
 >Essa funcionalidade exige a versão 4.6.0 ou posterior do SDK.
 
-As mensagens de postback são enfileiradas e seguem todas as regras online/offline existentes que regem a coleta de dados do Analytics. Quando uma mensagem corresponde (como as mensagens mostradas), as mensagens de postback não cancelam o restante das mensagens. Isso permite que vários postbacks ocorram na mesma ocorrência de análise. Para obter a definição, consulte a linha *postbacks* em [Configuração JSON do ADBMobile](/help/android/configuration/json-config/json-config.md).
+As mensagens de postback são enfileiradas e seguem todas as regras online/offline existentes que regem a coleta de dados do Analytics. Quando uma mensagem corresponde (como as mensagens mostradas), as mensagens de postback não cancelam o restante das mensagens. Dessa forma, vários postbacks ocorram na mesma ocorrência de análise. Para obter a definição, consulte a linha *postbacks* em  [Configuração JSON do ADBMobile](/help/android/configuration/json-config/json-config.md).
 
 ## Expansões do modelo {#section_6758AD05A24C4E9E965F5253294C164A}
 
