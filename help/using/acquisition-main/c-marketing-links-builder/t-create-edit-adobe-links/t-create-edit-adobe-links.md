@@ -2,21 +2,21 @@
 description: É possível criar ou editar links de marketing para incluir links profundos no seu aplicativo móvel ou site.
 keywords: mobile
 seo-description: É possível criar ou editar links de marketing para incluir links profundos no seu aplicativo móvel ou site.
-seo-title: Criar ou editar Marketing Links
+seo-title: Criar ou editar links de marketing
 solution: Experience Cloud,Analytics
-title: Criar ou editar Marketing Links
+title: Criar ou editar links de marketing
 topic: Metrics
 uuid: 305a8265-38de-4d19-8c79-b3912f5aae7c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '633'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Criar ou editar links de marketing{#create-or-edit-marketing-links}
+# Criar ou editar links de marketing {#create-or-edit-marketing-links}
 
 É possível criar ou editar links de marketing para incluir links profundos no seu aplicativo móvel ou site. Para obter mais informações, consulte [Links universais da Apple e Links de aplicativos Android](/help/using/c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md).
 
@@ -34,11 +34,11 @@ ht-degree: 94%
 
    * **[!UICONTROL Código de rastreamento exclusivo]**:
 
-      (**Obrigatório**) Especifique o código de rastreamento desejado ou clique em (![gerar ícone](assets/icon_generate.png)) para criar um novo código de rastreamento. É possível exibir relatórios que detalham o uso do código de rastreamento.
+      (**Obrigatório**) Especifique o código de rastreamento desejado ou clique em ( ![gerar ícone](assets/icon_generate.png) ) para criar um novo código de rastreamento. É possível exibir relatórios que detalham o uso do código de rastreamento.
 
    * **[!UICONTROL Adicionar dados de contexto de rastreamento]**:
 
-      (**Optional**) Click the **[!UICONTROL +]** icon and type the relevant information to track your campaign using context data. Na lista suspensa **[!UICONTROL Dados contextuais personalizados]**, selecione uma tag predefinida ou uma de suas próprias tags. Os dados de contexto são usados para informar quando o link de marketing é implantado.
+      (**Opcional**) Clique no ícone **[!UICONTROL +]** e digite as informações relevantes para acompanhar sua campanha usando dados de contexto. Na lista suspensa **[!UICONTROL Dados contextuais personalizados]**, selecione uma tag predefinida ou uma de suas próprias tags. Os dados de contexto são usados para informar quando o link de marketing é implantado.
 
       As tags predefinidas a seguir estão disponíveis:
 
@@ -70,12 +70,12 @@ Especifique os termos de pagamento ou outros termos de pesquisa para o anúncio.
 
    (**Opcional**) Quando existem vários destinos, os usuários que têm ou não aplicativo móvel instalado podem ser encaminhados conforme o caso. Se o aplicativo estiver instalado, uma landing page intersticial será exibida.
 
-   For more information, see [Interstitials](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md).
+   Para obter mais informações, consulte [Intersticial](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md).
 
 1. Clique em **[!UICONTROL Salvar]** e clique em **[!UICONTROL Próximo]**.
 1. Na página Destino, configure o link.
 
-   1. Clique no ícone **[!UICONTROL Decisão]** (![decision icon](assets/icon_decision.png)) e selecione um dos seguintes locais de decisão:
+   1. Clique no ícone **[!UICONTROL Decisão]** ( ![decision icon](assets/icon_decision.png) ) e selecione um dos seguintes locais de decisão:
 
       * **[!UICONTROL Adicionar decisão]**
       * **[!UICONTROL Adicionar caminho]**
@@ -90,7 +90,7 @@ Especifique os termos de pagamento ou outros termos de pesquisa para o anúncio.
          Os tipos de dispositivos incluem dispositivos como desktops, eReaders, consoles de jogos, telefones celulares, set top boxes, e assim por diante.
    1. Clique no ícone **[!UICONTROL Destino]** ( ![square icono](assets/icon_square.png) ) e selecione um dos seguintes tipos de destino:
 
-      * **[!UICONTROL App Store]**
+      * **[!UICONTROL Loja de aplicativos]**
       * **[!UICONTROL Link da Web]**
       * **[!UICONTROL Deep link do aplicativo]**
       * **[!UICONTROL Link híbrido]**
