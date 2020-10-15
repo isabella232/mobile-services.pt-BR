@@ -1,23 +1,23 @@
 ---
-description: As ações são os eventos que ocorrem no aplicativo Android que você deseja avaliar.
-seo-description: As ações são os eventos que ocorrem no aplicativo Android que você deseja avaliar.
+description: Ações são os eventos que ocorrem em seu aplicativo Android que você deseja medir.
+seo-description: Ações são os eventos que ocorrem em seu aplicativo Android que você deseja medir.
 seo-title: Rastrear ações do aplicativo
 solution: Experience Cloud,Analytics
 title: Rastrear ações do aplicativo
 topic: Developer and implementation
 uuid: fe01c1df-f6bb-4b32-b3ef-959d2c724af6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 
 # Rastrear ações do aplicativo {#track-app-actions}
 
-As ações são os eventos que ocorrem no aplicativo Android que você deseja avaliar.
+Ações são os eventos que ocorrem em seu aplicativo Android que você deseja medir.
 
 Cada ação tem uma ou mais métricas correspondentes, que são incrementadas sempre que o evento ocorre. Por exemplo, você pode enviar uma chamada `trackAction` para cada assinatura nova sempre que um artigo é visualizado ou um nível é concluído. As ações não são rastreadas automaticamente, por isso, faça uma chamada `trackAction` quando ocorrer um evento que você deseja rastrear e mapeie a ação para um evento personalizado.
 
@@ -69,6 +69,6 @@ Os valores de dados de contexto devem ser mapeados para variáveis personalizada
 | Interface | Relatório |
 |--- |--- |
 | Adobe Mobile Services | Relatório dos **[!UICONTROL Caminhos de ação]**.  Veja a ordem em que as ações ocorrem em seu aplicativo. Você também pode clicar em **[!UICONTROL Personalizar]** em qualquer relatório para ver as ações classificadas, apresentadas em ordem de tendência ou em um relatório detalhado, ou aplicar um filtro para ver as ações de um segmento específico. |
-| Relatórios e análises de marketing | **[!UICONTROL Relatório de Evento personalizado]**. Depois que uma ação é mapeada a um evento personalizado, é possível visualizar os eventos móveis semelhantes a todos os outros eventos do Analytics. |
-| Ad hoc analytics | **[!UICONTROL Relatório de Evento personalizado]**. Depois que uma ação é mapeada a um evento personalizado, é possível visualizar os eventos móveis semelhantes a todos os outros eventos do Analytics. |
+| Relatórios e análises de marketing | Relatório de **[!UICONTROL Evento personalizado]**. Depois que uma ação é mapeada a um evento personalizado, é possível visualizar os eventos móveis semelhantes a todos os outros eventos do Analytics. |
+| Ad hoc analytics | Relatório de **[!UICONTROL Evento personalizado]**. Depois que uma ação é mapeada a um evento personalizado, é possível visualizar os eventos móveis semelhantes a todos os outros eventos do Analytics. |
 
