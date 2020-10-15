@@ -2,14 +2,14 @@
 description: É possível adicionar um aplicativo da Apple App Store ou do Google Play.
 keywords: mobile
 seo-description: É possível adicionar um aplicativo da Apple App Store ou do Google Play.
-seo-title: Adicionar um aplicativo de uma App Store
+seo-title: Adicionar um aplicativo de uma loja de aplicativos
 solution: Experience Cloud,Analytics
-title: Adicionar um aplicativo de uma App Store
+title: Adicionar um aplicativo de uma loja de aplicativos
 topic: Metrics
 uuid: 94c8a924-5156-4742-8b5b-88d9ea13bfed
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
 ht-degree: 100%
 
