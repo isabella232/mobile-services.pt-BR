@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Visão geral (Localização)
 topic: Reports,Metrics
 uuid: a701abc3-001b-4015-843f-5fb2c6c80d17
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 
-# Visão geral (localização){#overview-location}
+# Visão geral (localização) {#overview-location}
 
 O relatório **[!UICONTROL Visão geral de localização]** permite visualizar os diferentes países, regiões e Pontos de interesse (POIs) nos quais seu aplicativo está sendo usado.
 
@@ -26,7 +26,7 @@ Estas são algumas informações adicionais sobre este relatório:
 
 ## Navegação e utilização {#section_4A88C3849B5847BF8CF433CCFD99FDC3}
 
-Essa visualização fornece, por exemplo, o relatório base com detalhamentos. A visualização usa a altura para mostrar a métrica em foco e as diferenças de desempenho entre as métricas. Cada anel representa um segmento de audiência na categoria do anel. É possível realizar ações em uma audiência, como aplicar um filtro fixo, ocultar uma métrica e visualizar métricas.
+Essa visualização fornece, por exemplo, o relatório base com detalhamentos. A visualização usa a altura para mostrar a métrica em foco e as diferenças de desempenho entre as métricas. Cada anel representa um segmento de público alvo na categoria do anel. É possível realizar ações em um público alvo, como aplicar um filtro fixo, ocultar uma métrica e visualizar métricas.
 
 >[!TIP]
 >
@@ -48,7 +48,7 @@ Quando você seleciona **[!UICONTROL Pontos de interesse]** esta é a visualiza�
 
 ![](assets/location_poi.png)
 
-Você pode clicar em uma parte do anel para selecionar a audiência na qual você pode executar ações, como ampliar, ocultar audiências, criar uma mensagem no aplicativo ou um filtro fixo.
+Clique em uma parte do anel para selecionar o público-alvo no qual você pode realizar ações, como ampliar, ocultar públicos-alvo, criar uma mensagem no aplicativo ou um filtro fixo.
 
 ![](assets/location_aud.png)
 
@@ -74,7 +74,7 @@ Ao clicar em **[!UICONTROL Adicionar detalhamento]** ou **[!UICONTROL Adicionar 
 
 Clique em uma parte do anel para selecionar o público-alvo para o qual deseja criar um filtro fixo e clique em **[!UICONTROL Filtro fixo]**. O filtro fixo permite que você aplique os filtros atuais e execute um novo relatório com base neles.
 
-## Compartilhar relatórios  {#section_F8AF2AA73D4C4C008976D45847F82D0B}
+## Compartilhar relatórios   {#section_F8AF2AA73D4C4C008976D45847F82D0B}
 
 Após a criação de um relatório, suas configurações são usadas para criar um URL personalizado, que pode ser copiado e compartilhado.
 
