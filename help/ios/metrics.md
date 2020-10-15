@@ -1,16 +1,16 @@
 ---
-description: As tabelas a seguir listas as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida.
-seo-description: As tabelas a seguir listas as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida.
+description: Estas tabelas listam as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida.
+seo-description: Estas tabelas listam as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida.
 seo-title: Medições de ciclo de vida
 solution: Experience Cloud,Analytics
 title: Medições de ciclo de vida
 topic: Developer and implementation
 uuid: b795e383-d59b-4a3c-9e14-ffe8fb58412c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1108'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Para o Analytics, os dados de contexto que são enviados com cada chamada de ras
 
 * **Inicializações**
 
-   Desencadeado a cada execução, incluindo falhas e instalações. Também acionado quando o aplicativo é retomado do plano de fundo após o tempo limite da sessão do ciclo de vida ser excedido.
+   Desencadeado a cada execução, incluindo falhas e instalações. Também acionado quando o aplicativo é retomado do plano de fundo depois que o tempo limite da sessão do ciclo de vida é excedido.
 
    * Parâmetros do Target/Dados de contexto do Analytics: `a.LaunchEvent`
    * Sinal do Audience Manager: `c_a_LaunchEvent`
@@ -133,7 +133,7 @@ Para o Analytics, os dados de contexto que são enviados com cada chamada de ras
 
 * **Hora do dia**
 
-   Mede a hora em que o aplicativo foi iniciado e usa o formato numérico de 24 horas. Utilizado para hora do visitante para determinar os tempos de pico de uso.
+   Mede a hora em que o aplicativo foi inicializado e usa o formato numérico de 24 horas. Utilizado para hora do visitante para determinar os tempos de pico de uso.
 
    * Target/Dados de contexto do Analytics: `a.HourOfDay`
    * Gerenciamento de público-alvo: `c_a_HourOfDay`
@@ -168,7 +168,7 @@ Para o Analytics, os dados de contexto que são enviados com cada chamada de ras
 
 * **Nome do dispositivo**
 
-   Armazena o nome do dispositivo.  Sequência de dois dígitos separada por vírgulas que identifica o dispositivo iOS. O primeiro número normalmente representa a geração do dispositivo e o segundo, geralmente, versões de diferentes membros da família do dispositivo. Para obter uma lista de nomes comuns, consulte  as versões do dispositivo iOS.
+   Armazena o nome do dispositivo.  String de dois dígitos separada por vírgulas que identifica o dispositivo iOS. O primeiro número representa a geração do dispositivo e o segundo representa versões dos diferentes membros da família do dispositivo. Para obter uma lista de nomes comuns, consulte    as versões do dispositivo iOS.
 
    * Target/Dados de contexto do Analytics: `a.DeviceName`
    * Gerenciamento de público-alvo: `c_a_DeviceName`
@@ -286,7 +286,7 @@ As métricas e dimensões a seguir são capturadas em variáveis de solução m�
 
 * **Código de acompanhamento**
 
-   Preenchido pela Aquisição do dispositivo móvel. Gerado automaticamente pelos serviços Adobe para dispositivos móveis.
+   Preenchido pela Aquisição do dispositivo móvel. Gerado automaticamente pelo Adobe Mobile Services.
 
    * Parâmetros do Target/Dados de contexto do Analytics: `a.referrer.campaign.trackingcode`
    * Característica do Audience Management: `c_a_referrer_campaign_trackingcode`
@@ -321,7 +321,7 @@ As métricas e dimensões a seguir são capturadas em variáveis de solução m�
 
 * **Termo da campanha**
 
-   Palavras-chave pagas ou outros termos que você deseja rastrear com esta aquisição. Preenchido pela Aquisição do dispositivo móvel.
+   Palavras-chave pagas ou outros termos que você deseja rastrear com essa aquisição. Preenchido pela Aquisição do dispositivo móvel.
 
    * Parâmetros do Target/Dados de contexto do Analytics: `a.referrer.campaign.term`
    * Característica do Audience Management: `c_a_referrer_campaign_term`
