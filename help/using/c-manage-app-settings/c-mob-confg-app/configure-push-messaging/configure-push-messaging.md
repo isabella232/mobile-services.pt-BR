@@ -2,21 +2,21 @@
 description: Você pode usar estas informações para ajudar a configurar as opções de Serviços de push na página Gerenciar configurações do aplicativo, enquanto cria um novo aplicativo ou edita um existente.
 keywords: mobile
 seo-description: Você pode usar estas informações para ajudar a configurar as opções de Serviços de push na página Gerenciar configurações do aplicativo, enquanto cria um novo aplicativo ou edita um existente.
-seo-title: Configuração de mensagens de push
+seo-title: Configurar mensagens por push
 solution: Experience Cloud,Analytics
-title: Configuração de mensagens de push
+title: Configurar mensagens por push
 topic: Metrics
 uuid: 6763858d-6046-4d36-87c0-cf3600a44fb1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '318'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Configurar mensagens por push{#configure-push-messaging}
+# Configurar mensagens por push {#configure-push-messaging}
 
 Se estiver criando um novo aplicativo ou editando um existente, você pode usar estas informações para configurar as opções de Serviços por push na página Gerenciar configurações do aplicativo.
 
