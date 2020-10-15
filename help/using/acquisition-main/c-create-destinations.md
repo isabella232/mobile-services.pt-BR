@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Destinos
 topic: Metrics
 uuid: 0e0e7d22-067c-4a59-abcb-a4826800944d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '195'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
-# Destinos{#destinations}
+# Destinos {#destinations}
 
 Os profissionais de marketing podem criar, salvar e editar destinos de links (como links da Web, links profundos e outros), que podem ser usados na criação de Links de marketing rastreáveis.
 
@@ -40,4 +40,4 @@ Para criar diferentes tipos de destinos de links, consulte [Criar e gerenciar de
 
    Os links híbridos são compatíveis com os Links universais do iOS e os Links de aplicativo do Android.
 
-Para obter informações sobre como criar cada tipo de link, consulte  [Criar novo destino de link](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md).
+Para obter informações sobre como criar cada tipo de link, consulte   [Criar novo destino de link](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md).
