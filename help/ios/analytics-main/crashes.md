@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Rastreamento de falhas do aplicativo
 topic: Developer and implementation
 uuid: 4f81988b-198a-4ba9-ad53-78af90e43856
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '529'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Se o seu aplicativo for encerrado sem antes ter sido colocado em segundo plano, 
 
 O iOS usa as notificações do sistema, que permitem aos desenvolvedores rastrear e responder a diferentes estados e eventos no ciclo de vida do aplicativo.
 
-O SDK do iOS do Adobe Mobile possui um gerenciador de notificações que responde à notificação `UIApplicationDidEnterBackgroundNotification`. Neste código, um valor é definido indicando que o usuário possui o aplicativo em segundo plano. Em uma inicialização subsequente, se esse valor não puder ser encontrado, uma falha será relatada.
+O SDK do iOS do Adobe Mobile possui um gerenciador de notificações que responde à notificação `UIApplicationDidEnterBackgroundNotification`. Neste código, um valor é definido indicando que o usuário colocou o aplicativo em segundo plano. Na próxima inicialização, se esse valor não for encontrado, uma falha será relatada.
 
 ## Por que a medição da Adobe falha dessa maneira?
 
@@ -41,9 +41,9 @@ As bibliotecas de relatórios de falhas fornecidas por empresas como a Apteligen
 
 ## O que pode causar o relato de falhas falsas?
 
-Sabe-se que os seguintes cenários fazem com que uma falha seja reportada pelo SDK:
+Os cenários a seguir são conhecidos por causar falsamente uma falha informada pelo SDK:
 
-* Se você estiver depurando usando o Xcode, iniciar o aplicativo novamente enquanto ele estiver em primeiro plano causará uma falha.
+* Se você estiver depurando com o Xcode, iniciar o aplicativo novamente enquanto ele estiver em primeiro plano causará uma falha.
 
    >[!TIP]
    >
@@ -64,9 +64,9 @@ As seguintes práticas podem ajudá-lo a evitar que falhas falsas sejam relatada
 
 * No iOS SDK 4.8.6, o código foi adicionado para determinar melhor se uma nova sessão do ciclo de vida é realmente desejada.
 
-   Este código corrige falhas falsas #2 e #3 na seção anterior.
+   Este código corrige as falhas falsas nº 2 e nº 3 na seção anterior.
 
-* Certifique-se de executar seu desenvolvimento contra conjuntos de relatórios que não sejam de produção, o que deve impedir a ocorrência de falhas falsas nº 1.
+* Faça o desenvolvimento em conjuntos de relatórios de não produção, o que deve impedir a ocorrência de falhas falsas nº 1.
 * Não exclua nem modifique quaisquer valores que o SDK do Adobe Mobile coloque em `NSUserDefaults`.
 
    Se esses valores forem modificados fora do SDK, os dados relatados serão inválidos.
