@@ -7,9 +7,9 @@ solution: Experience Cloud,Analytics
 title: App Store
 topic: Metrics
 uuid: a194364d-faaf-4995-befd-cf48f9c1f11b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ A integração do conector de dados `appFigures` combina a efetividade da análi
 >
 >Na interface do Mobile Services, após configurar a integração, o item de menu da **[!UICONTROL Loja de aplicativos]** e os relatórios associados são exibidos no painel de navegação esquerdo.
 
-[O Conector de dados appFigures para o Adobe Analytics](https://docs.adobe.com/content/help/br/analytics/import/dataconnectors/appfigures/appfigures-overview.html) contém as seguintes informações:
+[O Conector de dados appFigures para o Adobe Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/import/dataconnectors/appfigures/appfigures-overview.html) contém as seguintes informações:
 
 * Principais benefícios e recursos da integração
 * Implementação da integração, incluindo:
@@ -38,4 +38,4 @@ A integração do conector de dados `appFigures` combina a efetividade da análi
 * Métricas e dimensões incluídas na integração
 * Segmentar dados do aplicativo
 
-Para obter mais informações sobre o relatório da App Store, consulte  [Relatório de visão geral da App Store](/help/using/usage/c-app-store-store-performance.md).
+Para obter mais informações sobre o relatório da App Store, consulte   [Relatório de visão geral da App Store](/help/using/usage/c-app-store-store-performance.md).
