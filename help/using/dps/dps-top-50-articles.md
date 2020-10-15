@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Os 50 artigos principais
 topic: Metrics
 uuid: 341370d1-fa87-43ca-8135-425b3bba272f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
-# Relatório Os 50 artigos principais{#top-articles}
+# Relatório Os 50 artigos principais {#top-articles}
 
 O relatório **[!UICONTROL Os 50 artigos principais]** exibe um gráfico de barras e um relatório classificado, mostrando no aplicativo os artigos mais lidos. Esse relatório está disponível somente para clientes do DPS.
 
