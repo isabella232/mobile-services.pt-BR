@@ -5,9 +5,9 @@ seo-title: Adobe Mobile Services
 solution: Experience Cloud, Analytics, Experience Cloud
 title: Adobe Mobile Services
 uuid: e86a77c9-4ff1-403f-a5a1-4afbdc4e6f68
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '622'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Para obter as notas de versão mais recentes, consulte [Notas de versão da Expe
 Estes são alguns tópicos populares neste guia:
 
 * [Introdução](/help/using/gs/gs.md)
-* [Fazendo logon](/help/using/gs/gs-signin.md)
+* [Fazer logon](/help/using/gs/gs-signin.md)
 * [Funções e permissões](/help/using/gs/c-mob-roles-and-permissions.md)
 * [Métricas do Mobile](/help/using/gs/metrics/metrics.md)
 * [Mensagens](/help/using/in-app-messaging/in-app-messaging.md)
