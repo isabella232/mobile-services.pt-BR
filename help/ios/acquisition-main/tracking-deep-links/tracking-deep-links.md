@@ -5,16 +5,16 @@ seo-title: Rastreamento de deep links
 solution: Experience Cloud,Analytics
 title: Rastreamento de deep links
 uuid: 08dc2820-7fd3-419f-ac2d-dcf12532578a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '321'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Rastreamento de deep links{#tracking-deep-links}
+# Rastreamento de deep links {#tracking-deep-links}
 
 Essas informações podem ser usadas para rastrear deep links e deep links deferidos nos aplicativos móveis usando o SDK do iOS do Adobe Mobile.
 
@@ -27,9 +27,9 @@ Para obter mais informações sobre como os profissionais de marketing usam deep
    Para obter mais informações, consulte *Adicionar o SDK e o arquivo de configuração ao seu projeto* em [Implementação principal e Ciclo de vida](/help/ios/getting-started/dev-qs.md).
 1. Registre o aplicativo para gerenciar comunicações entre aplicativos ou suportar links universais.
 
-   Para obter mais informações, consulte [Comunicações entre aplicativos ](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html#//apple_ref/doc/uid/TP40007072-CH6-SW10) ou [Links universais de suporte](https://developer.apple.com/library/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html)
+   Para obter mais informações, consulte [Comunicações entre aplicativos](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html#//apple_ref/doc/uid/TP40007072-CH6-SW10) ou [Links universais de suporte](https://developer.apple.com/library/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html)
 
-1. Rastrear deep link em openURL.
+1. Rastrear deep links em openURL.
 
    Este é um exemplo de rastreamento de deep link:
 
