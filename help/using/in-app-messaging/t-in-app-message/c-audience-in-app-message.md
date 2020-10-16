@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Público  Mensagem no aplicativo
 topic: Metrics
 uuid: 6c815d4c-7626-4cf4-9158-3f059c79317a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '583'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 79%
 
 Você pode configurar as opções de público-alvo para mensagens no aplicativo, incluindo as opções de exibição, acionador e característica.
 
-1. In your app, click **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create In-App]**.
+1. No seu aplicativo, clique em **[!UICONTROL Mensagens]** > **[!UICONTROL Gerenciar mensagens]** > **[!UICONTROL Criar mensagem]** > **[!UICONTROL Criar mensagem no aplicativo]**.
 1. Na página Público-alvo, digite as informações nos seguintes campos:
 
    * **[!UICONTROL Exibir]**
@@ -47,7 +47,7 @@ Você pode configurar as opções de público-alvo para mensagens no aplicativo,
       >Se você selecionar vários acionadores, todos eles deverão acontecer na mesma ocorrência para que a mensagem seja exibida.
 
    * **[!UICONTROL Características]**
-Você pode determinar quem deve ver a mensagem no aplicativo quando acionada e filtrar (segmentar) o público para ocorrências que tenham dados especificados. Por exemplo, é possível definir uma regra na qual Pontos de interesse contenham Denver. Esse filtro permite que você mostre a mensagem aos clientes que estão em um de seus pontos de interesse com Denver no nome, no momento do acionador.
+Você pode determinar quem deve ver a mensagem no aplicativo quando acionada e filtrar (segmentar) o público alvo para ocorrências que tenham dados especificados. Por exemplo, é possível definir uma regra em que Pontos de interesse contenham Denver. Esse filtro permite que você mostre a mensagem aos clientes que estão em um de seus pontos de interesse com Denver no nome, no momento do acionador.
 
 
 
@@ -55,9 +55,9 @@ Você pode determinar quem deve ver a mensagem no aplicativo quando acionada e f
 
 >[!IMPORTANT]
 >
->Os acionadores e as características usam dados transmitidos do seu aplicativo para o Analytics. Esses valores são passados como dados de contexto, variáveis mapeadas e métricas. Uma variável é um valor baseado em texto e uma métrica é um valor numérico.
+>Os acionadores e as características usam dados transmitidos do seu aplicativo para o Analytics. Esses valores são transmitidos como dados de contexto, variáveis mapeadas e métricas. Uma variável é um valor baseado em texto e uma métrica é um valor numérico.
 
-To see the mapping of these key value pairs in the Mobile Services UI and validate the value for your trigger, click **[!UICONTROL Manage App Settings]** >  **[!UICONTROL Manage Variables &amp; Metrics]** >, which displays the following tabs:
+Para ver o mapeamento desses pares de valores principais na interface do Mobile Services e validar o valor do seu acionador, clique em **[!UICONTROL Gerenciar configurações do aplicativo]** > **[!UICONTROL Gerenciar variáveis e métricas]** >, e serão exibidas as guias a seguir:
 
 * **[!UICONTROL Variáveis e métricas padrão]**
 * **[!UICONTROL Variáveis personalizadas]**
@@ -75,7 +75,7 @@ As hipóteses a seguir ajudam você a determinar se deve selecionar uma métrica
 
 Uma métrica é um número, e um exemplo é o número de compras.
 
-1. Click **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]**.
+1. Clique em **[!UICONTROL Gerenciar mensagens]** > **[!UICONTROL Criar mensagem]**.
 1. Complete as etapas na seção **[!UICONTROL Acionador]** da guia **[!UICONTROL Público-alvo:]**
 
    1. Selecione um evento padrão como **[!UICONTROL Iniciado]** e, em seguida **[!UICONTROL existe]**.
@@ -86,7 +86,7 @@ Uma métrica é um número, e um exemplo é o número de compras.
 
 Uma variável é uma cadeia de caracteres de texto que é um identificador único, como país e aeroporto, por exemplo.
 
-1. Click **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]**.
+1. Clique em **[!UICONTROL Gerenciar mensagens]** > **[!UICONTROL Criar mensagem]**.
 1. Complete as etapas na seção **[!UICONTROL Acionador]** da guia **[!UICONTROL Público-alvo:]**
 
    1. Selecione um evento padrão como **[!UICONTROL Iniciado]** e, em seguida **[!UICONTROL existe]**.
