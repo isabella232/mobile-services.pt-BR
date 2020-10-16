@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Anúncios de Pesquisa da Apple
 topic: Developer and implementation
 uuid: 790080e8-067e-4bfd-a169-0027db4fdff3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '280'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Para habilitar seu aplicativo para atribuição do Search Ads:
 
 1. Implemente o Adobe SDK versão 4.13.2 ou superior.
 
-   For more information, see [Core implementation and lifecycle](/help/ios/getting-started/dev-qs.md).
+   Para obter mais informações, consulte [Implementação principal e ciclo de vida](/help/ios/getting-started/dev-qs.md).
 
 1. Adicione a estrutura iAd ao arquivo do projeto Xcode para seu aplicativo.
 
