@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: Métodos TVJS
 topic: Developer and implementation
 uuid: a7bfa85a-0d6e-4f51-9a9e-70429c2a9806
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2013'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Esta é uma lista de métodos TVJS fornecidos pela biblioteca tvOS.
 
 ## Métodos de configuração {#section_5F82FD2F6A0546B3B4E80DF832E11634}
 
-* **version**
+* **versão**
 
    Retorna a versão atual da biblioteca do Adobe Mobile.
 
