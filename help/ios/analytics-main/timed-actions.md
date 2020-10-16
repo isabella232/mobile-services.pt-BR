@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Ações cronometradas
 topic: Developer and implementation
 uuid: dbcbac5a-6345-49f6-b050-0db05292f005
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -21,14 +21,14 @@ As ações cronometradas permitem medir o tempo no aplicativo e o tempo total en
 
 As seguintes métricas são reportadas para ações cronometradas:
 
-* Número total de segundos no aplicativo entre o start e as sessões de término
-* Número total de segundos entre o start e o término (hora do relógio)
+* Número total de segundos no aplicativo entre o início e o término - sessões cruzadas
+* Número total de segundos entre o início e o término (hora do relógio)
 
 Um retorno de chamada opcional permite executar ações adicionais quando a ação cronometrada é concluída:
 
 * Execute o código e adicione qualquer lógica - lógica personalizada opcional com base nos resultados de duração.
 * Adicione dados de contexto antes de transmitir as durações.
-* Cancelar ocorrência e durações ainda não enviadas.
+* Cancele a ocorrência e as durações ainda não enviadas.
 
 ## Rastreamento de ações cronometradas {#section_FF5B1EDC1A5340A5B13BC0F1BF2E13E1}
 
