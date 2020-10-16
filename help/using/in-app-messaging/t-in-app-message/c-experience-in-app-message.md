@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Experiência  Mensagem no aplicativo
 topic: Metrics
 uuid: 4c6d6756-47fb-4f1b-8338-0b0c9b0fceb0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 92%
 
 Configure as opções de experiência para mensagens no aplicativo, incluindo o tipo (tela cheia, alerta ou notificação) e as opções de exibição, texto e botão.
 
-1. In your app, click **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create In-App]**.
+1. No seu aplicativo, clique em **[!UICONTROL Mensagens]** > **[!UICONTROL Gerenciar mensagens]** > **[!UICONTROL Criar mensagem]** > **[!UICONTROL Criar mensagem no aplicativo]**.
 1. Na página Experiência, digite um nome para a mensagem.
 1. Preencha os campos na seção **[!UICONTROL Tipo]**:
 
