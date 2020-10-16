@@ -6,16 +6,16 @@ solution: Experience Cloud,Analytics
 title: Mensagens
 topic: Developer and implementation
 uuid: c6475ab4-015d-46b0-af28-5d0df3f4459e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '121'
 ht-degree: 100%
 
 ---
 
 
-# Mensagens{#messaging}
+# Mensagens {#messaging}
 
 Esta informação ajuda a usar as mensagens nos aplicativos iOS.
 
