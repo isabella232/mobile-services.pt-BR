@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Solucionar problemas de mensagens de push
 topic: Metrics
 uuid: 87d7dcb6-82a8-46e3-a6ed-7f895a22f2af
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Os seguintes tipos de atrasos podem estar associados a mensagens de push para os
 
 * **Aguardar o serviço de push**
 
-   O serviço de push (APNS ou GCM) pode não enviar a mensagem imediatamente. Embora incomum, temos visto um atraso de 5 a 10 minutos. Na página Mensagens, é possível verificar se a mensagem de push foi enviada para o serviço de push clicando no link Exibir na mensagem. No relatório, o número de envios bem-sucedidos para o serviço por push está listado na coluna Publicado.
+   O serviço de push (APNS ou GCM) pode não enviar imediatamente a mensagem. Embora incomum, temos visto um atraso de 5 a 10 minutos. Na página Mensagens, é possível verificar se a mensagem de push foi enviada para o serviço de push clicando no link Exibir na mensagem. No relatório, o número de envios bem-sucedidos para o serviço por push está listado na coluna Publicado.
 
    >[!TIP]
    >
@@ -41,7 +41,7 @@ Os seguintes tipos de atrasos podem estar associados a mensagens de push para os
    >* **APNS**: [Qualidade do serviço](https://developer.apple.com/documentation/usernotifications)
       >
       >
-   * **GCM**: [Duração de uma mensagem](https://developers.google.com/cloud-messaging/concept-options)
+   * **GCM**: [Tempo de vida de uma mensagem](https://developers.google.com/cloud-messaging/concept-options)
 
 
 ## Como renovo meu Certificado de Serviço Push da Apple?
@@ -58,4 +58,4 @@ O envio de mensagens de push requer um Certificado de Serviço de Push válido. 
 
 ## Por que não consigo ver minhas mensagens de push em um simulador do iOS?
 
-Os simuladores do iOS não suportam mensagens de push.
+Os simuladores do iOS não aceitam mensagens de push.
