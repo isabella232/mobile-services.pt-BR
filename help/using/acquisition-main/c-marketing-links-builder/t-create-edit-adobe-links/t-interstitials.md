@@ -1,26 +1,26 @@
 ---
-description: É possível direcionar os usuários para um destino, dependendo se eles têm o aplicativo instalado (um deep link de aplicativo) ou não (para um site ou uma app store).
+description: É possível direcionar os usuários para um destino. Depende se eles têm o aplicativo instalado (um deep link de aplicativo) ou não (para um site ou uma app store).
 keywords: mobile
-seo-description: É possível direcionar os usuários para um destino, dependendo se eles têm o aplicativo instalado (um deep link de aplicativo) ou não (para um site ou uma app store).
+seo-description: É possível direcionar os usuários para um destino. Depende se eles têm o aplicativo instalado (um deep link de aplicativo) ou não (para um site ou uma app store).
 seo-title: Intersticiais
 solution: Experience Cloud,Analytics
 title: Intersticiais
 topic: Metrics
 uuid: 7dce8ab2-2a5d-4384-ac1e-e31dfaa33654
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 
-# Intersticiais{#interstitials}
+# Intersticiais {#interstitials}
 
-É possível direcionar os usuários para um destino, dependendo se eles têm o aplicativo instalado (um deep link de aplicativo) ou não (para um site ou uma app store). A escolha do roteamento é deixada melhor para os usuários. Os profissionais de marketing podem fornecer opções de usuário configurando uma página intersticial que mostra aos usuários os destinos de aterrissagem disponíveis.
+É possível direcionar os usuários para um destino. Depende se eles têm o aplicativo instalado (um deep link de aplicativo) ou não (para um site ou uma app store). É melhor deixar a escolha do roteamento para os usuários. Os profissionais de marketing podem fornecer opções de usuário configurando uma página intersticial que mostra aos usuários os destinos de aterrissagem disponíveis.
 
-Para configurar um intersticial ao  criar um Link de marketing:
+Para configurar um intersticial ao   criar um Link de marketing:
 
 1. Clique em **[!UICONTROL Editar link profundo intersticial]**.
 
@@ -59,9 +59,9 @@ Para configurar um intersticial ao  criar um Link de marketing:
 
    * **[!UICONTROL Texto de fallback]**
 
-      Especifique o texto de fallback a ser exibido.
+      Especifique o texto de fallback que será exibido.
 
-      Esse campo atualiza o botão de texto se ocorrer uma falha em um deep link. Os usuários são direcionados para experimentar o deep link para que possam voltar para outra opção. Por exemplo, um fallback pode ser para uma loja de aplicativos para baixar e instalar o aplicativo ou levar os usuários para o site da empresa. O texto de fallback permite que os usuários saibam que há outra opção disponível se ocorrer uma falha no link direto.
+      Esse campo atualiza o botão de texto se ocorrer uma falha em um deep link. Os usuários são direcionados para experimentar o deep link para que possam voltar para outra opção. Por exemplo, um fallback pode servir para uma loja de aplicativos baixar e instalar o aplicativo ou levar os usuários para o site da empresa. O texto de fallback permite que os usuários saibam que há outra opção disponível se ocorrer uma falha no link direto.
 
 
 1. (**Opcional**) Clique nos ícones acima da imagem para ver como o intersticial aparece rotacionado e em dispositivos diferentes.
