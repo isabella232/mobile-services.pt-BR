@@ -1,24 +1,24 @@
 ---
-description: Os profissionais de marketing podem criar links de rastreamento para promover e direcionar o tráfego para seus aplicativos. Esses links de rastreamento podem direcionar usuários para app stores, deep links de aplicativos e intersticiais, que podem ser correlacionados ao comportamento no aplicativo. Um comerciante pode criar um link para direcionar usuários para iOS, Android ou outras plataformas, conforme apropriado.
+description: Os profissionais de marketing podem criar links de rastreamento para promover e direcionar o tráfego para seus aplicativos. Esses links de rastreamento podem direcionar usuários para app stores, deep links de aplicativos e intersticiais, que podem ser correlacionados ao comportamento no aplicativo. Um comerciante pode criar um link para direcionar usuários para iOS, Android ou outras plataformas conforme apropriado.
 keywords: mobile
-seo-description: Os profissionais de marketing podem criar links de rastreamento para promover e direcionar o tráfego para seus aplicativos. Esses links de rastreamento podem direcionar usuários para app stores, deep links de aplicativos e intersticiais, que podem ser correlacionados ao comportamento no aplicativo. Um comerciante pode criar um link para direcionar usuários para iOS, Android ou outras plataformas, conforme apropriado.
+seo-description: Os profissionais de marketing podem criar links de rastreamento para promover e direcionar o tráfego para seus aplicativos. Esses links de rastreamento podem direcionar usuários para app stores, deep links de aplicativos e intersticiais, que podem ser correlacionados ao comportamento no aplicativo. Um comerciante pode criar um link para direcionar usuários para iOS, Android ou outras plataformas conforme apropriado.
 seo-title: Aquisição
 solution: Experience Cloud,Analytics
 title: Aquisição
 topic: Metrics
 uuid: 987146e4-2cca-46e7-88aa-74b62d9f1dc5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '499'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
 # Aquisição {#acquisition}
 
-Os profissionais de marketing podem criar links de rastreamento para promover e direcionar o tráfego para seus aplicativos. Esses links de rastreamento podem direcionar usuários para app stores, deep links de aplicativos e intersticiais, que podem ser correlacionados ao comportamento no aplicativo. Um comerciante pode criar um link para direcionar usuários para iOS, Android ou outras plataformas, conforme apropriado.
+Os profissionais de marketing podem criar links de rastreamento para promover e direcionar o tráfego para seus aplicativos. Esses links de rastreamento podem direcionar usuários para app stores, deep links de aplicativos e intersticiais, que podem ser correlacionados ao comportamento no aplicativo. Um comerciante pode criar um link para direcionar usuários para iOS, Android ou outras plataformas conforme apropriado.
 
 ## Nova versão do SDK da Adobe Experience Cloud
 
@@ -26,7 +26,7 @@ Procurando informações e documentação relacionadas ao Adobe Experience Platf
 
 Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/br/experience-platform/launch.html).
 
-* To get started, go to [Launch](https://launch.adobe.com/).
+* Para começar, acesse o [Launch](https://launch.adobe.com/).
 * Para ver o conteúdo dos repositórios SDK da Experience Platform, acesse [Github: SDKs da Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 >[!IMPORTANT]
