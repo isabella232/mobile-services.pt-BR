@@ -1,32 +1,32 @@
 ---
-description: O relatório Usuários e sessões exibe as métricas de visitantes únicos para o período de tempo selecionado.
+description: O relatório Usuários e sessões exibe as métricas de visitantes únicos para o período selecionado.
 keywords: mobile
-seo-description: O relatório Usuários e sessões exibe as métricas de visitantes únicos para o período de tempo selecionado.
-seo-title: Relatório de Usuários e Sessões
+seo-description: O relatório Usuários e sessões exibe as métricas de visitantes únicos para o período selecionado.
+seo-title: Relatório de Usuários e sessões
 solution: Experience Cloud,Analytics
-title: Relatório de Usuários e Sessões
+title: Relatório de Usuários e sessões
 topic: Reports,Metrics
 uuid: 6d70d7f6-de81-4307-a4f3-14f18fc3c9b3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
 ht-degree: 100%
 
 ---
 
 
-# Relatório de usuários e sessões{#users-and-sessions}
+# Relatório de usuários e sessões {#users-and-sessions}
 
-O relatório Usuários e sessões exibe as métricas de visitantes únicos para o período de tempo selecionado.
+O relatório Usuários e sessões exibe as métricas de visitantes únicos para o período selecionado.
 
 ![Relatório de usuários e sessões](assets/users_sessions.png)
 
 Você pode configurar as seguintes opções no relatório:
 
-* **[!UICONTROL Período de tempo]**
+* **[!UICONTROL Período]**
 
-   Clique no ícone **[!UICONTROL Calendário]** e selecione um período de tempo personalizado ou escolha um período de tempo predefinido na lista suspensa.
+   Clique no ícone **[!UICONTROL Calendário]** e selecione um período personalizado ou escolha um período predefinido na lista suspensa.
 
 * **[!UICONTROL Personalizar]**
 
