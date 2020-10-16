@@ -7,24 +7,24 @@ solution: Experience Cloud,Analytics
 title: Relatório de tecnologia
 topic: Reports,Metrics
 uuid: 4b7322c4-8920-43cd-bb72-5a5bd515ae84
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 
 # Relatório de tecnologia {#technology}
 
-O relatório de **[!UICONTROL Tecnologia]** permite ver os diferentes tipos de dispositivos, sistemas operacionais, versões de sistemas operacionais e operadoras de celular nos quais seu aplicativo é usado.
+O relatório **[!UICONTROL Tecnologia]** permite ver os diferentes tipos de dispositivos, sistemas operacionais, versões de sistemas operacionais e operadoras de celular nos quais seu aplicativo é usado.
 
 Este relatório fornece uma visualização em forma de raio de sol dos dados existentes, e você pode usar o relatório para descobrir segmentos de público-alvo (coleções de visitantes) para segmentação. A criação e o gerenciamento de públicos-alvo é semelhante à criação e utilização de segmentos, exceto a possibilidade de disponibilizar os públicos-alvo na Experience Cloud.
 
 ## Navegação e utilização {#section_83CA60E1AE6245FEBCBFF3205615C4DF}
 
-Essa visualização fornece, por exemplo, o relatório básico e os detalhamentos, usa a altura para mostrar a métrica em foco e as diferenças de desempenho entre as métricas. Cada anel representa um segmento de audiência na categoria do anel. É possível realizar ações em uma audiência, como aplicar um filtro fixo, ocultar uma métrica e visualizar métricas.
+Essa visualização fornece, por exemplo, o relatório básico e os detalhamentos, usa a altura para mostrar a métrica em foco e as diferenças de desempenho entre as métricas. Cada anel representa um segmento de público alvo na categoria do anel. É possível realizar ações em um público alvo, como aplicar um filtro fixo, ocultar uma métrica e visualizar métricas.
 
 >[!TIP]
 >
@@ -73,6 +73,6 @@ Se você clicar em **[!UICONTROL Adicionar detalhamento]** ou **[!UICONTROL Adic
 
 Clique em uma parte do anel para selecionar o público-alvo para o qual deseja criar um filtro fixo e clique em **[!UICONTROL Filtro fixo]**. Este filtro permite aplicar os filtros atuais e executar um novo relatório com base neles.
 
-## Compartilhar relatórios  {#section_560DD5CED5144249B7E49461E2422100}
+## Compartilhar relatórios   {#section_560DD5CED5144249B7E49461E2422100}
 
 Depois de criar um relatório, suas configurações são usadas para criar um URL personalizado que você pode copiar e compartilhar.
