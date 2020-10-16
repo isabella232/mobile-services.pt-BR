@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Mensagens no aplicativo
 topic: Developer and implementation
 uuid: 351ee3d2-80b9-4f2d-9696-21f274d89f5a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '803'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Procurando informações e documentação relacionadas ao Adobe Experience Platf
 >
 >Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/br/experience-platform/launch.html).
 
-* To get started, go to [Launch](https://launch.adobe.com/).
+* Para começar, acesse o [Launch](https://launch.adobe.com/).
 * Para ver o conteúdo dos repositórios SDK da Experience Platform, acesse [Github: SDKs da Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 >[!IMPORTANT]
@@ -36,9 +36,9 @@ Procurando informações e documentação relacionadas ao Adobe Experience Platf
 
 >[!IMPORTANT]
 >
->To use in-app messaging, you **must** have SDK version 4.2 or later.
+>Para usar mensagens no aplicativo, você **deve** ter o SDK versão 4.2 ou posterior.
 
-Você pode criar mensagens e regras nos Adobe Mobile Services que definem quando as mensagens são exibidas. For more information, see [Create an in-app message](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md). Para exibir mensagens no aplicativo, as atualizações devem ser feitas no SDK. Você pode concluir essas etapas mesmo que ainda não tenha definido nenhuma mensagem. Depois de definir as mensagens, elas serão entregues dinamicamente ao seu aplicativo e exibidas sem uma atualização da app store.
+Você pode criar mensagens e regras no Adobe Mobile Services que definem quando as mensagens são exibidas. Para obter mais informações, consulte [ Criar uma mensagem no aplicativo](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md). Para exibir mensagens no aplicativo, as atualizações devem ser feitas no SDK. Você pode concluir essas etapas mesmo que ainda não tenha definido nenhuma mensagem. Depois de definir as mensagens, elas são entregues de forma dinâmica ao seu aplicativo e exibidas sem uma atualização da loja de aplicativos.
 
 ## Ativar mensagens no aplicativo {#section_380DF56C4EE4432A823940E4AE4C9E91}
 
@@ -140,7 +140,7 @@ Os SDKs móveis do Android rastreiam as seguintes métricas para as mensagens no
 
 ## Imagem de fallback local {#section_DEACC1CE549B4573B556A44A52409941}
 
-Ao criar uma mensagem em tela cheia, você pode especificar uma imagem de fallback. Se a mensagem não puder recuperar a imagem desejada da Web, o SDK tentará carregar a imagem com o mesmo nome da pasta de ativos do aplicativo. Isso permite que você mostre sua mensagem em sua forma original, mesmo se o usuário estiver offline ou se a imagem predeterminada for inacessível.
+Ao criar uma mensagem em tela cheia, você pode especificar uma imagem de fallback. Se a mensagem não puder recuperar a imagem desejada da Web, o SDK tentará carregar a imagem com o mesmo nome da pasta de ativos do aplicativo. Isso permite que você mostre a mensagem em sua forma original, mesmo se o usuário estiver offline ou se a imagem predeterminada estiver inacessível.
 
 >[!IMPORTANT]
 >
@@ -152,7 +152,7 @@ Os métodos a seguir permitem configurar os ícones pequeno e grande que aparece
 
 * **Config.setSmallIconResourceId(int resourceId)**
 
-   Defina o ícone pequeno que será usado para notificações criadas pelo SDK. Esse ícone é exibido na barra de status e é a imagem secundária que é exibida quando o usuário visualiza a notificação completa na central de notificações.
+   Defina o ícone pequeno que será utilizado para notificações criadas pelo SDK. Esse ícone aparecerá na barra de status e será a imagem secundária exibida quando o usuário visualizar a notificação completa na central de notificações.
 
    * Esta é a sintaxe para este método:
 
