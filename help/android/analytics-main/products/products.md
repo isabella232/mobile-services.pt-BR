@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Variável products
 topic: Developer and implementation
 uuid: f4484022-cb8b-4dea-9209-5a110ba607df
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -49,4 +49,4 @@ A variável *products* está definida na solicitação de imagem e as outras var
 
 ![](assets/map-products.png)
 
-Não é necessário mapear a variável *products* usando as regras de processamento, pois essa variável é definida diretamente na solicitação de imagem pelo SDK.
+Não é necessário mapear a variável  *products* usando as regras de processamento, pois essa variável é definida diretamente na solicitação de imagem pelo SDK.
