@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Relatório dos Caminhos de ação
 topic: Reports,Metrics
 uuid: a21e5d9e-fd57-4178-9d64-87181b7f988b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '556'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
 
-# Relatório dos Caminhos de ação{#action-paths}
+# Relatório dos Caminhos de ação {#action-paths}
 
 O relatório Caminhos de ação se baseia na análise de caminhos e mostra um gráfico que representa os caminhos que foram tomados de um estado para outro no aplicativo.
 
@@ -34,30 +34,30 @@ Para exibir as opções para modificar o gráfico, clique em um nó e em **[!UIC
 
 ![](assets/action_paths_icons.png)
 
-To expand, click the **[!UICONTROL +]** icon. Essa opção exibe os caminhos adicionais que entram ou saem do nó. No gráfico abaixo, o estado 1 está inicializando o aplicativo, o estado 2 está escolhendo uma foto (o item que você expandiu anteriormente) e o estado 3 inclui os diferentes caminhos que os usuários tomaram:
+Para expandir, clique no ícone **[!UICONTROL +]**. Essa opção exibe os caminhos adicionais que entram ou saem do nó. No gráfico abaixo, o estado 1 está inicializando o aplicativo, o estado 2 está escolhendo uma foto (o item que você expandiu anteriormente) e o estado 3 inclui os diferentes caminhos que os usuários tomaram:
 
 * Selecionar um item
 * Adicionar um item
 * Arrastar um item
-* Dimensionamento de um item
+* Dimensionar um item
 
 Expandir um estado é semelhante a um funil.
 
 ![expansão do caminho de ação](assets/action_paths_expand.png)
 
-Para isolar o nó e mostrar os caminhos que entram e saem do nó selecionado, clique no ícone ![focus icon](assets/icon_focus.png). No gráfico abaixo, os seguintes caminhos foram concluídos **antes** que os usuários selecionassem uma foto:
+Para isolar o nó e mostrar os caminhos que entram e saem do nó selecionado, clique no ícone ![focus icon](assets/icon_focus.png). No gráfico abaixo, os seguintes caminhos foram concluídos **antes** de os usuários selecionarem uma foto:
 
 * Girar um item
-* Dimensionamento de um item
+* Dimensionar um item
 * Arrastar um item
-* Remoção de um item
+* Remover um item
 
 Dos usuários que selecionaram uma foto, os seguintes caminhos foram concluídos **após** a seleção da foto:
 
 * Selecionar um item
 * Adicionar um item
 * Arrastar um item
-* Dimensionamento de um item
+* Dimensionar um item
 
 ![foco do caminho de ação](assets/action_paths_focus.png)
 
@@ -67,9 +67,9 @@ Você pode focar ou expandir vários nós para obter uma visualização detalhad
 
 Você pode configurar as seguintes opções no relatório:
 
-* **[!UICONTROL Período de tempo]**
+* **[!UICONTROL Período]**
 
-   Clique no ícone **[!UICONTROL Calendário]** e selecione um período de tempo personalizado ou escolha um período de tempo predefinido na lista suspensa.
+   Clique no ícone **[!UICONTROL Calendário]** e selecione um período personalizado ou escolha um período predefinido na lista suspensa.
 
 * **[!UICONTROL Personalizar]**
 
