@@ -6,16 +6,16 @@ solution: Experience Cloud,Analytics
 title: Migração para a biblioteca 4.x do iOS
 topic: Developer and implementation
 uuid: 5668972b-f355-4e03-9df0-8c82ddf6809b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '895'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
 
-# Migração para a biblioteca 4.x do iOS{#migrating-to-the-x-ios-library}
+# Migração para a biblioteca 4.x do iOS {#migrating-to-the-x-ios-library}
 
 Estas informações ajudam a migrar da versão 3.x ou 2.x da biblioteca do iOS para a versão 4.x.
 
@@ -27,11 +27,11 @@ Na versão 4.x da biblioteca do SDK do iOS, os métodos públicos são consolida
 
 ## Eventos, propriedades e eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
-Na versão 4, não é mais possível atribuir variáveis como eventos, eVars, props, herdeiros e listas diretamente no aplicativo. Em vez disso, o SDK usa dados de contexto e regras de processamento para mapear os dados do aplicativo para as variáveis do Analytics para o relatórios.
+Na versão 4, não é mais possível atribuir variáveis como eventos, eVars, props, herdeiros e listas diretamente no aplicativo. Em vez disso, o SDK usa dados de contexto e regras de processamento para mapear os dados do aplicativo para as variáveis do Analytics para os relatórios.
 
 As regras de processamento oferecem as seguintes vantagens:
 
-* Você pode alterar o mapeamento de dados sem enviar uma atualização para a App Store.
+* Você pode alterar o mapeamento de dados sem enviar uma atualização para a loja de aplicativos.
 * Você pode usar nomes significativos para dados em vez de definir variáveis específicas para um conjunto de relatórios.
 * Há pouco impacto no envio de dados extras.
 
@@ -90,7 +90,7 @@ Mova o valor da primeira coluna para a variável na segunda coluna.
 | Variável de configuração | Variável no arquivo `ADBMobileConfig.json` |
 |--- |--- |
 | offlineTrackingEnabled | &quot;offlineEnabled&quot; |
-| offlineHitLimit | &quot;batchLimit&quot; |
+| offlineHitLimit | “batchLimit” |
 | reportSuiteIDs | &quot;rsids&quot; |
 | trackingServer | &quot;server&quot; |
 | charSet | &quot;charset&quot; |
@@ -107,9 +107,9 @@ Mova o valor da primeira coluna para a variável na segunda coluna.
 | Variável de configuração | Variável no arquivo `ADBMobileConfig.json` |
 |--- |--- |
 | trackOffline | &quot;offlineEnabled&quot; |
-| offlineLimit | &quot;batchLimit&quot; |
+| offlineLimit | “batchLimit” |
 | account | &quot;rsids&quot; |
-| trackingServer | &quot;server&quot;, remove the `"https://"` prefix. O prefixo do protocolo é adicionado automaticamente com base na configuração &quot;ssl&quot;. |
+| trackingServer | &quot;server&quot;, remover o prefixo `"https://"`. O prefixo do protocolo é adicionado automaticamente com base na configuração &quot;ssl&quot;. |
 | trackingServerSecure | Remover. Para conexões seguras, defina &quot;server&quot; e ative &quot;ssl&quot;. |
 | charSet | &quot;charset&quot; |
 | currencyCode | &quot;currency&quot; |
@@ -122,7 +122,7 @@ Mova o valor da primeira coluna para a variável na segunda coluna.
 | dynamicVariablePrefix | Remover, não é mais usado. |
 | visitorNamespace | Remover, não é mais usado. |
 | usePlugins | Remover, não é mais usado. |
-| useBestPractices todas as chamadas para medição de taxa ( getChurnInstance ) | Remover, substituído pelas métricas de ciclo de vida. Para obter mais informações, consulte [Medições de ciclo de vida](//help/ios/metrics.md). |
+| useBestPractices  todas as chamadas para medição de churn (getChurnInstance) | Remover, substituído pelas métricas de ciclo de vida. Para obter mais informações, consulte [Medições de ciclo de vida](//help/ios/metrics.md). |
 
 
 ## Atualizar chamadas e variáveis de rastreamento {#section_96E7D9B3CDAC444789503B7E7F139AB9}
@@ -139,11 +139,11 @@ O parâmetro `data` para ambos os métodos é um `NSDictionary` que contém os p
 
 ### Eventos, propriedades, eVars
 
-Na versão 4, não é mais possível atribuir variáveis como eventos, eVars, props, herdeiros e listas diretamente no aplicativo. O SDK agora usa dados de contexto e regras de processamento para mapear os dados do aplicativo para as variáveis do Analytics para o relatórios.
+Na versão 4, não é mais possível atribuir variáveis como eventos, eVars, props, herdeiros e listas diretamente no aplicativo. O SDK agora usa dados de contexto e regras de processamento para mapear os dados do aplicativo para as variáveis do Analytics para os relatórios.
 
 As regras de processamento oferecem as seguintes vantagens:
 
-* Você pode alterar o mapeamento de dados sem enviar uma atualização para a App Store.
+* Você pode alterar o mapeamento de dados sem enviar uma atualização para a loja de aplicativos.
 * Você pode usar nomes significativos para dados em vez de definir variáveis específicas para um conjunto de relatórios.
 * Há pouco impacto no envio de dados extras.
 
@@ -153,7 +153,7 @@ Os valores atribuídos diretamente às variáveis devem ser adicionados ao `data
 
 ### AppSection/servidor, GeoZip, ID da transação, campanha e outras variáveis padrão
 
-Os dados que você estava configurando no objeto de medição, incluindo as variáveis listadas acima, agora devem ser adicionados ao `data``NSDictionary`. Os únicos dados enviados com uma chamada `trackState` ou `trackAction` são a carga no parâmetro `data`.
+Os dados que você estava configurando no objeto de medição, incluindo as variáveis listadas acima, agora devem ser adicionados ao `data` `NSDictionary`. Os únicos dados enviados com uma chamada `trackState` ou `trackAction` são a carga no parâmetro `data`.
 
 ### Substituir chamadas de rastreamento
 
