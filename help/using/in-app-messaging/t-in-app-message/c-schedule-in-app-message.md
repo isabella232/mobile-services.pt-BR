@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Programar mensagem no aplicativo
 topic: Metrics
 uuid: d10e691b-105a-4165-a49d-d046ce250acd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
-# Programar: mensagem no aplicativo{#schedule-in-app-message}
+# Programar: mensagem no aplicativo {#schedule-in-app-message}
 
 É possível configurar as opções de agendamento para mensagens no aplicativo, incluindo as opções de duração, dias da semana e hora do dia.
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 >
 >Os intervalos de datas são definidos pelo fuso horário. Dias e intervalos de tempo específicos são relativos ao dispositivo do usuário.
 
-1. In your app, click **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create In-App]**.
+1. No seu aplicativo, clique em **[!UICONTROL Mensagens]** > **[!UICONTROL Gerenciar mensagens]** > **[!UICONTROL Criar mensagem]** > **[!UICONTROL Criar mensagem no aplicativo]**.
 1. Clique em **[!UICONTROL Agendamento]**.
 1. Preencha os seguintes campos na seção **[!UICONTROL Duração]**:
 
