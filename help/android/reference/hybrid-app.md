@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Rastreamento de visitantes entre um aplicativo e a internet móvel
 topic: Developer and implementation
 uuid: 073572e4-4c55-4b27-b4a7-e4349ccde7bf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Para usar a mesma ID de visitante no aplicativo e na Web móvel:
    });
    ```
 
-O código do serviço de ID no domínio de destino extrai a MID do URL, em vez de enviar uma solicitação para o Adobe para uma nova ID. O código usa a ID transmitida para rastrear o visitante.
+O código do serviço de ID no domínio de destino extrai a MID do URL em vez de enviar uma solicitação à Adobe para obter uma nova ID. O código usa a MID transmitida para rastrear o visitante.
 
 Em ocorrências do conteúdo da internet móvel, verifique se o parâmetro `mid` existe em cada ocorrência e de que este valor corresponde ao parâmetro `mid` enviado por esse código do aplicativo.
 
