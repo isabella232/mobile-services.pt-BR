@@ -1,16 +1,16 @@
 ---
-description: Estas informações ajudam a usar links de rastreamento de aquisição em seus aplicativos iOS.
-seo-description: Estas informações ajudam a usar links de rastreamento de aquisição em seus aplicativos iOS.
+description: Essas informações ajudam você a usar os links de rastreamento de aquisição em aplicativos iOS.
+seo-description: Essas informações ajudam você a usar os links de rastreamento de aquisição em aplicativos iOS.
 seo-title: Visão geral da aquisição
 solution: Experience Cloud,Analytics
 title: Visão geral da aquisição
 topic: Developer and implementation
 uuid: e22d2785-58f1-4841-9163-912c5e0f5d61
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '136'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
