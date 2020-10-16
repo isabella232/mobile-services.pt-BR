@@ -1,24 +1,24 @@
 ---
-description: É possível medir diferentes métricas usando o Adobe Mobile e coletando as métricas que você deseja acompanhar para o seu aplicativo.
+description: É possível medir diferentes métricas usando o Adobe Mobile e coletar as métricas que você deseja acompanhar para o seu aplicativo.
 keywords: mobile
-seo-description: É possível medir diferentes métricas usando o Adobe Mobile e coletando as métricas que você deseja acompanhar para o seu aplicativo.
+seo-description: É possível medir diferentes métricas usando o Adobe Mobile e coletar as métricas que você deseja acompanhar para o seu aplicativo.
 seo-title: Métricas do Mobile
 solution: Experience Cloud,Analytics
 title: Métricas do Mobile
 topic: Metrics
 uuid: c4457f4a-9d1c-4fe9-ad4a-9eb2e37feab7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '551'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
 
-# Métricas móveis{#mobile-metrics}
+# Métricas móveis {#mobile-metrics}
 
-É possível medir diferentes métricas usando o Adobe Mobile e coletando as métricas que você deseja acompanhar para o seu aplicativo.
+É possível medir diferentes métricas usando o Adobe Mobile e coletar as métricas que você deseja acompanhar para o seu aplicativo.
 
 Os seguintes tipos de métricas são medidos:
 
@@ -30,7 +30,7 @@ Os seguintes tipos de métricas são medidos:
 
    As métricas de uso ajudam você a entender a duração média da sessão, os usuários envolvidos diariamente e mensalmente, as atualizações e outras informações que permitem saber com que frequência seu aplicativo está sendo usado. Os relatórios de retenção mostram rapidamente os níveis de retenção do usuário no dia seguinte à primeira inicialização, após 7 dias e após 28 dias.
 
-   Em dispositivos Android, você pode usar o rastreamento de quem indicou do Google Play para medir como os usuários estão chegando à app store antes de baixarem seu aplicativo.
+   Em dispositivos Android, você pode usar o rastreamento do referenciador do Google Play para medir como os usuários estão chegando à loja de aplicativos antes de baixarem seu aplicativo.
 
 * **Receita**
 
@@ -38,17 +38,17 @@ Os seguintes tipos de métricas são medidos:
 
 * **Eventos do aplicativo**
 
-   Os eventos do aplicativo são os Principais indicadores de desempenho (KPIs) definidos por você para medir o sucesso do aplicativo. Dependendo do tipo de aplicativo fornecido por você, os KPIs podem variar entre  artigos lidos, níveis concluídos e receita vitalícia, por exemplo.
+   Os eventos do aplicativo são os Principais indicadores de desempenho (KPIs) definidos por você para medir o sucesso do aplicativo. Dependendo do tipo de aplicativo fornecido por você, os KPIs podem variar entre   artigos lidos, níveis concluídos e receita vitalícia, por exemplo.
 
 * **Estados do aplicativo**
 
-   Os estados são visualizações diferentes fornecidas pelo aplicativo. Os estados são exibidos em um relatório de definição de caminho, portanto, uma boa maneira de definir estados é pensar nos caminhos pelo aplicativo que você deseja medir. Por exemplo, onde os usuários navegam com mais frequência a partir da visualização inicial?
+   Os estados são visualizações diferentes fornecidas pelo aplicativo. Os estados são exibidos em um relatório de definição de caminho, portanto, uma boa maneira de definir os estados é pensar nos caminhos que deseja medir através do aplicativo. Por exemplo, onde os usuários navegam com mais frequência a partir da visualização inicial?
 
 * **Localidade e pontos de interesse**
 
    Se o GeoReporting estiver habilitado no seu conjunto de relatórios do Analytics, vários relatórios baseados em local estarão disponíveis. No Wi-Fi, a precisão do GeoReporting é similar àquela do navegador da Web para desktop. Em uma conexão de dados, a precisão varia de acordo com o provedor e como as solicitações são roteadas.
 
-   Para aumentar a precisão, você também pode adicionar o rastreamento de local e ponto de interesse ao seu aplicativo. Essas opções permitem relatar dados detalhados de latitude e longitude e usar a delimitação geográfica para determinar quando um usuário está em um raio de um ponto de interesse predefinido.
+   Para aumentar a precisão, você também pode adicionar o rastreamento de local e ponto de interesse ao seu aplicativo. Essas opções permitem informar dados detalhados de latitude e longitude e usar a delimitação geográfica para determinar quando um usuário está em um raio de um ponto de interesse predefinido.
 
 * **Valor da duração**
 
