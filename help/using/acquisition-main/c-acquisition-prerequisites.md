@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Pré-requisitos de aquisição
 topic: Metrics
 uuid: a224499a-5a51-4ca5-a37b-06792b774671
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
-# Pré-requisitos de aquisição{#acquisition-prerequisites}
+# Pré-requisitos de aquisição {#acquisition-prerequisites}
 
 Observe os seguintes pré-requisitos para usar os links de aquisição.
 
@@ -44,4 +44,4 @@ Para rastrear os Links de marketing, deve-se atender aos seguintes pré-requisit
 
 1. Adicionar aplicativos da loja de aplicativos
 
-   Você deve adicionar o aplicativo da Apple App Store ou do Google Play. Para obter mais informações, consulte [Adicionar um aplicativo de uma loja](/help/using/manage-apps/c-app-store/t-app-store-app.md)de aplicativos.
+   Você deve adicionar um aplicativo da Apple App Store ou do Google Play. Para obter mais informações, consulte [Adicionar um aplicativo de uma loja de aplicativos](/help/using/manage-apps/c-app-store/t-app-store-app.md).
