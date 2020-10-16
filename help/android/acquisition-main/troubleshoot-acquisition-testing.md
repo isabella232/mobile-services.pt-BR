@@ -6,9 +6,9 @@ seo-title: Resolução de problemas de teste de aquisição
 solution: Experience Cloud,Analytics
 title: Resolução de problemas de teste de aquisição
 topic: Developer and implementation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
 ht-degree: 100%
 
