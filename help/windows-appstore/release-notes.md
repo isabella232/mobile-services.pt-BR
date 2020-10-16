@@ -1,23 +1,23 @@
 ---
-description: Notas de versão e problemas conhecidos do SDK 4.x da loja de aplicativos universal do Windows 8.1 para soluções de Experience Cloud.
-seo-description: Notas de versão e problemas conhecidos do SDK 4.x da loja de aplicativos universal do Windows 8.1 para soluções de Experience Cloud.
+description: Notas de versão e problemas conhecidos do SDK 4.x da loja de aplicativos do Windows 8.1 Universal para soluções da Experience Cloud.
+seo-description: Notas de versão e problemas conhecidos do SDK 4.x da loja de aplicativos do Windows 8.1 Universal para soluções da Experience Cloud.
 seo-title: Notas de versão
 solution: Experience Cloud,Analytics
 title: Notas de versão
 topic: Developer and implementation
 uuid: 45634319-7949-4e24-b193-4f876af97a69
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
-ht-degree: 22%
+ht-degree: 100%
 
 ---
 
 
 # Notas de versão {#release-notes}
 
-Notas de versão e problemas conhecidos do SDK 4.x da loja de aplicativos universal do Windows 8.1 para soluções de Experience Cloud.
+Notas de versão e problemas conhecidos do SDK 4.x da loja de aplicativos do Windows 8.1 Universal para soluções da Experience Cloud.
 
 ## Notas de versão atuais {#section_DC697A291F0A4CB7B669B24488E07DC1}
 
@@ -25,9 +25,9 @@ Além de aumentos significativos no desempenho, a versão 4 adiciona os seguinte
 
 | Recurso | Descrição |
 |--- |--- |
-| Geolocalização - Pontos de interesse | Os pontos de interesse permitem que você configure um ponto central lat/long e determine um raio. A biblioteca então determina se o local fornecido para essa chamada está dentro de qualquer um de seus pontos de interesse. Para obter mais informações, consulte Localização *geográfica e pontos de interesse* no [Analytics](/help/windows-appstore/analytics/analytics.md). |
-| Valor da duração | O valor da vida útil é uma forma de medir as contribuições e o uso de seus usuários no aplicativo. Cada vez que você enviar um valor, ele será adicionado ao valor existente desse usuário.  Para obter mais informações, consulte Valor *da* vida útil no [Analytics](/help/windows-appstore/analytics/analytics.md). |
-| Ação cronometrada | As ações cronometradas são uma maneira fácil de ver quanto tempo os usuários levam para concluir um processo completo no aplicativo. As ações cronometradas permitem calcular a quantidade de tempo na sessão e o tempo total (entre sessões) necessário para a ação ser concluída. Para obter mais informações, consulte Ações ** cronometradas no [Analytics](/help/windows-appstore/analytics/analytics.md). |
+| Geolocalização - Pontos de interesse | Os pontos de interesse permitem que você configure um ponto central de lat/long e determine um raio. A biblioteca determina se o local fornecido para essa chamada se enquadra em um de seus pontos de interesse. Para obter mais informações, consulte *Localização geográfica e pontos de interesse* no [Analytics](/help/windows-appstore/analytics/analytics.md). |
+| Valor vitalício | O valor vitalício é uma forma de medir as contribuições e o uso de seus usuários no aplicativo. Cada vez que você enviar um valor, ele será adicionado ao valor existente desse usuário. Para obter mais informações, consulte *Valor vitalício* no [Analytics](/help/windows-appstore/analytics/analytics.md). |
+| Ação cronometrada | As ações cronometradas são uma maneira fácil de ver quanto tempo os usuários levam para concluir um processo completo no aplicativo. As ações cronometradas permitem calcular a quantidade de tempo na sessão e o tempo total (entre sessões) necessário para a ação ser concluída. Para obter mais informações, consulte *Ações cronometradas* no [Analytics](/help/windows-appstore/analytics/analytics.md). |
 | Aceitação/recusa | Ative e desative rapidamente a análise. |
 
 
