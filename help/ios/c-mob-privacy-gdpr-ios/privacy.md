@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: Definição de status de opção do usuário
 topic: Developer and implementation
 uuid: 44a09a25-93c6-4e1a-b69e-710018e8b6c3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Essas informações o ajudam com a solicitação de exclusão de dados do GDPR.
 
    Depois de alterar a configuração de privacidade usando este método, a alteração torna-se permanente até ser alterada usando este método ou ao desinstalar e instalar o aplicativo novamente.
 
-   Para obter mais informações sobre os métodos, consulte [Métodos de configuração](/help/ios/configuration/json-config/json-config.md).
+   Para obter mais informações sobre os métodos, consulte  [Métodos de configuração](/help/ios/configuration/json-config/json-config.md).
 
 Veja a seguir informações sobre cada status de privacidade:
 
@@ -41,7 +41,7 @@ Veja a seguir informações sobre cada status de privacidade:
 
    * Analytics: as ocorrências são enviadas.
    * Target: as solicitações da mbox são enviadas.
-   * Audience Manager: os sinais e sincronizações de ID são enviados.
+   * Audience Manager: as sincronizações de ID e os sinais são enviados.
    * Valor no arquivo de configuração JSON: `optedin`
    * Valor em `setPrivacyStatus`: `ADBMobilePrivacyStatusOptIn`
 
@@ -49,7 +49,7 @@ Veja a seguir informações sobre cada status de privacidade:
 
    * Analytics: as ocorrências são descartadas.
    * Target: as solicitações da mbox não são permitidas.
-   * Audience Manager: os sinais e sincronizações de ID não são permitidos.
+   * Audience Manager: as sincronizações de ID e os sinais não são permitidos.
    * Valor no arquivo de configuração JSON: `optedout`
    * Valor em `setPrivacyStatus`: `ADBMobilePrivacyStatusOptOut`
 
@@ -60,7 +60,7 @@ Veja a seguir informações sobre cada status de privacidade:
       Se o rastreamento offline **não estiver** ativado, as ocorrências são descartadas até o status de privacidade ser alterado parar aceitar.
 
    * Target: as solicitações da mbox são enviadas.
-   * Audience Manager: os sinais e sincronizações de ID são enviados.
+   * Audience Manager: as sincronizações de ID e os sinais são enviados.
    * Valor no arquivo de configuração JSON: `optunknown`
    * Valor em `setPrivacyStatus`: `ADBMobilePrivacyStatusUnknown`
 
