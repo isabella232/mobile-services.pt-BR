@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Rastrear estados do aplicativo
 topic: Developer and implementation
 uuid: 69c99d05-5816-4c86-97c5-d218dc26c129
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -71,11 +71,11 @@ Os valores de dados de contexto devem ser mapeados para variáveis personalizada
 
 ## Relatório do estado do aplicativo {#section_0F6A54AB7A3F42C9BB042D86A0FC4630}
 
-Normalmente, os estados são visualizados usando um relatório de definição de caminho, que permite ver como os usuários navegam no aplicativo e quais estados são visualizados com mais frequência.
+Os estados geralmente são vistos usando um relatório de definição de caminho para que você possa ver como os usuários navegam no seu aplicativo e quais estados são exibidos com mais frequência.
 
 |  |  |
 |--- |--- |
-| Adobe Mobile Services | O relatório **[!UICONTROL Exibir estados]**. Este relatório está baseado nos caminhos que o usuário tomou pelo aplicativo. A sample path is  **[!UICONTROL Home]**  >  **[!UICONTROL Settings]**  > **[!UICONTROL Feed]**. |
+| Adobe Mobile Services | O relatório **[!UICONTROL Exibir estados]**. Este relatório está baseado nos caminhos que o usuário tomou pelo aplicativo. Um caminho de amostra é  **[!UICONTROL Início]** > **[!UICONTROL Configurações]** > **[!UICONTROL Feed]**. |
 | Adobe Analytics | Os estados podem ser exibidos em qualquer lugar em que as Páginas podem ser exibidas, como o relatório **[!UICONTROL Páginas]**, o relatório **[!UICONTROL Exibições da página]** e relatórios de **[!UICONTROL Caminho]**. |
 | Ad hoc analytics | Os estados podem ser exibidos em qualquer lugar em que as Páginas possam ser exibidas usando a dimensão **[!UICONTROL Página]**, a métrica **[!UICONTROL Exibições da página]** e os relatórios de **[!UICONTROL Caminho]**. |
 
