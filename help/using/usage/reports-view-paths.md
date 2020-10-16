@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Exibir relatório Caminhos
 topic: Reports,Metrics
 uuid: bc73edce-0cc0-4349-9a48-e0a40cbe1b67
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -30,16 +30,16 @@ Cada nó, formado como uma caixa, representa um estado nos caminhos dos usuário
 
 Quando você clica em um nó para fornecer as opções adicionais para modificar o gráfico, opções adicionais como **[!UICONTROL Focar]** ou **[!UICONTROL Expandir]** são exibidas. Por exemplo, se você clicar no estado **[!UICONTROL MainView]** no nó superior, os ícones **[!UICONTROL Focar]** e **[!UICONTROL Expandir]** serão exibidos.
 
-To expand the view, click the **[!UICONTROL +]** icon to display the additional paths that come in to or go from the node. Na ilustração abaixo, o estado 1 é a inicialização do aplicativo, o estado 2 é a exibição da página principal do aplicativo e o estado 3 inclui os seguintes caminhos que os usuários tomaram:
+Para expandir a exibição, clique no ícone **[!UICONTROL +]** para exibir os caminhos adicionais que entram ou saem do nó. Na ilustração abaixo, o estado 1 é a inicialização do aplicativo, o estado 2 é a exibição da página principal do aplicativo e o estado 3 inclui os seguintes caminhos que os usuários tomaram:
 
 * Navegar até o rolo da câmera
 * navegar até o seletor de itens
-* navegando até a câmera
-* navegando até a página de informações do item
+* navegar até a câmera
+* navegar até a página de informações do item
 
 ![](assets/view_paths_expand.png)
 
-Clique em ![focus icon](assets/icon_focus.png) para isolar o nó e mostrar os caminhos que entram e saem do nó selecionado. Na ilustração abaixo, os seguintes caminhos precederam os usuários que estavam visualizando a visualização principal do aplicativo:
+Clique em ![focus icon](assets/icon_focus.png) para isolar o nó e mostrar os caminhos que entram e saem do nó selecionado. Na ilustração abaixo, os seguintes caminhos precederam os usuários que estavam vendo a visualização principal do aplicativo:
 
 * informações do item
 * seletor de itens
