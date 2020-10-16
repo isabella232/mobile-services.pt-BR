@@ -5,16 +5,16 @@ seo-title: Teste da aquisição V3
 solution: Experience Cloud,Analytics
 title: Teste da aquisição V3
 uuid: 89137ccf-4839-4b37-926e-303cf8e511a5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '620'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Teste da aquisição V3{#testing-v-acquisition}
+# Teste da aquisição V3 {#testing-v-acquisition}
 
 Esta informação ajuda a redirecionar um link de campanha de aquisição V3 com base em uma impressão digital do dispositivo.
 
@@ -66,7 +66,7 @@ Se o aplicativo móvel ainda não estiver na App Store, ao criar o link de campa
    `"Analytics - Trying to fetch referrer data from <acquisition end url>"`
    `"Analytics - Received Referrer Data(<Json Object>)"`
 
-   Se não vir os registros acima, verifique se concluiu as etapas 4 e 5.
+   Se você não vir os registros acima, verifique se as etapas 4 e 5 foram concluídas.
 
    Estas são algumas informações sobre possíveis erros:
 
