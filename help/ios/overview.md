@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: bc11c1e7a4a11657ee89c40ddcbd37377ce50bb5
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Algumas informações para lembrar:
 
 * Há suporte para iOS 8 ou posterior.
 
-   Para iOS 11 ou posterior, você **deve** ter o SDK versão 4.13.8 ou posterior.
+   Para o iOS 11 ou posterior, você **deve** ter o SDK versão 4.13.8 ou posterior.
 
 * Na versão 4.2 e posterior deste SDK, todas as ocorrências são enviadas usando HTTP POST.
 
