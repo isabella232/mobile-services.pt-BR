@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Medições de ciclo de vida
 topic: Developer and implementation
 uuid: a8f3ebac-be3b-4948-82bb-105d46cfff6d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1240'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
-# Métricas de ciclo de vida{#lifecycle-metrics}
+# Métricas de ciclo de vida {#lifecycle-metrics}
 
 Esta seção fornece informações sobre as métricas e as dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida, e um link para solucionar problemas de dados do ciclo de vida. Para obter mais informações sobre solução de problemas, acesse [Solução de problemas de dados do ciclo de vida](https://helpx.adobe.com/br/analytics/kb/troubleshoot-lifecycle-data.html).
 
@@ -31,7 +31,7 @@ Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Ad
 
 ## Métricas de ciclo de vida e dimensões {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
-Quando configuradas, as medições de ciclo de vida são enviadas em parâmetros de dados de contexto para o Analytics, em parâmetros para Público alvo com cada chamada de mbox e como um sinal para o gerenciamento de audiências. O Analytics e o Público alvo usam o mesmo formato, enquanto o gerenciamento de audiências usa um prefixo diferente para cada métrica.
+Quando configuradas, as métricas de ciclo de vida são enviadas em parâmetros de dados de contexto para o Analytics, em parâmetros para o Target com cada chamada de mbox e como um sinal para gerenciamento de público alvo. O Analytics e o Target usam o mesmo formato, enquanto o gerenciamento de público-alvo usa um prefixo diferente para cada métrica.
 
 Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento do ciclo de vida são automaticamente capturados e reportados usando a métrica ou a dimensão, e as exceções são anotadas.
 
@@ -75,7 +75,7 @@ Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento
 
 * **Inicializações**
 
-   Disparado a cada execução, incluindo falhas e instalações. Também é acionado em um resumo do plano de fundo quando o tempo limite da sessão do ciclo de vida é excedido.
+   Acionadas a cada execução, incluindo falhas e instalações. Também é acionado em um resumo do plano de fundo quando o tempo limite da sessão do ciclo de vida é excedido.
 
    >[!IMPORTANT]
    >
