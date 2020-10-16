@@ -2,12 +2,12 @@
 product: mobile-services
 audience: end-user
 user-guide-title: Guia do plug-in do Mobile Services Unity
-breadcrumb-title: Unity Plug-in Guide
-translation-type: ht
+breadcrumb-title: Guia de plug-in do Unity
+translation-type: tm+mt
 source-git-commit: 18ef20df0a32741685e35cee98a1adf4a1b823a1
-workflow-type: ht
-source-wordcount: '32'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '35'
+ht-degree: 91%
 
 ---
 
