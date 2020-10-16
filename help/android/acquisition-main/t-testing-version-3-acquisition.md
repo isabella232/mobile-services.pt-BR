@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Testar a Aquisição versão 3
 topic: Developer and implementation
 uuid: 5e38b43d-389e-4412-99e5-3e6223b6ad28
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '820'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Estas informações ajudam a fazer uma viagem de ida e volta no link da campanha
 
 >[!IMPORTANT]
 >
->A aquisição V3 se refere aos links de aquisição criados com o Criador de aquisição na interface do Adobe Mobile Services. Para usar esse recurso, você deve atualizar para o Android SDK 4.x para as soluções Experience Cloud 4.6.0 ou posterior.
+>A aquisição V3 se refere aos links de aquisição criados com o Criador de aquisição na interface do Adobe Mobile Services. Para usar esse recurso, você deve atualizar para o Android SDK 4.x para as soluções da Experience Cloud 4.6.0 ou posterior.
 
 Se o aplicativo móvel ainda não estiver no Google Play, ao criar o link de campanha, você pode selecionar qualquer aplicativo móvel como destino. Essa ação só afeta o aplicativo para o qual o servidor de aquisição o redireciona após clicar no link de aquisição, mas não afeta a capacidade de testar o link. Os parâmetros da string de query são passados para a Google Play store, que são passados para o aplicativo na instalação como parte de uma transmissão de campanha. O teste de aquisição de aplicativo móvel de ida e volta requer a simulação desse tipo de transmissão.
 
@@ -97,7 +97,7 @@ Broadcast completed: result=0`
 
 `"Analytics - Received referrer information(<referrer content>)"   "Analytics - Trying to fetch referrer data from (acquisition end url)"; "Analytics - Received Referrer Data(<A JSON Response>)"`
 
-Se você não vir os registros acima, verifique se concluiu as etapas de 6 a 12.
+Se você não vir os registros acima, verifique se completou as etapas 6 a 12.
 
 A tabela a seguir contém informações adicionais sobre possíveis erros:
 
@@ -120,7 +120,7 @@ Lembre-se das seguintes informações:
 
 * É possível usar a ferramenta `acquisitionTest.jar` do Java fornecida para ajudá-lo a obter a ID única e o referencial de instalação da transmissão que, por sua vez, o ajuda a obter as informações das etapas de 3 a 12.
 
-   **Instalar a ferramenta Java**
+   **Instalação da ferramenta Java**
 
 Para instalar a ferramenta Java:
 
