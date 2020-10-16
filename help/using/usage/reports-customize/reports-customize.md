@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Personalização de relatórios
 topic: Reports,Metrics
 uuid: 39ba9af3-eaee-44b9-bea4-c8f43a0d2a6c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '486'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
-# Personalizar relatórios{#customize-reports}
+# Personalizar relatórios {#customize-reports}
 
 Estas informações ajudam você a compreender e personalizar os relatórios incorporados.
 
@@ -38,7 +38,7 @@ As informações abaixo descrevem cada área do relatório e o painel **[!UICONT
 | Número | Descrição |
 |--- |--- |
 | 1 | Nos **[!UICONTROL Intervalos de datas]**, a lista suspensa permite selecionar diversos intervalos de datas para o seu relatório. Todos os dados no gráfico (9) e na tabela correspondente (10) respeitam o intervalo de datas selecionado. |
-| 2 | Em **[!UICONTROL Mostrar por]**, a lista suspensa permite selecionar uma exibição baseada em tempo ou em dimensão para seu relatório.  Por exemplo, na figura anterior, é possível ver que Dias foi selecionado. Se você observar as datas abaixo do gráfico (7) e as linhas na tabela (8), os dados estão categorizados por data em um relatório ao longo do tempo. É possível relatar até seis métricas nos relatórios ao longo do tempo, adicionando séries. Se você selecionar uma dimensão Ciclo de vida, poderá visualização os 50 valores principais em uma lista classificada, os 5 valores principais com tendência por dia ou semana ou um detalhamento dos 5 ou 10 valores principais. |
+| 2 | Em **[!UICONTROL Mostrar por]**, a lista suspensa permite selecionar uma exibição baseada em tempo ou em dimensão para seu relatório.  Por exemplo, na figura anterior, é possível ver que Dias foi selecionado. Se você observar as datas abaixo do gráfico (7) e as linhas na tabela (8), os dados estão categorizados por data em um relatório ao longo do tempo. É possível relatar até seis métricas nos relatórios ao longo do tempo, adicionando séries. Se você selecionar uma dimensão Ciclo de vida, poderá visualizar os 50 valores principais em uma lista classificada, os 5 valores principais com tendência por dia ou semana ou um detalhamento dos 5 ou 10 valores principais. |
 | 3 | **[!UICONTROL As Séries]** representam métricas individuais, como Usuários, Inicializações, Primeiras inicializações e Downloads da App Store no exemplo acima. Cada série é codificada por cores com os dados no gráfico (7) e na tabela (8). Você pode adicionar outras séries (métricas) e até aplicativos diferentes (em vários conjuntos de relatórios) para comparar dados. Para obter mais informações, consulte [Adicionar séries (métricas) a relatórios](/help/using/usage/reports-customize/t-reports-series.md). |
 | 4 | Com **[!UICONTROL Adicionar filtro]**, é possível personalizar os relatórios internos, adicionando filtros extras (segmentos). Para obter mais informações, consulte [Adicionar filtros a relatórios](/help/using/usage/reports-customize/t-reports-customize.md). |
 | 5 | Com **[!UICONTROL Adicionar séries]**, é possível personalizar os relatórios internos, adicionando séries extras (métricas) ou aplicativos em diferentes conjuntos de relatórios para comparar os dados. Para obter mais informações, consulte [Adicionar séries (métricas) a relatórios](/help/using/usage/reports-customize/t-reports-series.md). |
