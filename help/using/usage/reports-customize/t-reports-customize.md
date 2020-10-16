@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Adicionar filtros aos relatórios
 topic: Reports,Metrics
 uuid: 19c395cc-2e07-4588-825b-f2f8b10a87c1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '384'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
 
-# Adicionar filtros aos relatórios{#add-filters-to-reports}
+# Adicionar filtros aos relatórios {#add-filters-to-reports}
 
 Estas informações ajudam você a personalizar os relatórios internos, adicionando filtros (segmentos).
 
@@ -26,11 +26,11 @@ Estas informações ajudam você a personalizar os relatórios internos, adicion
 
 Neste exemplo, vamos personalizar o relatório **[!UICONTROL Usuários e sessões]**, mas as instruções se aplicam a todos os relatórios.
 
-1. Open your app and click **[!UICONTROL Usage]** > **[!UICONTROL Users &amp; Sessions]**.
+1. Abra o aplicativo e clique em **[!UICONTROL Uso]** > **[!UICONTROL Usuários e sessões]**.
 
    ![](assets/customize1.png)
 
-   Este relatório fornece uma visualização completa de hora extra dos usuários do aplicativo. No entanto, as métricas para as versões iOS e Android deste aplicativo são coletadas no mesmo conjunto de relatórios. Podemos segmentar usuários por SO móvel adicionando um filtro personalizado à métrica Usuários.
+   Esse relatório fornece uma visualização completa de hora extra dos usuários do aplicativo. No entanto, as métricas para as versões iOS e Android deste aplicativo são coletadas no mesmo conjunto de relatórios. Podemos segmentar usuários por SO móvel adicionando um filtro personalizado à métrica Usuários.
 
 1. Clique em **[!UICONTROL Personalizar]**.
 
@@ -38,7 +38,7 @@ Neste exemplo, vamos personalizar o relatório **[!UICONTROL Usuários e sessõe
 
 1. Em **[!UICONTROL Usuários]**, clique em **[!UICONTROL Adicionar filtro]** e em **[!UICONTROL Adicionar regra]**.
 
-1. Selecione **[!UICONTROL Sistemas operacionais]** e, na lista suspensa, selecione **[!UICONTROL IOS]**.
+1. Selecione **[!UICONTROL Sistemas operacionais]** e, na lista suspensa, selecione **[!UICONTROL iOS]**.
 
    ![](assets/customize3.png)
 
@@ -71,4 +71,4 @@ Neste exemplo, vamos personalizar o relatório **[!UICONTROL Usuários e sessõe
 
    ![](assets/customize7.png)
 
-   Teste as diferentes opções no menu de personalização do relatório e certifique-se de marcar seus favoritos. Os relatórios de URLs no Adobe Mobile são funcionais e podem ser enviados por email ou adicionados aos favoritos.
+   Teste as diferentes opções no menu de personalização do relatório e marque seus favoritos. Os relatórios de URLs no Adobe Mobile são funcionais e podem ser enviados por email ou adicionados aos favoritos.
