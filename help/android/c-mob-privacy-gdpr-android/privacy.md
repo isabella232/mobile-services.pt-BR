@@ -6,16 +6,16 @@ solution: Experience Cloud,Analytics
 title: Definição de status de opção do usuário
 topic: Developer and implementation
 uuid: f8a3e6be-44dd-494e-9cda-dbbac86d6772
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 
-# Definição de status de opção do usuário{#setting-the-user-s-opt-status}
+# Definição de status de opção do usuário {#setting-the-user-s-opt-status}
 
 Essas informações o ajudam com a solicitação de exclusão de dados do GDPR.
 
@@ -31,23 +31,23 @@ Essas informações o ajudam com a solicitação de exclusão de dados do GDPR.
 
 * O método `Config.setPrivacyStatus`.
 
-   Após a configuração de privacidade ser alterada por meio desse método, essa alteração permanece válida até que você a altere novamente ou desinstale e instale o aplicativo novamente. Para obter mais informações sobre os métodos, consulte [Métodos de configuração](/help/android/configuration/methods.md).
+   Após a configuração de privacidade ser alterada por meio desse método, essa alteração permanece válida até que você a altere novamente ou desinstale e instale o aplicativo novamente. Para obter mais informações sobre os métodos, consulte  [Métodos de configuração](/help/android/configuration/methods.md).
 
 A tabela a seguir descreve cada status de privacidade:
 
 * **Aceitar**
 
-   * **Analytics**: As ocorrências são enviadas.
-   * **Público alvo**: As solicitações de mbox são enviadas.
-   * **Audience Manager**: Sinais e sincronizações de ID são enviados.
+   * **Analytics**: as ocorrências são enviadas.
+   * **Target**: as solicitações da mbox são enviadas.
+   * **Audience Manager**: as sincronizações de ID e os sinais são enviados.
    * Valor no arquivo de configuração JSON: `optedin`
    * Valor em `setPrivacyStatus`: `MOBILE_PRIVACY_STATUS_OPT_IN`
 
 * **Rejeitar**
 
-   * **Analytics**: As ocorrências são descartadas.
-   * **Público alvo**: Solicitações de mbox não são permitidas.
-   * **Audience Manager**: Sinais e sincronizações de ID não são permitidos.
+   * **Analytics**: as ocorrências são descartadas.
+   * **Target**: as solicitações da mbox não são permitidas.
+   * **Audience Manager**: as sincronizações de ID e os sinais não são permitidos.
    * Valor no arquivo de configuração JSON: `optedout`
    * Valor em `setPrivacyStatus`: `MOBILE_PRIVACY_STATUS_OPT_OUT`
 
@@ -56,8 +56,8 @@ A tabela a seguir descreve cada status de privacidade:
    * **Analytics**: se o rastreamento offline estiver **ativado**, as ocorrências são salvas até o status de privacidade ser alterado para “aceitar” (as ocorrências são enviadas) ou “recusar” (as ocorrências são descartadas).
 
       Se o rastreamento offline <b>não estiver</b> ativado, as ocorrências são descartadas até o status de privacidade ser alterado parar aceitar.
-   * **Público alvo**: As solicitações de mbox são enviadas.
-   * **Audience Manager**: Sinais e sincronizações de ID são enviados.
+   * **Target**: as solicitações da mbox são enviadas.
+   * **Audience Manager**: as sincronizações de ID e os sinais são enviados.
    * Valor no arquivo de configuração JSON: `optunknown`
    * Valor em `setPrivacyStatus`: `MOBILE_PRIVACY_STATUS_UNKNOWN`
 
