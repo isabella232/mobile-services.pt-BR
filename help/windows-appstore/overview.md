@@ -1,6 +1,6 @@
 ---
-description: O SDK 4.x da loja de aplicativos universal do Windows 8.1 para soluções de Experience Cloud permite avaliar aplicativos nativos do Windows 8.1 e do Windows Phone 8.1, fornecer conteúdo direcionado dentro do aplicativo e aproveitar e coletar dados de audiência por meio do Audience Manager.
-seo-description: O SDK 4.x da loja de aplicativos universal do Windows 8.1 para soluções de Experience Cloud permite avaliar aplicativos nativos do Windows 8.1 e do Windows Phone 8.1, fornecer conteúdo direcionado dentro do aplicativo e aproveitar e coletar dados de audiência por meio do Audience Manager.
+description: O SDK 4.x da loja de aplicativos universal do Windows 8.1 para soluções da Experience Cloud permite avaliar aplicativos nativos do Windows 8.1 e do Windows Phone 8.1, fornecer conteúdo direcionado dentro do aplicativo e aproveitar e coletar dados de público-alvo por meio do Audience Manager.
+seo-description: O SDK 4.x da loja de aplicativos universal do Windows 8.1 para soluções da Experience Cloud permite avaliar aplicativos nativos do Windows 8.1 e do Windows Phone 8.1, fornecer conteúdo direcionado dentro do aplicativo e aproveitar e coletar dados de público-alvo por meio do Audience Manager.
 seo-title: SDK 4.x da loja de aplicativos universal do Windows 8.1 para soluções da Experience Cloud
 solution: Experience Cloud,Analytics
 title: SDK 4.x da loja de aplicativos universal do Windows 8.1 para soluções da Experience Cloud
@@ -10,34 +10,34 @@ translation-type: tm+mt
 source-git-commit: bc11c1e7a4a11657ee89c40ddcbd37377ce50bb5
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
 
-# SDK 4.x da loja de aplicativos universal do Windows 8.1 para soluções da Experience Cloud{#windows-universal-app-store-sdk-x-for-experience-cloud-solutions}
+# SDK 4.x da loja de aplicativos universal do Windows 8.1 para soluções da Experience Cloud {#windows-universal-app-store-sdk-x-for-experience-cloud-solutions}
 
-O SDK 4.x da loja de aplicativos universal do Windows 8.1 para soluções de Experience Cloud permite avaliar aplicativos nativos do Windows 8.1 e do Windows Phone 8.1, fornecer conteúdo direcionado no aplicativo e aproveitar e coletar dados de audiência por meio do Audience Manager.
+O SDK 4.x da loja de aplicativos universal do Windows 8.1 para soluções da Experience Cloud permite avaliar aplicativos nativos do Windows 8.1 e do Windows Phone 8.1, fornecer conteúdo direcionado no aplicativo e aproveitar e coletar dados de público-alvo por meio do Audience Manager.
 
 **Última atualização: 21 de agosto de 2015**
 
-## Supported Platforms {#section_45978BF5C62E4986AAB7FFD96402BF2D}
+## Plataformas compatíveis {#section_45978BF5C62E4986AAB7FFD96402BF2D}
 
-As seguintes plataformas são suportadas:
+As seguintes plataformas são compatíveis:
 
 * Windows 8.1 ou posterior.
 
 * Windows Phone 8.1 ou posterior.
 
-## IDE suportado {#section_03905798D74940C9A9F77285DA3F27D0}
+## IDE compatível {#section_03905798D74940C9A9F77285DA3F27D0}
 
 Visual Studio 2013 ou posterior.
 
 ## Adobe Mobile Services {#section_7583FD5FDED143619048E9744A3F2D21}
 
-O Adobe Mobile Services apresenta uma nova interface do usuário que reúne recursos de marketing para aplicativos para dispositivos móveis em toda a Adobe Experience Cloud. Inicialmente, o Mobile Service fornece integração perfeita entre os recursos de análise e segmentação de aplicativos da Adobe Analytics e Adobe Target.
+O Adobe Mobile Services apresenta uma nova interface do usuário que reúne recursos de marketing para aplicativos para dispositivos móveis em toda a Adobe Experience Cloud. Inicialmente, o Mobile Service fornece integração perfeita entre os recursos de análise e segmentação do Adobe Analytics e do Adobe Target.
 
-Learn more at [Adobe Mobile services documentation](/help/using/home.md).
+Obtenha mais informações na [documentação do Adobe Mobile Services](/help/using/home.md).
 
 ## Usar o Bloodhound
 
