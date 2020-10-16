@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Geolocalização e pontos de interesse
 topic: Developer and implementation
 uuid: b8209370-cbc4-40f9-97d8-017e2d74a377
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Cada chamada `trackLocation` envia as seguintes informações:
 
    Essas informações são passadas para variáveis de solução móvel para relatórios automático.
 
-* Distância do centro e precisão transmitida como dados de contexto.
+* Distância do centro e precisão transmitidas como dados de contexto.
 
    Essas variáveis não são capturadas automaticamente. Você deve mapear essas variáveis de dados de contexto usando as instruções em *Envio de dados adicionais* na seção abaixo.
 
@@ -119,5 +119,5 @@ Lembre-se das seguintes informações:
 
 * Quando dois POIs possuem diâmetros sobrepostos, é usado o primeiro POI que contém a localização atual.
 
-   Se seus POIs se sobrepõem, você deve lista os POIs na ordem da mais para a menos granular para garantir que o POI mais granular seja relatado.
+   Se seus POIs se sobrepõem, você deve listar os POIs na ordem do mais para o menos granular para garantir que o POI mais granular seja relatado.
 
