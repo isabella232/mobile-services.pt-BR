@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Criar novo destino de link
 topic: Metrics
 uuid: 390e3dea-0221-4f97-980d-a90ca9f162fa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
