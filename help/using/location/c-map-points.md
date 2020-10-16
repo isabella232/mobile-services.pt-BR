@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Mapa
 topic: Metrics
 uuid: 3c271738-eb8d-4c26-baaf-54b247bfc4da
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '313'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -26,10 +26,10 @@ Algumas informações importantes a lembrar:
 
 * É possível aumentar ou diminuir o tamanho do mapa.
 
-   Esse recurso é útil, por exemplo, se você tiver dois pontos de interesse próximos. Ampliar o mapa permite que você o visualização com mais detalhes.
+   Esse recurso é útil, por exemplo, se você tiver dois pontos de interesse próximos. Ampliar o mapa permite que você o visualize com mais detalhes.
 * Seus pontos de interesse são exibidos em azul.
 
-   Outros marcadores de dados, como Inicializações, são exibidos em preto. Clique em um marcador para visualização de mais informações.
+   Outros marcadores de dados, como Inicializações, são exibidos em preto. Clique em um marcador para visualizar mais informações.
 
 Clique em ![camadas](assets/map_layers.png) para escolher as seguintes opções:
 
@@ -46,7 +46,7 @@ Exibir o mapa no modo satélite.
 
 * **[!UICONTROL Mapa de calor]**
 
-   Escolha se deseja exibir marcadores de mapa de calor. Quanto maior a intensidade da cor, mais frequentemente a condição (Inicializações, por exemplo) é atendida.
+   Escolha se deseja exibir marcadores de mapa de calor. Quanto maior a intensidade da cor, com mais frequência a condição (Inicializações, por exemplo) é atendida.
 
 * **[!UICONTROL Pontos de interesse]**
 
@@ -54,9 +54,9 @@ Exibir o mapa no modo satélite.
 
 Você pode configurar as seguintes opções no relatório:
 
-* **[!UICONTROL Período de tempo]**
+* **[!UICONTROL Período]**
 
-   Clique no ícone **[!UICONTROL Calendário]** e selecione um período de tempo personalizado ou escolha um período de tempo predefinido na lista suspensa.
+   Clique no ícone **[!UICONTROL Calendário]** e selecione um período personalizado ou escolha um período predefinido na lista suspensa.
 
 * **[!UICONTROL Personalizar]**
 
