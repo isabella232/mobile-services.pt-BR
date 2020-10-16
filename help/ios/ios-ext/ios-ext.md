@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Implementação de extensão do iOS
 topic: Developer and implementation
 uuid: 8afc03fe-403e-4643-ada1-30e403ede238
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -46,14 +46,14 @@ Mesmo que esses três métodos de rastreamento atendam aos seus requisitos, use 
 >
 >Certifique-se de ter um projeto com pelo menos os seguintes destinos:
 >
->* Uma público alvo para conter o aplicativo.
->* Um público alvo para a extensão.
+>* Um público-alvo para conter o aplicativo.
+>* Um público-alvo para a extensão.
 
 >
 
 
 
-Se estiver trabalhando em um aplicativo WatchKit, você deve ter um terceiro público alvo. Para obter mais informações sobre como desenvolver software para o Apple Watch, consulte [Desenvolvimento para o Apple Watch](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1).
+Se estiver trabalhando em um aplicativo WatchKit, você deve ter um terceiro público-alvo. Para obter mais informações sobre como desenvolver software para o Apple Watch, consulte [Desenvolvimento para o Apple Watch](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1).
 
 ## Configurar o aplicativo contêiner {#section_0BAB0842E4C04A62B5E03DFC4BA77851}
 
@@ -111,8 +111,8 @@ Algumas informações a lembrar:
 
       Esse valor significa que a ocorrência veio da extensão.
 
-* Se você atualizar de uma versão anterior do SDK, quando o aplicativo contentor é iniciado, o Adobe migra automaticamente todos os padrões do usuário e arquivos em cache da pasta do aplicativo contêiner para a pasta compartilhada do grupo de aplicativos.
+* Se você atualizar de uma versão anterior do SDK, quando o aplicativo for iniciado, a Adobe migra automaticamente todos os padrões do usuário e arquivos em cache da pasta do aplicativo contêiner para a pasta compartilhada do grupo de aplicativos.
 * Se o aplicativo contêiner nunca for iniciado, as ocorrências da extensão serão descartadas.
 * O número da versão e o número da compilação devem ser os mesmos entre o aplicativo contêiner e o aplicativo de extensão.
-* Nenhuma chamada de ciclo de vida é acionada em aplicativos de extensão iOS.
+* Nenhuma chamada de ciclo de vida é acionada nos aplicativos de extensão iOS.
 
