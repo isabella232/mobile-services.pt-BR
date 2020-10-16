@@ -52,7 +52,7 @@ Algumas informações para lembrar:
 
 ## Documentação do usuário do Adobe Mobile {#section_7583FD5FDED143619048E9744A3F2D21}
 
-O Adobe Mobile Services fornece uma interface do usuário que reúne recursos de marketing móveis para aplicativos móveis na Adobe Experience Cloud. Para saber mais sobre a interface do usuário do Adobe e ler a documentação do usuário, consulte [Adobe Mobile Services](https://docs.adobe.com/content/help/br/mobile-services/using/home.html).
+O Adobe Mobile Services fornece uma interface do usuário que reúne recursos de marketing móveis para aplicativos móveis na Adobe Experience Cloud. Para saber mais sobre a interface do usuário do Adobe e ler a documentação do usuário, consulte [Adobe Mobile Services](https://docs.adobe.com/content/help/pt-BR/mobile-services/using/home.html).
 
 ## Notas de versão {#section_F8181DC052D44DD2A99AB40A41F6792C}
 
