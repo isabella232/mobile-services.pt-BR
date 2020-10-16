@@ -2,21 +2,21 @@
 description: Estas informações ajudam a solucionar problemas de mensagem de push.
 keywords: mobile
 seo-description: Estas informações ajudam a solucionar problemas de mensagem de push.
-seo-title: 'Solucionar problemas de mensagens por push  '
+seo-title: 'Solucionar problemas de mensagens de push  '
 solution: Experience Cloud,Analytics
-title: 'Solucionar problemas de mensagens por push  '
+title: 'Solucionar problemas de mensagens de push  '
 topic: Metrics
 uuid: 9c4a9371-6691-4a2c-a6c1-b9f901a41599
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
-# Solucionar problemas de mensagens por push {#troubleshooting-push-messaging}
+# Solucionar problemas de mensagens de push {#troubleshooting-push-messaging}
 
 Estas informações ajudam a solucionar problemas de mensagem de push.
 
