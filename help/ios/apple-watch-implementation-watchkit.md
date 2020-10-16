@@ -1,21 +1,21 @@
 ---
-description: A partir do WatchOS 2, suas extensões WatchKit serão executadas em um dispositivo Apple Watch. Os aplicativos executados neste ambiente exigem que a estrutura WatchConnectivity compartilhe dados com seu aplicativo iOS contêiner.
-seo-description: A partir do WatchOS 2, suas extensões WatchKit serão executadas em um dispositivo Apple Watch. Os aplicativos executados neste ambiente exigem que a estrutura WatchConnectivity compartilhe dados com seu aplicativo iOS contêiner.
+description: A partir do WatchOS 2, suas extensões WatchKit serão executadas em um dispositivo Apple Watch dispositivo. Os aplicativos executados neste ambiente exigem a estrutura WatchConnectivity para compartilhar dados com o aplicativo iOS.
+seo-description: A partir do WatchOS 2, suas extensões WatchKit serão executadas em um dispositivo Apple Watch dispositivo. Os aplicativos executados neste ambiente exigem a estrutura WatchConnectivity para compartilhar dados com o aplicativo iOS.
 seo-title: Implementação do Apple Watch com o WatchOS 2
 solution: Experience Cloud,Analytics
 title: Implementação do Apple Watch com o WatchOS 2
 topic: Developer and implementation
 uuid: 9498467e-db5e-411e-a00e-d19841f485de
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
-# Implementação do Apple Watch com o WatchOS 2{#apple-watch-implementation-with-watchos}
+# Implementação do Apple Watch com o WatchOS 2 {#apple-watch-implementation-with-watchos}
 
 A partir do WatchOS 2, suas extensões WatchKit serão executadas em um dispositivo Apple Watch. Os aplicativos executados neste ambiente exigem a estrutura `WatchConnectivity` para compartilhar dados com o aplicativo iOS contentor.
 
@@ -38,7 +38,7 @@ Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Ad
 >
 >Certifique-se de ter um projeto com pelo menos os seguintes destinos:
 >
->* O aplicativo contêiner
+>* O aplicativo contendo
 >* O aplicativo WatchKit
 >* A extensão WatchKit
 
@@ -46,7 +46,7 @@ Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Ad
 
 
 
-Para obter mais informações sobre como desenvolver aplicativos WatchKit, consulte [A arquitetura](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/DesigningaWatchKitApp.html#//apple_ref/doc/uid/TP40014969-CH3-SW1)do aplicativo Watch.
+Para obter mais informações sobre como desenvolver aplicativos WatchKit, consulte [A arquitetura do aplicativo Watch](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/DesigningaWatchKitApp.html#//apple_ref/doc/uid/TP40014969-CH3-SW1).
 
 ## Configurar o aplicativo contêiner {#section_0A2A3995575B4E2ABD12E426BA06AEFF}
 
