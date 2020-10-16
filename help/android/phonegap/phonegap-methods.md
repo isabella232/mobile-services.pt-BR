@@ -7,9 +7,9 @@ solution: Experience Cloud,Analytics
 title: Métodos do plug-in PhoneGap
 topic: Developer and implementation
 uuid: bc3db9ce-81b7-45ec-88aa-6020c1db5d9c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1569'
 ht-degree: 100%
 
@@ -337,7 +337,7 @@ Nos arquivos `html` em que deseja usar o rastreamento, adicione o código a segu
 
 * **trackTimed&#x200B;ActionUpdate**
 
-   Passa em `cData` para atualizar os dados de contexto associados a `action`>.
+   Passa em `cData` para atualizar os dados de contexto associados a `action`.
 
    Os `cData` passados estão anexados aos dados existentes da ação e, se a mesma chave já estiver definida como `action`, eles substituirão os dados.
 
