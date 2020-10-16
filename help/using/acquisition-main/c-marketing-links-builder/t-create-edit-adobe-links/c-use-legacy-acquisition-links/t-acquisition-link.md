@@ -1,26 +1,26 @@
 ---
-description: Você pode criar links da app store que permitem baixar aplicativos diretamente da Apple App Store e do Google Play. Os links criados permitem que você atribua seus eventos bem-sucedidos aos downloads.
+description: Crie links da loja de aplicativos que permitem baixar os aplicativos diretamente da Apple App Store e do Google Play. Os links criados permitem que você atribua eventos de sucesso aos downloads.
 keywords: mobile
-seo-description: Você pode criar links da app store que permitem baixar aplicativos diretamente da Apple App Store e do Google Play. Os links criados permitem que você atribua seus eventos bem-sucedidos aos downloads.
+seo-description: Crie links da loja de aplicativos que permitem baixar os aplicativos diretamente da Apple App Store e do Google Play. Os links criados permitem que você atribua eventos de sucesso aos downloads.
 seo-title: Criação de um link de aquisição
 solution: Experience Cloud,Analytics
 title: Criação de um link de aquisição
 topic: Metrics
 uuid: bb603013-fca9-44a2-820a-59e1c85d9444
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
 
-# Criação de um link de aquisição{#create-an-acquisition-link}
+# Criação de um link de aquisição {#create-an-acquisition-link}
 
-Você pode criar links da app store que permitem baixar aplicativos diretamente da Apple App Store e do Google Play. Os links criados permitem que você atribua seus eventos bem-sucedidos aos downloads.
+Crie links da loja de aplicativos que permitem baixar os aplicativos diretamente da Apple App Store e do Google Play. Os links criados permitem que você atribua eventos de sucesso aos downloads.
 
-1. Click **[!UICONTROL Acquisition]** > **[!UICONTROL Manage Acquisition Links]** > **[!UICONTROL Create New]**.
+1. Clique em **[!UICONTROL Aquisição]** > **[!UICONTROL Gerenciar links de aquisição]** > **[!UICONTROL Criar novo]**.
 1. Digite as seguintes informações nos campos na seção **[!UICONTROL Informações do link]**:
 
    * (**Obrigatório**) **[!UICONTROL Nome]**
@@ -41,7 +41,7 @@ Especifique os termos de pagamento ou outros termos de pesquisa para o anúncio.
 
 1. Digite as informações nos campos na seção **[!UICONTROL Adicionar link da loja de aplicativos]**.
 
-   * **[!UICONTROL App Store]**
+   * **[!UICONTROL Loja de aplicativos]**
 
       Selecione uma loja de aplicativos:
       * Apple App Store
@@ -78,9 +78,9 @@ Especifique os termos de pagamento ou outros termos de pesquisa para o anúncio.
 
 
 
-1. To save your configuration and to generate the link, click **[!UICONTROL Add]** > **[!UICONTROL Save]**.
+1. Para salvar sua configuração e gerar o link, clique em **[!UICONTROL Adicionar]** > **[!UICONTROL Salvar]**.
 
-   O link criado recentemente é exibido na seção **[!UICONTROL Links da App Store]**.
+   O link criado recentemente é exibido na seção **[!UICONTROL Links da loja de aplicativos]**.
 
    ![link de loja](assets/apps_store_links.png)
 
