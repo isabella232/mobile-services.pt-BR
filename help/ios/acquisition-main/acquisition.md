@@ -1,23 +1,23 @@
 ---
-description: É possível gerar links de aquisição com códigos de rastreamento exclusivos no Adobe Mobile Services. Quando um usuário baixa e executa um aplicativo da Apple App Store depois de clicar no link gerado, o SDK coleta e envia automaticamente os dados de aquisição para os Adobe Mobile Services.
-seo-description: É possível gerar links de aquisição com códigos de rastreamento exclusivos no Adobe Mobile Services. Quando um usuário baixa e executa um aplicativo da Apple App Store depois de clicar no link gerado, o SDK coleta e envia automaticamente os dados de aquisição para os Adobe Mobile Services.
+description: É possível gerar links de aquisição com códigos de rastreamento exclusivos no Adobe Mobile Services. Quando um usuário baixa e executa um aplicativo da loja de aplicativos da Apple depois de clicar em um link gerado, o SDK coleta e envia automaticamente os dados de aquisição para o Adobe Mobile Services.
+seo-description: É possível gerar links de aquisição com códigos de rastreamento exclusivos no Adobe Mobile Services. Quando um usuário baixa e executa um aplicativo da loja de aplicativos da Apple depois de clicar em um link gerado, o SDK coleta e envia automaticamente os dados de aquisição para o Adobe Mobile Services.
 seo-title: Aquisição de aplicativos móveis
 solution: Experience Cloud,Analytics
 title: Aquisição de aplicativos móveis
 topic: Developer and implementation
 uuid: 5fece619-e4b8-4d06-9250-dcb66fa32ce0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '414'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
 
 # Aquisição de aplicativos móveis {#mobile-app-acquisition}
 
-É possível gerar links de aquisição com códigos de rastreamento exclusivos no Adobe Mobile Services. Quando um usuário baixa e executa um aplicativo da Apple App Store depois de clicar no link gerado, o SDK coleta e envia automaticamente os dados de aquisição para os Adobe Mobile Services.
+É possível gerar links de aquisição com códigos de rastreamento exclusivos no Adobe Mobile Services. Quando um usuário baixa e executa um aplicativo da loja de aplicativos da Apple depois de clicar em um link gerado, o SDK coleta e envia automaticamente os dados de aquisição para o Adobe Mobile Services.
 
 Para usar a Aquisição, você **deve** ter a versão 4.1 ou posterior do SDK.
 
