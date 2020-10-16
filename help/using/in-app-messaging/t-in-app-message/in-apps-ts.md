@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Resolução de problemas nas mensagens no aplicativo
 topic: Metrics
 uuid: 8813e8d8-bb1e-46ad-83cd-98ae68f73ce6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '637'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 58%
 
 Estas informações podem ajudar a solucionar problemas com as mensagens no aplicativo.
 
-Se você concluiu todos os requisitos para mensagens no aplicativo, mas as mensagens não aparecem, verifique os seguintes itens:
+Se você concluiu todos os requisitos para mensagens no aplicativo, mas as mensagens não são exibidas, verifique os seguintes itens:
 
 ## Você está inserindo a nova configuração e o novo SDK no aplicativo?
 
@@ -46,35 +46,35 @@ Verifique se essas configurações estão corretas. Na página Público-alvo, an
 
 ## Caso esteja usando um evento de inicialização como acionador...
 
-O acionador só será ativado em uma nova sessão. Para obter informações sobre quando começa uma sessão, consulte  `lifecycleTimeout` no arquivo [ADBMobile JSON config](/help/ios/configuration/json-config/json-config.md).
+O acionador só será ativado em uma nova sessão. Para obter informações sobre quando começa uma sessão, consulte   `lifecycleTimeout` no arquivo [ADBMobile JSON config](/help/ios/configuration/json-config/json-config.md).
 
 ## Atualizei minha mensagem remotamente mas meu aplicativo ainda exibe a mensagem antiga.
 
 Conclua uma das seguintes tarefas:
 
-* O gerenciamento dinâmico de tags pode levar alguns minutos para atualizar seu terminal com sua nova definição.
+* O gerenciamento dinâmico de tags pode levar alguns minutos para atualizar seu terminal com a nova definição.
 
    Dê um tempo e tente novamente.
 
 * A configuração só será atualizada em um novo lançamento.
 
-   Se o aplicativo foi reiniciado no tempo limite da sessão do ciclo de vida, sua nova configuração pode não ter sido baixada.
+   Se o aplicativo tiver sido reiniciado dentro do tempo limite da sessão do ciclo de vida, é possível que a nova configuração não tenha sido baixada.
 
 ## Minha imagem não se encaixa perfeitamente no espaço fornecido pelo modelo.
 
-O modelo em tela cheia de mensagens no aplicativo oferece suporte à exibição de uma imagem de um servidor remoto (URL da imagem) ou do pacote de aplicativos (Imagem embutida). A imagem deve estar em um formato de imagem padrão, por exemplo, JPG, GIF ou PNG.
+O modelo em tela cheia de mensagens no aplicativo é compatível com a exibição de uma imagem de um servidor remoto (URL da imagem) ou do conjunto de aplicativos (Imagem empacotada). A imagem deve estar em um formato padrão, por exemplo, JPG, GIF ou PNG.
 
 Devido ao fato de as telas do dispositivo terem muitas dimensões diferentes, a imagem provavelmente não se encaixará perfeitamente no espaço fornecido pelo modelo. O modelo sempre se concentra em mostrar o centro da imagem e cortar (retrato) ou esmaecer (paisagem) as laterais se a imagem não se ajustar.
 
 Estas são as regras de posicionamento e dimensionamento para cada orientação:
 
-* **Retrato**, onde a imagem é dimensionada para a altura de 195px para telefone, 529px para tablet, centralizada se a largura da imagem for menor que a largura do dispositivo e cortada se a largura da imagem for maior que a largura do dispositivo.
+* **Retrato**, onde a imagem é dimensionada para a altura de 195px para celular, 529px para tablet, centralizada se a largura da imagem for menor que a largura do dispositivo e cortada se a largura da imagem for maior que a largura do dispositivo.
 
-* **Paisagem**, onde a imagem é dimensionada para 100% da altura do dispositivo, a largura é 75% do dispositivo e com um desaparecimento gradual à direita.
+* **Paisagem**, onde a imagem é dimensionada para 100% da altura do dispositivo, a largura é 75% do dispositivo e com um esmaecimento gradual à direita.
 
-   Se tiver problemas com o modelo em tela cheia, você pode baixar e usar o modelo HTML personalizado. O modelo HTML personalizado oferece maior flexibilidade para imagens e permite o controle total do modelo.
+   Se tiver problemas com o modelo em tela cheia, você pode baixar e usar o modelo HTML personalizado. O modelo HTML personalizado oferece maior flexibilidade para imagens e permite controle total do modelo.
 
-## Minhas mensagens não estão refletindo alterações/atualizações que fiz na interface do usuário.
+## Minhas mensagens não estão refletindo as alterações/atualizações que fiz na interface do usuário.
 
 O SDK busca mensagens novas/atualizadas no momento de uma inicialização do ciclo de vida. Isso ocorre somente quando o aplicativo é fechado/colocado em segundo plano para um valor maior que o tempo limite do ciclo de vida e, em seguida, reaberto.
 
