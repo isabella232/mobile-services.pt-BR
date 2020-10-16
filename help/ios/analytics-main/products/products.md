@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Variável products
 topic: Developer and implementation
 uuid: 6ece4d27-ef86-435c-a6f7-bd76be1c95ca
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '184'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
@@ -48,4 +48,4 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 
 ![](assets/map-products.png)
 
-Não é necessário mapear a variável *`products`* usando regras de processamento, porque é definida diretamente na solicitação de imagem pelo SDK.
+Não é necessário mapear a variável  *`products`* usando regras de processamento, porque é definida diretamente na solicitação de imagem pelo SDK.
