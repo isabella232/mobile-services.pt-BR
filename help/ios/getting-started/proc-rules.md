@@ -6,31 +6,31 @@ solution: Experience Cloud,Analytics
 title: Regras de processamento e dados de contexto
 topic: Developer and implementation
 uuid: 51338ccd-fa52-4d9c-97c4-947a4100465d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
 
-# Regras de processamento e dados de contexto{#processing-rules-and-context-data}
+# Regras de processamento e dados de contexto {#processing-rules-and-context-data}
 
 As Regras de processamento são usadas para copiar os dados enviados em variáveis de dados de contexto para evars, props e outras variáveis de relatório. 
 
 Para obter mais informações, consulte o seguinte conteúdo:
 
-* [Treinamento](https://tv.adobe.com/embed/1181/16506/) das regras de processamento no Summit 2013
+* [Treinamento em regras de processamento](https://tv.adobe.com/embed/1181/16506/) na Conferência de 2013
 * Receber autorização para usar as regras de processamento
 
    Para obter mais informações sobre regras de processamento, consulte [Visão geral das regras de processamento](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
 Ao trabalhar com as regras de processamento, lembre-se das seguintes informações:
 
-* Agrupe suas variáveis de dados de contexto usando o namespace, pois isso ajuda a manter uma ordem lógica.
+* Agrupe as variáveis de dados de contexto usando o namespace para manter uma ordem lógica.
 
-   Por exemplo, se você deseja coletar informações sobre um produto, pode definir as seguintes variáveis:
+   Por exemplo, se você quiser coletar informações sobre um produto, defina as seguintes variáveis:
 
    ```js
    "product.type":"hat" 
@@ -38,7 +38,7 @@ Ao trabalhar com as regras de processamento, lembre-se das seguintes informaçõ
    "product.color":"blue"
    ```
 
-* As variáveis de dados de contexto são classificadas alfabeticamente na interface de regras de processamento, o que permite que você veja rapidamente quais variáveis estão na mesma namespace.
+* As variáveis de dados de contexto são classificadas alfabeticamente na interface de regras de processamento, o que permite que você veja rapidamente quais variáveis estão no mesmo namespace.
 
    Evite nomear chaves de dados de contexto usando o número de evar ou prop:
 
@@ -58,7 +58,7 @@ Ao trabalhar com as regras de processamento, lembre-se das seguintes informaçõ
    "logon":"1"
    ```
 
-* As variáveis de dados de contexto que definem eventos de incremento podem ter o evento como a chave e o valor a incrementar como o valor:
+* Variáveis de dados de contexto que definem eventos incrementadores podem ter o evento como a chave e a quantidade que será incrementada como o valor:
 
    ```js
    "levels completed":"6"
