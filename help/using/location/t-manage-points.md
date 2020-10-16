@@ -1,17 +1,17 @@
 ---
-description: Você pode criar e gerenciar pontos de interesse, que permitem definir localizações geográficas que podem ser usadas para fins de correlação, público alvo a mensagens no aplicativo e assim por diante. Quando uma ocorrência é enviada em um ponto de interesse, ele é anexado à ocorrência.
+description: É possível criar e gerenciar pontos de interesse, que permitem definir localizações geográficas que você pode usar para fins de correlação, para segmentar com mensagens no aplicativo e muito mais. Quando uma ocorrência é enviada em um ponto de interesse, ele é anexado à ocorrência.
 keywords: mobile
-seo-description: Você pode criar e gerenciar pontos de interesse, que permitem definir localizações geográficas que podem ser usadas para fins de correlação, público alvo a mensagens no aplicativo e assim por diante. Quando uma ocorrência é enviada em um ponto de interesse, ele é anexado à ocorrência.
+seo-description: É possível criar e gerenciar pontos de interesse, que permitem definir localizações geográficas que você pode usar para fins de correlação, para segmentar com mensagens no aplicativo e muito mais. Quando uma ocorrência é enviada em um ponto de interesse, ele é anexado à ocorrência.
 seo-title: Gerenciar pontos de interesse
 solution: Experience Cloud,Analytics
 title: Gerenciar pontos de interesse
 topic: Metrics
 uuid: 7b362534-54fb-43a3-b6b2-dfc8f45ff7c6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ No dispositivo do usuário, para que uma ocorrência seja atribuída a um **[!UI
 Para usar a Localização, conclua as seguintes tarefas:
 
 1. Clique no nome do aplicativo para ir para a página Gerenciar configurações do aplicativo.
-1. Click **[!UICONTROL Location]** > **[!UICONTROL Manage Points of Interest]**.
+1. Clique em **[!UICONTROL Localização]** > **[!UICONTROL Gerenciar pontos de interesse]**.
 
    ![Resultado da etapa](assets/poi.png)
 
