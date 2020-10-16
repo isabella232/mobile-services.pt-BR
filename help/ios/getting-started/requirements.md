@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Antes de começar
 topic: Developer and implementation
 uuid: 04133f68-3618-41fd-8a13-aec5b6f04df6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '595'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Os desenvolvedores de aplicativos agora têm acesso à visualização dos conjun
 
 Para obter mais informações sobre funções e permissões, consulte [Funções e permissões](/help/using/gs/c-mob-roles-and-permissions.md).
 
-## Fazer logon na interface do usuário do Adobe Mobile Services  {#section_690A2EC4572E47869F183974E932A6A8}
+## Fazer logon na interface do usuário do Adobe Mobile Services   {#section_690A2EC4572E47869F183974E932A6A8}
 
 O Adobe Mobile Services é a principal interface de relatórios para análise e direcionamento de aplicativos móveis. Após concluir essas etapas, é possível baixar um arquivo de configuração pré-configurado com seu servidor de coleta de dados, conjunto de relatórios e muitas outras configurações.
 
