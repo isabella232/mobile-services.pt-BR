@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Adição de séries (métricas) aos relatórios
 topic: Reports,Metrics
 uuid: 84fdfb1f-70e6-4c02-9b3b-526e9c924f74
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
-# Adicionar séries (métricas) aos relatórios{#add-series-metrics-to-reports}
+# Adicionar séries (métricas) aos relatórios {#add-series-metrics-to-reports}
 
 Estas informações ajudam você a personalizar os relatórios internos, adicionando séries (métricas) ou aplicativos em diferentes conjuntos de relatórios para comparar os dados.
 
@@ -26,11 +26,11 @@ Estas informações ajudam você a personalizar os relatórios internos, adicion
 
 Neste exemplo, vamos personalizar o relatório **[!UICONTROL Usuários e sessões]**, mas as instruções se aplicam a todos os relatórios.
 
-1. Open your app and click **[!UICONTROL Usage]** > **[!UICONTROL Users &amp; Sessions]**.
+1. Abra o aplicativo e clique em **[!UICONTROL Uso]** > **[!UICONTROL Usuários e sessões]**.
 
    ![Resultado da etapa](assets/customize1.png)
 
-   Este relatório fornece uma visualização completa de hora extra dos usuários do aplicativo. Entretanto, queremos adicionar uma série para relatar sobre falhas no aplicativo.
+   Esse relatório fornece uma visualização completa de hora extra dos usuários do aplicativo. Entretanto, queremos adicionar uma série para relatar falhas no aplicativo.
 
 1. Clique em **[!UICONTROL Personalizar]**.
 
