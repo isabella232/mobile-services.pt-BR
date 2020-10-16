@@ -2,21 +2,21 @@
 description: Estas informações ajudam a solucionar problemas de mensagem de push no aplicativo.
 keywords: mobile
 seo-description: Estas informações ajudam a solucionar problemas de mensagem de push no aplicativo.
-seo-title: Resolução de problemas nas mensagens no aplicativo
+seo-title: Resolução de problemas de mensagens no aplicativo
 solution: Experience Cloud,Analytics
-title: Resolução de problemas nas mensagens no aplicativo
+title: Resolução de problemas de mensagens no aplicativo
 topic: Metrics
 uuid: 39c3a21d-92c2-4004-b00f-99b6f91d3696
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Resolução de problemas de mensagens no aplicativo{#troubleshooting-in-app-messaging}
+# Resolução de problemas de mensagens no aplicativo {#troubleshooting-in-app-messaging}
 
 Estas informações ajudam a solucionar problemas de mensagem de push no aplicativo.
 
