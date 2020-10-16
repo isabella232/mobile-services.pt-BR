@@ -1,24 +1,24 @@
 ---
-description: 'Crie um filtro que abrange diferentes relatórios para ver como um segmento específico está se saindo em todos os relatórios móveis. Um filtro fixo permite definir um filtro que é aplicado em todos os relatórios sem definição de caminho. '
+description: 'Crie um filtro que abrange relatórios diferentes para ver o desempenho de um determinado segmento em todos os relatórios móveis. Um filtro fixo permite definir um filtro que é aplicado em todos os relatórios sem definição de caminho. '
 keywords: mobile
-seo-description: 'Crie um filtro que abrange diferentes relatórios para ver como um segmento específico está se saindo em todos os relatórios móveis. Um filtro fixo permite definir um filtro que é aplicado em todos os relatórios sem definição de caminho. '
+seo-description: 'Crie um filtro que abrange relatórios diferentes para ver o desempenho de um determinado segmento em todos os relatórios móveis. Um filtro fixo permite definir um filtro que é aplicado em todos os relatórios sem definição de caminho. '
 seo-title: Adição de filtro fixo
 solution: Experience Cloud,Analytics
 title: Adição de filtro fixo
 topic: Reports,Metrics
 uuid: f3935c8a-811d-4080-8468-b8850202dd1e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '204'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 
-# Adicionar um filtro fixo{#add-sticky-filter}
+# Adicionar um filtro fixo {#add-sticky-filter}
 
-Crie um filtro que abrange diferentes relatórios para ver como um segmento específico está se saindo em todos os relatórios móveis. Um filtro fixo permite definir um filtro que é aplicado em todos os relatórios sem definição de caminho. 
+Crie um filtro que abrange relatórios diferentes para ver o desempenho de um determinado segmento em todos os relatórios móveis. Um filtro fixo permite definir um filtro que é aplicado em todos os relatórios sem definição de caminho. 
 
 O exemplo a seguir adiciona filtros fixos para os sistemas operacionais iOS e Android ao relatório **[!UICONTROL Usuários e sessões]**, mas as instruções se aplicam a todos os relatórios ou métricas.
 
