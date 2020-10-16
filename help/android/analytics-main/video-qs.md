@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Análise de vídeo
 topic: Developer and implementation
 uuid: a137cc27-dc28-48c0-b08e-2ca17d2c7e1d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '881'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -32,8 +32,8 @@ O processo geral para medição de vídeo é parecido em todas as plataformas. E
    * Tipo de variável: eVar
       * Expiração padrão: visita
       * Custom Insight (s.prop, usado para definição de caminho de vídeo)
-   * (**Obrigatório**) Quando um visitante visualização o vídeo de alguma forma, essa variável de dados de contexto coleta o nome do vídeo, conforme especificado na implementação. É possível adicionar classificações para essa variável.
-   * (**Optional**) The Custom Insight variable provides video pathing information.
+   * (**Obrigatório**) Quando um visitante visualiza o vídeo de alguma forma, essa variável de dados de contexto coleta o nome do vídeo, conforme especificado na implementação. É possível adicionar classificações para essa variável.
+   * (**Opcional**) A variável Insight personalizado fornece informações de definição de caminho de vídeo.
 
 * **a.media.name**
    * Tipo de variável: Insight personalizado (s.prop)
@@ -47,7 +47,7 @@ O processo geral para medição de vídeo é parecido em todas as plataformas. E
 * **a.media.segment**
    * Tipo de variável: eVar
    * Expiração padrão: visualização de página
-   * (**Required**) Collects video segment data, including the segment name and the order in which the segment occurs in the video.
+   * (**Obrigatório**) Coleta dados de segmento do vídeo, incluindo o nome do segmento e a ordem na qual ele ocorre no vídeo.
 
       Essa variável é preenchida com a habilitação da variável `segmentByMilestones` durante o rastreamento automático de eventos de player, ou ao configurar um nome de segmento personalizado durante o rastreamento manual dos eventos do player. Por exemplo, quando um visitante exibe o primeiro segmento em um vídeo, o SiteCatalyst pode coletar as seguintes informações no eVar Segmentos: `1:M:0-25`.
 
@@ -70,7 +70,7 @@ O processo geral para medição de vídeo é parecido em todas as plataformas. E
 * **a.media.timePlayed**
    * Tipo de variável: evento
    * Tipo: contador
-   * Conta o tempo, em segundos, que é gasto assistindo a um vídeo desde o último processo de coleta de dados (solicitação de imagem).
+   * Contabiliza o tempo, em segundos, que é gasto com a exibição de um vídeo desde o último processo de coleta de dados (solicitação da imagem).
 
 * **a.media.view**
    * Tipo de variável: evento
@@ -91,7 +91,7 @@ O processo geral para medição de vídeo é parecido em todas as plataformas. E
    * Tipo: contador
    * Indica se o usuário exibiu um vídeo completo.
 
-      Por padrão, o evento completo é avaliado um segundo antes do fim do vídeo. Durante a implementação, você pode especificar quantos segundos a partir do fim do vídeo você gostaria de considerar uma visualização como concluída. Para vídeos ao vivo e outros fluxos que não tenham um fim definido, você pode especificar um ponto personalizado para avaliar conclusões (por exemplo, após um tempo específico de exibição).
+      Por padrão, o evento completo é avaliado um segundo antes do fim do vídeo. Durante a implementação, é possível especificar quantos segundos a partir do fim do vídeo são necessários para considerar a visualização como concluída. Para vídeos ao vivo e outros fluxos que não tenham um fim definido, você pode especificar um ponto personalizado para avaliar conclusões (por exemplo, após um tempo de exibição específico).
 
 
 ## Definir as configurações de mídia {#section_929945D4183C428AAF3B983EFD3E2500}
