@@ -2,12 +2,12 @@
 product: mobile-services
 audience: end-user
 user-guide-title: Guia da plataforma universal do Windows para Mobile Services
-breadcrumb-title: Universal Windows Platform Guide
-translation-type: ht
+breadcrumb-title: Guia da plataforma Universal Windows
+translation-type: tm+mt
 source-git-commit: 18ef20df0a32741685e35cee98a1adf4a1b823a1
-workflow-type: ht
-source-wordcount: '68'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 94%
 
 ---
 
