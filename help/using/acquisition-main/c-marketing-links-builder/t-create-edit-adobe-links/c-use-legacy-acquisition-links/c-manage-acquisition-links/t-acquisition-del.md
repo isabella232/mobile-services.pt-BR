@@ -7,20 +7,20 @@ solution: Experience Cloud,Analytics
 title: Excluir Links de aquisição
 topic: Metrics
 uuid: e7362348-ca24-4f1c-b37f-eca6d2b0da6d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '106'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 
-# Excluir Links de aquisição{#delete-acquisition-links}
+# Excluir Links de aquisição {#delete-acquisition-links}
 
 Quando não precisar mais dos Links de aquisição, você poderá excluí-los.
 
-1. Click **[!UICONTROL Acquisition]** > **[!UICONTROL Manage Acquisition Links]**.
+1. Clique em **[!UICONTROL Aquisição]** > **[!UICONTROL Gerenciar links de aquisição]**.
 1. Conclua uma das seguintes tarefas:
 
    * Marque a caixa de seleção ao lado de um ou mais links de aquisição.
