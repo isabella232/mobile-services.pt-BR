@@ -2,21 +2,21 @@
 description: Estas informações ajudam você a baixar os SDKs do Mobile Services e as ferramentas que ajudam na implementação do Mobile Services.
 keywords: mobile;android;ios;sdk
 seo-description: Estas informações ajudam você a baixar os SDKs do Mobile Services e as ferramentas que ajudam na implementação do Mobile Services.
-seo-title: Download de SDKs e ferramentas móveis
+seo-title: Baixar SDKs e ferramentas móveis
 solution: Experience Cloud,Analytics
-title: Download de SDKs e ferramentas móveis
+title: Baixar SDKs e ferramentas móveis
 topic: Developer and implementation,Metrics
 uuid: 4af757f7-4e4d-4939-9b6a-49a29c220192
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
 ht-degree: 100%
 
 ---
 
 
-# Baixar SDKs e ferramentas móveis{#download-mobile-sdks-and-tools}
+# Baixar SDKs e ferramentas móveis {#download-mobile-sdks-and-tools}
 
 Essas informações ajudam a baixar os SDKs e as ferramentas do Mobile Services.
 
