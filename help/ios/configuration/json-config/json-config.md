@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: Configuração JSON do ADBMobile
 topic: Developer and implementation
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1715'
 ht-degree: 100%
 
@@ -134,7 +134,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
    * Se o carimbo de data e hora estiver ativado no conjunto de relatórios, sua propriedade de configuração `offlineEnabled` *deve* ser verdadeira.
    * Caso o conjunto de relatórios não tenha um carimbo de data e hora, sua propriedade de configuração `offlineEnabled` *deve* ser false.
 
-      Se isso não for configurado corretamente, os dados serão perdidos. Se você não tem certeza se um conjunto de relatórios tem um carimbo de data e hora,  entre em contato com o  Atendimento ao Cliente ou baixe o arquivo de configuração em Adobe Mobile Services. Caso esteja relatando dados AppMeasurement para um conjunto de relatórios que também coleta dados JavaScript, pode ser necessário configurar um conjunto de relatórios separado para dados móveis, a fim de evitar a perda de dados, ou incluir um carimbo de data e hora personalizado nas ocorrências de JavaScript que usam a variável `s.timestamp`.
+      Se isso não for configurado corretamente, os dados serão perdidos. Se você não tem certeza se um conjunto de relatórios tem um carimbo de data e hora,   entre em contato com o   Atendimento ao Cliente ou baixe o arquivo de configuração em Adobe Mobile Services. Caso esteja relatando dados AppMeasurement para um conjunto de relatórios que também coleta dados JavaScript, pode ser necessário configurar um conjunto de relatórios separado para dados móveis, a fim de evitar a perda de dados, ou incluir um carimbo de data e hora personalizado nas ocorrências de JavaScript que usam a variável `s.timestamp`.
 
    * Versão mínima do SDK: 4.0
 
