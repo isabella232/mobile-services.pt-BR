@@ -1,23 +1,23 @@
 ---
-description: O Adobe Mobile e o Adobe Mobile SDK permitem que você envie mensagens de push para seus usuários. O SDK também permite que você reporte com facilidade usuários que abriram seu aplicativo depois de clicar em uma mensagem de push.
-seo-description: O Adobe Mobile e o Adobe Mobile SDK permitem que você envie mensagens de push para seus usuários. O SDK também permite que você reporte com facilidade usuários que abriram seu aplicativo depois de clicar em uma mensagem de push.
+description: O Adobe Mobile e o SDK do Adobe Mobile permitem enviar mensagens de push para seus usuários. O SDK também permite reportar com facilidade usuários que abriram seu aplicativo depois de clicar em uma mensagem de push.
+seo-description: O Adobe Mobile e o SDK do Adobe Mobile permitem enviar mensagens de push para seus usuários. O SDK também permite reportar com facilidade usuários que abriram seu aplicativo depois de clicar em uma mensagem de push.
 seo-title: Mensagens por push
 solution: Experience Cloud,Analytics
 title: Mensagens por push
 topic: Developer and implementation
 uuid: 729d4010-3733-4dff-b188-ad45bd3e7cc4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
 
 # Mensagens por push {#push-messaging}
 
-O Adobe Mobile e o Adobe Mobile SDK permitem que você envie mensagens de push para seus usuários. O SDK também permite que você reporte com facilidade usuários que abriram seu aplicativo depois de clicar em uma mensagem de push.
+O Adobe Mobile e o SDK do Adobe Mobile permitem enviar mensagens de push para seus usuários. O SDK também permite reportar com facilidade usuários que abriram seu aplicativo depois de clicar em uma mensagem de push.
 
 Para usar mensagens de push, você **deve** ter o SDK versão 4.6 ou posterior.
 
