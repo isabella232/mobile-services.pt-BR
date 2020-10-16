@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Rastreamento de deep links
 topic: Developer and implementation
 uuid: ebb1c08c-a246-40b3-9ac6-4606a14b4c5a
-translation-type: ht
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e28340249c22d9f121d5c21205227ee758fb9e1b
+workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 100%
 
 ---
 
 
-# Rastreamento de deep links {#tracking-deep-links}
+# Rastreamento de deep links
 
 É possível usar essas informações para rastrear deep links e deep links adiados nos aplicativos móveis com o Adobe Mobile Android SDK.
 
