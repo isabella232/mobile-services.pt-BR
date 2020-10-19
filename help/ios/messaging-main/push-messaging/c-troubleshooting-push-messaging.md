@@ -39,9 +39,8 @@ Os seguintes tipos de atrasos podem estar associados a mensagens de push para os
    >Os serviços de push não garantem que uma mensagem será enviada. Para obter mais informações sobre a confiabilidade dos serviços, consulte a documentação apropriada:
    >
    >* **APNS**: [Qualidade do serviço](https://developer.apple.com/documentation/usernotifications)
-      >
-      >
-   * **GCM**: [Tempo de vida de uma mensagem](https://developers.google.com/cloud-messaging/concept-options)
+   >
+   >* **GCM**: [Tempo de vida de uma mensagem](https://developers.google.com/cloud-messaging/concept-options)
 
 
 ## Como renovo meu Certificado de Serviço Push da Apple?
