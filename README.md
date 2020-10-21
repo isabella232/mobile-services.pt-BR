@@ -1,9 +1,16 @@
 ---
-source-git-commit: 36fa3e0d78f7008f27032c3e51b2ccf96a8c7e3d
+source-git-commit: 635ca6a376b5d1380712ebb01a3e238d5caffc6a
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '517'
+ht-degree: 85%
 
 ---
 # Contribuir com o artigo
+
+| EXL-PR | EXL | Visualização | Ativar | Publicado | Ajuda |
+|--- |--- |--- |--- |--- |--- |
+| [![Status da compilação](https://docs.ci.corp.adobe.com/view/exl-pr/job/mobile-services.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/mobile-services.en_pr-exl/lastBuild/) | [![Status da compilação](https://docs.ci.corp.adobe.com/view/exl-pr/job/mobile-services.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/mobile-services.en_exl/lastBuild/lastBuild) | [URL de pré-visualização](https://experienceleague.corp.adobe.com/docs/mobile-services/using/home.html?lang=en) | [ativate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [Live URL](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en) | [Guia de criação](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Aceitamos contribuições de nossa comunidade e de funcionários da Adobe que estão fora das equipes de documentação.
 
@@ -19,7 +26,7 @@ A maneira como você contribui depende de quem você é e do tipo de alteraçõe
 
 ### Pequenas alterações
 
-Se você estiver contribuindo com pequenas atualizações de boa vontade, visite o artigo e clique no link **Editar** do artigo, que vai para a origem GitHub do artigo. Em seguida, use a interface do usuário do GitHub para fazer as atualizações. See the general [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) for more information.
+Se você estiver contribuindo com pequenas atualizações de boa vontade, visite o artigo e clique no link **Editar** do artigo, que vai para a origem GitHub do artigo. Em seguida, use a interface do usuário do GitHub para fazer as atualizações. Consulte o [Guia geral de colaborador do Adobe Docs](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) para obter mais informações.
 
 As pequenas correções ou esclarecimentos que você envia para a documentação e os exemplos de código deste repositório são abrangidos pelos termos de uso da Adobe.
 
@@ -33,7 +40,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Grandes alterações dos funcionários da Adobe
 
-If you are a technical writer, program manager, or developer from the product team for an Adobe Experience Cloud solution and it's your job to contribute to or author technical articles, you should use the private repository [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs). <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
+Se você for um autor técnico, gerente de programa ou desenvolvedor da equipe de produtos de uma solução da Adobe Experience Cloud e seu trabalho for contribuir com ou criar artigos técnicos, deverá usar o repositório privado [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs). <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
 ## Ferramentas e configuração
 
