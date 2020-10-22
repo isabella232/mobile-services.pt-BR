@@ -7,9 +7,9 @@ solution: Experience Cloud,Analytics
 title: Visão geral do Analytics
 topic: Developer and implementation
 uuid: cc9fa1d9-bc48-4d03-854a-f7b263580a91
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bc11c1e7a4a11657ee89c40ddcbd37377ce50bb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '323'
 ht-degree: 100%
 
@@ -39,9 +39,8 @@ Nos SDKs, os identificadores são usados para rastrear usuários, e esta é a hi
 
 >[!TIP]
 >
->A sigla correta para Identificador da Experience Cloud é ECID. Embora os SDKs ainda usem MID, esse é o nome antigo. 
-
+>A sigla correta para Identificador da Experience Cloud é ECID. Embora os SDKs ainda usem MID, esse é o nome antigo.
 
 O AID, que às vezes também é chamado de identificador de rastreamento, é gerado pelo SDK quando o aplicativo não está configurado para usar um MID. O valor persiste entre inicializações e atualizações de aplicativos em `SharedPreferences`. Se o usuário excluir o aplicativo do dispositivo e reinstalar o aplicativo, ou se o desenvolvedor do aplicativo limpar SharedPreferences, um novo identificador é gerado pelo SDK. Esse processo resulta em um novo usuário nos relatórios do Analytics.
 
-Para usuários em um aplicativo que introduz o suporte ao serviço de identidade (MID), os valores de AID existentes são enviados com ocorrências do Analytics e a ocorrência do Analytics contém um AID e uma MID. Para novos usuários em um aplicativo com suporte ao serviço de identidade, as solicitações do Analytics contêm apenas uma MID. Para mais informações sobre como identificar visitantes, consulte [Identificação de visitantes](https://docs.adobe.com/content/help/pt-BR/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-visid.html).
+Para usuários em um aplicativo que introduz o suporte ao serviço de identidade (MID), os valores de AID existentes são enviados com ocorrências do Analytics e a ocorrência do Analytics contém um AID e uma MID. Para novos usuários em um aplicativo com suporte ao serviço de identidade, as solicitações do Analytics contêm apenas uma MID. Para mais informações sobre como identificar visitantes, consulte [Identificação de visitantes](https://docs.adobe.com/content/help/pt-BR/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-calculate.html).
