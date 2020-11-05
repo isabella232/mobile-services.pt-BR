@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Notas de versão
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: ht
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: ht
-source-wordcount: '422'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6c8020b88d22489f86853274d29dbceee504aa06
+workflow-type: tm+mt
+source-wordcount: '469'
+ht-degree: 89%
 
 ---
 
@@ -18,6 +18,11 @@ ht-degree: 100%
 # Notas de versão {#release-notes}
 
 Veja a seguir as notas de versão, os problemas conhecidos e as informações de hot fix dos iOS SDKs 4.x para Soluções da Experience Cloud:
+
+**4 de novembro de 2020: Versão 4.20.0**
+
+* Serviço de ID do visitante - Foi adicionado um parâmetro de status device_Consentiment quando setAdvertisingIdentifier é chamado depois que o rastreamento de anúncio é ativado/desativado.
+* Analytics - corrigido um erro que impedia o envio de ocorrências do Analytics em uma instalação quando o iAd.framework estava vinculado e o dispositivo tinha &quot;Rastreamento limitado de anúncios&quot; ativado.
 
 **16 de julho de 2020: Versão 4.19.3**
 
