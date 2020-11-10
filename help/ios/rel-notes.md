@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Notas de versão
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6c8020b88d22489f86853274d29dbceee504aa06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -21,8 +21,8 @@ Veja a seguir as notas de versão, os problemas conhecidos e as informações de
 
 **4 de novembro de 2020: Versão 4.20.0**
 
-* Serviço de ID do visitante - Foi adicionado um parâmetro de status device_Consentiment quando setAdvertisingIdentifier é chamado depois que o rastreamento de anúncio é ativado/desativado.
-* Analytics - corrigido um erro que impedia o envio de ocorrências do Analytics em uma instalação quando o iAd.framework estava vinculado e o dispositivo tinha &quot;Rastreamento limitado de anúncios&quot; ativado.
+* Serviço de ID do visitante - Adição de um parâmetro de status device_consent quando setAdvertisingIdentifier é chamado depois que o rastreamento de anúncio é ativado/desativado.
+* Analytics - Correção de um erro que impedia o envio de ocorrências do Analytics em uma instalação quando o iAd.framework estava vinculado e o dispositivo tinha “Rastreamento limitado de anúncios” ativado.
 
 **16 de julho de 2020: Versão 4.19.3**
 
