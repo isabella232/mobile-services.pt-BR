@@ -4,8 +4,11 @@ seo-description: A Visualização do Target permite que você realize tarefas in
 seo-title: Visualização do Target no Android
 title: Visualização do Target no Android
 uuid: f3c82d64-009c-4929-a5e6-3677b2977889
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 83e6968efb0ed1b4ef504286c6cb2e8e4d2eaf94
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 87%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 83e6968efb0ed1b4ef504286c6cb2e8e4d2eaf94
 
 A Visualização do Target permite que você realize tarefas integrais de controle de qualidade para atividades do Target e visualizá-las em seu dispositivo.
 
-Para obter mais informações sobre como usar a Visualização do Target, consulte [Visualização do Target para dispositivos móveis](https://docs.adobe.com/content/help/pt-BR/target/using/implement-target/mobile-apps/target-mobile-preview.html).
+For more information on how to set up and use Target Preview, go to [Target Mobile Preview](https://docs.adobe.com/content/help/pt-BR/target/using/implement-target/mobile-apps/target-mobile-preview.html).
 
 >[!IMPORTANT]
 >
@@ -22,7 +25,7 @@ Para obter mais informações sobre como usar a Visualização do Target, consul
 
 * **setPreviewRestartDeeplink**
 
-   Define um deeplink de aplicativo que será acionado quando seleções de visualização são aplicadas no modo de Visualização.
+   Define um link direto do aplicativo que será acionado quando as seleções de pré-visualização forem aplicadas no modo de Pré-visualização.
 
    * Esta é a sintaxe para este método:
 
