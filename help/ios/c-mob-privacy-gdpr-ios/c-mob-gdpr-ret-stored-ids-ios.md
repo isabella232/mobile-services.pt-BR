@@ -1,11 +1,14 @@
 ---
 description: Essas informações o ajudam a recuperar identidades de SDK da Experience Cloud armazenadas localmente do aplicativo iOS e com solicitações de acesso a dados do GDPR.
 seo-description: Essas informações o ajudam a recuperar identidades de SDK da Experience Cloud armazenadas localmente do aplicativo iOS e com solicitações de acesso a dados do GDPR.
-seo-title: Recuperar identificadores armazenados
-title: Recuperar identificadores armazenados
+seo-title: Recuperando Identificadores Armazenados
+title: Recuperando Identificadores Armazenados
 uuid: 4fb2c166-6700-4f8b-b60b-137b199e0509
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 69%
 
 ---
 
@@ -14,22 +17,22 @@ source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 Essas informações o ajudam a recuperar identidades de SDK da Experience Cloud armazenadas localmente do aplicativo iOS e com solicitações de acesso a dados do GDPR.
 
-Para obter mais informações sobre o GDPR, consulte [GDPR e seus negócios](https://www.adobe.com/br/privacy/general-data-protection-regulation.html).
+Para obter mais informações sobre o RGPD, consulte o [RGPD e a sua empresa](https://www.adobe.com/br/privacy/general-data-protection-regulation.html).
 
 >[!IMPORTANT]
 >
->O método `getAllIdentifiersAsync` recupera identidades armazenadas nos SDKs da Experience Cloud. Você deve chamar esse método **antes** que usuário saia.
+>O método `getAllIdentifiersAsync` recupera identidades armazenadas nos SDKs da Experience Cloud. You must call this method **before** the user opts-out.
 
-As identidades de SDK da Experience Cloud (se for o caso) são armazenadas localmente e retornam em um arquivo JSON, que pode conter:
+Identidades de SDK de Experience Cloud (se aplicável) são armazenadas localmente e retornam em uma sequência de caracteres JSON, que pode conter:
 
-* Contexto da empresa - IDs de org IMS
+* Contexto da empresa - IDs de organização IMS
 * IDs de usuário
 * Experience Cloud ID (MID), anteriormente conhecida como Experience Cloud ID
-* Códigos de integração (ADID, Push ID)
-* IDs da fonte de dados (DPID, DPUUID)
-* Analytics IDs (AVID, AID, VID e RSIDs associados)
-* IDs herdadas do Target (TNTID, TNT3rdpartyID)
-* Audience Manager ID (UUID)
+* Códigos de integração (ADID, ID de push)
+* IDs de fonte de dados (DPID, DPUUID)
+* IDs do Analytics (AVID, AID, VID e RSIDs associados)
+* IDs herdadas do público alvo (TNTID, TNT3rdpartyID)
+* ID do Audience Manager (UUID)
 
 A seguir encontra-se um exemplo do método `ADBMobile getAllIdentifiersAsync` no iOS:
 
