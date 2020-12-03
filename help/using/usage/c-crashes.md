@@ -4,8 +4,11 @@ seo-description: O relatório Falhas oferece um resumo das falhas do aplicativo.
 seo-title: Relatório de falhas
 title: Relatório de falhas
 uuid: 0c96190f-e16b-49d5-aaa5-b651780a7266
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 100%
 
 ---
 
@@ -26,9 +29,9 @@ O gráfico **[!UICONTROL Histórico de falhas]** exibe informações sobre cada 
 
 Você pode configurar as seguintes opções no relatório:
 
-* **[!UICONTROL Período de tempo]**
+* **[!UICONTROL Período]**
 
-   Clique no ícone **[!UICONTROL Calendário]** e selecione um período de tempo personalizado ou escolha um período de tempo predefinido na lista suspensa.
+   Clique no ícone **[!UICONTROL Calendário]** e selecione um período personalizado ou escolha um período predefinido na lista suspensa.
 
 * **[!UICONTROL Filtro]**
 
