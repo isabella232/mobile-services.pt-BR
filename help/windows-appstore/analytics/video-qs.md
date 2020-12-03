@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '898'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
@@ -27,7 +27,7 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
 
    (Obrigatório) Coleta o nome do vídeo, conforme especificado na implementação, quando um visitante visualização o vídeo de alguma forma.Você pode adicionar classificações para essa variável.
 
-   (**Optional**) The Custom Insight variable provides video pathing information.
+   (**Opcional**) A variável Insight personalizado fornece informações de definição de caminho de vídeo.
 
    * Tipo de variável: eVar
    * Expiração padrão: visita
