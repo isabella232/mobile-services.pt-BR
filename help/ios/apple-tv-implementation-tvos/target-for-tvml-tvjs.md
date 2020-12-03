@@ -1,18 +1,21 @@
 ---
-description: Você pode alavancar o Adobe Target em seus aplicativos TVML/TVJS fazendo substituições diretas em seus arquivos .xml. Atribua áreas da sua página para serem substituídas pelo conteúdo do Target usando o elemento ADBTarget XML personalizado.
-seo-description: Você pode alavancar o Adobe Target em seus aplicativos TVML/TVJS fazendo substituições diretas em seus arquivos .xml. Atribua áreas da sua página para serem substituídas pelo conteúdo do Target usando o elemento ADBTarget XML personalizado.
+description: Você pode aproveitar o Adobe Target em seus aplicativos TVML/TVJS fazendo substituições diretas em seus arquivos .xml. Designe áreas de sua página para serem substituídas pelo conteúdo do Público alvo usando o elemento XML ADBTarget personalizado.
+seo-description: Você pode aproveitar o Adobe Target em seus aplicativos TVML/TVJS fazendo substituições diretas em seus arquivos .xml. Designe áreas de sua página para serem substituídas pelo conteúdo do Público alvo usando o elemento XML ADBTarget personalizado.
 seo-title: Adobe Target para TVML/TVJS
 title: Adobe Target para TVML/TVJS
 uuid: afd5a583-5266-43f2-8cb0-0ace89c53a57
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+workflow-type: tm+mt
+source-wordcount: '502'
+ht-degree: 70%
 
 ---
 
 
 # Adobe Target para TVML/TVJS{#adobe-target-for-tvml-tvjs}
 
-Você pode alavancar o Adobe Target em seus aplicativos TVML/TVJS fazendo substituições diretas em seus arquivos .xml. Atribua áreas da sua página para serem substituídas pelo conteúdo do Target usando o elemento ADBTarget XML personalizado.
+Você pode aproveitar o Adobe Target em seus aplicativos TVML/TVJS fazendo substituições diretas em seus arquivos .xml. Designe áreas de sua página para serem substituídas pelo conteúdo do Público alvo usando o elemento XML ADBTarget personalizado.
 
 >[!IMPORTANT]
 >
@@ -111,7 +114,7 @@ Suponha que você tenha um local da Mbox chamado `landingPage` e o conteúdo da 
 
 #### Configurar landingPage.xml.js
 
-* Esta é a configuração de landingPage.xml.js:
+* Esta é a configuração para landingPage.xml.js:
 
    ```js
    <alertTemplate> 
@@ -122,7 +125,7 @@ Suponha que você tenha um local da Mbox chamado `landingPage` e o conteúdo da 
    </alertTemplate> 
    ```
 
-* Se a solicitação ao Target for bem-sucedida e o conteúdo da sua oferta for retornado, sua página resultará em:
+* Se a solicitação para o Público alvo for bem-sucedida e o conteúdo da oferta for retornado, sua página resultará em:
 
    ```objective-c
    <alertTemplate> 
@@ -131,7 +134,7 @@ Suponha que você tenha um local da Mbox chamado `landingPage` e o conteúdo da 
    </alertTemplate>
    ```
 
-* Se o servidor Target não puder ser alcançado ou a solicitação expirar, sua página resultará em:
+* Se o servidor do Público alvo não puder ser acessado ou a solicitação expirar, sua página resultará em:
 
    ```objective-c
    <alertTemplate> 
