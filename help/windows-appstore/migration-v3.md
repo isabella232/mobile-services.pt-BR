@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 13%
+ht-degree: 24%
 
 ---
 
@@ -81,11 +81,11 @@ The `contextData` parameter for both of these methods contains name-value pairs 
 
 ## Eventos, Props, eVars
 
-Se você observou os métodos [do](/help/windows-appstore/c-configuration/methods.md)SDK, provavelmente está se perguntando onde definir eventos, eVars, props, herdeiros e listas. Na versão 4, não é mais possível atribuir esses tipos de variáveis diretamente no aplicativo. Em vez disso, o SDK usa dados de contexto e regras de processamento para mapear os dados do aplicativo para as variáveis do Analytics para o relatórios.
+Se você observou os métodos [do](/help/windows-appstore/c-configuration/methods.md)SDK, provavelmente está se perguntando onde definir eventos, eVars, props, herdeiros e listas. Na versão 4, não é mais possível atribuir esses tipos de variáveis diretamente no aplicativo. Em vez disso, o SDK usa dados de contexto e regras de processamento para mapear os dados do aplicativo para as variáveis do Analytics para os relatórios.
 
 As regras de processamento oferecem várias vantagens:
 
-* Você pode alterar o mapeamento de dados sem enviar uma atualização para a App Store.
+* Você pode alterar o mapeamento de dados sem enviar uma atualização para a loja de aplicativos.
 * Você pode usar nomes significativos para dados em vez de definir variáveis específicas para um conjunto de relatórios.
 * Há pouco impacto no envio de dados extras. Esses valores não aparecerão nos relatórios até que sejam mapeados usando as regras de processamento.
 
