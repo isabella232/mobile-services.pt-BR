@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '888'
-ht-degree: 61%
+ht-degree: 63%
 
 ---
 
 
-# Métricas de ciclo de vida{#lifecycle-metrics}
+# Métricas de ciclo de vida {#lifecycle-metrics}
 
 Lista as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel.
 
@@ -68,7 +68,7 @@ Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento
 
 * **Inicializações**
 
-   Disparado a cada execução, incluindo falhas e instalações. Também é acionado em um resumo do plano de fundo quando o tempo limite da sessão do ciclo de vida é excedido.
+   Acionadas a cada execução, incluindo falhas e instalações. Também é acionado em um resumo do plano de fundo quando o tempo limite da sessão do ciclo de vida é excedido.
 
    * Analytics context data/Target parameter: `a.LaunchEvent`
    * Sinal do Audience Manager: `c_a_LaunchEvent`
