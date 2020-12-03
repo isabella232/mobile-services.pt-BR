@@ -27,7 +27,7 @@ Estas são algumas informações sobre como implementar a biblioteca da platafor
 
 Depois de descompactar o arquivo de download [do](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases) SDK, você terá uma pasta separada para cada combinação de arquitetura e plataforma suportada. Você também terá um `ADBMobileConfig.json` arquivo. Para obter mais informações sobre esse arquivo, consulte o arquivo [de configuração](/help/universal-windows/c-configuration/c.json.md)ADBMobileConfig.json.
 
-## Selecione a versão correta {#section_E53C5AA7D5474824A89BB32C003865A1}
+## Select the correct version {#section_E53C5AA7D5474824A89BB32C003865A1}
 
 Diferentes `.dll/.winmd` arquivos são fornecidos para cada arquitetura suportada (x86, x64, ARM).
 
