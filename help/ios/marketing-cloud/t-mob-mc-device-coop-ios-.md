@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Veja a seguir algumas informações adicionais sobre o sinalizador `coopUnsafe`:
 * O valor padrão é `false`.
 * Essa configuração é usada **somente** para clientes provisionados do Device Co-op.
 
-For Device Co-op members who require this value be set to `true`, you need to work with the Co-op team to request a blocklist flag on your Device Co-op account. Não há um caminho de autoatendimento para habilitar esses sinalizadores.
+Para membros do Device Co-op que requerem que esse valor seja definido como `true`, é necessário trabalhar com a equipe do Co-op para solicitar um sinalizador de lista de bloqueios em sua conta do Device Co-op. Não há um caminho de autoatendimento para habilitar esses sinalizadores.
 
 Lembre-se das seguintes informações:
 
