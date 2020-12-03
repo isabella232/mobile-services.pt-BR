@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 75%
+ht-degree: 83%
 
 ---
 
@@ -25,7 +25,7 @@ Para obter mais informações, consulte [Solução de problemas de dados](https:
 
 ## Métricas de ciclo de vida e dimensões {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
-Quando configuradas, as medições de ciclo de vida são enviadas em parâmetros de dados de contexto para o Analytics, em parâmetros para Público alvo com cada chamada de mbox e como um sinal para o gerenciamento de audiências. O Analytics e o Público alvo usam o mesmo formato, enquanto o gerenciamento de audiências usa um prefixo diferente para cada métrica.
+Quando configuradas, as métricas de ciclo de vida são enviadas em parâmetros de dados de contexto para o Analytics, em parâmetros para o Target com cada chamada de mbox e como um sinal para gerenciamento de público alvo. O Analytics e o Target usam o mesmo formato, enquanto o gerenciamento de público-alvo usa um prefixo diferente para cada métrica.
 
 Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento de ciclo de vida são capturados automaticamente e reportados usando a métrica ou a dimensão. As exceções são observadas no conteúdo.
 
@@ -69,7 +69,7 @@ Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento
 
 * **Inicializações**
 
-   Disparado a cada execução, incluindo falhas e instalações. Também é acionado em um resumo do plano de fundo quando o tempo limite da sessão do ciclo de vida é excedido.
+   Acionadas a cada execução, incluindo falhas e instalações. Também é acionado em um resumo do plano de fundo quando o tempo limite da sessão do ciclo de vida é excedido.
 
    * Parâmetro do Target/Dados de contexto do Analytics: `a.LaunchEvent`
    * Sinal do Audience Manager: `c_a_LaunchEvent`
