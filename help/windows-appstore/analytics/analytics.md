@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '943'
-ht-degree: 11%
+ht-degree: 20%
 
 ---
 
@@ -131,11 +131,11 @@ Se `CollectLifecycleData()` for chamado duas vezes na mesma sessão, o aplicativ
 ## Eventos, propriedades e eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
 
-Se você tiver observado a Referência [de método e classe](/help/windows-appstore/c-configuration/methods.md)ADBMobile, provavelmente está se perguntando onde definir eventos, eVars, props, herdeiros e listas. Na versão 4, não é mais possível atribuir esses tipos de variáveis diretamente no aplicativo. Em vez disso, o SDK usa dados de contexto e regras de processamento para mapear os dados do aplicativo para as variáveis do Analytics para o relatórios.
+Se você tiver observado a Referência [de método e classe](/help/windows-appstore/c-configuration/methods.md)ADBMobile, provavelmente está se perguntando onde definir eventos, eVars, props, herdeiros e listas. Na versão 4, não é mais possível atribuir esses tipos de variáveis diretamente no aplicativo. Em vez disso, o SDK usa dados de contexto e regras de processamento para mapear os dados do aplicativo para as variáveis do Analytics para os relatórios.
 
 As regras de processamento oferecem várias vantagens:
 
-* Você pode alterar o mapeamento de dados sem enviar uma atualização para a App Store.
+* Você pode alterar o mapeamento de dados sem enviar uma atualização para a loja de aplicativos.
 * Você pode usar nomes significativos para dados em vez de definir variáveis específicas para um conjunto de relatórios.
 * Há pouco impacto no envio de dados extras. Esses valores não aparecerão nos relatórios até que sejam mapeados usando as regras de processamento.
 
@@ -146,7 +146,7 @@ Quaisquer valores atribuídos diretamente às variáveis devem ser adicionados a
 
 As regras de processamento são usadas para copiar os dados enviados nas variáveis de dados de contexto para evars, props e outras variáveis do relatórios.
 
-[Treinamento](https://tv.adobe.com/embed/1181/16506/) das regras de processamento no Summit 2013
+[Treinamento em regras de processamento](https://tv.adobe.com/embed/1181/16506/) na Conferência de 2013
 
 [Visão geral das regras de processamento](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
@@ -168,7 +168,7 @@ Além disso, ouvimos que alguns de vocês estão nomeando chaves de dados de con
 "eVar1":"jimbo"
 ```
 
-Isso pode tornar *um pouco* mais fácil ao executar o mapeamento único nas regras de processamento, mas você perde a legibilidade durante a depuração e as futuras atualizações de código podem ser mais difíceis. Em vez disso, recomendamos o uso de nomes descritivos para chaves e valores:
+This might make it *slightly* easier when you perform the one time mapping in processing rules, but you lose readability during debugging and future code updates can be more difficult. Em vez disso, recomendamos o uso de nomes descritivos para chaves e valores:
 
 ```js
 "username":"jimbo"
@@ -241,8 +241,8 @@ ADB.Analytics.trackLifetimeValueIncrease(purchasePrice, cdata);
 
 As ações cronometradas permitem medir o tempo no aplicativo e o tempo total entre o start e o fim de uma ação. O SDK calcula a quantidade de tempo na sessão e o tempo total (entre sessões) necessário para a ação ser concluída. Isso pode ser usado para definir segmentos a serem comparados na hora da compra, no nível de passagem, no fluxo de checkout e assim por diante.
 
-* Número total de segundos no aplicativo entre o start e as sessões de término
-* Número total de segundos entre o start e o término (hora do relógio)
+* Número total de segundos no aplicativo entre o início e o término - sessões cruzadas
+* Número total de segundos entre o início e o término (hora do relógio)
 
 ```js
 // Timed Action Start Example 
