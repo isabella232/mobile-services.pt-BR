@@ -538,7 +538,7 @@ ht-degree: 70%
       ADBMobile.VisitorSyncIdentifiers(ids);
       ```
 
-## Métodos de aquisição
+## Métodos de aquisição 
 
 * **ProcessGooglePlayInstallReferrerUrl** *(somente Android)*
 
