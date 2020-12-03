@@ -7,9 +7,9 @@ solution: Experience Cloud,Analytics
 title: Solucionar problemas de mensagens de push
 topic: Metrics
 uuid: 87d7dcb6-82a8-46e3-a6ed-7f895a22f2af
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 100%
 
@@ -39,8 +39,9 @@ Os seguintes tipos de atrasos podem estar associados a mensagens de push para os
    >Os serviços de push não garantem que uma mensagem será enviada. Para obter mais informações sobre a confiabilidade dos serviços, consulte a documentação apropriada:
    >
    >* **APNS**: [Qualidade do serviço](https://developer.apple.com/documentation/usernotifications)
-   >
-   >* **GCM**: [Tempo de vida de uma mensagem](https://developers.google.com/cloud-messaging/concept-options)
+      >
+      >
+   * **GCM**: [Tempo de vida de uma mensagem](https://developers.google.com/cloud-messaging/concept-options)
 
 
 ## Como renovo meu Certificado de Serviço Push da Apple?
