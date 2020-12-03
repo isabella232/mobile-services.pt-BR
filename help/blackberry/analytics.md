@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
 workflow-type: tm+mt
 source-wordcount: '684'
-ht-degree: 5%
+ht-degree: 14%
 
 ---
 
@@ -53,11 +53,11 @@ As medições de ciclo de vida estão prontas para serem capturadas e os Relató
 ## Eventos, propriedades e eVars {#concept_B885D5A71A5D45129CE7C1C3426A7D28}
 
 
-Se você tiver observado a Referência [de método e classe](/help/blackberry/methods.md)ADBMobile, provavelmente está se perguntando onde definir eventos, eVars, props, herdeiros e listas. Na versão 4, não é mais possível atribuir esses tipos de variáveis diretamente no aplicativo. Em vez disso, o SDK usa dados de contexto e regras de processamento para mapear os dados do aplicativo para as variáveis do Analytics para o relatórios.
+Se você tiver observado a Referência [de método e classe](/help/blackberry/methods.md)ADBMobile, provavelmente está se perguntando onde definir eventos, eVars, props, herdeiros e listas. Na versão 4, não é mais possível atribuir esses tipos de variáveis diretamente no aplicativo. Em vez disso, o SDK usa dados de contexto e regras de processamento para mapear os dados do aplicativo para as variáveis do Analytics para os relatórios.
 
 As regras de processamento oferecem várias vantagens:
 
-* Você pode alterar o mapeamento de dados sem enviar uma atualização para a App Store.
+* Você pode alterar o mapeamento de dados sem enviar uma atualização para a loja de aplicativos.
 * Você pode usar nomes significativos para dados em vez de definir variáveis específicas para um conjunto de relatórios.
 * Há pouco impacto no envio de dados extras. Esses valores não aparecerão nos relatórios até que sejam mapeados usando as regras de processamento.
 
@@ -67,7 +67,7 @@ Any values that you were assigning directly to variables should be added to the 
 
 As regras de processamento são usadas para copiar os dados enviados nas variáveis de dados de contexto para evars, props e outras variáveis do relatórios.
 
-[Treinamento](https://tv.adobe.com/embed/1181/16506/) das regras de processamento no Summit 2013
+[Treinamento em regras de processamento](https://tv.adobe.com/embed/1181/16506/) na Conferência de 2013
 
 [Regras de processamento](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
@@ -89,7 +89,7 @@ Além disso, ouvimos que alguns de vocês estão nomeando chaves de dados de con
 "eVar1":"jimbo"
 ```
 
-Isso pode tornar *um pouco* mais fácil ao executar o mapeamento único nas regras de processamento, mas você perde a legibilidade durante a depuração e as futuras atualizações de código podem ser mais difíceis. Em vez disso, recomendamos o uso de nomes descritivos para chaves e valores:
+This might make it *slightly* easier when you perform the one time mapping in processing rules, but you lose readability during debugging and future code updates can be more difficult. Em vez disso, recomendamos o uso de nomes descritivos para chaves e valores:
 
 ```js
 "username":"jimbo"
