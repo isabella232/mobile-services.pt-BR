@@ -1,18 +1,21 @@
 ---
-description: Lista de classes e enumerações para uso em aplicativos Xamarin.
-seo-description: Lista de classes e enumerações para uso em aplicativos Xamarin.
+description: Lista de classes e listas discriminadas para uso em aplicativos Xamarin.
+seo-description: Lista de classes e listas discriminadas para uso em aplicativos Xamarin.
 seo-title: Classes e enumerações
 title: Classes e enumerações
 uuid: 410d27ee-ce2b-4183-971e-39a7031d1bd5
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+workflow-type: tm+mt
+source-wordcount: '50'
+ht-degree: 24%
 
 ---
 
 
-# Classes and enums{#classes-and-enums}
+# Classes e enumerações{#classes-and-enums}
 
-Lista de classes e enumerações para uso em aplicativos Xamarin.
+Lista de classes e listas discriminadas para uso em aplicativos Xamarin.
 
 ## Classes {#section_E28D6156EB0F4A84AAA7749DF7D3E193}
 
