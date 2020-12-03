@@ -1,11 +1,14 @@
 ---
 description: Use o SDK do iOS para implementar o rastreamento de deep links deferidos de terceiros.
 seo-description: Use o SDK do iOS para implementar o rastreamento de deep links deferidos de terceiros.
-seo-title: Rastreamento de deep links deferidos de terceiros
-title: Rastreamento de deep links deferidos de terceiros
+seo-title: Rastreamento de deep links adiados de terceiros
+title: Rastreamento de deep links adiados de terceiros
 uuid: 5525b609-e926-44b9-b0f5-38e9dd7c9761
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 4b5be6c51c716114e597a80d475f838e23abb1b1
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 90%
 
 ---
 
@@ -20,7 +23,7 @@ O SDK do Adobe Mobile atualmente suporta deep linking no qual o desenvolvedor do
 
 ## Deep linking do Facebook {#section_6A9DACB54A2F4CDEBE9C744DEFADFDED}
 
-Um criador de anúncios pode criar um anúncio no Facebook como um deep link. Quando os usuários clicam no anúncio no Facebook, são direcionados diretamente para a informação em que estão interessados no aplicativo. O deep link **não** é um URL de impressão digital. No entanto, durante a configuração do anúncio, existe uma opção para fornecer um URL de deep link de terceiros. Um desenvolvedor de aplicativos, que esteja usando os SDKs e os serviços do Experience Cloud Mobile, deve inserir o URL de impressão digital dos Mobile Services configurado neste campo. Se tudo estiver configurado corretamente, o SDK do Facebook transmite esse URL para o aplicativo quando ele for instalado ou iniciado.
+Um criador de anúncios pode criar um anúncio no Facebook como um deep link. Quando os usuários clicam no anúncio no Facebook, eles são direcionados para as informações de seu interesse no aplicativo. O deep link **não** é um URL de impressão digital. No entanto, durante a configuração do anúncio, existe uma opção para fornecer um URL de deep link de terceiros. Espera-se que um desenvolvedor de aplicativos que esteja usando os SDKs e serviços do Experience Cloud Mobile insira o URL de impressão digital configurado para o Mobile Services neste campo. Se tudo estiver configurado corretamente, o SDK do Facebook transmite esse URL para o aplicativo quando ele for instalado ou iniciado.
 
 ## Configuração dos SDKs {#section_834CD3109175432B8173ECB6EA7DE315}
 
@@ -29,7 +32,7 @@ Um criador de anúncios pode criar um anúncio no Facebook como um deep link. Qu
    Para obter mais informações, consulte:
 
    * [Introdução ao SDK do Facebook para iOS](https://developers.facebook.com/docs/ios/getting-started)
-   * [Configuração de deeplinking](https://developers.facebook.com/docs/app-ads/deep-linking#os)
+   * [Configuração de Deeplinking](https://developers.facebook.com/docs/app-ads/deep-linking#os)
 
 1. Para definir o SDK, chame `trackAdobeDeepLink` e passe o URL para os SDKs:
 
@@ -51,7 +54,7 @@ Se o aplicativo estiver configurado conforme descrito acima, a versão atual do 
 
 1. Registre um esquema de URL. 
 
-   Certifique-se de ter registrado um esquema de URL, que é o mesmo que o URL de deep link.
+   Registre um esquema de URL, que é o mesmo URL do deep link.
 
    ```objective-c
    <key>CFBundleURLTypes</key> 
