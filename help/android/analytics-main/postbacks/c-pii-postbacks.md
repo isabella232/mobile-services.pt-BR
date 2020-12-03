@@ -4,9 +4,9 @@ seo-description: Você pode usar o SDK da Adobe para coletar informações de id
 seo-title: Postbacks de PII
 title: Postbacks de PII
 uuid: 8d1f1fb8-6842-478b-a164-e7f727755bd9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 100%
 
