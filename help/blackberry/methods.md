@@ -1,19 +1,19 @@
 ---
 description: Classes e métodos fornecidos pela biblioteca do BlackBerry.
 seo-description: Classes e métodos fornecidos pela biblioteca do BlackBerry.
-seo-title: Referência de método e classe Adobe Mobile
-title: Referência de método e classe Adobe Mobile
+seo-title: Referência de classe e método do Adobe Mobile
+title: Referência de classe e método do Adobe Mobile
 uuid: 1e42d759-be43-4bb3-ac1a-c7d64133d61c
 translation-type: tm+mt
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
 workflow-type: tm+mt
 source-wordcount: '988'
-ht-degree: 55%
+ht-degree: 59%
 
 ---
 
 
-# Referência de método e classe Adobe Mobile {#adobe-mobile-class-and-method-reference}
+# Referência de classe e método do Adobe Mobile {#adobe-mobile-class-and-method-reference}
 
 Classes e métodos fornecidos pela biblioteca do BlackBerry.
 
@@ -45,7 +45,7 @@ Atualmente, o SDK oferece suporte ao Adobe Analytics e os métodos estão em cla
 
 * **setPrivacyStatus**
 
-   Define o de privacidade do usuário atual como `status`status. É definido como um dos valores abaixo:
+   Define o de privacidade do usuário atual como `status` status. É definido como um dos valores abaixo:
 
    * `ADBMobilePrivacyStatusOptIn` - as ocorrências são enviadas imediatamente.
    * `ADBMobilePrivacyStatusOptOut` - as ocorrências serão descartadas.
@@ -238,7 +238,7 @@ The `ADBMobileConfig.json` file must be placed in the *assets* folder.
 
    >[!TIP]
    >
-   >If timestamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be `true`. Caso o conjunto de relatórios não tenha um carimbo de data e hora, sua propriedade de configuração `offlineEnabled` *deve* ser false. Se isso não for configurado corretamente, os dados serão perdidos. Se você não tem certeza se um conjunto de relatórios tem um carimbo de data e hora,  entre em contato com o  [Suporte](https://helpx.adobe.com/br/contact/enterprise-support.ec.html)empresarial.
+   >If timestamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be `true`. Caso o conjunto de relatórios não tenha um carimbo de data e hora, sua propriedade de configuração `offlineEnabled` *deve* ser false. Se isso não for configurado corretamente, os dados serão perdidos. Se você não tem certeza se um conjunto de relatórios tem um carimbo de data e hora,   entre em contato com o   [Suporte](https://helpx.adobe.com/br/contact/enterprise-support.ec.html)empresarial.
 
    If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data, or include a custom timestamp on all JavaScript hits using the `s.timestamp` variable.
 
@@ -246,7 +246,7 @@ The `ADBMobileConfig.json` file must be placed in the *assets* folder.
 
 * **lifecycleTimeout**
 
-   Especifica a duração, em segundos, entre as inicializações do aplicativo antes que a inicialização seja considerada uma nova sessão. Esse tempo limite também se aplica quando o aplicativo é enviado para o plano de fundo e reativado. O tempo que o aplicativo gasta em segundo plano não é incluído na duração da sessão.
+   Especifica o tempo, em segundos, que deve decorrer entre o momento em que o aplicativo é iniciado, mas antes que a inicialização seja considerada uma nova sessão. Esse tempo limite também se aplica quando o aplicativo é enviado para o plano de fundo e reativado. O tempo que o aplicativo gasta em segundo plano não é incluído na duração da sessão.
 
    O valor padrão é de 300 segundos.
 
