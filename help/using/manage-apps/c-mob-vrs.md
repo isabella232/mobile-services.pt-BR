@@ -4,8 +4,11 @@ seo-description: Um conjunto de relatórios virtual (VRS) é um conjunto de rela
 seo-title: Conjuntos de relatórios virtuais
 title: Conjuntos de relatórios virtuais
 uuid: 3f467cad-43e7-4cd0-889b-89f8c61febbd
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
+workflow-type: tm+mt
+source-wordcount: '1055'
+ht-degree: 80%
 
 ---
 
@@ -19,10 +22,10 @@ O procedimento dos aplicativos que usam VRSs é igual ao dos aplicativos que usa
 * Regras de processamento
 * evars/props/listvars/eventos
 * Opção ativada por carimbo de data e hora
-* Sinalizadores de dimensão (ciclo de vida, localização e assim por diante)
+* Sinalizadores de Dimension (ciclo de vida, localização e assim por diante)
 * Classificações
 
-Esses valores são gerenciados no conjunto de relatórios principal e são compartilhados com os VRSs que pertencem ao mesmo conjunto principal.
+Esses valores são gerenciados no conjunto de relatórios principal e são compartilhados com os VRSs que pertencem ao mesmo conjunto de relatórios principal.
 
 As seguintes áreas podem ser acessadas na interface do usuário do Adobe Mobile Services, independentemente do conjunto de relatórios principal:
 
@@ -37,7 +40,7 @@ Um VRS pode ajudar a concluir as seguintes tarefas:
 
 * Restringir o acesso aos dados
 
-   Uma empresa multinacional possui um aplicativo que envia dados para um conjunto de relatórios de todas as localizações geográficas. Entretanto, a empresa quer proibir que o usuário corporativo de uma região visualize os dados de outra região. O administrador da empresa pode criar um VRS para segmentar os usuários por região e conceder permissão ao VRS somente para o usuário empresarial que gerencia a região.
+   Uma empresa multinacional tem um aplicativo que envia dados para um conjunto de relatórios para todos os locais geográficos. Entretanto, a empresa quer proibir que o usuário corporativo de uma região visualize os dados de outra região. O administrador da empresa pode criar um VRS para segmentar os usuários por região e conceder permissão ao VRS somente para o usuário empresarial que gerencia a região.
 
    Essa restrição impede que os usuários corporativos vejam dados que não estão relacionados à sua região. Por exemplo, um usuário corporativo na EMEA não precisa ver os dados da região APAC.
 
@@ -55,13 +58,13 @@ Um VRS pode ajudar a concluir as seguintes tarefas:
 
 Cada VRS possui uma ID exclusiva. Para exibir a ID do conjunto de relatórios principal na interface do usuário do Adobe Mobile Services, acesse a página Gerenciar configurações do aplicativo, seção **[!UICONTROL Informações do aplicativo]**, e clique em **[!UICONTROL Mais detalhes]**.
 
-Na interface do usuário do Adobe Mobile Services, você pode usar um VRS para criar um aplicativo e segmentar os dados para um grupo específico na organização. Desta forma, por exemplo, um usuário corporativo na Espanha não poderá ver os dados relevantes para um usuário corporativo no Japão.
+Na interface do usuário do Adobe Mobile Services, você pode usar um VRS para criar um aplicativo e segmentar dados para um grupo específico em sua organização. Dessa forma, por exemplo, um usuário empresarial na Espanha não pode ver os dados relevantes para um usuário comercial no Japão.
 
 >[!TIP]
 >
 >Não é possível modificar os valores herdados do conjunto de relatórios principal.
 
-Um VRS é uma definição de segmento do lado do servidor que está anexada a um conjunto de relatórios principal. Como resultado, você não pode executar a coleta de dados para um VRS, já que o SDK envia ocorrências apenas ao conjunto de relatórios principal, o que, por sua vez, registra as ocorrências.
+Um VRS é uma definição de segmento do lado do servidor que está anexada a um conjunto de relatórios pai. Como resultado, não é possível executar a coleta de dados para um VRS, pois o SDK envia ocorrências somente para o conjunto de relatórios pai, que, por sua vez, registra as ocorrências.
 
 ## Conjunto de relatórios virtual no Adobe Mobile Services e coleta de dados {#section_8ED8FBA5B44044D9ABC2151A39C577D4}
 
@@ -83,7 +86,7 @@ Para usar um VRS ao criar um aplicativo, selecione o VRS na lista suspensa **[!U
 
 >[!IMPORTANT]
 >
->Para selecionar um VRS na lista, localize uma opção com o ponto azul e a convenção de nomenclatura `vrs_` *`<company_name>`* `_` *`<unique name>`*.
+>Para selecionar um VRS na lista, localize uma opção com o ponto azul e a convenção de nomenclatura `vrs_` *`<company_name>`*`_`*`<unique name>`*  .
 
 ## Propriedades do conjunto de relatórios virtual {#section_20ECE6243F664C4FB4347ADB4FF0458A}
 
@@ -93,7 +96,7 @@ Estas são as propriedades de VRSs:
 >
 >As propriedades somente leitura são herdadas do conjunto de relatórios principal.
 
-| Propriedade | Herdado do conjunto de relatórios principal | Editável? | Notas |
+| Propriedade | Herdado do conjunto de relatórios pai | Editável? | Notas |
 |--- |--- |--- |--- |
 | `target.clientCode` | Não | Sim |  |
 | `target.timeout` | Não | Sim |  |
@@ -107,10 +110,10 @@ Estas são as propriedades de VRSs:
 | `analytics.ssl` | Não | Sim |  |
 | `analytics.offlineEnabled` | Sim |  |  |
 | `analytics.charset` | Sim | Não |  |
-| `analytics.lifecycleTimeout` | Não | Sim | Deve ser o conjunto de relatórios principal, se os usuários não quiserem que seus dados sejam inconsistentes. |
+| `analytics.lifecycleTimeout` | Não | Sim | Deve ser o conjunto de relatórios pai, se os usuários não quiserem que seus dados sejam inconsistentes. |
 | `analytics.privacyDefault` | Não | Sim |  |
 | `analytics.batchLimit` | Não | Sim |  |
-| `analytics.timezone` | Sim | Sim, quando você cria o aplicativo pela primeira vez. | Esta propriedade de fuso horário é usada para enviar dados ao Adobe Analytics e é diferente da propriedade de fuso horário que é definida quando um VRS é criado. |
+| `analytics.timezone` | Sim | Sim, quando você cria o aplicativo pela primeira vez. | Essa propriedade de fuso horário é usada para enviar dados à Adobe Analytics e é diferente da propriedade de fuso horário definida quando um VRS é criado. |
 | `analytics.timezoneOffset` | Sim | Não |  |
 | `analytics.referrerTimeout` | Não | Sim |  |
 | `analytics.backdateSessionInfo` | Sim | Sim |  |
