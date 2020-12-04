@@ -48,7 +48,6 @@ Mesmo que esses três métodos de rastreamento atendam aos seus requisitos, use 
 >
 >* Um público-alvo para conter o aplicativo.
 >* Um público-alvo para a extensão.
-
 >
 
 
