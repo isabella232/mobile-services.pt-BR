@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Notas de versão
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b6c9154e925ce0a0530d4c8f0871a97198ecd840
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ Veja a seguir as notas de versão, os problemas conhecidos e as informações de
 
 **15 de dezembro de 2020: Versão 4.21.0**
 
-* Geral - O SDK agora é distribuído usando o XCFrameworks para suportar hardware com a nova arquitetura Apple M1 e, ao mesmo tempo, manter o suporte para a arquitetura Intel existente.
-   * IMPORTANTE: A atualização para o AdobeMobile XCFrameworks requer o Xcode 12.0 ou mais recente
-   * IMPORTANTE: Se estiver usando Cocoapods, a atualização para o AdobeMobile XCFrameworks exigirá o Cocoapods 1.10.0 ou mais recente
+* Geral - O SDK agora é distribuído usando o XCFrameworks para dar suporte a hardware com a nova arquitetura Apple M1 e, ao mesmo tempo, manter o suporte para a arquitetura Intel existente.
+   * IMPORTANTE: a atualização para o AdobeMobile XCFrameworks requer o Xcode 12.0 ou mais recente
+   * IMPORTANTE: se estiver usando Cocoapods, a atualização para o AdobeMobile XCFrameworks exigirá o Cocoapods 1.10.0 ou mais recente
 
 **4 de novembro de 2020: Versão 4.20.0**
 
