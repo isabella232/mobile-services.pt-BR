@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: c7400359bc19150926a67b991ba219a7fa187442
 workflow-type: tm+mt
 source-wordcount: '861'
-ht-degree: 75%
+ht-degree: 99%
 
 ---
 
@@ -40,22 +40,22 @@ Para baixar o SDK:
 1. Baixe, descompacte o arquivo `[Your_App_Name_]AdobeMobileLibrary-4.*-iOS.zip` e verifique se você tem os seguintes componentes de software no diretório `AdobeMobileLibrary`:
 
    * `ADBMobile.h` - o arquivo de cabeçalho Objetive-C usado para o SDK do iOS.
-   * `ADBMobileConfig.json` - o arquivo de configuração do SDK personalizado para seu aplicativo.
-   * `AdobeMobile.xcframework` - contém dois binários gordos, um para dispositivos iOS (armv7, armv7s, arm64) e simuladores (i386, x86_64, arm64).
+   * `ADBMobileConfig.json` - o arquivo de configuração do SDK que é personalizado para seu aplicativo.
+   * `AdobeMobile.xcframework` - contém dois binários multiarquiterura, um para dispositivos iOS (armv7, armv7s, arm64) e simuladores (i386, x86_64, arm64).
 
-      Esse XCFrframework deve ser vinculado ao direcionar um aplicativo iOS.
+      Esse XCFramework deve ser vinculado ao direcionar um aplicativo iOS.
 
-   * `AdobeMobileExtension.xcframework` - contém dois binários gordos, um para dispositivos iOS (armv7, armv7s, arm64) e simuladores (i386, x86_64, arm64).
+   * `AdobeMobileExtension.xcframework` - contém dois binários multiarquiterura, um para dispositivos iOS (armv7, armv7s, arm64) e simuladores (i386, x86_64, arm64).
 
-      Esse XCFrframework deve ser vinculado ao direcionar uma extensão do iOS.
+      Esse XCFramework deve ser vinculado ao direcionar uma extensão do iOS.
 
-   * `AdobeMobileWatch.xcframework` - contém dois binários gordos, um para dispositivos WatchOS (arm64_32, armv7k) e simuladores (i386, x86_64, arm64).
+   * `AdobeMobileWatch.xcframework` - contém dois binários multiarquitetura, um para dispositivos watchOS (arm64_32, armv7k) e simuladores (i386, x86_64, arm64).
 
-      Esse XCFrframework deve ser vinculado ao direcionar um aplicativo Apple Watch (watchOS).
+      Esse XCFramework deve ser vinculado ao direcionar um aplicativo Apple Watch (watchOS).
 
-   * `AdobeMobileTV.xcframework` - contém dois binários gordos, um para dispositivos tvOS (arm64) e simuladores (x86_64, arm64).
+   * `AdobeMobileTV.xcframework` - contém dois binários multiarquitetura, um para dispositivos tvOS (arm64) e simuladores (x86_64, arm64).
 
-      Esse XCFrframework deve ser vinculado ao direcionar um aplicativo da Apple TV (tvOS).
+      Esse XCFramework deve ser vinculado ao direcionar um aplicativo da Apple TV (tvOS).
 
 >[!IMPORTANT]
 >
