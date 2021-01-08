@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Implementação principal e ciclo de vida
 topic: Developer and implementation
 uuid: 96d06325-e424-4770-8659-4b5431318ee3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c7400359bc19150926a67b991ba219a7fa187442
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '861'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -63,21 +63,21 @@ Para baixar o SDK:
 
 1. Baixe, descompacte o arquivo `[Your_App_Name_]AdobeMobileLibrary-4.*-iOS.zip` e verifique se você tem os seguintes componentes de software:
 
-   * `ADBMobile.h`, arquivo de cabeçalho em Objective-C usado no AppMeasurement do iOS.
-   * `ADBMobileConfig.json`, que é o arquivo de configuração de SDK personalizado para o seu aplicativo.
-   * `AdobeMobileLibrary.a`, um binário multiarquitetura habilitado para código de bits que contém os builds da biblioteca de dispositivos (armv7, armv7s, arm64) e dos simuladores (i386 e x86_64) do iOS.
+   * `ADBMobile.h` - arquivo de cabeçalho em Objective-C usado no AppMeasurement do iOS.
+   * `ADBMobileConfig.json` - que é o arquivo de configuração de SDK personalizado para o seu aplicativo.
+   * `AdobeMobileLibrary.a` - um binário multiarquitetura habilitado para código de bits que contém os builds da biblioteca de dispositivos (armv7, armv7s, arm64) e dos simuladores (i386 e x86_64) do iOS.
 
       Esse binário deve ser vinculado quando o destino for pretendido para um aplicativo do iOS.
 
-   * `AdobeMobileLibrary_Extension.a`, um binário multiarquitetura habilitado para código de bits que contém os builds da biblioteca de dispositivos (armv7, armv7s, arm64) e dos simuladores (i386 e x86_64) do iOS.
+   * `AdobeMobileLibrary_Extension.a` - um binário multiarquitetura habilitado para código de bits que contém os builds da biblioteca de dispositivos (armv7, armv7s, arm64) e dos simuladores (i386 e x86_64) do iOS.
 
       Esse binário deve ser vinculado quando o destino for pretendido para uma extensão do iOS.
 
-   * `AdobeMobileLibrary_Watch.a`, um binário multiarquitetura habilitado para código de bits que contém os builds da biblioteca dos dispositivos (armv7k) e dos simuladores (i386 e x86_64) do Apple Watch.
+   * `AdobeMobileLibrary_Watch.a` - um binário multiarquitetura habilitado para código de bits que contém os builds da biblioteca dos dispositivos (armv7k) e dos simuladores (i386 e x86_64) do Apple Watch.
 
       Esse binário deve ser vinculado quando o destino for pretendido para um aplicativo de extensão do Apple Watch (watchOS 2).
 
-   * `AdobeMobileLibrary_TV.a`, um binário multiarquitetura habilitado para código de bits que apresenta os builds da biblioteca dos novos dispositivos (arm64) e simuladores (x86_64) da Apple TV.
+   * `AdobeMobileLibrary_TV.a` - um binário multiarquitetura habilitado para código de bits que apresenta os builds da biblioteca dos novos dispositivos (arm64) e simuladores (x86_64) da Apple TV.
 
       Esse binário deve ser vinculado quando o destino for pretendido para um aplicativo da Apple TV (tvOS).
 
@@ -148,7 +148,7 @@ Para baixar o SDK:
 
 Após habilitar o ciclo de vida, cada vez que o aplicativo é iniciado uma ocorrência é enviada para medir as inicializações, atualizações, usuários engajados e outras [Medições de ciclo de vida](/help/ios/metrics.md).
 
-Adicionar uma chamada `collectLifecycleData`/ `collectLifecycleDataWithAdditionalData` em `application:didFinishLaunchingWithOptions`:
+Adicionar uma chamada `collectLifecycleData`/`collectLifecycleDataWithAdditionalData` em `application:didFinishLaunchingWithOptions`:
 
 ```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
