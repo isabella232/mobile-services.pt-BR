@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Notas de versão
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: ht
-source-git-commit: b6c9154e925ce0a0530d4c8f0871a97198ecd840
-workflow-type: ht
-source-wordcount: '518'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 53d407056dd89dcf32d1895231999b2d92e879ec
+workflow-type: tm+mt
+source-wordcount: '533'
+ht-degree: 97%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 100%
 # Notas de versão {#release-notes}
 
 Veja a seguir as notas de versão, os problemas conhecidos e as informações de hot fix dos iOS SDKs 4.x para Soluções da Experience Cloud:
+
+**13 de janeiro de 2021: Versão 4.21.1**
+
+* Geral - Corrigido um problema que causava exceções do SQLite durante o encerramento do aplicativo.
 
 **15 de dezembro de 2020: Versão 4.21.0**
 
