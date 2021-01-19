@@ -8,10 +8,10 @@ title: Configurar as opções de aquisição do SDK
 topic: Metrics
 uuid: 50ce51ad-39bf-4ac7-bd94-757443d11ca7
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: aab04abeb5edb6be886002e27ef1c5340b0a8f0d
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ Ao criar um novo aplicativo ou editar um aplicativo existente, é possível conf
 
    * **[!UICONTROL Ativar]**
 
-      Crie links da app store que permitem baixar os aplicativos diretamente da Apple App Store e do Google Play. Os links criados permitem que você atribua eventos de sucesso aos downloads. Para obter mais informações, consulte [Aquisição](//help/using/acquisition-main/acquisition-main.md).
+      Crie links da app store que permitem baixar os aplicativos diretamente da Apple App Store e do Google Play. Os links criados permitem que você atribua eventos de sucesso aos downloads. Para obter mais informações, consulte [Aquisição](/help/using/acquisition-main/acquisition-main.md).
 
    * **[!UICONTROL Tempo limite do referenciador (segundos)]**
 
