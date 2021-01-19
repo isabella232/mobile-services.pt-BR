@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Notas de versão
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 53d407056dd89dcf32d1895231999b2d92e879ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '533'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Veja a seguir as notas de versão, os problemas conhecidos e as informações de
 
 **13 de janeiro de 2021: Versão 4.21.1**
 
-* Geral - Corrigido um problema que causava exceções do SQLite durante o encerramento do aplicativo.
+* Geral: correção de um problema que causava exceções do SQLite durante o encerramento do aplicativo.
 
 **15 de dezembro de 2020: Versão 4.21.0**
 
