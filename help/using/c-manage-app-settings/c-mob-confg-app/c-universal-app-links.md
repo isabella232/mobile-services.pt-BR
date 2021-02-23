@@ -1,22 +1,21 @@
 ---
-description: Com os Links universais (iOS) e os Links de aplicativo (Android), é possível se conectar a links profundos nos aplicativos iOS ou Android.
-keywords: mobile
+description: Vincular aplicativos e sites é importante para manter a experiência do usuário. Saiba como os Links universais e de aplicativos funcionam e as diferenças entre eles.
 seo-description: Com os Links universais (iOS) e os Links de aplicativo (Android), é possível se conectar a links profundos nos aplicativos iOS ou Android.
 seo-title: Links universais da Apple e links de aplicativos Android
 solution: Experience Cloud,Analytics
-title: Links universais da Apple e links de aplicativos Android
-topic: Metrics
+title: Guia de Links Universais e Links de Aplicativo
+topic: Métricas
 uuid: 8d6441dc-4307-4454-95ea-d77ec796f918
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: bb41caaecaefe8168d9b19e151d43ec792e24db8
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 100%
+source-wordcount: '1146'
+ht-degree: 96%
 
 ---
 
 
-# Links universais da Apple e links de aplicativos Android {#universal-links-and-app-links}
+# Links universais vs. Links de aplicativo: Como eles funcionam? {#universal-links-and-app-links}
 
 Com os Links universais (iOS) e os Links de aplicativo (Android), é possível se conectar a links profundos nos aplicativos iOS ou Android.
 
