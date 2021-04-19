@@ -1,20 +1,20 @@
 ---
 description: Esta é a lista de métodos do Adobe Target fornecida pela biblioteca do Android.
-keywords: android;library;mobile;sdk
+keywords: android;biblioteca;móvel;sdk
 seo-description: Esta é a lista de métodos do Adobe Target fornecida pela biblioteca do Android.
 seo-title: Métodos do Target para o Android
 solution: Experience Cloud,Analytics
 title: Métodos do Target para o Android
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 8e9808b2-ba80-4646-ba05-8e62d4fde065
+exl-id: 0c7a6718-d078-4a2b-a2c9-d5cd50263939
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '607'
 ht-degree: 100%
 
 ---
-
 
 # Métodos do Target para o Android {#target-methods}
 
@@ -57,8 +57,9 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 >[!IMPORTANT]
 >
 >* Se você estiver usando SDKs **anteriores** à versão 4.14.0, consulte [https://developers.adobetarget.com/api/#input-parameters](https://developers.adobetarget.com/api/#input-parameters) para limitações de parâmetros.
->
->* Se você estiver usando SDKs versão 4.14.0 **ou posterior**, consulte [https://developers.adobetarget.com/api/#batch-input-parameters](https://developers.adobetarget.com/api/#batch-input-parameters) para limitações de parâmetros.
+   >
+   >
+* Se você estiver usando SDKs versão 4.14.0 **ou posterior**, consulte [https://developers.adobetarget.com/api/#batch-input-parameters](https://developers.adobetarget.com/api/#batch-input-parameters) para limitações de parâmetros.
 
 
 * **loadRequest**
