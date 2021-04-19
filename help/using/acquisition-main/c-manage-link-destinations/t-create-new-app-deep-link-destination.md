@@ -1,20 +1,20 @@
 ---
 description: É possível criar um novo destino de link que direciona os usuários para a Web ou um deep link no seu aplicativo.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: É possível criar um novo destino de link que direciona os usuários para a Web ou um deep link no seu aplicativo.
 seo-title: Criar novo destino de link
 solution: Experience Cloud,Analytics
 title: Criar novo destino de link
-topic: Metrics
+topic-fix: Metrics
 uuid: 390e3dea-0221-4f97-980d-a90ca9f162fa
+exl-id: 2d2f5938-1461-43e2-a375-45c18afc9d5a
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '418'
 ht-degree: 100%
 
 ---
-
 
 # Criar um novo destino de link {#create-new-link-destination}
 
