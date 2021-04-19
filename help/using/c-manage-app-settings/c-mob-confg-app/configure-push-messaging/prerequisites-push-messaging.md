@@ -1,20 +1,20 @@
 ---
 description: Você deve concluir essas tarefas antes de configurar Mensagens de push nos aplicativos.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: Você deve concluir essas tarefas antes de configurar Mensagens de push nos aplicativos.
 seo-title: Pré-requisitos para ativar as mensagens de push
 solution: Experience Cloud,Analytics
 title: Pré-requisitos para ativar as mensagens de push
-topic: Metrics
+topic-fix: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
+exl-id: 543155a4-f687-48a6-8690-5c8da8490c62
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '647'
 ht-degree: 100%
 
 ---
-
 
 # Pré-requisitos para habilitar as mensagens por push {#prerequisites-to-enable-push-messaging}
 
