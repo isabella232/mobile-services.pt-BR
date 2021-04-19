@@ -4,16 +4,16 @@ seo-description: Ações são os eventos que ocorrem em seu aplicativo que você
 seo-title: Rastrear ações do aplicativo
 solution: Experience Cloud,Analytics
 title: Rastrear ações do aplicativo
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 62017be1-5395-4d16-bde3-4c40a2c012d4
+exl-id: ff317eff-1b8e-46e1-a305-a404979447cb
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 100%
 
 ---
-
 
 # Rastrear ações do aplicativo {#track-app-actions}
 
