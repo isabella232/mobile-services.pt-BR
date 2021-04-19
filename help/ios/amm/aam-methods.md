@@ -4,16 +4,16 @@ seo-description: Esta é uma lista de métodos do Audience Manager fornecidos pe
 seo-title: Métodos do Audience Manager
 solution: Experience Cloud,Analytics
 title: Métodos do Audience Manager
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 97658bd6-4c4f-4875-abe9-36dad4ec8bae
+exl-id: b843a52f-2b83-4e19-9f43-895bd582d4ef
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 100%
 
 ---
-
 
 # Métodos do Audience Manager {#audience-manager-methods}
 
@@ -76,7 +76,7 @@ Se o Audience Manager estiver configurado em seu arquivo JSON, um sinal contendo
    Define a DPID e a DPUUID. Quando definidas, ambas serão anexadas a cada sinal.
 
    * A **ID do provedor de dados (DPID)** é a ID do parceiro de dados atribuída pelo Audience Manager.
-   * A **ID de usuário exclusiva (DPUUID) do provedor de dados** é a ID exclusiva do provedor de dados para o usuário.
+   * O **identificador de usuário único (DPUUID) do provedor de dados** é o identificador exclusivo do provedor de dados para o usuário.
 
       >[!IMPORTANT]
       >
