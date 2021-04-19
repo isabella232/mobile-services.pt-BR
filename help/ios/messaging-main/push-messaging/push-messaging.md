@@ -4,16 +4,16 @@ seo-description: O Adobe Mobile e o SDK do Adobe Mobile permitem enviar mensagen
 seo-title: Mensagens por push
 solution: Experience Cloud,Analytics
 title: Mensagens por push
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 2e2d8175-d7d0-4b6b-a14e-d419da1f9615
+exl-id: 89796668-e0e7-45d2-8391-3c26a7ac8496
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 100%
 
 ---
-
 
 # Mensagens por push {#push-messaging}
 
@@ -27,7 +27,7 @@ Para usar mensagens de push, você **deve** ter o SDK versão 4.6 ou posterior.
 
 >[!IMPORTANT]
 >
->Não defina a Experience Cloud ID manualmente dentro do aplicativo. Isso resulta na criação de um novo usuário exclusivo que não receberá mensagens de push devido ao seu status de aceitação. Por exemplo, suponha que um usuário que tenha optado por receber mensagens de push faça logon no aplicativo. Depois de fazer logon, se você definir manualmente a ID dentro do aplicativo, um novo usuário único que não optou por receber mensagens de push será criado. Este novo usuário não receberá suas mensagens de push.
+>Não defina a Experience Cloud ID manualmente dentro do aplicativo. Isso resulta na criação de um novo usuário único que não receberá mensagens de push devido ao seu status de aceitação. Por exemplo, suponha que um usuário que tenha optado por receber mensagens de push faça logon no aplicativo. Depois de fazer logon, se você definir manualmente a ID dentro do aplicativo, um novo usuário único que não optou por receber mensagens de push será criado. Este novo usuário não receberá suas mensagens de push.
 
 ## Pré-requisitos {#section_06655ABE973743DC965897B229A2118D}
 
