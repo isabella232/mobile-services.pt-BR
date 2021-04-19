@@ -1,20 +1,20 @@
 ---
 description: Os profissionais de marketing podem criar, salvar e editar destinos de links (como links da Web, links profundos e outros), que podem ser usados na criação de Links de marketing rastreáveis.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: Os profissionais de marketing podem criar, salvar e editar destinos de links (como links da Web, links profundos e outros), que podem ser usados na criação de Links de marketing rastreáveis.
 seo-title: Destinos
 solution: Experience Cloud,Analytics
 title: Destinos
-topic: Metrics
+topic-fix: Metrics
 uuid: 0e0e7d22-067c-4a59-abcb-a4826800944d
+exl-id: e30128de-5b2d-4617-a871-44fe489ea6e7
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '196'
 ht-degree: 100%
 
 ---
-
 
 # Destinos {#destinations}
 
