@@ -4,16 +4,16 @@ seo-description: O SDK da Adobe usa as APIs de atribuição do aplicativo Search
 seo-title: Anúncios de Pesquisa da Apple
 solution: Experience Cloud,Analytics
 title: Anúncios de Pesquisa da Apple
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 790080e8-067e-4bfd-a169-0027db4fdff3
+exl-id: efcdd430-f08d-4ee2-85f3-2697c3bd72db
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 100%
 
 ---
-
 
 # Anúncios de Pesquisa da Apple {#apple-search-ads}
 
@@ -49,7 +49,7 @@ Para habilitar seu aplicativo para atribuição do Search Ads:
    Além disso, os seguintes valores serão mapeados do dicionário `"iad"` para nossos campos de dados de contexto de aquisição típicos:
 
    * `"iad-campaign-id"` --> `"a.referrer.campaign.trackingcode"`
-   * `"iad-campaign-name"` --> `"a.referrer.campaign.name"`
-   * `"iad-adgroup-id"` --> `"a.referrer.campaign.content"`
-   * `"iad-keyword"` --> `"a.referrer.campaign.term"`
+   * `"iad-campaign-name"` —>  `"a.referrer.campaign.name"`
+   * `"iad-adgroup-id"` —>  `"a.referrer.campaign.content"`
+   * `"iad-keyword"` —>  `"a.referrer.campaign.term"`
    Esse mapeamento assegura que os valores estejam disponíveis em nossos relatórios padrão.
