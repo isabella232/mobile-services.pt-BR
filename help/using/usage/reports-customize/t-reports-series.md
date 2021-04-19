@@ -1,20 +1,20 @@
 ---
 description: Estas informações ajudam você a personalizar os relatórios internos, adicionando séries (métricas) ou aplicativos em diferentes conjuntos de relatórios para comparar os dados.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: Estas informações ajudam você a personalizar os relatórios internos, adicionando séries (métricas) ou aplicativos em diferentes conjuntos de relatórios para comparar os dados.
 seo-title: Adição de séries (métricas) aos relatórios
 solution: Experience Cloud,Analytics
 title: Adição de séries (métricas) aos relatórios
-topic: Reports,Metrics
+topic-fix: Reports,Metrics
 uuid: 84fdfb1f-70e6-4c02-9b3b-526e9c924f74
+exl-id: 1b1356c6-7f62-4b88-996a-09ed33b19c9d
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
-
 
 # Adicionar séries (métricas) aos relatórios {#add-series-metrics-to-reports}
 
