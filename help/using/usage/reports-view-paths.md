@@ -1,20 +1,20 @@
 ---
 description: O relatório Caminhos de exibição, que se baseia na análise de caminhos, mostra um gráfico que representa os caminhos que foram tomados entre estados no aplicativo.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: O relatório Caminhos de exibição, que se baseia na análise de caminhos, mostra um gráfico que representa os caminhos que foram tomados entre estados no aplicativo.
 seo-title: Exibir relatório Caminhos
 solution: Experience Cloud,Analytics
 title: Exibir relatório Caminhos
-topic: Reports,Metrics
+topic-fix: Reports,Metrics
 uuid: bc73edce-0cc0-4349-9a48-e0a40cbe1b67
+exl-id: 475dbe01-fa4d-433c-ac77-68f2a6972c0c
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '523'
 ht-degree: 100%
 
 ---
-
 
 # Exibir relatório Caminhos {#view-paths}
 
