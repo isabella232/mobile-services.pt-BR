@@ -1,20 +1,20 @@
 ---
-description: Informações para ajudá-lo a configurar o SDK da plataforma Universal Windows, incluindo configuração JSON, agrupamento de ocorrências e métodos SDK.
-seo-description: Informações para ajudá-lo a configurar o SDK da plataforma Universal Windows, incluindo configuração JSON, agrupamento de ocorrências e métodos SDK.
+description: Informações para ajudá-lo a configurar o SDK da plataforma Universal Windows, incluindo a configuração JSON, o agrupamento de ocorrências e os métodos do SDK.
+seo-description: Informações para ajudá-lo a configurar o SDK da plataforma Universal Windows, incluindo a configuração JSON, o agrupamento de ocorrências e os métodos do SDK.
 seo-title: Configuração
 solution: Experience Cloud,Analytics
 title: Configuração
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: f49667b9-b87b-42bd-b7a6-4c6154d1b137
+exl-id: 8d0b7aca-f677-40b3-830e-eb3bc9c9fe83
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 5%
 
 ---
 
-
 # Configuração {#configuration}
 
-Informações para ajudá-lo a configurar o SDK da plataforma Universal Windows, incluindo configuração JSON, agrupamento de ocorrências e métodos SDK.
+Informações para ajudá-lo a configurar o SDK da plataforma Universal Windows, incluindo a configuração JSON, o agrupamento de ocorrências e os métodos do SDK.
