@@ -1,29 +1,29 @@
 ---
-description: Informações para ajudá-lo a usar o arquivo de configuração JSON do ADBMobile.
-seo-description: Informações para ajudá-lo a usar o arquivo de configuração JSON do ADBMobile.
+description: Informações para ajudá-lo a usar o arquivo de Configuração JSON do ADBMobile.
+seo-description: Informações para ajudá-lo a usar o arquivo de Configuração JSON do ADBMobile.
 seo-title: Configuração do ADBMobileConfig.json
 solution: Experience Cloud,Analytics
 title: Configuração do ADBMobileConfig.json
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: cbcb54a3-4b8f-4651-8ce9-2731ac988545
+exl-id: 57d50d30-651c-4943-835e-1cbce7467baf
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 45%
 
 ---
 
+# Arquivo de configuração ADBMobileConfig.json {#adbmobileconfig-json-config}
 
-# ADBMobileConfig.json config file {#adbmobileconfig-json-config}
+Informações para ajudá-lo a usar o arquivo de Configuração JSON do ADBMobile.
 
-Informações para ajudá-lo a usar o arquivo de configuração JSON do ADBMobile.
-
-O SDK suporta atualmente várias Soluções Adobe Experience Cloud, incluindo Analytics, Público alvo e Audience Manager. Os métodos apresentam prefixos de acordo com a solução. Métodos de configuração recebem o prefixo &quot;Config&quot;.
+Atualmente, o SDK é compatível com várias soluções da Adobe Experience Cloud, incluindo o Analytics, o Target e o Audience Manager. Os métodos apresentam prefixos de acordo com a solução. Métodos de configuração recebem o prefixo &quot;Configuração&quot;.
 
 * **rsids**
 
-   (**Exigido pelo Analytics**) Um ou mais conjuntos de relatórios para receber dados do Analytics. Várias IDs de conjunto de relatórios devem ser separadas por vírgulas, sem espaços entre elas.
+   (**Exigido pelo Analytics**) Um ou mais conjuntos de relatórios que receberão dados do Analytics. Várias IDs de conjunto de relatórios devem ser separadas por vírgulas, sem espaços entre elas.
 
    * Esta é a sintaxe para este método:
 
@@ -37,13 +37,13 @@ O SDK suporta atualmente várias Soluções Adobe Experience Cloud, incluindo An
 
 * **server**
 
-   (**Exigido pelo Analytics e Gerenciamento** de Audiências). Servidor do Analytics ou Gerenciamento de Audiências, com base no nó pai. Essa variável deve ser preenchida com o domínio do servidor, sem um prefixo de protocolo `"https://"` ou `"https://"`. O prefixo do protocolo é manipulado automaticamente pela biblioteca com base na `ssl` variável.
+   (**Exigido pelo Analytics e pelo Gerenciamento de público-alvo**). Servidor do Analytics ou do Gerenciamento de público-alvo, com base no nó principal. Essa variável deve ser preenchida com o domínio do servidor, sem um prefixo de protocolo `"https://"` ou `"https://"`. O prefixo do protocolo é manipulado automaticamente pela biblioteca com base na variável `ssl` .
 
    Se `ssl` for `true`, é realizada uma conexão segura com o servidor. Se `ssl` for `false`, é realizada uma conexão insegura com o servidor.
 
 * **charset**
 
-   Define o conjunto de caracteres que você está usando para os dados enviados ao Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte [s.charSet](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/config-vars/charset.html).
+   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte [s.charSet](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/config-vars/charset.html).
 
 * **ssl**
 
@@ -51,11 +51,11 @@ O SDK suporta atualmente várias Soluções Adobe Experience Cloud, incluindo An
 
 * **offlineEnabled**
 
-   When enabled (`true`), hits are queued while the device is offline and sent later when the device is online. Seu conjunto de relatórios deve ter o carimbo de data e hora habilitado para usar o rastreamento offline.
+   Quando ativado (`true`), as ocorrências são enfileiradas enquanto o dispositivo está offline e enviadas posteriormente quando o dispositivo está online. Seu conjunto de relatórios deve ter o carimbo de data e hora habilitado para usar o rastreamento offline.
 
-   If time stamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be `true`. Caso o conjunto de relatórios não tenha um carimbo de data e hora, sua propriedade de configuração `offlineEnabled` *deve* ser `false`.
+   Se os carimbos de data e hora estiverem ativados em seu conjunto de relatórios, sua propriedade de configuração `offlineEnabled`deverá&#x200B;*ser `true`.* Caso o conjunto de relatórios não tenha um carimbo de data e hora, sua propriedade de configuração `offlineEnabled` *deve* ser `false`.
 
-   Se isso não for configurado corretamente, os dados serão perdidos. Se não tiver certeza se um conjunto de relatórios tem carimbo de data e hora, entre em contato com o Atendimento ao cliente. If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data or include a custom timestamp on all JavaScript hits using the `s.timestamp` variable.
+   Se isso não for configurado corretamente, os dados serão perdidos. Se não tiver certeza se um conjunto de relatórios tem um carimbo de data e hora, entre em contato com o Atendimento ao cliente. Caso esteja relatando dados AppMeasurement para um conjunto de relatórios que também coleta dados JavaScript, pode ser necessário configurar um conjunto de relatórios separado para dados móveis ou incluir um carimbo de data e hora personalizado em todas as ocorrências de JavaScript que usam a variável `s.timestamp` .
 
    O valor padrão é `false`.
 
@@ -69,7 +69,7 @@ O SDK suporta atualmente várias Soluções Adobe Experience Cloud, incluindo An
 
    Envie ocorrências em lotes.
 
-   Por exemplo, se definido como `50`, as ocorrências são enfileiradas até que 50 sejam armazenadas e todas as ocorrências em fila são enviadas. Exige `offlineEnabled=true`e o valor padrão é `0` (Sem agrupamento).
+   Por exemplo, se definido como `50`, as ocorrências são enfileiradas até que 50 sejam armazenadas, então todas as ocorrências em fila são enviadas. Requer `offlineEnabled=true` e o valor padrão é `0` (Sem agrupamento).
 
 * **privacyDefault**
 
@@ -77,9 +77,9 @@ O SDK suporta atualmente várias Soluções Adobe Experience Cloud, incluindo An
 
    * `optedin` - as ocorrências são enviadas imediatamente.
    * `optedout` - as ocorrências serão descartadas.
-   * `optunknown` - Se o conjunto de relatórios tiver um carimbo de data e hora, as ocorrências serão salvas até o status de privacidade ser alterado para aceitar (as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas). Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in.
+   * `optunknown` - Se o conjunto de relatórios estiver habilitado para mostrar o carimbo de data e hora, as ocorrências serão salvas até o status de privacidade ser alterado para aceitar (e então as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas). Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in.
 
-      Isso define somente o valor padrão. Se esse valor for definido ou alterado no código, o valor definido pelo código será salvo no armazenamento local e será usado para frente até que seja alterado ou o aplicativo seja desinstalado e reinstalado.
+      Isso define somente o valor padrão. Se esse valor for definido ou alterado no código, o valor definido pelo código será salvo no armazenamento local e será usado a partir de agora, até que seja alterado ou o aplicativo seja desinstalado e depois reinstalado.
 
       O valor padrão é `optedin`.
 
@@ -98,13 +98,13 @@ O SDK suporta atualmente várias Soluções Adobe Experience Cloud, incluindo An
 
 * **clientCode**
 
-   (**Exigido pelo Público alvo**) Seu código de cliente atribuído.
+   (**Exigido pelo Target**) Seu código de cliente atribuído.
 
 * **timeout**
 
-   Determina quanto tempo o público alvo aguarda uma resposta.
+   Determina quanto tempo o target aguarda uma resposta.
 
-The following is an example of an `ADBMobileConfig.json` file:
+Este é um exemplo de um arquivo `ADBMobileConfig.json`:
 
 ```js
 { 
