@@ -4,16 +4,16 @@ seo-description: Esta é uma lista de métodos fornecidos pela biblioteca do iOS
 seo-title: Métodos de configuração
 solution: Experience Cloud,Analytics
 title: Métodos de configuração
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
+exl-id: b6841808-8fa8-4090-8cb3-ce647a3d5d08
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 100%
 
 ---
-
 
 # Métodos de configuração {#configuration-methods}
 
@@ -124,7 +124,7 @@ O valor padrão está definido no arquivo `ADBMobileConfig.json`.
 
 * **trackingIdentifier**
 
-   Retorna o identificador de visitante gerado automaticamente. Esta é uma ID de visitante exclusiva específica do aplicativo gerada pelos servidores da Adobe. Se não for possível atingir a geração de servidores no momento, a ID será gerada usando a CFUUID da Apple. O valor é gerado na primeira inicialização e é armazenado e usado a partir desse ponto. Essa ID é preservada entre as atualizações do aplicativo, é salva e restaurada durante o processo padrão de backup do aplicativo e é removida na desinstalação.
+   Retorna o identificador de visitante gerado automaticamente. Esta é um identificador de visitante único específico do aplicativo gerado pelos servidores da Adobe. Se não for possível atingir a geração de servidores no momento, a ID será gerada usando a CFUUID da Apple. O valor é gerado na primeira inicialização e é armazenado e usado a partir desse ponto. Essa ID é preservada entre as atualizações do aplicativo, é salva e restaurada durante o processo padrão de backup do aplicativo e é removida na desinstalação.
 
    >[!TIP]
    >
@@ -388,4 +388,3 @@ typedef NS_ENUM(NSUInteger, ADBMobileAppExtensionType) {
     ADBMobileAppExtensionTypeStandAlone = 1 /*!< Enum value ADBMobileAppExtensionTypeStandAlone. */ 
 };
 ```
-
