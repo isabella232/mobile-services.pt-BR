@@ -1,20 +1,20 @@
 ---
 description: Aqui estão as informações de referência para as métricas e dimensões móveis padrão.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: Aqui estão as informações de referência para as métricas e dimensões móveis padrão.
 seo-title: Métricas móveis e referências de dimensões
 solution: Experience Cloud,Analytics
 title: Métricas móveis e referências de dimensões
-topic: Metrics
+topic-fix: Metrics
 uuid: 96170ae7-8553-4f3e-ae01-65e5b664adf4
+exl-id: ddfbf11e-a4c3-4d59-92b3-1d192dc3e7cd
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '638'
 ht-degree: 100%
 
 ---
-
 
 # Referência de métricas e dimensões móveis {#mobile-metrics-and-dimensions-reference}
 
