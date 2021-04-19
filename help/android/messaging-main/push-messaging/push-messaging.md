@@ -4,16 +4,16 @@ seo-description: O Adobe Mobile e o SDK do Adobe Mobile permitem enviar mensagen
 seo-title: Mensagens por push
 solution: Experience Cloud,Analytics
 title: Mensagens por push
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 729d4010-3733-4dff-b188-ad45bd3e7cc4
+exl-id: 4472e0b9-1d00-4e1a-8653-f3976b74c078
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%
 
 ---
-
 
 # Mensagens por push {#push-messaging}
 
@@ -23,7 +23,7 @@ Para usar mensagens de push, você **deve** ter o SDK versão 4.6 ou posterior.
 
 >[!IMPORTANT]
 >
->Não defina a Experience Cloud ID manualmente dentro do aplicativo. Isso resulta na criação de um novo usuário exclusivo que não receberá mensagens de push devido ao seu status de aceitação. Por exemplo, um usuário aceitou receber mensagens de push para fazer logon no aplicativo. Depois de fazer logon, se você definir manualmente a ID dentro do aplicativo, um novo usuário único que não optou por receber mensagens de push será criado. Este novo usuário não receberá suas mensagens de push.
+>Não defina a Experience Cloud ID manualmente dentro do aplicativo. Isso resulta na criação de um novo usuário único que não receberá mensagens de push devido ao seu status de aceitação. Por exemplo, um usuário aceitou receber mensagens de push para fazer logon no aplicativo. Depois de fazer logon, se você definir manualmente a ID dentro do aplicativo, um novo usuário único que não optou por receber mensagens de push será criado. Este novo usuário não receberá suas mensagens de push.
 >
 >Não é possível mover seu aplicativo para um novo conjunto de relatórios. Se você migrar para um novo conjunto de relatórios, sua configuração de push pode ser interrompida e as mensagens podem não ser enviadas.
 
@@ -77,6 +77,3 @@ Para usar mensagens de push, você **deve** ter o SDK versão 4.6 ou posterior.
       * Use `Config.collectLifecycleData(this)` ou `Config.collectLifecycleData(this, contextData)`.
 
       * **Não** use `Config.collectLifecycleData()`.
-
-
-
