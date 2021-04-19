@@ -1,19 +1,19 @@
 ---
 description: Este tópico oferece informações sobre como solucionar problemas possíveis durante o teste de aquisição.
-keywords: android;library;mobile;sdk
+keywords: android;biblioteca;móvel;sdk
 seo-description: Este tópico oferece informações sobre como solucionar problemas possíveis durante o teste de aquisição.
 seo-title: Resolução de problemas de teste de aquisição
 solution: Experience Cloud,Analytics
 title: Resolução de problemas de teste de aquisição
-topic: Developer and implementation
+topic-fix: Developer and implementation
+exl-id: 1ed2ad89-4e89-43da-aa21-f688b4d1c0d1
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '252'
 ht-degree: 100%
 
 ---
-
 
 # Resolução de problemas de teste de aquisição {#troubleshoot-acquisition-testing}
 
@@ -50,4 +50,3 @@ Este tópico oferece informações sobre como solucionar problemas possíveis du
 >[!IMPORTANT]
 >
 >Para o correto processamento da intenção do referenciador, você deve executar esses dois comandos separadamente. Caso contrário, `adb` omitirá as informações do referenciador duas vezes e os dados recebidos pelo receptor da transmissão estarão incompletos.
-
