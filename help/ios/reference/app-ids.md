@@ -4,16 +4,16 @@ seo-description: A tabela a seguir descreve os diferentes identificadores de apl
 seo-title: IDs da Apple
 solution: Experience Cloud,Analytics
 title: IDs da Apple
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 24ebc716-23c7-4ee8-8256-b534210367e0
+exl-id: 82f0a097-b2eb-4313-8624-dd442e3da039
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
 
 ---
-
 
 # IDs da Apple {#app-ids}
 
@@ -23,5 +23,4 @@ A tabela a seguir descreve os diferentes identificadores de aplicativos usados p
 |--- |--- |
 | ID enviada com métricas de ciclo de vida | Esta é uma combinação do nome do aplicativo e da versão do pacote que é enviada para a loja de aplicativos.  Esse valor é usado para o relatório Versões nos Adobe Mobile Services e ele pode ser usado para filtrar os resultados por uma versão específica do seu aplicativo. |
 | ID da App Store | Essa ID é atribuída ao seu aplicativo pela loja de aplicativos e é fornecida no Adobe Mobile Services quando você cria links de aquisição. |
-| AppID na Configuração JSON do ADBMobile | Esta ID é única e é atribuída à instância do aplicativo pelos Adobe Mobile Services para todos os metadados associados em seu sistema.  Esta ID é usada para criar os URLs exclusivos para o rastreamento de aquisição ou o link de rastreamento, é adicionado automaticamente ao arquivo de configuração ADBMobile JSON quando baixado da interface do usuário e pode ser encontrado em Gerenciar configurações do aplicativo nas configurações de Aquisição do seu aplicativo. |
-
+| AppID na Configuração JSON do ADBMobile | Este identificador é exclusivo e é atribuído à instância do aplicativo pelos Adobe Mobile Services para todos os metadados associados em seu sistema.  Esta ID é usada para criar os URLs exclusivos para o rastreamento de aquisição ou o link de rastreamento, é adicionado automaticamente ao arquivo de configuração ADBMobile JSON quando baixado da interface do usuário e pode ser encontrado em Gerenciar configurações do aplicativo nas configurações de Aquisição do seu aplicativo. |
