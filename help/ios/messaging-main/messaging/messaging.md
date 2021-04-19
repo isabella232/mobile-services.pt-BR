@@ -4,16 +4,16 @@ seo-description: Essas informações ajudam você a usar mensagens no aplicativo
 seo-title: Mensagens no aplicativo
 solution: Experience Cloud,Analytics
 title: Mensagens no aplicativo
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 21fa6a94-bb7f-4c78-843b-a50f1974db22
+exl-id: 70b0ade4-dcd1-4e00-9800-352f11c4001d
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 100%
 
 ---
-
 
 # Mensagens no aplicativo {#in-app-messaging}
 
@@ -118,4 +118,3 @@ O nome do ativo de imagem de fallback é especificado ao configurar a mensagem n
 >[!IMPORTANT]
 >
 >É necessário garantir que o recurso especificado esteja disponível.
-
