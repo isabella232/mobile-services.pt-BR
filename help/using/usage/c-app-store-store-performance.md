@@ -1,20 +1,20 @@
 ---
 description: O relatório Visão geral da App Store oferece um instantâneo das métricas da app store, incluindo a quantidade de downloads, compras no aplicativo, avaliação média da app store, receitas geradas por downloads, receitas no aplicativo, downloads por país, downloads por app store e compras no aplicativo por nome.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: O relatório Visão geral da App Store oferece um instantâneo das métricas da app store, incluindo a quantidade de downloads, compras no aplicativo, avaliação média da app store, receitas geradas por downloads, receitas no aplicativo, downloads por país, downloads por app store e compras no aplicativo por nome.
 seo-title: Relatório de Visão geral da loja de aplicativos
 solution: Experience Cloud,Analytics
 title: Relatório de Visão geral da loja de aplicativos
-topic: Metrics
+topic-fix: Metrics
 uuid: ac066f31-ec4b-4b67-b839-780c2cd1574e
+exl-id: da8663d6-9da8-440b-b7b8-06ff11e74b9f
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '518'
 ht-degree: 100%
 
 ---
-
 
 # Relatório de Visão geral da loja de aplicativos {#app-store-overview-report}
 
@@ -56,7 +56,7 @@ Este relatório exibe a quantidade de receita gerada pelo download do seu aplica
 
 Este relatório exibe a quantidade de receita gerada pelas compras no aplicativo que foram feitas usando seu aplicativo.
 
-## Downloads por país   {#section_10373CD28CA94BA5859DFDEED7D548C6}
+## Downloads por país    {#section_10373CD28CA94BA5859DFDEED7D548C6}
 
 Este relatório exibe o número de downloads do seu aplicativo, agrupados por país.
 
@@ -66,7 +66,7 @@ Para exibir um gráfico com o número de downloads por país agrupados por data,
 
 ![](assets/downloads_by_country.png)
 
-## Downloads por App Store   {#section_F1CD1A3F0105469D879E4F280CE32484}
+## Downloads por App Store    {#section_F1CD1A3F0105469D879E4F280CE32484}
 
 Este relatório exibe o número de downloads do seu aplicativo agrupados pela app store.
 
@@ -76,6 +76,6 @@ Para exibir um gráfico com o número de downloads por app store agrupados por d
 
 ![](assets/app_store_downloads_detail.png)
 
-## Compras no aplicativo por nome   {#section_D747A64F9F6449E0A02EF31D56C92F83}
+## Compras no aplicativo por nome    {#section_D747A64F9F6449E0A02EF31D56C92F83}
 
 Este relatório exibe todas as compras no aplicativo por nome.
