@@ -1,20 +1,20 @@
 ---
 description: Na página Gerenciar destinos do link, é possível criar, editar, arquivar/desarquivar e excluir destinos de links. Esses destinos podem ser embutidos na criação de links de marketing, notificações por push ou mensagens no aplicativo.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: Na página Gerenciar destinos do link, é possível criar, editar, arquivar/desarquivar e excluir destinos de links. Esses destinos podem ser embutidos na criação de links de marketing, notificações por push ou mensagens no aplicativo.
 seo-title: Criar e gerenciar destinos de links
 solution: Experience Cloud,Analytics
 title: Criar e gerenciar destinos de links
-topic: Metrics
+topic-fix: Metrics
 uuid: 43930e3a-6a11-40c6-8a61-6732a673dac7
+exl-id: 53e9f970-e53c-4c0d-9214-abb01a9b144b
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '167'
 ht-degree: 100%
 
 ---
-
 
 # Criar e gerenciar destinos de links {#create-and-manage-link-destinations}
 
@@ -31,4 +31,3 @@ A página Destinos do link exibe os destinos do link e dá opções para criar, 
 Por exemplo:
 
 ![](assets/link_destinations_list.png)
-
