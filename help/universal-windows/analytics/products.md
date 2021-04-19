@@ -1,25 +1,25 @@
 ---
-description: A variável products não pode ser definida usando regras de processamento. No SDK móvel, você deve usar uma sintaxe especial dentro do parâmetro de dados de contexto para definir produtos diretamente na chamada do servidor.
-seo-description: A variável products não pode ser definida usando regras de processamento. No SDK móvel, você deve usar uma sintaxe especial dentro do parâmetro de dados de contexto para definir produtos diretamente na chamada do servidor.
+description: A variável products não pode ser definida usando as regras de processamento. No SDK móvel, é necessário usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos diretamente na chamada do servidor.
+seo-description: A variável products não pode ser definida usando as regras de processamento. No SDK móvel, é necessário usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos diretamente na chamada do servidor.
 seo-title: 'Variável products '
 solution: Experience Cloud,Analytics
 title: 'Variável products '
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 607983d6-48ac-4274-bfc8-b1ca4e5dad1b
+exl-id: 0575236c-9858-4bf9-a2ce-6e2667d58ddd
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 7%
 
 ---
 
-
 # Variável products {#products-variable}
 
-A variável products não pode ser definida usando regras de processamento. No SDK móvel, você deve usar uma sintaxe especial dentro do parâmetro de dados de contexto para definir produtos diretamente na chamada do servidor.
+A variável products não pode ser definida usando as regras de processamento. No SDK móvel, é necessário usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos diretamente na chamada do servidor.
 
-To set the *`products`* variable, set a context data key to `"&&products"`, and set the value using the syntax defined for the *`products` variable:
+Para definir a variável *`products`*, defina uma chave de dados de contexto para `"&&products"` e defina o valor usando a sintaxe definida para a variável *`products`:
 
 ```js
 cdata["&&products"] = "Category;Product;Quantity;Price[,Category;Product;Quantity;Price]";
@@ -45,15 +45,15 @@ ADB.Analytics.trackAction("purchase", cdata);
 ADB.Analytics.trackState("Order Confirmation", cdata);
 ```
 
-The *`products`* is set directly on the image request, and the other variables are set as context data. Todas as variáveis de dados de contexto devem ser mapeadas usando as regras de processamento:
+O *`products`* é definido diretamente na solicitação de imagem e as outras variáveis são definidas como dados de contexto. Todas as variáveis de dados de contexto devem ser mapeadas usando as regras de processamento:
 
 ![](assets/products-procrules.png)
 
-Não é necessário mapear a *`products`* variável usando as regras de processamento, pois ela é definida diretamente na solicitação de imagem pelo SDK.
+Não é necessário mapear a variável *`products`* usando regras de processamento, pois ela é definida diretamente na solicitação de imagem pelo SDK.
 
 ## Variável products com eVars de merchandising e eventos específicos do produto {#section_685D53AD3D064F9A8E225F995A9BA545}
 
-An example of the *`products`* variable with Merchandising eVars and product-specific events.
+Um exemplo da variável *`products`* com eVars de merchandising e eventos específicos do produto.
 
 ```
 //create a context data dictionary 
@@ -76,5 +76,4 @@ ADB.Analytics.trackState("Order Confirmation", cdata);
 
 >[!TIP]
 >
->Se você acionar um evento específico do produto usando a *`&&products`* variável, também deverá definir esse evento na *`&&events`* variável, caso contrário, o evento será filtrado durante o processamento.
-
+>Se você acionar um evento específico do produto usando a variável *`&&products`*, também deverá definir esse evento na variável *`&&events`*, caso contrário, o evento será filtrado durante o processamento.
