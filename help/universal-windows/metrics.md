@@ -1,33 +1,33 @@
 ---
 description: Lista as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel.
-keywords: android;library;mobile;sdk
+keywords: android;biblioteca;móvel;sdk
 seo-description: Lista as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel.
 seo-title: Medições de ciclo de vida
 solution: Experience Cloud,Analytics
 title: Medições de ciclo de vida
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: f958c3ef-1d79-4b30-8966-ef74bd48a5d6
+exl-id: 19572f15-c5df-40fe-9979-3a5bdd581f2b
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '921'
 ht-degree: 83%
 
 ---
-
 
 # Métricas de ciclo de vida {#lifecycle-metrics}
 
 Lista as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel.
 
-Para obter mais informações, consulte [Solução de problemas de dados](https://helpx.adobe.com/br/analytics/kb/troubleshoot-lifecycle-data.html)do ciclo de vida.
+Para obter mais informações, consulte [Solucionar problemas de dados do ciclo de vida](https://helpx.adobe.com/br/analytics/kb/troubleshoot-lifecycle-data.html).
 
 
 ## Métricas de ciclo de vida e dimensões {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
 Quando configuradas, as métricas de ciclo de vida são enviadas em parâmetros de dados de contexto para o Analytics, em parâmetros para o Target com cada chamada de mbox e como um sinal para gerenciamento de público alvo. O Analytics e o Target usam o mesmo formato, enquanto o gerenciamento de público-alvo usa um prefixo diferente para cada métrica.
 
-Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento de ciclo de vida são capturados automaticamente e reportados usando a métrica ou a dimensão. As exceções são observadas no conteúdo.
+Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento do ciclo de vida são automaticamente capturados e reportados usando a métrica ou a dimensão. As exceções são anotadas no conteúdo.
 
 ## Métricas
 
@@ -197,7 +197,7 @@ Para o Analytics, os dados de contexto enviados com cada chamada de rastreamento
 
 ## Métricas e dimensões móveis adicionais {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
 
-As seguintes métricas e dimensões são capturadas nas variáveis de solução móvel pelo seguinte método:
+As seguintes métricas e dimensões são capturadas nas variáveis da solução móvel pelo seguinte método:
 
 ### Métricas
 
@@ -227,7 +227,7 @@ As seguintes métricas e dimensões são capturadas nas variáveis de solução 
 
    Preenchido pelos métodos `trackLocation`.
 
-   * Parâmetro(s) de Público alvo/Dados de contexto do Analytics:
+   * Parâmetros do Target/Dados de contexto do Analytics:
 
       * `a.loc.lat.a`
       * `a.loc.lon.a`
@@ -241,7 +241,7 @@ As seguintes métricas e dimensões são capturadas nas variáveis de solução 
 
    Preenchido pelos métodos `trackLocation`.
 
-   * Parâmetro(s) de Público alvo/Dados de contexto do Analytics:
+   * Parâmetros do Target/Dados de contexto do Analytics:
 
       * `a.loc.lat.b`
       * `a.loc.lon.b`
@@ -255,7 +255,7 @@ As seguintes métricas e dimensões são capturadas nas variáveis de solução 
 
    Preenchido pelos métodos `trackLocation`.
 
-   * Parâmetro(s) de Público alvo/Dados de contexto do Analytics:
+   * Parâmetros do Target/Dados de contexto do Analytics:
 
       * `a.loc.lat.c`
       * `a.loc.lon.c`
@@ -267,21 +267,21 @@ As seguintes métricas e dimensões são capturadas nas variáveis de solução 
 
 * **Nome do ponto de interesse**
 
-   Populated by `trackLocation` methods when device is in a defined POI.
+   Preenchido pelos métodos `trackLocation` quando o dispositivo está em um POI definido.
 
    * Parâmetro do Target/Dados de contexto do Analytics: `a.loc.poi`
-   * Audience Manager trait: `c_a_loc_poi`
+   * Audience Manager: `c_a_loc_poi`
 
 * **Distância até o centro do ponto de interesse**
 
-   Populated by `trackLocation` methods when device is within a defined POI.
+   Preenchido pelos métodos `trackLocation` quando o dispositivo está dentro de um POI definido.
 
    * Parâmetro do Target/Dados de contexto do Analytics: `a.loc.dist`
-   * Audience Manager trait: `c_a_loc_dist`
+   * Audience Manager: `c_a_loc_dist`
 
 * **Valor de tempo de vida (variável de conversão)**
 
    Preenchido pelos métodos `trackLifetimeValue`.
 
    * Parâmetros do Target/Dados de contexto do Analytics: `a.ltv.amount`
-   * Audience Manager trait: `c_a_ltv_amount`
+   * Audience Manager: `c_a_ltv_amount`
