@@ -1,20 +1,20 @@
 ---
 description: Estas informações ajudam você a compreender e personalizar os relatórios incorporados.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: Estas informações ajudam você a compreender e personalizar os relatórios incorporados.
 seo-title: Personalização de relatórios
 solution: Experience Cloud,Analytics
 title: Personalização de relatórios
-topic: Reports,Metrics
+topic-fix: Reports,Metrics
 uuid: 39ba9af3-eaee-44b9-bea4-c8f43a0d2a6c
+exl-id: 287b12fb-96f8-4fa9-a4f4-7325e30e1797
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '487'
 ht-degree: 100%
 
 ---
-
 
 # Personalizar relatórios {#customize-reports}
 
@@ -45,4 +45,3 @@ As informações abaixo descrevem cada área do relatório e o painel **[!UICONT
 | 6 | Com o **[!UICONTROL Filtro fixo]**, você pode criar um filtro que abrange relatórios diferentes. Por exemplo, você pode querer ver o desempenho de um determinado segmento em todos os relatórios móveis. Um filtro fixo permite definir um filtro que é aplicado em todos os relatórios sem definição de caminho. Para obter mais informações, consulte [Adicionar filtro fixo](/help/using/usage/reports-customize/t-sticky-filter.md). |
 | 7 | O **[!UICONTROL Gráfico de dados]** exibe os dados em um gráfico apropriado com base nas métricas selecionadas. Os tipos de gráfico incluem gráficos de linha, gráficos de barra, gráficos de rosca, etc. |
 | 8 | A **[!UICONTROL Tabela de dados]** mostra os dados na forma de tabelas. Você pode clicar em um cabeçalho da coluna para classificar os dados em ordem crescente ou decrescente. |
-
