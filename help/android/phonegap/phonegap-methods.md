@@ -1,20 +1,20 @@
 ---
 description: É possível usar os métodos de plug-in do iOS PhoneGap para executar várias tarefas.
-keywords: android;library;mobile;sdk
+keywords: android;biblioteca;móvel;sdk
 seo-description: É possível usar os métodos de plug-in do iOS PhoneGap para executar várias tarefas.
 seo-title: Métodos do plug-in PhoneGap
 solution: Experience Cloud,Analytics
 title: Métodos do plug-in PhoneGap
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: bc3db9ce-81b7-45ec-88aa-6020c1db5d9c
+exl-id: 4e6cf200-c826-4b23-87cf-4b8e1e691981
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1573'
 ht-degree: 100%
 
 ---
-
 
 # Métodos do plug-in PhoneGap {#phonegap-plug-in-methods}
 
@@ -96,7 +96,7 @@ Nos arquivos `html` em que deseja usar o rastreamento, adicione o código a segu
 
    Retorna o identificador de visitante gerado automaticamente.
 
-   Esta é uma ID de visitante exclusiva e específica do aplicativo gerada quando ele é iniciado pela primeira vez e é armazenada e usada a partir desse ponto. Essa ID é preservada entre as atualizações do aplicativo e é removida quando o aplicativo é desinstalado.
+   Esta é um identificador de visitante único e específico do aplicativo gerado quando ele é iniciado pela primeira vez e é armazenado e usado a partir desse ponto. Essa ID é preservada entre as atualizações do aplicativo e é removida quando o aplicativo é desinstalado.
 
    >[!TIP]
    >
