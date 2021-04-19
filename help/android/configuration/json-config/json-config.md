@@ -4,16 +4,16 @@ seo-description: Esta informação ajuda a usar o arquivo de configuração ADBM
 seo-title: Configuração JSON do ADBMobile
 solution: Experience Cloud,Analytics
 title: Configuração JSON do ADBMobile
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
+exl-id: 652aeb05-b052-448d-98c8-d513d050a6f5
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 100%
 
 ---
-
 
 # Arquivo de configuração JSON do ADBMobile {#adbmobile-json-config}
 
