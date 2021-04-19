@@ -1,20 +1,20 @@
 ---
 description: Estas informações podem ajudar a solucionar problemas com as mensagens de push.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: Estas informações podem ajudar a solucionar problemas com as mensagens de push.
 seo-title: Solucionar problemas de mensagens de push
 solution: Experience Cloud,Analytics
 title: Solucionar problemas de mensagens de push
-topic: Metrics
+topic-fix: Metrics
 uuid: c7be4ab7-0cfe-4296-84a8-01412f4fd93f
+exl-id: 56feb8e1-e196-4b70-8240-6e41581ca602
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '736'
 ht-degree: 100%
 
 ---
-
 
 # Solucionar problemas de mensagens por push {#troubleshooting-push-messaging}
 
@@ -28,7 +28,7 @@ Os seguintes tipos de atrasos podem estar associados a mensagens de push para os
 
    Todo conjunto de relatórios possui uma configuração que determina quando processar as ocorrências que chegam do Analytics. O padrão é a cada 1 hora.
 
-   O processamento atual de ocorrências do Analytics pode levar até 30 minutos, embora normalmente demore de 15 a 20 minutos. Por exemplo, um conjunto de relatórios processa ocorrências a cada hora. Quando você considera o tempo de processamento necessário de 30 minutos no máximo, pode levar até 90 minutos para que uma ocorrência recebida esteja disponível para uma mensagem de push. Se um usuário inicializasse o aplicativo às 9h01, a ocorrência apareceria na interface do usuário do Mobile Services como um novo usuário exclusivo entre 10h15 e 10h30.
+   O processamento atual de ocorrências do Analytics pode levar até 30 minutos, embora normalmente demore de 15 a 20 minutos. Por exemplo, um conjunto de relatórios processa ocorrências a cada hora. Quando você considera o tempo de processamento necessário de 30 minutos no máximo, pode levar até 90 minutos para que uma ocorrência recebida esteja disponível para uma mensagem de push. Se um usuário inicializasse o aplicativo às 9h01, a ocorrência apareceria na interface do usuário do Mobile Services como um novo usuário único entre 10h15 e 10h30.
 
 * **Aguardando o serviço de push**
 
