@@ -4,16 +4,16 @@ seo-description: A tabela a seguir contém a cadeia de caracteres da versão do 
 seo-title: Versões do dispositivo iOS
 solution: Experience Cloud,Analytics
 title: Versões do dispositivo iOS
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 8b8a9bc3-0737-4de2-9792-0b112aa4cf65
+exl-id: 9aaf2f35-4de9-47a0-8e9d-8d098dfaadef
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 100%
 
 ---
-
 
 # Versões do dispositivo iOS {#ios-device-versions}
 
@@ -97,4 +97,3 @@ Para obter mais informações sobre dispositivos iOS, acesse sites como [The iPh
 | iPad Pro 2, 12,9 polegadas (LTE) | iPad7.2 |
 | iPad Pro, 10,5 polegadas (Wi-Fi) | iPad7.3 |
 | iPad Pro, 10,5 polegadas (LTE) | iPad7.4 |
-
