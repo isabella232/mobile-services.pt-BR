@@ -4,16 +4,16 @@ seo-description: Estas informações ajudam a configurar a extensão do Android,
 seo-title: Android Wearables  Observações adicionais
 solution: Experience Cloud,Analytics
 title: Android Wearables  Observações adicionais
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 3bcf352b-4d46-4ab3-81ec-c27e86fe9be3
+exl-id: ae8cf2d1-d2b0-456b-bbd3-3980e00bbc84
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 100%
 
 ---
-
 
 # Android Wearables: observações adicionais {#android-wearables-additional-notes}
 
@@ -26,10 +26,9 @@ Estas informações ajudam a configurar a extensão do Android, que permite cole
 
       A ocorrência vem do aplicativo portátil.
 
-   * `RunMode` = `Extension`
+   * `RunMode` =  `Extension`
 
       A ocorrência vem do aplicativo wearable.
 
 * O SDK sincroniza automaticamente o status `aid`/`vid`/`visitor` `service id`/`privacy` do aplicativo portátil para o aplicativo wearable; portanto, não faça uma chamada `setPrivacyStatus`/`setUserIdentifier`/`idSync` do aplicativo wearable.
 * [As mensagens no aplicativo](/help/android/messaging-main/messaging/messaging.md), o [Target](/help/android/target-main/target.md) e o [Audience Manager](/help/android/audience-manager/audiencemgmt.md) estão desativados para o aplicativo wearable.
-
