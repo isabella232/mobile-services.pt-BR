@@ -3,19 +3,19 @@ description: Vincular aplicativos e sites é importante para manter a experiênc
 seo-description: Com os Links universais (iOS) e os Links de aplicativo (Android), é possível se conectar a links profundos nos aplicativos iOS ou Android.
 seo-title: Links universais da Apple e links de aplicativos Android
 solution: Experience Cloud,Analytics
-title: Guia de Links Universais e Links de Aplicativo
-topic: Métricas
+title: Guia de links universais e links de aplicativos
+topic-fix: Metrics
 uuid: 8d6441dc-4307-4454-95ea-d77ec796f918
+exl-id: 6613189f-7a14-4066-89e9-996d4fe7f128
 translation-type: tm+mt
-source-git-commit: bb41caaecaefe8168d9b19e151d43ec792e24db8
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1145'
 ht-degree: 96%
 
 ---
 
-
-# Links universais vs. Links de aplicativo: Como eles funcionam? {#universal-links-and-app-links}
+# Links universais vs. Links de aplicativo: Como funcionam? {#universal-links-and-app-links}
 
 Com os Links universais (iOS) e os Links de aplicativo (Android), é possível se conectar a links profundos nos aplicativos iOS ou Android.
 
@@ -157,4 +157,3 @@ Agora você pode usar esses Links de marketing em mensagens e outras áreas do a
 >[!IMPORTANT]
 >
 >Você não verá as contagens de rastreamento de cliques com Links Universais ou Links de Aplicativo, e também não poderá usar intersticiais.
-
