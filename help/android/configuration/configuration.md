@@ -4,16 +4,16 @@ seo-description: 'As informações a seguir ajudam a configurar o Android SDK, i
 seo-title: Visão geral da configuração
 solution: Experience Cloud,Analytics
 title: Visão geral da configuração
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 207d6eae-7fc5-449d-b92b-c2d83e8e82b4
+exl-id: 6e16f15a-71c9-4f0d-ba45-f6c22e05b9c2
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 100%
 
 ---
-
 
 # Visão geral da configuração {#configuration}
 
@@ -27,4 +27,3 @@ Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Ad
 
 * Para começar, acesse o Adobe Experience Platform Launch.
 * Para ver o conteúdo dos repositórios SDK da Experience Platform, acesse [Github: SDKs da Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
-
