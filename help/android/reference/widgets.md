@@ -1,20 +1,20 @@
 ---
 description: Os dispositivos do Android podem ser rastreados usando os mesmos métodos do seu aplicativo. Os dispositivos compartilham o contexto do aplicativo com seu aplicativo, portanto a ordem de ocorrência e a identificação do visitante são preservadas.
-keywords: android;library;mobile;sdk
+keywords: android;biblioteca;móvel;sdk
 seo-description: Os dispositivos do Android podem ser rastreados usando os mesmos métodos do seu aplicativo. Os dispositivos compartilham o contexto do aplicativo com seu aplicativo, portanto a ordem de ocorrência e a identificação do visitante são preservadas.
 seo-title: Dispositivos do Android
 solution: Experience Cloud,Analytics
 title: Dispositivos do Android
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 1a3718ff-967b-4c8e-ae0b-ba15bddbda0a
+exl-id: 229ea987-256a-45f4-a5ca-afe17dd596b8
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '183'
 ht-degree: 100%
 
 ---
-
 
 # Dispositivos do Android {#android-widgets}
 
@@ -29,4 +29,3 @@ As diretrizes a seguir ajudarão você a rastrear os dispositivos do Android:
 * Para monitorar quando o aplicativo é iniciado a partir de um widget, adicione uma chamada `trackState` ou `trackEvent` antes de iniciar o seu aplicativo.
 
 * Para monitorar o contexto de uma ação, é possível definir uma variável `ContextData` que forneça a opção para segmentar cada ação separadamente (por exemplo, `AppExperienceType="widget"` versus `app`).
-
