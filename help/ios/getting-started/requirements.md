@@ -4,16 +4,16 @@ seo-description: Conclua essas etapas a fim de configurar um conjunto de relató
 seo-title: Antes de começar
 solution: Experience Cloud,Analytics
 title: Antes de começar
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 04133f68-3618-41fd-8a13-aec5b6f04df6
+exl-id: 83da7cf5-3211-484d-bfe8-7b3b4999eea2
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 100%
 
 ---
-
 
 # Antes de começar {#before-you-start}
 
@@ -101,4 +101,3 @@ Para baixar o SDK móvel:
 >[!TIP]
 >
 >Um arquivo de configuração para o seu aplicativo é incluído automaticamente no download do SDK; portanto, você não precisa baixar esse arquivo separadamente. No entanto, se já tiver baixado o SDK e deseja obter configurações atualizadas, baixe o arquivo de configuração novamente.
-
