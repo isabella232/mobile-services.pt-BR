@@ -4,16 +4,16 @@ seo-description: Ações são os eventos que ocorrem em seu aplicativo Android q
 seo-title: Rastrear ações do aplicativo
 solution: Experience Cloud,Analytics
 title: Rastrear ações do aplicativo
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: fe01c1df-f6bb-4b32-b3ef-959d2c724af6
+exl-id: 495a6aa8-781d-4499-ad46-e19d57cccf40
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 100%
 
 ---
-
 
 # Rastrear ações do aplicativo {#track-app-actions}
 
@@ -71,4 +71,3 @@ Os valores de dados de contexto devem ser mapeados para variáveis personalizada
 | Adobe Mobile Services | Relatório dos **[!UICONTROL Caminhos de ação]**.  Veja a ordem em que as ações ocorrem em seu aplicativo. Você também pode clicar em **[!UICONTROL Personalizar]** em qualquer relatório para ver as ações classificadas, apresentadas em ordem de tendência ou em um relatório detalhado, ou aplicar um filtro para ver as ações de um segmento específico. |
 | Relatórios e análises de marketing | Relatório de **[!UICONTROL Evento personalizado]**. Depois que uma ação é mapeada a um evento personalizado, é possível visualizar os eventos móveis semelhantes a todos os outros eventos do Analytics. |
 | Ad hoc analytics | Relatório de **[!UICONTROL Evento personalizado]**. Depois que uma ação é mapeada a um evento personalizado, é possível visualizar os eventos móveis semelhantes a todos os outros eventos do Analytics. |
-
