@@ -4,16 +4,16 @@ seo-description: Os estados são telas ou exibições diferentes no aplicativo.
 seo-title: Rastrear estados do aplicativo
 solution: Experience Cloud,Analytics
 title: Rastrear estados do aplicativo
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 69c99d05-5816-4c86-97c5-d218dc26c129
+exl-id: ee1ea716-ee72-4c28-92cb-26df1327f5c6
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 100%
 
 ---
-
 
 # Rastrear estados do aplicativo {#track-app-states}
 
@@ -78,5 +78,3 @@ Os estados geralmente são vistos usando um relatório de definição de caminho
 | Adobe Mobile Services | O relatório **[!UICONTROL Exibir estados]**. Este relatório está baseado nos caminhos que o usuário tomou pelo aplicativo. Um caminho de amostra é  **[!UICONTROL Início]** > **[!UICONTROL Configurações]** > **[!UICONTROL Feed]**. |
 | Adobe Analytics | Os estados podem ser exibidos em qualquer lugar em que as Páginas podem ser exibidas, como o relatório **[!UICONTROL Páginas]**, o relatório **[!UICONTROL Exibições da página]** e relatórios de **[!UICONTROL Caminho]**. |
 | Ad hoc analytics | Os estados podem ser exibidos em qualquer lugar em que as Páginas possam ser exibidas usando a dimensão **[!UICONTROL Página]**, a métrica **[!UICONTROL Exibições da página]** e os relatórios de **[!UICONTROL Caminho]**. |
-
-
