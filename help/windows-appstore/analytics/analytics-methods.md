@@ -4,32 +4,32 @@ seo-description: Informações para ajudá-lo a usar o SDK da loja de aplicativo
 seo-title: Métodos do Analytics
 solution: Experience Cloud,Analytics
 title: Métodos do Analytics
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 79db105c-216c-4061-97f3-a55954995e67
+exl-id: 007bb801-55ef-4c5b-87fa-d0db42cde163
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 52%
 
 ---
 
-
 # Métodos do Analytics {#analytics-methods}
 
 Informações para ajudá-lo a usar o SDK da loja de aplicativos universal do Windows 8.1 com o Adobe Analytics.
 
-O SDK suporta atualmente várias Soluções Adobe Experience Cloud, incluindo Analytics, Público alvo e Audience Manager. Os métodos apresentam prefixos de acordo com a solução. Métodos do Analytics recebem o prefixo &quot;Analytics&quot;.
+Atualmente, o SDK é compatível com várias soluções da Adobe Experience Cloud, incluindo o Analytics, o Target e o Audience Manager. Os métodos apresentam prefixos de acordo com a solução. Métodos do Analytics recebem o prefixo &quot;Analytics&quot;.
 
 Cada um desses métodos é usado para enviar dados para seu conjunto de relatórios do Adobe Analytics.
 
 >[!TIP]
 >
->Quando você consome `winmd` métodos do winJS (JavaScript), todos os métodos têm automaticamente a primeira letra em minúsculas.
+>Ao consumir métodos `winmd` do winJS (JavaScript), todos os métodos passam a ter a primeira letra em minúsculas automaticamente.
 
 * **TrackState (winJS: trackState)**
 
-   Rastreia um estado de aplicativo com dados de contexto opcionais. Os estados são as visualizações que estão disponíveis no aplicativo, como &quot;painel inicial&quot;, &quot;configurações do aplicativo&quot;, &quot;carrinho&quot; e assim por diante. Esses estados são semelhantes às páginas em um site, e as chamadas de `TrackState` aumentam as visualizações de página. If `state` is empty, it displays as &quot;app name app version (build)&quot; in reports. If you see this value in reports, make sure you are setting `state` in each `TrackState` call.
+   Rastreia um estado de aplicativo com dados de contexto opcionais. Os estados são as exibições disponíveis no aplicativo, como &quot;painel inicial&quot;, &quot;configurações do aplicativo&quot;, &quot;carrinho&quot; e assim por diante. Esses estados são semelhantes às páginas em um site, e as chamadas de `TrackState` aumentam as visualizações de página. Se `state` estiver vazio, ele será exibido como &quot;app name app version (build)&quot; nos relatórios. Caso veja esse valor em relatórios, certifique-se de configurar `state` em cada chamada de `TrackState`.
 
    >[!TIP]
    >
@@ -50,7 +50,7 @@ Cada um desses métodos é usado para enviar dados para seu conjunto de relatór
 
 * **TrackAction (winJS: trackAction)**
 
-   Rastreia uma ação no seu aplicativo. As ações são coisas que ocorrem no aplicativo e que você deseja avaliar, como &quot;logons&quot;, &quot;toques em banners&quot;, &quot;subscrições de feed&quot; e outras métricas.
+   Rastreia uma ação no seu aplicativo. As ações são coisas que ocorrem no seu aplicativo e que deseja medir, como &quot;logons&quot;, &quot;toques em banners&quot;, &quot;assinaturas de feed&quot; e outras métricas.
 
    * Esta é a sintaxe para este método:
 
@@ -67,7 +67,7 @@ Cada um desses métodos é usado para enviar dados para seu conjunto de relatór
 
 * **GetTrackingIdentifierAsync (winJS: getTrackingIdentifierAsync)**
 
-   Retorna o identificador de visitante gerado automaticamente pelo Analytics. Esta é uma ID de visitante exclusiva específica do aplicativo que é gerada na primeira inicialização e, em seguida, armazenada e usada a partir desse ponto. Essa ID é preservada entre as atualizações do aplicativo e é removida na desinstalação.
+   Retorna o identificador de visitante gerado automaticamente pelo Analytics. Esta é uma ID de visitante exclusiva específica do aplicativo gerada na primeira inicialização e, em seguida, armazenada e usada a partir desse ponto. Essa ID é preservada entre as atualizações do aplicativo e é removida durante a desinstalação.
 
    * Esta é a sintaxe para este método:
 
@@ -141,7 +141,7 @@ Cada um desses métodos é usado para enviar dados para seu conjunto de relatór
 
 * **TrackTimed &#x200B; ActionUpdate (winJS: trackTimed &#x200B; ActionUpdate)**
 
-   Transmite `contextData` para atualizar os dados de contexto associados à `action`. The `data` passed is appended to the existing data for the given action, and overwrites the data if the same key is already defined for `action`.
+   Transmite `contextData` para atualizar os dados de contexto associados à `action`. O `data` passado é anexado aos dados existentes para a ação em questão e substitui os dados se a mesma chave já estiver definida para `action`.
 
    >[!TIP]
    >
@@ -164,7 +164,7 @@ Cada um desses métodos é usado para enviar dados para seu conjunto de relatór
 
 * **TrackTimedActionExistsAsync (winJS: trackTimedActionExistsAsync)**
 
-   Retorna true se a ação cronometrada especificada existir e false se não existir.
+   Retorna true se a determinada ação cronometrada existir e false se não existir.
 
    * Esta é a sintaxe para este método:
 
@@ -199,7 +199,7 @@ Cada um desses métodos é usado para enviar dados para seu conjunto de relatór
 
 * **ClearTrackingQueue (winJS: clearTrackingQueue)**
 
-   Limpa todas as ocorrências armazenadas da fila de rastreamento do Analytics.
+   Apaga todas as ocorrências armazenadas da fila de rastreamento do Analytics.
 
    * Esta é a sintaxe desta mensagem:
 
@@ -215,7 +215,7 @@ Cada um desses métodos é usado para enviar dados para seu conjunto de relatór
 
 * **GetQueueSizeAsync (winJS: getQueueSizeAsync)**
 
-   Retorna o número de ocorrências armazenadas atualmente na fila do Analytics.
+   Retorna o número de ocorrências armazenadas na fila do Analytics no momento.
 
    * Esta é a sintaxe para este método:
 
