@@ -1,20 +1,20 @@
 ---
 description: Você pode configurar as opções de público-alvo para mensagens no aplicativo, incluindo as opções de exibição, acionador e característica.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: Você pode configurar as opções de público-alvo para mensagens no aplicativo, incluindo as opções de exibição, acionador e característica.
 seo-title: Público  Mensagem no aplicativo
 solution: Experience Cloud,Analytics
 title: Público  Mensagem no aplicativo
-topic: Metrics
+topic-fix: Metrics
 uuid: 6c815d4c-7626-4cf4-9158-3f059c79317a
+exl-id: c85f2c0d-9c88-4d5a-8247-d8a101195d3a
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '584'
 ht-degree: 100%
 
 ---
-
 
 # Público: mensagem no aplicativo {#audience-in-app-message}
 
@@ -84,7 +84,7 @@ Uma métrica é um número, e um exemplo é o número de compras.
 
 ### Variáveis
 
-Uma variável é uma cadeia de caracteres de texto que é um identificador único, como país e aeroporto, por exemplo.
+Uma variável é uma cadeia de caracteres de texto que é um identificador exclusivo, como país e aeroporto, por exemplo.
 
 1. Clique em **[!UICONTROL Gerenciar mensagens]** > **[!UICONTROL Criar mensagem]**.
 1. Complete as etapas na seção **[!UICONTROL Acionador]** da guia **[!UICONTROL Público-alvo:]**
