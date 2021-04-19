@@ -5,16 +5,16 @@ seo-description: Estas informações ajudam a solucionar problemas de mensagem d
 seo-title: Resolução de problemas de mensagens no aplicativo
 solution: Experience Cloud,Analytics
 title: Resolução de problemas de mensagens no aplicativo
-topic: Metrics
+topic-fix: Metrics
 uuid: 39c3a21d-92c2-4004-b00f-99b6f91d3696
+exl-id: 6c7d97ed-3b0a-48ff-b761-1485aea5e96d
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '529'
 ht-degree: 100%
 
 ---
-
 
 # Resolução de problemas de mensagens no aplicativo {#troubleshooting-in-app-messaging}
 
@@ -70,6 +70,4 @@ Estas são as regras de posicionamento e dimensionamento para cada orientação:
 * **Paisagem**
    * A imagem foi dimensionada para 100% da altura do dispositivo.
    * A largura é de 75% do dispositivo, com um fade out à direita.
-
    Se tiver problemas com o modelo em tela cheia, você pode baixar e usar o modelo HTML personalizado. Este modelo oferece mais flexibilidade para imagens e permite o controle total do modelo.
-
