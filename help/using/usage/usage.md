@@ -1,20 +1,20 @@
 ---
 description: Os relatórios de uso exibem a duração média da sessão, os usuários engajados diariamente e mensalmente, as atualizações e outras informações que ajudam a entender como e com que frequência seu aplicativo está sendo usado. Os relatórios de retenção mostram rapidamente os níveis de retenção do usuário 1 dia, 7 dias e 28 dias após a primeira inicialização.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: Os relatórios de uso exibem a duração média da sessão, os usuários engajados diariamente e mensalmente, as atualizações e outras informações que ajudam a entender como e com que frequência seu aplicativo está sendo usado. Os relatórios de retenção mostram rapidamente os níveis de retenção do usuário 1 dia, 7 dias e 28 dias após a primeira inicialização.
 seo-title: Relatórios
 solution: Experience Cloud,Analytics
 title: Relatórios
-topic: Reports,Metrics
+topic-fix: Reports,Metrics
 uuid: 2abc2bd1-dbae-4af1-9b8d-1df2f6d3a81f
+exl-id: a95dd9c9-49f3-41df-87bf-6a2ac0d46c5c
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '174'
 ht-degree: 100%
 
 ---
-
 
 # Relatórios {#reports}
 
