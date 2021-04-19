@@ -1,20 +1,20 @@
 ---
 description: O relatório Caminhos de ação se baseia na análise de caminhos e mostra um gráfico que representa os caminhos que foram tomados de um estado para outro no aplicativo.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: O relatório Caminhos de ação se baseia na análise de caminhos e mostra um gráfico que representa os caminhos que foram tomados de um estado para outro no aplicativo.
 seo-title: Relatório dos Caminhos de ação
 solution: Experience Cloud,Analytics
 title: Relatório dos Caminhos de ação
-topic: Reports,Metrics
+topic-fix: Reports,Metrics
 uuid: a21e5d9e-fd57-4178-9d64-87181b7f988b
+exl-id: 4c97b07f-17df-49cb-b2f7-dcb682d9d3c6
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '557'
 ht-degree: 100%
 
 ---
-
 
 # Relatório dos Caminhos de ação {#action-paths}
 
