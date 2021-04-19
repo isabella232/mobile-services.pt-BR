@@ -5,16 +5,16 @@ seo-description: Estas informações ajudam a solucionar problemas de mensagem d
 seo-title: Solucionar problemas de mensagens de push
 solution: Experience Cloud,Analytics
 title: Solucionar problemas de mensagens de push
-topic: Metrics
+topic-fix: Metrics
 uuid: 87d7dcb6-82a8-46e3-a6ed-7f895a22f2af
+exl-id: dda84d30-2a7b-496c-b8f3-3bd6b97076aa
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '364'
 ht-degree: 100%
 
 ---
-
 
 # Solução de problemas de mensagens por push {#troubleshooting-push-messaging}
 
@@ -28,7 +28,7 @@ Os seguintes tipos de atrasos podem estar associados a mensagens de push para os
 
    Todo conjunto de relatórios possui uma configuração que determina quando processar as ocorrências que chegam do Analytics. O padrão é a cada hora. O processamento de ocorrências do Analytics atual pode levar até 30 minutos, embora normalmente demore de 15 a 20 minutos.
 
-   Por exemplo, um conjunto de relatórios processa ocorrências a cada hora. Se você considerar o tempo de processamento de no máximo 30 minutos, pode levar até 90 minutos para que uma ocorrência recebida esteja disponível para uma mensagem de push. Se um usuário inicializasse o aplicativo às 9h01, a ocorrência apareceria na interface do usuário do Mobile Services como um novo usuário exclusivo entre 10h15 e 10h30.
+   Por exemplo, um conjunto de relatórios processa ocorrências a cada hora. Se você considerar o tempo de processamento de no máximo 30 minutos, pode levar até 90 minutos para que uma ocorrência recebida esteja disponível para uma mensagem de push. Se um usuário inicializasse o aplicativo às 9h01, a ocorrência apareceria na interface do usuário do Mobile Services como um novo usuário único entre 10h15 e 10h30.
 
 * **Aguardar o serviço de push**
 
@@ -39,8 +39,9 @@ Os seguintes tipos de atrasos podem estar associados a mensagens de push para os
    >Os serviços de push não garantem que uma mensagem será enviada. Para obter mais informações sobre a confiabilidade dos serviços, consulte a documentação apropriada:
    >
    >* **APNS**: [Qualidade do serviço](https://developer.apple.com/documentation/usernotifications)
-   >
-   >* **GCM**: [Tempo de vida de uma mensagem](https://developers.google.com/cloud-messaging/concept-options)
+      >
+      >
+   * **GCM**: [Tempo de vida de uma mensagem](https://developers.google.com/cloud-messaging/concept-options)
 
 
 ## Como renovo meu Certificado de Serviço Push da Apple?
