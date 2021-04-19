@@ -1,20 +1,20 @@
 ---
 description: Estas informações ajudam a fazer uma viagem de ida e volta no link da campanha de aquisição herdada em um dispositivo Android.
-keywords: android;library;mobile;sdk
+keywords: android;biblioteca;móvel;sdk
 seo-description: Estas informações ajudam a fazer uma viagem de ida e volta no link da campanha de aquisição herdada em um dispositivo Android.
 seo-title: Teste de aquisição de legado
 solution: Experience Cloud,Analytics
 title: Teste de aquisição de legado
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: bb7ace96-68eb-4f43-b3cf-af80730b9cee
+exl-id: 43e3b24e-e8bc-407c-b788-5ab85e459a90
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '324'
 ht-degree: 100%
 
 ---
-
 
 # Teste de aquisição de legado {#testing-legacy-acquisition}
 
