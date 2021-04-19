@@ -4,16 +4,16 @@ seo-description: 'As Regras de processamento são usadas para copiar os dados en
 seo-title: Regras de processamento e dados de contexto
 solution: Experience Cloud,Analytics
 title: Regras de processamento e dados de contexto
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 51338ccd-fa52-4d9c-97c4-947a4100465d
+exl-id: a3968160-42c4-4671-b541-c14639b8a451
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%
 
 ---
-
 
 # Regras de processamento e dados de contexto {#processing-rules-and-context-data}
 
@@ -67,4 +67,3 @@ Ao trabalhar com as regras de processamento, lembre-se das seguintes informaçõ
 >[!TIP]
 >
 >A Adobe reserva o namespace &quot; `a.`&quot;. Além dessa pequena restrição, para evitar colisões, o único requisito é que as variáveis de dados de contexto sejam únicas no logon da sua empresa.
-
