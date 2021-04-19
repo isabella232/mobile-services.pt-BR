@@ -4,16 +4,16 @@ seo-description: Classes e métodos fornecidos pela biblioteca da plataforma Uni
 seo-title: Métodos do SDK
 solution: Experience Cloud,Analytics
 title: Métodos do SDK
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: e3aa41d6-7bc0-4208-a662-12907c209a77
+exl-id: 0aac477c-074d-457c-b117-bb205119c475
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 67%
 
 ---
-
 
 # Métodos do SDK {#sdk-methods}
 
@@ -21,7 +21,7 @@ Classes e métodos fornecidos pela biblioteca da plataforma Universal Windows.
 
 >[!TIP]
 >
->Quando você consome `winmd` métodos do winJS (JavaScript), todos os métodos têm automaticamente a primeira letra em minúsculas.
+>Ao consumir métodos `winmd` do winJS (JavaScript), todos os métodos passam a ter a primeira letra em minúsculas automaticamente.
 
 * **GetVersion (winJS: getVersion)**
 
@@ -47,7 +47,7 @@ Classes e métodos fornecidos pela biblioteca da plataforma Universal Windows.
    * `ADBMobilePrivacyStatusOptOut` - as ocorrências são descartadas.
    * `ADBMobilePrivacyStatusUnknown` - Se o conjunto de relatórios estiver habilitado para mostrar o carimbo de data e hora, as ocorrências serão salvas até o status de privacidade ser alterado para aceitar (as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas). Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in.
 
-      The default value is set in the `ADBMobileConfig.json` config file. Para obter mais informações, consulte o arquivo [de configuração](/help/universal-windows/c-configuration/c.json.md)ADBMobileConfig.json.
+      O valor padrão está definido no arquivo de configuração `ADBMobileConfig.json`. Para obter mais informações, consulte o arquivo de configuração [ADBMobileConfig.json](/help/universal-windows/c-configuration/c.json.md).
 
    * Esta é a sintaxe para este método:
 
@@ -58,7 +58,7 @@ Classes e métodos fornecidos pela biblioteca da plataforma Universal Windows.
 
    * Estas são as amostras de código para este método:
 
-      **C Sharp**
+      **C Nitidez**
 
       ```csharp
       public enum class ADBMobilePrivacyStatus : int { ADBMobilePrivacyStatusOptIn = 1, 
@@ -128,12 +128,12 @@ Classes e métodos fornecidos pela biblioteca da plataforma Universal Windows.
 
 * **GetUserIdentifier (winJS: getUserIdentifier)**
 
-   Retorna o identificador de usuário personalizado se um identificador personalizado tiver sido definido. Returns `null` if a custom identifier is not set.
+   Retorna o identificador do usuário personalizado se algum identificador personalizado estiver configurado. Retorna `null` se um identificador personalizado não estiver definido.
 O valor padrão é `null`.
 
    >[!IMPORTANT]
    >
-   >Se seu aplicativo for atualizado do SDK Experience Cloud 3.x para 4.x, o serviço de ID anterior (personalizado ou gerado automaticamente) será recuperado e armazenado como o identificador de usuário personalizado. Isso preserva os dados do visitante entre as atualizações de SDK. Para novas instalações do SDK 4.x, o identificador do usuário é `null` até que seja definido.
+   >Se seu aplicativo for atualizado do SDK 3.x do Experience Cloud para o 4.x, o serviço de ID anterior (personalizado ou gerado automaticamente) será recuperado e armazenado como o identificador de usuário personalizado. Isso preserva os dados do visitante entre as atualizações de SDK. Para novas instalações do SDK 4.x, o identificador do usuário é `null` até que seja definido.
 
    * Esta é a sintaxe para este método:
 
@@ -184,7 +184,7 @@ O valor padrão é `null`.
 
 * **SetDebugLogging (winJS: setDebugLogging)**
 
-   Define a preferência do log de depuração como `debugLogging`. O registro em log de depuração funciona somente ao usar a versão de depuração da biblioteca, a versão de lançamento ignora essa configuração.
+   Define a preferência do log de depuração como `debugLogging`. O log de depuração funciona somente ao usar a versão de depuração da biblioteca, a versão de lançamento ignora essa configuração.
 
    * Esta é a sintaxe para este método:
 
@@ -218,7 +218,7 @@ O valor padrão é `null`.
 
 * **PauseCollecting &#x200B; LifecycleData (winJS: pauseCollecting &#x200B; LifecycleData)**
 
-   Indica ao SDK que o aplicativo está pausado, a fim de calcular corretamente as medições de ciclo de vida. Por exemplo, ao pausar coleta um carimbo de data e hora para determinar a duração da sessão anterior. Isso também define um sinalizador para que o ciclo de vida saiba corretamente que o aplicativo não falhou. Para obter mais informações, consulte [Medições de ciclo de vida](/help/universal-windows/metrics.md).
+   Indica ao SDK que o aplicativo está pausado, a fim de calcular corretamente as medições de ciclo de vida. Por exemplo, ao pausar, um carimbo de data e hora é coletado para determinar a duração da sessão anterior. Isso também define um sinalizador para que o ciclo de vida saiba que o aplicativo não parou de funcionar. Para obter mais informações, consulte [Medições de ciclo de vida](/help/universal-windows/metrics.md).
 
    * Esta é a sintaxe para este método:
 
