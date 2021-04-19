@@ -1,20 +1,20 @@
 ---
 description: Configure as opções de experiência para mensagens no aplicativo, incluindo o tipo (tela cheia, alerta ou notificação) e as opções de exibição, texto e botão.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: Configure as opções de experiência para mensagens no aplicativo, incluindo o tipo (tela cheia, alerta ou notificação) e as opções de exibição, texto e botão.
 seo-title: Experiência  Mensagem no aplicativo
 solution: Experience Cloud,Analytics
 title: Experiência  Mensagem no aplicativo
-topic: Metrics
+topic-fix: Metrics
 uuid: 4c6d6756-47fb-4f1b-8338-0b0c9b0fceb0
+exl-id: eeb1527d-c546-4951-9947-db810fdb8eee
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '687'
 ht-degree: 100%
 
 ---
-
 
 # Experiência: mensagem no aplicativo {#experience-in-app-message}
 
@@ -94,7 +94,7 @@ Selecione o tipo de mensagem para sua campanha de mensagens no aplicativo:
 
       * `{userId}`, que é substituído pelo identificador do usuário ou está em branco quando o identificador não é definido.
       * `{trackingId}`, que é substituído pelo parâmetro aid (correlação com o cookie *s_vi*).
-      * `{messageId}`, que é substituído pela ID exclusiva para a mensagem no aplicativo.
+      * `{messageId}`, que é substituído pelo identificador exclusivo para a mensagem no aplicativo.
       * `{lifetimeValue}`, que é substituído pelo valor da duração ou por zero caso não exista tal valor.
 
       Veja um exemplo do rastreamento da ID do usuário: `https://www.mysite.com?uid={userId}`.
