@@ -1,20 +1,20 @@
 ---
 description: Você pode acompanhar e gerenciar os dados recebidos do aplicativo ao configurar diversas variáveis e métricas.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: Você pode acompanhar e gerenciar os dados recebidos do aplicativo ao configurar diversas variáveis e métricas.
 seo-title: Gerenciamento do aplicativo
 solution: Experience Cloud,Analytics
 title: Gerenciamento do aplicativo
-topic: Metrics
+topic-fix: Metrics
 uuid: 0cc356c3-8457-40a7-8c97-7cbc68a5dc0c
+exl-id: 599fef94-c188-47f5-b9d6-25a7c8cb07bc
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1040'
 ht-degree: 100%
 
 ---
-
 
 # Gerenciamento do aplicativo {#managing-your-app}
 
