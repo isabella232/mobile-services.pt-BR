@@ -1,20 +1,20 @@
 ---
 description: O relatório Compartilhamento em redes sociais exibe uma visualização em forma de raio de sol dos dados existentes. O relatório está disponível somente para clientes do Digital Publishing Suites (DPS).
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: O relatório Compartilhamento em redes sociais exibe uma visualização em forma de raio de sol dos dados existentes. O relatório está disponível somente para clientes do Digital Publishing Suites (DPS).
 seo-title: Compartilhamento em redes sociais
 solution: Experience Cloud,Analytics
 title: Compartilhamento em redes sociais
-topic: Metrics
+topic-fix: Metrics
 uuid: 900e58aa-c1d3-4590-af44-df67575214a4
-translation-type: ht
-source-git-commit: aab04abeb5edb6be886002e27ef1c5340b0a8f0d
-workflow-type: ht
-source-wordcount: '142'
+exl-id: 3f396c6d-dae4-4419-84fd-884a9e87dab1
+translation-type: tm+mt
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+workflow-type: tm+mt
+source-wordcount: '143'
 ht-degree: 100%
 
 ---
-
 
 # Compartilhamento em redes sociais {#social-sharing}
 
