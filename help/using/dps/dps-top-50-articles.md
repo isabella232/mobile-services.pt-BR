@@ -1,20 +1,20 @@
 ---
 description: O relatório Os 50 artigos principais exibe um gráfico de barras e um relatório classificado que exibe os artigos mais lidos exibidos através do aplicativo. Esse relatório está disponível somente para clientes do Digital Publishing Suites (DPS).
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: O relatório Os 50 artigos principais exibe um gráfico de barras e um relatório classificado que exibe os artigos mais lidos exibidos através do aplicativo. Esse relatório está disponível somente para clientes do Digital Publishing Suites (DPS).
 seo-title: Os 50 artigos principais
 solution: Experience Cloud,Analytics
 title: Os 50 artigos principais
-topic: Metrics
+topic-fix: Metrics
 uuid: 341370d1-fa87-43ca-8135-425b3bba272f
+exl-id: 8d5d6ab4-fcbb-42b2-b9bc-5ccb4f73522f
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '257'
 ht-degree: 100%
 
 ---
-
 
 # Relatório Os 50 artigos principais {#top-articles}
 
