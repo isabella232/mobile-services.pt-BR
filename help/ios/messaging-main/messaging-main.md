@@ -4,16 +4,16 @@ seo-description: Esta informação ajuda a usar as mensagens nos aplicativos iOS
 seo-title: Mensagens
 solution: Experience Cloud,Analytics
 title: Mensagens
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: c6475ab4-015d-46b0-af28-5d0df3f4459e
+exl-id: e7be8760-6daf-42c8-9c3d-1de29d62ad0b
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 100%
 
 ---
-
 
 # Mensagens {#messaging}
 
@@ -27,4 +27,3 @@ Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Ad
 
 * Para começar, acesse o Adobe Experience Platform Launch.
 * Para ver o conteúdo dos repositórios SDK da Experience Platform, acesse [Github: SDKs da Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
-
