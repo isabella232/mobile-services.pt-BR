@@ -4,16 +4,16 @@ seo-description: Se o aplicativo abrir o conteúdo da internet móvel, certifiqu
 seo-title: Rastreamento de visitantes entre um aplicativo e a internet móvel
 solution: Experience Cloud,Analytics
 title: Rastreamento de visitantes entre um aplicativo e a internet móvel
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 073572e4-4c55-4b27-b4a7-e4349ccde7bf
+exl-id: 7ca98572-138d-48f8-aa2a-d376eebb0b2c
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
 
 ---
-
 
 # Rastreamento de visitantes entre um aplicativo e a internet móvel {#visitor-tracking-between-an-app-and-mobile-web}
 
@@ -21,7 +21,7 @@ Se o aplicativo abrir o conteúdo da internet móvel, certifique-se de que os vi
 
 ## IDs de visitantes em aplicativos
 
-O Android SDK gera uma ID de visitante exclusiva quando um aplicativo é instalado. Essa ID é armazenada na memória persistente no dispositivo móvel, é enviada com cada ocorrência e é removida somente quando o usuário desinstala o aplicativo.
+O Android SDK gera um identificador de visitante único quando um aplicativo é instalado. Essa ID é armazenada na memória persistente no dispositivo móvel, é enviada com cada ocorrência e é removida somente quando o usuário desinstala o aplicativo.
 
 >[!TIP]
 >
@@ -29,7 +29,7 @@ O Android SDK gera uma ID de visitante exclusiva quando um aplicativo é instala
 
 ## IDs de visitantes na internet móvel
 
-As implementações usuais da internet móvel usam o mesmo Analytics padrão `s_code.js` ou `AppMeasurement.js` usado em sites do desktop. As bibliotecas JavaScript têm seus próprios métodos de geração de IDs de visitante único, o que faz com que uma ID de visitante diferente seja gerada ao abrir conteúdo da Web móvel do seu aplicativo.
+As implementações usuais da internet móvel usam o mesmo Analytics padrão `s_code.js` ou `AppMeasurement.js` usado em sites do desktop. As bibliotecas JavaScript têm seus próprios métodos de geração de identificadores de visitante único, o que faz com que um identificador de visitante diferente seja gerado ao abrir conteúdo da Web móvel do seu aplicativo.
 
 ## Implementação de rastreamento de visitantes entre um aplicativo e a internet móvel {#section_1755BCCFD42D456EB2319141030FDDFF}
 
@@ -94,4 +94,3 @@ Caso essas etapas de solução de problemas não resolvam os mesmos, entre em co
 >[!IMPORTANT]
 >
 >Para permitir que a Adobe valide a implementação, é necessário compartilhar um aplicativo de amostra e o site relacionado.
-
