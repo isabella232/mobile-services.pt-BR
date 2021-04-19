@@ -4,16 +4,16 @@ seo-description: A extensão iOS ajuda a coletar dados de uso dos aplicativos do
 seo-title: Implementação de extensão do iOS
 solution: Experience Cloud,Analytics
 title: Implementação de extensão do iOS
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 8afc03fe-403e-4643-ada1-30e403ede238
+exl-id: 741b0cd5-6245-480a-b5bf-a33a1f82a425
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
 
 ---
-
 
 # Implementação de extensão do iOS {#ios-extension-implementation}
 
@@ -48,6 +48,7 @@ Mesmo que esses três métodos de rastreamento atendam aos seus requisitos, use 
 >
 >* Um público-alvo para conter o aplicativo.
 >* Um público-alvo para a extensão.
+
 >
 
 
@@ -114,4 +115,3 @@ Algumas informações a lembrar:
 * Se o aplicativo contêiner nunca for iniciado, as ocorrências da extensão serão descartadas.
 * O número da versão e o número da compilação devem ser os mesmos entre o aplicativo contêiner e o aplicativo de extensão.
 * Nenhuma chamada de ciclo de vida é acionada nos aplicativos de extensão iOS.
-
