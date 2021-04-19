@@ -4,16 +4,16 @@ seo-description: Se o seu aplicativo abrir conteúdo da Web móvel, você precis
 seo-title: Rastreamento de visitantes entre um aplicativo e a internet móvel
 solution: Experience Cloud,Analytics
 title: Rastreamento de visitantes entre um aplicativo e a internet móvel
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 2d951de6-3954-4379-a4ff-99b9695b9869
+exl-id: d8459d59-0edd-42c4-81b5-529b250accb4
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 100%
 
 ---
-
 
 # Rastreamento de visitantes entre um aplicativo e a internet móvel  {#visitor-tracking-between-an-app-and-mobile-web}
 
@@ -21,7 +21,7 @@ Se o seu aplicativo abrir conteúdo da Web móvel, você precisa garantir que os
 
 ## IDs de visitantes em aplicativos
 
-O iOS SDK gera uma ID de visitante exclusiva quando um aplicativo é instalado. Essa ID é armazenada na memória persistente no dispositivo móvel e é enviada com cada ocorrência. Essa ID é removida somente quando o usuário desinstala o aplicativo.
+O iOS SDK gera um identificador de visitante único quando um aplicativo é instalado. Essa ID é armazenada na memória persistente no dispositivo móvel e é enviada com cada ocorrência. Essa ID é removida somente quando o usuário desinstala o aplicativo.
 
 >[!TIP]
 >
@@ -29,7 +29,7 @@ O iOS SDK gera uma ID de visitante exclusiva quando um aplicativo é instalado. 
 
 ## IDs de visitantes na internet móvel
 
-As implementações usuais da internet móvel usam o mesmo Analytics padrão `s_code.js` ou `AppMeasurement.js` usado em sites do desktop. As bibliotecas JavaScript têm seus próprios métodos de geração de IDs de visitante único, o que faz com que uma ID de visitante diferente seja gerada ao abrir conteúdo da Web móvel do seu aplicativo.
+As implementações usuais da internet móvel usam o mesmo Analytics padrão `s_code.js` ou `AppMeasurement.js` usado em sites do desktop. As bibliotecas JavaScript têm seus próprios métodos de geração de identificadores de visitante único, o que faz com que um identificador de visitante diferente seja gerado ao abrir conteúdo da Web móvel do seu aplicativo.
 
 Para usar a mesma ID de visitante no aplicativo e na internet móvel e transmitir a ID de visitante do aplicativo para a internet móvel no URL:
 
