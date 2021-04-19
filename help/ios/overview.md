@@ -4,16 +4,16 @@ seo-description: O iOS SDK 4.x para as soluções da Experience Cloud permite av
 seo-title: iOS SDK 4.x para Soluções da Experience Cloud
 solution: Experience Cloud,Analytics
 title: iOS SDK 4.x para Soluções da Experience Cloud
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 8b374cee-1432-460b-aac2-70623dd80a04
-translation-type: ht
-source-git-commit: c7400359bc19150926a67b991ba219a7fa187442
-workflow-type: ht
+exl-id: d4dbddf7-c8be-4936-adfb-2f7aa07a0dd4
+translation-type: tm+mt
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 100%
 
 ---
-
 
 # iOS SDK 4.x para Soluções da Experience Cloud {#ios-sdk-x-for-experience-cloud-solutions}
 
@@ -27,9 +27,9 @@ Se estiver usando a versão 4.21.0 ou mais recente, leia a documentação com as
 
 * Sempre que um arquivo binário de biblioteca for mencionado, sua substituição XCFramework deverá ser usada em vez disso:
    * `AdobeMobileLibrary.a` > `AdobeMobile.xcframework`
-   * `AdobeMobileLibrary_Extension.a` > `AdobeMobileExtension.xcframework`
-   * `AdobeMobileLibrary_Watch.a` > `AdobeMobileWatch.xcframework`
-   * `AdobeMobileLibrary_TV.a` > `AdobeMobileTV.xcframework`
+   * `AdobeMobileLibrary_Extension.a` >  `AdobeMobileExtension.xcframework`
+   * `AdobeMobileLibrary_Watch.a` >  `AdobeMobileWatch.xcframework`
+   * `AdobeMobileLibrary_TV.a` >  `AdobeMobileTV.xcframework`
 * Se você adicionar manualmente o Adobe XCFrameworks ao seu projeto, verifique se ele não está incorporado.
 
 >[!IMPORTANT]
