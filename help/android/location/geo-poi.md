@@ -4,16 +4,16 @@ seo-description: A geolocalização ajuda a avaliar os dados de localização us
 seo-title: Geolocalização e pontos de interesse
 solution: Experience Cloud,Analytics
 title: Geolocalização e pontos de interesse
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: b8209370-cbc4-40f9-97d8-017e2d74a377
+exl-id: e1fed35b-5ce9-48ee-ade0-b1701cf2a3a9
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 100%
 
 ---
-
 
 # Geolocalização e pontos de interesse {#geo-location-and-points-of-interest}
 
@@ -120,4 +120,3 @@ Lembre-se das seguintes informações:
 * Quando dois POIs possuem diâmetros sobrepostos, é usado o primeiro POI que contém a localização atual.
 
    Se seus POIs se sobrepõem, você deve listar os POIs na ordem do mais para o menos granular para garantir que o POI mais granular seja relatado.
-
