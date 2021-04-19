@@ -1,20 +1,20 @@
 ---
 description: Você pode usar a página Marketing Links para criar, usar e arquivar links de marketing.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: Você pode usar a página Marketing Links para criar, usar e arquivar links de marketing.
 seo-title: Gerenciar links de marketing
 solution: Experience Cloud,Analytics
 title: Gerenciar links de marketing
-topic: Metrics
+topic-fix: Metrics
 uuid: 98ac3520-89ed-4513-83f6-120dda9d0157
+exl-id: 678c18fe-b282-4eab-a248-e00dfd53cecd
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '202'
 ht-degree: 100%
 
 ---
-
 
 # Gerenciar links de marketing {#manage-marketing-links}
 
@@ -38,4 +38,3 @@ Na página Links de marketing, finalize as seguintes tarefas:
    * Para desarquivar um Link de marketing, clique em **[!UICONTROL Exibir arquivo]**, selecione um link e clique em **[!UICONTROL Desarquivar selecionados]**.
 
       Somente Links de marketing arquivados anteriormente são exibidos na página Exibir arquivo.
-
