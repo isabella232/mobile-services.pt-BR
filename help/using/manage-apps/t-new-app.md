@@ -1,20 +1,20 @@
 ---
 description: É possível usar estas informações para criar um novo aplicativo e configurar suas métricas principais; configurar as opções do SDK para o Adobe Analytics e o Adobe Audience Manager; configurar as opções de aquisição e de serviço de ID; e baixar o arquivo de configuração, os SDKs e as ferramentas de desenvolvedor e de testador.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: É possível usar estas informações para criar um novo aplicativo e configurar suas métricas principais; configurar as opções do SDK para o Adobe Analytics e o Adobe Audience Manager; configurar as opções de aquisição e de serviço de ID; e baixar o arquivo de configuração, os SDKs e as ferramentas de desenvolvedor e de testador.
 seo-title: Adicionar um novo aplicativo
 solution: Experience Cloud,Analytics
 title: Adicionar um novo aplicativo
-topic: Metrics
+topic-fix: Metrics
 uuid: 706b5e4d-1318-4a9e-8c69-ffabf51fa02c
+exl-id: 30dca517-61ac-495b-aa91-3febd1cb8639
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '710'
 ht-degree: 100%
 
 ---
-
 
 # Adicionar um novo aplicativo {#add-a-new-app}
 
