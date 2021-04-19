@@ -1,31 +1,31 @@
 ---
-description: Lista de métodos de Público alvo fornecidos pela biblioteca da loja de aplicativos universal do Windows 8.1.
-seo-description: Lista de métodos de Público alvo fornecidos pela biblioteca da loja de aplicativos universal do Windows 8.1.
+description: Lista de métodos do Target fornecida pela biblioteca da loja de aplicativos universal do Windows 8.1.
+seo-description: Lista de métodos do Target fornecida pela biblioteca da loja de aplicativos universal do Windows 8.1.
 seo-title: Métodos do Target
 solution: Experience Cloud,Analytics
 title: Métodos do Target
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 8c35b31c-c70b-4dba-8759-173342a301e9
+exl-id: 2db9f594-01e7-4ca8-a90e-9d12278350d0
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 42%
 
 ---
 
-
 # Métodos do Target {#target-methods}
 
-Lista de métodos de Público alvo fornecidos pela biblioteca da loja de aplicativos universal do Windows 8.1.
+Lista de métodos do Target fornecida pela biblioteca da loja de aplicativos universal do Windows 8.1.
 
-O SDK suporta atualmente várias Soluções Adobe Experience Cloud, incluindo Analytics, Público alvo e Audience Manager. Os métodos apresentam prefixos de acordo com a solução. Métodos do Analytics recebem o prefixo &quot;Público alvo&quot;.
+Atualmente, o SDK é compatível com várias soluções da Adobe Experience Cloud, incluindo o Analytics, o Target e o Audience Manager. Os métodos apresentam prefixos de acordo com a solução. Métodos do Analytics recebem o prefixo &quot;Target&quot;.
 
 [Medições de ciclo de vida](/help/windows-appstore/metrics.md) são enviadas como parâmetros para cada carregamento de mbox.
 
 >[!TIP]
 >
->Quando você consome `winmd` métodos do winJS (JavaScript), todos os métodos têm automaticamente a primeira letra em minúsculas.
+>Ao consumir métodos `winmd` do winJS (JavaScript), todos os métodos passam a ter a primeira letra em minúsculas automaticamente.
 
 ## Referência de classe: TargetLocationRequest
 
@@ -73,7 +73,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **LoadRequest (winJS: loadRequest)**
 
-   Sends `request` to your configured Target server and returns the string value of the offer generated in a block `callback`.
+   Envia `request` para o servidor do Target configurado e retorna o valor da cadeia de caracteres da oferta gerada em um bloco `callback`.
 
    * Esta é a sintaxe para este método:
 
@@ -92,7 +92,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **CreateRequest (winJS: createRequest)**
 
-   Creates a `TargetLocationRequest` object with the given parameters.
+   Cria um objeto `TargetLocationRequest` com os parâmetros fornecidos.
 
    * Esta é a sintaxe para este método:
 
@@ -109,7 +109,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **CreateOrder &#x200B; ConfirmRequest (winJS: createOrder &#x200B; ConfirmRequest)**
 
-   Creates a `TargetLocationRequest` object with the given parameters.
+   Cria um objeto `TargetLocationRequest` com os parâmetros fornecidos.
 
    * Esta é a sintaxe para este método:
 
@@ -126,7 +126,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **ClearCookies (winJS: clearCookies)**
 
-   Limpa os cookies do Público alvo do aplicativo no dispositivo atual.
+   Apaga os cookies do Target para o aplicativo no dispositivo atual.
 
    * Esta é a sintaxe para este método:
 
@@ -171,4 +171,3 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       ```js
       auto sessionId = ADBMobile.Target.getSessionId(); 
       ```
-
