@@ -1,20 +1,20 @@
 ---
 description: As instruções a seguir ajudam a fazer uma viagem de ida e volta em uma campanha de aquisição com um link de marketing em um dispositivo Android.
-keywords: android;library;mobile;sdk
+keywords: android;biblioteca;móvel;sdk
 seo-description: As instruções a seguir ajudam a fazer uma viagem de ida e volta em uma campanha de aquisição com um link de marketing em um dispositivo Android.
 seo-title: Teste de aquisição de links de marketing
 solution: Experience Cloud,Analytics
 title: Teste de aquisição de links de marketing
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: d0933dcc-8fc3-4f60-987f-7a54559aacf5
+exl-id: 86fdaef7-5b6c-4e9d-a470-df66c96f2e9d
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '767'
 ht-degree: 100%
 
 ---
-
 
 # Testar a aquisição de Links de marketing {#testing-marketing-link-acquisition}
 
@@ -39,11 +39,11 @@ O aplicativo deve estar recém-instalado ou ter os dados limpos em **[!UICONTROL
 
    `https://play.google.com/store/apps/details?id=com.adobe.android&referrer=utm_campaign%3Dadb_acq_v3%26utm_source%3Dadb_acq_v3%26utm_content%3D91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`
 
-1. Copie a ID única depois de `utm_content%3D`.
+1. Copie o identificador exclusivo depois de `utm_content%3D`.
 
    No exemplo anterior, a ID é `91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`.
 
-   Caso não consiga obter a ID única no dispositivo, execute o comando `CURL` no desktop para obter a ID única da cadeia de caracteres de resposta.
+   Caso não consiga obter o identificador exclusivo no dispositivo, execute o comando `CURL` no desktop para obter o identificador exclusivo da cadeia de caracteres de resposta.
 
    `curl -A "Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-T815Y Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 Safari/537.36" <Your Marketing Link>`
 
@@ -51,7 +51,7 @@ O aplicativo deve estar recém-instalado ou ter os dados limpos em **[!UICONTROL
 
    `curl -A "Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-T815Y Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 Safari/537.36" https://c00.adobe.com/v3/da120731d6c09658b82d8fac78da1d5fc2d09c48e21b3a55f9e2d7344e08425d/start?a_dl=573e5bb3248a501360c2890b`
 
-1. Construa o link final de aquisição usando a ID única da etapa 3, no formato a seguir:
+1. Construa o link final de aquisição usando o identificador exclusivo da etapa 3, no formato a seguir:
 
    `https://c00.adobe.com/v3/<appid>/end?a_ugid=<unique id>`
 
@@ -67,7 +67,7 @@ O aplicativo deve estar recém-instalado ou ter os dados limpos em **[!UICONTROL
    ,"adobeData":{"unique_id":"9a2be52764a8db125c29a8c10f3b1b3d5d8ed915","deeplinkid":"57476c26072932ec6d3a470b"}}.
    ```
 
-1. Repita a etapa 3 para obter ima ID única.
+1. Repita a etapa 3 para obter um novo identificador exclusivo.
 1. Verifique se as seguintes configurações em seu arquivo de configuração estão corretas:
 
    | Configuração | Valor |
@@ -124,7 +124,7 @@ Lembre-se das seguintes informações:
 
 * As ocorrências enviadas pelo aplicativo podem ser monitoradas usando ferramentas de monitoramento HTTP para verificar a atribuição de aquisição.
 * Para obter mais informações sobre como fazer a transmissão do `INSTALL_REFERRER`, consulte [Testar medição de campanha do Google Play](https://developers.google.com/analytics/solutions/testing-play-campaigns) no Guia de desenvolvedores do Google.
-* É possível usar a ferramenta `acquisitionTest.jar` do Java fornecida para ajudá-lo a obter a ID única e o referencial de instalação da transmissão que, por sua vez, o ajuda a obter as informações das etapas de 3 a 10.
+* É possível usar a ferramenta `acquisitionTest.jar` do Java fornecida para ajudá-lo a obter o identificador exclusivo e o referencial de instalação da transmissão que, por sua vez, o ajuda a obter as informações das etapas de 3 a 10.
 
 **Instalação da ferramenta Java**
 
