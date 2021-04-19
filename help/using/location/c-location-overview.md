@@ -1,20 +1,20 @@
 ---
 description: O relatório Visão geral de localização permite visualizar os diferentes países, regiões e Pontos de interesse nos quais seu aplicativo está sendo usado.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: O relatório Visão geral de localização permite visualizar os diferentes países, regiões e Pontos de interesse nos quais seu aplicativo está sendo usado.
 seo-title: Visão geral (Localização)
 solution: Experience Cloud,Analytics
 title: Visão geral (Localização)
-topic: Reports,Metrics
+topic-fix: Reports,Metrics
 uuid: a701abc3-001b-4015-843f-5fb2c6c80d17
+exl-id: 9a9f4f64-251f-48d4-a838-af14a357c575
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '579'
 ht-degree: 100%
 
 ---
-
 
 # Visão geral (localização) {#overview-location}
 
