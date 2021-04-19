@@ -1,20 +1,20 @@
 ---
 description: É possível definir e configurar as opções de público-alvo para mensagens de push, incluindo as opções de intervalo de data, os segmentos do Analytics e os segmentos personalizados.
-keywords: mobile
+keywords: dispositivos móveis
 seo-description: É possível definir e configurar as opções de público-alvo para mensagens de push, incluindo as opções de intervalo de data, os segmentos do Analytics e os segmentos personalizados.
 seo-title: Público Definir e configurar os segmentos de público para as mensagens por push
 solution: Experience Cloud,Analytics
 title: Público Definir e configurar os segmentos de público para as mensagens por push
-topic: Metrics
+topic-fix: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
+exl-id: d1062a76-2e72-4649-8497-58617a7a47cb
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1022'
 ht-degree: 100%
 
 ---
-
 
 # Público: mensagens por push {#audience-define-and-configure-audience-segments-for-push-messages}
 
