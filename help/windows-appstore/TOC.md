@@ -1,10 +1,9 @@
 ---
-product: mobile-services
 audience: end-user
 user-guide-title: SDK da loja de aplicativos universal do Mobile Services do Windows 8.1
 breadcrumb-title: SDK da loja de aplicativos universal do Windows 8.1
 translation-type: tm+mt
-source-git-commit: 18ef20df0a32741685e35cee98a1adf4a1b823a1
+source-git-commit: b9ee49ba26d4726b1f97ef36f5c2e9923361b1ee
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 93%
