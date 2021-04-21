@@ -1,19 +1,17 @@
 ---
-description: 'null'
+description: Métodos de configuração do ADBMobile.cs
 keywords: Unity
-seo-description: 'null'
-seo-title: Métodos do ADBMobile.css
 solution: Experience Cloud
 title: Métodos do ADBMobile.css
 uuid: af504934-febd-45d9-81e2-2a310f4c65dc
+exl-id: d12c16f1-c25c-4698-8943-a660d9c08faf
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: b9ee49ba26d4726b1f97ef36f5c2e9923361b1ee
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 70%
 
 ---
-
 
 # Métodos do ADBMobile.css {#adbmobile-cs-methods}
 
@@ -37,7 +35,7 @@ ht-degree: 70%
 
 * **EnableLocalNotifications (somente iOS)**
 
-   Habilite notificações locais em seu aplicativo.
+   Ative as notificações locais no aplicativo.
 
    * Esta é a sintaxe para este método:
 
@@ -90,7 +88,7 @@ ht-degree: 70%
    * `MOBILE_PRIVACY_STATUS_OPT_OUT`: as ocorrências são descartadas.
    * `MOBILE_PRIVACY_STATUS_UNKNOWN`: se o rastreamento offline estiver ativado, as ocorrências são salvas até o status de privacidade ser alterado para aceitar (e então as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas).
 
-      Se o rastreamento offline não estiver ativado, as ocorrências são descartadas até o status de privacidade ser alterado parar aceitar. The default value is set in the [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md) file.
+      Se o rastreamento offline não estiver ativado, as ocorrências são descartadas até o status de privacidade ser alterado parar aceitar. O valor padrão está definido no arquivo [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
 
    * Esta é a sintaxe para este método:
 
@@ -106,7 +104,7 @@ ht-degree: 70%
 
 * **GetUserIdentifier**
 
-   Retorna o identificador de usuário personalizado se um identificador personalizado tiver sido definido. Retorna null se um identificador personalizado não estiver definido. O valor padrão é `null`.
+   Retorna o identificador do usuário personalizado se algum identificador personalizado estiver configurado. Retorna null se um identificador personalizado não estiver configurado. O valor padrão é `null`.
 
    * Esta é a sintaxe para este método:
 
@@ -142,7 +140,7 @@ ht-degree: 70%
 
    >[!TIP]
    >
-   >Este método é destinado aos aplicativos que se registram para receber notificações enquanto estão em segundo plano e só deve ser chamado a partir do código executado enquanto o aplicativo está em segundo plano.
+   >Este método é destinado a aplicativos que realizam registros para receber notificações enquanto são executados em segundo plano e só deve ser chamado a partir do código executado enquanto o aplicativo está funcionando em segundo plano.
 
    * Esta é a sintaxe para este método:
 
@@ -158,7 +156,7 @@ ht-degree: 70%
 
 * **PauseCollectingLifecycleData (somente Android)**
 
-   Indica ao SDK que o aplicativo está pausado, a fim de calcular corretamente as medições de ciclo de vida. Por exemplo, ao pausar coleta um carimbo de data e hora para determinar a duração da sessão anterior. Isso também define um sinalizador para que o ciclo de vida saiba corretamente que o aplicativo não falhou. Para obter mais informações, consulte [Medições de ciclo de vida](/help/android/metrics.md).
+   Indica ao SDK que o aplicativo está pausado, a fim de calcular corretamente as medições de ciclo de vida. Por exemplo, ao pausar, um carimbo de data e hora é coletado para determinar a duração da sessão anterior. Isso também define um sinalizador para que o ciclo de vida saiba que o aplicativo não parou de funcionar. Para obter mais informações, consulte [Medições de ciclo de vida](/help/android/metrics.md).
 
    * Esta é a sintaxe para este método:
 
@@ -190,7 +188,7 @@ ht-degree: 70%
 
 * **SetDebugLogging**
 
-   Define a preferência de registro de depuração como ativada.
+   Define a preferência do log de depuração como ativada.
 
    * Esta é a sintaxe para este método:
 
@@ -226,7 +224,7 @@ ht-degree: 70%
 
 * **SetUserIdentifier**
 
-   Define o identificador do usuário como userId.
+   Define o identificador do usuário para userId.
 
    * Esta é a sintaxe para este método:
 
@@ -260,9 +258,9 @@ ht-degree: 70%
 
 * **TrackState**
 
-   Rastreia um estado de aplicativo com dados de contexto opcionais. Os estados são as visualizações que estão disponíveis no aplicativo, como &quot;tela de título&quot;, &quot;nível 1&quot;, &quot;pausa&quot; e assim por diante. Esses estados são semelhantes às páginas em um site, e as chamadas de `TrackState` aumentam as visualizações de página.
+   Rastreia um estado de aplicativo com dados de contexto opcionais. Os estados são as exibições disponíveis no aplicativo, como &quot;tela inicial&quot;, &quot;nível 1&quot;, &quot;pausa&quot; e assim por diante. Esses estados são semelhantes às páginas em um site, e as chamadas de `TrackState` aumentam as visualizações de página.
 
-   Se o estado estiver vazio, será exibido como *`app name app version (build)`* nos relatórios. If you see this value in reports, make sure you are setting state in each `TrackState` call.
+   Se state estiver vazio, ele será exibido como *`app name app version (build)`* nos relatórios. Caso veja esse valor em relatórios, certifique-se de configurar o estado em cada chamada de `TrackState`.
 
    >[!TIP]
    >
@@ -284,7 +282,7 @@ ht-degree: 70%
 
 * **TrackAction**
 
-   Rastreia uma ação no seu aplicativo. As ações são coisas que ocorrem no aplicativo e que você deseja avaliar, como &quot;mortes&quot;, &quot;nível ganho&quot;, &quot;subscrições de feed&quot; e outras métricas.
+   Rastreia uma ação no seu aplicativo. As ações são coisas que ocorrem no seu aplicativo e que deseja medir, como &quot;mortes&quot;, &quot;nível obtido&quot;, &quot;assinaturas de feed&quot; e outras métricas.
 
    >[!TIP]
    >
@@ -324,7 +322,7 @@ ht-degree: 70%
 
 * **TrackLocation**
 
-   Envia as coordenadas atuais de latitude e longitude. Também usa pontos de interesse definidos no arquivo `ADBMobileConfig.json` a fim de determinar se o local fornecido como parâmetro está dentro do POI. Se as coordenadas atuais estiverem dentro de um POI definido, uma variável de dados de contexto será preenchida e enviada com a chamada TrackLocation.
+   Envia as coordenadas atuais de latitude e longitude. Também usa pontos de interesse definidos no arquivo `ADBMobileConfig.json` a fim de determinar se o local fornecido como parâmetro está dentro do POI. Se as coordenadas atuais estão dentro de um POI definido, uma variável de dados de contexto é preenchida e enviada com a chamada TrackLocation .
 
    * Esta é a sintaxe para este método:
 
@@ -366,7 +364,7 @@ ht-degree: 70%
 
 * **TrackLifetimeValueIncrease**
 
-   Adiciona valor ao valor do tempo de vida do usuário.
+   Adiciona uma quantia ao valor do ciclo de vida do usuário.
 
    * Esta é a sintaxe para este método:
 
@@ -402,7 +400,7 @@ ht-degree: 70%
 
 * **TrackTimedActionUpdate**
 
-   Transmita os dados para atualizar os dados de contexto associados à ação em questão. Os dados transmitidos são anexados aos dados existentes para a ação em questão e os substituem se a mesma chave já estiver definida para a ação.
+   Transmita dados para atualizar os dados de contexto associados à ação. Os dados transmitidos são anexados aos existentes para a ação em questão e os substituem se a mesma chave já estiver definida para a ação.
 
    >[!TIP]
    >
@@ -502,7 +500,7 @@ ht-degree: 70%
       var queueSize = ADBMobile.TrackingGetQueueSize();
       ```
 
-## Métodos de ID de Experience Cloud
+## Métodos de ID do Experience Cloud
 
 * **GetMarketingCloudID**
 
@@ -522,7 +520,7 @@ ht-degree: 70%
 
 * **VisitorSyncIdentifiers**
 
-   Com a ID do Experience Cloud, é possível definir outras IDs do cliente para associar a cada visitante. A API de Visitante aceita várias IDs do cliente para o mesmo visitante, juntamente com um identificador de tipo de cliente para separar o escopo de diferentes IDs do cliente. Este método corresponde a setCustomerIDs na biblioteca do JavaScript.
+   Com a ID do Experience Cloud, é possível definir outras IDs do cliente para associar a cada visitante. A API de visitante aceita várias IDs do cliente para o mesmo visitante, juntamente com um identificador de tipo de cliente para separar o escopo de diferentes IDs do cliente. Este método corresponde a setCustomerIDs na biblioteca do JavaScript.
 
    * Esta é a sintaxe para este método:
 
@@ -542,7 +540,7 @@ ht-degree: 70%
 
 * **ProcessGooglePlayInstallReferrerUrl** *(somente Android)*
 
-   Passe o URL da quem indicou retornado de uma chamada para a API da Quem indicou de instalação do Google Play para esse método.
+   Passe o URL do referenciador retornado de uma chamada para a API do referenciador de instalação do Google Play para este método.
 
    * Esta é a sintaxe para este método:
 
