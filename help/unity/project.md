@@ -1,29 +1,27 @@
 ---
-description: 'null'
+description: Criação de projetos do iOS
 keywords: Unity
-seo-description: 'null'
-seo-title: Criar o projeto
 solution: Experience Cloud
 title: Criar o projeto
 uuid: 5550a394-6f3f-4b87-b840-89621d8a0c1e
+exl-id: 9da99392-b34e-4e36-b255-f3787e26015c
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: b9ee49ba26d4726b1f97ef36f5c2e9923361b1ee
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 20%
+source-wordcount: '161'
+ht-degree: 18%
 
 ---
-
 
 # Criar o projeto{#building-your-project}
 
 ## iOS
 
-Quando você cria para iOS, um Projeto Xcode é criado. Por padrão, os arquivos `ADBMobileWrapper.mm` e `AdobeMobileLibrary.a` os arquivos estarão no novo grupo Bibliotecas do projeto. Execute as seguintes etapas manuais necessárias para criar seu aplicativo:
+Ao criar para iOS, um Projeto Xcode é criado. Por padrão, os arquivos `ADBMobileWrapper.mm` e `AdobeMobileLibrary.a` estarão no novo grupo Bibliotecas do projeto. Execute as seguintes etapas manuais necessárias para criar seu aplicativo:
 
 1. Adicione o arquivo `ADBMobileConfig.json` ao projeto.
 
-   Certifique-se de que seja um membro da criação dos públicos alvos necessários.
+   Certifique-se de que seja um membro da criação de destinos necessários.
 
 1. Na guia **[!UICONTROL Criar fases]** do projeto, adicione um link às seguintes bibliotecas:
 
@@ -34,13 +32,13 @@ Quando você cria para iOS, um Projeto Xcode é criado. Por padrão, os arquivos
 
 >[!TIP]
 >
->Para usar mensagens de notificação local no aplicativo do SDK, você deve chamar `ADBMobile.EnableLocalNotifications();` pelo método do Start na primeira cena do Unity.
+>Para usar mensagens de Notificação local no aplicativo do SDK, você deve chamar `ADBMobile.EnableLocalNotifications();` do método Start na primeira Cena do Unity.
 
 ## Android
 
-Quando você cria para Android, o `apk` arquivo já inclui o `ADBMobileConfig.json` arquivo no local correto. Por padrão, o `AndroidManifest.xml` arquivo na sua `/Plugins/Android` pasta também é usado.
+Ao criar para Android, o arquivo `apk` já inclui o arquivo `ADBMobileConfig.json` no local correto. Por padrão, o arquivo `AndroidManifest.xml` em sua pasta `/Plugins/Android` também é usado.
 
-Se precisar usar seu próprio arquivo manifest personalizado, as seguintes alterações devem ser adicionadas.
+Se precisar usar seu próprio arquivo de manifesto personalizado, as seguintes alterações devem ser adicionadas.
 
 Adicionar permissões para:
 
