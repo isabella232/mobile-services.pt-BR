@@ -8,11 +8,10 @@ title: Visão geral do plug-in PhoneGap
 topic-fix: Developer and implementation
 uuid: c5c32357-d8df-458a-b0e8-e0c56040241d
 exl-id: ecd756ca-e333-4d28-bd1e-a75ffc6ebe22
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: bb2459e57274183e55c1facd1a510cf55a83ddb4
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 100%
+source-wordcount: '398'
+ht-degree: 97%
 
 ---
 
@@ -71,7 +70,7 @@ cordova plugin add adobe-mobile-services
 
    Para mover esse arquivo, clique em **[!UICONTROL OK]**.
 
-1. Clique com o botão direito do mouse no arquivo adobeMobileLibrary.jar e selecione **[!UICONTROL Adicionar como biblioteca]**.
+1. Clique com o botão direito do mouse no arquivo `adobeMobileLibrary.jar` e selecione **[!UICONTROL Adicionar como biblioteca]**.
 1. Com base nas solicitações do projeto, insira o nome, nível e localização da biblioteca.
 1. Arraste o arquivo `ADBMobileConfig.json` até a pasta `assets` no aplicativo raiz.
 1. Confirme que selecionou o aplicativo raiz e **não** um aplicativo em um aplicativo.
