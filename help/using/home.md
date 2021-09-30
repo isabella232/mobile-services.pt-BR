@@ -1,18 +1,17 @@
 ---
 description: Documentos técnicos para o Adobe Mobile Services
-seo-description: Este guia apresenta a documentação técnica e a ajuda para o Adobe Mobile Services, com recursos de marketing para dispositivos móveis disponíveis para aplicativos móveis da Adobe Experience Cloud. Com esse material, você pode compreender e melhorar o engajamento do usuário com os aplicativos móveis.
+seo-description: This guide outlines technical documentation and self help for Adobe Mobile Services, which brings together mobile marketing capabilities for mobile applications from across the Adobe Experience Cloud, allowing you to understand and improve user engagement with mobile applications.
 seo-title: Adobe Mobile Services
 solution: Experience Cloud, Analytics, Experience Cloud
 title: Adobe Mobile Services
 uuid: e86a77c9-4ff1-403f-a5a1-4afbdc4e6f68
-translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+exl-id: 5ca1dad0-aa34-4950-b8e7-b73d691e4b03
+source-git-commit: 8c74c479c357e008dbbaaee8eb11097582072470
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 100%
+source-wordcount: '268'
+ht-degree: 74%
 
 ---
-
 
 # Adobe Mobile Services {#adobe-mobile-services}
 
@@ -20,70 +19,26 @@ Este guia apresenta a documentação técnica e a ajuda para o Adobe Mobile Serv
 
 >[!IMPORTANT]
 >
->O SKU do Adobe Analytics Mobile Marketing Add-on é necessário para permitir o acesso do Mobile Services aos recursos de aquisição móvel, links profundos, geolocalização e mensagens móveis. Para obter mais informações, entre em contato com seu CSM da Adobe.
+>O Mobile Services atinge o fim da vida útil em **31 de dezembro de 2022**. Consulte as [Perguntas frequentes sobre o fim da vida útil do Mobile Services](eol.md).
 
-## Anúncio do fim do suporte para SDKs 4x
+## Fim de suporte para SDKs 4x
 
-Após 30 de setembro de 2020, os clientes poderão continuar fazendo o download e usando os SDKs versão 4, mas não haverá suporte do Atendimento ao cliente nem acesso aos fóruns. O SDK do Adobe Experience Platform Mobile (anteriormente conhecido como v5) oferecerá suporte exclusivo aos recursos e funcionalidades futuros da Adobe Experience Cloud.
+O suporte para os Mobile [version 4 SDKs](https://github.com/Adobe-Marketing-Cloud/mobile-services) terminou a partir de 31 de agosto de 2021. Consulte as Perguntas frequentes sobre o fim do suporte aos SDKs móveis da versão 4 [.](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
 
-Consulte as [Perguntas frequentes](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq) do fim do suporte para obter mais informações.
+## SDKs do Adobe Experience Platform
 
-Recomendamos que você migre para o novo SDK do Experience Platform Mobile quando possível.
+O Adobe para marketing móvel é a Adobe Experience Platform. Consulte a [documentação do SDK do Adobe Experience Platform](https://aep-sdks.gitbook.io/docs/).
 
-## Nova versão do SDK da Adobe Experience Cloud
+## Recursos do desenvolvedor
 
-Procurando informações e documentação relacionadas ao Adobe Experience Platform Mobile SDK? Clique [aqui](https://aep-sdks.gitbook.io/docs/) para obter a documentação mais recente.
-
-Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Adobe Experience Platform Mobile SDKs podem ser configurados por meio do [Experience Platform Launch](https://www.adobe.com/br/experience-platform/launch.html).
-
-* Para começar, acesse o Launch.
-* Para ver o conteúdo dos repositórios SDK da Experience Platform, acesse [Github: SDKs da Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
-
->[!IMPORTANT]
->
-> Se você estiver usando os SDKs para dispositivos móveis da Adobe Experience Platform com o Adobe Launch, também **deve** instalar a extensão Adobe Analytics Mobile Services para usar os recursos do Adobe Mobile Services, como mensagens no aplicativo, notificações por push ou links de aquisição. Para obter mais informações, consulte [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services). 
-
->[!IMPORTANT]
->
->Embora seja possível configurar recursos na interface do usuário, eles não funcionarão até você baixar o arquivo de configuração gerado e adicioná-lo ao SDK. Para obter informações sobre como baixar e configurar os SDKs, consulte a sessão *Documentação do SDK* nesta página.
-
-Para obter as notas de versão mais recentes, consulte [Notas de versão da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/release-notes/experience-cloud/current.html).
-
-## Tópicos populares {#section_AFFBC9EDDE5B4E4493A7C2896121A773}
-
-Estes são alguns tópicos populares neste guia:
-
-* [Introdução](/help/using/gs/gs.md)
-* [Fazer logon](/help/using/gs/gs-signin.md)
-* [Funções e permissões](/help/using/gs/c-mob-roles-and-permissions.md)
-* [Métricas do Mobile](/help/using/gs/metrics/metrics.md)
-* [Mensagens](/help/using/in-app-messaging/in-app-messaging.md)
-* [Aquisição](/help/using/acquisition-main/acquisition-main.md)
-* [Localização](/help/using/location/c-location-overview.md)
-* [Perguntas frequentes - Mobile Services](/help/using/faq-mobile.md)
-
-## Desenvolvedores
-
-Estes são alguns links para ajudar desenvolvedores:
-
-* [Download de SDKs e ferramentas móveis](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md)
+* [Baixar SDKs e ferramentas móveis](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md)
 * [Desenvolvedor](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/home.html)
-
-## Recursos da comunidade
-
-Estes são alguns recursos adicionais:
-
-* [Fórum da Experience Cloud](https://forums.adobe.com/community/experience-cloud)
-* [Comunidade da Adobe Experience Cloud](https://helpx.adobe.com/br/marketing-cloud.html?promoid=KAWSE)
-* [Troca de ideias](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Treinamento e tutoriais da Adobe](http://helpx.adobe.com/br/learning.html?promoid=KAUDK)
-* [Centro de soluções em destaque](https://www.adobe.com/br/marketing-cloud.html)
 
 ## Documentação do SDK {#section_3A500233347C4305AB545E298A827CEA}
 
 Além do guia do usuário, você pode baixar os SDKs (Software Development Kits), que incluem um pacote personalizado que inclui uma versão preenchida previamente do arquivo de configuração necessário para configurar o aplicativo no Adobe Mobile.
 
-As bibliotecas nativas são fornecidas para as seguintes plataformas:
+As bibliotecas nativas estão disponíveis para as seguintes plataformas:
 
 * [Android SDK 4.x para Soluções da Experience Cloud](/help/android/overview.md)
 * [iOS SDK 4.x para Soluções da Experience Cloud](/help/ios/overview.md)
@@ -91,13 +46,11 @@ As bibliotecas nativas são fornecidas para as seguintes plataformas:
 * [Componentes do Xamarin para o SDK 4.x das soluções da Experience Cloud](/help/xamarin/get-started.md)
 * [Universal Windows Platform SDK 4.x para Soluções da Experience Cloud](/help/universal-windows/overview.md)
 * [Windows 8.1 Universal App Store](/help/windows-appstore/overview.md)
-
-   * [Windows Visual Studio Extension para o SDK 4.x das Soluções da Experience Cloud](/help/windows-appstore/extensions/win-vse-4x.md)
-
+* [Windows Visual Studio Extension para o SDK 4.x das Soluções da Experience Cloud](/help/windows-appstore/extensions/win-vse-4x.md)
 * [BlackBerry 10 SDK 4.x para Soluções da Experience Cloud](/help/blackberry/overview.md)
 
 ## Introdução ao webinário do Adobe Mobile {#section_420EA66F39FE44B9B531ADF5F5465543}
 
 Assista ao webinário *Introdução ao Adobe Mobile*. ([Reproduzir](https://adobe.ly/PsxCFn))
 
-[  ![](assets/webinar.png) ](https://adobe.ly/PsxCFn)
+[![Imagem do link](assets/webinar.png)](https://adobe.ly/PsxCFn)
