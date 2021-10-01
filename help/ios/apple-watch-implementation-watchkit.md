@@ -38,7 +38,6 @@ Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Ad
 >* O aplicativo contendo
 >* O aplicativo WatchKit
 >* A extensão WatchKit
-
 >
 
 
