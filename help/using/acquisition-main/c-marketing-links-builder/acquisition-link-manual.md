@@ -1,17 +1,14 @@
 ---
 description: É possível criar links de marketing para adquirir novos usuários de aplicativos móveis de maneira rápida configurando manualmente os parâmetros do URL.
 keywords: dispositivos móveis
-seo-description: É possível criar links de marketing para adquirir novos usuários de aplicativos móveis de maneira rápida configurando manualmente os parâmetros do URL.
-seo-title: Criar links de aquisição manualmente
 solution: Experience Cloud,Analytics
 title: Criar links de aquisição manualmente
 topic-fix: Metrics
 uuid: d7709203-f793-4982-adaa-9c3c914aca2b
 exl-id: aef9fe3e-32dc-4ec0-9eda-f64cc5e486a3
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '475'
 ht-degree: 100%
 
 ---

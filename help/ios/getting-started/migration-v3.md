@@ -1,21 +1,18 @@
 ---
 description: Estas informações ajudam a migrar da versão 3.x ou 2.x da biblioteca do iOS para a versão 4.x.
-seo-description: Estas informações ajudam a migrar da versão 3.x ou 2.x da biblioteca do iOS para a versão 4.x.
-seo-title: Migração para a biblioteca 4.x do iOS
 solution: Experience Cloud,Analytics
 title: Migração para a biblioteca 4.x do iOS
 topic-fix: Developer and implementation
 uuid: 5668972b-f355-4e03-9df0-8c82ddf6809b
 exl-id: a58067e0-b6f4-4900-ba3f-7256d9259420
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '871'
 ht-degree: 100%
 
 ---
 
-# Migração para a biblioteca 4.x do iOS {#migrating-to-the-x-ios-library}
+# Migração para a biblioteca 4.x do iOS{#migrating-to-the-x-ios-library}
 
 Estas informações ajudam a migrar da versão 3.x ou 2.x da biblioteca do iOS para a versão 4.x.
 
@@ -192,7 +189,7 @@ No seu código, remova chamadas para os seguintes métodos:
 * `forceOffline`
 * `forceOnline`
 
-## Variável products {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
+## Variável products  {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
 Como a variável não está disponível nas regras de processamento, você pode usar a seguinte sintaxe para definir `products`produtos:
 

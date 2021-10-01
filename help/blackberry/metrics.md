@@ -1,28 +1,25 @@
 ---
 description: Estas são as métricas e as dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida, e um link para solucionar problemas de dados do ciclo de vida.
 keywords: android;biblioteca;móvel;sdk
-seo-description: Estas são as métricas e as dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida, e um link para solucionar problemas de dados do ciclo de vida.
-seo-title: Medições de ciclo de vida
 solution: Experience Cloud,Analytics
 title: Medições de ciclo de vida
 topic-fix: Developer and implementation
 uuid: 5a371f11-6521-410f-a01f-fc3b285b050f
 exl-id: d7436411-65bd-4cf7-ae3e-cec829a7690a
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '864'
 ht-degree: 77%
 
 ---
 
-# Métricas de ciclo de vida {#lifecycle-metrics}
+# Medições de ciclo de vida {#lifecycle-metrics}
 
 Estas são as métricas e as dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida, e um link para solucionar problemas de dados do ciclo de vida.
 
 Para obter mais informações, acesse a Base de conhecimento em [Solucionar problemas de dados do ciclo de vida](https://helpx.adobe.com/br/analytics/kb/troubleshoot-lifecycle-data.html).
 
-## Métricas de ciclo de vida e dimensões {#section_78F036C4296F4BA3A47C2044F79C86C1}
+## Medições e dimensões de ciclo de vida {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
 Quando configuradas, as métricas de ciclo de vida são enviadas em parâmetros de dados de contexto para o Analytics, em parâmetros para o Target com cada chamada de mbox e como um sinal para gerenciamento de público alvo. O Analytics e o Target usam o mesmo formato, enquanto o gerenciamento de público-alvo usa um prefixo diferente para cada métrica.
 

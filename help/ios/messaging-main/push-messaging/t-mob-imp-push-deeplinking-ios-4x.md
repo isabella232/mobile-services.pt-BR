@@ -1,17 +1,14 @@
 ---
 description: Depois de configurar o URL de deep linking na interface do usuário do Adobe Mobile Services, este URL estará na carga de envio com a chave adb_deeplink.
-seo-description: Depois de configurar o URL de deep linking na interface do usuário do Adobe Mobile Services, este URL estará na carga de envio com a chave adb_deeplink.
-seo-title: Implementação de mensagens de push com deep linking
-title: Implementação de mensagens de push com deep linking
+title: Implementar mensagens de push com deep linking
 uuid: ee9590fc-8bd3-4111-9221-9011d9edbd84
-translation-type: tm+mt
-source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
+exl-id: c9ca955c-506f-45fe-82d6-fad2f9a80130
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 93%
+source-wordcount: '160'
+ht-degree: 96%
 
 ---
-
 
 # Implementar mensagens por push com deep linking {#implement-push-messaging-with-deep-linking}
 
@@ -73,4 +70,3 @@ Por exemplo:
     ... 
 }
 ```
-

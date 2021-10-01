@@ -1,21 +1,18 @@
 ---
 description: Lista de métodos do Audience Manager fornecida pela biblioteca da plataforma Universal Windows.
-seo-description: Lista de métodos do Audience Manager fornecida pela biblioteca da plataforma Universal Windows.
-seo-title: Métodos do Audience Manager
 solution: Experience Cloud,Analytics
 title: Métodos do Audience Manager
 topic-fix: Developer and implementation
 uuid: efbe8f33-7f53-40a6-b7aa-a36ac718c047
 exl-id: a7b4001d-d90f-4a8a-a801-d66e56ea43b5
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 43%
+source-wordcount: '261'
+ht-degree: 44%
 
 ---
 
-# Métodos do Audience Manager {#audience-manager-methods}
+# Métodos do Audience Manager{#audience-manager-methods}
 
 Lista de métodos do Audience Manager fornecida pela biblioteca da plataforma Universal Windows.
 

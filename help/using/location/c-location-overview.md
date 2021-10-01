@@ -1,22 +1,19 @@
 ---
 description: O relatório Visão geral de localização permite visualizar os diferentes países, regiões e Pontos de interesse nos quais seu aplicativo está sendo usado.
 keywords: dispositivos móveis
-seo-description: O relatório Visão geral de localização permite visualizar os diferentes países, regiões e Pontos de interesse nos quais seu aplicativo está sendo usado.
-seo-title: Visão geral (Localização)
 solution: Experience Cloud,Analytics
 title: Visão geral (Localização)
 topic-fix: Reports,Metrics
 uuid: a701abc3-001b-4015-843f-5fb2c6c80d17
 exl-id: 9a9f4f64-251f-48d4-a838-af14a357c575
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '556'
 ht-degree: 100%
 
 ---
 
-# Visão geral (localização) {#overview-location}
+# Visão geral (Localização){#overview-location}
 
 O relatório **[!UICONTROL Visão geral de localização]** permite visualizar os diferentes países, regiões e Pontos de interesse (POIs) nos quais seu aplicativo está sendo usado.
 

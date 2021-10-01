@@ -1,21 +1,18 @@
 ---
-description: Você pode anexar arquivos de imagem às notificações do Android. Adicionar componentes visuais pode aumentar significativamente o envolvimento do usuário com notificações por push.
-seo-description: Você pode anexar arquivos de imagem às notificações do Android. Adicionar componentes visuais pode aumentar significativamente o envolvimento do usuário com notificações por push.
-seo-title: Receber notificações por push avançadas
+description: Você pode anexar arquivos de imagem às notificações do Android. A adição de componentes visuais pode aumentar significativamente a participação do usuário com as notificações por push.
 title: Receber notificações por push avançadas
 uuid: 4a0340a6-666b-49b6-907a-9afc966dfdba
-translation-type: tm+mt
-source-git-commit: dca3663986b3ecc6e9fb736cc99513279715225c
+exl-id: 5776411c-aa0e-4e67-83aa-e78f5d1ed4f7
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 60%
+source-wordcount: '191'
+ht-degree: 68%
 
 ---
 
-
 # Receber notificações por push avançadas {#receive-rich-push-notifications}
 
-Você pode anexar arquivos de imagem às notificações do Android. Adicionar componentes visuais pode aumentar significativamente o envolvimento do usuário com notificações por push.
+Você pode anexar arquivos de imagem às notificações do Android. A adição de componentes visuais pode aumentar significativamente a participação do usuário com as notificações por push.
 
 ## Gerenciar a mensagem de push de entrada detalhada (FCM) {#section_AF1A3BC2312C4E1DA517CC90296C11E2}
 
@@ -101,4 +98,4 @@ Na seguinte imagem, há um exemplo de uma notificação por push detalhada:
 
 ![](assets/rich-push-notification_example.png)
 
-For more information about rich push notifications with Android, see [Engage with Rich Notifications](https://developer.android.com/distribute/best-practices/engage/rich-notifications.html).
+Para obter mais informações sobre notificações por push avançadas com o Android, consulte [Engajar com notificações avançadas](https://developer.android.com/distribute/best-practices/engage/rich-notifications.html).

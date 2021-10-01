@@ -1,17 +1,14 @@
 ---
 description: Os profissionais de marketing podem criar links de rastreamento para promover e direcionar o tráfego para seus aplicativos. Esses links de rastreamento podem direcionar usuários para app stores, deep links de aplicativos e intersticiais, que podem ser correlacionados ao comportamento no aplicativo. Um comerciante pode criar um link para direcionar usuários para iOS, Android ou outras plataformas conforme apropriado.
 keywords: dispositivos móveis
-seo-description: Os profissionais de marketing podem criar links de rastreamento para promover e direcionar o tráfego para seus aplicativos. Esses links de rastreamento podem direcionar usuários para app stores, deep links de aplicativos e intersticiais, que podem ser correlacionados ao comportamento no aplicativo. Um comerciante pode criar um link para direcionar usuários para iOS, Android ou outras plataformas conforme apropriado.
-seo-title: Aquisição
 solution: Experience Cloud,Analytics
 title: Aquisição
 topic-fix: Metrics
 uuid: 987146e4-2cca-46e7-88aa-74b62d9f1dc5
 exl-id: ed0842a8-e3cb-4c5a-b001-c0ea3ca69583
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '448'
 ht-degree: 100%
 
 ---

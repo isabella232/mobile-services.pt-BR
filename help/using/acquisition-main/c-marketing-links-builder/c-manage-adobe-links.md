@@ -1,22 +1,19 @@
 ---
 description: Você pode usar a página Marketing Links para criar, usar e arquivar links de marketing.
 keywords: dispositivos móveis
-seo-description: Você pode usar a página Marketing Links para criar, usar e arquivar links de marketing.
-seo-title: Gerenciar links de marketing
 solution: Experience Cloud,Analytics
 title: Gerenciar links de marketing
 topic-fix: Metrics
 uuid: 98ac3520-89ed-4513-83f6-120dda9d0157
 exl-id: 678c18fe-b282-4eab-a248-e00dfd53cecd
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '185'
 ht-degree: 100%
 
 ---
 
-# Gerenciar links de marketing {#manage-marketing-links}
+# Gerenciar links de marketing{#manage-marketing-links}
 
 Você pode usar a página Marketing Links para criar, usar e arquivar links de marketing.
 

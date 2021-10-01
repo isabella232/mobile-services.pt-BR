@@ -1,22 +1,19 @@
 ---
 description: Estas informações ajudam você a compreender e usar o Adobe Mobile Services.
 keywords: dispositivos móveis
-seo-description: Estas informações ajudam você a compreender e usar o Adobe Mobile Services.
-seo-title: Introdução
 solution: Experience Cloud,Analytics
 title: Introdução
 topic-fix: Metrics
 uuid: a7ae7c5a-dab8-4603-b4cd-af73a2f09f71
 exl-id: 0c08e154-8747-45dc-9731-ab2a3e78bc5a
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 100%
+source-wordcount: '1344'
+ht-degree: 97%
 
 ---
 
-# Introdução {#getting-started}
+# Introdução{#getting-started}
 
 Estas informações ajudam você a compreender e usar o Adobe Mobile Services.
 
@@ -114,7 +111,7 @@ Para obter mais informações sobre como criar mensagens no aplicativo, consulte
 
 Em *Otimizar*, você pode otimizar as conversões (subscrições, comércio, receita de anúncios e assim por diante) e melhorar a retenção do cliente. Otimizar a experiência do usuário em seu aplicativo pode ajudá-lo a personalizar seu conteúdo para aumentar o ROI e a conversão.
 
-Para obter mais informações sobre como testar o Adobe Target, vá para [Adobe Target](https://docs.adobe.com/content/help/pt-BR/target/using/target-home.html).
+Para obter mais informações sobre testes e Adobe Target, consulte a documentação do [Adobe Target](https://docs.adobe.com/content/help/pt-BR/experience-cloud/user-guides/home.translate.html).
 
 ### Geolocalização
 
@@ -161,4 +158,4 @@ O SDK do Adobe Mobile oferece os seguintes recursos:
    * Minimiza a carga de processamento do dispositivo para enviar dados para servidores da Adobe e sistemas de terceiros.
    * O formato reduzido minimiza o tamanho do pacote do aplicativo enviado às lojas de aplicativos.
 
-Para obter mais informações sobre os SDKs do Adobe Mobile, consulte [Android SDK 4.x para Soluções da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/mobile-services/android/overview.html) e [iOS SDK 4.x para Soluções da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/mobile-services/ios/rel-notes.html).
+Para obter mais informações sobre os SDKs do Adobe Mobile, consulte [Android SDK 4.x para Soluções da Experience Cloud](/help/android/overview.md) e [iOS SDK 4.x para Soluções da Experience Cloud](/help/ios/overview.md).

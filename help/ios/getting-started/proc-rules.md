@@ -1,30 +1,27 @@
 ---
-description: 'As Regras de processamento são usadas para copiar os dados enviados em variáveis de dados de contexto para evars, props e outras variáveis de relatório. '
-seo-description: 'As Regras de processamento são usadas para copiar os dados enviados em variáveis de dados de contexto para evars, props e outras variáveis de relatório. '
-seo-title: Regras de processamento e dados de contexto
+description: As regras de processamento são usadas para copiar os dados enviados em variáveis de dados de contexto para eVars, props e outras variáveis para relatórios.
 solution: Experience Cloud,Analytics
 title: Regras de processamento e dados de contexto
 topic-fix: Developer and implementation
 uuid: 51338ccd-fa52-4d9c-97c4-947a4100465d
 exl-id: a3968160-42c4-4671-b541-c14639b8a451
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: '272'
+ht-degree: 70%
 
 ---
 
 # Regras de processamento e dados de contexto {#processing-rules-and-context-data}
 
-As Regras de processamento são usadas para copiar os dados enviados em variáveis de dados de contexto para evars, props e outras variáveis de relatório. 
+As regras de processamento são usadas para copiar os dados enviados em variáveis de dados de contexto para eVars, props e outras variáveis para relatórios.
 
 Para obter mais informações, consulte o seguinte conteúdo:
 
 * [Treinamento em regras de processamento](https://tv.adobe.com/embed/1181/16506/) na Conferência de 2013
 * Receber autorização para usar as regras de processamento
 
-   Para obter mais informações sobre regras de processamento, consulte [Visão geral das regras de processamento](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+   Para obter mais informações sobre regras de processamento, consulte [Visão geral das regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) na documentação do Adobe Analytics.
 
 Ao trabalhar com as regras de processamento, lembre-se das seguintes informações:
 
@@ -40,7 +37,7 @@ Ao trabalhar com as regras de processamento, lembre-se das seguintes informaçõ
 
 * As variáveis de dados de contexto são classificadas alfabeticamente na interface de regras de processamento, o que permite que você veja rapidamente quais variáveis estão no mesmo namespace.
 
-   Evite nomear chaves de dados de contexto usando o número de evar ou prop:
+   Evite nomear chaves de dados de contexto usando o número do eVar ou da propriedade:
 
    ```js
    "eVar1":"jimbo"

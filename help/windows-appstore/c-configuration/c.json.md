@@ -1,21 +1,18 @@
 ---
 description: Informações para ajudá-lo a usar o arquivo de Configuração JSON do ADBMobile.
-seo-description: Informações para ajudá-lo a usar o arquivo de Configuração JSON do ADBMobile.
-seo-title: Arquivo de configuração ADBMobileConfig.json
 solution: Experience Cloud,Analytics
 title: Arquivo de configuração ADBMobileConfig.json
 topic-fix: Developer and implementation
 uuid: a45b91cc-982e-4d6c-a4e4-d2e4b4fa7556
 exl-id: 520dffb8-ca47-444f-bbc9-f18413ddeb05
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 47%
+source-wordcount: '609'
+ht-degree: 46%
 
 ---
 
-# `ADBMobileConfig.json` arquivo de configuração  {#adbmobileconfig-json-config}
+# `ADBMobileConfig.json` arquivo de configuração {#adbmobileconfig-json-config}
 
 Informações para ajudá-lo a usar o arquivo de configuração `ADBMobile.json`.
 
@@ -43,7 +40,7 @@ Atualmente, o SDK é compatível com várias soluções da Adobe Experience Clou
 
 * **charset**
 
-   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte [s.charSet](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/config-vars/charset.html).
+   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte a variável [charSet](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/charset.html?lang=pt-BR) na documentação do Adobe Analytics.
 
 * **ssl**
 

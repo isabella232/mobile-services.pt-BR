@@ -1,23 +1,20 @@
 ---
-description: Métodos do iOS para componentes do Xamarin para SDK 4.x das soluções do Experience Cloud.
+description: Métodos do iOS para componentes do Xamarin para o SDK 4.x das soluções do Experience Cloud.
 keywords: Xamarin
-seo-description: Métodos do iOS para componentes do Xamarin para SDK 4.x das soluções do Experience Cloud.
-seo-title: Métodos do iOS
 solution: Experience Cloud
 title: Métodos do iOS
 uuid: d6a056db-80c1-44d0-970f-c961ad01b0bc
-translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+exl-id: 92897d08-2b66-4688-9870-c877bea53cfc
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1737'
 ht-degree: 70%
 
 ---
 
-
 # Métodos do iOS{#ios-methods}
 
-Métodos do iOS para componentes do Xamarin para SDK 4.x das soluções do Experience Cloud.
+Métodos do iOS para componentes do Xamarin para o SDK 4.x das soluções do Experience Cloud.
 
 ## Métodos de configuração {#section_405AA09390E346E5BB7B1F4E0F65F51E}
 
@@ -55,7 +52,7 @@ Métodos do iOS para componentes do Xamarin para SDK 4.x das soluções do Exper
 
 * **SetDebugLogging**
 
-   Define a preferência de registro de depuração como ativada.
+   Define a preferência do log de depuração como ativada.
 
    * Esta é a sintaxe para este método:
 
@@ -90,9 +87,9 @@ Métodos do iOS para componentes do Xamarin para SDK 4.x das soluções do Exper
    Retorna a representação de enumeração do status de privacidade do usuário atual.
    * `ADBMobilePrivacyStatus.OptIn` - as ocorrências são enviadas imediatamente.
    * `ADBMobilePrivacyStatus.OptOut` - as ocorrências serão descartadas.
-   * ADBMobilePrivacyStatus.Unknown - se o rastreamento offline estiver ativado, as ocorrências são salvas até o status de privacidade ser alterado para aceitar (e então as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas). Se o rastreamento offline estiver desativado, as ocorrências serão descartadas até que o status de privacidade seja alterado para opt in.
+   * ADBMobilePrivacyStatus.Unknown - se o rastreamento offline estiver ativado, as ocorrências são salvas até o status de privacidade ser alterado para aceitar (e então as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas). Se o rastreamento offline estiver desativado, as ocorrências são descartadas até o status de privacidade ser alterado para aceitar.
 
-   The default value is set in the [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
+   O valor padrão está definido em [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
 
    * Esta é a sintaxe para este método:
 
@@ -128,7 +125,7 @@ Métodos do iOS para componentes do Xamarin para SDK 4.x das soluções do Exper
 
 * **UserIdentifier**
 
-   Retorna o identificador de usuário personalizado se um identificador personalizado tiver sido definido. Retorna null se um identificador personalizado não estiver definido. O valor padrão é `null`.
+   Retorna o identificador do usuário personalizado se algum identificador personalizado estiver configurado. Retorna null se um identificador personalizado não estiver configurado. O valor padrão é `null`.
 
    * Esta é a sintaxe para este método:
 
@@ -144,7 +141,7 @@ Métodos do iOS para componentes do Xamarin para SDK 4.x das soluções do Exper
 
 * **SetUserIdentifier**
 
-   Retorna o identificador de usuário personalizado se um identificador personalizado tiver sido definido. Retorna null se um identificador personalizado não estiver definido. O valor padrão é `null`.
+   Retorna o identificador do usuário personalizado se algum identificador personalizado estiver configurado. Retorna null se um identificador personalizado não estiver configurado. O valor padrão é `null`.
 
    * Esta é a sintaxe para este método:
 
@@ -155,7 +152,7 @@ Métodos do iOS para componentes do Xamarin para SDK 4.x das soluções do Exper
    * Esta é a amostra de código para este método:
 
       ```objective-c
-      ADBMobile.SetUserIdentifier ("customUserIdentifier”); 
+      ADBMobile.SetUserIdentifier ("customUserIdentifier"); 
       ```
 
 * **GetVersion**
@@ -180,7 +177,7 @@ Métodos do iOS para componentes do Xamarin para SDK 4.x das soluções do Exper
 
    >[!TIP]
    >
-   >Este método é destinado a aplicativos que se registram para receber notificações enquanto estão em segundo plano e só deve ser chamado a partir do código executado enquanto o aplicativo está em segundo plano.
+   >Este método é destinado a aplicativos que realizam registros para receber notificações enquanto são executados em segundo plano e só deve ser chamado a partir do código executado enquanto o aplicativo está funcionando em segundo plano.
 
    * Esta é a sintaxe para este método:
 
@@ -214,7 +211,7 @@ Métodos do iOS para componentes do Xamarin para SDK 4.x das soluções do Exper
 
 * **TrackState**
 
-   Rastreia um estado de aplicativo com dados de contexto opcionais. Os estados são as visualizações que estão disponíveis no aplicativo, como &quot;tela de título&quot;, &quot;nível 1&quot;, &quot;pausa&quot; e assim por diante. Esses estados são semelhantes às páginas em um site, e `TrackState` as chamadas incrementam as visualizações da página.Se o estado estiver vazio, ele será exibido como &quot;app name app version (build)&quot; nos relatórios. If you see this value in reports, make sure you are setting state in each `TrackState` call.
+   Rastreia um estado de aplicativo com dados de contexto opcionais. Os estados são as exibições disponíveis no aplicativo, como &quot;tela inicial&quot;, &quot;nível 1&quot;, &quot;pausa&quot; e assim por diante. Esses estados são semelhantes às páginas em um site, e as chamadas `TrackState` incrementam as exibições de página. Se o estado estiver vazio, ele será exibido como &quot;nome do aplicativo versão do aplicativo (build)&quot; nos relatórios. Caso veja esse valor em relatórios, certifique-se de configurar o estado em cada chamada de `TrackState`.
 
    >[!TIP]
    >
@@ -236,7 +233,7 @@ Métodos do iOS para componentes do Xamarin para SDK 4.x das soluções do Exper
 
 * **TrackAction**
 
-   Rastreia uma ação no seu aplicativo. As ações são coisas que ocorrem no aplicativo e que você deseja avaliar, como &quot;mortes&quot;, &quot;nível ganho&quot;, &quot;subscrições de feed&quot; e outras métricas.
+   Rastreia uma ação no seu aplicativo. As ações são coisas que ocorrem no seu aplicativo e que deseja medir, como &quot;mortes&quot;, &quot;nível obtido&quot;, &quot;assinaturas de feed&quot; e outras métricas.
 
    >[!TIP]
    >
@@ -326,11 +323,11 @@ Métodos do iOS para componentes do Xamarin para SDK 4.x das soluções do Exper
 
 * **TrackLifetimeValueIncrease**
 
-   Adiciona valor ao valor do tempo de vida do usuário.
+   Adiciona uma quantia ao valor do ciclo de vida do usuário.
 
    * Esta é a sintaxe para este método:
 
-      public nbsp;static void TrackLifetimeValueIncrease(quantia de duplo, dados NSDictionary);
+      nbsp;public void TrackLifetimeValueIncrease(double amount, NSDictionary data);
 
    * Esta é a amostra de código para este método:
 
@@ -360,7 +357,7 @@ Métodos do iOS para componentes do Xamarin para SDK 4.x das soluções do Exper
 
 * **TrackTimedActionUpdate**
 
-   Transmita os dados para atualizar os dados de contexto associados à ação em questão. Os dados transmitidos são anexados aos dados existentes para a ação em questão e os substituem se a mesma chave já estiver definida para a ação.
+   Transmita dados para atualizar os dados de contexto associados à ação. Os dados transmitidos são anexados aos existentes para a ação em questão e os substituem se a mesma chave já estiver definida para a ação.
 
    >[!TIP]
    >
@@ -399,7 +396,7 @@ Métodos do iOS para componentes do Xamarin para SDK 4.x das soluções do Exper
 
 * **TrackingTimedActionExists**
 
-   Retorna se uma ação cronometrada está (ou não) em andamento.
+   Retorna se uma ação programada está (ou não) em andamento.
 
    * Esta é a sintaxe para este método:
 
@@ -464,7 +461,7 @@ Métodos do iOS para componentes do Xamarin para SDK 4.x das soluções do Exper
       var queueSize = ADBMobile.TrackingGetQueueSize(); 
       ```
 
-## Experience Cloud ID methods {#section_157919E46030443DBB5CED60D656AD9F}
+## Métodos de ID do Experience Cloud {#section_157919E46030443DBB5CED60D656AD9F}
 
 * **GetMarketingCloudID**
 
@@ -484,7 +481,7 @@ Métodos do iOS para componentes do Xamarin para SDK 4.x das soluções do Exper
 
 * **VisitorSyncIdentifiers**
 
-   Com a ID do Experience Cloud, é possível definir outras IDs do cliente para associar a cada visitante. A API de Visitante aceita várias IDs do cliente para o mesmo visitante, juntamente com um identificador de tipo de cliente para separar o escopo de diferentes IDs do cliente. Este método corresponde a setCustomerIDs na biblioteca do JavaScript.
+   Com a ID do Experience Cloud, é possível definir outras IDs do cliente para associar a cada visitante. A API de visitante aceita várias IDs do cliente para o mesmo visitante, juntamente com um identificador de tipo de cliente para separar o escopo de diferentes IDs do cliente. Este método corresponde a setCustomerIDs na biblioteca do JavaScript.
 
    * Esta é a sintaxe para este método:
 
@@ -503,7 +500,7 @@ Métodos do iOS para componentes do Xamarin para SDK 4.x das soluções do Exper
 
 * **TargetLoadRequest**
 
-   Sends request to your configured Target server and returns the string value of the offer generated in a `Action<NSDictionary>` callback.
+   Envia request para o servidor do Target configurado e retorna o valor da cadeia de caracteres da oferta gerada em um retorno de chamada `Action<NSDictionary>`.
 
    * Esta é a sintaxe para este método:
 
@@ -523,7 +520,7 @@ Métodos do iOS para componentes do Xamarin para SDK 4.x das soluções do Exper
 
 * **TargetCreateRequest**
 
-   Convenience constructor to create an `ADBTargetLocationRequest` object with the given parameters.
+   O construtor de conveniência cria um objeto `ADBTargetLocationRequest` com os parâmetros fornecidos.
 
    * Esta é a sintaxe para este método:
 
@@ -574,7 +571,7 @@ Métodos do iOS para componentes do Xamarin para SDK 4.x das soluções do Exper
 
 * **AudienceVisitorProfile**
 
-   Retorna o perfil do visitante obtido recentemente. Retorna nil se nenhum sinal tiver sido enviado ainda. Visitor profile is saved in `NSUserDefaults` for easy access across multiple launches of your app.
+   Retorna o perfil do visitante obtido recentemente. Retorna nil se nenhum sinal tiver sido enviado. O perfil do visitante é salvo em `NSUserDefaults` para facilitar o acesso em várias inicializações do aplicativo.
 
    * Esta é a sintaxe para este método:
 
@@ -622,7 +619,7 @@ Métodos do iOS para componentes do Xamarin para SDK 4.x das soluções do Exper
 
 * **AudienceSetDpidAndDpuuid**
 
-   Define dpid e dpuuid. Se dpid e dpuuid estiverem definidas, elas serão enviadas com cada sinal.
+   Define a dpid e a dpuuid. Se dpid e dpuuid estiverem definidas, elas serão enviadas com cada sinal.
 
    * Esta é a sintaxe para este método:
 
@@ -638,7 +635,7 @@ Métodos do iOS para componentes do Xamarin para SDK 4.x das soluções do Exper
 
 * **AudienceSignalWithData**
 
-   Sends audience management a signal with traits and get the matching segments returned in a `Action<NSDictionary>`  callback.
+   Envia ao gerenciamento de público-alvo um sinal com características e obtém os segmentos correspondentes retornados em um retorno de chamada `Action<NSDictionary>`.
 
    * Esta é a sintaxe para este método:
 
@@ -673,7 +670,7 @@ Métodos do iOS para componentes do Xamarin para SDK 4.x das soluções do Exper
 
 ## Vídeo {#section_CBCE1951CE204A108AD4CA7BB07C7F98}
 
-Para obter mais informações, consulte Análise [de](/help/ios/getting-started/dev-qs.md)vídeo.
+Para obter mais informações, consulte [Análise de vídeo](/help/ios/getting-started/dev-qs.md).
 
 * **MediaCreateSettings**
 

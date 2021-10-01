@@ -1,17 +1,14 @@
 ---
 description: Use o Android SDK para implementar o rastreamento de deep links adiados de terceiros.
-seo-description: Use o Android SDK para implementar o rastreamento de deep links adiados de terceiros.
-seo-title: Rastreamento de deep links adiados de terceiros
-title: Rastreamento de deep links adiados de terceiros
+title: Rastreamento de deep links deferidos de terceiros
 uuid: 4c798e47-7988-4a06-a191-6c4d05f6ee61
-translation-type: tm+mt
-source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
+exl-id: d8cbc679-a512-44db-8c30-6a029ff738ae
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '495'
 ht-degree: 84%
 
 ---
-
 
 # Rastreamento de deep links adiados de terceiros{#tracking-third-party-deferred-deep-links}
 
@@ -25,7 +22,7 @@ O Adobe Mobile SDK atualmente oferece suporte a deep linking em que o desenvolve
 
 Um criador de anúncios pode criar um anúncio no Facebook como um deep link. Quando os usuários clicam no anúncio, ele vai diretamente para as informações em que estão interessados no aplicativo. O deep link **não** é um URL de impressão digital. No entanto, durante a configuração do anúncio, existe uma opção para fornecer um URL de deep link de terceiros. Um desenvolvedor de aplicativos, que esteja usando os SDKs e os serviços do Adobe Mobile, deve inserir o URL de impressão digital do Adobe Mobile Services configurado neste campo. Se tudo estiver configurado corretamente, o SDK do Facebook transmite esse URL para o aplicativo quando ele for instalado ou iniciado.
 
-## Configuração dos SDKs {#section_834CD3109175432B8173ECB6EA7DE315}
+## Configurar os SDKs {#section_834CD3109175432B8173ECB6EA7DE315}
 
 Para preparar a adição do suporte ao deep linking do Facebook com o Adobe Mobile SDK, o desenvolvedor do aplicativo conclui as seguintes tarefas:
 
@@ -37,13 +34,13 @@ Para preparar a adição do suporte ao deep linking do Facebook com o Adobe Mobi
 
    Para obter mais informações, consulte [Configurar Deep Linking](https://developers.facebook.com/docs/app-ads/deep-linking#os).
 
-Se o aplicativo estiver configurado corretamente, a API `trackAdobeDeepLink()` deverá habilitar a coleta de informações de deep link da campanha de aquisição do Facebook e enviá-las para o Adobe Mobile Service. Se a ocorrência de instalação não tiver sido enviada ao Adobe Mobile Service na primeira inicialização, essas informações serão adicionadas à ocorrência do ciclo de vida. Caso contrário, ele será enviado como uma ocorrência de deep link Adobe.
+Se o aplicativo estiver configurado corretamente, a API `trackAdobeDeepLink()` deverá habilitar a coleta de informações de deep link da campanha de aquisição do Facebook e enviá-las para o Adobe Mobile Service. Se a ocorrência de instalação não tiver sido enviada para o Adobe Mobile Service na primeira inicialização, essas informações serão adicionadas à ocorrência do Lifecycle. Caso contrário, ele será enviado como uma ocorrência de deep link de Adobe.
 
 >[!TIP]
 >
 >Certifique-se de que o URL do deep link tenha uma chave com o nome `a.deeplink.id`. Se o parâmetro de ID do deep link não estiver no URL, os parâmetros de URL não serão anexados aos dados do contexto.
 
-Se o link pode ser atribuído a uma aquisição, o Adobe Mobile SDK armazenará os dados de aquisição do deep link do Facebook usado para chamar `trackAdobeDeepLink()`. Esses dados estarão disponíveis para o Adobe Mobile SDK em inicializações futuras. Se um retorno de chamada tiver sido registrado, o retorno de chamada Adobe também será usado para enviar os dados de volta ao cliente.
+Se o link pode ser atribuído a uma aquisição, o Adobe Mobile SDK armazenará os dados de aquisição do deep link do Facebook usado para chamar `trackAdobeDeepLink()`. Esses dados estarão disponíveis no Adobe Mobile SDK em inicializações futuras. Se uma chamada de retorno tiver sido registrada, a chamada de retorno do Adobe também será usada para enviar os dados de volta ao cliente.
 
 ## Habilitar deep linking em um aplicativo Android {#section_64C15E269E89424B8E3D029F88094620}
 
@@ -84,4 +81,3 @@ Se o link pode ser atribuído a uma aquisição, o Adobe Mobile SDK armazenará 
       ); 
    }
    ```
-

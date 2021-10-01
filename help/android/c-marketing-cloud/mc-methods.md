@@ -1,22 +1,19 @@
 ---
 description: Aqui estão os métodos do Serviço da Experience Cloud ID fornecidos pela biblioteca do Android.
 keywords: android;biblioteca;móvel;sdk
-seo-description: Aqui estão os métodos do Serviço da Experience Cloud ID fornecidos pela biblioteca do Android.
-seo-title: Métodos do Adobe Experience Platform Identity Service
 solution: Experience Cloud,Analytics
 title: Métodos do Adobe Experience Platform Identity Service
 topic-fix: Developer and implementation
 uuid: c5107a7e-273b-4f71-8738-4c603479b24c
 exl-id: 8eb98c3f-c6ef-4593-ad3a-f566f4d4b6a2
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 100%
+source-wordcount: '435'
+ht-degree: 97%
 
 ---
 
-# Métodos do Adobe Experience Platform Identity Service {#experience-cloud-id-service-methods}
+# Métodos do Adobe Experience Platform Identity Service{#experience-cloud-id-service-methods}
 
 Aqui estão os métodos do Serviço da Experience Cloud ID fornecidos pela biblioteca do Android.
 
@@ -26,7 +23,7 @@ Os métodos recebem o prefixo de acordo com a solução. Por exemplo, métodos d
 
 * **public static String appendToURL(final String URL)**
 
-   Acrescenta dados de visitantes da Adobe a uma cadeia de caracteres de URL para uso com a biblioteca JavaScript da Adobe. É necessário ter o Mobile SDK 4.12+ para usar esse método. Para obter mais informações, consulte [Anexar função de ajuda da ID de visitante](https://docs.adobe.com/content/help/pt-BR/id-service/using/id-service-api/methods/appendvisitorid.html).
+   Acrescenta dados de visitantes da Adobe a uma cadeia de caracteres de URL para uso com a biblioteca JavaScript da Adobe. É necessário ter o Mobile SDK 4.12+ para usar esse método. Para obter mais informações, consulte [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=pt-BR) na documentação do Adobe Experience Cloud Identity Service.
 
    >[!IMPORTANT]
    >

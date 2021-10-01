@@ -1,23 +1,20 @@
 ---
 description: Você pode usar o SDK da Adobe para coletar informações de identificação pessoal (PII) e enviá-las para um endpoint de terceiros.
-seo-description: Você pode usar o SDK da Adobe para coletar informações de identificação pessoal (PII) e enviá-las para um endpoint de terceiros.
-seo-title: Postbacks de PII
 title: Postbacks de PII
 uuid: 08f76a52-75dd-4fc1-b4cc-4f5eef93d0f7
-translation-type: tm+mt
-source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
+exl-id: 180c21f7-0fba-4b9b-ab7f-7afe81b85f38
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 88%
+source-wordcount: '157'
+ht-degree: 86%
 
 ---
-
 
 # Postbacks de PII {#pii-postbacks}
 
 Você pode usar o SDK da Adobe para coletar informações de identificação pessoal (PII) e enviá-las para um endpoint de terceiros.
 
-Quando quiser usar o SDK da Adobe para coletar PII, você deve enviar uma chamada de rastreamento de PII. Embora o uso dessa chamada habilite a coleta de dados PII, o SDK não envia automaticamente os dados para nenhum terminal Adobe. Um postback tipo PII precisa ser configurado no terminal apropriado.
+Quando quiser usar o SDK da Adobe para coletar PII, você deve enviar uma chamada de rastreamento de PII. Embora o uso dessa chamada habilite a coleta de dados PII, o SDK não envia automaticamente os dados para nenhum endpoint do Adobe. Um postback tipo PII precisa ser configurado no terminal apropriado.
 
 >[!TIP]
 >
@@ -39,4 +36,3 @@ Quando quiser usar o SDK da Adobe para coletar PII, você deve enviar uma chamad
    ```objective-c
    [ADBMobile collectPII data:nil];
    ```
-

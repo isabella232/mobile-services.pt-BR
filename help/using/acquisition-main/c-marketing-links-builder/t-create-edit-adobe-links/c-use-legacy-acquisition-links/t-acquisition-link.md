@@ -1,22 +1,19 @@
 ---
 description: Crie links da loja de aplicativos que permitem baixar os aplicativos diretamente da Apple App Store e do Google Play. Os links criados permitem que você atribua eventos de sucesso aos downloads.
 keywords: dispositivos móveis
-seo-description: Crie links da loja de aplicativos que permitem baixar os aplicativos diretamente da Apple App Store e do Google Play. Os links criados permitem que você atribua eventos de sucesso aos downloads.
-seo-title: Criação de um link de aquisição
 solution: Experience Cloud,Analytics
 title: Criação de um link de aquisição
 topic-fix: Metrics
 uuid: bb603013-fca9-44a2-820a-59e1c85d9444
 exl-id: bc351d1e-c7da-4418-ac5a-9e5f989dd566
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '470'
 ht-degree: 100%
 
 ---
 
-# Criação de um link de aquisição {#create-an-acquisition-link}
+# Criação de um link de aquisição{#create-an-acquisition-link}
 
 Crie links da loja de aplicativos que permitem baixar os aplicativos diretamente da Apple App Store e do Google Play. Os links criados permitem que você atribua eventos de sucesso aos downloads.
 

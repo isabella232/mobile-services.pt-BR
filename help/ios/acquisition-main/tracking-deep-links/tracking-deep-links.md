@@ -1,20 +1,17 @@
 ---
 description: Essas informações podem ser usadas para rastrear deep links e deep links deferidos nos aplicativos móveis usando o SDK do iOS do Adobe Mobile.
-seo-description: Essas informações podem ser usadas para rastrear deep links e deep links deferidos nos aplicativos móveis usando o SDK do iOS do Adobe Mobile.
-seo-title: Rastreamento de deep links
 solution: Experience Cloud,Analytics
 title: Rastreamento de deep links
 uuid: 08dc2820-7fd3-419f-ac2d-dcf12532578a
-translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+exl-id: a8b20233-d800-4318-ad4f-39229d8b3a5e
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '295'
 ht-degree: 100%
 
 ---
 
-
-# Rastreamento de deep links {#tracking-deep-links}
+# Rastreamento de deep links{#tracking-deep-links}
 
 Essas informações podem ser usadas para rastrear deep links e deep links deferidos nos aplicativos móveis usando o SDK do iOS do Adobe Mobile.
 
@@ -82,7 +79,7 @@ Essas chaves são variáveis pré-mapeadas para relatórios no Adobe Analytics. 
    }];
    ```
 
-## Informações públicas de deep link {#section_44600E9AA68D4A53AA0C14BD86CC5284}
+## Informações públicas do deep link {#section_44600E9AA68D4A53AA0C14BD86CC5284}
 
 ### Métodos
 
@@ -104,4 +101,3 @@ Essas chaves são variáveis pré-mapeadas para relatórios no Adobe Analytics. 
  */ 
 FOUNDATION_EXPORT NSString *const __nonnull ADBConfigKeyCallbackDeepLink;
 ```
-

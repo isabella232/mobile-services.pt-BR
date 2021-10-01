@@ -1,31 +1,28 @@
 ---
-description: O processo geral para avaliar vídeos é muito semelhante em todas as plataformas AppMeasurement. Esta seção fornece uma visão geral básica das tarefas do desenvolvedor junto com exemplos de código.
-seo-description: O processo geral para avaliar vídeos é muito semelhante em todas as plataformas AppMeasurement. Esta seção fornece uma visão geral básica das tarefas do desenvolvedor junto com exemplos de código.
-seo-title: Análise de vídeo
+description: O processo geral para medição de vídeo é muito parecido em todas as plataformas AppMeasurement. Esta seção fornece uma visão geral básica das tarefas do desenvolvedor junto com exemplos de código.
 title: Análise de vídeo
 uuid: 0d2731f3-77a9-4db1-9a8c-1e56c212ecb4
-translation-type: tm+mt
-source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+exl-id: 90da1a9e-2faa-429c-969e-869ebedf08cc
+source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 67%
+source-wordcount: '835'
+ht-degree: 68%
 
 ---
 
-
 # Análise de vídeo {#video-analytics}
 
-O processo geral para avaliar vídeos é muito semelhante em todas as plataformas AppMeasurement. Esta seção fornece uma visão geral básica das tarefas do desenvolvedor junto com exemplos de código.
+O processo geral para medição de vídeo é muito parecido em todas as plataformas AppMeasurement. Esta seção fornece uma visão geral básica das tarefas do desenvolvedor junto com exemplos de código.
 
-For more information about Video measurement, see the [Measuring audio and video in Adobe Analytics](https://docs.adobe.com/content/help/pt-BR/media-analytics/using/media-overview.html) guide.  A tabela a seguir lista os dados de mídia que são enviados para o Analytics. Use as regras de processamento para mapear os dados de contexto na coluna Variável de dados de contexto para uma variável do Analytics, conforme descrito na coluna Tipo de variável.
+Para obter mais informações sobre a Medição de vídeo, consulte o guia [Medição de mídia de transmissão no Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=pt-BR) .  A tabela a seguir lista os dados de mídia que são enviados para o Analytics. Use as regras de processamento para mapear os dados de contexto na coluna Variável de dados de contexto para uma variável do Analytics, conforme descrito na coluna Tipo de variável .
 
 ## Mapear eventos do player para variáveis do Analytics
 
 * **a.media.name**
 
-   (Obrigatório) Coleta o nome do vídeo, conforme especificado na implementação, quando um visitante visualização o vídeo de alguma forma.Você pode adicionar classificações para essa variável.
+   (Obrigatório) Coleta o nome do vídeo, conforme especificado na implementação, quando um visitante visualiza o vídeo de alguma forma. É possível adicionar classificações para essa variável.
 
-   **(Opcional)** A variável do Custom Insight fornece informações sobre definição de caminho de vídeo.
+   **(Opcional)** A variável Custom Insight fornece informações de definição de caminho de vídeo.
 
    * Nome da variável: eVar
       * Expiração padrão: visita
@@ -33,7 +30,7 @@ For more information about Video measurement, see the [Measuring audio and video
 
 * **a.media.name**
 
-   (**Opcional**) Fornece informações sobre o caminho do vídeo. A definição de caminho deve ser ativada para essa variável pelo ClientCare.
+   (**Opcional**) Fornece informações sobre o caminho do vídeo. O caminho deve ser habilitado para esta variável pelo Atendimento ao cliente.
 
    * Tipo de evento: Insight personalizado (s.prop)
    * Custom Insight (s.prop)
@@ -42,7 +39,7 @@ For more information about Video measurement, see the [Measuring audio and video
 
    (**Obrigatório**) Coleta dados de segmento do vídeo, incluindo o nome do segmento e a ordem na qual ele ocorre no vídeo. Essa variável é preenchida com a habilitação da variável `segmentByMilestones` durante o monitoramento de eventos de player de modo automático, ou ao configurar um nome de segmento personalizado durante o monitoramento manual dos eventos do player.
 
-   For example, when a visitor views the first segment in a video, SiteCatalyst might collect `1:M:0-25` in the Segments eVar. O método padrão de coleta de dados de vídeo coleta dados nos pontos de start de vídeo (play), início e fim do segmento (stop).
+   Por exemplo, quando um visitante exibe o primeiro segmento em um vídeo, o SiteCatalyst pode coletar `1:M:0-25` no eVar Segmentos. O método padrão de coleta de dados de vídeo coleta dados no início do vídeo (reproduzir), início do segmento e fim do vídeo (parar).
 
    O Analytics conta a primeira visualização de segmento no início do segmento, quando o visitante começa a assistir. As visualizações de segmento subsequentes ocorrem conforme o segmento começa.
 
@@ -51,7 +48,7 @@ For more information about Video measurement, see the [Measuring audio and video
 
 * **a.contentType**
 
-   Coleta dados sobre o tipo de conteúdo exibido por um visitante. Ocorrências enviadas por avaliação de vídeo recebem um tipo de conteúdo de &quot;vídeo&quot;. Essa variável não precisa ser reservada exclusivamente para rastreamento de vídeo. Quando outros conteúdos relatam tipos usando essa mesma variável, você pode analisar a distribuição de visitantes entre os diferentes tipos de conteúdo. Por exemplo, é possível marcar outros tipos de conteúdo por meio de valores como “artigo” ou “página do produto” com essa variável. Da perspectiva de avaliação do vídeo, o Tipo de conteúdo permite que você identifique visitantes de vídeo e, portanto, calcule as taxas de conversão do vídeo.
+   Coleta dados sobre o tipo de conteúdo exibido por um visitante. Ocorrências enviadas por avaliação de vídeo recebem um tipo de conteúdo de &quot;vídeo&quot;. Essa variável não precisa ser reservada exclusivamente para rastreamento de vídeo. Quando outros conteúdos relatam o tipo por meio da mesma variável, é possível analisar a distribuição de visitantes em tipos diferentes de conteúdo. Por exemplo, é possível marcar outros tipos de conteúdo por meio de valores como &quot;artigo&quot; ou &quot;página do produto&quot; com essa variável. Da perspectiva de avaliação do vídeo, o Tipo de conteúdo permite que você identifique visitantes de vídeo e, portanto, calcule as taxas de conversão do vídeo.
 
    * Tipo de variável: eVar
    * Expiração padrão: visualização de página
@@ -124,7 +121,7 @@ Para avaliar a reprodução de vídeo, os métodos `mediaPlay`, `mediaStop`, e `
 
 * **close**
 
-   Closes the media item named *`name`*.
+   Fecha o item de mídia com o nome *`name`*.
 
    * Esta é a sintaxe para este método:
 
@@ -140,7 +137,7 @@ Para avaliar a reprodução de vídeo, os métodos `mediaPlay`, `mediaStop`, e `
 
 * **play**
 
-   Plays the media item named *`name`* at the given *`offset`* (in seconds).
+   Reproduz o item de mídia chamado *`name`* no *`offset`* especificado (em segundos).
 
    * Esta é a sintaxe para este método:
 

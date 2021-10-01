@@ -1,17 +1,14 @@
 ---
 description: O Adobe Experience Platform Identity Service fornece uma ID de visitante universal em todas as soluções da Experience Cloud. O serviço de ID é exigido pelo Analytics para Target, heartbeat de vídeo e por futuras integrações da Experience Cloud.
-seo-description: O Adobe Experience Platform Identity Service fornece uma ID de visitante universal em todas as soluções da Experience Cloud. O serviço de ID é exigido pelo Analytics para Target, heartbeat de vídeo e por futuras integrações da Experience Cloud.
-seo-title: Experience Cloud ID
 solution: Experience Cloud,Analytics
 title: Experience Cloud ID
 topic-fix: Developer and implementation
 uuid: 13628ea8-3cd4-4cfc-8ff6-722c33f7813a
 exl-id: aa7db365-ad21-431f-bff6-2a6da212dd0c
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 100%
+source-wordcount: '230'
+ht-degree: 91%
 
 ---
 
@@ -21,11 +18,11 @@ O Adobe Experience Platform Identity Service fornece uma ID de visitante univers
 
 >[!TIP]
 >
->Não é necessário preencher a Experience Cloud ID, a menos que você esteja usando o serviço de identidade da Adobe Experience Platform. Para obter mais informações, consulte [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html).
-
-**Exige o SDK versão 4.3 ou posterior**
+>Não é necessário preencher a Experience Cloud ID, a menos que você esteja usando o serviço de identidade da Adobe Experience Platform. Para obter mais informações, consulte a documentação do [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR).
 
 ## Habilitar a Experience Cloud ID {#section_79F984271C3B4366B7B04F864F4FF8C2}
+
+Essas etapas exigem uma versão 4.3 ou posterior do SDK.
 
 1. Adicione a biblioteca ao projeto e implemente o ciclo de vida.
 

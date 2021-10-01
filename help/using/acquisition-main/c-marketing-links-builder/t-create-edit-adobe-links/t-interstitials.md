@@ -1,22 +1,19 @@
 ---
 description: É possível direcionar os usuários para um destino, dependendo se eles têm o aplicativo instalado (um deep link de aplicativo) ou não (para um site ou uma app store).
 keywords: dispositivos móveis
-seo-description: É possível direcionar os usuários para um destino, dependendo se eles têm o aplicativo instalado (um deep link de aplicativo) ou não (para um site ou uma app store).
-seo-title: Intersticiais
 solution: Experience Cloud,Analytics
 title: Intersticiais
 topic-fix: Metrics
 uuid: 7dce8ab2-2a5d-4384-ac1e-e31dfaa33654
 exl-id: b6d4588f-4f28-4c1b-9291-f4b9154d84f7
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '356'
 ht-degree: 100%
 
 ---
 
-# Intersticiais {#interstitials}
+# Intersticiais{#interstitials}
 
 É possível direcionar os usuários para um destino. Depende se eles têm o aplicativo instalado (um deep link de aplicativo) ou não (para um site ou uma app store). É melhor deixar a escolha do roteamento para os usuários. Os profissionais de marketing podem fornecer opções de usuário configurando uma página intersticial que mostra aos usuários os destinos de aterrissagem disponíveis.
 

@@ -1,16 +1,13 @@
 ---
 description: As ações cronometradas permitem medir o tempo no aplicativo e o tempo total entre o início e o fim de uma ação. O SDK calcula a quantidade de tempo em cada sessão e o tempo total entre sessões que levará para a ação ser concluída. É possível usar as ações cronometradas para definir segmentos e comparar o tempo de compra, o nível de passagem, o fluxo de finalização da compra e assim por diante.
-seo-description: As ações cronometradas permitem medir o tempo no aplicativo e o tempo total entre o início e o fim de uma ação. O SDK calcula a quantidade de tempo em cada sessão e o tempo total entre sessões que levará para a ação ser concluída. É possível usar as ações cronometradas para definir segmentos e comparar o tempo de compra, o nível de passagem, o fluxo de finalização da compra e assim por diante.
-seo-title: Ações cronometradas
 solution: Experience Cloud,Analytics
 title: Ações cronometradas
 topic-fix: Developer and implementation
 uuid: dbcbac5a-6345-49f6-b050-0db05292f005
 exl-id: 3499766b-55f6-4861-8291-2269d56ba983
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '335'
 ht-degree: 100%
 
 ---

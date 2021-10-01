@@ -1,18 +1,15 @@
 ---
 description: Essas informações ajudam a migrar das versões 3.x ou 2.x da biblioteca do Android para a versão 4.x.
 keywords: android;biblioteca;móvel;sdk
-seo-description: Essas informações ajudam a migrar das versões 3.x ou 2.x da biblioteca do Android para a versão 4.x.
-seo-title: Migrar para a biblioteca do Android 4.x
 solution: Experience Cloud,Analytics
 title: Migrar para a biblioteca do Android 4.x
 topic-fix: Developer and implementation
 uuid: 906e83bb-2faf-4aa2-ac9b-3fba6b833c7e
 exl-id: 8061c1ab-aaaf-4d4c-9bd5-b2f80b6b06a3
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 100%
+source-wordcount: '860'
+ht-degree: 99%
 
 ---
 
@@ -72,7 +69,7 @@ O novo arquivo `ADBMobileConfig.json` contém configurações globais específic
 }
 ```
 
-## Mover o arquivo de configuração e migrar para a versão 4 {#section_0B844235E0B04DD4B36976A73DB28FB5}
+## Mover o arquivo de configuração e migrando para a versão 4 {#section_0B844235E0B04DD4B36976A73DB28FB5}
 
 As tabelas a seguir listam as variáveis de configuração que você precisa mover para o arquivo de configuração.
 
@@ -187,6 +184,6 @@ Remova as chamadas para os seguintes métodos:
 * `forceOffline`
 * `forceOnline`
 
-## Variável products {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
+## Variável products  {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
 Para obter mais informações sobre a variável products, consulte [Variável products](/help/android/analytics-main/products/products.md).

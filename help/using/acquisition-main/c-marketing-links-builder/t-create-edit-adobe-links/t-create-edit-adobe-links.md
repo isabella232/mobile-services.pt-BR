@@ -1,18 +1,15 @@
 ---
 description: É possível criar ou editar links de marketing para incluir links profundos no seu aplicativo móvel ou site.
 keywords: dispositivos móveis
-seo-description: É possível criar ou editar links de marketing para incluir links profundos no seu aplicativo móvel ou site.
-seo-title: Criar ou editar links de marketing
 solution: Experience Cloud,Analytics
 title: Criar ou editar links de marketing
 topic-fix: Metrics
 uuid: 305a8265-38de-4d19-8c79-b3912f5aae7c
 exl-id: a9b5c98d-77c1-4a40-96e5-f9e234d55ec5
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 100%
+source-wordcount: '614'
+ht-degree: 96%
 
 ---
 
@@ -43,7 +40,7 @@ ht-degree: 100%
       As tags predefinidas a seguir estão disponíveis:
 
       * **Dados de contexto personalizados**
-Especifique a chave e o valor. Se você adicionar dados de contexto personalizados, é necessário criar uma regra de processamento. Para obter mais informações, consulte [Visão geral das regras de processamento](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+Especifique a chave e o valor. Se você adicionar dados de contexto personalizados, é necessário criar uma regra de processamento. Para obter mais informações, consulte [Visão geral das regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) na documentação do Adobe Analytics.
 
       * **Fonte**
 Especifique o referenciador original, por exemplo, “boletim informativo” ou “página inicial”.

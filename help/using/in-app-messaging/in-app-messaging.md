@@ -1,17 +1,14 @@
 ---
 description: Crie, gerencie e gere relatórios de mensagens no aplicativo e de push.
 keywords: dispositivos móveis
-seo-description: Crie, gerencie e gere relatórios de mensagens no aplicativo e de push.
-seo-title: Mensagens
 solution: Experience Cloud,Analytics
 title: Mensagens
 topic-fix: Metrics
 uuid: e32d3e35-2d09-4ddf-8919-75dc895abcb3
 exl-id: e6d076fc-3176-4591-8388-314b936c58cd
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '459'
 ht-degree: 100%
 
 ---
@@ -58,7 +55,7 @@ Para entender como funciona uma mensagem no aplicativo, veja a seguir algumas in
 * Mensagens ativas e completas oferecem relatórios sobre o total de visualizações, taxa de cliques e muito mais.
 * Estão disponíveis modelos para as mensagens personalizadas, o que permite criar facilmente sua própria mensagem no aplicativo.
 
-## Mensagens por push {#section_90555A55BCE7427A90B1577E14BEF51B}
+## mensagens por push {#section_90555A55BCE7427A90B1577E14BEF51B}
 
 As mensagens de push são enviadas aos usuários que optaram por receber notificações. Você pode direcionar essas mensagens de push aos usuários nos segmentos do Analytics ou em segmentos personalizados. Você pode usar mensagens de push para engajar novamente usuários passivos ou transmitir informações específicas de tempo e localização, uma vez que as mensagens aparecem fora do aplicativo.
 

@@ -1,17 +1,14 @@
 ---
 description: Ao personalizar relatórios, é possível que a ampla flexibilidade faça com que surjam algumas dúvidas em relação ao tipo de relatório que é mais adequado para obter os dados de que você necessita.
 keywords: dispositivos móveis
-seo-description: Ao personalizar relatórios, é possível que a ampla flexibilidade faça com que surjam algumas dúvidas em relação ao tipo de relatório que é mais adequado para obter os dados de que você necessita.
-seo-title: Tipos de relatórios
 solution: Experience Cloud,Analytics
 title: Tipos de relatórios
 topic-fix: Reports,Metrics
 uuid: 8747b11e-31b1-47bc-ad55-db5ab4ef7078
 exl-id: ba7af2f5-8c84-4c49-a793-5fbaa8947566
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '743'
 ht-degree: 100%
 
 ---
@@ -62,7 +59,7 @@ Relatórios classificados mostram a frequência com que as 50 principais dimens�
 
 ![](assets/ranked.png)
 
-## Gráfico de explosão solar    {#section_17A9842039174DE094A6B1E9837E35BB}
+## Gráfico de explosão solar   {#section_17A9842039174DE094A6B1E9837E35BB}
 
 Os relatórios em forma de raio de sol fornecem, por exemplo, o relatório base junto com os detalhamentos. A visualização usa a altura para mostrar a métrica e as diferenças de desempenho entre as métricas. Cada círculo concêntrico representa um segmento público alvo na categoria desse círculo. É possível realizar ações em um público alvo, como aplicar um filtro fixo, ocultar uma métrica e visualizar métricas.
 
@@ -85,7 +82,7 @@ Um relatório de Definição de caminho é baseado na análise de caminho e exib
 
 Cada nó, formado como uma caixa, representa um estado nos caminhos dos usuários em um aplicativo. Por exemplo, na ilustração acima, o nó superior representa o número de usuários que inicializaram o aplicativo e selecionaram uma foto na galeria.
 
-### Relatório de funil    {#section_AF3B0C899D844FC3AD1F91A2C452C92F}
+### Relatório de funil   {#section_AF3B0C899D844FC3AD1F91A2C452C92F}
 
 Os relatórios de funil permitem identificar onde os clientes abandonam uma campanha de marketing ou se desviam de um caminho de conversão definido ao interagirem com seu aplicativo móvel. Você também pode usar o relatório Funil para comparar as ações de segmentos diferentes.
 

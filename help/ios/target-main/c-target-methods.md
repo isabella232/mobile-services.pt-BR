@@ -1,17 +1,14 @@
 ---
 description: Esta é uma lista de métodos do Adobe Target fornecidos pela biblioteca do iOS.
-seo-description: Esta é uma lista de métodos do Adobe Target fornecidos pela biblioteca do iOS.
-seo-title: Métodos do iOS Target para Adobe Mobile Services
 solution: Experience Cloud,Analytics
 title: Métodos do Target para iOS
 topic-fix: Developer and implementation
 uuid: 692bcda1-02ba-4902-bd65-15888adf1952
 exl-id: ba03f865-970c-4b48-af35-749f05b273d8
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '629'
+ht-degree: 95%
 
 ---
 
@@ -82,7 +79,7 @@ NSString *const ADBTargetParameterMboxHost;
                           }];
       ```
 
-* **targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:requestLocationParameters:callback:**
+* **:defaultContent::orderParameters::requestLocationParameters:targetLoadRequestWithNameParametersmboxParameterescallback:**
 
    Envia uma solicitação para o servidor do Target configurado e retorna o valor da cadeia de caracteres da oferta gerada em um retorno de chamada.
 
@@ -154,7 +151,7 @@ NSString *const ADBTargetParameterMboxHost;
                                  }];
       ```
 
-      Para obter mais informações sobre a API subjacente do Target, consulte [Desenvolvedores do Adobe Target](https://docs.adobe.com/dev/products/target/reference/delivery.html).
+      Para obter mais informações sobre a API subjacente do Target, consulte a [Referência da API do Target](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target/target-api-reference-deprecated).
 
 
 
@@ -162,7 +159,7 @@ NSString *const ADBTargetParameterMboxHost;
 
 
 
-* **targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:callback**
+* **:defaultContent::orderParameters:targetLoadRequestWithNameParametersmboxParameters:callback**
 
    Envia a solicitação para o servidor do Target configurado e retorna o valor da cadeia de caracteres da oferta gerada em um retorno de chamada de bloqueio.
 

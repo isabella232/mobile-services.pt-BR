@@ -1,16 +1,13 @@
 ---
 description: Esta informação ajuda a implementar a biblioteca do iOS e coletar medições de ciclo de vida, como inicializações, atualizações, sessões, usuários envolvidos e assim por diante.
-seo-description: Esta informação ajuda a implementar a biblioteca do iOS e coletar medições de ciclo de vida, como inicializações, atualizações, sessões, usuários envolvidos e assim por diante.
-seo-title: Implementação principal e ciclo de vida
 solution: Experience Cloud,Analytics
 title: Implementação principal e ciclo de vida
 topic-fix: Developer and implementation
 uuid: 96d06325-e424-4770-8659-4b5431318ee3
 exl-id: 5fb2d534-c2e8-480a-aaee-0e71dd55feb6
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '835'
 ht-degree: 100%
 
 ---

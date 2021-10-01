@@ -1,29 +1,26 @@
 ---
-description: Você pode anexar arquivos de imagem às notificações da Apple. A adição de componentes visuais pode aumentar significativamente o envolvimento dos usuários com as notificações por push.
-seo-description: Você pode anexar arquivos de imagem às notificações da Apple. A adição de componentes visuais pode aumentar significativamente o envolvimento dos usuários com as notificações por push.
-seo-title: Receber notificações por push avançadas
+description: Você pode anexar arquivos de imagem às notificações da Apple. A adição de componentes visuais pode aumentar significativamente a participação dos usuários com as notificações por push.
 title: Receber notificações por push avançadas
 uuid: 0dbda409-cf49-4eb8-90ee-baf27911dc07
-translation-type: tm+mt
-source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
+exl-id: 1167ae4b-04ad-4c0d-a9db-67d30693f697
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 35%
+source-wordcount: '203'
+ht-degree: 39%
 
 ---
 
-
 # Receber notificações por push avançadas {#receive-rich-push-notifications}
 
-Você pode anexar arquivos de imagem às notificações da Apple. A adição de componentes visuais pode aumentar significativamente o envolvimento dos usuários com as notificações por push.
+Você pode anexar arquivos de imagem às notificações da Apple. A adição de componentes visuais pode aumentar significativamente a participação dos usuários com as notificações por push.
 
-Para receber notificações por push avançadas em seu aplicativo iOS:
+Para receber notificações por push avançadas no seu aplicativo iOS:
 
 1. Implemente as mensagens por push para o aplicativo, completando as etapas em [Mensagens por push](/help/ios/messaging-main/push-messaging/push-messaging.md).
 1. Verifique se você pode enviar uma mensagem de push de texto para seu aplicativo.
-1. Adicione uma extensão do serviço de notificação completando as seguintes etapas:
+1. Adicione uma extensão de serviço de notificação completando as seguintes etapas:
 
-   1. In your Xcode project, select  **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
+   1. No seu projeto Xcode, selecione **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
    1. Selecione **[!UICONTROL Extensão do serviço de notificação]**.
    1. Verifique se o arquivo `NotificationService.m` existe.
 
@@ -75,4 +72,4 @@ Para receber notificações por push avançadas em seu aplicativo iOS:
       ```
 
 
-For more information about rich push notifications with iOS, see [UNNotificationAttachment](https://developer.apple.com/documentation/usernotifications/unnotificationattachment).
+Para obter mais informações sobre notificações por push avançadas no iOS, consulte [UNNotificationAttachment](https://developer.apple.com/documentation/usernotifications/unnotificationattachment).

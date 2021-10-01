@@ -1,17 +1,14 @@
 ---
 description: Você pode configurar as opções de experiência para mensagens de push e mensagens de push avançadas, incluindo as opções de nome, texto da mensagem e destino. Você também pode configurar opções avançadas, incluindo opções de carga e opções personalizadas para dispositivos iOS.
 keywords: dispositivos móveis
-seo-description: Você pode configurar as opções de experiência para mensagens de push e mensagens de push avançadas, incluindo as opções de nome, texto da mensagem e destino. Você também pode configurar opções avançadas, incluindo opções de carga e opções personalizadas para dispositivos iOS.
-seo-title: Experiência  mensagem por push
 solution: Experience Cloud,Analytics
 title: Experiência  mensagem por push
 topic-fix: Metrics
 uuid: 1a8baf3e-9fea-452c-b0fc-4ba8ac270861
 exl-id: 9158487e-6ac5-4f17-a8ff-15de0360ab60
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '763'
 ht-degree: 100%
 
 ---

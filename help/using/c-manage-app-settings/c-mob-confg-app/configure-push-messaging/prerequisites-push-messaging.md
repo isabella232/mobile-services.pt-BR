@@ -1,18 +1,15 @@
 ---
 description: Você deve concluir essas tarefas antes de configurar Mensagens de push nos aplicativos.
 keywords: dispositivos móveis
-seo-description: Você deve concluir essas tarefas antes de configurar Mensagens de push nos aplicativos.
-seo-title: Pré-requisitos para ativar as mensagens de push
 solution: Experience Cloud,Analytics
 title: Pré-requisitos para ativar as mensagens de push
 topic-fix: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
 exl-id: 543155a4-f687-48a6-8690-5c8da8490c62
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 100%
+source-wordcount: '633'
+ht-degree: 94%
 
 ---
 
@@ -58,7 +55,7 @@ Se os usuários não tiverem Adobe IDs, siga estas etapas:
 
 Cada usuário deve vincular a conta da solução do Analytics a partir da organização da Experience Cloud.
 
-1. Para fazer logon na Experience Cloud com uma Adobe ID, digite [https://marketing.adobe.com](https://marketing.adobe.com) em um navegador.
+1. Faça logon no [Adobe Experience Cloud](https://experience.adobe.com) com uma Adobe ID.
 
 1. No canto superior direito, selecione o nome da empresa do Analytics.
 
@@ -68,7 +65,7 @@ Cada usuário deve vincular a conta da solução do Analytics a partir da organi
 
    A Adobe ID agora está vinculada às suas credenciais de conta, empresa e logon do Analytics.
 
-Para obter mais informações, consulte [Resolução de problemas na vinculação da conta](https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/organizations.html).
+Para obter mais informações, consulte [Organizações no Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html) no guia Componentes da interface central do Experience Cloud.
 
 ## Configurar serviços de push e o serviço de ID do SDK na interface do usuário do Mobile
 

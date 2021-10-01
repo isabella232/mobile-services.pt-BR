@@ -1,17 +1,14 @@
 ---
 description: Para começar a usar o Device Co-op da Experience Cloud, entre em contato com o representante da Adobe.
-seo-description: Para começar a usar o Device Co-op da Experience Cloud, entre em contato com o representante da Adobe.
-seo-title: Device Co-op da Experience Cloud
 title: Device Co-op da Experience Cloud
 uuid: 434a6f8f-ec24-439d-95f0-a246b384b3b5
-translation-type: tm+mt
-source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
+exl-id: bf4f7a81-152c-4033-bcdf-22a939a3109e
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 100%
+source-wordcount: '282'
+ht-degree: 90%
 
 ---
-
 
 # Device Co-op da Experience Cloud {#experience-cloud-device-co-op}
 
@@ -23,7 +20,7 @@ Para habilitar seus aplicativos móveis para o Device Co-op da Experience Cloud,
 >
 >Esta funcionalidade exige a versão 4.8.5 ou posterior do SDK do iOS.
 
-A partir do SDK versão 4.16.1, os membros do Device Co-op podem excluir os dados do dispositivo móvel do Device Co-op da Experience Cloud. Para obter mais informações, consulte [ADBMobile JSON Config](/help/ios/configuration/json-config/json-config.md) e o `visitorAPI.js` método para [isCoopSafe](https://docs.adobe.com/content/help/pt-BR/id-service/using/id-service-api/configurations/coopsafe.html).
+A partir do SDK versão 4.16.1, os membros do Device Co-op podem excluir os dados do dispositivo móvel do Device Co-op da Experience Cloud. Para obter mais informações, consulte [ADBMobile JSON Config](/help/ios/configuration/json-config/json-config.md) e o método `visitorAPI.js` para [isCoopSafe](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/coopsafe.html) na documentação do Adobe Experience Cloud Identity Service.
 
 1. Implemente o SDK do Adobe Mobile.
 
@@ -50,5 +47,3 @@ Lembre-se das seguintes informações:
 
 * Quando `coopUnsafe` estiver definido como `true`, `coop_unsafe=1` sempre será anexado a ocorrências do Audience Manager e da ID do visitante.
 * Se você habilitar o encaminhamento pelo lado do servidor do Analytics para o Audience Manager, você também verá `coop_unsafe=1` em ocorrências do Analytics.
-
-

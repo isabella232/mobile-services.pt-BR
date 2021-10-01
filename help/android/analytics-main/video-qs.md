@@ -1,18 +1,15 @@
 ---
 description: Estas são algumas informações sobre a avaliação de vídeo no Android vindas da solução de avaliação de vídeo.
 keywords: android;biblioteca;móvel;sdk
-seo-description: Estas são algumas informações sobre a avaliação de vídeo no Android vindas da solução de avaliação de vídeo.
-seo-title: Análise de vídeo
 solution: Experience Cloud,Analytics
 title: Análise de vídeo
 topic-fix: Developer and implementation
 uuid: a137cc27-dc28-48c0-b08e-2ca17d2c7e1d
 exl-id: 1b7f5523-767a-45e8-b2e7-ecf9984849e4
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 100%
+source-wordcount: '866'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +19,7 @@ Estas são algumas informações sobre a avaliação de vídeo no Android vindas
 
 >[!TIP]
 >
->Durante a reprodução do vídeo, chamadas &quot;heartbeat&quot; frequentes são enviadas a esse serviço para medir o tempo reproduzido. Essas chamadas de heartbeat são enviadas a cada 10 segundos, o que resulta em métricas granulares de envolvimento com o vídeo e relatórios de repercussão de vídeo mais precisos. Para obter mais informações sobre a solução de medição de vídeos da Adobe, consulte [Medição de áudio e vídeo no Adobe Analytics](https://docs.adobe.com/content/help/pt-BR/media-analytics/using/media-overview.html).
+>Durante a reprodução do vídeo, chamadas &quot;heartbeat&quot; frequentes são enviadas a esse serviço para medir o tempo reproduzido. Essas chamadas de heartbeat são enviadas a cada 10 segundos, o que resulta em métricas granulares de envolvimento com o vídeo e relatórios de repercussão de vídeo mais precisos. Para obter mais informações sobre a solução de medição de vídeo Adobe0, consulte Medição de mídia de streaming no Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=pt-BR).[
 
 O processo geral para medição de vídeo é parecido em todas as plataformas. Este conteúdo oferece uma visão geral das tarefas do desenvolvedor com amostras de código. A tabela a seguir lista os dados de mídia que são enviados para o Analytics. As regras de processamento são usadas para mapear os dados de contexto para uma variável do Analytics.
 

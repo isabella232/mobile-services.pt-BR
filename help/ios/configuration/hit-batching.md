@@ -1,16 +1,13 @@
 ---
 description: O agrupamento de ocorrências permite que os aplicativos com rastreamento offline habilitado não as enviem até que o seu número na fila passe do limite configurável.
-seo-description: O agrupamento de ocorrências permite que os aplicativos com rastreamento offline habilitado não as enviem até que o seu número na fila passe do limite configurável.
-seo-title: Agrupamento de ocorrências
 solution: Experience Cloud,Analytics
 title: Agrupamento de ocorrências
 topic-fix: Developer and implementation
 uuid: 3dda7372-0695-4cb7-b779-6abca2d6e0d9
 exl-id: af21f435-13cb-4353-9fbb-c99274bce411
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '161'
 ht-degree: 100%
 
 ---

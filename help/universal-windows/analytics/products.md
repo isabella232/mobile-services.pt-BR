@@ -1,21 +1,18 @@
 ---
 description: A variável products não pode ser definida usando as regras de processamento. No SDK móvel, é necessário usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos diretamente na chamada do servidor.
-seo-description: A variável products não pode ser definida usando as regras de processamento. No SDK móvel, é necessário usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos diretamente na chamada do servidor.
-seo-title: 'Variável products '
 solution: Experience Cloud,Analytics
 title: 'Variável products '
 topic-fix: Developer and implementation
 uuid: 607983d6-48ac-4274-bfc8-b1ca4e5dad1b
 exl-id: 0575236c-9858-4bf9-a2ce-6e2667d58ddd
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '186'
 ht-degree: 7%
 
 ---
 
-# Variável products {#products-variable}
+# Variável products  {#products-variable}
 
 A variável products não pode ser definida usando as regras de processamento. No SDK móvel, é necessário usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos diretamente na chamada do servidor.
 

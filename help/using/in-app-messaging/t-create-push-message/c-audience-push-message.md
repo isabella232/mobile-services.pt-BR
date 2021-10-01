@@ -1,17 +1,15 @@
 ---
 description: É possível definir e configurar as opções de público-alvo para mensagens de push, incluindo as opções de intervalo de data, os segmentos do Analytics e os segmentos personalizados.
 keywords: dispositivos móveis
-seo-description: É possível definir e configurar as opções de público-alvo para mensagens de push, incluindo as opções de intervalo de data, os segmentos do Analytics e os segmentos personalizados.
-seo-title: Público Definir e configurar os segmentos de público para as mensagens por push
 solution: Experience Cloud,Analytics
 title: Público Definir e configurar os segmentos de público para as mensagens por push
 topic-fix: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
 exl-id: d1062a76-2e72-4649-8497-58617a7a47cb
-source-git-commit: af46d2ef6e8efaae32128384112fa5265d56de74
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 99%
+source-wordcount: '976'
+ht-degree: 98%
 
 ---
 
@@ -90,11 +88,10 @@ Estes são alguns exemplos para ajudar você a entender como definir segmentos c
 
    * Para obter mais informações sobre como solucionar problemas de mensagens de push, consulte o seguinte:
 
-      * [Mensagens por push no iOS](https://docs.adobe.com/content/help/pt-BR/mobile-services/ios/messaging-ios/push-messaging/push-messaging.html)
+      * [Mensagens por push no iOS](/help/ios/messaging-main/push-messaging/push-messaging.md)
+      * [Mensagens por push no Android](/help/android/messaging-main/push-messaging/push-messaging.md)
 
-      * [Mensagens por push no Android](https://docs.adobe.com/content/help/pt-BR/mobile-services/android/messaging-android/push-messaging/push-messaging.html)
-
-1. Digite informações nos seguintes campos:
+2. Digite informações nos seguintes campos:
 
    * **[!UICONTROL Durante os]**
 
@@ -110,7 +107,7 @@ Estes são alguns exemplos para ajudar você a entender como definir segmentos c
 
    * **[!UICONTROL Segmentos do Analytics]**
 
-      Selecione um segmento existente do Adobe Analytics na lista suspensa. Para obter mais informações consulte [Criação de segmentos](https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+      Selecione um segmento existente do Adobe Analytics na lista suspensa. Para obter mais informações, consulte o [Construtor de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=pt-BR) na documentação do Adobe Analytics.
 
    * **[!UICONTROL Segmentos personalizados]**
 

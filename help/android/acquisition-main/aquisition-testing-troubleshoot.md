@@ -1,14 +1,11 @@
 ---
 description: As informações seguintes ajudam a solucionar problemas de teste de aquisição.
 keywords: android;Acquisition;testing
-seo-description: As informações seguintes ajudam a solucionar problemas de teste de aquisição.
-seo-title: Resolução de problemas de teste de aquisição
 solution: Experience Cloud,Analytics
 title: Resolução de problemas de teste de aquisição
-translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '224'
 ht-degree: 100%
 
 ---
@@ -22,7 +19,7 @@ Veja a seguir alguns problemas que você pode enfrentar ao testar a aquisição 
 
 * O nome diferencia maiúsculas de minúsculas, portanto, não forneça um nome em letras minúsculas.
 
-   É necessário garantir que `Config.setContext(this.getApplicationContext())` seja chamada da atividade principal. Para obter mais informações, consulte [Métodos de configuração](https://docs.adobe.com/content/help/pt-BR/mobile-services/android/configuration-android/methods.html).
+   É necessário garantir que `Config.setContext(this.getApplicationContext())` seja chamada da atividade principal. Para obter mais informações, consulte [Métodos de configuração](../configuration/methods.md).
 
 * Há algumas permissões de usuário ausentes no arquivo AndroidManifest.xml fornecido, necessárias para enviar dados e gravar chamadas de rastreamento offline:
 
@@ -38,7 +35,7 @@ Veja a seguir alguns problemas que você pode enfrentar ao testar a aquisição 
 
    Para testes manuais, aumente o `referrerTimeout` para 10–15 segundos, para que haja tempo suficiente para enviar as informações do referenciador antes que a ocorrência de instalação seja processada.
 
-* É importante executar todas as etapas em [Testar a aquisição via link de publicidade](https://docs.adobe.com/content/help/pt-BR/mobile-services/android/acquisition-android/t-testing-marketing-link-acquisition.html) para garantir que você execute o shell `adb` e, em seguida, execute o seguinte:
+* É importante executar todas as etapas em [Testar a aquisição via link de publicidade](t-t-testing-marketing-link-acquisition.md) para garantir que você execute o shell `adb` e, em seguida, execute o seguinte:
 
    ```java
    am broadcast -a com.android.vending.INSTALL_REFERRER -n 

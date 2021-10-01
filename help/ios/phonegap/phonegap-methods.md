@@ -1,17 +1,14 @@
 ---
 description: É possível usar os métodos de plug-in do iOS PhoneGap para executar várias tarefas.
 keywords: phonegap
-seo-description: É possível usar os métodos de plug-in do iOS PhoneGap para executar várias tarefas.
-seo-title: Métodos do plug-in PhoneGap
 solution: Experience Cloud,Analytics
 title: Métodos do plug-in PhoneGap
 topic-fix: Developer and implementation
 uuid: bd830fe5-804a-4d0a-bbb6-99a6d8da6a03
 exl-id: 7ffdf008-1605-471f-93fb-f9c6b38a3bcb
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1715'
 ht-degree: 100%
 
 ---
@@ -591,7 +588,7 @@ Nos arquivos `html` em que deseja usar o rastreamento, adicione o código a segu
       ADB.targetThirdPartyID(function(value){alert(value);},function(value){alert('fail');}); 
       ```
 
-## Métodos de aquisição {#section_EDEA25C4B2884487827069E9257A0BA6}
+## Métodos de aquisição  {#section_EDEA25C4B2884487827069E9257A0BA6}
 
 * **acquisitionCampaignStartForApp**
 

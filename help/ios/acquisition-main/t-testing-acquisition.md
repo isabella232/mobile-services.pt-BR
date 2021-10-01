@@ -1,18 +1,15 @@
 ---
 description: As seguintes informações ajudam a redirecionar um link de campanha de aquisição de legado com base em uma impressão digital do dispositivo.
-seo-description: As seguintes informações ajudam a redirecionar um link de campanha de aquisição de legado com base em uma impressão digital do dispositivo.
-seo-title: Teste de aquisição de legado
 solution: Experience Cloud,Analytics
 title: Teste de aquisição de legado
 uuid: e0591f4a-e26b-4fe4-97c1-a6831a926fa5
-translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+exl-id: 431dc400-952a-4515-9d14-ba2efef4b2c4
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '251'
 ht-degree: 100%
 
 ---
-
 
 # Teste de aquisição de legado {#testing-legacy-acquisition}
 

@@ -1,17 +1,14 @@
 ---
 description: Estes são os métodos do Adobe Experience Platform Identity Service fornecidos pela biblioteca do iOS.
-seo-description: Estes são os métodos do Adobe Experience Platform Identity Service fornecidos pela biblioteca do iOS.
-seo-title: Métodos do Adobe Experience Platform Identity Service
 solution: Experience Cloud,Analytics
 title: Métodos do Adobe Experience Platform Identity Service
 topic-fix: Developer and implementation
 uuid: cdd307bc-8b7d-47a8-b77e-00902b9e2968
 exl-id: 82a246fc-f679-4fa5-b9c0-dc909a7e7d93
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 100%
+source-wordcount: '439'
+ht-degree: 96%
 
 ---
 
@@ -25,7 +22,7 @@ Métodos recebem o prefixo de acordo com a solução, e os métodos da Experienc
 
 * **`+`(nullable NSURL `*`)visitorAppendToURL:(nullable NSURL `*`)url;**
 
-   Acrescenta dados de visitantes da Adobe a uma cadeia de caracteres de URL para uso com a biblioteca JavaScript da Adobe. Para usar este método, você deve ter o SDK móvel versão 4.12 ou posterior. Para obter mais informações, consulte [Anexar função de ajuda da ID de visitante](https://docs.adobe.com/content/help/pt-BR/id-service/using/id-service-api/methods/appendvisitorid.html).
+   Acrescenta dados de visitantes da Adobe a uma cadeia de caracteres de URL para uso com a biblioteca JavaScript da Adobe. Para usar este método, você deve ter o SDK móvel versão 4.12 ou posterior. Para obter mais informações, consulte [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=pt-BR) na documentação do Adobe Experience Cloud Identity Service.
 
    >[!IMPORTANT]
    >

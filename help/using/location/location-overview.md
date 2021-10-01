@@ -1,17 +1,14 @@
 ---
 description: Visão geral da seção Localização.
-keywords: mobile
-seo-description: Visão geral da seção Localização.
-seo-title: Visão geral da Localização
+keywords: dispositivos móveis
 title: Visão geral da Localização
-translation-type: tm+mt
-source-git-commit: 41aa0a994bd0ad1e6f5421cf368d78b616ff9170
+exl-id: eaec9a06-8f5e-497e-8d03-d07374325909
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '98'
 ht-degree: 100%
 
 ---
-
 
 # Visão geral da Localização {#location-overview}
 

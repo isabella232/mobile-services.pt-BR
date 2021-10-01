@@ -1,16 +1,13 @@
 ---
 description: Definição e exemplos de código-fonte para o recurso Postbacks.
-seo-description: Definição e exemplos de código-fonte para o recurso Postbacks.
-seo-title: Exemplo de postback
 solution: Experience Cloud,Analytics
 title: Exemplo de postback
 topic-fix: Developer and implementation
 uuid: 809c5646-7a80-40df-984b-0af89d854259
 exl-id: 3ec5abf1-a406-48b6-91b1-fbcb0a9094ee
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '113'
 ht-degree: 100%
 
 ---
@@ -61,6 +58,6 @@ NSDictionary *contextData = @{@"user.name":@"bob", @"user.zip":@"90210"};
 [ADBMobile trackState:@"MainMenu" data:contextData];
 ```
 
-Como seu estado é `“MainMenu”`, essa chamada de rastreamento aciona a mensagem de postback acima. O URL substituirá todas as variáveis do modelo com valores da ocorrência. Supondo que a sessão anterior do usuário tenha sido de 132 segundos e que o usuário esteja no iOS SDK versão 4.6.0, o URL resultante seria como o do exemplo seguinte:
+Como seu estado é `"MainMenu"`, essa chamada de rastreamento aciona a mensagem de postback acima. O URL substituirá todas as variáveis do modelo com valores da ocorrência. Supondo que a sessão anterior do usuário tenha sido de 132 segundos e que o usuário esteja no iOS SDK versão 4.6.0, o URL resultante seria como o do exemplo seguinte:
 
 `https://my.server.com/?user=bob&zip=90210&c16=4.6.0-iOS&c27=cln,132`

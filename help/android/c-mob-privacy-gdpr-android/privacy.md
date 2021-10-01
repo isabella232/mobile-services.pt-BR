@@ -1,21 +1,18 @@
 ---
 description: Essas informações o ajudam com a solicitação de exclusão de dados do GDPR.
-seo-description: Essas informações o ajudam com a solicitação de exclusão de dados do GDPR.
-seo-title: Definição de status de opção do usuário
 solution: Experience Cloud,Analytics
 title: Definição de status de opção do usuário
 topic-fix: Developer and implementation
 uuid: f8a3e6be-44dd-494e-9cda-dbbac86d6772
 exl-id: ef5160ac-5a73-4433-b217-1bd990f8456b
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '251'
 ht-degree: 100%
 
 ---
 
-# Definição de status de opção do usuário {#setting-the-user-s-opt-status}
+# Definição de status de opção do usuário{#setting-the-user-s-opt-status}
 
 Essas informações o ajudam com a solicitação de exclusão de dados do GDPR.
 

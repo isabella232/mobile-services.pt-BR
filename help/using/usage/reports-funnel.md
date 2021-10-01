@@ -1,22 +1,19 @@
 ---
 description: O relatório de Funil permite identificar onde os clientes abandonaram uma campanha de marketing ou foram desviados de um caminho de conversão definido ao interagirem com o aplicativo móvel. Você também pode usar o relatório Funil para comparar as ações de segmentos diferentes.
 keywords: dispositivos móveis
-seo-description: O relatório de Funil permite identificar onde os clientes abandonaram uma campanha de marketing ou foram desviados de um caminho de conversão definido ao interagirem com o aplicativo móvel. Você também pode usar o relatório Funil para comparar as ações de segmentos diferentes.
-seo-title: Relatório de funil
 solution: Experience Cloud,Analytics
 title: Relatório de funil
 topic-fix: Reports,Metrics
 uuid: 268b4ab9-2e29-4423-9f79-ad93f5231ede
 exl-id: 43f9d0aa-0651-42c6-85ea-307ed253cf8d
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '484'
 ht-degree: 100%
 
 ---
 
-# Relatório de funil {#funnel}
+# Relatório de funil{#funnel}
 
 O relatório de **[!UICONTROL Funil]** permite identificar onde os clientes abandonaram uma campanha de marketing ou foram desviados de um caminho de conversão definido ao interagirem com o aplicativo móvel. Você também pode usar o relatório **[!UICONTROL Funil]** para comparar as ações de segmentos diferentes.
 

@@ -1,22 +1,19 @@
 ---
 description: Estas são as métricas e as dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida, e um link para solucionar problemas de dados do ciclo de vida.
 keywords: android;biblioteca;móvel;sdk
-seo-description: Estas são as métricas e as dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida, e um link para solucionar problemas de dados do ciclo de vida.
-seo-title: Medições de ciclo de vida
 solution: Experience Cloud,Analytics
 title: Medições de ciclo de vida
 topic-fix: Developer and implementation
 uuid: a8f3ebac-be3b-4948-82bb-105d46cfff6d
 exl-id: 1e50318d-894c-4039-ba45-71cb9edbc5b5
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1216'
 ht-degree: 100%
 
 ---
 
-# Métricas de ciclo de vida {#lifecycle-metrics}
+# Medições de ciclo de vida{#lifecycle-metrics}
 
 Esta seção fornece informações sobre as métricas e as dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida, e um link para solucionar problemas de dados do ciclo de vida. Para obter mais informações sobre solução de problemas, acesse [Solução de problemas de dados do ciclo de vida](https://helpx.adobe.com/br/analytics/kb/troubleshoot-lifecycle-data.html).
 
@@ -29,7 +26,7 @@ Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Ad
 * Para começar, acesse o Adobe Experience Platform Launch.
 * Para ver o conteúdo dos repositórios SDK da Experience Platform, acesse [Github: SDKs da Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
-## Métricas de ciclo de vida e dimensões {#section_78F036C4296F4BA3A47C2044F79C86C1}
+## Medições e dimensões de ciclo de vida {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
 Quando configuradas, as métricas de ciclo de vida são enviadas em parâmetros de dados de contexto para o Analytics, em parâmetros para o Target com cada chamada de mbox e como um sinal para gerenciamento de público alvo. O Analytics e o Target usam o mesmo formato, enquanto o gerenciamento de público-alvo usa um prefixo diferente para cada métrica.
 

@@ -1,16 +1,13 @@
 ---
 description: 'As informações a seguir ajudam a configurar o Android SDK, incluindo a configuração JSON, o agrupamento de ocorrências e os métodos do SDK '
-seo-description: 'As informações a seguir ajudam a configurar o Android SDK, incluindo a configuração JSON, o agrupamento de ocorrências e os métodos do SDK '
-seo-title: Visão geral da configuração
 solution: Experience Cloud,Analytics
 title: Visão geral da configuração
 topic-fix: Developer and implementation
 uuid: 207d6eae-7fc5-449d-b92b-c2d83e8e82b4
 exl-id: 6e16f15a-71c9-4f0d-ba45-f6c22e05b9c2
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '133'
 ht-degree: 100%
 
 ---

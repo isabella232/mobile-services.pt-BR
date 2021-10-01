@@ -1,14 +1,12 @@
 ---
 description: Esta informação ajuda a redirecionar um link de campanha de aquisição V3 com base em uma impressão digital do dispositivo.
-seo-description: Esta informação ajuda a redirecionar um link de campanha de aquisição V3 com base em uma impressão digital do dispositivo.
-seo-title: Teste da aquisição V3
 solution: Experience Cloud,Analytics
 title: Teste da aquisição V3
 uuid: 89137ccf-4839-4b37-926e-303cf8e511a5
 exl-id: 3cf66802-1f2c-428f-86ef-a9afc57e3470
-source-git-commit: 8db8f51a42acbbc0bbc4545b7d97cb214b490ab3
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '602'
 ht-degree: 100%
 
 ---

@@ -1,22 +1,19 @@
 ---
 description: O relatório Visão geral fornece um resumo das métricas principais.
 keywords: dispositivos móveis
-seo-description: O relatório Visão geral fornece um resumo das métricas principais.
-seo-title: Relatório de visão geral
 solution: Experience Cloud,Analytics
 title: Relatório de visão geral
 topic-fix: Reports,Metrics
 uuid: 5f7088af-4b25-4fe5-afda-4844597c78f9
 exl-id: db681d0e-b784-4415-b248-f92df5b780cc
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '104'
 ht-degree: 100%
 
 ---
 
-# Relatório de visão geral {#overview}
+# Relatório de visão geral{#overview}
 
 O relatório Visão geral fornece um resumo das métricas principais.
 

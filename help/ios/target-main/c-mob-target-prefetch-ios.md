@@ -1,17 +1,14 @@
 ---
 description: O recurso de busca prévia do Adobe Target usa o SDK móvel do iOS para buscar conteúdos em oferta a menor quantidade de vezes possível ao armazenar as respostas do servidor em cache.
-seo-description: O recurso de busca prévia do Adobe Target usa o SDK móvel do iOS para buscar conteúdos em oferta a menor quantidade de vezes possível ao armazenar as respostas do servidor em cache.
-seo-title: Realizar uma busca prévia por conteúdos em oferta no iOS
 title: Realizar uma busca prévia por conteúdos em oferta no iOS
 uuid: fef58042-65e2-4579-b8f1-d21554d2af57
-translation-type: tm+mt
-source-git-commit: fa7375ac8a1345d81748bcf635791c46d3943fed
+exl-id: 64d43be7-6bd1-4657-8154-5b2c1cbbf42b
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 86%
+source-wordcount: '731'
+ht-degree: 85%
 
 ---
-
 
 # Realizar uma busca prévia por conteúdos em oferta no iOS {#prefetch-offer-content-in-ios}
 
@@ -21,7 +18,7 @@ O recurso de busca prévia do Adobe Target usa o SDK móvel do iOS para buscar c
 >
 >A funcionalidade de busca prévia nos SDKs móveis para iOS não é compatível com os tipos de atividades de Destino automático, Alocação automática e Personalização automatizada no Adobe Target.
 
-Esse processo reduz o tempo de carregamento, impede várias chamadas de rede e permite que a Adobe Target seja notificada sobre qual mbox foi visitada pelo usuário do aplicativo móvel. Todo o conteúdo será recuperado e armazenado em cache durante a chamada de busca prévia, e esse conteúdo será recuperado do cache para todas as chamadas futuras que contenham conteúdo em cache para o nome da mbox especificada.
+Esse processo reduz o tempo de carregamento, previne várias chamadas de rede e permite que o Adobe Target seja notificado sobre qual mbox foi visitada pelo usuário do aplicativo móvel. Todo o conteúdo será recuperado e armazenado em cache durante a chamada da busca prévia, e esse conteúdo será recuperado do cache para todas as chamadas futuras que contenham conteúdo armazenado em cache para o nome da mbox especificado.
 
 O conteúdo da busca prévia não persiste entre inicializações. O conteúdo da busca prévia é armazenado em cache enquanto o aplicativo estiver executando ou até que o método `clearPrefetchCache()` seja chamado.
 
@@ -157,13 +154,13 @@ Encapsula o nome e os parâmetros da mbox usados na busca prévia da mbox.
 
 * **`orderParameters`**
 
-   Dicionário que contém os pares de valores chave dos parâmetros de ordem.
+   Dicionário que contém os pares de chave-valor para os parâmetros de ordem.
 
    * **Tipo**: NSDictionary*
 
 * **`productParameters`**
 
-   Dicionário que contém os pares de valores chave dos parâmetros do produto.
+   Dicionário que contém os pares de chave-valor para os parâmetros de produto.
 
    * **Tipo**: NSDictionary*
 
@@ -185,7 +182,7 @@ Essa classe encapsula o nome da mbox, o conteúdo padrão, os parâmetros da mbo
 
 * **`defaultContent`**
 
-   O conteúdo padrão que será retornado se os servidores de Públicos alvos estiverem inacessíveis.
+   O conteúdo padrão que será retornado se os servidores do Target não puderem ser acessados.
 
    * **Tipo**: NSString*
 

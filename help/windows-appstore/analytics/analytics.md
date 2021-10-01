@@ -5,11 +5,10 @@ title: Analytics
 topic-fix: Developer and implementation
 uuid: fa0ef6c4-c04d-4695-9eb4-ada4e9920e6c
 exl-id: 1a7b32b8-731d-4ae3-9feb-dafbb7495590
-translation-type: tm+mt
-source-git-commit: b9ee49ba26d4726b1f97ef36f5c2e9923361b1ee
+source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 20%
+source-wordcount: '952'
+ht-degree: 18%
 
 ---
 
@@ -28,29 +27,25 @@ Antes de adicionar o código, peça para que o administrador do Analytics conclu
 1. Abra **[!UICONTROL Ferramentas administrativas]** > **[!UICONTROL Report Suites]** e selecione os seus conjuntos de relatórios móveis.
 1. Clique em **[!UICONTROL Editar configurações]** > **[!UICONTROL Gerenciamento móvel]** > **[!UICONTROL Relatório de aplicativo móvel]**.
 
-   ![](assets/mobile-settings.png)
+   ![Configurações móveis](assets/mobile-settings.png)
 
 1. Clique em **[!UICONTROL Ativar os Relatórios de Aplicativo mais recentes]**.
 
    Opcionalmente, também é possível clicar em **[!UICONTROL Ativar o rastreamento de localização em dispositivos móveis]** e **[!UICONTROL Ativar os relatórios e atribuições herdados para ocorrências em segundo plano]**.
 
-   ![](assets/enable-lifecycle.png)
+   ![Ativar ciclo de vida](assets/enable-lifecycle.png)
 
 Agora, as medições de ciclo de vida estão prontas para serem capturadas, e os Relatórios de aplicativo móvel são exibidos no menu **[!UICONTROL Relatórios]** na interface dos relatórios de marketing.
-
 
 ### Novas versões
 
 Periodicamente, novas versões dos relatórios de aplicativos móveis são lançadas. As novas versões não são aplicadas automaticamente ao seu conjunto de relatórios, você deve repetir essas etapas para executar a atualização. Cada vez que você adiciona uma nova funcionalidade do Experience Cloud ao seu aplicativo, recomendamos repetir essas etapas para garantir que você tenha a configuração mais recente.
 
-
-## Métricas de ciclo de vida {#section_532702562A7A43809407C9A2CBA80E1E}
+## Medições de ciclo de vida {#section_532702562A7A43809407C9A2CBA80E1E}
 
 Para coletar medições de ciclo de vida no aplicativo, adicione chamadas para quando o aplicativo for ativado, como mostrado nos exemplos a seguir.
 
-
 ### WinJS no default.js
-
 
 ```js
 app.onactivated = function (args) { 
@@ -125,9 +120,7 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 
 Se `CollectLifecycleData()` for chamado duas vezes na mesma sessão, o aplicativo reportará uma falha em cada chamada após a primeira. O SDK define um sinalizador quando o aplicativo é desligado, indicando uma saída bem-sucedida. Se esse sinalizador não estiver definido, `CollectLifecyleData()` relata uma falha.
 
-
 ## Eventos, propriedades e eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
-
 
 Se você tiver observado o [ADBMobile Class and Method Reference](/help/windows-appstore/c-configuration/methods.md), provavelmente está se perguntando onde definir eventos, eVars, props, herdeiros e listas. Na versão 4, não é mais possível atribuir esses tipos de variáveis diretamente no aplicativo. Em vez disso, o SDK usa dados de contexto e regras de processamento para mapear os dados do aplicativo para as variáveis do Analytics para os relatórios.
 
@@ -139,16 +132,13 @@ As regras de processamento oferecem várias vantagens:
 
 Quaisquer valores atribuídos diretamente às variáveis devem ser adicionados aos dados de contexto.
 
-
 ## Regras de processamento {#section_66EE762EEA5E4728864166201617DEBF}
 
-As regras de processamento são usadas para copiar os dados enviados em variáveis de dados de contexto para evars, props e outras variáveis de relatório.
+As regras de processamento são usadas para copiar os dados enviados em variáveis de dados de contexto para eVars, props e outras variáveis de relatório.
 
 [Treinamento em regras de processamento](https://tv.adobe.com/embed/1181/16506/) na Conferência de 2013
 
-[Visão geral das regras de processamento](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/processing-rules/processing-rules.html)
-
-[Receber autorização para usar as regras de processamento](https://helpx.adobe.com/analytics/kb/processing-rules-authorization.html)
+[Visão geral das regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
 Recomendamos agrupar suas variáveis de dados de contexto usando &quot;namespaces&quot;, pois ajuda a manter uma ordem lógica. Por exemplo, se você quiser coletar informações sobre um produto, defina as seguintes variáveis:
 
@@ -160,7 +150,7 @@ Recomendamos agrupar suas variáveis de dados de contexto usando &quot;namespace
 
 As variáveis de dados de contexto são classificadas alfabeticamente na interface das regras de processamento, portanto, os namespaces permitem que você visualize rapidamente as variáveis que estão no mesmo namespace.
 
-Além disso, ouvimos que alguns de você estão nomeando chaves de dados de contexto usando o número de evar ou prop:
+Além disso, ouvimos que alguns de você estão nomeando chaves de dados de contexto usando o eVar ou número de propriedade:
 
 ```js
 "eVar1":"jimbo"
@@ -188,11 +178,11 @@ As variáveis de dados de contexto que definem eventos de incremento podem ter o
 >
 >A Adobe reserva o namespace `a.`. Além dessa pequena restrição, as variáveis de dados de contexto só precisam ser únicas no logon da empresa para evitar colisões.
 
-## Variável products {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
+## Variável products  {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
 Para definir *`products`* no SDK móvel, você deve usar uma sintaxe especial. Consulte [Variável de produtos](/help/windows-appstore/analytics/products/products.md).
 
-## (Opcional) Ative o rastreamento offline {#section_955B2A03EB854742BDFC4A0A3C287009}
+## (Opcional) Ativar o rastreamento offline {#section_955B2A03EB854742BDFC4A0A3C287009}
 
 Para armazenar ocorrências quando o dispositivo estiver offline, é possível ativar o rastreamento offline na [ADBMobileConfig.json config](/help/windows-appstore/c-configuration/methods.md). Antes de ativar o rastreamento offline, preste atenção aos requisitos do carimbo de data e hora descritos na referência do arquivo de configuração.
 

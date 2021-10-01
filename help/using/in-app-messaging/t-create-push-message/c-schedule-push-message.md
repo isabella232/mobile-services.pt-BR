@@ -1,17 +1,14 @@
 ---
 description: Na interface do usuário do Adobe Mobile Services, você pode agendar uma mensagem de push para ser entregue imediatamente, para ser entregue posteriormente e como um evento recorrente. Esses eventos podem ser agendados de forma diária, semanal ou mensal.
 keywords: dispositivos móveis
-seo-description: Na interface do usuário do Adobe Mobile Services, você pode agendar uma mensagem de push para ser entregue imediatamente, para ser entregue posteriormente e como um evento recorrente. Esses eventos podem ser agendados de forma diária, semanal ou mensal.
-seo-title: Programar mensagem por push
 solution: Experience Cloud,Analytics
 title: Programar mensagem por push
 topic-fix: Metrics
 uuid: 6810e27a-016f-4286-8fe2-9972d85fa326
 exl-id: 36f263a0-4aad-423e-bb78-9c532c98df19
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '684'
 ht-degree: 100%
 
 ---

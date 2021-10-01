@@ -1,22 +1,19 @@
 ---
 description: Esta é uma lista de métodos do Audience Manager fornecida pela biblioteca do Android.
 keywords: android;biblioteca;móvel;sdk
-seo-description: Esta é uma lista de métodos do Audience Manager fornecida pela biblioteca do Android.
-seo-title: Métodos do Audience Manager
 solution: Experience Cloud,Analytics
 title: Métodos do Audience Manager
 topic-fix: Developer and implementation
 uuid: 2f6e4664-1306-41d4-9fa7-e3a99f1df4ab
 exl-id: 707b40b8-e56e-4c26-8b59-87c5d71cad0c
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '277'
 ht-degree: 100%
 
 ---
 
-# Métodos do Audience Manager {#audience-manager-methods}
+# Métodos do Audience Manager{#audience-manager-methods}
 
 Esta é uma lista de métodos do Audience Manager fornecida pela biblioteca do Android.
 

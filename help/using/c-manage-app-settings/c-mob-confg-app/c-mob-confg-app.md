@@ -1,17 +1,14 @@
 ---
 description: 'Na página Gerenciar configurações do aplicativo, é possível fazer os seguintes tipos de alterações '
-seo-description: 'Na página Gerenciar configurações do aplicativo, é possível fazer os seguintes tipos de alterações '
-seo-title: Configuração do aplicativo
 title: Configuração do aplicativo
 uuid: c088e12d-73b6-40c4-b8cc-ec3bb3d3aa4a
-translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+exl-id: 52fd58ad-87b8-499b-9c46-c3176bcda37c
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 35%
+source-wordcount: '351'
+ht-degree: 31%
 
 ---
-
 
 # Configuração do aplicativo {#configuring-your-app}
 
@@ -25,9 +22,9 @@ Na página Gerenciar configurações do aplicativo, é possível fazer os seguin
 
       >[!TIP]
       >
-      >Caso tenha criado o conjunto de relatórios no Adobe Analytics, você deve habilitar os relatórios de ciclo de vida. Se você tiver criado o conjunto de relatórios no Adobe Mobile, essa opção será ativada por padrão.
+      >Caso tenha criado o conjunto de relatórios no Adobe Analytics, você deve habilitar os relatórios de ciclo de vida. Se você criou o conjunto de relatórios no Adobe Mobile, essa opção é ativada por padrão.
 
-      Este relatório permite medir as seguintes métricas:
+      Este relatório permite que você meça as seguintes métricas:
 
       * **Aquisição**
 
@@ -47,23 +44,23 @@ Na página Gerenciar configurações do aplicativo, é possível fazer os seguin
 
       * **Valor da duração**
 
-         Saiba como os usuários agregam valor ao longo do tempo usando os KPIs do aplicativo, como compras, visualizações de anúncios, vídeos concluídos, compartilhamentos sociais, uploads de fotos e muito mais.
+         Entenda como os usuários agregam valor ao longo do tempo usando KPIs de aplicativos, como compras, visualizações de anúncios, vídeos concluídos, compartilhamentos sociais, uploads de fotos e muito mais.
 
-      * **Eventos cronometrados**
+      * **Eventos agendados**
 
-         Meça o tempo (no aplicativo e o tempo total) entre as ações principais do aplicativo, como o tempo antes da primeira compra.
+         Meça o tempo (no aplicativo e o tempo total) entre ações-chave do aplicativo, como o tempo antes da primeira compra.
 
 
 * **Relatórios de localização**
 
-   Essa opção permite que você ative os relatórios para rastrear a latitude e a longitude e identificar Pontos de interesse (POIs) específicos. Você também pode rastrear sinais bluetooth (UUID, maior, menor e proximidade).
+   Essa opção permite ativar os relatórios para rastrear a latitude e a longitude e identificar Pontos de interesse (POIs) específicos. Também é possível rastrear sinais de bluetooth (UUID, maior, menor e proximidade).
 
-* **SDKs do aplicativo e ferramentas de testador do desenvolvedor**
+* **SDKs de aplicativos e ferramentas de teste do desenvolvedor**
 
    >[!IMPORTANT]
    >
    >Antes de baixar os SDKs e as ferramentas, você deve configurar as opções do SDK Analytics. Para obter mais informações, consulte [Configurar as opções do SDK Analytics](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md).
 
-   Quando você estiver pronto para atualizar para os SDKs 4.x, ou se estiver trabalhando em um novo aplicativo, baixe os SDKs e as ferramentas de desenvolvimento mais recentes na parte inferior da página Gerenciar configurações do aplicativo.
+   Quando estiver pronto para atualizar para os SDKs 4.x, ou se estiver trabalhando em um novo aplicativo, baixe os SDKs e as ferramentas de desenvolvimento mais recentes na parte inferior da página Gerenciar configurações do aplicativo.
 
-   Depois que a configuração for concluída, você poderá enviar o arquivo de configuração aos desenvolvedores para que os dados possam ser coletados corretamente. Se não estiver pronto para baixar os SDKs e as ferramentas agora, clique em Gerenciar configurações do aplicativo e clique no aplicativo para exibir a página Informações do aplicativo a qualquer momento.
+   Após a configuração ser concluída, você pode enviar o arquivo de configuração para seus desenvolvedores para que os dados possam ser coletados corretamente. Se não estiver pronto para baixar os SDKs e as ferramentas agora, clique em Gerenciar configurações do aplicativo e clique no aplicativo para exibir a página Informações do aplicativo a qualquer momento.

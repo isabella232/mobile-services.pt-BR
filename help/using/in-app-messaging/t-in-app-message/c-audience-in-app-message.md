@@ -1,17 +1,14 @@
 ---
 description: Você pode configurar as opções de público-alvo para mensagens no aplicativo, incluindo as opções de exibição, acionador e característica.
 keywords: dispositivos móveis
-seo-description: Você pode configurar as opções de público-alvo para mensagens no aplicativo, incluindo as opções de exibição, acionador e característica.
-seo-title: Público  Mensagem no aplicativo
 solution: Experience Cloud,Analytics
 title: Público  Mensagem no aplicativo
 topic-fix: Metrics
 uuid: 6c815d4c-7626-4cf4-9158-3f059c79317a
 exl-id: c85f2c0d-9c88-4d5a-8247-d8a101195d3a
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '567'
 ht-degree: 100%
 
 ---
@@ -48,7 +45,6 @@ Você pode configurar as opções de público-alvo para mensagens no aplicativo,
 
    * **[!UICONTROL Características]**
 Você pode determinar quem deve ver a mensagem no aplicativo quando acionada e filtrar (segmentar) o público alvo para ocorrências que tenham dados especificados. Por exemplo, é possível definir uma regra em que Pontos de interesse contenham Denver. Esse filtro permite que você mostre a mensagem aos clientes que estão em um de seus pontos de interesse com Denver no nome, no momento do acionador.
-
 
 
 ## Informações adicionais sobre características e acionadores {#section_48C39EFB8CAA4F62B994FCC91DF588E6}

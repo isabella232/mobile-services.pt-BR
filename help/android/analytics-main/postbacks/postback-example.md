@@ -1,17 +1,14 @@
 ---
 description: É possível usar essas informações para ajudá-lo a entender os postbacks e como eles funcionam.
 keywords: android;biblioteca;móvel;sdk
-seo-description: É possível usar essas informações para ajudá-lo a entender os postbacks e como eles funcionam.
-seo-title: Exemplo de postbacks
 solution: Experience Cloud,Analytics
 title: Exemplo de postbacks
 topic-fix: Developer and implementation
 uuid: 8010cd00-d42b-4e16-8403-692fab2550f1
 exl-id: 2ff41066-e2ee-425f-8aff-e5e3f3e5f0f5
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '128'
 ht-degree: 100%
 
 ---
@@ -64,6 +61,6 @@ contextData.put("user.zip", "90210");
 Analytics.trackState("MainMenu", contextData);
 ```
 
-Como seu estado é `“MainMenu”`, essa chamada de rastreamento aciona a mensagem de postback acima. O URL substituirá todas as variáveis do modelo com valores da ocorrência. Supondo que a sessão anterior do usuário era de 132 segundos e que o usuário utiliza a versão 4.6.0 do Android SDK, o URL resultante seria como o seguinte:
+Como seu estado é `"MainMenu"`, essa chamada de rastreamento aciona a mensagem de postback acima. O URL substituirá todas as variáveis do modelo com valores da ocorrência. Supondo que a sessão anterior do usuário era de 132 segundos e que o usuário utiliza a versão 4.6.0 do Android SDK, o URL resultante seria como o seguinte:
 
 `https://my.server.com/?user=bob&zip=90210&c16=4.6.0-AN&c27=cln,132`

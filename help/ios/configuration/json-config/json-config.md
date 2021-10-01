@@ -1,17 +1,14 @@
 ---
 description: Esta informação ajuda a usar o arquivo de configuração ADBMobile.json.
-seo-description: Esta informação ajuda a usar o arquivo de configuração ADBMobile.json.
-seo-title: Configuração JSON do ADBMobile
 solution: Experience Cloud,Analytics
 title: Configuração JSON do ADBMobile
 topic-fix: Developer and implementation
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
 exl-id: e3515de3-3aec-4dd0-996d-9c561ad1b1de
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 100%
+source-wordcount: '1708'
+ht-degree: 99%
 
 ---
 
@@ -73,7 +70,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
 
 * **charset**
 
-   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte [s.charSet](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/config-vars/charset.html).
+   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte a variável [charSet](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/charset.html?lang=pt-BR) na documentação do Adobe Analytics.
 
    * Versão mínima do SDK: 4.0
 
@@ -162,7 +159,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
    >A partir da versão 4.2, os POIs são definidos na interface do Adobe Mobile e sincronizados dinamicamente no arquivo de configuração do aplicativo. Esta sincronização exige a configuração `analytics.poi`:
 
    ```js
-   “analytics.poi”: “`https://assets.adobedtm.com/…/yourfile.json`”,
+   "analytics.poi": "`https://assets.adobedtm.com/…/yourfile.json`",
    ```
 
    Se esta configuração não estiver definida, o arquivo `ADBMobile.json` deve ser atualizado para incluir esta linha. Para baixar um arquivo de configuração atualizado, consulte [Antes de começar](/help/ios/getting-started/requirements.md).
@@ -275,8 +272,7 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
 
    * Versão mínima do SDK: 4.0
 
-
-## Exemplo de arquivo `ADBMobileConfig.json` {#section_52FA7C71A99147AFA9BE08D2177D8DA7}
+## Exemplo de arquivo `ADBMobileConfig.json`  {#section_52FA7C71A99147AFA9BE08D2177D8DA7}
 
 A seguir, há um exemplo de arquivo `ADBMobileConfig.json`:
 

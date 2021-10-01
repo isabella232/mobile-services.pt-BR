@@ -1,18 +1,15 @@
 ---
 description: É possível usar essas informações para rastrear deep links e deep links adiados nos aplicativos móveis com o Adobe Mobile Android SDK.
 keywords: android;biblioteca;móvel;sdk
-seo-description: É possível usar essas informações para rastrear deep links e deep links adiados nos aplicativos móveis com o Adobe Mobile Android SDK.
-seo-title: Rastreamento de deep links no Adobe Mobile Services
 solution: Experience Cloud,Analytics
 title: Rastreamento de deep links
 topic-fix: Developer and implementation
 uuid: ebb1c08c-a246-40b3-9ac6-4606a14b4c5a
 exl-id: 4f59b77d-3cac-4853-bb6b-50a403036771
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 100%
+source-wordcount: '302'
+ht-degree: 97%
 
 ---
 
@@ -55,7 +52,7 @@ Além disso, também é possível anexar uma ou mais das seguintes chaves reserv
 * `a.launch.campaign.term`
 * `a.launch.campaign.content`
 
-Essas chaves são variáveis pré-mapeadas para relatórios no Adobe Analytics. Para obter mais informações sobre regras de mapeamento e processamento, consulte [Regras de processamento e dados de contexto](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+Essas chaves são variáveis pré-mapeadas para relatórios no Adobe Analytics. Para obter mais informações sobre regras de mapeamento e processamento, consulte [Regras de processamento e dados de contexto](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
 ## Rastrear deep links adiados (para usar com links de marketing)
 

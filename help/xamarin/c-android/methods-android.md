@@ -1,23 +1,20 @@
 ---
-description: Métodos do Android para componentes do Xamarin para SDK das soluções do Experience Cloud 4.x.
+description: Métodos do Android para componentes do Xamarin para o SDK 4.x das soluções do Experience Cloud.
 keywords: Xamarin
-seo-description: Métodos do Android para componentes do Xamarin para SDK das soluções do Experience Cloud 4.x.
-seo-title: Métodos do Android
 solution: Experience Cloud
 title: Métodos do Android
 uuid: 860af1c4-f57e-4bcb-8308-4e316da9a27b
-translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+exl-id: 0de1fa11-37e9-49be-8d42-a13cb4a3f0e3
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1767'
-ht-degree: 67%
+source-wordcount: '1755'
+ht-degree: 68%
 
 ---
 
-
 # Métodos do Android{#android-methods}
 
-Métodos do Android para componentes do Xamarin para SDK das soluções do Experience Cloud 4.x.
+Métodos do Android para componentes do Xamarin para o SDK 4.x das soluções do Experience Cloud.
 
 ## Métodos de configuração {#section_405AA09390E346E5BB7B1F4E0F65F51E}
 
@@ -61,7 +58,7 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
    * `ADBMobilePrivacyStatus.OptOut` - as ocorrências serão descartadas.
    * `ADBMobilePrivacyStatus.Unknown` - se o rastreamento offline estiver ativado, as ocorrências são salvas até o status de privacidade ser alterado para aceitar (e então as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas). Se o rastreamento offline não estiver ativado, as ocorrências são descartadas até o status de privacidade ser alterado parar aceitar.
 
-   The default value is set in the [ADBMobileConfig.json](/help/android/configuration/json-config/json-config.md) file.
+   O valor padrão está definido no arquivo [ADBMobileConfig.json](/help/android/configuration/json-config/json-config.md).
 
    * Esta é a sintaxe para este método:
 
@@ -79,7 +76,7 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
 
 * **UserIdentifier**
 
-   Se um identificador personalizado tiver sido definido, retornará esse identificador. Se um identificador personalizado não estiver definido, retornará null. O valor padrão é `null`.
+   Se um identificador personalizado foi definido, retorna esse identificador. Se um identificador personalizado não estiver definido, retorna null. O valor padrão é `null`.
 
    * Esta é a sintaxe para este método:
 
@@ -112,7 +109,7 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
 
 * **PauseCollectingLifecycleData**
 
-   Indica ao SDK que o aplicativo está pausado, a fim de calcular corretamente as medições de ciclo de vida. Por exemplo, ao pausar coleta um carimbo de data e hora para determinar a duração da sessão anterior. Isso também define um sinalizador para que o ciclo de vida saiba corretamente que o aplicativo não falhou. Para obter mais informações, consulte [Medições de ciclo de vida](/help/android/metrics.md).
+   Indica ao SDK que o aplicativo está pausado, a fim de calcular corretamente as medições de ciclo de vida. Por exemplo, ao pausar, um carimbo de data e hora é coletado para determinar a duração da sessão anterior. Isso também define um sinalizador para que o ciclo de vida saiba que o aplicativo não parou de funcionar. Para obter mais informações, consulte [Medições de ciclo de vida](/help/android/metrics.md).
 
    * Esta é a sintaxe para este método:
 
@@ -126,9 +123,9 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
       Config.PauseCollectingLifecycleData();
       ```
 
-* **CollectLifecycleData (atividade de Atividade)**
+* **CollectLifecycleData (atividade Activity)**
 
-   (4.2 ou posterior) Indica ao SDK que os dados do ciclo de vida devem ser coletados para uso em todas as soluções no SDK. Para obter mais informações, consulte [Medições de ciclo de vida](/help/android/metrics.md).
+   (4.2 ou superior) Indica ao SDK que os dados do ciclo de vida devem ser coletados para uso em todas as soluções no SDK. Para obter mais informações, consulte [Medições de ciclo de vida](/help/android/metrics.md).
 
    * Esta é a sintaxe para este método:
 
@@ -142,9 +139,9 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
       Config.CollectLifecycleData (this);
       ```
 
-* **CollectLifecycleData (atividade de Atividade)**
+* **CollectLifecycleData (atividade Activity)**
 
-   (4.2 ou posterior) Indica ao SDK que os dados do ciclo de vida devem ser coletados para uso em todas as soluções no SDK. Para obter mais informações, consulte [Medições de ciclo de vida](/help/android/metrics.md).
+   (4.2 ou superior) Indica ao SDK que os dados do ciclo de vida devem ser coletados para uso em todas as soluções no SDK. Para obter mais informações, consulte [Medições de ciclo de vida](/help/android/metrics.md).
 
    * Esta é a sintaxe para este método:
 
@@ -163,7 +160,7 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
 
 * **OverrideConfigStream**
 
-   (4.2 ou posterior) Permite carregar um arquivo de `ADBMobile JSON` configuração diferente quando o aplicativo for start. A configuração diferente é utilizada até o aplicativo ser fechado.
+   (4.2 ou posterior) Permite carregar um arquivo de configuração `ADBMobile JSON` diferente quando o aplicativo é iniciado. A configuração diferente é utilizada até o aplicativo ser fechado.
 
    * Esta é a sintaxe para este método:
 
@@ -180,7 +177,7 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
 
 * **SetLargeIconResourceId(int resourceId)**
 
-   (4.2 ou posterior) Define o ícone grande usado para notificações criadas pelo SDK. Este ícone é a principal imagem exibida quando o usuário visualizar a notificação completa na central de notificações.
+   (4.2 ou superior) Define o ícone grande usado para notificações criadas pelo SDK. Este ícone é a principal imagem exibida quando o usuário visualizar a notificação completa na central de notificações.
 
    * Esta é a sintaxe para este método:
 
@@ -196,7 +193,7 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
 
 * **SetSmallIconResourceId(int resourceId)**
 
-   (4.2 ou posterior) Define o ícone pequeno usado para notificações criadas pelo SDK. Esse ícone é exibido na barra de status e é a imagem secundária mostrada quando o usuário visualiza a notificação completa na central de notificações.
+   (4.2 ou posterior) Define o ícone pequeno usado para notificações criadas pelo SDK. Esse ícone é exibido na barra de status e é a imagem secundária mostrada quando o usuário vê a notificação completa na central de notificações.
 
    * Esta é a sintaxe para este método:
 
@@ -214,7 +211,7 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
 
 * **TrackingIdentifier**
 
-   Retorna a ID gerada automaticamente para o Analytics. Esta é uma ID exclusiva específica do aplicativo que é gerada na primeira inicialização e é armazenada e usada a partir desse ponto. Essa ID é preservada entre as atualizações do aplicativo e é removida na desinstalação.
+   Retorna a ID gerada automaticamente para o Analytics. Esta é uma ID exclusiva específica do aplicativo gerada na primeira inicialização e armazenada e usada a partir desse ponto. Essa ID é preservada entre as atualizações do aplicativo e é removida durante a desinstalação.
 
    * Esta é a sintaxe para este método:
 
@@ -230,7 +227,7 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
 
 * **TrackState**
 
-   Rastreia um estado de aplicativo com dados de contexto opcionais. `States` são as visualizações disponíveis no aplicativo, como &quot;tela de título&quot;, &quot;nível 1&quot;, &quot;pausa&quot; e assim por diante. Esses estados são semelhantes às páginas em um site, e as chamadas de `TrackState` aumentam as visualizações de página. Se o estado estiver vazio, será exibido como &quot;app name app version (build)&quot; nos relatórios. If you see this value in reports, make sure you are setting state in each `TrackState` call.
+   Rastreia um estado de aplicativo com dados de contexto opcionais. `States` são as exibições disponíveis no aplicativo, como &quot;tela inicial&quot;, &quot;nível 1&quot;, &quot;pausa&quot; e assim por diante. Esses estados são semelhantes às páginas em um site, e as chamadas de `TrackState` aumentam as visualizações de página. Se state estiver vazio, ele é exibido como &quot;app name app version (build)&quot; nos relatórios. Caso veja esse valor em relatórios, certifique-se de configurar o estado em cada chamada de `TrackState`.
 
    >[!TIP]
    >
@@ -253,7 +250,7 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
 
 * **TrackAction**
 
-   Rastreia uma ação no seu aplicativo. As ações são coisas que ocorrem no aplicativo e que você deseja avaliar, como &quot;mortes&quot;, &quot;nível ganho&quot;, &quot;subscrições de feed&quot; e outras métricas.
+   Rastreia uma ação no seu aplicativo. As ações são coisas que ocorrem no seu aplicativo e que deseja medir, como &quot;mortes&quot;, &quot;nível obtido&quot;, &quot;assinaturas de feed&quot; e outras métricas.
 
    >[!TIP]
    >
@@ -277,7 +274,7 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
 
 * **TrackLocation**
 
-   Envia as coordenadas atuais de latitude e longitude. Also uses points of interest defined in the `ADBMobileConfig.json` file to determine whether the location that was provided as a parameter is in any of your POIs. Se as coordenadas atuais estão dentro de um POI definido, uma variável de dados de contexto é preenchida e enviada com a chamada `TrackLocation`.
+   Envia as coordenadas atuais de latitude e longitude. Também usa pontos de interesse definidos no arquivo `ADBMobileConfig.json` para determinar se o local fornecido como parâmetro está no POI. Se as coordenadas atuais estão dentro de um POI definido, uma variável de dados de contexto é preenchida e enviada com a chamada `TrackLocation`.
 
    * Esta é a sintaxe para este método:
 
@@ -366,7 +363,7 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
 
 * **TrackTimedActionUpdate**
 
-   Transmita dados para atualizar os dados de contexto associados a determinada ação. Os dados transmitidos são anexados aos dados existentes para a ação em questão e os substituem se a mesma chave já estiver definida para a ação.
+   Transmita dados para atualizar os dados de contexto associados a determinada ação. Os dados transmitidos são anexados aos existentes para a ação em questão e os substituem se a mesma chave já estiver definida para a ação.
 
    >[!TIP]
    >
@@ -428,7 +425,7 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
 
 * **SendQueuedHits**
 
-   Força a biblioteca a enviar todas as ocorrências na fila offline, independentemente de quantas ocorrências estão na fila no momento.
+   Força a biblioteca a enviar todas as ocorrências na fila offline, independentemente de quantas estejam na fila no momento.
 
    * Esta é a sintaxe para este método:
 
@@ -474,7 +471,7 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
       var queueSize = Analytics.QueueSize();
       ```
 
-## Experience Cloud ID methods {#section_157919E46030443DBB5CED60D656AD9F}
+## Métodos de ID do Experience Cloud {#section_157919E46030443DBB5CED60D656AD9F}
 
 * **MarketingCloudId**
 
@@ -514,7 +511,7 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
 
 * **LoadRequest**
 
-   Sends a request to your configured Target server and returns the string value of the offer generated in a `Action<NSDictionary>` callback.
+   Envia uma solicitação para o servidor do Target configurado e retorna o valor da cadeia de caracteres da oferta gerada em um retorno de chamada `Action<NSDictionary>`.
 
    * Esta é a sintaxe para este método:
 
@@ -537,7 +534,7 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
 
 * **CreateRequest**
 
-   Convenience constructor to create an `ADBTargetLocationRequest` object with the given parameters.
+   O construtor de conveniência cria um objeto `ADBTargetLocationRequest` com os parâmetros fornecidos.
 
    * Esta é a sintaxe para este método:
 
@@ -571,7 +568,7 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
 
 * **ClearCookies**
 
-   Limpa os cookies do Público alvo do aplicativo.
+   Apaga os cookies do Target do seu aplicativo.
 
    * Esta é a sintaxe para este método:
 
@@ -589,7 +586,7 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
 
 * **VisitorProfile**
 
-   Retorna o perfil do visitante obtido recentemente. Retorna nil se nenhum sinal tiver sido enviado ainda. O perfil do visitante é salvo em `NSUserDefaults` para facilitar o acesso nas várias inicializações do aplicativo.
+   Retorna o perfil do visitante obtido recentemente. Retorna nil se nenhum sinal tiver sido enviado. O perfil do visitante é salvo em `NSUserDefaults` para facilitar o acesso nas várias inicializações do aplicativo.
 
    * Esta é a sintaxe para este método:
 
@@ -605,7 +602,7 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
 
 * **Dpid**
 
-   Returns the current `DPID`.
+   Retorna o `DPID` atual.
 
    * Esta é a sintaxe para este método:
 
@@ -621,7 +618,7 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
 
 * **Dpuuid**
 
-   Returns the current `DPUUID`.
+   Retorna o `DPUUID` atual.
 
    * Esta é a sintaxe para este método:
 
@@ -637,7 +634,7 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
 
 * **AudienceSetDpidAndDpuuid**
 
-   Define o `dpid` e `dpuuid`. Se `dpid` e `dpuuid` estiverem definidas, elas serão enviadas com cada sinal.
+   Define os `dpid` e `dpuuid`. Se `dpid` e `dpuuid` estiverem definidas, elas serão enviadas com cada sinal.
 
    * Esta é a sintaxe para este método:
 
@@ -653,7 +650,7 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
 
 * **SignalWithData**
 
-   Sends audience management a signal with traits and get the matching segments returned in a `Action<NSDictionary>` callback.
+   Envia ao gerenciamento de público-alvo um sinal com características e obtém os segmentos correspondentes retornados em um retorno de chamada `Action<NSDictionary>`.
 
    * Esta é a sintaxe para este método:
 
@@ -679,7 +676,7 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
 
 * **Redefinir**
 
-   Resets audience manager `UUID` and purges current visitor profile.
+   Redefine o Audience Manager `UUID` e limpa o perfil do visitante atual.
 
    * Esta é a sintaxe para este método:
 
@@ -695,7 +692,7 @@ Métodos do Android para componentes do Xamarin para SDK das soluções do Exper
 
 ## Vídeo {#section_CBCE1951CE204A108AD4CA7BB07C7F98}
 
-Para obter mais informações sobre a Análise de vídeo, consulte Análise [de](/help/android/analytics-main/video-qs.md)vídeo.
+Para obter mais informações sobre o Video Analytics, consulte [Video Analytics](/help/android/analytics-main/video-qs.md).
 
 * **MediaSettings**
 
@@ -817,7 +814,7 @@ Para obter mais informações sobre a Análise de vídeo, consulte Análise [de]
       Media.Stop (settings.Name, 3);
       ```
 
-* **Clique em**
+* **Click**
 
    Notifica ao módulo de mídia que o item de mídia foi clicado.
 
@@ -833,7 +830,7 @@ Para obter mais informações sobre a Análise de vídeo, consulte Análise [de]
       Media.Click (settings.Name, 3); 
       ```
 
-* **Rastreamento**
+* **Track**
 
    Envia uma chamada de ação de rastreamento (sem exibição de página) para o estado de mídia atual.
 

@@ -1,16 +1,13 @@
 ---
 description: O SDK da Adobe usa as APIs de atribuição do aplicativo Search Ads da Apple para permitir que desenvolvedores e profissionais de marketing rastreiem e atribuam downloads de aplicativos originados nas campanhas do Search Ads na Apple App Store.
-seo-description: O SDK da Adobe usa as APIs de atribuição do aplicativo Search Ads da Apple para permitir que desenvolvedores e profissionais de marketing rastreiem e atribuam downloads de aplicativos originados nas campanhas do Search Ads na Apple App Store.
-seo-title: Anúncios de Pesquisa da Apple
 solution: Experience Cloud,Analytics
 title: Anúncios de Pesquisa da Apple
 topic-fix: Developer and implementation
 uuid: 790080e8-067e-4bfd-a169-0027db4fdff3
 exl-id: efcdd430-f08d-4ee2-85f3-2697c3bd72db
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '245'
 ht-degree: 100%
 
 ---

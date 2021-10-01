@@ -1,17 +1,14 @@
 ---
 description: O recurso de busca prévia do Adobe Target usa o SDK móvel do Android para buscar conteúdo de oferta a menor quantidade de vezes possível, armazenando as respostas do servidor em cache.
-seo-description: O recurso de busca prévia do Adobe Target usa o SDK móvel do Android para buscar conteúdo de oferta a menor quantidade de vezes possível, armazenando as respostas do servidor em cache.
-seo-title: Usar a busca prévia para encontrar conteúdos em oferta no Android
 title: Usar a busca prévia para encontrar conteúdos em oferta no Android
 uuid: 063451b8-e191-4d58-8ed8-1723e310ad1a
-translation-type: tm+mt
-source-git-commit: fa7375ac8a1345d81748bcf635791c46d3943fed
+exl-id: 60fd9703-972b-4c2c-bf9c-86e1f59bfba5
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '762'
 ht-degree: 92%
 
 ---
-
 
 # Usar a busca prévia para encontrar conteúdos em oferta no Android {#prefetch-offer-content-in-android}
 
@@ -21,7 +18,7 @@ O recurso de busca prévia do Adobe Target usa o SDK móvel do Android para busc
 >
 >A funcionalidade de busca prévia no SDK móvel para Android não é compatível com os tipos de atividades de Destino automático, Alocação automática e Personalização automatizada no Adobe Target.
 
-Esse processo reduz o tempo de carregamento, impede várias chamadas de rede e permite que a Adobe Target seja notificada sobre qual mbox foi visitada pelo usuário do aplicativo móvel. Todo o conteúdo será recuperado e armazenado em cache durante a chamada de busca prévia, e esse conteúdo será recuperado do cache para todas as chamadas futuras que contenham conteúdo em cache para o nome da mbox especificada.
+Esse processo reduz o tempo de carregamento, previne várias chamadas de rede e permite que o Adobe Target seja notificado sobre qual mbox foi visitada pelo usuário do aplicativo móvel. Todo o conteúdo será recuperado e armazenado em cache durante a chamada da busca prévia, e esse conteúdo será recuperado do cache para todas as chamadas futuras que contenham conteúdo armazenado em cache para o nome da mbox especificado.
 
 O conteúdo da busca prévia não persiste entre inicializações. O conteúdo da busca prévia é armazenado em cache enquanto o aplicativo estiver executando ou até que o método `clearPrefetchCache()` seja chamado.
 

@@ -1,21 +1,18 @@
 ---
 description: Informações para ajudá-lo a fornecer conteúdo direcionado nos aplicativos da loja de aplicativos universal do Windows 8.1.
-seo-description: Informações para ajudá-lo a fornecer conteúdo direcionado nos aplicativos da loja de aplicativos universal do Windows 8.1.
-seo-title: Target
 solution: Experience Cloud,Analytics
 title: Target
 topic-fix: Developer and implementation
 uuid: c57bdf85-c1a9-446d-9ec9-4a483b189522
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 15%
+source-wordcount: '32'
+ht-degree: 18%
 
 ---
 
 
-# Target {#target}
+# Target{#target}
 
 Informações para ajudá-lo a fornecer conteúdo direcionado nos aplicativos da loja de aplicativos universal do Windows 8.1.
 
