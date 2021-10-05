@@ -6,7 +6,7 @@ title: 'Solucionar problemas de mensagens de push  '
 topic-fix: Metrics
 uuid: 9c4a9371-6691-4a2c-a6c1-b9f901a41599
 exl-id: 82b89f56-f43e-4b0d-80c5-5bff4013e5f7
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 1fa6111d6bf1c2d36f15d2f037718646a035435a
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
@@ -31,12 +31,11 @@ Os seguintes tipos de atrasos podem estar associados a mensagens de push para os
 
    >[!TIP]
    >
-   >Os serviços de push não garantem que uma mensagem será enviada.
+   >Os serviços de push não garantem que uma mensagem será enviada. Para obter mais informações sobre a confiabilidade dos serviços, consulte a documentação apropriada:
+   >
+   >* **APNS**: [Qualidade do serviço](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW5)
+   >* **FCM**: [Tempo de vida de uma mensagem](https://firebase.google.com/docs/cloud-messaging/concept-options#lifetime)
 
-   Para obter mais informações sobre a confiabilidade dos serviços, consulte a documentação apropriada:
-
-   * **APNS**: [Qualidade do serviço](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW5)
-   * **FCM**: [Tempo de vida de uma mensagem](https://firebase.google.com/docs/cloud-messaging/concept-options#lifetime)
 
 ## Por que as minhas mensagens de push estão sendo cortadas ou não estão expandindo?
 

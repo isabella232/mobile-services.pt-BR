@@ -5,10 +5,10 @@ title: Analytics
 topic-fix: Developer and implementation
 uuid: fa0ef6c4-c04d-4695-9eb4-ada4e9920e6c
 exl-id: 1a7b32b8-731d-4ae3-9feb-dafbb7495590
-source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
+source-git-commit: 1fa6111d6bf1c2d36f15d2f037718646a035435a
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 18%
+source-wordcount: '945'
+ht-degree: 17%
 
 ---
 
@@ -62,7 +62,7 @@ app.oncheckpoint = function (args) {
 
 ### C# em App.xaml.cs
 
-```js
+```csharp
 public App() 
 { 
     this.InitializeComponent(); 
@@ -91,7 +91,7 @@ private void OnSuspending(object sender, SuspendingEventArgs e)
 
 ### C/CX em App.xaml.cpp
 
-```js
+```c
 App::App() 
 { 
  InitializeComponent(); 
@@ -136,16 +136,14 @@ Quaisquer valores atribuídos diretamente às variáveis devem ser adicionados a
 
 As regras de processamento são usadas para copiar os dados enviados em variáveis de dados de contexto para eVars, props e outras variáveis de relatório.
 
-[Treinamento em regras de processamento](https://tv.adobe.com/embed/1181/16506/) na Conferência de 2013
-
 [Visão geral das regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
-Recomendamos agrupar suas variáveis de dados de contexto usando &quot;namespaces&quot;, pois ajuda a manter uma ordem lógica. Por exemplo, se você quiser coletar informações sobre um produto, defina as seguintes variáveis:
+O Adobe recomenda agrupar suas variáveis de dados de contexto usando &quot;namespaces&quot;, pois ajuda a manter a ordem lógica. Por exemplo, se você quiser coletar informações sobre um produto, defina as seguintes variáveis:
 
 ```js
-"product.type":"hat" 
-"product.team":"mariners" 
-"product.color":"blue"
+"product.type":"hat";
+"product.team":"mariners";
+"product.color":"blue";
 ```
 
 As variáveis de dados de contexto são classificadas alfabeticamente na interface das regras de processamento, portanto, os namespaces permitem que você visualize rapidamente as variáveis que estão no mesmo namespace.
@@ -153,25 +151,25 @@ As variáveis de dados de contexto são classificadas alfabeticamente na interfa
 Além disso, ouvimos que alguns de você estão nomeando chaves de dados de contexto usando o eVar ou número de propriedade:
 
 ```js
-"eVar1":"jimbo"
+"eVar1":"jimbo";
 ```
 
 Isso pode tornar *ligeiramente* mais fácil ao executar o mapeamento único nas regras de processamento, mas você perde a legibilidade durante a depuração e futuras atualizações de código podem ser mais difíceis. Em vez disso, recomendamos o uso de nomes descritivos para chaves e valores:
 
 ```js
-"username":"jimbo"
+"username":"jimbo";
 ```
 
 Defina variáveis de contexto que definem eventos de contador com um valor de &quot;1&quot;:
 
 ```js
-"logon":"1"
+"logon":"1";
 ```
 
 As variáveis de dados de contexto que definem eventos de incremento podem ter o valor a incrementar:
 
 ```js
-"levels completed":"6"
+"levels completed":"6";
 ```
 
 >[!NOTE]

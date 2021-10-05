@@ -3,10 +3,10 @@ description: Após adicionar a biblioteca ao seu projeto, é possível realizar 
 title: Analytics
 uuid: de018eda-b37d-4afe-83a0-8011381d7aff
 exl-id: 4cd27e1a-e806-4dbb-84f5-63902ca2003f
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 1fa6111d6bf1c2d36f15d2f037718646a035435a
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 13%
+source-wordcount: '639'
+ht-degree: 12%
 
 ---
 
@@ -62,18 +62,14 @@ Quaisquer valores atribuídos diretamente às variáveis devem ser adicionados a
 
 As regras de processamento são usadas para copiar os dados enviados em variáveis de dados de contexto para eVars, props e outras variáveis de relatório.
 
-[Treinamento em regras de processamento](https://tv.adobe.com/embed/1181/16506/) na Conferência de 2013
-
 [Regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
-[Receber autorização para usar as regras de processamento](https://helpx.adobe.com/analytics/kb/processing-rules-authorization.html)
-
-Recomendamos agrupar suas variáveis de dados de contexto usando &quot;namespaces&quot;, pois ajuda a manter uma ordem lógica. Por exemplo, se você quiser coletar informações sobre um produto, defina as seguintes variáveis:
+O Adobe recomenda agrupar suas variáveis de dados de contexto usando &quot;namespaces&quot;, pois ajuda a manter a ordem lógica. Por exemplo, se você quiser coletar informações sobre um produto, defina as seguintes variáveis:
 
 ```js
-"product.type":"hat" 
-"product.team":"mariners" 
-"product.color":"blue"
+"product.type":"hat";
+"product.team":"mariners";
+"product.color":"blue";
 ```
 
 As variáveis de dados de contexto são classificadas alfabeticamente na interface das regras de processamento, portanto, os namespaces permitem que você visualize rapidamente as variáveis que estão no mesmo namespace.
@@ -81,25 +77,25 @@ As variáveis de dados de contexto são classificadas alfabeticamente na interfa
 Além disso, ouvimos que alguns de você estão nomeando chaves de dados de contexto usando o eVar ou número de propriedade:
 
 ```js
-"eVar1":"jimbo"
+"eVar1":"jimbo";
 ```
 
 Isso pode tornar *ligeiramente* mais fácil ao executar o mapeamento único nas regras de processamento, mas você perde a legibilidade durante a depuração e futuras atualizações de código podem ser mais difíceis. Em vez disso, recomendamos o uso de nomes descritivos para chaves e valores:
 
 ```js
-"username":"jimbo"
+"username":"jimbo";
 ```
 
 As variáveis de contexto que definem eventos de contador podem ter a mesma chave e valor:
 
 ```js
-"logon":"logon"
+"logon":"logon";
 ```
 
 As variáveis de dados de contexto que definem eventos de incremento podem ter o evento como a chave e a quantidade a ser incrementada como o valor:
 
 ```js
-"levels completed":"6"
+"levels completed":"6";
 ```
 
 >[!TIP]

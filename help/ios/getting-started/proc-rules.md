@@ -5,10 +5,10 @@ title: Regras de processamento e dados de contexto
 topic-fix: Developer and implementation
 uuid: 51338ccd-fa52-4d9c-97c4-947a4100465d
 exl-id: a3968160-42c4-4671-b541-c14639b8a451
-source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
+source-git-commit: 1fa6111d6bf1c2d36f15d2f037718646a035435a
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 70%
+source-wordcount: '252'
+ht-degree: 67%
 
 ---
 
@@ -16,12 +16,7 @@ ht-degree: 70%
 
 As regras de processamento são usadas para copiar os dados enviados em variáveis de dados de contexto para eVars, props e outras variáveis para relatórios.
 
-Para obter mais informações, consulte o seguinte conteúdo:
-
-* [Treinamento em regras de processamento](https://tv.adobe.com/embed/1181/16506/) na Conferência de 2013
-* Receber autorização para usar as regras de processamento
-
-   Para obter mais informações sobre regras de processamento, consulte [Visão geral das regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) na documentação do Adobe Analytics.
+Para obter mais informações sobre regras de processamento, consulte [Visão geral das regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) na documentação do Adobe Analytics.
 
 Ao trabalhar com as regras de processamento, lembre-se das seguintes informações:
 
@@ -30,9 +25,9 @@ Ao trabalhar com as regras de processamento, lembre-se das seguintes informaçõ
    Por exemplo, se você quiser coletar informações sobre um produto, defina as seguintes variáveis:
 
    ```js
-   "product.type":"hat" 
-   "product.team":"mariners" 
-   "product.color":"blue"
+   "product.type":"hat";
+   "product.team":"mariners";
+   "product.color":"blue";
    ```
 
 * As variáveis de dados de contexto são classificadas alfabeticamente na interface de regras de processamento, o que permite que você veja rapidamente quais variáveis estão no mesmo namespace.
@@ -40,25 +35,25 @@ Ao trabalhar com as regras de processamento, lembre-se das seguintes informaçõ
    Evite nomear chaves de dados de contexto usando o número do eVar ou da propriedade:
 
    ```js
-   "eVar1":"jimbo"
+   "eVar1":"jimbo";
    ```
 
    Isso pode tornar *um pouco* mais fácil ao executar o mapeamento único nas regras de processamento, mas você perde a legibilidade durante a depuração e futuras atualizações de código, o que pode ser mais difícil. Em vez disso, use nomes descritivos para chaves e valores:
 
    ```js
-   "username":"jimbo"
+   "username":"jimbo";
    ```
 
 * As variáveis de contexto que definem eventos de contador devem ser definidas como 1:
 
    ```js
-   "logon":"1"
+   "logon":"1";
    ```
 
 * Variáveis de dados de contexto que definem eventos incrementadores podem ter o evento como a chave e a quantidade que será incrementada como o valor:
 
    ```js
-   "levels completed":"6"
+   "levels completed":"6";
    ```
 
 >[!TIP]
