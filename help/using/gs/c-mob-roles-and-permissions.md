@@ -3,10 +3,10 @@ description: No Adobe Analytics, é possível gerenciar as funções na página 
 title: Funções e permissões
 uuid: ad350f8d-ef51-4519-98aa-3025bc0f5588
 exl-id: 70f0b427-60d5-4a79-a8d3-e03274edd917
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: f6a62a46a90c30edaf999085873bf21f2a03a68e
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 42%
+source-wordcount: '592'
+ht-degree: 45%
 
 ---
 
@@ -28,8 +28,8 @@ Um Administrador do Analytics gerencia grupos de usuários e atribui permissões
 
 Para obter mais informações sobre essa função, consulte o seguinte conteúdo na documentação do Adobe Analytics:
 
-* [Visão geral do gerenciamento de usuários](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/users.html)
-* [Mudanças nas permissões de usuários e grupos](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/permissions-changes.html)
+* [Visão geral do gerenciamento de usuários](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=pt-BR)
+* [Mudanças nas permissões de usuários e grupos](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)
 
 ### Administrador de aplicativos para dispositivos móveis
 
@@ -79,7 +79,7 @@ Estas são as funções na interface do usuário do Mobile Services, com suas pe
 
    * Configurar as opções do SDK móvel do aplicativo
    * Definir as configurações da interface do usuário do aplicativo
-   * Configurar aplicativos vinculados da App Store
+   * Configurar aplicativos vinculados do App Store
    * Configurar as opções do Link universal do aplicativo
    * Configurar os certificados dos serviços de push e as chaves de API
    * Criar/atualizar/ativar/desativar/duplicar/arquivar/excluir postbacks
@@ -93,8 +93,8 @@ Estas são as funções na interface do usuário do Mobile Services, com suas pe
 
 Para obter mais informações sobre grupos e usuários, consulte o seguinte conteúdo na documentação do Adobe Analytics:
 
-* [Configurações de grupo de usuários (herdado)](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)
-* [Adicionar usuário a um grupo](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/t-add-user-to-group.html)
+* [Configurações de grupo de usuários (herdado)](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)
+* [Adicionar usuário a um grupo](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)
 
 ### Usuário do Mobile Services
 
