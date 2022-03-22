@@ -3,10 +3,10 @@ description: No Adobe Analytics, é possível gerenciar as funções na página 
 title: Funções e permissões
 uuid: ad350f8d-ef51-4519-98aa-3025bc0f5588
 exl-id: 70f0b427-60d5-4a79-a8d3-e03274edd917
-source-git-commit: f6a62a46a90c30edaf999085873bf21f2a03a68e
+source-git-commit: 7b26c852dd9dba67a8b5e3228c1fecadfb465dca
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 45%
+source-wordcount: '555'
+ht-degree: 46%
 
 ---
 
@@ -20,16 +20,11 @@ As seguintes funções gerenciam permissões na interface do usuário do Mobile 
 
 ### Administrador do Analytics
 
-Um Administrador do Analytics gerencia grupos de usuários e atribui permissões, um deles é o Administrador do aplicativo móvel. O Experience Cloud Admin vincula sua Adobe ID à sua conta da Adobe Analytics, o que permite fazer logon na interface do usuário do Mobile Services usando sua Adobe ID. Para obter mais informações sobre o Administrador do Experience Cloud, consulte [Gerenciar usuários e produtos do Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) no guia Componentes da interface central do Experience Cloud.
+An Analytics Admin manages user groups and assigns permissions, one of which is the Mobile App Admin. The Experience Cloud Admin links your Adobe ID to your Adobe Analytics account, which allows you to log in to the Mobile Services UI by using your Adobe ID. [](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=pt-BR)
 
 >[!TIP]
 >
 >Um administrador existente do Analytics pode atribuir a função de administrador do Analytics a qualquer usuário.
-
-Para obter mais informações sobre essa função, consulte o seguinte conteúdo na documentação do Adobe Analytics:
-
-* [Visão geral do gerenciamento de usuários](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=pt-BR)
-* [Mudanças nas permissões de usuários e grupos](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)
 
 ### Administrador de aplicativos para dispositivos móveis
 
@@ -45,7 +40,7 @@ Estas são algumas informações adicionais sobre como acessar opções na inter
 
 ### Aplicativos e conjuntos de relatórios
 
-Todos os aplicativos do Mobile Service são vinculados aos conjuntos de relatórios. Se os usuários não tiverem acesso a um conjunto de relatórios, eles não terão acesso ao aplicativo associado desse conjunto de relatórios.
+All Mobile Service apps are tied to report suites. If users do not have access to a report suite, they will not have access to that report suite&#39;s associated app.
 
 ### Recursos do Mobile Services e do Analytics
 
@@ -55,11 +50,11 @@ Se a empresa não tiver um contrato do Analytics para acessar um recurso na inte
 
 Estas são as funções na interface do usuário do Mobile Services, com suas permissões relevantes:
 
-### Administrador do Analytics permissões
+### Administrador do Analytics permissions
 
 * Todas as permissões de usuário e administrador de aplicativos móveis
-* Criar aplicativo com o novo conjunto de relatórios
-* Excluir aplicativo do Mobile Services
+* Create App with new report suite
+* Delete App from Mobile Services
 
    >[!IMPORTANT]
    >
@@ -67,57 +62,57 @@ Estas são as funções na interface do usuário do Mobile Services, com suas pe
 
 * Gerenciar configurações do aplicativo
 
-   * Ativar relatórios de ciclo de vida
-   * Ativar relatório de localização
-   * Criar/atualizar/excluir variáveis e métricas
+   * Enable Lifecycle Reporting
+   * Enable Location Reporting
+   * Create/Update/Delete Variables and Metrics
 
-### Administrador de aplicativos para dispositivos móveis permissões
+### Administrador de aplicativos para dispositivos móveis permissions
 
-* Todas as permissões do usuário
-* Criar aplicativo com o conjunto de relatórios existente
+* All User Permissions
+* Create App with existing report suite
 * Gerenciar configurações do aplicativo
 
-   * Configurar as opções do SDK móvel do aplicativo
-   * Definir as configurações da interface do usuário do aplicativo
-   * Configurar aplicativos vinculados do App Store
-   * Configurar as opções do Link universal do aplicativo
-   * Configurar os certificados dos serviços de push e as chaves de API
-   * Criar/atualizar/ativar/desativar/duplicar/arquivar/excluir postbacks
-   * Criar/atualizar/arquivar/excluir destinos de links
+   * Configure App&#39;s Mobile SDK options
+   * Configure App&#39;s UI settings
+   * Configure linked App Store apps
+   * Configure App&#39;s Universal Link options
+   * Configure Push Services certs and API keys
+   * Create/Update/Activate/Deactivate/Duplicate/Archive/Delete Postbacks
+   * Create/Update/Archive/Delete Link Destinations
 
-* Criar/atualizar/arquivar links de marketing
-* Criar/importar/atualizar/excluir links de aquisição herdada
-* Criar/importar/atualizar/excluir configurações de locais (Pontos de interesse)
-* Criar/atualizar/enviar/agendar/cancelar/duplicar/arquivar/excluir mensagens de push
-* Criar/atualizar/ativar/desativar/duplicar/arquivar/excluir mensagens no aplicativo
+* Create/Update/Archive Marketing Links
+* Create/Import/Update/Delete Legacy Acquisition Links
+* Create/Import/Update/Delete Places (Points of Interest) configuration
+* Create/Update/Send/Schedule/Cancel/Duplicate/Archive/Delete Push Messages
+* Create/Update/Activate/Deactivate/Duplicate/Archive/Delete In-App Messages
 
-Para obter mais informações sobre grupos e usuários, consulte o seguinte conteúdo na documentação do Adobe Analytics:
+For more information about groups and users, see the following content in the Adobe Analytics documentation:
 
-* [Configurações de grupo de usuários (herdado)](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)
+* [](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=pt-BR)
 * [Adicionar usuário a um grupo](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)
 
 ### Usuário do Mobile Services
 
-Essa função tem permissões somente visualização e pode fornecer feedback na interface do usuário do Mobile Services.
+This role has view-only permissions and can provide feedback in the Mobile Services UI.
 
-* Fornecer feedback sobre a interface do usuário do Mobile Services
-* Exibir aplicativos
+* Provide Feedback on Mobile Services UI
+* View Apps
 
    >[!IMPORTANT]
    >
    >Os usuários só podem ver os conjuntos de relatórios para os quais têm acesso no Adobe Analytics.
 
-* Exibir configurações do aplicativo
+* View App Settings
 
-   * Baixar a configuração do SDK do aplicativo
-   * Exibir todas as configurações da interface do usuário e do SDK
-   * Exibir a configuração de variáveis e métricas
-   * Exibir postbacks
-   * Exibir destinos de links
+   * Download App SDK configuration
+   * View all UI and SDK settings
+   * View Variables and Metrics configuration
+   * View Postbacks
+   * View Link Destinations
 
 * Exibir e executar relatórios
 * Exibir links de marketing
-* Exibir e exportar links de aquisição herdada
-* Exibir e exportar a configuração de locais (pontos de interesse)
-* Exibir mensagens de push
-* Exibir mensagens no aplicativo
+* View and Export Legacy Acquisition Links
+* View and Export Places (Points of Interest) configuration
+* View Push Messages
+* View In-App Messages
