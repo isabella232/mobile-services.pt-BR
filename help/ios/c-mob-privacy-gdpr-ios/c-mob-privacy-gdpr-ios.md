@@ -3,10 +3,10 @@ description: Os SDKs móveis da Experience Cloud oferecem aos controladores APIs
 title: Privacidade e Regulamento Geral sobre a Proteção de Dados
 uuid: 69bb82de-1993-440c-a1b0-8d37919b48b6
 exl-id: 8549310d-31b8-49a3-9276-f8e9ab980a10
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: bd55e3525488f24bc9845220f0df62706ec28f31
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 71%
+source-wordcount: '336'
+ht-degree: 74%
 
 ---
 
@@ -31,7 +31,7 @@ Em setembro de 2018, lançamos uma nova versão principal do SDK. Esses novos Ad
 
 Quando o Adobe fornece software e serviços para uma empresa, ele age como um processador de dados para quaisquer dados pessoais que processa e armazena como parte do fornecimento desses serviços. Como processador de dados, o Adobe processa dados pessoais de acordo com a permissão e as instruções de sua empresa (por exemplo, como definido em seu contrato com o Adobe).
 
-Como controlador de dados, você pode usar os SDKs do Adobe Mobile Services para suportar solicitações de recuperação e exclusão de GDPR de seus aplicativos móveis.
+Como controlador de dados, você pode usar os SDKs de serviços da Adobe Mobile para suportar solicitações de recuperação e exclusão de GDPR de seus aplicativos móveis.
 
 Nas partes do SDK do Adobe Mobile em seus aplicativos móveis, é possível usar as configurações e os métodos a seguir:
 
@@ -48,5 +48,4 @@ Nas partes do SDK do Adobe Mobile em seus aplicativos móveis, é possível usar
 
 ## Informações adicionais {#section_7C7124C50D85469C8C8714533FB1A37D}
 
-* Para obter mais informações sobre o GDPR, consulte [GDPR e a sua empresa](https://www.adobe.com/br/privacy/general-data-protection-regulation.html).
-* Para consultar a documentação da API do GDPR, acesse [API do Regulamento Geral sobre a Proteção de Dados](https://adobe.io/apis/cloudplatform/gdpr.html).
+* Para obter mais informações sobre o GDPR, consulte [GDPR e seu negócio](https://www.adobe.com/br/privacy/general-data-protection-regulation.html).
