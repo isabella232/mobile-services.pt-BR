@@ -1,11 +1,11 @@
 ---
 description: Métodos do iOS para componentes do Xamarin para o SDK 4.x das soluções do Experience Cloud.
 keywords: Xamarin
-solution: Experience Cloud
+solution: Experience Cloud Services
 title: Métodos do iOS
 uuid: d6a056db-80c1-44d0-970f-c961ad01b0bc
 exl-id: 92897d08-2b66-4688-9870-c877bea53cfc
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '1737'
 ht-degree: 70%
@@ -89,7 +89,7 @@ Métodos do iOS para componentes do Xamarin para o SDK 4.x das soluções do Exp
    * `ADBMobilePrivacyStatus.OptOut` - as ocorrências serão descartadas.
    * ADBMobilePrivacyStatus.Unknown - se o rastreamento offline estiver ativado, as ocorrências são salvas até o status de privacidade ser alterado para aceitar (e então as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas). Se o rastreamento offline estiver desativado, as ocorrências são descartadas até o status de privacidade ser alterado para aceitar.
 
-   O valor padrão está definido em [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
+   O valor padrão é definido na variável [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
 
    * Esta é a sintaxe para este método:
 
@@ -211,7 +211,7 @@ Métodos do iOS para componentes do Xamarin para o SDK 4.x das soluções do Exp
 
 * **TrackState**
 
-   Rastreia um estado de aplicativo com dados de contexto opcionais. Os estados são as exibições disponíveis no aplicativo, como &quot;tela inicial&quot;, &quot;nível 1&quot;, &quot;pausa&quot; e assim por diante. Esses estados são semelhantes às páginas em um site, e as chamadas `TrackState` incrementam as exibições de página. Se o estado estiver vazio, ele será exibido como &quot;nome do aplicativo versão do aplicativo (build)&quot; nos relatórios. Caso veja esse valor em relatórios, certifique-se de configurar o estado em cada chamada de `TrackState`.
+   Rastreia um estado de aplicativo com dados de contexto opcionais. Os estados são as exibições disponíveis no aplicativo, como &quot;tela inicial&quot;, &quot;nível 1&quot;, &quot;pausa&quot; e assim por diante. Esses estados são semelhantes às páginas em um site, e `TrackState` chamadas aumentam as exibições de página. Se o estado estiver vazio, ele será exibido como &quot;app name app version (build)&quot; nos relatórios. Caso veja esse valor em relatórios, certifique-se de configurar um estado em cada `TrackState` chame.
 
    >[!TIP]
    >
@@ -500,7 +500,7 @@ Métodos do iOS para componentes do Xamarin para o SDK 4.x das soluções do Exp
 
 * **TargetLoadRequest**
 
-   Envia request para o servidor do Target configurado e retorna o valor da cadeia de caracteres da oferta gerada em um retorno de chamada `Action<NSDictionary>`.
+   Envia request para o servidor do Target configurado e retorna o valor da cadeia de caracteres da oferta gerada em um `Action<NSDictionary>` retorno de chamada.
 
    * Esta é a sintaxe para este método:
 
@@ -520,7 +520,7 @@ Métodos do iOS para componentes do Xamarin para o SDK 4.x das soluções do Exp
 
 * **TargetCreateRequest**
 
-   O construtor de conveniência cria um objeto `ADBTargetLocationRequest` com os parâmetros fornecidos.
+   Construtor de conveniência para criar um `ADBTargetLocationRequest` com os parâmetros fornecidos.
 
    * Esta é a sintaxe para este método:
 
@@ -635,7 +635,7 @@ Métodos do iOS para componentes do Xamarin para o SDK 4.x das soluções do Exp
 
 * **AudienceSignalWithData**
 
-   Envia ao gerenciamento de público-alvo um sinal com características e obtém os segmentos correspondentes retornados em um retorno de chamada `Action<NSDictionary>`.
+   Envia ao gerenciamento de público-alvo um sinal com características e obtém os segmentos correspondentes retornados em um `Action<NSDictionary>`  retorno de chamada.
 
    * Esta é a sintaxe para este método:
 

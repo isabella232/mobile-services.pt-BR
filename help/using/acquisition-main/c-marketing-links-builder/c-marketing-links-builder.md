@@ -1,12 +1,12 @@
 ---
 description: O construtor ajuda a criar Links de marketing que podem encaminhar os usuários para lojas de aplicativos e destinos de links na Web ou no aplicativo. Os profissionais de marketing podem escolher destinos com base em regras, como o tipo de dispositivo ou o sistema operacional do dispositivo do usuário.
 keywords: dispositivos móveis
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Construtor de links de publicidade
 topic-fix: Metrics
 uuid: 94906393-ffa5-47a6-89f6-1c812bad34af
 exl-id: f7cdaec3-e8a3-4782-bbb6-d5e011e4493b
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%

@@ -1,12 +1,11 @@
 ---
-description: Criação de projetos do iOS
+description: Criar projetos do iOS
 keywords: Unity
-solution: Experience Cloud
+solution: Experience Cloud Services
 title: Criar o projeto
 uuid: 5550a394-6f3f-4b87-b840-89621d8a0c1e
 exl-id: 9da99392-b34e-4e36-b255-f3787e26015c
-translation-type: tm+mt
-source-git-commit: b9ee49ba26d4726b1f97ef36f5c2e9923361b1ee
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 18%
@@ -17,13 +16,13 @@ ht-degree: 18%
 
 ## iOS
 
-Ao criar para iOS, um Projeto Xcode é criado. Por padrão, os arquivos `ADBMobileWrapper.mm` e `AdobeMobileLibrary.a` estarão no novo grupo Bibliotecas do projeto. Execute as seguintes etapas manuais necessárias para criar seu aplicativo:
+Ao criar para o iOS, um Projeto Xcode é criado. Por padrão, a variável `ADBMobileWrapper.mm` e  `AdobeMobileLibrary.a` os arquivos estarão no novo grupo Bibliotecas do projeto. Execute as seguintes etapas manuais necessárias para criar seu aplicativo:
 
 1. Adicione o arquivo `ADBMobileConfig.json` ao projeto.
 
    Certifique-se de que seja um membro da criação de destinos necessários.
 
-1. Na guia **[!UICONTROL Criar fases]** do projeto, adicione um link às seguintes bibliotecas:
+1. No **[!UICONTROL Fases de construção]** do projeto, adicione um link às seguintes bibliotecas:
 
    * `SystemConfiguration.framework`
 (Essa biblioteca já pode estar vinculada.)
@@ -36,7 +35,7 @@ Ao criar para iOS, um Projeto Xcode é criado. Por padrão, os arquivos `ADBMobi
 
 ## Android
 
-Ao criar para Android, o arquivo `apk` já inclui o arquivo `ADBMobileConfig.json` no local correto. Por padrão, o arquivo `AndroidManifest.xml` em sua pasta `/Plugins/Android` também é usado.
+Ao criar para Android, a variável `apk` O arquivo já inclui a variável `ADBMobileConfig.json` no local correto. Por padrão, a variável `AndroidManifest.xml` no seu `/Plugins/Android` também é usada.
 
 Se precisar usar seu próprio arquivo de manifesto personalizado, as seguintes alterações devem ser adicionadas.
 

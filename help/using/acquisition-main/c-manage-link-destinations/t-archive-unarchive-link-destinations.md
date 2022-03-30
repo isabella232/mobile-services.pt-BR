@@ -1,12 +1,12 @@
 ---
 description: Você pode usar a página Destinos do link para editar, arquivar, desarquivar ou excluir o destino existente.
 keywords: dispositivos móveis
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Gerenciar destinos de links
 topic-fix: Metrics
 uuid: 3a38d40d-b4c7-4f9f-aa6e-979613faaba2
 exl-id: 5d2ab0db-6371-434e-bf92-6013e78c8d8f
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 100%

@@ -1,11 +1,11 @@
 ---
 description: Os estados são telas ou exibições diferentes no aplicativo. Sempre que um novo estado é exibido no aplicativo, por exemplo, quando um usuário navega da página inicial para o feed de notícias, uma chamada de estado de trilha deve ser enviada. No iOS, um estado normalmente é rastreado no método viewDidLoad de cada visualização.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Rastrear estados do aplicativo
 topic-fix: Developer and implementation
 uuid: 12cca4eb-1f15-4cec-a58f-76b69eaff99d
 exl-id: 1b7d2fbb-d2df-4063-b923-e59fa3582830
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 100%

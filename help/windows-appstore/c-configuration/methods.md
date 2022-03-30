@@ -1,11 +1,11 @@
 ---
-description: Classes e métodos fornecidos pela biblioteca da loja de aplicativos universal do Windows 8.1.
-solution: Experience Cloud,Analytics
+description: Classes e métodos fornecidos pela biblioteca Universal App Store do Windows 8.1.
+solution: Experience Cloud Services,Analytics
 title: Métodos do SDK
 topic-fix: Developer and implementation
 uuid: 0f558ff4-73d3-4439-9d51-62fbd74d2cea
 exl-id: c328fd79-6e10-43b7-9d08-8da395098b60
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 51%
@@ -14,11 +14,11 @@ ht-degree: 51%
 
 # Métodos do SDK {#sdk-methods}
 
-Classes e métodos fornecidos pela biblioteca da loja de aplicativos universal do Windows 8.1.
+Classes e métodos fornecidos pela biblioteca Universal App Store do Windows 8.1.
 
 >[!TIP]
 >
->Ao consumir métodos `winmd` do winJS (JavaScript), todos os métodos passam a ter a primeira letra em minúsculas automaticamente.
+>Ao consumir `winmd` métodos do winJS (JavaScript), todos os métodos passam a ter a primeira letra em minúsculas automaticamente.
 
 * **GetVersion (winJS: getVersion)**
 
@@ -44,7 +44,7 @@ Classes e métodos fornecidos pela biblioteca da loja de aplicativos universal d
    * `ADBMobilePrivacyStatusOptOut` - as ocorrências serão descartadas.
    * `ADBMobilePrivacyStatusUnknown` - Se o conjunto de relatórios estiver habilitado para mostrar o carimbo de data e hora, as ocorrências serão salvas até o status de privacidade ser alterado para aceitar (e então as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas). Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in.
 
-      O valor padrão está definido no arquivo [ADBMobileConfig.json config](/help/windows-appstore/c-configuration/c.json.md).
+      O valor padrão é definido na variável [Configuração do ADBMobileConfig.json](/help/windows-appstore/c-configuration/c.json.md) arquivo.
 
    * Esta é a sintaxe para este método:
 
@@ -122,7 +122,7 @@ Classes e métodos fornecidos pela biblioteca da loja de aplicativos universal d
 
    >[!TIP]
    >
-   >Se seu aplicativo for atualizado do SDK 3.x do Experience Cloud para o 4.x, a ID anterior (personalizada ou gerada automaticamente) será recuperada e armazenada como o identificador de usuário personalizado. Isso preserva os dados do visitante entre as atualizações de SDK. Para novas instalações no SDK 4.x, o identificador do usuário é `null` até que seja definido.
+   >Se seu aplicativo for atualizado do SDK 3.x do Experience Cloud para o 4.x, a ID anterior (personalizada ou gerada automaticamente) será recuperada e armazenada como o identificador de usuário personalizado. Isso preserva os dados do visitante entre as atualizações de SDK. Para novas instalações no SDK 4.x, o identificador do usuário é `null` até ser definido.
 
    * Esta é a sintaxe para este método:
 
@@ -194,7 +194,7 @@ Classes e métodos fornecidos pela biblioteca da loja de aplicativos universal d
 
    >[!TIP]
    >
-   >Chame esse método no método `onResume()` em cada Atividade dentro do aplicativo, conforme mostrado no exemplo a seguir. Também recomendamos transmitir a Atividade ou o Serviço como o objeto de contexto em vez do contexto de Aplicativo global.
+   >Chame esse método no `onResume()` em cada Atividade dentro do aplicativo, como mostrado no exemplo a seguir. Também recomendamos transmitir a Atividade ou o Serviço como o objeto de contexto em vez do contexto de Aplicativo global.
 
    * Esta é a sintaxe para este método:
 
@@ -215,7 +215,7 @@ Classes e métodos fornecidos pela biblioteca da loja de aplicativos universal d
 
    >[!TIP]
    >
-   >Chame esse método nos métodos `onPause()` em cada Atividade dentro do aplicativo, conforme mostrado no exemplo. Também recomendamos transmitir a Atividade ou o Serviço como o objeto de contexto em vez do contexto de Aplicativo global.
+   >Chame esse método no `onPause()` métodos em cada atividade dentro do aplicativo, como mostrado no exemplo . Também recomendamos transmitir a Atividade ou o Serviço como o objeto de contexto em vez do contexto de Aplicativo global.
 
    * Esta é a sintaxe para este método:
 

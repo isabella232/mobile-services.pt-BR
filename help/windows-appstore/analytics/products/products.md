@@ -1,11 +1,11 @@
 ---
 description: A variável products não pode ser definida usando as regras de processamento. No SDK móvel, é necessário usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos diretamente na chamada do servidor.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 'Variável products '
 topic-fix: Developer and implementation
 uuid: 2057a564-06ae-4171-bbe7-0baffa71608b
 exl-id: b731e794-7134-4c6d-a41b-09ac9b84763d
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 15%
@@ -16,7 +16,7 @@ ht-degree: 15%
 
 A variável products não pode ser definida usando as regras de processamento. No SDK móvel, é necessário usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos diretamente na chamada do servidor.
 
-Para definir a variável *`products`*, defina uma chave de dados de contexto para `"&&products"` e defina o valor usando a sintaxe definida para *`products`*:
+Para definir a variável *`products`* , defina uma chave de dados de contexto para `"&&products"`e defina o valor usando a sintaxe definida para a variável *`products`*:
 
 ```js
 cdata["&&products"] = "Category;Product;Quantity;Price[,Category;Product;Quantity;Price]";
@@ -46,4 +46,4 @@ ADB.Analytics.trackState("Order Confirmation", cdata);
 
 ![](assets/products-procrules.png)
 
-Não é necessário mapear a variável *`products`* usando regras de processamento, pois ela é definida diretamente na solicitação de imagem pelo SDK.
+Não é necessário mapear a variável *`products`* usando regras de processamento, pois é definida diretamente na solicitação de imagem pelo SDK.

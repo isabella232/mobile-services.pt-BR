@@ -1,11 +1,11 @@
 ---
 description: Informações para ajudá-lo a usar o SDK da plataforma Universal Windows com o Adobe Analytics.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Métodos do Analytics
 topic-fix: Developer and implementation
 uuid: cc299bb5-ec61-49bf-869a-f3c3bc83359f
 exl-id: 3ceaedfa-274f-4dc7-9e4c-15233d09f935
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 58%
@@ -22,12 +22,12 @@ Cada um desses métodos é usado para enviar dados para seu conjunto de relatór
 
 >[!TIP]
 >
->Ao consumir métodos `winmd` do winJS (JavaScript), todos os métodos passam a ter a primeira letra em minúsculas automaticamente.
+>Ao consumir `winmd` métodos do winJS (JavaScript), todos os métodos passam a ter a primeira letra em minúsculas automaticamente.
 
 * **TrackState (winJS: trackState)**
 
    Rastreia um estado de aplicativo com dados de contexto opcionais. Os estados são as exibições disponíveis no aplicativo, como &quot;painel inicial&quot;, &quot;configurações do aplicativo&quot;, &quot;carrinho&quot; e assim por diante. Esses estados são semelhantes às páginas em um site, e as chamadas de `TrackState` aumentam as visualizações de página.
-Se `state` estiver vazio, ele será exibido como &quot;app name app version (build)&quot; nos relatórios. Caso veja esse valor em relatórios, certifique-se de configurar `state` em cada chamada de `TrackState`.
+If `state` estiver vazio, é exibido como &quot;app name app version (build)&quot; nos relatórios. Caso veja esse valor em relatórios, certifique-se de configurar `state` em cada `TrackState` chame.
 
    >[!TIP]
    >

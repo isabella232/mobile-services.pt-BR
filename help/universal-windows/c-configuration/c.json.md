@@ -1,11 +1,11 @@
 ---
 description: Informações para ajudá-lo a usar o arquivo de Configuração JSON do ADBMobile.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Configuração do ADBMobileConfig.json
 topic-fix: Developer and implementation
 uuid: cbcb54a3-4b8f-4651-8ce9-2731ac988545
 exl-id: 57d50d30-651c-4943-835e-1cbce7467baf
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 44%
@@ -20,7 +20,7 @@ Atualmente, o SDK é compatível com várias soluções da Adobe Experience Clou
 
 * **rsids**
 
-   (**Exigido pelo Analytics**) Um ou mais conjuntos de relatórios que receberão dados do Analytics. Várias IDs de conjunto de relatórios devem ser separadas por vírgulas, sem espaços entre elas.
+   (**Exigido pelo Analytics**) Um ou mais conjuntos de relatórios para receber dados do Analytics. Várias IDs de conjunto de relatórios devem ser separadas por vírgulas, sem espaços entre elas.
 
    * Esta é a sintaxe para este método:
 
@@ -34,25 +34,25 @@ Atualmente, o SDK é compatível com várias soluções da Adobe Experience Clou
 
 * **server**
 
-   (**Exigido pelo Analytics e pelo Gerenciamento de público-alvo**). Servidor do Analytics ou do Gerenciamento de público-alvo, com base no nó principal. Essa variável deve ser preenchida com o domínio do servidor, sem um prefixo de protocolo `"https://"` ou `"https://"`. O prefixo do protocolo é manipulado automaticamente pela biblioteca com base na variável `ssl` .
+   (**Exigido pelo Analytics e pelo Gerenciamento de público-alvo**). Servidor do Analytics ou do Gerenciamento de público-alvo, com base no nó principal. Essa variável deve ser preenchida com o domínio do servidor, sem um prefixo de protocolo `"https://"` ou `"https://"`. O prefixo do protocolo é manipulado automaticamente pela biblioteca com base no `ssl` variável.
 
    Se `ssl` for `true`, é realizada uma conexão segura com o servidor. Se `ssl` for `false`, é realizada uma conexão insegura com o servidor.
 
 * **charset**
 
-   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte a variável [charSet](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/charset.html?lang=pt-BR) na documentação do Adobe Analytics.
+   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte o [charSet](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/charset.html?lang=pt-BR) na documentação do Adobe Analytics.
 
 * **ssl**
 
-   Ativa (`true`) ou desativa (`false`) o envio de dados de medição via SSL (`HTTPS`). O valor padrão é `false`.
+   Habilita (`true`) ou desativa (`false`) enviando dados de medição via SSL (`HTTPS`). O valor padrão é `false`.
 
 * **offlineEnabled**
 
    Quando ativado (`true`), as ocorrências são enfileiradas enquanto o dispositivo está offline e enviadas posteriormente quando o dispositivo está online. Seu conjunto de relatórios deve ter o carimbo de data e hora habilitado para usar o rastreamento offline.
 
-   Se os carimbos de data e hora estiverem ativados em seu conjunto de relatórios, sua propriedade de configuração `offlineEnabled`deverá&#x200B;*ser `true`.* Caso o conjunto de relatórios não tenha um carimbo de data e hora, sua propriedade de configuração `offlineEnabled` *deve* ser `false`.
+   Se os carimbos de data e hora estiverem ativados no conjunto de relatórios, a `offlineEnabled` propriedade de configuração *must* be `true`. Caso o conjunto de relatórios não tenha um carimbo de data e hora, sua propriedade de configuração `offlineEnabled` *deve* ser `false`.
 
-   Se isso não for configurado corretamente, os dados serão perdidos. Se não tiver certeza se um conjunto de relatórios tem um carimbo de data e hora, entre em contato com o Atendimento ao cliente. Caso esteja relatando dados AppMeasurement para um conjunto de relatórios que também coleta dados JavaScript, pode ser necessário configurar um conjunto de relatórios separado para dados móveis ou incluir um carimbo de data e hora personalizado em todas as ocorrências de JavaScript que usam a variável `s.timestamp` .
+   Se isso não for configurado corretamente, os dados serão perdidos. Se não tiver certeza se um conjunto de relatórios tem um carimbo de data e hora, entre em contato com o Atendimento ao cliente. Caso esteja relatando dados AppMeasurement para um conjunto de relatórios que também coleta dados JavaScript, pode ser necessário configurar um conjunto de relatórios separado para dados móveis ou incluir um carimbo de data e hora personalizado nas ocorrências de JavaScript que usam a variável `s.timestamp` variável.
 
    O valor padrão é `false`.
 
@@ -66,7 +66,7 @@ Atualmente, o SDK é compatível com várias soluções da Adobe Experience Clou
 
    Envie ocorrências em lotes.
 
-   Por exemplo, se definido como `50`, as ocorrências são enfileiradas até que 50 sejam armazenadas, então todas as ocorrências em fila são enviadas. Requer `offlineEnabled=true` e o valor padrão é `0` (Sem agrupamento).
+   Por exemplo, se definido como `50`, as ocorrências são enfileiradas até que 50 sejam armazenadas e, em seguida, todas as ocorrências em fila são enviadas. Exige `offlineEnabled=true`e o valor padrão é `0` (Sem lote).
 
 * **privacyDefault**
 
@@ -95,13 +95,13 @@ Atualmente, o SDK é compatível com várias soluções da Adobe Experience Clou
 
 * **clientCode**
 
-   (**Exigido pelo Target**) Seu código de cliente atribuído.
+   (**Obrigatório para o Target**) Seu código de cliente atribuído.
 
 * **timeout**
 
    Determina quanto tempo o target aguarda uma resposta.
 
-Este é um exemplo de um arquivo `ADBMobileConfig.json`:
+Este é um exemplo de um `ADBMobileConfig.json` arquivo:
 
 ```js
 { 

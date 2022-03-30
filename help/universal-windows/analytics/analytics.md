@@ -1,11 +1,11 @@
 ---
 description: Depois de adicionar a biblioteca ao seu projeto, você pode fazer qualquer uma das chamadas de método do Analytics em qualquer lugar no aplicativo.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Analytics
 topic-fix: Developer and implementation
 uuid: c2cef3d3-77a7-4a8e-bbe4-3db10a77996a
 exl-id: cc96a7dd-ccc4-4914-8243-f3f160b75c21
-source-git-commit: 1fa6111d6bf1c2d36f15d2f037718646a035435a
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 19%
@@ -18,29 +18,29 @@ Depois de adicionar a biblioteca ao seu projeto, você pode fazer qualquer uma d
 
 >[!TIP]
 >
->Certifique-se de importar `ADBMobile.h` para sua classe.
+>Certifique-se de importar `ADBMobile.h` para a sua classe.
 
 ## Ativar relatórios de aplicativos móveis no Analytics {#section_F2F9234009184F20BA36B5CDE872B424}
 
-Antes de adicionar o código, peça para que o administrador do Analytics conclua o seguinte procedimento para ativar o rastreamento do ciclo de vida do aplicativo móvel. Isso garante que seu conjunto de relatórios esteja pronto para capturar métricas assim que você começar o desenvolvimento.
+Antes de adicionar o código, peça para que o Administrador do Analytics conclua o seguinte procedimento para ativar o rastreamento do ciclo de vida do aplicativo Mobile. Isso garante que seu conjunto de relatórios esteja pronto para capturar métricas assim que você começar o desenvolvimento.
 
-1. Abra **[!UICONTROL Ferramentas administrativas]** > **[!UICONTROL Report Suites]** e selecione os seus conjuntos de relatórios móveis.
+1. Abrir **[!UICONTROL Ferramentas administrativas]** > **[!UICONTROL Conjuntos de relatórios]** e selecione seus conjuntos de relatórios móveis.
 
-1. Clique em **[!UICONTROL Editar configurações]** > **[!UICONTROL Gerenciamento móvel]** > **[!UICONTROL Relatório de aplicativo móvel]**.
+1. Clique em **[!UICONTROL Editar configurações]** > **[!UICONTROL Gerenciamento Mobile]** > **[!UICONTROL Relatório de aplicativo do Mobile]**.
 
-   ![Configurações móveis](assets/mobile-settings.png)
+   ![Configurações do Mobile](assets/mobile-settings.png)
 
-1. Clique em **[!UICONTROL Ativar os Relatórios de Aplicativo mais recentes]**.
+1. Clique em **[!UICONTROL Ativar os relatórios de aplicativo mais recentes]**.
 
-   Opcionalmente, também é possível clicar em **[!UICONTROL Ativar o rastreamento de localização em dispositivos móveis]** ou **[!UICONTROL Ativar os relatórios e atribuições herdados para ocorrências em segundo plano]**.
+   Opcionalmente, também é possível clicar em **[!UICONTROL Ativar o rastreamento de localização do Mobile]** ou **[!UICONTROL Habilitar Relatórios e atribuições herdados para ocorrências em segundo plano]**.
 
    ![Ativar ciclo de vida](assets/enable-lifecycle.png)
 
-Agora, as medições de ciclo de vida estão prontas para serem capturadas, e os Relatórios de aplicativo móvel são exibidos no menu **[!UICONTROL Relatórios]** na interface dos relatórios de marketing.
+Agora, as medições de ciclo de vida estão prontas para serem capturadas, e os Relatórios de aplicativos do Mobile são exibidos na **[!UICONTROL Relatórios]** na interface de relatórios de marketing.
 
 ### Novas versões
 
-Periodicamente, novas versões dos relatórios de aplicativos móveis são lançadas. As novas versões não são aplicadas automaticamente ao seu conjunto de relatórios, você deve repetir essas etapas para executar a atualização. Cada vez que você adiciona uma nova funcionalidade do Experience Cloud ao seu aplicativo, recomendamos repetir essas etapas para garantir que você tenha a configuração mais recente.
+Periodicamente, novas versões dos relatórios de aplicativos móveis são lançadas. As novas versões não são aplicadas ao seu conjunto de relatórios automaticamente, você deve repetir essas etapas para executar a atualização. Cada vez que você adiciona uma nova funcionalidade do Experience Cloud ao seu aplicativo, recomendamos repetir essas etapas para garantir que você tenha a configuração mais recente.
 
 ## Medições de ciclo de vida {#section_532702562A7A43809407C9A2CBA80E1E}
 
@@ -118,11 +118,11 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 }
 ```
 
-Se `CollectLifecycleData()` for chamado duas vezes na mesma sessão, o aplicativo reportará uma falha em cada chamada após a primeira. O SDK define um sinalizador quando o aplicativo é desligado, indicando uma saída bem-sucedida. Se esse sinalizador não estiver definido, `CollectLifecyleData()` relata uma falha.
+If `CollectLifecycleData()` for chamado duas vezes na mesma sessão, o aplicativo relata uma falha em cada chamada após a primeira. O SDK define um sinalizador quando o aplicativo é desligado, indicando uma saída bem-sucedida. Se esse sinalizador não estiver definido, `CollectLifecyleData()` relata uma falha.
 
 ## Eventos, propriedades e eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
-Se você tiver observado [Métodos do SDK](/help/universal-windows/c-configuration/methods.md), provavelmente está se perguntando onde definir eventos, eVars, props, herdeiros e listas. Na versão 4, não é mais possível atribuir esses tipos de variáveis diretamente no aplicativo. Em vez disso, o SDK usa dados de contexto e regras de processamento para mapear os dados do aplicativo para as variáveis do Analytics para os relatórios.
+Se você olhou para [Métodos do SDK](/help/universal-windows/c-configuration/methods.md), você deve estar se perguntando onde definir eventos, eVars, props, herdeiros e listas. Na versão 4, não é mais possível atribuir esses tipos de variáveis diretamente no aplicativo. Em vez disso, o SDK usa dados de contexto e regras de processamento para mapear os dados do aplicativo para as variáveis do Analytics para os relatórios.
 
 As regras de processamento oferecem várias vantagens:
 
@@ -154,7 +154,7 @@ Além disso, ouvimos que alguns de você estão nomeando chaves de dados de cont
 "eVar1":"jimbo";
 ```
 
-Isso pode tornar *ligeiramente* mais fácil ao executar o mapeamento único nas regras de processamento, mas você perde a legibilidade durante a depuração e futuras atualizações de código podem ser mais difíceis. Em vez disso, recomendamos o uso de nomes descritivos para chaves e valores:
+Isso pode fazer com que *ligeiramente* mais fácil ao executar o mapeamento único nas regras de processamento, mas você perde a legibilidade durante a depuração e futuras atualizações de código podem ser mais difíceis. Em vez disso, recomendamos o uso de nomes descritivos para chaves e valores:
 
 ```js
 "username":"jimbo";
@@ -178,17 +178,17 @@ As variáveis de dados de contexto que definem eventos de incremento podem ter o
 
 ## Variável products  {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
-Para definir *`products`* no SDK móvel, você deve usar uma sintaxe especial. Para obter mais informações, consulte [Variável de produtos](/help/universal-windows/analytics/products.md).
+Para definir *`products`* no SDK móvel, é necessário usar uma sintaxe especial. Para obter mais informações, consulte [Variável products](/help/universal-windows/analytics/products.md).
 
 ## (Opcional) Ativar o rastreamento offline {#section_955B2A03EB854742BDFC4A0A3C287009}
 
-Para armazenar ocorrências quando o dispositivo estiver offline, é possível ativar o rastreamento offline no arquivo [Métodos do SDK](/help/universal-windows/c-configuration/methods.md). Preste muita atenção aos requisitos do carimbo de data e hora descritos na referência do arquivo de configuração antes de ativar o rastreamento offline.
+Para armazenar ocorrências quando o dispositivo estiver offline, é possível ativar o rastreamento offline no [Métodos do SDK](/help/universal-windows/c-configuration/methods.md) arquivo. Preste muita atenção aos requisitos do carimbo de data e hora descritos na referência do arquivo de configuração antes de ativar o rastreamento offline.
 
 ## Geolocalização e pontos de interesse {#section_BAD34A8DD013454DB355121316BD7FD4}
 
-A localização geográfica permite medir dados de localização (latitude/longitude) e pontos de interesse predefinidos. Cada chamada `TrackLocation` envia:
+A localização geográfica permite medir dados de localização (latitude/longitude) e pontos de interesse predefinidos. Cada `TrackLocation` envios de chamada:
 
-* Latitude/longitude e POI (se dentro de um POI definido no arquivo de configuração `ADBMobileConfig.json`).
+* Latitude/longitude e POI (se dentro de um POI definido na variável `ADBMobileConfig.json` arquivo de configuração).
 
    Elas são passadas para variáveis de solução móvel para relatórios automáticos.
 
@@ -203,7 +203,7 @@ var ADB = ADBMobile;
 ADB.Analytics.trackLocation(37.75345, -122.33207, null);
 ```
 
-Se o seguinte POI estiver definido no arquivo de configuração `ADBMobileConfig.json`:
+Se o seguinte POI estiver definido na variável `ADBMobileConfig.json` arquivo de configuração:
 
 ```js
 "poi" : [ 
@@ -211,7 +211,7 @@ Se o seguinte POI estiver definido no arquivo de configuração `ADBMobileConfig
         ]
 ```
 
-Quando a localização do dispositivo é determinada como estando dentro de um raio de 7000 metros do ponto definido, uma variável `a.loc.poi` dos dados de contexto com o valor `San Francisco` é enviada com a ocorrência `TrackLocation`. Uma variável de contexto `a.loc.dist` é enviada com a distância em metros a partir das coordenadas definidas.
+Quando se determinar que a localização do dispositivo se situa num raio de 7000 metros em relação ao ponto definido, uma `a.loc.poi` variável de dados de contexto com o valor `San Francisco` é enviado com o `TrackLocation` ocorrência. Um `a.loc.dist` a variável de contexto é enviada com a distância em metros a partir das coordenadas definidas.
 
 ## Valor vitalício {#section_D2C6971545BA4D639FBE07F13EF08895}
 

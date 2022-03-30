@@ -1,12 +1,12 @@
 ---
 description: Estas informações ajudam você a usar o recurso de Localização nos aplicativos do Android.
 keywords: android;biblioteca;móvel;sdk
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Visão geral da Localização
 topic-fix: Developer and implementation
 uuid: 15180bd6-616b-477d-a106-96a52c974d7d
 exl-id: 687a3b2c-ee74-46d8-a732-b3a0bec6e798
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 100%

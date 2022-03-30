@@ -1,12 +1,12 @@
 ---
 description: O relatório Retenção (antigo Coorte da primeira inicialização) é um relatório de coorte que mostra quantos usuários únicos inicializaram o aplicativo pela primeira vez e, então, inicializaram-no novamente pelo menos uma vez durante os meses seguintes.
 keywords: dispositivos móveis
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Relatório de retenção
 topic-fix: Reports,Metrics
 uuid: e7639e7f-c9ed-4b19-9ac5-b36774ea9dd6
 exl-id: de68f00a-5de0-4e9a-9255-207a1a44df6e
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 100%

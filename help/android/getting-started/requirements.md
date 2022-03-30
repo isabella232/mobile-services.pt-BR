@@ -1,14 +1,14 @@
 ---
 description: 'Antes de configurar um conjunto de relatórios e coletar os dados de aplicativo do Android, complete as seguintes tarefas de pré-requisitos '
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Antes de começar
 topic-fix: Developer and implementation
 uuid: 0ca9e937-8d40-4570-9dbf-9aecc6ecedf6
 exl-id: e9c0fd94-b61d-4f56-97b8-f71aac096c93
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -49,7 +49,7 @@ Você pode fazer logon na interface do usuário do Adobe Mobile Services de uma 
 
 ### Experience Cloud
 
-Faça logon na [Experience Cloud](https://experiencecloud.adobe.com) com sua Adobe ID. Esse método entende que sua empresa foi provisionada na Experience Cloud e que você vinculou sua conta do Analytics. Para obter mais informações, consulte [Gerenciar usuários e produtos do Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) no guia Componentes da interface central do Experience Cloud.
+Faça logon na [Experience Cloud](https://experiencecloud.adobe.com) com sua Adobe ID. Esse método entende que sua empresa foi provisionada na Experience Cloud e que você vinculou sua conta do Analytics. Para obter mais informações, consulte [Gerenciar usuários e produtos do Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=pt-BR) no guia Componentes da interface central do Experience Cloud.
 
 >[!TIP]
 >
@@ -63,7 +63,7 @@ Clique em **[!UICONTROL Fazer logon com o Analytics]** e digite o nome da empre
 
 Para criar um conjunto de relatórios para coletar dados do aplicativo e definir um aplicativo:
 
-1. Faça logon em [Adobe Mobile Services](https://mobilemarketing.adobe.com).
+1. Faça logon em [Serviços Adobe Mobile](https://mobilemarketing.adobe.com).
 1. Clique em **[!UICONTROL Criar um aplicativo]**.
 
    Se não vir este botão, clique em **[!UICONTROL Gerenciar aplicativos]** > **[!UICONTROL Adicionar]**.

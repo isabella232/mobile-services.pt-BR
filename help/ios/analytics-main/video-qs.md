@@ -1,11 +1,11 @@
 ---
 description: Estas são algumas informações sobre a medição de vídeos no iOS usando a medição de vídeos por etapas.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Análise de vídeo
 topic-fix: Developer and implementation
 uuid: d75fa415-78f6-4f50-a563-76949f040138
 exl-id: d4d11ca0-1280-49db-8983-5b6d83856482
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 94%
@@ -18,7 +18,7 @@ Estas são algumas informações sobre a medição de vídeos no iOS usando a me
 
 >[!TIP]
 >
->Durante a reprodução do vídeo, chamadas &quot;heartbeat&quot; frequentes são enviadas a esse serviço para medir o tempo reproduzido. Essas chamadas de heartbeat são enviadas a cada 10 segundos, o que resulta em métricas granulares de envolvimento com o vídeo e relatórios de repercussão de vídeo mais precisos. Para obter mais informações, consulte [Medição de mídia de transmissão em Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=pt-BR).
+>Durante a reprodução do vídeo, chamadas &quot;heartbeat&quot; frequentes são enviadas a esse serviço para medir o tempo reproduzido. Essas chamadas de heartbeat são enviadas a cada 10 segundos, o que resulta em métricas granulares de envolvimento com o vídeo e relatórios de repercussão de vídeo mais precisos. Para obter mais informações, consulte [Avaliação de mídia de streaming no Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=pt-BR).
 
 O processo geral para medição de vídeo é bem parecido em todas as plataformas. Este conteúdo oferece uma visão geral das tarefas do desenvolvedor com amostras de código.
 
@@ -45,7 +45,7 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
 
 * **a.media.segment**
 
-   (Obrigatório) Coleta dados de segmento do vídeo, incluindo o nome do segmento e a ordem na qual ele ocorre no vídeo. Essa variável é preenchida com a habilitação da variável `segmentByMilestones` durante o monitoramento de eventos de player de modo automático, ou ao configurar um nome de segmento personalizado durante o monitoramento manual dos eventos do player. Por exemplo, quando um visitante exibe o primeiro segmento em um vídeo, o SiteCatalyst pode coletar as seguintes informações no eVar de Segmentos `1:M:0-25`.
+   (Obrigatório) Coleta dados de segmento do vídeo, incluindo o nome do segmento e a ordem na qual ele ocorre no vídeo. Essa variável é preenchida com a habilitação da variável `segmentByMilestones` durante o monitoramento de eventos de player de modo automático, ou ao configurar um nome de segmento personalizado durante o monitoramento manual dos eventos do player. Por exemplo, quando um visitante exibe o primeiro segmento em um vídeo, o SiteCatalyst pode coletar as seguintes informações na `1:M:0-25` eVar de segmentos.
 
    O método padrão de coleta de dados de vídeo coleta dados nos seguintes pontos:
 

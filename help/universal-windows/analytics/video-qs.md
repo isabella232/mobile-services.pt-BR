@@ -1,11 +1,11 @@
 ---
 description: Informações para ajudá-lo com o Video Analytics.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Análise de vídeo
 topic-fix: Developer and implementation
 uuid: f45dac3b-cd2e-4fba-a3b2-c243640ecfa4
 exl-id: bf7a2936-4a90-4630-8a0c-df41baa1d6a8
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 71%
@@ -16,7 +16,7 @@ ht-degree: 71%
 
 Informações para ajudá-lo com o Video Analytics.
 
-A avaliação de vídeo está descrita em detalhes no guia [Medição de mídia de transmissão no Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=pt-BR). O processo geral para medição de vídeo é muito parecido em todas as plataformas AppMeasurement. Esta seção de início rápido fornece uma visão geral básica das tarefas do desenvolvedor junto com exemplos de código.
+A avaliação de vídeo é descrita detalhadamente na seção [Avaliação de mídia de streaming no Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=pt-BR) guia. O processo geral para medição de vídeo é muito parecido em todas as plataformas AppMeasurement. Esta seção de início rápido fornece uma visão geral básica das tarefas do desenvolvedor junto com exemplos de código.
 
 A tabela a seguir lista os dados de mídia que são enviados para o Analytics. Usar as regras de processamento para mapear os dados de contexto para uma variável do Analytics.
 
@@ -41,7 +41,7 @@ A tabela a seguir lista os dados de mídia que são enviados para o Analytics. U
 
    (**Obrigatório**) Coleta dados de segmento do vídeo, incluindo o nome do segmento e a ordem na qual ele ocorre no vídeo.
 
-   Essa variável é preenchida com a habilitação da variável `segmentByMilestones` durante o monitoramento de eventos de player de modo automático, ou ao configurar um nome de segmento personalizado durante o monitoramento manual dos eventos do player. Por exemplo, quando um visitante exibe o primeiro segmento em um vídeo, o SiteCatalyst pode coletar as seguintes informações no eVar de segmentos `1:M:0-25`.
+   Essa variável é preenchida com a habilitação da variável `segmentByMilestones` durante o monitoramento de eventos de player de modo automático, ou ao configurar um nome de segmento personalizado durante o monitoramento manual dos eventos do player. Por exemplo, quando um visitante exibe o primeiro segmento em um vídeo, o SiteCatalyst pode coletar as seguintes informações na `1:M:0-25` eVar de segmentos.
 
    O método padrão de coleta de dados de vídeo coleta dados nos seguintes pontos: início do vídeo (reproduzir), início do segmento e término do vídeo (parar). O Analytics conta a primeira visualização de segmento no início do segmento, quando o visitante começa a assistir. As visualizações de segmento subsequentes ocorrem conforme o segmento começa.
 
@@ -158,7 +158,7 @@ property bool isMediaAd;
 
 * **Open (winJS: open)**
 
-   Rastreia uma abertura de mídia usando as configurações definidas em `settings`.
+   Rastreia uma abertura de mídia com o uso das configurações definidas em `settings`.
 
    * Esta é a sintaxe para este método:
 
@@ -190,7 +190,7 @@ property bool isMediaAd;
 
 * **Play (winJS: play)**
 
-   Rastreia uma reprodução de mídia para o item de mídia chamado *`name`* no *offset* especificado (em segundos).
+   Rastreia uma reprodução de mídia para o item de mídia chamado *`name`* no *offset* (em segundos).
 
    * Esta é a sintaxe para este método:
 

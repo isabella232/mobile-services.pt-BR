@@ -1,11 +1,11 @@
 ---
 description: Esta é uma lista de métodos do Adobe Target fornecidos pela biblioteca do iOS.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Métodos do Target para iOS
 topic-fix: Developer and implementation
 uuid: 692bcda1-02ba-4902-bd65-15888adf1952
 exl-id: ba03f865-970c-4b48-af35-749f05b273d8
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 95%
@@ -79,7 +79,7 @@ NSString *const ADBTargetParameterMboxHost;
                           }];
       ```
 
-* **:defaultContent::orderParameters::requestLocationParameters:targetLoadRequestWithNameParametersmboxParameterescallback:**
+* **targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:requestLocationParameters:retorno de chamada:**
 
    Envia uma solicitação para o servidor do Target configurado e retorna o valor da cadeia de caracteres da oferta gerada em um retorno de chamada.
 
@@ -151,7 +151,7 @@ NSString *const ADBTargetParameterMboxHost;
                                  }];
       ```
 
-      Para obter mais informações sobre a API subjacente do Target, consulte a [Referência da API do Target](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target/target-api-reference-deprecated).
+      Para obter mais informações sobre a API subjacente do Target, consulte [Referência da API do Target](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target/target-api-reference-deprecated).
 
 
 
@@ -159,7 +159,7 @@ NSString *const ADBTargetParameterMboxHost;
 
 
 
-* **:defaultContent::orderParameters:targetLoadRequestWithNameParametersmboxParameters:callback**
+* **targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:callback**
 
    Envia a solicitação para o servidor do Target configurado e retorna o valor da cadeia de caracteres da oferta gerada em um retorno de chamada de bloqueio.
 

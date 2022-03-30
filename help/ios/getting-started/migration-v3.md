@@ -1,11 +1,11 @@
 ---
 description: Estas informações ajudam a migrar da versão 3.x ou 2.x da biblioteca do iOS para a versão 4.x.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Migração para a biblioteca 4.x do iOS
 topic-fix: Developer and implementation
 uuid: 5668972b-f355-4e03-9df0-8c82ddf6809b
 exl-id: a58067e0-b6f4-4900-ba3f-7256d9259420
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 100%

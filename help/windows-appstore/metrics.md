@@ -1,12 +1,12 @@
 ---
 description: Lista as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel.
 keywords: android;biblioteca;móvel;sdk
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Medições de ciclo de vida
 topic-fix: Developer and implementation
 uuid: c483271f-f620-46f4-aad8-d5f02d763f7d
 exl-id: a1e4eeca-8b8f-47ca-a489-acc338238c42
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 64%
@@ -17,7 +17,7 @@ ht-degree: 64%
 
 Lista as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel.
 
-Para obter mais informações, consulte [Solucionar problemas de dados do ciclo de vida](https://helpx.adobe.com/br/analytics/kb/troubleshoot-lifecycle-data.html).
+Para obter mais informações, consulte [Solução de problemas de dados do ciclo de vida](https://helpx.adobe.com/br/analytics/kb/troubleshoot-lifecycle-data.html).
 
 ## Medições e dimensões de ciclo de vida {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
@@ -263,14 +263,14 @@ As métricas e dimensões a seguir são capturadas nas variáveis da solução m
 
 * **Nome do ponto de interesse**
 
-   Preenchido pelos métodos `trackLocation` quando o dispositivo está dentro de um POI definido.
+   Preenchido por `trackLocation` métodos quando o dispositivo está dentro de um POI definido.
 
    * Parâmetro do Target/Dados de contexto do Analytics: `a.loc.poi`
    * Audience Manager: `c_a_loc_poi`
 
 * **Distância até o centro do ponto de interesse**
 
-   Preenchido pelos métodos `trackLocation` quando o dispositivo está dentro de um POI definido.
+   Preenchido por `trackLocation` métodos quando o dispositivo está dentro de um POI definido.
 
    * Parâmetro do Target/Dados de contexto do Analytics: `a.loc.dist`
    * Audience Manager: `c_a_loc_dist`

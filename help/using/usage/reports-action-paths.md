@@ -1,12 +1,12 @@
 ---
 description: O relatório Caminhos de ação se baseia na análise de caminhos e mostra um gráfico que representa os caminhos que foram tomados de um estado para outro no aplicativo.
 keywords: dispositivos móveis
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Relatório dos Caminhos de ação
 topic-fix: Reports,Metrics
 uuid: a21e5d9e-fd57-4178-9d64-87181b7f988b
 exl-id: 4c97b07f-17df-49cb-b2f7-dcb682d9d3c6
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%

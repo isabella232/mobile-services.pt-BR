@@ -1,11 +1,11 @@
 ---
 description: Notas de versão e problemas conhecidos do Android SDK 4.x para Soluções da Experience Cloud.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Notas de versão
 topic-fix: Developer and implementation
 uuid: 16bb4de8-a216-47a8-928c-0b1e1421adcf
 exl-id: 5cc3d031-5952-4e9b-b551-9402d3c05ccb
-source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 72%
@@ -18,11 +18,11 @@ Estas são as notas de versão, problemas conhecidos e informações de hot fix 
 
 ## 3 de abril de 2020: 4.18.2.
 
-* Mensagens no aplicativo - Por motivos de segurança, WebViews criadas pelo SDK agora definem a propriedade `setAllowFileAccess` como `false`.
+* Mensagens no aplicativo - Por motivos de segurança, WebViews criadas pelo SDK agora definem a propriedade `setAllowFileAccess` para `false`.
 
 ## 12 de março de 2020: 4.18.1
 
-* Target - Agora a ID de sessão do Target é adicionada como parâmetro de dados de contexto `a.target.sessionId` na ocorrência interna do Analytics para Target enviada para o Adobe Analytics.
+* Target - A ID de sessão do Target agora é adicionada como parâmetro de dados de contexto `a.target.sessionId` na ocorrência interna do Analytics para Target enviada para o Adobe Analytics.
 
 ## 16 de janeiro de 2020: 4.18.0
 
@@ -49,7 +49,7 @@ Estas são as notas de versão, problemas conhecidos e informações de hot fix 
 
 ## 24 de maio de 2019: Versão 4.17.6
 
-* serviço de ID do visitante - A chamada da API `setPushIdentifier` agora envia uma chamada de sincronização para o Serviço de ID do visitante sempre que é chamada.
+* Serviço de ID de visitante - A `setPushIdentifier` A chamada de API agora envia uma chamada de sincronização para o Serviço de ID do visitante sempre que é chamada.
 * Serviço de ID de visitante - Aumento da conexão e do tempo limite de leitura de 2 segundos para 5 segundos.
 
 Para obter mais informações sobre as notas de versão atuais e anteriores para todas as soluções, consulte [Notas de versão da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR).

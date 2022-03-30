@@ -1,11 +1,11 @@
 ---
 description: Métodos do Android para componentes do Xamarin para o SDK 4.x das soluções do Experience Cloud.
 keywords: Xamarin
-solution: Experience Cloud
+solution: Experience Cloud Services
 title: Métodos do Android
 uuid: 860af1c4-f57e-4bcb-8308-4e316da9a27b
 exl-id: 0de1fa11-37e9-49be-8d42-a13cb4a3f0e3
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 68%
@@ -58,7 +58,7 @@ Métodos do Android para componentes do Xamarin para o SDK 4.x das soluções do
    * `ADBMobilePrivacyStatus.OptOut` - as ocorrências serão descartadas.
    * `ADBMobilePrivacyStatus.Unknown` - se o rastreamento offline estiver ativado, as ocorrências são salvas até o status de privacidade ser alterado para aceitar (e então as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas). Se o rastreamento offline não estiver ativado, as ocorrências são descartadas até o status de privacidade ser alterado parar aceitar.
 
-   O valor padrão está definido no arquivo [ADBMobileConfig.json](/help/android/configuration/json-config/json-config.md).
+   O valor padrão é definido na variável [ADBMobileConfig.json](/help/android/configuration/json-config/json-config.md) arquivo.
 
    * Esta é a sintaxe para este método:
 
@@ -160,7 +160,7 @@ Métodos do Android para componentes do Xamarin para o SDK 4.x das soluções do
 
 * **OverrideConfigStream**
 
-   (4.2 ou posterior) Permite carregar um arquivo de configuração `ADBMobile JSON` diferente quando o aplicativo é iniciado. A configuração diferente é utilizada até o aplicativo ser fechado.
+   (4.2 ou superior) Permite carregar um `ADBMobile JSON` arquivo de configuração quando o aplicativo é iniciado. A configuração diferente é utilizada até o aplicativo ser fechado.
 
    * Esta é a sintaxe para este método:
 
@@ -227,7 +227,7 @@ Métodos do Android para componentes do Xamarin para o SDK 4.x das soluções do
 
 * **TrackState**
 
-   Rastreia um estado de aplicativo com dados de contexto opcionais. `States` são as exibições disponíveis no aplicativo, como &quot;tela inicial&quot;, &quot;nível 1&quot;, &quot;pausa&quot; e assim por diante. Esses estados são semelhantes às páginas em um site, e as chamadas de `TrackState` aumentam as visualizações de página. Se state estiver vazio, ele é exibido como &quot;app name app version (build)&quot; nos relatórios. Caso veja esse valor em relatórios, certifique-se de configurar o estado em cada chamada de `TrackState`.
+   Rastreia um estado de aplicativo com dados de contexto opcionais. `States` são as exibições disponíveis no aplicativo, como &quot;tela inicial&quot;, &quot;nível 1&quot;, &quot;pausa&quot; e assim por diante. Esses estados são semelhantes às páginas em um site, e as chamadas de `TrackState` aumentam as visualizações de página. Se state estiver vazio, ele é exibido como &quot;app name app version (build)&quot; nos relatórios. Caso veja esse valor em relatórios, certifique-se de configurar um estado em cada `TrackState` chame.
 
    >[!TIP]
    >
@@ -274,7 +274,7 @@ Métodos do Android para componentes do Xamarin para o SDK 4.x das soluções do
 
 * **TrackLocation**
 
-   Envia as coordenadas atuais de latitude e longitude. Também usa pontos de interesse definidos no arquivo `ADBMobileConfig.json` para determinar se o local fornecido como parâmetro está no POI. Se as coordenadas atuais estão dentro de um POI definido, uma variável de dados de contexto é preenchida e enviada com a chamada `TrackLocation`.
+   Envia as coordenadas atuais de latitude e longitude. Também usa pontos de interesse definidos na variável `ADBMobileConfig.json` para determinar se o local fornecido como parâmetro está no POI. Se as coordenadas atuais estão dentro de um POI definido, uma variável de dados de contexto é preenchida e enviada com a chamada `TrackLocation`.
 
    * Esta é a sintaxe para este método:
 
@@ -511,7 +511,7 @@ Métodos do Android para componentes do Xamarin para o SDK 4.x das soluções do
 
 * **LoadRequest**
 
-   Envia uma solicitação para o servidor do Target configurado e retorna o valor da cadeia de caracteres da oferta gerada em um retorno de chamada `Action<NSDictionary>`.
+   Envia uma solicitação para o servidor do Target configurado e retorna o valor da cadeia de caracteres da oferta gerada em um `Action<NSDictionary>` retorno de chamada.
 
    * Esta é a sintaxe para este método:
 
@@ -534,7 +534,7 @@ Métodos do Android para componentes do Xamarin para o SDK 4.x das soluções do
 
 * **CreateRequest**
 
-   O construtor de conveniência cria um objeto `ADBTargetLocationRequest` com os parâmetros fornecidos.
+   Construtor de conveniência para criar um `ADBTargetLocationRequest` com os parâmetros fornecidos.
 
    * Esta é a sintaxe para este método:
 
@@ -602,7 +602,7 @@ Métodos do Android para componentes do Xamarin para o SDK 4.x das soluções do
 
 * **Dpid**
 
-   Retorna o `DPID` atual.
+   Retorna o valor atual `DPID`.
 
    * Esta é a sintaxe para este método:
 
@@ -618,7 +618,7 @@ Métodos do Android para componentes do Xamarin para o SDK 4.x das soluções do
 
 * **Dpuuid**
 
-   Retorna o `DPUUID` atual.
+   Retorna o valor atual `DPUUID`.
 
    * Esta é a sintaxe para este método:
 
@@ -634,7 +634,7 @@ Métodos do Android para componentes do Xamarin para o SDK 4.x das soluções do
 
 * **AudienceSetDpidAndDpuuid**
 
-   Define os `dpid` e `dpuuid`. Se `dpid` e `dpuuid` estiverem definidas, elas serão enviadas com cada sinal.
+   Define a variável `dpid` e `dpuuid`. If `dpid` e `dpuuid` estiverem configuradas, serão enviadas com cada sinal.
 
    * Esta é a sintaxe para este método:
 
@@ -650,7 +650,7 @@ Métodos do Android para componentes do Xamarin para o SDK 4.x das soluções do
 
 * **SignalWithData**
 
-   Envia ao gerenciamento de público-alvo um sinal com características e obtém os segmentos correspondentes retornados em um retorno de chamada `Action<NSDictionary>`.
+   Envia ao gerenciamento de público-alvo um sinal com características e obtém os segmentos correspondentes retornados em um `Action<NSDictionary>` retorno de chamada.
 
    * Esta é a sintaxe para este método:
 
@@ -676,7 +676,7 @@ Métodos do Android para componentes do Xamarin para o SDK 4.x das soluções do
 
 * **Redefinir**
 
-   Redefine o Audience Manager `UUID` e limpa o perfil do visitante atual.
+   Redefine o audience manager `UUID` e limpa o perfil do visitante atual.
 
    * Esta é a sintaxe para este método:
 
@@ -692,7 +692,7 @@ Métodos do Android para componentes do Xamarin para o SDK 4.x das soluções do
 
 ## Vídeo {#section_CBCE1951CE204A108AD4CA7BB07C7F98}
 
-Para obter mais informações sobre o Video Analytics, consulte [Video Analytics](/help/android/analytics-main/video-qs.md).
+Para obter mais informações sobre o Video Analytics, consulte [Análise de vídeo](/help/android/analytics-main/video-qs.md).
 
 * **MediaSettings**
 

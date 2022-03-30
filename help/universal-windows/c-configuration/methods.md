@@ -1,11 +1,11 @@
 ---
 description: Classes e métodos fornecidos pela biblioteca da plataforma Universal Windows.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Métodos do SDK
 topic-fix: Developer and implementation
 uuid: e3aa41d6-7bc0-4208-a662-12907c209a77
 exl-id: 0aac477c-074d-457c-b117-bb205119c475
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 68%
@@ -18,7 +18,7 @@ Classes e métodos fornecidos pela biblioteca da plataforma Universal Windows.
 
 >[!TIP]
 >
->Ao consumir métodos `winmd` do winJS (JavaScript), todos os métodos passam a ter a primeira letra em minúsculas automaticamente.
+>Ao consumir `winmd` métodos do winJS (JavaScript), todos os métodos passam a ter a primeira letra em minúsculas automaticamente.
 
 * **GetVersion (winJS: getVersion)**
 
@@ -44,7 +44,7 @@ Classes e métodos fornecidos pela biblioteca da plataforma Universal Windows.
    * `ADBMobilePrivacyStatusOptOut` - as ocorrências são descartadas.
    * `ADBMobilePrivacyStatusUnknown` - Se o conjunto de relatórios estiver habilitado para mostrar o carimbo de data e hora, as ocorrências serão salvas até o status de privacidade ser alterado para aceitar (as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas). Se o conjunto de relatórios não tiver carimbo de hora e data, as ocorrências são descartadas até o status de privacidade ser alterado para opt in.
 
-      O valor padrão está definido no arquivo de configuração `ADBMobileConfig.json`. Para obter mais informações, consulte o arquivo de configuração [ADBMobileConfig.json](/help/universal-windows/c-configuration/c.json.md).
+      O valor padrão é definido na variável `ADBMobileConfig.json` arquivo de configuração. Para obter mais informações, consulte [Arquivo de configuração ADBMobileConfig.json](/help/universal-windows/c-configuration/c.json.md).
 
    * Esta é a sintaxe para este método:
 
@@ -125,7 +125,7 @@ Classes e métodos fornecidos pela biblioteca da plataforma Universal Windows.
 
 * **GetUserIdentifier (winJS: getUserIdentifier)**
 
-   Retorna o identificador do usuário personalizado se algum identificador personalizado estiver configurado. Retorna `null` se um identificador personalizado não estiver definido.
+   Retorna o identificador do usuário personalizado se algum identificador personalizado estiver configurado. Devoluções `null` se um identificador personalizado não estiver definido.
 O valor padrão é `null`.
 
    >[!IMPORTANT]

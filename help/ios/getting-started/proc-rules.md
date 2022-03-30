@@ -1,11 +1,11 @@
 ---
 description: As regras de processamento são usadas para copiar os dados enviados em variáveis de dados de contexto para eVars, props e outras variáveis para relatórios.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Regras de processamento e dados de contexto
 topic-fix: Developer and implementation
 uuid: 51338ccd-fa52-4d9c-97c4-947a4100465d
 exl-id: a3968160-42c4-4671-b541-c14639b8a451
-source-git-commit: 1fa6111d6bf1c2d36f15d2f037718646a035435a
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 67%

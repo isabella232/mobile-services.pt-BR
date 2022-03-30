@@ -1,12 +1,12 @@
 ---
 description: Estas são as métricas e as dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida, e um link para solucionar problemas de dados do ciclo de vida.
 keywords: android;biblioteca;móvel;sdk
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Medições de ciclo de vida
 topic-fix: Developer and implementation
 uuid: 5a371f11-6521-410f-a01f-fc3b285b050f
 exl-id: d7436411-65bd-4cf7-ae3e-cec829a7690a
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '864'
 ht-degree: 77%
@@ -17,7 +17,7 @@ ht-degree: 77%
 
 Estas são as métricas e as dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida, e um link para solucionar problemas de dados do ciclo de vida.
 
-Para obter mais informações, acesse a Base de conhecimento em [Solucionar problemas de dados do ciclo de vida](https://helpx.adobe.com/br/analytics/kb/troubleshoot-lifecycle-data.html).
+Para obter mais informações, acesse a Base de conhecimento em [Solução de problemas de dados do ciclo de vida](https://helpx.adobe.com/br/analytics/kb/troubleshoot-lifecycle-data.html).
 
 ## Medições e dimensões de ciclo de vida {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
@@ -240,7 +240,7 @@ As métricas e dimensões a seguir são capturadas em variáveis de solução m�
 
 * **Nome do ponto de interesse**
 
-   Preenchido pelos métodos `trackLocation` quando o dispositivo está dentro de um POI definido.
+   Preenchido por `trackLocation` métodos quando o dispositivo está dentro de um POI definido.
 
    * Parâmetro do Target/Dados de contexto do Analytics:
 
@@ -252,7 +252,7 @@ As métricas e dimensões a seguir são capturadas em variáveis de solução m�
 
 * **Distância até o centro do ponto de interesse**
 
-   Preenchido pelos métodos `trackLocation` quando o dispositivo está dentro de um POI definido.
+   Preenchido por `trackLocation` métodos quando o dispositivo está dentro de um POI definido.
 
    * Parâmetro do Target/Dados de contexto do Analytics:
 

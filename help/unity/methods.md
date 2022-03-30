@@ -1,12 +1,11 @@
 ---
-description: Métodos de configuração do ADBMobile.cs
+description: ADBMobile.cs configuration methods
 keywords: Unity
-solution: Experience Cloud
+solution: Experience Cloud Services
 title: Métodos do ADBMobile.css
 uuid: af504934-febd-45d9-81e2-2a310f4c65dc
 exl-id: d12c16f1-c25c-4698-8943-a660d9c08faf
-translation-type: tm+mt
-source-git-commit: b9ee49ba26d4726b1f97ef36f5c2e9923361b1ee
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 70%
@@ -33,7 +32,7 @@ ht-degree: 70%
       ADBMobile.CollectLifecycleData();
       ```
 
-* **EnableLocalNotifications (somente iOS)**
+* **EnableLocalNotifications (iOS only)**
 
    Ative as notificações locais no aplicativo.
 
@@ -88,7 +87,7 @@ ht-degree: 70%
    * `MOBILE_PRIVACY_STATUS_OPT_OUT`: as ocorrências são descartadas.
    * `MOBILE_PRIVACY_STATUS_UNKNOWN`: se o rastreamento offline estiver ativado, as ocorrências são salvas até o status de privacidade ser alterado para aceitar (e então as ocorrências são enviadas) ou rejeitar (as ocorrências são descartadas).
 
-      Se o rastreamento offline não estiver ativado, as ocorrências são descartadas até o status de privacidade ser alterado parar aceitar. O valor padrão está definido no arquivo [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
+      Se o rastreamento offline não estiver ativado, as ocorrências são descartadas até o status de privacidade ser alterado parar aceitar. O valor padrão é definido na variável [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md) arquivo.
 
    * Esta é a sintaxe para este método:
 
@@ -104,7 +103,7 @@ ht-degree: 70%
 
 * **GetUserIdentifier**
 
-   Retorna o identificador do usuário personalizado se algum identificador personalizado estiver configurado. Retorna null se um identificador personalizado não estiver configurado. O valor padrão é `null`.
+   Returns the custom user identifier if a custom identifier has been set. Retorna null se um identificador personalizado não estiver configurado. O valor padrão é `null`.
 
    * Esta é a sintaxe para este método:
 
@@ -156,7 +155,7 @@ ht-degree: 70%
 
 * **PauseCollectingLifecycleData (somente Android)**
 
-   Indica ao SDK que o aplicativo está pausado, a fim de calcular corretamente as medições de ciclo de vida. Por exemplo, ao pausar, um carimbo de data e hora é coletado para determinar a duração da sessão anterior. Isso também define um sinalizador para que o ciclo de vida saiba que o aplicativo não parou de funcionar. Para obter mais informações, consulte [Medições de ciclo de vida](/help/android/metrics.md).
+   Indica ao SDK que o aplicativo está pausado, a fim de calcular corretamente as medições de ciclo de vida. Por exemplo, ao pausar, um carimbo de data e hora é coletado para determinar a duração da sessão anterior. This also sets a flag so that lifecycle correctly knows that the app did not crash. Para obter mais informações, consulte [Medições de ciclo de vida](/help/android/metrics.md).
 
    * Esta é a sintaxe para este método:
 
@@ -172,7 +171,7 @@ ht-degree: 70%
 
 * **SetContext (somente Android)**
 
-   Indica ao SDK que ele deve definir seu contexto de aplicativo a partir da atividade atual do UnityPlayer.
+   Indicates to the SDK that it should set its application context from the UnityPlayer&#39;s current activity.
 
    * Esta é a sintaxe para este método:
 
@@ -204,7 +203,7 @@ ht-degree: 70%
 
 * **SetPrivacyStatus**
 
-   Define o status de privacidade do usuário atual como status. É definido como um dos valores abaixo:
+   Sets the privacy status for the current user to status. É definido como um dos valores abaixo:
 
    * `MOBILE_PRIVACY_STATUS_OPT_IN`: as ocorrências são enviadas imediatamente.
    * `MOBILE_PRIVACY_STATUS_OPT_OUT`: as ocorrências são descartadas.
@@ -216,7 +215,7 @@ ht-degree: 70%
       public static void SetPrivacyStatus(ADBPrivacyStatusstatus);
       ```
 
-   * Esta é a amostra de código para esta sintaxe:
+   * Here is the code sample for this syntax:
 
       ```java
       ADBMobile.SetPrivacyStatus(ADBMobile.ADBPrivacyStatus.MOBILE_PRIVACY_STATUS_OPT_IN);
@@ -260,7 +259,7 @@ ht-degree: 70%
 
    Rastreia um estado de aplicativo com dados de contexto opcionais. Os estados são as exibições disponíveis no aplicativo, como &quot;tela inicial&quot;, &quot;nível 1&quot;, &quot;pausa&quot; e assim por diante. Esses estados são semelhantes às páginas em um site, e as chamadas de `TrackState` aumentam as visualizações de página.
 
-   Se state estiver vazio, ele será exibido como *`app name app version (build)`* nos relatórios. Caso veja esse valor em relatórios, certifique-se de configurar o estado em cada chamada de `TrackState`.
+   Se o estado estiver vazio, será exibido como *`app name app version (build)`* em relatórios. Caso veja esse valor em relatórios, certifique-se de configurar um estado em cada `TrackState` chame.
 
    >[!TIP]
    >
@@ -400,7 +399,7 @@ ht-degree: 70%
 
 * **TrackTimedActionUpdate**
 
-   Transmita dados para atualizar os dados de contexto associados à ação. Os dados transmitidos são anexados aos existentes para a ação em questão e os substituem se a mesma chave já estiver definida para a ação.
+   Pass in data to update the context data associated with the given action. Os dados transmitidos são anexados aos existentes para a ação em questão e os substituem se a mesma chave já estiver definida para a ação.
 
    >[!TIP]
    >
@@ -520,7 +519,7 @@ ht-degree: 70%
 
 * **VisitorSyncIdentifiers**
 
-   Com a ID do Experience Cloud, é possível definir outras IDs do cliente para associar a cada visitante. A API de visitante aceita várias IDs do cliente para o mesmo visitante, juntamente com um identificador de tipo de cliente para separar o escopo de diferentes IDs do cliente. Este método corresponde a setCustomerIDs na biblioteca do JavaScript.
+   Com a ID do Experience Cloud, é possível definir outras IDs do cliente para associar a cada visitante. The Visitor API accepts multiple Customer IDs for the same visitor, along with a customer type identifier to separate the scope of the different customer IDs. Este método corresponde a setCustomerIDs na biblioteca do JavaScript.
 
    * Esta é a sintaxe para este método:
 
@@ -538,9 +537,9 @@ ht-degree: 70%
 
 ## Métodos de aquisição 
 
-* **ProcessGooglePlayInstallReferrerUrl** *(somente Android)*
+* **ProcessGooglePlayInstallReferrerUrl** *(Somente Android)*
 
-   Passe o URL do referenciador retornado de uma chamada para a API do referenciador de instalação do Google Play para este método.
+   Passe o URL do referenciador retornado de uma chamada para a API do Referenciador de instalação do Google Play para este método.
 
    * Esta é a sintaxe para este método:
 

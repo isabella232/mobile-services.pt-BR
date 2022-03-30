@@ -1,14 +1,14 @@
 ---
 description: Conclua essas etapas a fim de configurar um conjunto de relatórios para coletar dados de aplicativos do iOS.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Antes de começar
 topic-fix: Developer and implementation
 uuid: 04133f68-3618-41fd-8a13-aec5b6f04df6
 exl-id: 83da7cf5-3211-484d-bfe8-7b3b4999eea2
-source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -52,7 +52,7 @@ Você pode fazer logon no Adobe Mobile Services de uma das seguintes maneiras:
 
    Faça logon na [Experience Cloud](https://experience.adobe.com) com sua Adobe ID.
 
-   Esse método pressupõe que sua empresa foi provisionada e que você vinculou sua conta do Analytics. Para obter mais informações sobre o provisionamento, consulte [Gerenciar usuários e produtos do Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) no guia Componentes da interface central do Experience Cloud. Para obter mais informações sobre como vincular sua conta, consulte [Organizações no Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+   Esse método pressupõe que sua empresa foi provisionada e que você vinculou sua conta do Analytics. Para obter mais informações sobre o provisionamento, consulte [Gerenciar usuários e produtos do Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=pt-BR) no guia Componentes da interface central do Experience Cloud. Para obter mais informações sobre como vincular sua conta, consulte [Organizações no Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR).
 
    >[!TIP]
    >

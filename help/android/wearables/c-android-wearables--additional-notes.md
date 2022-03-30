@@ -1,11 +1,11 @@
 ---
 description: Estas informações ajudam a configurar a extensão do Android, que permite coletar dados do aplicativo Android Wearable.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Android Wearables  Observações adicionais
 topic-fix: Developer and implementation
 uuid: 3bcf352b-4d46-4ab3-81ec-c27e86fe9be3
 exl-id: ae8cf2d1-d2b0-456b-bbd3-3980e00bbc84
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Estas informações ajudam a configurar a extensão do Android, que permite cole
 
       A ocorrência vem do aplicativo portátil.
 
-   * `RunMode` =  `Extension`
+   * `RunMode` = `Extension`
 
       A ocorrência vem do aplicativo wearable.
 

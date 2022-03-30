@@ -1,12 +1,12 @@
 ---
 description: Você pode exibir as principais métricas de desempenho dos aplicativos que você visualizou mais recentemente. Por padrão, você pode visualizar até 12 aplicativos. Você pode alterar o intervalo de datas e criar filtros para segmentar os dados e editar qualquer aplicativo na página Visão geral.
 keywords: dispositivos móveis
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Exibir métricas do Mobile
 topic-fix: Metrics
 uuid: 57db0b77-6b0a-4a0c-9aad-0731275233fd
 exl-id: aab6448d-4362-4c75-949a-7a519da76606
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 100%

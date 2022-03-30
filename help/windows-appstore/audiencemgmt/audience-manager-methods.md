@@ -1,11 +1,11 @@
 ---
-description: Lista de métodos do Audience Manager fornecida pela biblioteca da loja de aplicativos universal do Windows 8.1.
-solution: Experience Cloud,Analytics
+description: Lista de métodos do Audience Manager fornecida pela biblioteca Universal App Store do Windows 8.1.
+solution: Experience Cloud Services,Analytics
 title: Métodos do Audience Manager
 topic-fix: Developer and implementation
 uuid: e39c9c3e-fd53-4b46-8fff-88101a064a9c
 exl-id: b10d7274-0fc6-4822-a40b-1192b71592b9
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 46%
@@ -14,7 +14,7 @@ ht-degree: 46%
 
 # Métodos do Audience Manager {#audience-manager-methods}
 
-Lista de métodos do Audience Manager fornecida pela biblioteca da loja de aplicativos universal do Windows 8.1.
+Lista de métodos do Audience Manager fornecida pela biblioteca Universal App Store do Windows 8.1.
 
 Atualmente, o SDK é compatível com várias soluções da Adobe Experience Cloud, incluindo o Analytics, o Target e o Audience Manager. Os métodos apresentam prefixos de acordo com a solução. Métodos do Audience Manager recebem o prefixo &quot;AudienceManager&quot;.
 
@@ -26,7 +26,7 @@ Se o audience manager estiver configurado em seu arquivo JSON, um sinal contendo
 
 * **GetVisitorProfile (winJS: getVisitorProfile)**
 
-   Retorna o perfil do visitante obtido recentemente. Retorna `null` se nenhum sinal tiver sido enviado. O perfil do visitante é salvo em `SharedPreferences` para facilitar o acesso em várias inicializações do aplicativo.
+   Retorna o perfil do visitante obtido recentemente. Devoluções `null` se nenhum sinal tiver sido enviado. O perfil do visitante é salvo em `SharedPreferences` para facilitar o acesso em várias inicializações do aplicativo.
 
    * Esta é a sintaxe para este método:
 

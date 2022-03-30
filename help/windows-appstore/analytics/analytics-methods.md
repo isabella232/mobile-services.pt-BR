@@ -1,11 +1,11 @@
 ---
-description: Informações para ajudá-lo a usar o SDK da loja de aplicativos universal do Windows 8.1 com o Adobe Analytics.
-solution: Experience Cloud,Analytics
+description: Informações para ajudá-lo a usar o SDK do Windows 8.1 Universal App Store com Adobe Analytics.
+solution: Experience Cloud Services,Analytics
 title: Métodos do Analytics
 topic-fix: Developer and implementation
 uuid: 79db105c-216c-4061-97f3-a55954995e67
 exl-id: 007bb801-55ef-4c5b-87fa-d0db42cde163
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 53%
@@ -14,7 +14,7 @@ ht-degree: 53%
 
 # Métodos do Analytics {#analytics-methods}
 
-Informações para ajudá-lo a usar o SDK da loja de aplicativos universal do Windows 8.1 com o Adobe Analytics.
+Informações para ajudá-lo a usar o SDK do Windows 8.1 Universal App Store com Adobe Analytics.
 
 Atualmente, o SDK é compatível com várias soluções da Adobe Experience Cloud, incluindo o Analytics, o Target e o Audience Manager. Os métodos apresentam prefixos de acordo com a solução. Métodos do Analytics recebem o prefixo &quot;Analytics&quot;.
 
@@ -22,11 +22,11 @@ Cada um desses métodos é usado para enviar dados para seu conjunto de relatór
 
 >[!TIP]
 >
->Ao consumir métodos `winmd` do winJS (JavaScript), todos os métodos passam a ter a primeira letra em minúsculas automaticamente.
+>Ao consumir `winmd` métodos do winJS (JavaScript), todos os métodos passam a ter a primeira letra em minúsculas automaticamente.
 
 * **TrackState (winJS: trackState)**
 
-   Rastreia um estado de aplicativo com dados de contexto opcionais. Os estados são as exibições disponíveis no aplicativo, como &quot;painel inicial&quot;, &quot;configurações do aplicativo&quot;, &quot;carrinho&quot; e assim por diante. Esses estados são semelhantes às páginas em um site, e as chamadas de `TrackState` aumentam as visualizações de página. Se `state` estiver vazio, ele será exibido como &quot;app name app version (build)&quot; nos relatórios. Caso veja esse valor em relatórios, certifique-se de configurar `state` em cada chamada de `TrackState`.
+   Rastreia um estado de aplicativo com dados de contexto opcionais. Os estados são as exibições disponíveis no aplicativo, como &quot;painel inicial&quot;, &quot;configurações do aplicativo&quot;, &quot;carrinho&quot; e assim por diante. Esses estados são semelhantes às páginas em um site, e as chamadas de `TrackState` aumentam as visualizações de página. If `state` estiver vazio, é exibido como &quot;app name app version (build)&quot; nos relatórios. Caso veja esse valor em relatórios, certifique-se de configurar `state` em cada `TrackState` chame.
 
    >[!TIP]
    >
@@ -138,7 +138,7 @@ Cada um desses métodos é usado para enviar dados para seu conjunto de relatór
 
 * **TrackTimed &#x200B; ActionUpdate (winJS: trackTimed &#x200B; ActionUpdate)**
 
-   Transmite `contextData` para atualizar os dados de contexto associados à `action`. O `data` passado é anexado aos dados existentes para a ação em questão e substitui os dados se a mesma chave já estiver definida para `action`.
+   Transmite `contextData` para atualizar os dados de contexto associados à `action`. O `data` transmitido está anexado aos dados existentes para a ação em questão e os substitui se a mesma chave já estiver definida para `action`.
 
    >[!TIP]
    >

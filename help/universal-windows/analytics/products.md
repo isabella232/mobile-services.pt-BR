@@ -1,11 +1,11 @@
 ---
 description: A variável products não pode ser definida usando as regras de processamento. No SDK móvel, é necessário usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos diretamente na chamada do servidor.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 'Variável products '
 topic-fix: Developer and implementation
 uuid: 607983d6-48ac-4274-bfc8-b1ca4e5dad1b
 exl-id: 0575236c-9858-4bf9-a2ce-6e2667d58ddd
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 7%
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 A variável products não pode ser definida usando as regras de processamento. No SDK móvel, é necessário usar uma sintaxe especial no parâmetro de dados de contexto para definir produtos diretamente na chamada do servidor.
 
-Para definir a variável *`products`*, defina uma chave de dados de contexto para `"&&products"` e defina o valor usando a sintaxe definida para a variável *`products`:
+Para definir a variável *`products`* , defina uma chave de dados de contexto para `"&&products"`e defina o valor usando a sintaxe definida para *`products` variável:
 
 ```js
 cdata["&&products"] = "Category;Product;Quantity;Price[,Category;Product;Quantity;Price]";
@@ -42,11 +42,11 @@ ADB.Analytics.trackAction("purchase", cdata);
 ADB.Analytics.trackState("Order Confirmation", cdata);
 ```
 
-O *`products`* é definido diretamente na solicitação de imagem e as outras variáveis são definidas como dados de contexto. Todas as variáveis de dados de contexto devem ser mapeadas usando as regras de processamento:
+O *`products`* é definida diretamente na solicitação de imagem e as outras variáveis são definidas como dados de contexto. Todas as variáveis de dados de contexto devem ser mapeadas usando as regras de processamento:
 
 ![](assets/products-procrules.png)
 
-Não é necessário mapear a variável *`products`* usando regras de processamento, pois ela é definida diretamente na solicitação de imagem pelo SDK.
+Não é necessário mapear a variável *`products`* usando regras de processamento, pois é definida diretamente na solicitação de imagem pelo SDK.
 
 ## Variável products com eVars de merchandising e eventos específicos do produto {#section_685D53AD3D064F9A8E225F995A9BA545}
 
@@ -73,4 +73,4 @@ ADB.Analytics.trackState("Order Confirmation", cdata);
 
 >[!TIP]
 >
->Se você acionar um evento específico do produto usando a variável *`&&products`*, também deverá definir esse evento na variável *`&&events`*, caso contrário, o evento será filtrado durante o processamento.
+>Se você acionar um evento específico do produto usando a variável *`&&products`* , você também deve definir esse evento na variável *`&&events`* caso contrário, o evento será filtrado durante o processamento.

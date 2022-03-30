@@ -1,11 +1,11 @@
 ---
 description: Lista de métodos do Audience Manager fornecida pela biblioteca da plataforma Universal Windows.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Métodos do Audience Manager
 topic-fix: Developer and implementation
 uuid: efbe8f33-7f53-40a6-b7aa-a36ac718c047
 exl-id: a7b4001d-d90f-4a8a-a801-d66e56ea43b5
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 44%
@@ -20,13 +20,13 @@ Atualmente, o SDK é compatível com várias soluções da Adobe Experience Clou
 
 >[!TIP]
 >
->Ao consumir métodos `winmd` do winJS (JavaScript), todos os métodos passam a ter a primeira letra em minúsculas automaticamente.
+>Ao consumir `winmd` métodos do winJS (JavaScript), todos os métodos passam a ter a primeira letra em minúsculas automaticamente.
 
 Se o audience manager estiver configurado em seu arquivo JSON, um sinal contendo as medições de ciclo de vida será enviado com a ocorrência de ciclo de vida.
 
 * **GetVisitorProfile (winJS: getVisitorProfile)**
 
-   Retorna o perfil do visitante obtido recentemente. Retorna `null` se nenhum sinal tiver sido enviado. O perfil do visitante é salvo em `SharedPreferences` para facilitar o acesso em várias inicializações do aplicativo.
+   Retorna o perfil do visitante obtido recentemente. Devoluções `null` se nenhum sinal tiver sido enviado. O perfil do visitante é salvo em `SharedPreferences` para facilitar o acesso em várias inicializações do aplicativo.
 
    * Esta é a sintaxe para este método:
 

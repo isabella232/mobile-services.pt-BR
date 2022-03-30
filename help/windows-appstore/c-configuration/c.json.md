@@ -1,11 +1,11 @@
 ---
 description: Informações para ajudá-lo a usar o arquivo de Configuração JSON do ADBMobile.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Arquivo de configuração ADBMobileConfig.json
 topic-fix: Developer and implementation
 uuid: a45b91cc-982e-4d6c-a4e4-d2e4b4fa7556
 exl-id: 520dffb8-ca47-444f-bbc9-f18413ddeb05
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 46%
@@ -14,7 +14,7 @@ ht-degree: 46%
 
 # `ADBMobileConfig.json` arquivo de configuração {#adbmobileconfig-json-config}
 
-Informações para ajudá-lo a usar o arquivo de configuração `ADBMobile.json`.
+Informações para ajudá-lo a usar o `ADBMobile.json` arquivo de configuração.
 
 Atualmente, o SDK é compatível com várias soluções da Adobe Experience Cloud, incluindo o Analytics, o Target e o Audience Manager. Os métodos apresentam prefixos de acordo com a solução. Métodos de configuração recebem o prefixo &quot;Configuração&quot;.
 
@@ -34,17 +34,17 @@ Atualmente, o SDK é compatível com várias soluções da Adobe Experience Clou
 
 * **server**
 
-   (Exigido pelo Analytics e pelo Gerenciamento de público-alvo). Servidor do Analytics ou do Gerenciamento de público-alvo, com base no nó principal. Essa variável deve ser preenchida com o domínio do servidor, sem um prefixo de protocolo `https://` ou `https://`. O prefixo do protocolo é manipulado automaticamente pela biblioteca com base na variável `ssl` .
+   (Exigido pelo Analytics e pelo Gerenciamento de público-alvo). Servidor do Analytics ou do Gerenciamento de público-alvo, com base no nó principal. Essa variável deve ser preenchida com o domínio do servidor, sem um prefixo de protocolo `https://` ou `https://`. O prefixo do protocolo é manipulado automaticamente pela biblioteca com base no `ssl` variável.
 
    Se `ssl` for `true`, é realizada uma conexão segura com o servidor. Se `ssl` for `false`, é realizada uma conexão insegura com o servidor.
 
 * **charset**
 
-   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte a variável [charSet](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/charset.html?lang=pt-BR) na documentação do Adobe Analytics.
+   Define o conjunto de caracteres que está sendo usado nos dados enviados para o Analytics. O charset é usado para converter dados recebidos em UTF-8 para fins de armazenamento e relatórios. Para obter mais informações, consulte o [charSet](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/charset.html?lang=pt-BR) na documentação do Adobe Analytics.
 
 * **ssl**
 
-   Ativa (`true`) ou desativa (`false`) o envio de dados de medição via SSL (HTTPS). O valor padrão é `false`.
+   Habilita (`true`) ou desativa (`false`) enviando dados de medição via SSL (HTTPS). O valor padrão é `false`.
 
 * **offlineEnabled**
 
@@ -52,7 +52,7 @@ Atualmente, o SDK é compatível com várias soluções da Adobe Experience Clou
 
    >[!IMPORTANT]
    >
-   >Se os carimbos de data e hora estiverem ativados no conjunto de relatórios, sua propriedade de configuração `offlineEnabled` *deverá* ser verdadeira. Caso o conjunto de relatórios não tenha um carimbo de data e hora, sua propriedade de configuração `offlineEnabled` *deve* ser false. Se isso não for configurado corretamente, os dados serão perdidos. Se você não tem certeza se um conjunto de relatórios tem um carimbo de data e hora,   entre em contato com o   Atendimento ao cliente. Caso esteja relatando dados AppMeasurement para um conjunto de relatórios que também coleta dados JavaScript, pode ser necessário configurar um conjunto de relatórios separado para dados móveis, ou incluir um carimbo de data e hora personalizado em todas as ocorrências de JavaScript usando a variável `s.timestamp` .
+   >Se os carimbos de data e hora estiverem ativados no conjunto de relatórios, sua `offlineEnabled` propriedade de configuração *must* seja verdadeiro. Caso o conjunto de relatórios não tenha um carimbo de data e hora, sua propriedade de configuração `offlineEnabled` *deve* ser false. Se isso não for configurado corretamente, os dados serão perdidos. Se você não tem certeza se um conjunto de relatórios tem um carimbo de data e hora,   entre em contato com o   Atendimento ao cliente. Caso esteja relatando dados AppMeasurement para um conjunto de relatórios que também coleta dados JavaScript, pode ser necessário configurar um conjunto de relatórios separado para dados móveis, ou incluir um carimbo de data e hora personalizado nas ocorrências de JavaScript que usam a variável `s.timestamp` variável.
 
 * **lifecycleTimeout**
 
@@ -60,7 +60,7 @@ Atualmente, o SDK é compatível com várias soluções da Adobe Experience Clou
 
 * **batchLimit**
 
-   Envie ocorrências em lotes. Por exemplo, se definido como 50, as ocorrências são enfileiradas até que 50 sejam armazenadas, então todas as ocorrências em fila são enviadas. Exige `offlineEnabled=true`. O valor padrão é `0` (Sem agrupamento).
+   Envie ocorrências em lotes. Por exemplo, se definido como 50, as ocorrências são enfileiradas até que 50 sejam armazenadas, então todas as ocorrências em fila são enviadas. Exige `offlineEnabled=true`. O valor padrão é `0` (Sem lote).
 
 * **privacyDefault**
 
@@ -89,13 +89,13 @@ Atualmente, o SDK é compatível com várias soluções da Adobe Experience Clou
 
 * **clientCode**
 
-   (**Exigido pelo Target**) Seu código de cliente atribuído.
+   (**Obrigatório para o Target**) Seu código de cliente atribuído.
 
 * **timeout**
 
    Determina quanto tempo o Target aguarda uma resposta.
 
-Este é um exemplo de um arquivo `ADBMobileConfig.json`:
+Este é um exemplo de um `ADBMobileConfig.json` arquivo:
 
 ```js
 { 
