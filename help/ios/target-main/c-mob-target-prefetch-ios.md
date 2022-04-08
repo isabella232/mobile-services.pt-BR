@@ -3,9 +3,9 @@ description: O recurso de busca prévia do Adobe Target usa o SDK móvel do iOS 
 title: Realizar uma busca prévia por conteúdos em oferta no iOS
 uuid: fef58042-65e2-4579-b8f1-d21554d2af57
 exl-id: 64d43be7-6bd1-4657-8154-5b2c1cbbf42b
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5d44c09a18a557e934628533c4eefaa9e26aba42
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '707'
 ht-degree: 85%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 85%
 # Realizar uma busca prévia por conteúdos em oferta no iOS {#prefetch-offer-content-in-ios}
 
 O recurso de busca prévia do Adobe Target usa o SDK móvel do iOS para buscar conteúdos em oferta a menor quantidade de vezes possível ao armazenar as respostas do servidor em cache.
-
->[!IMPORTANT]
->
->A funcionalidade de busca prévia nos SDKs móveis para iOS não é compatível com os tipos de atividades de Destino automático, Alocação automática e Personalização automatizada no Adobe Target.
 
 Esse processo reduz o tempo de carregamento, previne várias chamadas de rede e permite que o Adobe Target seja notificado sobre qual mbox foi visitada pelo usuário do aplicativo móvel. Todo o conteúdo será recuperado e armazenado em cache durante a chamada da busca prévia, e esse conteúdo será recuperado do cache para todas as chamadas futuras que contenham conteúdo armazenado em cache para o nome da mbox especificado.
 

@@ -3,9 +3,9 @@ description: O recurso de busca prévia do Adobe Target usa o SDK móvel do Andr
 title: Usar a busca prévia para encontrar conteúdos em oferta no Android
 uuid: 063451b8-e191-4d58-8ed8-1723e310ad1a
 exl-id: 60fd9703-972b-4c2c-bf9c-86e1f59bfba5
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5d44c09a18a557e934628533c4eefaa9e26aba42
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '738'
 ht-degree: 92%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 92%
 # Usar a busca prévia para encontrar conteúdos em oferta no Android {#prefetch-offer-content-in-android}
 
 O recurso de busca prévia do Adobe Target usa o SDK móvel do Android para buscar conteúdo de oferta a menor quantidade de vezes possível, armazenando as respostas do servidor em cache.
-
->[!IMPORTANT]
->
->A funcionalidade de busca prévia no SDK móvel para Android não é compatível com os tipos de atividades de Destino automático, Alocação automática e Personalização automatizada no Adobe Target.
 
 Esse processo reduz o tempo de carregamento, previne várias chamadas de rede e permite que o Adobe Target seja notificado sobre qual mbox foi visitada pelo usuário do aplicativo móvel. Todo o conteúdo será recuperado e armazenado em cache durante a chamada da busca prévia, e esse conteúdo será recuperado do cache para todas as chamadas futuras que contenham conteúdo armazenado em cache para o nome da mbox especificado.
 
