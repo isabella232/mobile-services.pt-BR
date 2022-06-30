@@ -1,10 +1,10 @@
 ---
-title: Perguntas frequentes sobre o fim da vida útil dos serviços Adobe Mobile
+title: Perguntas frequentes sobre o fim da vida útil do Adobe Mobile Services
 description: Obtenha respostas para perguntas frequentes sobre o anúncio do fim da vida útil do Adobe Mobile Services.
 exl-id: c5f44341-7b87-4530-b86e-17e2911a7959
-source-git-commit: a6dd74b8df771249e3c50de93f44639cfbfe7e13
+source-git-commit: c349c0f83df9d42b61a419ae71d6d2b67c5f7819
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '421'
 ht-degree: 2%
 
 ---
@@ -31,14 +31,14 @@ Esse fim da vida útil NÃO inclui o Adobe Analytics para aplicativos móveis, p
 
 [Regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) criado ou gerado na interface do usuário do Mobile Services migrará automaticamente para o Adobe Analytics antes da data de término da vida útil do Mobile Services. As regras de processamento migradas se comportam de forma semelhante a outras regras de processamento no Adobe Analytics, onde você pode visualizá-las ou editá-las livremente. Não é necessária nenhuma ação do usuário para esta migração.
 
-Após o encerramento dos Serviços Mobile, toda a lógica das regras de processamento será tratada exclusivamente no Adobe Analytics, normalmente incluindo o uso de [Variáveis de dados de contexto](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html?lang=pt-BR).
+Após o encerramento do Mobile Services, toda a lógica das regras de processamento será tratada exclusivamente no Adobe Analytics, normalmente incluindo o uso de [Variáveis de dados de contexto](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html?lang=pt-BR).
 
 ## Quais opções de transição estão disponíveis?
 
 O Adobe oferece três caminhos de transição, dependendo do caso de uso de sua organização.
 
 1. **Mensagens no aplicativo e notificações por push**: O Adobe pode fazer a transição dos fluxos de trabalho de mensagens para o Adobe Journey Optimizer. Este produto ajuda as organizações a otimizar e personalizar experiências em toda a jornada do cliente, incluindo mensagens móveis.
-1. **Aquisição e deep linking**: A aquisição e os deep links são oferecidos por meio do programa Adobe Exchange Premier Partners. Esses parceiros incluem Ajuste, AppsFlyer e Ramificação, que oferecem recursos de aquisição abrangentes. A equipe do Adobe pode fazer as introduções apropriadas.
+1. **Aquisição e deep linking**: A aquisição e os deep links são oferecidos por meio do programa Adobe Exchange Premier Partners. A equipe do Adobe pode fazer as introduções apropriadas.
 1. **Serviço Places**: O Places Service fornece recursos complementares de localização geográfica. Consulte a [Documentação do Places Service](https://experienceleague.adobe.com/docs/places/using/home.html).
 
 ## Onde posso ir se tiver perguntas?
