@@ -5,8 +5,8 @@ breadcrumb-title: Guia do Mobile Services
 user-guide-description: O Mobile Services é uma solução completa que ajuda você a adquirir e envolver usuários de aplicativos móveis e otimizar suas experiências.
 source-git-commit: 8c74c479c357e008dbbaaee8eb11097582072470
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
