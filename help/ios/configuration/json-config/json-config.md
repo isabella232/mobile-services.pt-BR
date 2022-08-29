@@ -5,9 +5,9 @@ title: Configuração JSON do ADBMobile
 topic-fix: Developer and implementation
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
 exl-id: e3515de3-3aec-4dd0-996d-9c561ad1b1de
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 78b7a623a7811cf0ede789c74b3ca7a80372c9f4
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '1591'
 ht-degree: 99%
 
 ---
@@ -83,24 +83,6 @@ O mesmo arquivo de configuração pode ser usado para seu aplicativo em várias 
    >Esta variável é exigida pelo Target.
 
    * Versão mínima do SDK: 4.0
-
-* **coopUnsafe**
-
-   Para membros do Device Co-op que requerem que esse valor seja definido como `true`, é necessário trabalhar com a equipe do Co-op para solicitar um sinalizador de lista de bloqueios em sua conta do Device Co-op. Não há um caminho de autoatendimento para habilitar esses sinalizadores.
-
-   Lembre-se das seguintes informações:
-
-   * Quando `coopUnsafe` estiver definido como `true`, `coop_unsafe=1` sempre será anexado a ocorrências do Audience Manager e da ID do visitante.
-   * Se você habilitar o encaminhamento pelo lado do servidor do Analytics para o Audience Manager, você também verá `coop_unsafe=1` em ocorrências do Analytics.
-
-   Estas são algumas informações adicionais:
-
-   * Versão mínima do SDK: 4.16.1
-   * A propriedade booleana do objeto `marketingCloud` que, quando definido como `true`, causa a remoção do dispositivo do Device Co-op da Experience Cloud.
-   * O valor padrão é `false`.
-   * Essa configuração é usada **somente** para clientes provisionados do Device Co-op.
-
-
 
 * **environmentId**
 
