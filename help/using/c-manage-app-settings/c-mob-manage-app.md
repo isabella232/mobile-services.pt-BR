@@ -6,10 +6,10 @@ title: Gerenciamento do aplicativo
 topic-fix: Metrics
 uuid: 0cc356c3-8457-40a7-8c97-7cbc68a5dc0c
 exl-id: 599fef94-c188-47f5-b9d6-25a7c8cb07bc
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 91%
+source-wordcount: '1001'
+ht-degree: 92%
 
 ---
 
@@ -22,11 +22,6 @@ Você pode acompanhar e gerenciar os dados recebidos do aplicativo ao configurar
 * **Variáveis e métricas padrão**
 
    Cada aplicativo inclui variáveis e métricas para rastrear atividades de compra e carrinho de compras. Algumas informações de compra não podem ser tratadas com regras de processamento; portanto, o SDK expõe os dados de contexto `"&&products"` especiais. Por exemplo, você pode ter variáveis como adições ao carrinho, remoções do carrinho, check-outs, pedidos e assim por diante. Os dados de contexto devem ser mapeados para dados no Adobe Analytics. Se essa variável for preenchida como um mapeamento simples dos dados de contexto, essa é a chave que realiza o mapeamento. Deixe em branco se a variável estiver preenchida por regras mais complexas nas Ferramentas administrativas do Analytics.
-
-   Para obter mais informações sobre essas variáveis e métricas, consulte o seguinte:
-
-   * [Variáveis de produto no Android](/help/android/analytics-main/products/products.md)
-   * [Variáveis de produto no iOS](/help/ios/analytics-main/products/products.md)
 
 * **Variáveis personalizadas**
 
@@ -47,7 +42,7 @@ Esta é uma lista das variáveis personalizadas que você pode configurar:
    Quando um valor é definido para uma propriedade em uma chamada de rastreamento (ou ocorrência), ele se aplica somente a essa chamada.
 
 * O **[!UICONTROL Variáveis personalizadas]** (ou eVars) também responde à pergunta &quot;qual?&quot; No entanto, um valor de eVar pode ser aplicado não apenas à ocorrência para a qual foi enviado, mas também às variáveis e métricas enviadas em ocorrências subsequentes até o valor expirar ou um novo valor ser definido.
-* As **[!UICONTROL Variáveis personalizadas de lista (ou Variáveis de múltiplos valores)]** se comportam da mesma forma que as variáveis, exceto que permitem capturar vários valores em uma única ocorrência. Para obter mais informações, consulte [lista](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=en) na documentação do Adobe Analytics.
+* As **[!UICONTROL Variáveis personalizadas de lista (ou Variáveis de múltiplos valores)]** se comportam da mesma forma que as variáveis, exceto que permitem capturar vários valores em uma única ocorrência. Para obter mais informações, consulte [lista](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=pt-BR) na documentação do Adobe Analytics.
 
 A informação de que esses mapeamentos foram criados no Mobile Services é exibida no Analytics.
 

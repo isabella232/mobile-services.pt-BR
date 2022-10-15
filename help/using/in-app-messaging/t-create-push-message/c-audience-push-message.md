@@ -6,9 +6,9 @@ title: Público Definir e configurar os segmentos de público para as mensagens 
 topic-fix: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
 exl-id: d1062a76-2e72-4649-8497-58617a7a47cb
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '958'
 ht-degree: 98%
 
 ---
@@ -85,11 +85,6 @@ Estes são alguns exemplos para ajudar você a entender como definir segmentos c
       Isso significa que o SDK enviou um valor `True` para a eVar de aceitação de mensagens de push.
 
    * Mesmo que o dispositivo tenha um token de dispositivo válido, a mensagem não será enviada ao dispositivo se o sinalizador de aceitação não constar no Adobe Analytics.
-
-   * Para obter mais informações sobre como solucionar problemas de mensagens de push, consulte o seguinte:
-
-      * [Mensagens por push no iOS](/help/ios/messaging-main/push-messaging/push-messaging.md)
-      * [Mensagens por push no Android](/help/android/messaging-main/push-messaging/push-messaging.md)
 
 2. Digite informações nos seguintes campos:
 

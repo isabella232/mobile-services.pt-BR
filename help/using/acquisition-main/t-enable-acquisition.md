@@ -6,9 +6,9 @@ title: Configurar aquisição
 topic-fix: Metrics
 uuid: e996e43e-8a77-47a3-a6fb-53f676f92bef
 exl-id: 3a12dfab-70d0-41e6-8d4e-5aba21bb8606
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '183'
 ht-degree: 100%
 
 ---
@@ -33,4 +33,3 @@ Para rastrear e criar relatórios sobre os links de marketing, é necessário at
 1. Baixe e use o novo arquivo de configuração do SDK em seu aplicativo.
 
    O Acquisition foi configurado com sucesso no **iOS**.
-Para ativar a Aquisição no **Android**, finalize as etapas em [Rastreamento de aquisição móvel](/help/android/acquisition-main/acquisition.md).

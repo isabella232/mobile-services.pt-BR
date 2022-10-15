@@ -1,12 +1,12 @@
 ---
-description: 'Na página Gerenciar configurações do aplicativo, é possível fazer os seguintes tipos de alterações '
+description: Na página Gerenciar configurações do aplicativo, é possível fazer os seguintes tipos de alterações
 title: Configuração do aplicativo
 uuid: c088e12d-73b6-40c4-b8cc-ec3bb3d3aa4a
 exl-id: 52fd58ad-87b8-499b-9c46-c3176bcda37c
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 31%
+source-wordcount: '331'
+ht-degree: 33%
 
 ---
 
@@ -32,12 +32,8 @@ Na página Gerenciar configurações do aplicativo, é possível fazer os seguin
 
       * **Vida útil**
 
-         Rastreie as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida. Para obter mais informações, consulte as seguintes seções:
+         Rastreie as métricas e dimensões que podem ser medidas automaticamente pela biblioteca móvel após a implementação do ciclo de vida.
 
-         * [Medições de ciclo de vida do SDK do iOS](/help/ios/metrics.md)
-         * [Medições de ciclo de vida do Android](/help/android/metrics.md)
-         * [Medições de ciclo de vida do Windows](/help/universal-windows/metrics.md)
-         * [Medições de ciclo de vida do BlackBerry](/help/blackberry/metrics.md)
       * **Ações do aplicativo**
 
          Ative os relatórios e a definição de caminho com base nas ações no aplicativo.
@@ -49,7 +45,6 @@ Na página Gerenciar configurações do aplicativo, é possível fazer os seguin
       * **Eventos agendados**
 
          Meça o tempo (no aplicativo e o tempo total) entre ações-chave do aplicativo, como o tempo antes da primeira compra.
-
 
 * **Relatórios de localização**
 

@@ -6,9 +6,9 @@ title: Perguntas frequentes
 topic-fix: Metrics
 uuid: 62a9241c-2ada-483a-a594-b023916cb0b6
 exl-id: d7dfc36e-56f0-498a-ad50-93fee90cb6ff
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1013'
 ht-degree: 96%
 
 ---
@@ -41,7 +41,7 @@ Os SDKs do Adobe Mobile usam as pilhas de rede padrão do iOS e do Android. Para
 
 ### O que são Métricas de ciclo de vida?
 
-As Métricas de ciclo de vida são métricas “predefinidas” que são automaticamente coletadas quando o SDK é implementado pela primeira vez no aplicativo. Para obter mais informações, consulte [Métricas de ciclo de vida (Android)](/help/android/metrics.md) e [Métricas de ciclo de vida (iOS)](/help/ios/metrics.md).
+As Métricas de ciclo de vida são métricas “predefinidas” que são automaticamente coletadas quando o SDK é implementado pela primeira vez no aplicativo.
 
 ### Como posso solucionar problemas de regras de processamento?
 
@@ -49,7 +49,7 @@ Consulte [Dicas e truques das regras de processamento](https://experienceleague.
 
 ### É possível enviar meus dados de análise para vários conjuntos de relatórios?
 
-Sim. Os SDKs fornecem a capacidade de enviar dados para vários conjuntos de relatórios do Adobe Analytics. Para capturar dados em vários conjunto de relatórios usando uma solicitação de imagem, defina as várias IDs de conjuntos de relatórios no campo **[!UICONTROL rsids]** na seção **[!UICONTROL analytics]** no arquivo `ADBMobileConfig.json`, delimitadas por vírgulas e sem espaços. Para obter mais informações, consulte [Configuração do JSON do ADBMobile](/help/ios/configuration/json-config/json-config.md).
+Sim. Os SDKs fornecem a capacidade de enviar dados para vários conjuntos de relatórios do Adobe Analytics. Para capturar dados em vários conjunto de relatórios usando uma solicitação de imagem, defina as várias IDs de conjuntos de relatórios no campo **[!UICONTROL rsids]** na seção **[!UICONTROL analytics]** no arquivo `ADBMobileConfig.json`, delimitadas por vírgulas e sem espaços.
 
 ### Como as visitas do Mobile são diferentes das inicializações?
 

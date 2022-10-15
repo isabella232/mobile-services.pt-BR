@@ -6,9 +6,9 @@ title: Baixar SDKs e ferramentas móveis
 topic-fix: Developer and implementation,Metrics
 uuid: 4af757f7-4e4d-4939-9b6a-49a29c220192
 exl-id: 34ec76fa-3bcb-4b77-9d1e-7160941deb44
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '128'
 ht-degree: 100%
 
 ---
@@ -27,9 +27,4 @@ Essas informações ajudam a baixar os SDKs e as ferramentas do Mobile Services.
 
 ## Bibliotecas nativas {#section_C2ADC3068D9F4EAEBE5B266852738C90}
 
-Configure seu aplicativo nos serviços Adobe Mobile Services para baixar um conjunto personalizado, que inclui uma versão preenchida automaticamente do arquivo de configuração:
-
-* [Instruções do iOS](/help/ios/getting-started/requirements.md)
-* [Instruções do Android](/help/android/getting-started/requirements.md)
-
-Para consultar a documentação das bibliotecas nativas, incluindo Windows Phone 8, Blackberry, Xamarin e outros, consulte a seção *Documentação do SDK* no [Adobe Mobile Services](/help/using/home.md).
+Configure seu aplicativo nos serviços Adobe Mobile Services para baixar um conjunto personalizado, que inclui uma versão preenchida automaticamente do arquivo de configuração.

@@ -6,9 +6,9 @@ title: Resolução de problemas nas mensagens no aplicativo
 topic-fix: Metrics
 uuid: 8813e8d8-bb1e-46ad-83cd-98ae68f73ce6
 exl-id: 6be5beef-3bde-49f8-9ec0-c5d32bd43045
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '603'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ Você atualizou o arquivo de manifesto para definir a atividade em tela cheia?
 
 ## Minha mensagem de notificação local no Android não está funcionando.
 
-Verifique se o receptor da transmissão de notificação local esteja declarado no seu manifesto. Para obter mais informações, consulte a etapa 1 em [Mensagens no aplicativo](/help/android/messaging-main/messaging/messaging.md).
+Verifique se o receptor da transmissão de notificação local esteja declarado no seu manifesto.
 
 ## A mensagem foi publicada?
 
@@ -43,7 +43,7 @@ Verifique se essas configurações estão corretas. Na página Público-alvo, an
 
 ## Caso esteja usando um evento de inicialização como acionador...
 
-O acionador só será ativado em uma nova sessão. Para obter informações sobre quando começa uma sessão, consulte   `lifecycleTimeout` no arquivo [ADBMobile JSON config](/help/ios/configuration/json-config/json-config.md).
+O acionador só será ativado em uma nova sessão.
 
 ## Atualizei minha mensagem remotamente mas meu aplicativo ainda exibe a mensagem antiga.
 

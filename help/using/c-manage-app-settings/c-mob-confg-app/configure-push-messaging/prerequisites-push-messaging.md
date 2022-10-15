@@ -6,9 +6,9 @@ title: Pré-requisitos para ativar as mensagens de push
 topic-fix: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
 exl-id: 543155a4-f687-48a6-8690-5c8da8490c62
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '618'
 ht-degree: 95%
 
 ---
@@ -30,10 +30,6 @@ Sua empresa do Adobe Analytics deve ter a Experience Cloud habilitada. Você pod
 * **Configurar serviços de push**
 
    Você deve configurar serviços de push no SDK do Mobile.
-Para obter mais informações, consulte o seguinte conteúdo:
-
-   * [Mensagens por push no Android](/help/android/messaging-main/push-messaging/push-messaging.md)
-   * [Mensagens por push no iOS](/help/ios/messaging-main/push-messaging/push-messaging.md)
 
 ## Logon nos serviços principais do Mobile usando sua Adobe ID
 
