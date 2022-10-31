@@ -3,7 +3,7 @@ description: Na página Gerenciar configurações do aplicativo, é possível fa
 title: Configuração do aplicativo
 uuid: c088e12d-73b6-40c4-b8cc-ec3bb3d3aa4a
 exl-id: 52fd58ad-87b8-499b-9c46-c3176bcda37c
-source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 33%
@@ -11,6 +11,8 @@ ht-degree: 33%
 ---
 
 # Configuração do aplicativo {#configuring-your-app}
+
+{#eol}
 
 Na página Gerenciar configurações do aplicativo, é possível fazer os seguintes tipos de alterações:
 

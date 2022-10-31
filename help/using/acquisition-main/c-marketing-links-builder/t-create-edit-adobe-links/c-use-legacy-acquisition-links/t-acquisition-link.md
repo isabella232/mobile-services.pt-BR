@@ -6,7 +6,7 @@ title: Criação de um link de aquisição
 topic-fix: Metrics
 uuid: bb603013-fca9-44a2-820a-59e1c85d9444
 exl-id: bc351d1e-c7da-4418-ac5a-9e5f989dd566
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Criação de um link de aquisição{#create-an-acquisition-link}
+
+{#eol}
 
 Crie links da loja de aplicativos que permitem baixar os aplicativos diretamente da Apple App Store e do Google Play. Os links criados permitem que você atribua eventos de sucesso aos downloads.
 

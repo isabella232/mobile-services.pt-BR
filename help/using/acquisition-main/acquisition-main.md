@@ -6,7 +6,7 @@ title: Aquisição
 topic-fix: Metrics
 uuid: 987146e4-2cca-46e7-88aa-74b62d9f1dc5
 exl-id: ed0842a8-e3cb-4c5a-b001-c0ea3ca69583
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Aquisição {#acquisition}
+
+{#eol}
 
 Os profissionais de marketing podem criar links de rastreamento para promover e direcionar o tráfego para seus aplicativos. Esses links de rastreamento podem direcionar usuários para app stores, deep links de aplicativos e intersticiais, que podem ser correlacionados ao comportamento no aplicativo. Um comerciante pode criar um link para direcionar usuários para iOS, Android ou outras plataformas conforme apropriado.
 

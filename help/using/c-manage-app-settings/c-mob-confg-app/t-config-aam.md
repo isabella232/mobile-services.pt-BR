@@ -6,7 +6,7 @@ title: Configurar as opções do Audience Manager
 topic-fix: Metrics
 uuid: 471270ca-cee5-401e-aac1-e48146ee8399
 exl-id: a81e5ea9-faa1-45c2-a312-e80f49c87b59
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Configurar as opções do Audience Manager{#configure-audience-manager-options}
+
+{#eol}
 
 É possível configurar as opções de SDK do Audience Manager na página Gerenciar configurações do aplicativo, criando um novo aplicativo ou editando um aplicativo existente.
 

@@ -6,7 +6,7 @@ title: Relatórios
 topic-fix: Reports,Metrics
 uuid: 2abc2bd1-dbae-4af1-9b8d-1df2f6d3a81f
 exl-id: a95dd9c9-49f3-41df-87bf-6a2ac0d46c5c
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Relatórios{#reports}
+
+{#eol}
 
 Os relatórios de uso exibem a duração média da sessão, os usuários engajados diariamente e mensalmente, as atualizações e outras informações que ajudam a entender como e com que frequência seu aplicativo está sendo usado. Os relatórios de retenção mostram rapidamente os níveis de retenção do usuário 1 dia, 7 dias e 28 dias após a primeira inicialização.
 

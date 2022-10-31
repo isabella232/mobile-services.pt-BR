@@ -6,7 +6,7 @@ title: Relatório de Visão geral da loja de aplicativos
 topic-fix: Metrics
 uuid: ac066f31-ec4b-4b67-b839-780c2cd1574e
 exl-id: da8663d6-9da8-440b-b7b8-06ff11e74b9f
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Relatório de Visão geral da loja de aplicativos {#app-store-overview-report}
+
+{#eol}
 
 O relatório **[!UICONTROL Visão geral da loja de aplicativos]** oferece um instantâneo das métricas da loja de aplicativos, incluindo a quantidade de downloads, compras no aplicativo, avaliação média da loja de aplicativos, receitas geradas por downloads, receitas no aplicativo, downloads por país, downloads por app store e compras no aplicativo por nome.
 

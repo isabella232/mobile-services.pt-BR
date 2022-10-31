@@ -3,14 +3,16 @@ description: Um conjunto de relatórios virtual (VRS) é um conjunto de relatór
 title: Conjuntos de relatórios virtuais
 uuid: 3f467cad-43e7-4cd0-889b-89f8c61febbd
 exl-id: c9ce7f7c-2023-4a9d-9e4d-bacc21f9ad40
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 74%
+ht-degree: 76%
 
 ---
 
 # Conjuntos de relatórios virtuais {#virtual-report-suites}
+
+{#eol}
 
 Um conjunto de relatórios virtual (VRS) é um conjunto de relatórios que é criado ao aplicar uma ou mais definições de segmento a um conjunto de relatórios. Isso permite que os usuários mantenham seus dados em um conjunto de relatórios, mas gerenciem os dados como se estivessem em conjuntos de relatórios separados.
 
@@ -51,7 +53,7 @@ Um VRS pode ajudar a concluir as seguintes tarefas:
 
 >[!IMPORTANT]
 >
->Somente os administradores do Adobe Analytics podem criar e alterar conjuntos de relatórios virtuais no Adobe Analytics. Para criar um conjunto de relatórios virtual, consulte [Criar conjuntos de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) na documentação do Adobe Analytics.
+>Somente os administradores do Adobe Analytics podem criar e alterar conjuntos de relatórios virtuais no Adobe Analytics. Para criar um conjunto de relatórios virtual, consulte [Criar conjuntos de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=pt-BR) na documentação do Adobe Analytics.
 
 Cada VRS possui um identificador exclusivo. Para exibir a ID do conjunto de relatórios principal na interface do usuário do Adobe Mobile Services, acesse a página Gerenciar configurações do aplicativo, seção **[!UICONTROL Informações do aplicativo]**, e clique em **[!UICONTROL Mais detalhes]**.
 
@@ -119,5 +121,5 @@ Estas são as propriedades de VRSs:
 
 Veja a seguir algumas informações adicionais sobre conjuntos de relatórios virtuais:
 
-* Para obter mais informações sobre VRSs, consulte [Visão geral dos conjuntos de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html).
+* Para obter mais informações sobre VRSs, consulte [Visão geral dos conjuntos de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=pt-BR).
 * Para obter mais informações sobre o planejamento de uma implementação de VRS, consulte [Fluxo de trabalho do conjunto de relatórios virtual](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-workflow.html).
