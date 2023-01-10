@@ -6,7 +6,7 @@ user-guide-description: O Mobile Services é uma solução completa que ajuda vo
 source-git-commit: 8c74c479c357e008dbbaaee8eb11097582072470
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 99%
 # Guia do Mobile Services {#using}
 
 + [Adobe Mobile Services](home.md)
-+ [Anúncio do fim da vida útil](eol.md)
++ [Anúncio de fim da vida útil](eol.md)
 + Introdução {#get-started-ug}
    + [Introdução](gs/gs.md)
    + [Funções e permissões](gs/c-mob-roles-and-permissions.md)
