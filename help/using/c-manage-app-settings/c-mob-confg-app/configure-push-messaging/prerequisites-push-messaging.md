@@ -53,7 +53,7 @@ Se os usuários não tiverem Adobe IDs, siga estas etapas:
 
 Cada usuário deve vincular a conta da solução do Analytics a partir da organização da Experience Cloud.
 
-1. Faça logon no [Adobe Experience Cloud](https://experience.adobe.com) com uma Adobe ID.
+1. Faça logon na [Adobe Experience Cloud](https://experience.adobe.com) com uma Adobe ID.
 
 1. No canto superior direito, selecione o nome da empresa do Analytics.
 
@@ -63,7 +63,7 @@ Cada usuário deve vincular a conta da solução do Analytics a partir da organi
 
    A Adobe ID agora está vinculada às suas credenciais de conta, empresa e logon do Analytics.
 
-Para obter mais informações, consulte [Organizações no Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR) no guia Componentes da interface central do Experience Cloud.
+Para obter mais informações, consulte [Organizações na Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR) no guia Componentes da interface central do Experience Cloud.
 
 ## Configurar serviços de push e o serviço de ID do SDK na interface do usuário do Mobile
 

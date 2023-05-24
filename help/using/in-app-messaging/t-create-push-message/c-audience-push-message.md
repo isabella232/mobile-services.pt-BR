@@ -104,7 +104,7 @@ Estes são alguns exemplos para ajudar você a entender como definir segmentos c
 
    * **[!UICONTROL Segmentos do Analytics]**
 
-      Selecione um segmento existente do Adobe Analytics na lista suspensa. Para obter mais informações, consulte o [Construtor de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=pt-BR) na documentação do Adobe Analytics.
+      Selecione um segmento existente do Adobe Analytics na lista suspensa. Para obter mais informações, consulte [Construtor de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=pt-BR) na documentação do Adobe Analytics.
 
    * **[!UICONTROL Segmentos personalizados]**
 

@@ -1,5 +1,5 @@
 ---
-description: Vincular aplicativos e sites é importante para manter a experiência do usuário. Saiba como os Links universais e de aplicativos funcionam e as diferenças entre eles.
+description: A vinculação entre aplicativos e sites é importante para manter a experiência do usuário. Saiba como os Links universais e de aplicativos funcionam e as diferenças entre eles.
 solution: Experience Cloud Services,Analytics
 title: Guia de links universais e links de aplicativos
 topic-fix: Metrics
@@ -12,7 +12,7 @@ ht-degree: 96%
 
 ---
 
-# Links universais vs. Links de aplicativo: Como funcionam? {#universal-links-and-app-links}
+# Links universais vs. links de aplicativos: como eles funcionam? {#universal-links-and-app-links}
 
 {#eol}
 

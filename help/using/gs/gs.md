@@ -113,7 +113,7 @@ Para obter mais informações sobre como criar mensagens no aplicativo, consulte
 
 Em *Otimizar*, você pode otimizar as conversões (subscrições, comércio, receita de anúncios e assim por diante) e melhorar a retenção do cliente. Otimizar a experiência do usuário em seu aplicativo pode ajudá-lo a personalizar seu conteúdo para aumentar o ROI e a conversão.
 
-Para obter mais informações sobre testes e Adobe Target, consulte o [Adobe Target](https://docs.adobe.com/content/help/pt-BR/experience-cloud/user-guides/home.translate.html) documentação.
+Para obter mais informações sobre testes e o Adobe Target, consulte [Adobe Target](https://docs.adobe.com/content/help/pt-BR/experience-cloud/user-guides/home.translate.html) documentação.
 
 ### Geolocalização
 
@@ -148,7 +148,7 @@ O SDK do Adobe Mobile oferece os seguintes recursos:
 * Integrado
 
    * Um único SDK para várias soluções (Analytics, Campaign e Audience Manager), o que reduz o tempo de implementação e o esforço dos desenvolvedores.
-   * Somente uma linha de código é necessária para coletar as medições de ciclo de vida do aplicativo de &quot;linha de base&quot;.
+   * Somente uma linha de código é necessária para coletar as métricas de ciclo de vida do aplicativo de &quot;linha de base&quot;.
    * Conforme desenvolve sua estratégia móvel, você pode ativar facilmente os recursos da Adobe Experience Cloud para adquirir, analisar e engajar os usuários.
 
 * Rápido e leve

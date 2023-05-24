@@ -22,7 +22,7 @@ As seguintes funções gerenciam permissões na interface do usuário do Mobile 
 
 ### Administrador do Analytics
 
-Um Administrador do Analytics gerencia grupos de usuários e atribui permissões, um deles é o Administrador do aplicativo móvel. O Experience Cloud Admin vincula sua Adobe ID à sua conta da Adobe Analytics, o que permite fazer logon na interface do usuário do Mobile Services usando sua Adobe ID. Para obter mais informações sobre o Administrador do Experience Cloud, consulte [Gerenciar usuários e produtos do Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=pt-BR) no guia Componentes da interface central do Experience Cloud.
+Um administrador do Analytics gerencia grupos de usuários e atribui permissões, sendo que um deles é o administrador do aplicativo móvel. O administrador do Experience Cloud vincula o Adobe ID à sua conta Adobe Analytics, o que permite fazer logon na interface do usuário do Mobile Services usando sua Adobe ID. Para obter mais informações sobre o Administrador de Experience Cloud, consulte [Gerenciar usuários e produtos do Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=pt-BR) no guia Componentes da interface central do Experience Cloud.
 
 >[!TIP]
 >
@@ -42,7 +42,7 @@ Estas são algumas informações adicionais sobre como acessar opções na inter
 
 ### Aplicativos e conjuntos de relatórios
 
-Todos os aplicativos do Mobile Service são vinculados aos conjuntos de relatórios. Se os usuários não tiverem acesso a um conjunto de relatórios, eles não terão acesso ao aplicativo associado desse conjunto de relatórios.
+Todos os aplicativos do Mobile Services estão vinculados aos conjuntos de relatórios. Se os usuários não tiverem acesso a um conjunto de relatórios, eles não terão acesso ao aplicativo associado desse conjunto de relatórios.
 
 ### Recursos do Mobile Services e do Analytics
 
@@ -55,7 +55,7 @@ Estas são as funções na interface do usuário do Mobile Services, com suas pe
 ### Administrador do Analytics permissões
 
 * Todas as permissões de usuário e administrador de aplicativos móveis
-* Criar aplicativo com o novo conjunto de relatórios
+* Criar aplicativo com um novo conjunto de relatórios
 * Excluir aplicativo do Mobile Services
 
    >[!IMPORTANT]
@@ -64,38 +64,38 @@ Estas são as funções na interface do usuário do Mobile Services, com suas pe
 
 * Gerenciar configurações do aplicativo
 
-   * Ativar relatórios de ciclo de vida
+   * Habilitar Relatórios de Ciclo de Vida
    * Ativar relatório de localização
-   * Criar/atualizar/excluir variáveis e métricas
+   * Criar/Atualizar/Excluir variáveis e métricas
 
 ### Administrador de aplicativos para dispositivos móveis permissões
 
 * Todas as permissões do usuário
-* Criar aplicativo com o conjunto de relatórios existente
+* Criar aplicativo com conjunto de relatórios existente
 * Gerenciar configurações do aplicativo
 
    * Configurar as opções do SDK móvel do aplicativo
    * Definir as configurações da interface do usuário do aplicativo
    * Configurar aplicativos vinculados do App Store
-   * Configurar as opções do Link universal do aplicativo
-   * Configurar os certificados dos serviços de push e as chaves de API
-   * Criar/atualizar/ativar/desativar/duplicar/arquivar/excluir postbacks
-   * Criar/atualizar/arquivar/excluir destinos de links
+   * Configurar as opções de Link universal do aplicativo
+   * Configurar certificados e chaves de API dos serviços de push
+   * Criar/Atualizar/Ativar/Desativar/Duplicar/Arquivar/Excluir postbacks
+   * Criar/Atualizar/Arquivar/Excluir destinos de links
 
-* Criar/atualizar/arquivar links de marketing
-* Criar/importar/atualizar/excluir links de aquisição herdada
-* Criar/importar/atualizar/excluir configurações de locais (Pontos de interesse)
-* Criar/atualizar/enviar/agendar/cancelar/duplicar/arquivar/excluir mensagens de push
-* Criar/atualizar/ativar/desativar/duplicar/arquivar/excluir mensagens no aplicativo
+* Criar/Atualizar/Arquivar links de marketing
+* Criar/Importar/Atualizar/Excluir links de aquisição herdada
+* Criar/Importar/Atualizar/Excluir configuração de Locais (Pontos de interesse)
+* Criar/Atualizar/Enviar/Programar/Cancelar/Duplicar/Arquivar/Excluir mensagens por push
+* Criar/Atualizar/Ativar/Desativar/Duplicar/Arquivar/Excluir mensagens no aplicativo
 
 Para obter mais informações sobre grupos e usuários, consulte o seguinte conteúdo na documentação do Adobe Analytics:
 
-* [Configurações de grupo de usuários (herdado)](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=pt-BR)
-* [Adicionar usuário a um grupo](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)
+* [Configurações do grupo de usuários (herdado)](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=pt-BR)
+* [Adicionar usuário a um grupo](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=pt-BR)
 
 ### Usuário do Mobile Services
 
-Essa função tem permissões somente visualização e pode fornecer feedback na interface do usuário do Mobile Services.
+Esta função tem permissões somente para visualização e pode fornecer feedback na interface do usuário do Mobile Services.
 
 * Fornecer feedback sobre a interface do usuário do Mobile Services
 * Exibir aplicativos
@@ -106,15 +106,15 @@ Essa função tem permissões somente visualização e pode fornecer feedback na
 
 * Exibir configurações do aplicativo
 
-   * Baixar a configuração do SDK do aplicativo
-   * Exibir todas as configurações da interface do usuário e do SDK
-   * Exibir a configuração de variáveis e métricas
+   * Baixar configuração do SDK do aplicativo
+   * Exibir todas as configurações de interface do usuário e SDK
+   * Exibir configuração de variáveis e métricas
    * Exibir postbacks
-   * Exibir destinos de links
+   * Exibir destinos do link
 
 * Exibir e executar relatórios
 * Exibir links de marketing
-* Exibir e exportar links de aquisição herdada
-* Exibir e exportar a configuração de locais (pontos de interesse)
+* Visualizar e exportar links de aquisição herdada
+* Visualizar e exportar a configuração de Locais (Pontos de interesse)
 * Exibir mensagens de push
 * Exibir mensagens no aplicativo

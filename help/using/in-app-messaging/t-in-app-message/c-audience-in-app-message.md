@@ -82,7 +82,7 @@ Uma métrica é um número, e um exemplo é o número de compras.
 
 ### Variáveis
 
-Uma variável é uma cadeia de caracteres de texto que é um identificador exclusivo, como país e aeroporto, por exemplo.
+Uma variável é uma string de texto que é um identificador exclusivo, como país e aeroporto, por exemplo.
 
 1. Clique em **[!UICONTROL Gerenciar mensagens]** > **[!UICONTROL Criar mensagem]**.
 1. Complete as etapas na seção **[!UICONTROL Acionador]** da guia **[!UICONTROL Público-alvo:]**

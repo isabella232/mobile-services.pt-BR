@@ -24,7 +24,7 @@ O procedimento dos aplicativos que usam VRSs é igual ao dos aplicativos que usa
 * Sinalizadores de Dimension (ciclo de vida, local e assim por diante)
 * Classificações
 
-Esses valores são gerenciados no conjunto de relatórios principal e são compartilhados com os VRSs que pertencem ao mesmo conjunto de relatórios principal.
+Esses valores são gerenciados no conjunto de relatórios principal e compartilhados com os VRSs que pertencem ao mesmo conjunto de relatórios principal.
 
 As seguintes áreas podem ser acessadas na interface do usuário do Adobe Mobile Services, independentemente do conjunto de relatórios principal:
 
@@ -39,7 +39,7 @@ Um VRS pode ajudar a concluir as seguintes tarefas:
 
 * Restringir o acesso aos dados
 
-   Uma empresa multinacional tem um aplicativo que envia dados para um conjunto de relatórios de todas as localizações geográficas. Entretanto, a empresa quer proibir que o usuário corporativo de uma região visualize os dados de outra região. O administrador da empresa pode criar um VRS para segmentar os usuários por região e conceder permissão ao VRS somente para o usuário empresarial que gerencia a região.
+   Uma empresa multinacional tem um aplicativo que envia dados a um conjunto de relatórios para todas as localizações geográficas. Entretanto, a empresa quer proibir que o usuário corporativo de uma região visualize os dados de outra região. O administrador da empresa pode criar um VRS para segmentar os usuários por região e conceder permissão ao VRS somente para o usuário empresarial que gerencia a região.
 
    Essa restrição impede que os usuários corporativos vejam dados que não estão relacionados à sua região. Por exemplo, um usuário corporativo na EMEA não precisa ver os dados da região APAC.
 
@@ -57,13 +57,13 @@ Um VRS pode ajudar a concluir as seguintes tarefas:
 
 Cada VRS possui um identificador exclusivo. Para exibir a ID do conjunto de relatórios principal na interface do usuário do Adobe Mobile Services, acesse a página Gerenciar configurações do aplicativo, seção **[!UICONTROL Informações do aplicativo]**, e clique em **[!UICONTROL Mais detalhes]**.
 
-Na interface do usuário do Adobe Mobile Services, você pode usar um VRS para criar um aplicativo e segmentar dados para um grupo específico na organização. Dessa forma, por exemplo, um usuário corporativo na Espanha não pode ver os dados relevantes para um usuário corporativo no Japão.
+Na interface do Adobe Mobile Services, você pode usar um VRS para criar um aplicativo e segmentar dados para um grupo específico em sua organização. Dessa forma, por exemplo, um usuário empresarial na Espanha não pode ver os dados relevantes para um usuário empresarial no Japão.
 
 >[!TIP]
 >
 >Não é possível modificar os valores herdados do conjunto de relatórios principal.
 
-Um VRS é uma definição de segmento do lado do servidor que é anexada a um conjunto de relatórios principal. Como resultado, não é possível executar a coleta de dados para um VRS, pois o SDK envia ocorrências somente para o conjunto de relatórios principal, que, por sua vez, registra as ocorrências.
+Um VRS é uma definição de segmento do lado do servidor anexada a um conjunto de relatórios principal. Como resultado, não é possível executar a coleta de dados em um VRS, pois o SDK envia ocorrências somente para o conjunto de relatórios principal, que, por sua vez, registra as ocorrências.
 
 ## Conjunto de relatórios virtual no Adobe Mobile Services e coleta de dados {#section_8ED8FBA5B44044D9ABC2151A39C577D4}
 
@@ -112,7 +112,7 @@ Estas são as propriedades de VRSs:
 | `analytics.lifecycleTimeout` | Não | Sim | Deve ser o conjunto de relatórios principal, se os usuários não quiserem que seus dados sejam inconsistentes. |
 | `analytics.privacyDefault` | Não | Sim |  |
 | `analytics.batchLimit` | Não | Sim |  |
-| `analytics.timezone` | Sim | Sim, quando você cria o aplicativo pela primeira vez. | Essa propriedade de fuso horário é usada para enviar dados para o Adobe Analytics e é diferente da propriedade de fuso horário que é definida quando um VRS é criado. |
+| `analytics.timezone` | Sim | Sim, ao criar o aplicativo pela primeira vez. | Essa propriedade de fuso horário é usada para enviar dados ao Adobe Analytics e é diferente da propriedade de fuso horário definida quando um VRS é criado. |
 | `analytics.timezoneOffset` | Sim | Não |  |
 | `analytics.referrerTimeout` | Não | Sim |  |
 | `analytics.backdateSessionInfo` | Sim | Sim |  |

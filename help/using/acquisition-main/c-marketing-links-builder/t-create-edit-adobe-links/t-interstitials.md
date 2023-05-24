@@ -31,7 +31,7 @@ Para configurar um intersticial ao   criar um Link de marketing:
 
       Selecione sua página HTML intersticial personalizada.
 
-      Ao usar intersticiais personalizados, os profissionais de marketing podem personalizar páginas de aterrissagem intersticiais com HTML/CSS/JS personalizados, o que permite que você atribua uma marca às suas páginas.
+      Ao usar intersticiais personalizados, os profissionais de marketing podem personalizar páginas de destino intersticiais com HTML/CSS/JS personalizados, o que permite que você atribua uma marca às suas páginas.
 
       Estes são os requisitos para a página HTML:
 

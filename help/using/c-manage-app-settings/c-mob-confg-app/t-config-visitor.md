@@ -22,8 +22,8 @@ Ao criar um novo aplicativo ou editar um aplicativo existente, é possível conf
 1. Digite as informações nos seguintes campos sob **[!UICONTROL Serviços de ID de visitante]**:
 
    * **[!UICONTROL Habilitar]**
-Habilite esta opção para usar o serviço de ID. Para obter mais informações, consulte o [Visão geral do serviço de ID do Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=pt-BR).
+Habilite esta opção para usar o serviço de ID. Para obter mais informações, consulte [Visão geral do serviço de ID do Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=pt-BR).
 
    * **[!UICONTROL Organização]**
 Selecione sua organização na lista suspensa.
-Uma organização da [!UICONTROL Experience Cloud] é a entidade que permite ao administrador configurar grupos e usuários, além de controlar o logon único na [!UICONTROL Experience Cloud]. A organização funciona como uma empresa para logon que abrange os produtos e as soluções da Experience Cloud. Normalmente, a organização é o nome da sua empresa, mas uma empresa pode ter muitas organizações. Para obter mais informações, consulte [Organizações no Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR) no guia Componentes da interface central do Experience Cloud.
+Uma organização da [!UICONTROL Experience Cloud] é a entidade que permite ao administrador configurar grupos e usuários, além de controlar o logon único na [!UICONTROL Experience Cloud]. A organização funciona como uma empresa para logon que abrange os produtos e as soluções da Experience Cloud. Normalmente, a organização é o nome da sua empresa, mas uma empresa pode ter muitas organizações. Para obter mais informações, consulte [Organizações na Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR) no guia Componentes da interface central do Experience Cloud.

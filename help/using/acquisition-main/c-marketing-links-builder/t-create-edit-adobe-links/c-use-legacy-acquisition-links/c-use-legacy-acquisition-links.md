@@ -18,6 +18,6 @@ Estas informações ajudam a usar os links de aquisição herdada.
 
 >[!TIP]
 >
->Esse recurso exige a versão 4.1 ou posterior do SDK com a aquisição ativada. Para obter mais informações, consulte [Configuração da aquisição](/help/using/acquisition-main/t-enable-acquisition.md). Você também deve especificar quem tem os direitos de administrador do aplicativo móvel, pois esses direitos concedem acesso aos links de aquisição e às mensagens no aplicativo. Para obter mais informações, consulte [Funções e permissões](/help/using/gs/c-mob-roles-and-permissions.md).
+>Este recurso exige a versão 4.1 ou posterior do SDK com a aquisição habilitada. Para obter mais informações, consulte [Configuração de aquisição](/help/using/acquisition-main/t-enable-acquisition.md). Você também deve especificar quem tem os direitos de administrador do aplicativo móvel, pois esses direitos concedem acesso aos links de aquisição e às mensagens no aplicativo. Para obter mais informações, consulte [Funções e permissões](/help/using/gs/c-mob-roles-and-permissions.md).
 
 Com o criador de Aquisição herdada, é possível criar links da loja de aplicativos que permitem que o usuário baixe aplicativos diretamente da App Store da Apple e do Google Play. Esses links permitem atribuir seus eventos de sucesso aos downloads.

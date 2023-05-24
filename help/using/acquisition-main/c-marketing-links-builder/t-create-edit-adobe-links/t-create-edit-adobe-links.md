@@ -9,7 +9,7 @@ exl-id: a9b5c98d-77c1-4a40-96e5-f9e234d55ec5
 source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 96%
       As tags predefinidas a seguir estão disponíveis:
 
       * **Dados de contexto personalizados**
-Especifique a chave e o valor. Se você adicionar dados de contexto personalizados, é necessário criar uma regra de processamento. Para obter mais informações, consulte [Visão geral das regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) na documentação do Adobe Analytics.
+Especifique a chave e o valor. Se você adicionar dados de contexto personalizados, é necessário criar uma regra de processamento. Para obter mais informações, consulte [Visão geral das regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=pt-BR) na documentação do Adobe Analytics.
 
       * **Fonte**
 Especifique o referenciador original, por exemplo, “boletim informativo” ou “página inicial”.
@@ -67,7 +67,7 @@ Especifique os termos de pagamento ou outros termos de pesquisa para o anúncio.
 
 1. Clique em **[!UICONTROL Editar link profundo intersticial]** e configure o link.
 
-   (**Opcional**) Quando existem vários destinos, os usuários que têm ou não aplicativo móvel instalado podem ser encaminhados conforme o caso. Se o aplicativo estiver instalado, uma landing page intersticial será exibida.
+   (**Opcional**) Quando existem vários destinos, os usuários que têm ou não aplicativo móvel instalado podem ser encaminhados conforme o caso. Se o aplicativo estiver instalado, uma página de destino intersticial será exibida.
 
    Para obter mais informações, consulte [Intersticial](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md).
 
